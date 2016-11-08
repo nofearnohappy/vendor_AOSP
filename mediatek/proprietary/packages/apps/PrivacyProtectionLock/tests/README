@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+Auto test apk for privacy protection lock app
+
+HOW IT WAS BUILT?
+==================
+Build together with PrivacyProtectionLock apk
+
+HOW TO USE IT?
+==============
+Run this test apk by android instrument command

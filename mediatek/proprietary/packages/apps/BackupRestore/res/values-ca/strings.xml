@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Còpia de seguretat i restauració</string>
+    <string name="backup">Còpia de seguretat</string>
+    <string name="restore">Restaura</string>
+    <string name="backuptosd">Fer còpia de seguretat en targeta SD</string>
+    <string name="selectall">"Selecciona-ho tot"</string>
+    <string name="unselectall">"Anul·la la selecció de tot"</string>
+    <string name="contact_module">"Contacte"</string>
+    <string name="message_module">"Missatgeria"</string>
+    <string name="picture_module">"Imatge"</string>
+    <string name="calendar_module">"Calendari"</string>
+    <string name="calllog_module">"Registre de trucades"</string>
+    <string name="app_module">"Aplicació"</string>
+    <string name="music_module">"Música"</string>
+    <string name="notebook_module">Quadern</string>
+    <string name="bookmark_module">"Adreça d\'interès"</string>
+    <string name="backuping">Fent còpia de seguretat</string>
+    <string name="restoring">Restaurant</string>
+    <string name="warning">Advertència</string>
+    <string name="cancel_backup_confirm">Voleu cancel·lar la còpia de seguretat?</string>
+    <string name="cancelling">S’està cancel·lant</string>
+    <string name="btn_ok">"D\'acord"</string>
+    <string name="bt_yes">"Sí"</string>
+    <string name="bt_no">"No"</string>
+    <string name="menu_delete">"Suprimeix"</string>
+    <string name="unknown">"Desconegut"</string>
+    <string name="backup_data">Còpia de seguretat de dades</string>
+    <string name="less_1K">"Menys d'1K"</string>
+    <string name="notice">Avís</string>
+    <string name="nosdcard_notice">Inseriu la targeta SD"</string>
+    <string name="restore_confirm_notice">Segur que voleu restaurar les dades?</string>
+    <string name="contitue">"Continua"</string>
+    <string name="sdcard_removed">Targeta SD llevada"</string>
+    <string name="sdcard_is_full">La targeta SD no té espai"</string>
+    <string name="backup_result">Resultat de la còpia de seguretat</string>
+    <string name="restore_result">Resultat de la restauració</string>
+    <string name="result_success">"Correcte"</string>
+    <string name="result_fail">errada</string>
+    <string name="result_no_content">sense contingut</string>
+    <string name="error">"Error"</string>
+    <string name="sdcard_swap_remove">"No s'ha detectat cap targeta SD"</string>
+    <string name="sdcard_swap_insert">Targeta SD detectada</string>
+    <string name="backup_personal_data">"Dades personals"</string>
+    <string name="backup_app">"Aplicació"</string>
+    <string name="backup_personal_data_history">Historial de còpies de seguretat de dades personals</string>
+    <string name="backup_app_data_history">"Còpia de seguretat d'aplicacions"</string>
+    <string name="backup_app_data_preference_title">Aplicacions</string>
+    <string name="contact_all">"Totes"</string>
+	<string name="contact_phone" product="tablet">"Tauleta"</string>
+    <string name="contact_phone" product="default">"Telèfon"</string>
+    <string name="selected">seleccionats</string>
+    <string name="delete_please_wait">Esborrant, espereu"</string>
+    <string name="loading_please_wait">"Espereu mentre s'actualitza..."</string>
+    <string name="edit_folder_name">Edita el nom de la carpeta</string>
+    <string name="file_no_exist_and_update">"El fitxer s'ha esborrat, recarregant."</string>
+    <string name="no_item_selected">Cap element seleccionat</string>
+    <string name="updating">actualitzant...</string>
+    <string name="create_folder_fail">errada en crear la carpeta</string>
+    <string name="detect_new_data_title">Noves dades detectades</string>
+    <string name="detect_new_data_text" product="tablet">Selecciona-ho per restaurar les dades a la tauleta.</string>
+    <string name="detect_new_data_text" product="default">Seleccioneu per restaurar les dades al telèfon</string>
+    <string name="notification_backup_title">Fent còpia de seguretat</string>
+    <string name="notification_restore_title">Restaurant</string>
+    <string name="restored_flag">Restaurat</string>
+    <string name="message_sms">"Missatge de text"</string>
+    <string name="message_mms">"Missatge multimèdia"</string>
+    <string name="activity_loading">"S\'està carregant…"</string>
+    <string name="sdcard_busy_message">"La targeta SD està ocupada."</string>
+    <string name="backup_running_toast">No es poden restaurar les dades mentre es fa una còpia de seguretat.</string>
+    <string name="air_mode_dialog_title">SIM desconnectada</string>
+    <string name="air_mode_dialog_message">Per fer una còpia dels contactes de les targetes SIM, abans cal desactivar el mode de vol.</string>
+    <string name="sim_locked_dialog_title">Bloqueig de targeta SIM</string>
+    <string name="sim_locked_dialog_message">Per fer una còpia de seguretat dels contactes, has de desbloquejar la targeta SIM.</string>
+    <string name="sim_locked_dialog_unlock">"Desbloqueja"</string>
+    <string name="no_data">"Senyal de dades: no n\'hi ha"</string>
+    <string name="app_slot1">Ranura 1</string>
+    <string name="app_slot2">Ranura 2</string>
+    <string name="app_slot3">Ranura 3</string>
+    <string name="app_slot4">Ranura 4</string>
+    <string name="notification_backup_ok">"La còpia de seguretat s'ha realitzat correctament."</string>
+    <string name="notification_backup_failed">Errada en la còpia de seguretat.</string>
+    <string name="notification_restore_ok">"La restauració s'ha realitzat correctament."</string>
+    <string name="notification_restore_failed">Errada de restauració.</string>
+    <string name="backup_confirm_overwrite_notice">La carpeta ja existeix, voleu sobreescriure-la?</string>
+</resources>

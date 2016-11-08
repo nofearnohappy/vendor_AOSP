@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ֆայլի կառավարիչ</string>
+    <string name="sort_by">"Դասավորել ըստ"</string>
+    <string name="copy">"Պատճենել"</string>
+    <string name="create_folder">"Ստեղծել թղթապանակ"</string>
+    <string name="cut">"Կտրել"</string>
+    <string name="delete">"Ջնջել"</string>
+    <string name="details">"Մանրամասներ"</string>
+    <string name="paste">"Տեղադրել"</string>
+    <string name="rename">"Վերանվանել"</string>
+    <string name="new_folder">Նոր պանակ</string>
+    <string name="confirm_rename">Հաստատել վերանվանումը</string>
+    <string name="pasting">Կպցնում</string>
+    <string name="loading">Բեռնվում է\u2026</string>
+    <string name="deleting">Ջնջում</string>
+    <string name="alert_delete_multiple">Այս միավորները կջնջվեն:</string>
+    <string name="alert_delete_single">Այս միավորը կջնջվի:</string>
+    <string-array name="sort_by">
+        <item>"Տեսակը"</item>
+        <item>Անուն (A - Z)</item>
+        <item>Չափ (մեծ - փոքր)</item>
+        <item>Ժամանակ (նոր - հին)</item>
+    </string-array>
+    <string name="name">Անուն</string>
+    <string name="size">"Չափ"</string>
+    <string name="modified_time">Փոփոխված</string>
+    <string name="readable">Ընթեռնելի</string>
+    <string name="executable">Կատարելի</string>
+    <string name="writable">Գրանցելի</string>
+    <string name="msg_rename_ext">Դուք փոխում եք ֆայլի ընդլայնումը, որը կարող է պատճառ դառնալ, որ ֆայլը չճանաչվի: Դուք վստա՞հ եք, որ ցանկանում եք դա անել:</string>
+    <string name="wait">Խնդրում ենք սպասել\u2026</string>
+    <string name="done">"Կատարված է"</string>
+    <string name="cancel">"Չեղարկել"</string>
+    <string name="no">"Ոչ"</string>
+    <string name="ok">"Լավ"</string>
+    <string name="yes">"Այո"</string>
+    <string name="deselect_all">"Ապանշել բոլորը"</string>
+    <string name="select_all">Ընտրել բոլորը</string>
+    <string name="share">"Համօգտագործել"</string>
+    <string name="sort">Տեսակավորել</string>
+    <string name="more">"Ավելին"</string>
+    <string name="search">"Որոնել"</string>
+    <string name="show_file">Ցուցադրել թաքնված ֆայլերը</string>
+    <string name="hide_file">Թաքցնել թաքնված ֆայլերը</string>
+    <string name="selected">Ընտրված է</string>
+    <string name="send_file">Ուղարկել ֆայլը</string>
+    <string name="empty_msg">(Դատարկ պանակ)</string>
+    <string name="default_search_text">Որոնել ֆայլերը</string>
+    <string name="free_space">"Հասանելի է"</string>
+    <string name="total_space">"Ընդհանուր տարածքը"</string>
+    <string name="search_files">Որոնել ֆայլերը</string>
+    <string name="copy_deny">Պատճենման թույլտվություն չկա:</string>
+    <string name="cut_deny">Կտրելու թույլտվություն չկա:</string>
+    <string name="delete_deny">Ջնջելու թույլտվություն չկա:</string>
+    <string name="insufficient_memory">Անբավարար տարածք:</string>
+    <string name="invalid_empty_name">Ֆայլի կամ պանակի անունը չի կարող լինել դատարկ:</string>
+    <string name="paste_same_folder">Հնարավոր չէ կպցնել նույն գրացուցակին:</string>
+    <string name="invalid_char_prompt">Դուք ունեք ներածման անվավեր գրանշան(ներ):</string>
+    <string name="msg_unable_open_file">Ֆայլի ձևաչափը չի աջակցվում</string>
+    <string name="search_text_empty">Որոնման բովանդակությունները չպետք է լինեն դատարկ:</string>
+    <string name="paste_sub_folder">Հնարավոր չէ կպցնել ենթապանակին:</string>
+    <string name="operation_fail">Որոշ ֆայլերի գործողությունը ձախողվեց:</string>
+    <string name="search_result">%2$d արդյունք(ներ) \"%1$s\" համար</string>
+    <string name="already_exists">%1$s-ն արդեն օգտագործման մեջ է:</string>
+    <string name="path_not_exists">%1$s-ը առկա չէ:</string>
+    <string name="unmounted">%1$s-ը անջատված է:</string>
+    <string name="create_hidden_file">"Ֆայլը կթաքցվի, եթե դրա անունը սկսվի '.'."</string>
+    <string name="modify_hidden_file">"Ֆայլը չի թաքցվի, եթե դրա անունը չի սկսվում '.'."</string>
+    <string name="file_name_too_long">Ներածման անունը շատ երկար է:</string>
+    <string name="paste_fail">Կպցնելը ձախողվեց:</string>
+    <string name="delete_fail">Ջնջումը ձախողվեց:</string>
+    <string name="some_paste_fail">Որոշ կպցնելու գործողությունները ձախողվեցին:</string>
+    <string name="some_delete_fail">Որոշ ջնջելու գործողություններ ձախողվեցին:</string>
+    <string name="search_empty">Որոնման բովանդակությունը չպետք է լինի դատարկ:</string>
+    <string name="search_setting_description">Տեղային ֆայլեր և պանակներ</string>
+    <string name="change_mode">Ընտրել ֆայլը կամ պանակը</string>
+    <string name="folder_beam_forbidden_title">Անհնար է հեռարձակել պանակը</string>
+    <string name="folder_beam_forbidden_message">Պանակի հեռարձակումը չի աջակցվում: Խնդրում ենք ընտրել բազմաթիվ ֆայլեր beam համար:</string>
+    <string name="drm_beam_forbidden_title">Հեռարձակումն արգելված է</string>
+    <string name="drm_beam_forbidden_message">DRM(Թվային իրավունքների կառավարում) պաշտպանված ֆայլերը հնարավոր չէ հեռարձակել:</string>
+</resources>

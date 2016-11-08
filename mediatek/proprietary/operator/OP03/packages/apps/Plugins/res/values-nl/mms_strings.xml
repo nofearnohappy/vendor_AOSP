@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">Messaging is niet je standaard SMS-app</string>
+    <string name="banner_sms_promo_message1">Tik hier om deze te activeren.</string>
+    <string name="roaming_warning">Een verbinding maken met internet terwijl roaming aanstaat, kan je telefoonkosten aanzienlijk doen oplopen. Je operator stuurt je een melding als je dataverbruik in het buitenland bepaalde limieten bereikt. Weet je zeker dat je door wilt gaan?</string>
+    
+</resources>

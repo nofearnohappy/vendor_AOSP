@@ -1,0 +1,16 @@
+This module backup and restore user data and apk from phone to SD card. User data include contacts, messages, picture, music, calendar and bookmarks. 
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+This module backup and restore user data and apk from phone to SD card. User data include contacts, messages, picture, music, calendar and bookmarks. 
+
+HOW IT WAS BUILT?
+==================
+It is an APK uses Android SDK libs
+
+HOW TO USE IT?
+==============
+All the source code of this library were written by MediaTek co..

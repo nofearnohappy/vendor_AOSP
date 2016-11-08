@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="module_type">
+        <!-- contact -->
+        <item>0x1</item>
+        <!-- message -->
+        <item>0x40</item>
+        <!-- picture -->
+        <item>0x20</item>
+        <!-- calendar -->
+        <item>0x8</item>
+        <!-- music -->
+        <item>0x80</item>
+        <!-- notebook -->
+        <item>0x100</item>
+    </integer-array>
+    
+    <array name="apk_ending">
+        <item>.*/backup/App/[^/]*\.apk$</item>
+        <item>.*/backup/App/[^/]*\.tar$</item>
+    </array>
+    
+    <array name="data_ending">
+        <item>.*/backup/Data/[^/]*/Calendar/.*\.vcs$</item>
+        <item>.*/backup/Data/[^/]*/Contact/contact.vcf$</item>
+        <item>.*/backup/Data/[^/]*/Mms/.*\.pdu$</item>
+        <item>.*/backup/Data/[^/]*/Music/music.zip$</item>
+        <item>.*/backup/Data/[^/]*/Notebook/notebook.xml$</item>
+        <item>.*/backup/Data/[^/]*/Picture/picture.zip$</item>
+        <item>.*/backup/Data/[^/]*/Sms/sms.vmsg$</item>
+    </array>
+    
+    <array name="old_data_ending">
+         <item>.*/.backup/[^/]*\.zip$</item>
+    </array>
+    
+    <array name="storage_title">
+        <item>@string/phone_path</item>
+        <item>@string/sdcard_path</item>
+        <item>@string/customize_path</item>
+    </array>
+    
+        <array name="storage_list">
+        <item>pref_key_phone_storage</item>
+        <item>pref_key_sdcard_storage</item>
+        <item>pref_key_customize</item>
+    </array>
+    
+     <string-array name="change_phone_info">
+         <item>● 將本機連接至電腦並打開手機文件目錄</item>
+         <item>● 將phone路徑下的backup文件拷貝至電腦；</item>
+         <item>● 將新手機連接至電腦並打開新手機文件目錄；</item>
+         <item>● 將backup文件拷貝至新手機任意目錄；</item>
+         <item>● 打開新手機的備份恢復應用,在恢復功能中選擇搜索到的備份文件進行恢復.</item>
+     </string-array>  
+     
+     <string-array name="sdcard_unmount_backup">
+         <item>通過SD卡換機:</item>
+         <item>● 將SD卡插入本機;</item>
+         <item>● 進行備份;</item>
+         <item>● 取出SD卡，將其插入新機中</item>
+         <item>● 打開新機的備份恢復應用,在恢復功能中選擇搜索到的備份文件進行恢復.</item>
+         <item>通過電腦換機:</item>
+         <item>● 進行備份,並查看備份路徑;</item>
+         <item>● 將本機連接至電腦並打開手機文件目錄；</item>
+         <item>● 將備份路徑下的備份文件拷貝至電腦；</item>
+         <item>● 將新手機連接至電腦並打開新手機文件目錄；</item>
+         <item>● 將備份文件拷貝至新手機任意目錄；</item>
+         <item>● 打開新機的備份恢復應用，在恢復功能中選擇搜索到的備份文件進行恢復.</item>
+     </string-array>
+     
+     <string-array name="change_phone_info_dialog">
+         <item>@string/no_more_notice</item>
+     </string-array>
+     
+     
+     <string-array name="no_sdcard_restore_info">
+         <item>● 將舊機連接至電腦並打開手機文件目錄；</item>
+         <item>● 按照舊機提示的所需恢復文件的路徑，將phone,sdcard路徑下的backup文件拷貝至電腦；</item>
+         <item>● 將本機連接至電腦並打開本機文件目錄；</item>
+         <item>● 將backup文件拷貝至本機任意目錄</item>
+         <item>● 打開本機的備份恢復應用,在恢復功能中選擇搜索到的備份文件進行恢復.</item>
+     </string-array>
+     
+     
+     <string-array name="sdcard_unmount_restore_info">
+         <item>通過SD卡換機:</item>
+         <item>● 將SD卡插入舊機（若舊機中已有SD卡則略過步驟1）;</item>
+         <item>● 打開舊機的備份恢復應用，進行備份；</item>
+         <item>● 取出SD卡，將其插入本機中；</item>
+         <item>● 打開本機的備份恢復應用，在恢復功能中選擇搜索到的備份文件進行恢復。</item>
+         <item>通過電腦換機:</item>
+         <item>● 將舊機連接至電腦並打開手機文件目錄；</item>
+         <item>● 按照舊機提示的所需恢復文件的路徑，將phone,sdcard路徑下的backup文件拷貝至電腦；</item>
+         <item>● 將本機連接至電腦並打開本機文件目錄；</item>
+         <item>● 將XXX文件拷貝至本機任意目錄；</item>
+         <item>● 打開本機的備份恢復應用，在恢復功能中選擇搜索到的備份文件進行恢復。</item>
+     </string-array>
+</resources>

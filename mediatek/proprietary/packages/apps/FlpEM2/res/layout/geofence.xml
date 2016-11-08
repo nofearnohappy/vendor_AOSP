@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left">
+
+    <TextView android:text="@string/common_info" style="@style/title" />
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/supports_geofence" style="@style/info_label" />
+     <TextView android:id="@+id/supports_geofence" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/supports_geofence_system" style="@style/info_label" />
+     <TextView android:id="@+id/supports_geofence_system" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/quick_configure" style="@style/title" />
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/geofence_load" android:text="@string/load" style="@style/base"/>
+  <Button android:id="@+id/geofence_save" android:text="@string/save" style="@style/base"/>
+ </LinearLayout>
+
+ <TextView android:id="@+id/geofence_config_info" style="@style/debug_info" />
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/geofence_info" style="@style/title" />
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/geofence_id" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_id" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/latitude" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_latitude" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/longitude" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_longitude" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/radius" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_radius" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/last_transition" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_last_transition" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/unknown_timer" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_unkonwn_timer" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/monitor_transitions" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_monitor_transitions" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/notifiction_responsiveness" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_notifiction_responsiveness" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/source" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_source" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/geofence_id_select" android:text="@string/geofence_id_select" style="@style/base"/>
+  <Button android:id="@+id/geofence_edit" android:text="@string/edit" style="@style/base"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <ToggleButton android:id="@+id/geofence_start1" android:textOff="@string/geofence_off" android:textOn="@string/geofence_on" style="@style/base"/>
+  <ToggleButton android:id="@+id/geofence_start2" android:textOff="@string/geofence_pause" android:textOn="@string/geofence_resume" style="@style/base"/>
+ </LinearLayout>
+
+ <View style="@style/line"/>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/session_status" style="@style/info_label" />
+     <TextView android:id="@+id/geofence_session_status" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/geofence_stop_all_sessions" android:text="@string/stop_all_sessions" style="@style/base"/>
+  <Button android:id="@+id/geofence_clear_info" android:text="@string/clear_info" style="@style/base"/>
+ </LinearLayout>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/info" style="@style/title" />
+ <TextView android:id="@+id/geofence_info" style="@style/debug_info"/>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/geofene_transition" style="@style/title" />
+ <TextView android:id="@+id/geofence_count" style="@style/debug_info"/>
+ <TextView android:id="@+id/geofence_callback" style="@style/small_debug_info"/>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/geofene_hardware_monitor_callback" style="@style/title" />
+ <TextView android:id="@+id/geofence_hardware_monitor_count" style="@style/debug_info"/>
+ <TextView android:id="@+id/geofence_hardware_monitor_callback" style="@style/small_debug_info"/>
+
+</LinearLayout>
+</ScrollView>

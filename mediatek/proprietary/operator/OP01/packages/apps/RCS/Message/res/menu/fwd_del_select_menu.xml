@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/favorite_foward"
+          android:icon="@drawable/ic_menu_forward"
+          android:title="@string/favorite_foward"
+          android:showAsAction="always"/>
+
+    <item android:id="@+id/favorite_delete"
+          android:icon="@drawable/ic_menu_trash_holo_dark"
+          android:title="@string/favorite_delete"
+          android:showAsAction="always" />
+</menu>

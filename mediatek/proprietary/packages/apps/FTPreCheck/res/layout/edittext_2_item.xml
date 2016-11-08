@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dip"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:layout_marginTop="15dip" >
+
+    <EditText
+        android:id="@+id/value_right_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="3"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/desc_sep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@id/value_right_edit"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/category_title_foreground"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/value_left_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@id/desc_sep2"
+        android:layout_centerVertical="true"
+        android:ems="3"
+        android:gravity="center"
+        android:inputType="numberSigned"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/desc_pre_suf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="15dip"
+        android:layout_toLeftOf="@id/value_left_edit"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/category_title_foreground"
+        android:textSize="18sp" />
+
+</RelativeLayout>

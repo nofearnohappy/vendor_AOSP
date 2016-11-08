@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">אקוולייזר חכם/אקוולייזר גרפי</string>
+	<string name="tooltip_eq_text">האקוולייזר החכם מנתח את השמע ומתאים אותו באופן דינמי לצליל הרצוי. בחר אחד מתוך ארבעת המצבים שהוגדרו מראש, ואז לחץ על המדמה הספקטרלי כדי לבצע שינויים מותאמים-אישית באקוולייזר הגרפי.</string>
+	<string name="tooltip_sv_title">מדמה צליל היקפי</string>
+	<string name="tooltip_sv_text">מדמה הצליל ההיקפי מפיק צליל היקפי (סוראונד) מכל זוג אוזניות או רמקולים סטריאופוניים. העבר את המתג למצב מופעל או כבוי כדי לשלוט באפקט הצליל ההיקפי.</string>
+	<string name="tooltip_de_title">משפר הדיאלוגים</string>
+	<string name="tooltip_de_text">משפר הדיאלוגים הופך את הדיבור לצלול יותר בכל סוגי המדיה. העבר את המתג למצב מופעל או כבוי כדי לשלוט במשפר הדיאלוגים.</string>
+	<string name="tooltip_vl_title">מאזן עצמת השמע</string>
+	<string name="tooltip_vl_text">מאזן עצמת השמע מספק עצמת שמע עקבית לכל סוגי התוכן והיישומים, זאת בהתבסס על רמת עצמת השמע הראשית של המכשיר. העבר את המתג למצב מופעל או כבוי כדי לשלוט במאזן האוטומטי של עצמת השמע.</string>
+</resources>

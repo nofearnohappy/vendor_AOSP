@@ -1,0 +1,22 @@
+Multi-Core Observer
+
+WHAT IT DOES?
+=============
+It's an APK developed by MAGE engine.
+feature:
+1. To show the CPU cores loading (To prove 8-core is very useful in many scenario)
+2. To identify and certificate the handset with MTK chip and core type
+3. Quick debugging, profiling
+
+HOW IT WAS BUILT?
+==================
+Multi-Core Observer built by Android SDK and it is dependent on MAGE engine which needs
+1.  liba3m.so & libj3m.so (they are already in turnkey load)
+2.  ngin3d.jar The source of ngin3d is in
+    alps/vendor/mediatek/proprietary/frameworks/opt/ngin3d
+3.  liba3me.so HW Related
+    alps/vendor/mediatek/proprietary/protect-app/packages/apps/MultiCoreObserver/jni
+
+HOW TO USE IT?
+==============
+Build the Multi-Core Observer APK and install it, you can find the launched icon in app list.

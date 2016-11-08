@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <setting>
+        <label>local_port</label>
+        <category>Registration</category>
+        <default>5060</default>
+    </setting>
+    <setting>
+        <label>ipsec_local_port_start</label>
+        <category>Registration</category>
+        <default>50000</default>
+    </setting>
+    <setting>
+        <label>ipsec_local_port_range</label>
+        <category>Registration</category>
+        <default>50</default>
+    </setting>
+    <setting>
+        <label>rtp_rtcp_local_port_start</label>
+        <category>Call</category>
+        <default>40000</default>
+    </setting>
+    <setting>
+        <label>rtp_rtcp_local_port_range</label>
+        <category>Call</category>
+        <default>5000</default>
+    </setting>
+    <setting>
+        <label>rtcp_interval</label>
+        <category>Call</category>
+        <default>5000</default>
+    </setting>
+    <setting>
+        <label>register_expiry</label>
+        <category>Registration</category>
+        <default>600000</default>
+    </setting>
+    <setting>
+        <label>UA_reg_t1_timer</label>
+        <category>Registration</category>
+        <default>500</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_reg_t2_timer</label>
+        <category>Registration</category>
+        <default>4000</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_reg_t4_timer</label>
+        <category>Registration</category>
+        <default>5000</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_conf_subtimer</label>
+        <category>Call</category>
+        <default>3600</default>
+        <suffix>sec</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_session_timer</label>
+        <category>Call</category>
+        <default>60000</default>
+        <suffix>sec</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_amr_fmt_variant</label>
+        <category>Call</category>
+        <type>3</type>
+        <default>4112</default>
+        <options>
+            <option name="VOLTE_CALL_AMR_NB_FMT_VARIANT_OCTET" value="1" />
+            <option name="VOLTE_CALL_AMR_NB_FMT_VARIANT_EFFEC" value="16" />
+            <option name="VOLTE_CALL_AMR_WB_FMT_VARIANT_OCTET" value="256" />
+            <option name="VOLTE_CALL_AMR_WB_FMT_VARIANT_EFFEC" value="4096" />
+        </options>
+    </setting>
+    <setting>
+        <label>VoLTE_Setting_SIP_Force_Use_UDP</label>
+        <category>Registration</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>VoLTE_Setting_SIP_TCP_On_Demand</label>
+        <category>Registration</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>VoLTE_Setting_SIP_TCP_MTU_Size</label>
+        <category>Registration</category>
+        <default>1300</default>
+    </setting>
+    <setting>
+        <label>UA_call_session_min_se</label>
+        <category>Call</category>
+        <default>1800</default>
+        <suffix>sec</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_rej_code</label>
+        <category>Call</category>
+        <default>486</default>
+    </setting>
+    <setting>
+        <label>UA_call_no_resource_code</label>
+        <category>Call</category>
+        <default>480</default>
+    </setting>
+    <setting>
+        <label>UA_call_rej_media_code</label>
+        <category>Call</category>
+        <default>488</default>
+    </setting>
+    <setting>
+        <label>UA_call_rej_by_user_code</label>
+        <category>Call</category>
+        <default>486</default>
+    </setting>
+    <setting>
+        <label>operator_code</label>
+        <category>Common</category>
+        <type>2</type>
+        <default>0</default>
+        <options>
+            <option name="VoLTE_Operator_Default" value="0" />
+            <option name="VoLTE_Operator_CMCC" value="1" />
+            <option name="VoLTE_Operator_CU" value="2" />
+            <option name="VoLTE_Operator_Orange" value="3" />
+            <option name="VoLTE_Operator_TMOEU" value="5" />
+            <option name="VoLTE_Operator_VDF" value="6" />
+            <option name="VoLTE_Operator_ATT" value="7" />
+            <option name="VoLTE_Operator_TMOUS" value="8" />
+            <option name="VoLTE_Operator_CT" value="9" />
+            <option name="VoLTE_Operator_Tier2" value="10" />
+            <option name="VoLTE_Operator_H3G" value="11" />
+            <option name="VoLTE_Operator_Vzw" value="12" />
+            <option name="VoLTE_Operator_Telefonica" value="15" />
+            <option name="VoLTE_Operator_EE" value="16" />
+            <option name="VoLTE_Operator_Docomo" value="17" />
+            <option name="VoLTE_Operator_CSL" value="100" />
+            <option name="VoLTE_Operator_PCCW" value="101" />
+            <option name="VoLTE_Operator_SMT" value="102" />
+            <option name="VoLTE_Operator_SingTel" value="103" />
+            <option name="VoLTE_Operator_Starhub" value="104" />
+            <option name="VoLTE_Operator_AMX" value="105" />
+            <option name="VoLTE_Operator_3HK" value="106" />
+            <option name="VoLTE_Operator_8475" value="16384" />
+            <option name="VoLTE_Operator_Ericsson" value="16385" />
+            <option name="VoLTE_Operator_CMW500" value="16386" />
+            <option name="VoLTE_Operator_PCT" value="16387" />
+            <option name="VoLTE_Operator_NSN" value="20480" />
+        </options>
+    </setting>
+    <setting>
+        <label>sms_rspcode</label>
+        <category>SMS</category>
+        <default>200</default>
+    </setting>
+    <setting>
+        <label>UA_g711_ptime</label>
+        <category>Call</category>
+        <default>20</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_g726_ptime</label>
+        <category>Call</category>
+        <default>20</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_codec_order1</label>
+        <category>Call</category>
+        <default>2</default>
+    </setting>
+    <setting>
+        <label>UA_call_codec_order2</label>
+        <category>Call</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>UA_call_codec_order3</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>UA_call_def_max_ptime</label>
+        <category>Call</category>
+        <default>80</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_def_ptime</label>
+        <category>Call</category>
+        <default>20</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_amr_pt</label>
+        <category>Call</category>
+        <default>97</default>
+    </setting>
+    <setting>
+        <label>UA_call_amr_wb_pt</label>
+        <category>Call</category>
+        <default>98</default>
+    </setting>
+    <setting>
+        <label>UA_call_h264_pt</label>
+        <category>Call</category>
+        <default>99</default>
+    </setting>
+    <setting>
+        <label>UA_call_g729_annexb</label>
+        <category>Call</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>UA_call_g729_ptime</label>
+        <category>Call</category>
+        <default>20</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>UA_call_priority</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>UA_call_privacy</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>UA_call_session_flag</label>
+        <category>Call</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>UA_call_tel_evt</label>
+        <category>Call</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>UA_call_tel_evt_pt</label>
+        <category>Call</category>
+        <default>101</default>
+    </setting>
+    <setting>
+        <label>UA_call_precondition</label>
+        <category>Call</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>early_media</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>mwi_license</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>UA_reg_keep_alive</label>
+        <category>Registration</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>Authentication</label>
+        <category>Registration</category>
+        <type>2</type>
+        <default>1</default>
+        <options>
+            <option name="UA_net_ipsec" value="1"/>
+            <option name="UA_reg_http_digest" value="0"/>
+        </options>
+    </setting>
+    <setting>
+        <label>UA_reg_uri_with_port</label>
+        <category>Registration</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>UA_reg_ipsec_algo</label>
+        <category>Registration</category>
+        <type>3</type>
+        <default>3</default>
+        <options>
+            <option name="NULL+MD5" value="1" />
+            <option name="NULL+SHA1" value="2" />
+            <option name="3DES+MD5" value="4" />
+            <option name="3DES+SHA1" value="8" />
+            <option name="AES+MD5" value="16" />
+            <option name="AES+SHA1" value="32" />
+        </options>
+    </setting>
+    <setting>
+        <label>UA_reg_specific_ipsec_algo</label>
+        <category>Registration</category>
+        <type>3</type>
+        <default>3</default>
+        <options>
+            <option name="NULL+MD5" value="1" />
+            <option name="NULL+SHA1" value="2" />
+            <option name="3DES+MD5" value="4" />
+            <option name="3DES+SHA1" value="8" />
+            <option name="AES+MD5" value="16" />
+            <option name="AES+SHA1" value="32" />
+        </options>
+    </setting>
+    <setting>
+        <label>user_agent</label>
+        <category>Common</category>
+        <type>1</type>
+        <default>VoLTE UA</default>
+    </setting>
+    <setting>
+        <label>UA_call_amr_mode_set</label>
+        <category>Call</category>
+        <type>1</type>
+        <default>0,1,2,3,4,5,6,7</default>
+    </setting>
+    <setting>
+        <label>UA_call_amr_wb_mode_set</label>
+        <category>Call</category>
+        <type>1</type>
+        <default>0,1,2,3,4,5,6,7,8</default>
+    </setting>
+    <setting>
+        <label>UA_reg_auth_name</label>
+        <category>Registration</category>
+        <type>1</type>
+        <default>+18860000042@srnims3.srnnam.nsn-rdnet.net</default>
+    </setting>
+    <setting>
+        <label>UA_reg_auth_password</label>
+        <category>Registration</category>
+        <type>1</type>
+        <default>ims123456</default>
+    </setting>
+    <setting>
+        <label>UA_conf_factory_uri</label>
+        <category>Call</category>
+        <type>1</type>
+        <default></default>
+    </setting>
+    <setting>
+        <label>resource_retain_timer</label>
+        <category>Bearer</category>
+        <default>3000</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>emergency_pdn_retain_timer</label>
+        <category>Bearer</category>
+        <default>10000</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>auto_re_reg_timer</label>
+        <category>Registration</category>
+        <default>5000</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>poweroff_ims_dereg_timer</label>
+        <category>Registration</category>
+        <default>5</default>
+        <suffix>sec</suffix>
+    </setting>
+    <setting>
+        <label>emergency_reg_retain_timer</label>
+        <category>Registration</category>
+        <default>10000</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>set_pcscf_discovery_via_nas</label>
+        <category>Bearer</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>force_user_account_by_manual</label>
+        <category>Registration</category>
+        <type>2</type>
+        <default>0</default>
+        <options>
+            <option name="From SIM Card" value="0" />
+            <option name="Manual" value="1" />
+        </options>
+    </setting>
+    <setting>
+        <label>set_ue_im_cn_signaling_flag</label>
+        <category>Bearer</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>ims_signaling_qci</label>
+        <category>Bearer</category>
+        <default>5</default>
+    </setting>
+    <setting>
+        <label>ims_voice_qci</label>
+        <category>Bearer</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>ims_video_qci</label>
+        <category>Bearer</category>
+        <default>2</default>
+    </setting>
+    <setting>
+        <label>ims_v4v6_preference</label>
+        <category>Bearer</category>
+        <type>2</type>
+        <default>3</default>
+        <options>
+            <option name="v4_only" value="0" />
+            <option name="v6_only" value="1" />
+            <option name="v4_prefer" value="2" />
+            <option name="v6_prefer" value="3" />
+        </options>
+    </setting>
+    <setting>
+        <label>sms_support</label>
+        <category>Common</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>voice_support</label>
+        <category>Common</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>video_over_ps_support</label>
+        <category>Common</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>resource_allocation_mode</label>
+        <category>Bearer</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>default_psismsc</label>
+        <category>SMS</category>
+        <type>1</type>
+        <default>sip:smsc@ims.mnc001.mcc001.3gppnetwork.org</default>
+    </setting>
+    <setting>
+        <label>manual_impi</label>
+        <category>Registration</category>
+        <type>1</type>
+        <default>310886000000042@ims.mnc688.mcc310.3gppnetwork.org</default>
+    </setting>
+    <setting>
+        <label>manual_impu</label>
+        <category>Registration</category>
+        <type>1</type>
+        <default>sip:+18860000042@srnims3.srnnam.nsn-rdnet.net</default>
+    </setting>
+    <setting>
+        <label>manual_domain_name</label>
+        <category>Registration</category>
+        <type>1</type>
+        <default>srnims3.srnnam.nsn-rdnet.net</default>
+    </setting>
+    <setting>
+        <label>dtx_enable</label>
+        <category>Call</category>
+        <default>1</default>
+    </setting>
+    <setting>
+        <label>silence_dropcall_threshold</label>
+        <category>Call</category>
+        <default>30000</default>
+        <suffix>ms</suffix>
+    </setting>
+    <setting>
+        <label>jbm_load_params_enable</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>jbm_prebuf_len</label>
+        <category>Call</category>
+        <default>3</default>
+    </setting>
+    <setting>
+        <label>jbm_jitter_max_depth</label>
+        <category>Call</category>
+        <default>10</default>
+    </setting>
+    <setting>
+        <label>jbm_jitter_full_offset</label>
+        <category>Call</category>
+        <default>4</default>
+    </setting>
+    <setting>
+        <label>ltecsr_common_para0</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>ltecsr_common_para1</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>ltecsr_common_para2</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>ltecsr_common_para3</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>ltecsr_common_para4</label>
+        <category>Call</category>
+        <default>0</default>
+    </setting>
+    <setting>
+        <label>ims_roaming_mode</label>
+        <category>Registration</category>
+        <type>2</type>
+        <default>1</default>
+        <options>
+            <option name="Disable" value="0" />
+            <option name="Enable" value="1" />
+            <option name="Auto" value="2" />
+        </options>
+    </setting>
+    <setting>
+        <label>ipv6_zero_compression</label>
+        <category>Common</category>
+        <type>2</type>
+        <default>0</default>
+        <options>
+            <option name="Off" value="0" />
+            <option name="On" value="1" />
+        </options>
+    </setting>
+    <setting>
+        <label>mncmcc check</label>
+        <category>Common</category>
+        <type>2</type>
+        <default>0</default>
+        <options>
+            <option name="Off" value="0" />
+            <option name="On" value="1" />
+        </options>
+    </setting>
+    <setting>
+        <label>white list</label>
+        <category>Common</category>
+    </setting>
+    <setting>
+        <label>Setting Rule:&lt;digit of list num&gt;&lt;list num&gt;&lt;mnc_len&gt;&lt;MNC&gt;&lt;mcc_len&gt;&lt;MCC&gt;...</label>
+        <category>Common</category>
+        <type>0</type>
+    </setting>
+</settings>

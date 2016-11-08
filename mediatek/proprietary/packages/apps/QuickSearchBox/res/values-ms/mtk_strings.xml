@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="search_engine_settings">Enjin carian</string>  
+    <string name="pref_content_search_engine_consistency">Cari konsistensi enjin</string>  
+    <string name="pref_content_search_engine">Pilih enjin carian</string>  
+    <string name="pref_search_engine_unify_summary">Gunakan pertukaran enjin carian pada Browser</string> 
+    <string name="pref_search_engine_unify">Satukan enjin carian</string>  
+    <string name="search_suggestion_settings">Cadangan carian web</string>  
+    <string name="clear_history">Padam bersih sejarah</string>
+    <string name="clear_history_summary">Kosongkan semua sejarah carian</string>
+    <string name="clear_history_prompt">Semua sejarah carian akan dikosongkan.</string>
+    <string name="corpus_description_web_search_only">"Carian Web"</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/rcs_wait_cursor"/>
+    
+    <view
+      android:id="@+id/list"
+      class="com.mediatek.rcs.contacts.list.AutoScrollListView"
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:paddingLeft="16dip"
+      android:paddingRight="16dip"
+      android:paddingStart="16dip"
+      android:paddingEnd="16dip"
+      android:scrollbarStyle="outsideOverlay"
+      android:layout_weight="1"
+      android:fadingEdge="none"
+      android:cacheColorHint="@android:color/transparent"
+      android:divider="@null"/>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_marginTop="@dimen/empty_message_top_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?android:attr/textColorSecondary" />
+</LinearLayout>

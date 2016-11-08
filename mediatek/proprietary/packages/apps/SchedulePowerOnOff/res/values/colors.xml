@@ -1,0 +1,6 @@
+<resources>
+
+    <color name="ampm_off">#ffe0e0e0</color>
+    <color name="ampm_on">#ff404040</color>
+
+</resources>

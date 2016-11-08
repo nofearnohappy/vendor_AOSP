@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<operator>
+	<text>
+		<item>updatenow</item>
+		<item>hour1later</item>
+		<item>neverask</item>
+	</text>
+	<timing>
+		<item>0</item>
+        	<item>60</item>
+        	<item>131071</item>
+	</timing>
+</operator>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Etiquetas USIM para números adicionales</string>  
+    <string name="aas_phone_type_none">NINGUNO</string>  
+    <string name="aas_new_dialog_title">Agregar una nueva etiqueta</string>  
+    <string name="ass_rename_dialog_title">Modificar la etiqueta</string>  
+    <string name="aas_delele_dialog_message">La eliminación de la(s) etiqueta(s) afectará a todos los números adicionales vinculados a la(s) etiqueta(s). ¿Está seguro?</string>  
+    <string name="aas_name_invalid">El nombre de etiqueta no es válido. Escriba otro.</string>  
+    <string name="aas_name_exist">Esta etiqueta ya existe.</string>  
+    <string name="aas_usim_full">No hay espacio para nuevas etiquetas.</string>  
+    <string name="ass_edit_assert_message">La modificación de la etiqueta afectará a todos los números adicionales vinculados a la etiqueta. ¿Está seguro?</string>  
+    <string name="aas_new_fail">Error al crear nueva etiqueta.</string>  
+    <string name="aas_edit_fail">Error al cambiar el nombre de 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Error al eliminar 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_phone_primary">Número principal</string>  
+    <string name="aas_phone_additional">Número adicional</string>  
+    <!-- aas strings end-->
+
+    <string name="nickname_too_long">"Alias demasiado largo."</string> 
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">FM發射器</string>
+    <string name="dlg_seek_title">搜尋中</string>
+    <string name="dlg_search_text">正在搜尋可用頻道，請稍後…</string>
+    <string name="advanced_title">手動設定頻率</string>
+    <string name="text_input_frequency">輸入您要的頻率，例如 87.5-97.5 及 99.5-108</string>
+    <string name="text_ok">確定</string>
+    <string name="text_auto_search">自動搜尋可用頻道</string>
+    <string name="text_search">搜尋</string>
+    <string name="toast_plugout_earphone">請先拔出耳機。</string>
+    <string name="toast_input_error">最近一次輸入無效，有效值為0或5。</string>
+    <string name="toast_input_valid">頻率範圍為 87.5-97.5 或 99.5-108</string>
+</resources>

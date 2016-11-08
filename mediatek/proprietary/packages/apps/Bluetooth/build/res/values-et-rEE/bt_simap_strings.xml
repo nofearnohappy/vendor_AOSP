@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="simap_remote_request">"Kaugpalve SIM-i kasutamiseks"</string>
+	<string name="simap_acceptance_dialog_title">"%1$s soovib juurdepääsu teie SIM-ile. Kas lubada %2$s juureepääsu?"</string>
+	<string name="simap_acceptance_timeout_message">"%1$s ühenduse lubamise ajalõpp"</string>
+	<string name="simap_disconnected_message">"Ühendus %1$s-ga katkenud."</string>
+	<string name="simap_defaultname">"Autokomplekt"</string>
+	<string name="simap_request_notif_message">"Luba %1$s-le SIM-i kaugkasutust"</string>
+	<string name="simap_incoming_conn_confirm_cancel">Andmeedastuse kiirus langeb.</string>
+	<string name="simap_incoming_conn_confirm_ok">Aktsepteerin Auto-push teenuse või mitte?</string>
+	<string name="simap_connected_notify_ticker">"SIM-i kaugkasutus ühendatud"</string>
+	<string name="simap_connected_notify_title">"%1$s on ühendatud teie SIM-ga"</string>
+	<string name="simap_connected_notify_message">"Valige ühenduse katkestamiseks"</string>
+	<string name="simap_disconnect_title">"Katkesta SIM-i kaugühendus"</string>
+	<string name="simap_disconnect_message">"Katkesta ühendus %1$s-ga?"</string>
+	<string name="simap_disconnect_yes">"Jah"</string>
+	<string name="simap_disconnect_no">Kontakti printimiseks pole saadaval ühtki rakendust.</string>
+    <string name="bluetooth_simap_server_settings">SIM-i kaugkasutuse sätted</string>
+    <string name="bluetooth_simap_server_enable_title">SIM-i kaugkasutusrežiim</string>
+    <string name="bluetooth_simap_server_enable_summary">"Lülita sisse"</string>
+    <string name="bluetooth_simap_server_sim_index_title">Valige SIM</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim1">SIM1</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim2">SIM2</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim3">SIM3</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim4">SIM4</string>
+    <string-array name="bluetooth_simap_server_sim_index_entries">
+        <item>SIM1</item>
+        <item>SIM2</item>
+        <item>SIM3</item>
+        <item>SIM4</item>
+    </string-array>
+    <string-array name="bluetooth_simap_server_sim_index_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+WHAT IS DOES?
+==================
+It is plug-in interface and default implement for CMCC case about duration of
+capture quick review, items of scene mode, recording configuration.
+
+HOW IT WAS BUILT?
+==================
+mmm vendor/mediatek/proprietary/packages/apps/Camera/ext
+
+HOW TO USE IT?
+==================
+You can get an instance of ICameraFeatureExt interface by static method of
+getCameraFeatureExtension in ExtensionHelper class. The instance will be the
+object of DefaultCameraFeatureExt on not CMCC chip and will be plug-in
+application which implement the ICameraFeatureExt interface on CMCC chip.
+
+After get the instance of ICameraFeatureExt interface, you can invoke the API
+to do the thing you want.

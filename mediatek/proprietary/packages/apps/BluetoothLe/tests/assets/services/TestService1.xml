@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<service uuid="00001811-0000-1000-8000-00805f9b34fb" service_type="Primary" extra_info="Alert Notification">
+    <characteristic uuid="00002a47-0000-1000-8000-00805f9b34fb" extra_info="New Alert Category">
+        <property>
+            <broadcast>yes</broadcast>
+            <read>yes</read>
+            <write_no_response>yes</write_no_response>
+            <write>yes</write>
+            <notify>yes</notify>
+            <indicate>yes</indicate>
+            <signed_write>yes</signed_write>
+            <extended_props>yes</extended_props>
+        </property>
+        <permission>
+            <read>yes</read>
+            <read_encrypted>yes</read_encrypted>
+            <read_encrypted_mitm>yes</read_encrypted_mitm>
+            <write>yes</write>
+            <write_encrypted>yes</write_encrypted>
+            <write_encrypted_mitm>yes</write_encrypted_mitm>
+            <write_signed>yes</write_signed>
+            <write_signed_mitm>yes</write_signed_mitm>
+        </permission>
+        <descriptor uuid="2901" extra_info="Characteristic User Description">
+            <permission>
+                <read>yes</read>
+                <read_encrypted>yes</read_encrypted>
+                <read_encrypted_mitm>yes</read_encrypted_mitm>
+                <write>yes</write>
+                <write_encrypted>yes</write_encrypted>
+                <write_encrypted_mitm>yes</write_encrypted_mitm>
+                <write_signed>yes</write_signed>
+                <write_signed_mitm>yes</write_signed_mitm>
+            </permission>
+        </descriptor>
+        <descriptor uuid="2908" extra_info="Report Reference">
+            <permission>
+                <read>no</read>
+                <read_encrypted>no</read_encrypted>
+                <read_encrypted_mitm>no</read_encrypted_mitm>
+                <write>no</write>
+                <write_encrypted>no</write_encrypted>
+                <write_encrypted_mitm>no</write_encrypted_mitm>
+                <write_signed>no</write_signed>
+                <write_signed_mitm>no</write_signed_mitm>
+            </permission>
+        </descriptor>
+    </characteristic>
+    <characteristic uuid="00002a46" extra_info="New Alert">
+        <property>
+            <broadcast>no</broadcast>
+            <read>no</read>
+            <write_no_response>no</write_no_response>
+            <write>no</write>
+            <notify>no</notify>
+            <indicate>no</indicate>
+            <signed_write>no</signed_write>
+            <extended_props>no</extended_props>
+        </property>
+        <permission>
+            <read>no</read>
+            <read_encrypted>no</read_encrypted>
+            <read_encrypted_mitm>no</read_encrypted_mitm>
+            <write>no</write>
+            <write_encrypted>no</write_encrypted>
+            <write_encrypted_mitm>no</write_encrypted_mitm>
+            <write_signed>no</write_signed>
+            <write_signed_mitm>no</write_signed_mitm>
+        </permission>
+        <descriptor uuid="00002903-0000-1000-8000-00805f9b34fb" extra_info="Server Characteristic Configuration">
+            <permission>
+                <read>yes</read>
+                <read_encrypted>yes</read_encrypted>
+                <read_encrypted_mitm>yes</read_encrypted_mitm>
+                <write>yes</write>
+                <write_encrypted>no</write_encrypted>
+                <write_encrypted_mitm>no</write_encrypted_mitm>
+                <write_signed>no</write_signed>
+                <write_signed_mitm>no</write_signed_mitm>
+            </permission>
+        </descriptor>
+    </characteristic>
+</service>

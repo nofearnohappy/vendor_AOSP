@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Zahtjev za autorizacijom daljinskog pristupa porukama"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Zahtjev za autorizacijom daljinskog pristupa porukama"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Odaberite da dozvolite vezu za pristup porukama"</string>
+	<string name="bluetooth_map_server_authorize_title">"Zahtjev za autorizacijom daljinskog pristupa porukama"</string>
+	<string name="bluetooth_map_server_authorize_message">"Odobri zahtjev za daljinski pristup porukama od %1$s"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Dopusti"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Odbij</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Način daljinskog pristupa porukama je povezan"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s pristupa vašim porukama"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"Odaberite za odspajanje od %1$s"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Odspoji daljinski pristup porukama"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Odspojiti od %1$s?"</string>
+  <string name="bluetooth_map_server_yes">"Da"</string>
+	<string name="bluetooth_map_server_no">Nema dostupne aplikacije za ispis kontakta.</string>
+	<string name="bluetooth_map_server_settings">"Postavke daljinskog pristupa porukama"</string>
+	<string name="bluetooth_map_server_enable_title">"Zahtjev za autorizacijom daljinskog pristupa porukama"</string>
+	<string name="bluetooth_map_server_enable_summary">"Uključi kompatibilnost za pomoć osobama oštećenog sluha"</string>
+	<string name="bluetooth_map_server_sim_index_title">Odaberi SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Odaberi račun e-pošte"</string>
+	<string name="bluetooth_map_server_no_account">"Nema dostupnog računa e-pošte"</string>
+	<string name="bluetooth_map_server_OK">postavljanje centra za SMS uslugu uspjelo</string>
+	<string name="bluetooth_map_server_cancel">"Želi li stvarno odustati od preuzimanja?\nPritisnite Nastavi za nastavak preuzimanja\n Pritisnite Odbaci za odbacivanje preuzimanja i trajno uklanjanje preuzete datoteke"</string>
+</resources>

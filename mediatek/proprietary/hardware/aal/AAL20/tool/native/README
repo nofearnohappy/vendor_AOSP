@@ -1,0 +1,19 @@
+WHAT IT DOES?
+=============
+Command line tuning tool of AAL.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libutils.so
+2.  libcutils.so
+3.  libbinder.so
+4.  liblog.so
+
+and the following libs from MediaTek:
+1.  libaal.so
+
+HOW TO USE IT?
+==============
+Push the executable which built to the phone, and execute it,
+you will see the usage details.

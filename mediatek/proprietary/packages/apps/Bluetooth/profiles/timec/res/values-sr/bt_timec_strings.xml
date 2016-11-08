@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_timec_label">Синхронизација времена са Bluetooth-ом</string>
+	<string name="bt_timec_main_title">Клијент за време</string>
+	<string name="bt_timec_choose_server_title">Изаберите уређај са сервером</string>
+	<string name="bt_timec_choose_server_summary">Изаберите уређај са сервером са којим желите да синхронизујете датум и време</string>
+	<string name="bt_timec_sync_settings_title">Подешавања синхронизације времена</string>
+	<string name="bt_timec_service_disconnected">Веза са услугом времена је прекинута.</string>
+	<string name="bt_timec_sync_title">Синхронизација датума и времена</string>
+	<string name="bt_timec_sync_summary">Поврати и примени податке о датуму и времену са сервера за време</string>
+	<string name="bt_timec_auto_title">Аутоматска синхронизација</string>
+	<string name="bt_timec_auto_summary">Аутоматски синхронизуј датум и време са сервером за време</string>
+	<string name="bt_timec_repeat_title">"Понављање"</string>
+	<string name="bt_timec_sync_confirm_title">Потврди за синхронизацију</string>
+	<string name="bt_timec_sync_confirm_msg">Тако ће се извршити синхронизација са сервером за време?</string>
+	<string name="bt_timec_synchronizing_title">Синхронизација</string>
+	<string name="bt_timec_synchronizing_msg">Синхронизују се датум и време са сервером за време...</string>
+	<string name="bt_timec_sync_completed">Синхронизација је завршена</string>
+	<string name="bt_timec_sync_failed">Синхронизација датума и времена са сервером за време није успела</string>
+	<string name="bt_timec_auto_disabled_ticker">Аутоматска синхронизација времена је деактивирана</string>
+	<string name="bt_timec_auto_disabled_title">Bluetooth аутоматска синхронизација времена је деактивирана</string>
+	<string name="bt_timec_auto_disabled_msg">Аутоматска синхронизација времена не ради ако је Bluetooth искључен.</string>
+	<string name="bt_timec_eng_connect_title">"Повежи"</string>
+	<string name="bt_timec_eng_connect_summary">Повежи се са сервером</string>
+	<string name="bt_timec_eng_disconnect_summary">Прекини везу са сервером</string>
+	<string name="bt_timec_eng_settings_group_title">"Подешавања"</string>
+	<string name="bt_timec_eng_automatic_title">"Аутоматски"</string>
+	<string name="bt_timec_eng_automatic_summary">Аутоматски синхронизуј са сервером за време</string>
+	<string name="bt_timec_eng_sync_title">Синхронизуј са сервером за време</string>
+	<string name="bt_timec_eng_sync_summary">Поврати и примени датум и време са сервером за време</string>
+	<string name="bt_timec_eng_update_server_title">Ажурирај време на серверу</string>
+	<string name="bt_timec_eng_update_server_summary">Тражи да сервер за време ажурира датум и време са свог извора за време</string>
+	<string name="bt_timec_eng_dst_title">Следећа DST промена</string>
+	<string name="bt_timec_eng_connecting_title">"Повезивање"</string>
+	<string name="bt_timec_eng_connecting_msg">Повезивање са сервером за време...</string>
+	<string name="bt_timec_eng_connection_failed">Веза није успела</string>
+	<string name="bt_timec_eng_connection_lost">Веза је прекинута</string>
+	<string name="bt_timec_eng_disconnecting_title">"Прекидање везе"</string>
+	<string name="bt_timec_eng_disconnecting_msg">Прекидање везе са сервером...</string>
+	<string name="bt_timec_eng_processing_title">Обрада</string>
+	<string name="bt_timec_eng_processing_msg">Примењују се подешавања на сервер за време...</string>
+	<string name="bt_timec_eng_processing_failed">Примењивање подешавања на сервер није успело</string>
+	<string name="bt_timec_eng_server_updating_title">Сервер се ажурира</string>
+	<string name="bt_timec_eng_server_updating_msg">Притисните тастер НАЗАД да бисте отказали ажурирање времена на серверу</string>
+	<string name="bt_timec_eng_server_update_completed">Ажурирање сервера је завршено</string>
+	<string name="bt_timec_eng_server_update_failed">Ажурирање сервера није успело</string>
+</resources>

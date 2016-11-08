@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Tapnite za vklop Bluetootha</string>
+    <string name="tap_to_add_device">Tapnite za dodajanje naprave</string>
+    <string name="turning_on_bluetooth">Vklapljanje Bluetootha ...</string>
+    <string name="launcher_activity_name">Upravitelj BLE</string>
+    <string name="scanning_devices">Iskanje naprav</string>
+    <string name="delete_devices">Prekinite povezavo ene naprave, če želite povezati novo.</string>
+    <string name="cancel">"Prekliči"</string>
+    <string name="ok">"V redu"</string>
+    <string name="alert_setting">"Opozorilo"</string>
+    <string name="device_manager">Upravitelj naprav</string>
+    <string name="out_of_range_alert_text">Opozorilo Izven dosega</string>
+    <string name="in_range_alert_text">Opozorilo V dosegu</string>
+    <string name="range_alert_text">Moj doseg</string>
+    <string name="range_alert_summary">Tako opozorilo na telefonu kot napravi, če je naprava v dosegu ali izven</string>
+    <string name="range_near_text">Blizu</string>
+    <string name="range_middle_text">Srednje</string>
+    <string name="range_far_text">"Oddaljeno"</string>
+    <string name="range_1_distance_text">Približno 1 m</string>
+    <string name="range_10_distance_text">1–10 m</string>
+    <string name="range_20_distance_text">10 – 20 m</string>
+    <string name="phone_alert_settings">Nastavitve opozoril telefona</string>
+    <string name="ringtone_tye_text">"Zvonjenje"</string>
+    <string name="volume_text">"Glasnost"</string>
+    <string name="vibration_text">Vibracije</string>
+    <string name="vibration_summary_on">"Vklopljeno"</string>
+    <string name="vibration_summary_off">"Izklopljeno"</string>
+    <string name="device_name">"Ime naprave"</string>
+    <string name="push_notification_text">Potisni obvestila v napravo</string>
+    <string name="incoming_call_notification_text">"Dohodni klic"</string>
+    <string name="missed_call_notificaiotn_text">"Neodgovorjeni klic"</string>
+    <string name="new_message_notification_text">"Novo sporočilo"</string>
+    <string name="new_email_notification_text">Novo e-poštno sporočilo</string>
+    <string name="disconnection_text">Nastavitve prekinitve povezave</string>
+    <string name="disconnection_waring_title">Opozorilo o prekinitvi povezave</string>
+    <string name="disconnection_waring_summary">Tako opozorilo na telefonu kot napravi, če naprava ni povezana</string>
+    <string name="device_name_change_dialog_title">"Preimenuj"</string>
+    <string name="disconnect_text">"Prekini povezavo"</string>
+    <string name="delete_text">"Izbriši"</string>
+    <string name="connect_text">"Vzpostavi povezavo"</string>
+    <string name="device_delete_dialog_message">Izbrišem to napravo?</string>
+    <string name="device_disconnect_dialog_message">Prekinem povezavo te naprave?</string>
+    <string name="find_all_text">Poišči vse</string>
+    <string name="default_images">Privzete slike</string>
+    <string name="range_information_text">Obseg je odvisen od jakosti signala. V idealnih razmerah je lahko doseg prek 30 m.  Določeni elementi (npr. vaše telo, stene ali druge ovire) lahko skrajšajo razdaljo na 15 m ali manj.</string>
+    <string name="range_information_dialog_check_box_text">Ne pokaži več</string>
+    <string-array name="device_image_chooser_items">
+        <item>Izberi privzeto sliko</item>
+        <item>"Posnemi fotografijo"</item>
+        <item>Izberi iz galerije</item>
+    </string-array>
+    <string name="add_device">Dodaj napravo</string>
+    <string name="yes">"Da"</string>
+    <string name="no">"Ne"</string>
+    <string name="connecting_text">"Vzpostavljanje povezave ..."</string>
+    <string name="enable_background_service">Omogoči način ozadja</string>
+    <string name="disable_background_service">Onemogoči način ozadja</string>
+    <string name="ble_manager_alert">Opozorilo BLE Manager</string>
+    <string name="check">Preverite</string>
+    <string name="dismiss">Izklju?i</string>
+    <string name="disconnected">"Povezava je prekinjena"</string>
+    <string name="in_range">znotraj obmo?ja</string>
+    <string name="out_of_range">zunaj obmo?ja</string>
+    <string name="no_found">Ni najdene naprave Bluetooth.</string>
+    <string name="bt_off">Bluetooth je izklopljen. Vklopite ga.</string>
+</resources>

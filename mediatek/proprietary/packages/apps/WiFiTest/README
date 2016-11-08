@@ -1,0 +1,23 @@
+WHAT IT DOES?
+=============
+This is a test APK for engineer to do Wi-Fi test
+The purpose of Wi-Fi test APK is to provide means to test Wi-Fi functionality that can not
+be tested from Wi-Fi Settings. Including Wi-Fi scanning, Wi-Fi RTT, and other functions
+It is convenient for RD/QA to verify issues without any extra tools in the desktop.
+
+PS.
+This is a optional APK.
+If this APK is removed from ROM, there is no impact for any phone's functionality.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+None
+
+and the following libs from MediaTek:
+None
+
+HOW TO USE IT?
+==============
+Install WiFiTest.apk and launch it from launcher.
+Details can be found from SOP.

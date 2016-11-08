@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="range_alert_category"
+        android:title="@string/range_alert_text" >
+        <CheckBoxPreference
+            android:icon="@drawable/ic_alert_range"
+            android:key="range_alert_check_preference"
+            android:persistent="false"
+            android:title="@string/range_alert_text"
+            android:summary="@string/range_alert_summary" />
+
+        <com.mediatek.blemanager.ui.RangeComposePreference
+            android:key="range_alert_compose_preference"
+            android:persistent="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="disconnect_alert_category"
+        android:title="@string/disconnection_text" >
+        <CheckBoxPreference
+            android:icon="@drawable/ic_alert_disconnection"
+            android:key="disconnect_warning_preference"
+            android:persistent="false"
+            android:summary="@string/disconnection_waring_summary"
+            android:title="@string/disconnection_waring_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="phone_alert_settings_category"
+        android:title="@string/phone_alert_settings" >
+        <com.mediatek.blemanager.ui.NonChangeCheckBoxPreference
+            android:icon="@drawable/ic_alert_ringtone"
+            android:key="ringtone_preference"
+            android:persistent="false"
+            android:title="@string/ringtone_tye_text" />
+
+        <com.mediatek.blemanager.ui.IconSeekBarPreference
+            android:icon="@drawable/ic_alert_volume"
+            android:key="volume_seek_bar_preference"
+            android:persistent="false"
+            android:title="@string/volume_text" />
+
+        <CheckBoxPreference
+            android:icon="@drawable/ic_alert_vibration"
+            android:key="vibration_preference"
+            android:persistent="false"
+            android:summaryOn="@string/vibration_summary_on"
+            android:summaryOff="@string/vibration_summary_off"
+            android:title="@string/vibration_text" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

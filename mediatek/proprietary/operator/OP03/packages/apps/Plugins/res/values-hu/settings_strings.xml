@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Hordozható Wi-Fi hotspot</string>
+    <string name="wifi_tether_introduction_text">Készülékét hordozható Wi-Fi hotspottá alakítva egyszerre akár nyolc másik készülékkel megoszthatja internetkapcsolatát.\n\nNe feledje, hogy az internetmegosztás mobiladat-forgalommal jár. Ez jelentősen növelheti a fizetett hívásdíjakat, az akkumulátor működési idejét pedig csökkentheti.</string>
+    <string name="wifi_tether_checkbox_nosim_text">A hordozható Wi-Fi hotspot vagy az internetmegosztás használatához helyezzen be SIM-kártyát.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Ne jelenjen meg újra ez az üzenet</string>
+    <string name="wifi_tether_turn_off_wifi">A hordozható Wi-Fi hotspot bekapcsolásához először ki kell kapcsolnunk a Wi-Fi kapcsolatot. Biztosan folytatja?</string>
+    <string name="wifi_tether_settings_text">Hordozható Wi-Fi hotspot beállításai</string>
+    <string name="tether_apn_settings_text">Internet-megosztási APN</string>
+    <string name="tether_apn_settings_subtext">Alapértelmezett internet-megosztási APN beállítása</string>
+    <string name="usb_tethering_accessory_active_subtext">Az internetmegosztás nem kapcsolható be, ha az USB használatban van.</string>
+    <string name="operator_display">Hálózati szolgáltató megjelenítése</string>
+    <string name="operator_display_summary">Hálózati szolgáltató megjelenítése az állapotsávban</string>
+    <string name="by_orange">biztosítja: az Orange</string>
+    <string name="recommended_by_orange">Az Orange ajánlásával</string>
+    <string name="smsmms_app_name">Az Üzenetek nem aktív</string>
+    <string name="click_to_change_to_xms_app">Nem az Üzenetek az alapértelmezett SMS-alkalmazás.</string>
+    <string name="click_to_change_to_xms_app_line2">További tájékoztatás érdekében érintse meg itt.</string>
+    <string name="sms_change_default_dialog_text1">Az Orange tesztje biztosítja, hogy az Üzenetek alkalmazás működjön az Ön készülékén .\n\n
+
+Más SMS-alkalmazások használata esetén az SMS és MMS üzenetek küldése és fogadása során problémák léphetnek fel.\n\n
+
+Szeretné a(z) <xliff:g id="new_app">%s</xliff:g> alkalmazást használni a(z) <xliff:g id="current_app">%s</xliff:g> helyett az SMS-ek kezelésére?</string>
+    
+</resources>

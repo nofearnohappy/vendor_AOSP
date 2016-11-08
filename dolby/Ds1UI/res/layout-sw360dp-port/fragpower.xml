@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" >
+
+	<ImageView
+		android:id="@+id/powerButtonOff"
+		android:layout_width="99sp"
+		android:layout_height="match_parent"
+		android:contentDescription="@string/powerOff"
+		android:padding="5sp"
+		android:src="@drawable/power_off" >
+	</ImageView>
+
+	<ImageView
+		android:id="@+id/powerButtonOn"
+		android:layout_width="99sp"
+		android:layout_height="match_parent"
+		android:contentDescription="@string/powerOn"
+		android:padding="5sp"
+		android:src="@drawable/power_on" >
+	</ImageView>
+
+</RelativeLayout>

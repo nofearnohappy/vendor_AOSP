@@ -1,0 +1,18 @@
+This module is used to umount some mountpoint
+
+WHAT IT DOES?
+=============
+md_ctrl is used to umount some mountpoint
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+libc libcutils 
+
+HOW TO USE IT?
+==============
+Run superumount directly.
+usage: superumount [ -options ] target
+
+The majority of source code for this library were written by MediaTek.

@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+Plugin Sampler (.apk and source) - shows how to connect to all device types through various mechanisms, subscribe to receive data from all events, send all commands, and shows how to handle device state changes and errors requesting access such as the scenario where the ANT Radio Service and/or ANT USB Service have not been installed yet. This is the de-facto reference code for using the ANT+ plugins. Refer to special note above for information concerning accessing member-only features. Note: We recommend all applications use the new multi device search to search for devices as it is more efficient, so start with the multi-device search sample first.
+
+HOW IT WAS BUILT?
+==================
+This is a binary file.
+
+HOW TO USE IT?
+==============
+It is a android application in launcher, user could launch the ANT+ Plugin Sampler by this app.

@@ -1,0 +1,5 @@
+[
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/Roaming", objectValue : "1", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/PLMN", objectValue : "1", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/UpdatePolicy", objectValue : "1", objectType : "bool", newNode : "" },
+]

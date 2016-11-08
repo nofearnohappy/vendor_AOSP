@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">"Configuració del generador d'informes de proximitat"</string>
+	<string name="bt_prxr_settings_enable_title">"Generador d'informes de proximitat"</string>
+	<string name="bt_prxr_settings_enable_summary">"Activa"</string>
+	<string name="bt_prxr_settings_busy_title">"Generador d'informes de proximitat"</string>
+	<string name="bt_prxr_settings_busy_message">Carregant, espereu...</string>
+	<string name="bt_prxr_settings_enable_fail">"Activa/Desactiva l'errada del generador d'informes de proximitat"</string>
+	<string name="bt_prxr_ll_notification_ticker">"Pèrdua d'enllaç"</string>
+	<string name="bt_prxr_ll_notification_title">"Pèrdua d'enllaç de proximitat"</string>
+	<string name="bt_prxr_ll_notification_message">Dispositiu remot: %1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">Pèrdua de ruta</string>
+	<string name="bt_prxr_pl_notification_title">Pèrdua de ruta de proximitat</string>
+	<string name="bt_prxr_pl_notification_message">Dispositiu remot: %1$s</string>
+</resources>

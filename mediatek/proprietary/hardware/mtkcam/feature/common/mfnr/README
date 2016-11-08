@@ -1,0 +1,46 @@
+MFNR Middleware
+
+
+WHAT IT DOES?
+=============
+
+Provide camera middleware a feature: Multi Frame Noise Reduction.
+MFNR middleware is completed within two parts:
+
+
+1. MFNR Core
+
+MFNR Core always uses interfaces of MFNR (which located in folder includes),
+and it's a hardware independent pure software core, but the interfaces are
+supposed to be implemented or the MFNR Core won't effect anymore.
+
+
+2. MFNR Modules
+
+MFNR Modules represents a role of providing hardware dependent operations, such
+as image buffer processing, hardware blending or mixing. But here we still do
+provide a version of MFNR Modules that is pure software and hardware independent
+for user just want to verify the control flow or build pass.
+
+To determine the version of MFNR Module, MFLL_MODULE_VERSION should be specified
+in Android.mk.
+
+
+HOW IT WAS BUILT?
+==================
+
+It needs the following libs from AOSP:
+1. libutils.so
+2. libcutils.so
+
+And depends on different version of MFNR Modules, you need different libs.
+
+
+HOW TO USE IT?
+==============
+
+All modules (e.g. Camera HAL or an unit test) should use
+IMfllCore as the public interface to talk with MFNR core.
+
+All the source code of this program were written by MediaTek co..
+

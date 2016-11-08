@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">FM հաղորդիչ</string>
+    <string name="dlg_seek_title">"Որոնում"</string>
+    <string name="dlg_search_text">Կատարվում է ազատ կապուղիների որոնում, խնդրում ենք սպասել...</string>
+    <string name="advanced_title">Ձեռքով կայված հաճախականություն</string>
+    <string name="text_input_frequency">Ներմուծեք ձեր ցանկացած հաճախականությունը, կարող եք ներմուծել 87.5-97.5 և 99.5-108</string>
+    <string name="text_ok">"Լավ"</string>
+    <string name="text_auto_search">Կատարվում է ազատ կապուղիների ինքնաշխատ որոնում</string>
+    <string name="text_search">"Որոնել"</string>
+    <string name="toast_plugout_earphone">Նախ՝ անջատեք ականջակալը:</string>
+    <string name="toast_input_error">Վերջին սխալ մուտքագրումն է: Վավեր արժեքներն են 0-ն կամ 5-ը:</string>
+    <string name="toast_input_valid">Խնդրում ենք ներմուծել թիվ 87.5-97.5 կամ 99.5-108 սահմաններում</string>
+</resources>

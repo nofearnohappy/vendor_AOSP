@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/emoji_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      <!--  android:background="#f6f5f5"-->
+        
+        <android.support.v4.view.ViewPager
+            android:id="@+id/emoji_view"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="216dip"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:paddingTop="0dip"
+            android:paddingBottom="0dip"/>
+
+        <LinearLayout
+            android:id="@+id/page_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/emoji_index"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="#858585">
+            <ImageView
+                android:id="@+id/emoji_shop"
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_alignParentRight="true"/>
+            <ImageView
+                android:id="@+id/emoji_setting"
+                android:layout_width="40dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_toLeftOf="@id/emoji_shop" />
+            <HorizontalScrollView
+                android:id="@+id/emoji_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@id/emoji_setting" >
+                <!-- for em shop emoticon shortcut icon -->
+                <LinearLayout
+                    android:id="@+id/emoji_index_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <!-- for unicode emoticon shortcut icon -->
+                    <ImageView
+                        android:id="@+id/emoji_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="5dip" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+

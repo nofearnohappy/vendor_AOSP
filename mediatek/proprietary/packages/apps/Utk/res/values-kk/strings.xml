@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">UIM Toolkit</string>
+    <string name="menu_end_session">Сеансты аяқтау</string>
+    <string name="help">Анықтама</string>
+    <string name="menu_back">Артқа</string>
+    <string name="service_name">Қызмет аты</string>
+    <string name="utk_no_service">Қызмет көрсету аясынан тыс</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Болдырмау</string>
+    <string name="button_yes">Иә</string>
+    <string name="button_no">Жоқ</string>
+    <string name="alphabet">Алфавиттер</string>
+    <string name="digits">Сандар (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Қоңырау шалынуда\u2026</string>
+    <string name="utk_app_state">Қолданба күйі</string>
+    <string name="enable_app">Қосулы</string>
+    <string name="disable_app">Өшірулі</string>
+    <string name="activity_not_found" product="default">Қолданба телефоныңызға орнатылмады.</string>
+    <string name="lable_busy_on_call">телефон қоңырау шалуда, алдымен қоңырауды аяқтаңыз.</string>
+    <string name="lable_on_flight_mode">Осы қолданбаны ұшу режимінде пайдалану мүмкін емес</string>
+    <string name="utk_dialog_title">UIM ToolKit</string>
+    <string name="default_open_channel_msg">Арнаны ашу қажет пе?</string>
+    <string name="default_send_data_msg">Деректерді жіберу</string>
+    <string name="default_receive_data_msg">Деректерді алу</string>
+    <string name="default_close_channel_msg">Арна жабық</string>
+    <string name="utk_dialog_accept">Иә</string>
+    <string name="utk_dialog_reject">Жоқ</string>
+    <string name="utk_send_sms">Хабарлама жіберілуде...</string>
+</resources>

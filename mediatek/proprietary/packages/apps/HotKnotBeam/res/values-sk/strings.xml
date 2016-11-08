@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Spúšťa sa prijímanie...</string>
+    <string name="notification_group_title">Prijímajú sa <xliff:g id="number">%d</xliff:g> súbory...</string> 
+    <string name="notification_download_done">Dotykom zobrazte podrobnosti</string>
+    <string name="notification_group_received">Prijatých bolo <xliff:g id="number">%d</xliff:g> súborov</string>
+    <string name="notification_received">Súbory boli úspešne prijaté </string> 
+    <string name="notification_download_failure">Nepodarilo sa prijať z dôvodu <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Prijímanie je zrušené</string>
+    <string name="notification_group_received_failed">Nepodarilo sa odoslať <xliff:g id="number">%d</xliff:g> súborov</string>
+    <string name="notification_group_received_partial_failed">Nepodarilo sa prijať <xliff:g id="number">%d</xliff:g> súborov, prijatých bolo <xliff:g id="number">%d</xliff:g> súborov</string>
+    <string name="download_no_file">Tento súbor neexistuje</string>
+    <string name="notification_sending">Spúšťa sa odosielanie...</string>
+    <string name="notification_group_upload_title">Odosiela sa <xliff:g id="number">%d</xliff:g> súborov...</string>
+    <string name="notification_group_sent">Odoslaných je <xliff:g id="number">%d</xliff:g>súborov</string>
+    <string name="notification_sent">Úspešne odoslané</string>
+    <string name="notification_upload_failed">Nepodarilo sa odoslať z dôvodu <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Odosielanie je zrušené</string>
+    <string name="notification_group_sent_failed">Nepodarilo sa odoslať <xliff:g id="number">%d</xliff:g> súborov</string>
+    <string name="notification_group_sent_partial_failed">Nepodarilo sa odoslať <xliff:g id="number">%d</xliff:g> súborov, Odoslaných je <xliff:g id="number">%d</xliff:g> súborov</string>
+    <string name="low_storage">v pamäti je málo miesta</string>
+    <string name="connect_failure">"Problém s pripojením"</string>
+    <string name="unknown_error">Neznáma chyba</string>
+    <string name="share_label">Technológia HotKnot Share</string>
+    <string name="rx_ui_image_status">Obraz sa prijíma zo <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Prijíma sa <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> obrazov zo <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Video sa prijíma zo <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Prijíma sa <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> video súborov zo <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Súbor sa prijíma zo <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Prijíma sa <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> súborov zo <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Hudobný súbor sa prijíma zo <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Prijíma sa <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> hudobných súborov zo <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Prijímanie nie je dokončené</string>
+</resources>

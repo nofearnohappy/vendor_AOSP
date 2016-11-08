@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Começar a receber…</string>
+    <string name="notification_group_title">A receber <xliff:g id="number">%d</xliff:g> ficheiros...</string> 
+    <string name="notification_download_done">Toque para ver detalhes</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> ficheiros recebidos</string>
+    <string name="notification_received">Recebido com sucesso</string> 
+    <string name="notification_download_failure">A receção falhou devido a <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Receção cancelada</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> ficheiros falharam</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> ficheiros falharam, <xliff:g id="number">%d</xliff:g> ficheiros recebidos</string>
+    <string name="download_no_file">"O ficheiro não existe"</string>
+    <string name="notification_sending">Começar a enviar…</string>
+    <string name="notification_group_upload_title">A enviar <xliff:g id="number">%d</xliff:g> ficheiros...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> ficheiros enviados</string>
+    <string name="notification_sent">Enviado com sucesso</string>
+    <string name="notification_upload_failed">O envio falhou devido a <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Envio cancelado</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> ficheiros falharam</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> ficheiros falharam, <xliff:g id="number">%d</xliff:g> ficheiros enviados</string>
+    <string name="low_storage">falta de espaço</string>
+    <string name="connect_failure">"Problema de ligação"</string>
+    <string name="unknown_error">Erro desconhecido</string>
+    <string name="share_label">Partilhar HotKnot</string>
+    <string name="rx_ui_image_status">A receber imagem de <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">A receber <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> imagens de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">A receber vídeo de <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">A receber <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> vídeos de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">A receber ficheiro de <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">A receber <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ficheiros de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">A receber música de <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">A receber <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> músicas de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Receção não concluída</string>
+</resources>

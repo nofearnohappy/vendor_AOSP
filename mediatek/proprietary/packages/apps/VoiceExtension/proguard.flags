@@ -1,0 +1,68 @@
+-keep class * extends android.app.Activity
+-keep class com.mediatek.voiceextension.R
+-keep class com.mediatek.voiceextension.R$attr
+-keep class com.mediatek.voiceextension.R$xml {
+    public static final int viepath;
+}
+-keep public class com.mediatek.voiceextension.VoiceExtManagerService {
+    private com.mediatek.voiceextension.swip.SwipAdapter mSwipHandler;
+}
+-keep public class com.mediatek.voiceextension.cfg.ConfigurationManager {
+    public boolean makeDirForFile(java.lang.String);
+}
+-keep public class com.mediatek.voiceextension.cfg.ConfigurationXml {
+    static final java.lang.String TAG;
+}
+-keep public class com.mediatek.voiceextension.command.CommandManager {
+    private static final int SUBSTATE_COMMANDS_SETUP;
+    private static final int SUBSTATE_RECOGNITION_START;
+    private static final int SUBSTATE_RECOGNITION_STARTED;
+    private static final int SUBSTATE_RECOGNITION_PAUSE;
+    private static final int SUBSTATE_RECOGNITION_PAUSED;
+    private static final int SUBSTATE_RECOGNITION_RESUME;
+    private static final int SUBSTATE_RECOGNITION_STOP;
+}
+-keep public class com.mediatek.voiceextension.common.CommonManager {
+    public static final java.lang.String TAG;
+    public static final int STATE_IDLE;
+    public static final int STATE_FEATURE_SET;
+    public static final int STATE_FEATURE_INTERNAL;
+    public static final int STATE_FEATURE_SWIP;
+    public static final int SUBSTATE_IDLE;
+    public com.mediatek.voiceextension.common.ProcessRecord getProcessRecordLocked(java.lang.String);
+    public int selectSwipOccupiedRecordLocked(int,int);
+}
+-keep public class com.mediatek.voiceextension.common.FeatureManager {
+    public static final int SWIP_REQUEST_MSG;
+    public static final int SWIP_NOTIFY_MSG;
+    public android.os.Handler getHandler();
+    public void onSwipMessageNotify(java.lang.String,int,int,int,java.lang.Object);
+}
+-keep public class com.mediatek.voiceextension.common.ISetHandler {
+    public abstract int createSet(int,int,java.lang.String);
+    public abstract int deleteSet(int,int,java.lang.String);
+    public abstract int selectSet(int,int,java.lang.String);
+    public abstract int isSetCreated(int,int,java.lang.String);
+    public abstract java.lang.String getSetSelected(int,int);
+    public abstract java.lang.String[] getAllSets(int,int);
+}
+-keep public class com.mediatek.voiceextension.common.ProcessRecord {
+    private static final java.lang.String sProcessMark;
+    private static final java.lang.String sFeatureMark;
+    public static java.lang.String getProcessNameFromSwipSet(java.lang.String);
+    public static java.lang.String getSetNameFromSwipSet(java.lang.String);
+}
+-keep public class com.mediatek.voiceextension.common.ProcessRecord$ListenerRecord {
+    public int getFeatureType();
+    public boolean isSwipStateIdle();
+    public com.mediatek.voiceextension.common.ProcessRecord getProcessRecord();
+}
+-keep public class com.mediatek.voiceextension.swip.ISwipCallback {
+    public abstract void onSwipMessageNotify(java.lang.String,int,int,int,java.lang.Object);
+}
+-keep public class com.mediatek.voiceextension.swip.SwipAdapter {
+    private static void postEventFromNative(java.lang.Object,java.lang.String,int,int,int,int,java.lang.Object);
+}
+-keep public class com.mediatek.voiceextension.swip.SwipAdapterTest {
+    private static final java.lang.String TAG;
+}

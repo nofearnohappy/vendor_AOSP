@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Zahtevek za dohodno datoteko"</string>
+	<string name="bt_opp_notification_in_coming_title">"Zahtevek za dohodno datoteko (od: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"To možnost izberite, da bi potrdili dohodno datoteko."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Dovoli dohodne prenose datotek"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Prejemanje: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Odhodna datoteka"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Pošiljanje: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Povezava s prenosom datotek je vzpostavljena"</string>
+	<string name="bt_opp_cancel_task_message">"Ali želite preklicati ta prenos?"</string>
+	<string name="bt_opp_cancel_task_yes">"Da"</string>
+	<string name="bt_opp_cancel_task_no">Za tiskanje stika ni na voljo noben program.</string>
+	<string name="bt_opp_canceling_task_message">"Preklicujem prenos; počakajte..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth – dohodni predmet"</string>
+	<string name="bt_opps_confirm_push_message">"Dohodna datoteka: %1$s (%2$s) od %3$s. Sprejmem?"</string>
+	<string name="bt_opps_confirm_push_yes">Sprejmi samodejno potisno storitev ali ne?</string>
+	<string name="bt_opps_confirm_push_no">Zavrni</string>
+	<string name="bt_oppc_push_action_label">"Predvajanje prek sistema Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Pošiljam datoteko na %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Pošiljam datoteke na %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Nepodprta vsebina za souporabo: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Kartica SD ni vstavljena ali pa za dohodno datoteko ni na voljo dovolj prostora."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Neveljavni zahtevek za souporabo s strani oddaljene naprave."</string>
+</resources>

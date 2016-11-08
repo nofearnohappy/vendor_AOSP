@@ -1,0 +1,26 @@
+Library of MTK FLAC decoder                                            
+                                                                                            
+This library is pre-built by MediaTek internal.                                             
+                                                                                            
+                                                                                            
+WHAT IT DOES?                                                                               
+=============                                                                               
+flacdec contains MediaTek FLAC decoder modules.  
+Without them, FLAC audio will not be decoded to PCM data                                        
+                                                                                            
+HOW IT WAS BUILT?                                                                           
+==================                                                                          
+It needs the following library from MediaTek:                                                   
+                                                                                                                                                     
+1.  libflacdec_mtk.a                                                                          
+                                                                           
+                                                                                            
+All source/dependency modules of this module are already put in                             
+'vendor/mediatek/proprietary/external/flacdec ' folder.                                                              
+                                                                                            
+HOW TO USE IT?                                                                              
+==============                                                                              
+                                                                                            
+Provide api for FLAC Component to control the FLAC decoder.                                  
+all api interface are at (vendor/mediatek/proprietary/external/flacdec/include)                      
+                           

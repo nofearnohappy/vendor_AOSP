@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="20dp" >
+
+		<TextView
+			android:id="@+id/equalizerLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/equalizerName"
+			android:layout_alignParentLeft="true"
+			android:text="@string/intelligent_equalizer"
+			android:textColor="@color/white"
+			android:textSize="14sp" />
+
+		<TextView
+			android:id="@+id/equalizerName"
+			style="@style/TextAppearanceLargeBlue"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_toRightOf="@+id/equalizerLabel"
+			android:text="@string/bright"
+			android:textSize="14sp" />
+
+		<ImageView
+			android:id="@+id/eqResetButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignBottom="@+id/equalizerName"
+			android:paddingLeft="8dp"
+			android:src="@drawable/revert_profile" />
+	</RelativeLayout>
+
+	<GridView
+		android:id="@+id/equalizerListView"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:layout_marginBottom="30dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:choiceMode="singleChoice"
+		android:clickable="true"
+		android:horizontalSpacing="10dp"
+		android:listSelector="@android:color/transparent"
+		android:numColumns="2"
+		android:overScrollMode="never"
+		android:scrollbars="none"
+		android:soundEffectsEnabled="false"
+		android:verticalSpacing="10dp" >
+	</GridView>
+
+</LinearLayout>

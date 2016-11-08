@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+<library
+name="android.mediatek.tedongle"
+file="/system/framework/tedongle-telephony.jar"
+/>
+</permissions>

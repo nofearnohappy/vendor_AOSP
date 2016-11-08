@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done" msgid="796017761764190697">"Τέλος"</string>  
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Διαγραφή"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Επιλογή όλων"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Αποεπιλογή όλων"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Νέα"</string>
+    <string name="selected_item_count">Επιλέχθηκαν <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%d</xliff:g></string>
+    <string name="multichoice_no_select_alert">"Δεν υπάρχει επιλεγμένο στοιχείο."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Ετικέτες USIM για πρόσθετους αριθμούς</string>  
+    <string name="aas_phone_type_none">ΚΑΜΙΑ ΕΠΙΛΟΓΗ</string>  
+    <string name="aas_new_dialog_title">Προσθήκη νέας ετικέτας</string>  
+    <string name="ass_rename_dialog_title">Τροποποίηση της ετικέτας</string>  
+    <string name="aas_delele_dialog_message">Η διαγραφή των ετικετών θα επηρεάσει όλους τους πρόσθετους αριθμούς που συνδέονται με αυτές τις ετικέτες. Είστε βέβαιοι;</string>  
+    <string name="aas_name_invalid">Το όνομα ετικέτας δεν είναι έγκυρο. Εισαγάγετε ένα άλλο.</string>  
+    <string name="aas_name_exist">Το όνομα της ετικέτας υπάρχει ήδη.</string>  
+    <string name="aas_usim_full">Δεν υπάρχει χώρος για νέες ετικέτες.</string>  
+    <string name="ass_edit_assert_message">Η τροποποίηση της ετικέτας θα επηρεάσει όλους τους πρόσθετους αριθμούς που συνδέονται με την ετικέτα. Είστε βέβαιοι;</string>  
+    <string name="aas_new_fail">Αποτυχία δημιουργίας νέας διαφάνειας.</string>  
+    <string name="aas_edit_fail">Αποτυχία μετονομασίας 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Η διαγραφή του στοιχείου 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_phone_primary">Πρωτεύον αριθμός</string>  
+    <string name="aas_phone_additional">Πρόσθετος αριθμός</string>  
+    <!-- aas strings end-->
+
+    <string name="nickname_too_long">"Το ψευδώνυμο είναι πολύ μεγάλο."</string>
+</resources>

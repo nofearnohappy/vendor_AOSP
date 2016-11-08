@@ -1,0 +1,85 @@
+# do not warn the build warning, or else may cause build failed.
+-dontwarn com.mediatek.incallui.ext.**
+
+-verbose
+
+# Calendar plugin @{
+-keep class com.mediatek.calendar.plugin.** { *; }
+# @}
+# QSB plugin @{
+-keep class com.mediatek.qsb.plugin.** { *; }
+# @}
+# DeskClock plugin @{
+-keep class com.mediatek.deskclock.plugin.** { *; }
+# @}
+# Gallery2 plugin @{
+-keep class com.mediatek.gallery3d.plugin.** { *; }
+# @}
+# Camera plugin @{
+-keep class com.mediatek.camera.plugin.** { *; }
+# @}
+# Browser plugin @{
+-keep class com.mediatek.browser.plugin.** { *; }
+# @}
+
+# SoundRecorder plugin @{
+-keep class com.mediatek.soundrecorder.plugin.** { *; }
+# @}
+
+# Music plugin @{
+-keep class com.mediatek.music.ext.** { *; }
+# @}
+
+# FmRadio plugin @{
+-keep class com.mediatek.fmradio.ext.** { *; }
+# @}
+
+# DownloadManager plugin @{
+-keep class com.mediatek.downloadmanager.plugin.** { *; }
+# @}
+
+# Contacts plugin @{
+-keep class com.mediatek.contacts.plugin.** { *; }
+-keep class com.mediatek.contacts.ext.** { *; }
+# @}
+
+# Settings plugin @{
+-keep class com.mediatek.settings.plugin.** { *; }
+-keep class com.mediatek.settings.ext.** { *; }
+-keep class com.mediatek.settingslib.ext.** { *; }
+# @}
+
+# settingsprovider plugin @{
+-keep class com.mediatek.settingsprovider.plugin.** { *; }
+-keep class com.mediatek.providers.settings.ext.** { *; }
+# @}
+
+# Keyguard plugin @{
+-keep class com.mediatek.keyguard.plugin.** { *; }
+# @}
+
+# SystemUI plugin @{
+-keep class com.mediatek.systemui.plugin.** { *; }
+# @}
+
+# launcher2 plugin @{
+-keep class com.mediatek.launcher2.ext.** { *; }
+# @}
+
+# launcher3 plugin @{
+-keep class com.mediatek.launcher3.ext.** { *; }
+# @}
+
+# MMS plugin @{
+-keep class com.mediatek.mms.plugin.** { *; }
+# @}
+
+# Phone plugin @{
+-keep class com.mediatek.phone.plugin.** { *; }
+-keep class com.mediatek.phone.ext.** { *; }
+# @}
+
+# Dialer plugin @{
+-keep class com.mediatek.dialer.plugin.** { *; }
+-keep class com.mediatek.dialer.ext.** { *; }
+# @}

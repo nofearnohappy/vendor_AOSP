@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager </string>
+    <string name="tap_to_turn_on_bluetooth">Натисніть, щоб вимкнути Bluetooth </string>
+    <string name="tap_to_add_device">Натисніть, щоб додати пристрій </string>
+    <string name="turning_on_bluetooth">Увімкнення Bluetooth... </string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Пристрої для сканування </string>
+    <string name="delete_devices">Щоб підключити новий пристрій, вимкніть інший</string>
+    <string name="cancel">"Скасувати"</string>
+    <string name="ok">"ОК"</string>
+    <string name="alert_setting">"Сповіщення"</string>
+    <string name="device_manager">Диспетчер пристроїв </string>
+    <string name="out_of_range_alert_text">Оповіщення про перевищення діапазону </string>
+    <string name="in_range_alert_text">Оповіщення по дію в межах діапазону </string>
+    <string name="range_alert_text">Мій діапазон </string>
+    <string name="range_alert_summary">Коли пристрій находиться в межах або поза межами діапазону, обидва телефон і пристрій дають оповіщення</string>
+    <string name="range_near_text">Поруч</string>
+    <string name="range_middle_text">Середній </string>
+    <string name="range_far_text">"Віддал."</string>
+    <string name="range_1_distance_text">Приблизно 1 м </string>
+    <string name="range_10_distance_text">1-10 м </string>
+    <string name="range_20_distance_text">10-20 м </string>
+    <string name="phone_alert_settings">Параметри оповіщення телефону</string>
+    <string name="ringtone_tye_text">"Мелодія"</string>
+    <string name="volume_text">"Гучність"</string>
+    <string name="vibration_text">Вібрація </string>
+    <string name="vibration_summary_on">"Увімкнено"</string>
+    <string name="vibration_summary_off">"Вимкнено"</string>
+    <string name="device_name">"Назва пристрою"</string>
+    <string name="push_notification_text">Віддалене повідомлення на пристрій </string>
+    <string name="incoming_call_notification_text">"Вхідний дзвінок"</string>
+    <string name="missed_call_notificaiotn_text">"Пропущений виклик"</string>
+    <string name="new_message_notification_text">"Нове повідомл."</string>
+    <string name="new_email_notification_text">Нове повідомлення електронної пошти </string>
+    <string name="disconnection_text">"Налаштування роз'єднання "</string>
+    <string name="disconnection_waring_title">"Оповіщення про роз'єднання "</string>
+    <string name="disconnection_waring_summary">"Коли пристрій роз'єднано, оповіщення дають обидва телефон і пристрій"</string>
+    <string name="device_name_change_dialog_title">"Переймен."</string>
+    <string name="disconnect_text">"Відключити"</string>
+    <string name="delete_text">"Видалити"</string>
+    <string name="connect_text">"Під’єднатися"</string>
+    <string name="device_delete_dialog_message">Видалити цей пристрій? </string>
+    <string name="device_disconnect_dialog_message">Роз’єднати пристрій? </string>
+    <string name="find_all_text">Знайти все</string>
+    <string name="default_images">Типове зображення </string>
+    <string name="range_information_text">Діапазон залежить від сили сигналу. В ідеальних умовах він може перевищувати 30 метрів.  Деякі перешкоди можуть скоротити відстань до 15 метрів або менше, наприклад, ваше тіло, стіни и інше. </string>
+    <string name="range_information_dialog_check_box_text">Більше не показувати </string>
+    <string-array name="device_image_chooser_items">
+        <item>Вибрати з типових зображень </item>
+        <item>"Зробити фото"</item>
+        <item>Вибрати з галереї </item>
+    </string-array>
+    <string name="add_device">Додати пристрій</string>
+    <string name="yes">"Так"</string>
+    <string name="no">"Ні"</string>
+    <string name="connecting_text">"З’єднання..."</string>
+    <string name="enable_background_service">Увімкнути фоновий режим </string>
+    <string name="disable_background_service">Вимкнути фоновий режим </string>
+    <string name="ble_manager_alert">Сповіщення диспетчера BLE</string>
+    <string name="check">Перевірити</string>
+    <string name="dismiss">Відхилити</string>
+    <string name="disconnected">"Від’єднано"</string>
+    <string name="in_range">в діапазоні</string>
+    <string name="out_of_range">поза діапазоном</string>
+    <string name="no_found">Не знайдено пристрою Bluetooth</string>
+    <string name="bt_off">Вимкнено Bluetooth, будь ласка, увімкніть його.</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbostahování</string>
+    <string name="hetcomm_intro">Stahujte velké soubory (přes 20 MB) rychleji používáním sítí Wi-Fi a 4G/3G současně. Po spuštění se na stavovém řádku zobrazí ikona Turbo stahování. Aby bylo možné použít funkci Turbo stahování, musí být zapnutá síť Wi-Fi a zároveň mobilní datová síť. Když je tato funkce aktivována, veškerá data aplikací, která jste vybrali ke stažení pouze prostřednictvím sítě Wi-Fi, budou přesto stažena prostřednictvím sítí WLAN a 4G/3G.</string>
+    <string name="enable_switch_on">zapnout</string>
+    <string name="enable_switch_off">Vypnout</string>
+    <string name="notify_top_title">Akcelerátor stahování</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobilní data"</string>
+    <string name="conn_notice_title">Mobilní síť nebo síť Wi-Fi je VYPNUTÁ.</string>
+    <string name="conn_notice_detail">Aby bylo možné aktivovat funkci Turbo stahování, musí být zapnutá síť Wi-Fi a zároveň mobilní datová síť.</string>
+    <string name="conn_charging_warning">Při stahování prostřednictvím mobilních sítí mohou být účtovány dodatečné poplatky.</string>
+    <string name="turn_on">Zapnout <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Turbo stahování je VYPNUTO, protože Vpn je ZAPNUTO</string>
+    <string name="turn_off_due_to_tether">Turbo stahování je VYPNUTO, protože sdílení je ZAPNUTO</string>
+    <string name="turn_off_due_to_shutdown">Turbo stahování je VYPNUTO z důvodu vypnutí</string>
+    <string name="turn_off_due_to_roaming">Turbo stahování je VYPNUTO z důvodu roamingu</string>
+    <string name="ratio_is_single">Rychlost sítě Wi-Fi/mobilní datové sítě je nízká. Pro zvýšení rychlosti bude funkce Turbo stahování používat ke stahování souborů pouze mobilní datovou síť/síť Wi-Fi.</string>
+    <string name="ratio_is_back">Funkce Turbo stahování používá ke stahování souborů síť Wi-Fi společně s mobilní datovou sítí.</string>
+    <string name="action_help">Nápověda</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbo stahování - nápověda</u>\
+    </h1><br>Stahujte velké soubory nejvyšší rychlostí používáním sítí Wi-Fi a 4G/3G současně.\
+    <h4>1. Přejděte do části Nastavení a klikněte na Turbo stahování.</h4>\
+    <h4>2. Klepnutím na vypínač zapněte funkci Turbo stahování.</h4>\
+    <p><b>[Tip]</b> Pro zvýšení rychlosti stahování při připojení k oběma sítím Wi-Fi a 4G/3G na začátku stahování.\
+    <p><b>[Tip]</b> Pokud je vaše připojení Wi-Fi nebo 4G/3G příliš pomalé, můžete stahovat prostřednictvím rychlejšího síťového připojení.\
+    <p><b>[Tip]</b> Během stahování může být rychlost a výkon funkce Turbo stahování omezena síťovým prostředím.\
+    <br>&nbsp;&nbsp;- Pokud signál není stabilní, může to omezit rychlost a výkon této funkce.\
+    <br>&nbsp;&nbsp;- nicméně v průměru bude rychlost stahování „dvojitá“ v porovnání s používáním pouze sítě Wi-Fi nebo pouze sítě 4G/3G.\
+    <p><b>[Tip]</b> Když je rozdíl rychlosti připojení Wi-Fi a 4G/3G velký (normálně 2,5krát), funkce Turbo stahování se zastaví nebo nebude podporována, aby se zabránilo špatnému rychlostnímu výkonu.\
+    <p><b>[Tip]</b> Funkce Turbo stahování bude automaticky deaktivována spuštěním funkce Sdílení/VPN.\
+    </body></html>]]>"</string>
+</resources>

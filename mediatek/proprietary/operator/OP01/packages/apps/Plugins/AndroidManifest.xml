@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Copyright Statement:
+#
+# This software/firmware and related documentation ("MediaTek Software") are
+# protected under relevant copyright laws. The information contained herein
+# is confidential and proprietary to MediaTek Inc. and/or its licensors.
+# Without the prior written permission of MediaTek inc. and/or its licensors,
+# any reproduction, modification, use or disclosure of MediaTek Software,
+# and information contained herein, in whole or in part, shall be strictly prohibited.
+
+# MediaTek Inc. (C) 2012. All rights reserved.
+#
+# BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+# THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+# RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+# AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+# NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+# SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+# SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+# THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+# THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+# CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+# SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+# STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+# CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+# AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+# OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+# MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+#
+# The following software/firmware and/or related documentation ("MediaTek Software")
+# have been modified by MediaTek Inc. All revisions are subject to any receiver's
+# applicable license agreements with MediaTek Inc. -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mediatek.op01.plugin"
+          android:sharedUserId = "android.uid.system"
+          coreApp="true"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="5"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <permission android:name="android.permission.READ_REJECT" />
+    <permission android:name="android.permission.WRITE_REJECT" />
+
+    <permission android:name="android.permission.READ_SPEED_DIAL" />
+    <permission android:name="android.permission.WRITE_SPEED_DIAL" />    
+    <!-- Add your plug-in service here -->
+    <application android:label="OperatorPlugin"
+                 android:icon="@mipmap/ic_launcher_settings">
+
+        <!-- Mms Plugin Start-->
+        <!-- Mms Plugin End-->
+
+		<!-- Setting Plugin Start-->
+        <activity android:name=".WifiPrioritySettings"
+                android:icon="@drawable/ic_launcher_settings"
+                android:label="@string/wifi_priority_settings_label"
+                android:theme="@android:style/Theme.Material.Settings"
+		        android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.OP01.PRIORITY_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WifiNotifyDialog"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:launchMode="singleTop"
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Material.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_NOTIFICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Op01WifisettingsActivity"
+                  android:label="@string/wifi_settings"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:launchMode="singleTop"
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Holo.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WifiReselectApDialog"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:launchMode="singleTop"
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Material.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_RESELECTION_AP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FlightModeNotifyDialog"
+                  android:taskAffinity=""
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:launchMode="singleTop"
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Material.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="com.mediatek.OP01.WIFI_FLIGHT_MODE_NOTIFY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WifiHotspotNotifyDialog"
+                  android:taskAffinity=""
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:launchMode="singleTop"
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Material.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WifiConnectNotifyDialog"
+                  android:taskAffinity=""
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:launchMode="singleTop"
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Material.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DataSwitchDialog"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Translucent">
+        </activity>
+
+        <!-- Setting Plugin sub item for wifi setting -->
+        <receiver android:name=".WifiSettingsReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".UsbStateReceiver">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_STATE" />
+            </intent-filter>
+        </receiver>
+		<!-- Setting Plugin End-->
+
+        <!-- InCallUI Plugin End-->
+        <!-- InCallUI Plugin End-->
+
+        <!-- Browser Plugin Start-->
+        <activity android:name="com.mediatek.browser.plugin.Op01BrowserDataConnectionDialog"
+                  android:configChanges="orientation"
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Dialog.Alert"
+                  android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.mediatek.browser.Op01BrowserDataConnectionDialog" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Browser Plugin End-->
+
+
+        <!-- Location and Agps-->
+        <activity android:name="com.mediatek.settings.plugin.AgpsSettingEnter"
+                android:label="@string/gps_settings_title"
+                android:theme="@android:style/Theme.Material.Settings"
+		        android:configChanges="keyboardHidden|screenSize|mcc|mnc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.settings.launch_agps_setting_enter" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.mediatek.settings.plugin.AgpsSettings"
+                android:label="@string/agps_settings_title"
+                android:theme="@android:style/Theme.Material.Settings"
+		        android:configChanges="keyboardHidden|screenSize|mcc|mnc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.settings.launch_agps_settings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Location and Agps End-->
+        <activity android:name="com.mediatek.phone.callrejection.CallRejectSettingActivity"
+            android:label="@string/call_reject_title"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_phone"
+            android:theme="@style/SettingsLight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.dialer.plugin.speeddial.SpeedDialActivity"
+            android:label="@string/call_speed_dial"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/SettingsLight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.phone.callrejection.CallRejectActivity"
+            android:label="@string/call_reject_list_title"
+            android:uiOptions = "splitActionBarWhenNarrow"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_phone"
+            android:theme="@style/SettingsLight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.phone.callrejection.CallRejectMultipleDeleteActivity"
+            android:uiOptions = "splitActionBarWhenNarrow"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_phone"
+            android:theme="@style/SettingsLight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.phone.callforward.CallForwardTimeActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.mediatek.settings.plugin.SimMgrChangeConnDialog"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Translucent">
+            android:launchMode="singleTop"
+        </activity>
+        
+        <provider android:name="com.mediatek.phone.callrejection.CallRejectContentProvider" 
+            android:authorities="reject"
+            android:exported="true"
+            android:multiprocess="true"
+            android:readPermission="android.permission.READ_REJECT"
+            android:writePermission="android.permission.WRITE_REJECT"/>
+            
+        <provider android:name="com.mediatek.dialer.plugin.speeddial.provider.SpeedDialProvider" 
+            android:authorities="speed_dial"
+            android:exported="true"
+            android:multiprocess="true"
+            android:readPermission="android.permission.READ_SPEED_DIAL"
+            android:writePermission="android.permission.WRITE_SPEED_DIAL"/>            
+
+        <!-- Video Player Plugin Start-->
+        <activity android:name="com.mediatek.gallery3d.plugin.SettingsActivity"
+            android:label="@string/streaming_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:configChanges="keyboardHidden"
+            android:theme="@android:style/Theme.Material"
+            >
+            <intent-filter>
+               <action android:name="com.mediatek.settings.streaming" />
+               <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Video Player Plugin End-->
+
+    </application>
+</manifest>

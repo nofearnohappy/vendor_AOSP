@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hesine.nmsg"
+    android:versionCode="1"
+    android:versionName="V2.01.1783.000.00" >
+<!-- android:sharedUserId="android.uid.mms"  -->
+    <uses-sdk
+        android:minSdkVersion="15" 
+        android:targetSdkVersion="19"/>    
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission android:name="com.hesine.nmsg.permission.MESSAGE"/>
+    <uses-permission android:name="com.hesine.nmsg.permission.MESSAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS"/> 
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+<application
+        android:name="com.hesine.nmsg.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Nmsg.Light"
+        android:manageSpaceActivity="com.hesine.nmsg.ui.ClearDataActivity"  >
+        <activity
+            android:name="com.hesine.nmsg.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+		<!-- <action android:name="android.intent.action.MAIN" />
+		<category android:name="android.intent.category.LAUNCHER" /-->                 
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hesine.nmsg.ui.ConversationActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.hesine.nmsg.ui.ConversationActivity" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.hesine.nmsg.ui.DetailActivity" 
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:process="com.hesine.nmsg.webview">
+            <intent-filter>
+                <action android:name="@string/app_name" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hesine.nmsg.ui.VendorAccountSetting" >
+        </activity>
+        <activity android:name="com.hesine.nmsg.ui.UserInfoActivity" >
+        </activity>
+        
+        <activity android:name="com.hesine.nmsg.ui.ClearDataActivity" >
+        </activity>      
+        
+        <activity
+            android:name="com.hesine.nmsg.ui.NmsgSettingActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" >
+        </activity>
+        
+        <service
+            android:name="com.hesine.nmsg.observer.NmsgService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.hesine.nmsg.observer.AutoStartReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.PHONE_STATE"/>
+                <action android:name="com.hesine.nmsg.startservice" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.hesine.nmsg.business.bo.NmsgApiProvider"
+            android:authorities="com.hesine.remote.api.providers"
+            android:enabled="true"
+            android:exported="true"
+            android:syncable="true" />
+
+        <!-- Mms Plugin Start -->
+        <service
+            android:name="com.mediatek.imsp.NmsgPluginExt"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.mediatek.mms.ipmessage.IIpMessagePlugin" />
+            </intent-filter>
+
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.imsp.NmsgPluginExt" />
+            <meta-data
+                android:name="version"
+                android:value="2.0.0" />
+        </service>
+        <!-- Mms Plugin End -->
+        <receiver android:name="com.hesine.nmsg.thirdparty.PNReceiver" >
+            <intent-filter>
+                <action android:name="com.hpns.android.intent.RECEIVE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hpns.android.intent.REGISTRATION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hpns.android.intent.UNREGISTER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hpns.android.intent.RECONNECT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hpns.android.intent.REGIDCHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.hissage.hpe.receiver.HpnsPackageReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hpns.android.intent.MASTERCHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hissage.hpe.receiver.HpnsAutoStartReeceiver" >
+            <intent-filter>
+                <!--
+                     <action android:name="android.intent.action.BOOT_COMPLETED" />
+                
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                -->
+            </intent-filter>
+        </receiver>
+        
+        <service
+            android:name="com.hissage.hpe.Service"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.hpns.android.intent.CHECK" />
+                <action android:name="com.hpns.android.intent.REGISTER" />
+                <action android:name="com.hpns.android.intent.UNREGISTER" />
+                <action android:name="com.hpns.android.intent.RECONNECT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="HPNS_APP_ID"
+            android:value="1611597833" />
+        <meta-data
+            android:name="HPNS_ACCOUNT_ID"
+            android:value="4bcd68c659956190" />
+        <meta-data
+            android:name="OpenException"
+            android:value="true" />
+        <receiver android:name="com.hesine.nmsg.observer.SimStateChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hesine.nmsg.observer.LanguageChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hesine.nmsg.observer.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hesine.hstat.receiver.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        
+		 <receiver android:name="com.hesine.hstat.receiver.AutoStartReeceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+         <service android:name="com.hesine.hstat.HstatService" />  
+        <meta-data
+            android:name="HSTAT_APP_ID"
+            android:value="8EC47059" />
+        <meta-data
+            android:name="HSTAT_CHANNEL_ID"
+            android:value="2345678" />
+        <meta-data
+            android:name="HSTAT_SW_VER"
+            android:value="V1.0.0" /> 
+            
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="yluMc9alrrNrOqZTssm9ojVn"/>
+        
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+    </application>
+
+</manifest>

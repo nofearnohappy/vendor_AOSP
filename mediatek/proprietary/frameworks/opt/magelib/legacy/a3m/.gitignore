@@ -1,0 +1,35 @@
+# This file contains filenames and patterns which should be ignored by Git
+
+# Ignore files named as my_* for ease of creating local 'ignored' files.
+my_*
+
+# Text editor backup and swap files
+*.bak
+*.orig
+*.swp
+
+# MSVC generated build files
+Debug
+Release
+runtime
+
+# MSVC generated project files
+*.ncb
+*.suo
+*.user
+
+# Eclipse generated project files
+.metadata
+
+# Object files
+*.o
+
+# Auto-generated source files and folders
+/autotest/testassets/src/
+buildinfo.h
+
+# Other files
+engine/use_light_zorder
+
+# Any Doxygen output
+doxygen/out

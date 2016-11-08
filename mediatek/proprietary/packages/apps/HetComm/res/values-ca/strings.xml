@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">EinadedescàrregaTurbo</string>
+    <string name="hetcomm_intro">"Descarregueu els fitxers grans (més de 20 MB) més ràpidament mitjançant les xarxes Wi-Fi i 4G/3G simultàniament. La icona de l'eina de descàrrega Turbo apareixera a la barra d'estat si s'està executant. Per utilitzar l'eina de descàrrega Turbo, heu de tenir activades les dades del mòbil i la Wi-Fi. Quan l'eina està activada, totes les dades de les aplicacions que seleccioneu per descarregar a través de Wi-Fi només es descarregaran mitjançant les xarxes WLAN i 4G/3G."</string>
+    <string name="enable_switch_on">"Activada"</string>
+    <string name="enable_switch_off">"desactivada"</string>
+    <string name="notify_top_title">Accelerador de descàrregues</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Dades mòbils"</string>
+    <string name="conn_notice_title">Les dades del mòbil o la Wi-Fi estan desactives (OFF).</string>
+    <string name="conn_notice_detail">"Per poder fer servir l'eina de descàrrega Turbo, heu de tenir la Wi-Fi i les dades del mòbil activades."</string>
+    <string name="conn_charging_warning">Les descàrregues mitjançant xarxes de mòbil poden comportar despeses addicionals.</string>
+    <string name="turn_on">Activeu <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">"L'eina de descàrrega Turbo està desactivada (OFF) perquè la VPN està activada (ON)"</string>
+    <string name="turn_off_due_to_tether">"L'eina de descàrrega Turbo està desactivada (OFF) perquè el Tethering està activat (ON)"</string>
+    <string name="turn_off_due_to_shutdown">"L'eina de descàrrega Turbo està desactivada (OFF) perquè s'ha apagat"</string>
+    <string name="turn_off_due_to_roaming">"L'eina de descàrrega Turbo està desactivada (OFF) en itinerància"</string>
+    <string name="ratio_is_single">La velocitat del Wi-Fi o de les dades del mòbil és lenta. Per accelerar la descàrrega, el Turbo download només farà servir les dades del mòbil o la Wi-Fi per descarregar arxius.</string>
+    <string name="ratio_is_back">El Turbo download torna a utilitzar la combinació de dades del mòbil i la Wi-Fi per descarregar arxius.</string>
+    <string name="action_help">"Ajuda"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Ajuda de l'eina de descàrrega Turbo</u>\
+    </h1><br>Feu servir Wi-Fi i 4G/3G simultàniament per descarregar arxius grans a alta velocitat.\
+    <h4>1. Aneu a Configuració i toqueu Eina de descàrrega Turbo.</h4>\
+    <h4>2. Toqueu l'interruptor per activar l'eina de descàrrega Turbo.</h4>\
+    <p><b>[Tip]</b> Connecteu-vos alhora a Wi-Fi i 4G/3G a l'inici de la descàrrega per accelerar-la.\
+    <p><b>[Tip]</b> Si la connexió Wi-Fi o 4G/3G és massa lenta, feu servir la connexió de xarxa més ràpida per descarregar.\
+    <p><b>[Tip]</b> La velocitat i el rendiment de l'eina de descàrrega Turbo es poden veure afectats per l'entorn de xarxa durant la descàrrega.\
+    <br>&nbsp;&nbsp;- La inestabilitat del senyal pot afectar la velocitat i el rendiment d'aquesta funció.\
+    <br>&nbsp;&nbsp;- Malgrat tot, normalment la velocitat de descàrrega és el doble de la velocitat del Wi-Fi o el 4G/3G per separat.\
+    <p><b>[Tip]</b> Si hi ha una diferència important entre la velocitat de Wi-Fi i 4G/3G (normalment, 2,5 vegades), l'eina de descàrrega Turbo s'aturarà o no es podrà executar per evitar problemes de rendiment en relació amb la velocitat.\
+    <p><b>[Tip]</b> L'eina de descàrrega Turbo es desactivarà automàticament en engegar el Tethering o la VPN.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,14 @@
+WHAT IT DOES?
+==================
+This is a database for Mediatek regionalphone feature.
+
+HOW IT WAS BUILD?
+===================
+It is pre-built by MediaTek internal.It is built to "custom/etc/regionalphone" directory.
+
+[Build Method]
+Must full build.
+
+HOW TO USE IT?
+====================
+RegionalPhoneManager.apk will check the database and read it.

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Έναρξη λήψης…</string>
+    <string name="notification_group_title">Λήψη <xliff:g id="number">%d</xliff:g> αρχείων…</string> 
+    <string name="notification_download_done">Αγγίξτε για εμφάνιση των λεπτομερειών</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> αρχεία έχουν ληφθεί</string>
+    <string name="notification_received">Έχουν ληφθεί με επιτυχία</string> 
+    <string name="notification_download_failure">Αποτυχία λήψης επειδή <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Η λήψη έχει ακυρωθεί </string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> αρχεία έχουν αποτύχει</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> αρχεία έχουν αποτύχει, <xliff:g id="number">%d</xliff:g> αρχεία έχουν ληφθεί</string>
+    <string name="download_no_file">"Το αρχείο δεν υπάρχει"</string>
+    <string name="notification_sending">Έναρξη αποστολής…</string>
+    <string name="notification_group_upload_title">Αποστολή <xliff:g id="number">%d</xliff:g> αρχείων…</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> αρχεία έχουν σταλεί</string>
+    <string name="notification_sent">Έχουν σταλεί με επιτυχία</string>
+    <string name="notification_upload_failed">Αποτυχία αποστολής επειδή <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Η αποστολή έχει ακυρωθεί</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> αρχεία έχουν αποτύχει</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> αρχεία έχουν αποτύχει, <xliff:g id="number">%d</xliff:g> αρχεία έχουν σταλεί</string>
+    <string name="low_storage">περιορισμένος χώρος αποθήκευσης</string>
+    <string name="connect_failure">"Πρόβλημα σύνδεσης"</string>
+    <string name="unknown_error">Άγνωστο σφάλμα</string>
+    <string name="share_label">Κοινή χρήση HotKnot</string>
+    <string name="rx_ui_image_status">Λήψη εικόνας από <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Λήψη <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> εικόνων από <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Λήψη βίντεο από <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Λήψη <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> βίντεο από <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Λήψη αρχείου από <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Λήψη <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> αρχείων από <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Λήψη μουσικής από <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Λήψη <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> μουσικής από <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Η λήψη δεν έχει ολοκληρωθεί</string>
+</resources>

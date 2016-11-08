@@ -1,0 +1,26 @@
+Library of MTK NFC certification.
+
+
+WHAT IT DOES?
+=============
+libdta_mt6605_jni.so contains MediaTek developed NFC certification modules.  
+Without them, NFC certification will not pass.
+         
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libutils.so
+2.  libcutils.so
+3.  libnativehelper.so
+
+and the following libs from MediaTek:
+1.  libnfc_mt6605_jni.so
+
+
+HOW TO USE IT?
+==============
+
+Provide api for DTA to control the NFC features.
+
+All the source code of this library were written by MediaTek co..
+

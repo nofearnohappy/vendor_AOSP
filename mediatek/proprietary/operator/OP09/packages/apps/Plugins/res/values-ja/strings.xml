@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">オペレータープラグインAPK</string>
+    <string name="sending_mail_title">メール送信...</string>
+    <string name="sent_success_title">正しく送信されました。</string>
+    <plurals name="sent_success_text">
+        <item quantity="one"><xliff:g id="sent_emails" example="1">%d</xliff:g>通のメールが正しく送信されました。</item>
+        <item quantity="other"><xliff:g id="sent_emails" example="5">%d</xliff:g>通のメールが正しく送信されました。</item>
+    </plurals>
+    <string name="sent_failed_title">メールの送信に失敗しました</string>
+    <plurals name="sent_failed_text">
+        <item quantity="one"><xliff:g id="unsent_emails">%d</xliff:g>通の未送信のメール。</item>
+        <item quantity="other"><xliff:g id="unsent_emails">%d</xliff:g>通の未送信のメール。</item>
+    </plurals>
+    <string name="CT_provider_email_account_signature">\n\n189メールから</string>
+    <string name="CT_provider_email_account_name_description">189メール</string>
+    <string name="email_choose_provider_189">189メール</string>
+    <string name="email_choose_provider_sina">シナ</string>
+    <string name="email_choose_provider_others">その他</string>
+    <string name="add_new_bookmark">"ブックマークを追加"</string>
+    <string name="new_folder">"新しいフォルダ"</string>
+    <string name="low_storage_dialog_title_on_external">"注意"</string>
+    <string name="low_storage_dialog_msg_on_external">電話ストレージには十分なスペースがありません。今はダウンロードできません。</string> 
+    <string name="low_storage_dialog_title_on_extra">"注意"</string>
+    <string name="low_storage_dialog_msg_on_extra">余分なストレージには十分なスペースがありません。今はダウンロードできません。</string> 
+    <string name="clear_history">"履歴消去"</string>
+    <string name="clear_history_dlg">"ブラウザの閲覧履歴を削除しますか？"</string>
+    <string name="none_audio_file">サポートされないファイル形式。</string>
+    <string name="select_folder_empty">選択したフォルダーには音楽はありません。</string>
+    <string name="add_folder_to_play">再生フォルダ</string>
+    <string name="add_folder_as_playlist">フォルダをプレイリストに追加する</string>
+    <string name="add_song_to_play">ファイルを再生する</string>
+    <string name="international_roaming_label">ローミング設定</string>
+    <string name="network_select_title">ネットワーク選択と設定</string>
+    <string name="prl_title">CDMA PRLの更新</string>
+    <string name="roaming_hotline_title">無料サービス</string>
+    <string name="summary_free_service"/>
+    <string name="reset_to_default_title">"初期設定にリセット"</string>
+    <string name="time_zone_recommend_title">タイムゾーンの推奨</string>
+    <string name="time_settings_title">時刻表示モード</string>
+    <string name="time_zone_recommend_notify_summary">タッチして、推奨するタイムゾーンを表示する</string>
+    <string name="notes_title">説明：</string>
+    <string name="notes_summary">このメニューはチャイナテレコムのユーザーカードに適用されます。質問があれば、チャイナテレコムのカスタマーサービスにご連絡ください。</string>
+    <string name="main_sim_title">メインカードとして設定する</string>
+    <string name="sim_selection_title">UIM/SIM選択</string>
+    <string name="general_settings_title">"全般設定"</string>
+    <string name="data_roaming_title">データローミングを有効にする</string>
+    <string name="prefer_network_setting">優先ネットワーク</string>
+    <string name="networks">"通信事業者の選択"</string>
+    <string name="mms_roaming_title">ローミング時に自動でMMSを受信する</string>
+    <string name="mms_roaming_auto_receive">MMS自動受信</string>
+    <string name="mdialog_message">モバイルデータネットワークローミングを許可すると、高額な料金が発生することがありますので、ご注意ください</string>
+    <string name="select_automatically">"自動的に選択"</string>
+    <string name="manual_select_title">手動選択</string> 
+    <string name="manual_select_dialog_msg">手動でネットワークを選択するには\"OK\"をタップします。手動で選択し、選択したネットワーク事業者を登録すると、自動で他の事業者が選択されるということはなくなります。ネットワークサービスが失われたときには、再度手動で選択と登録を行う必要があります。 "自動ネットワーク選択モード"を使用することを推奨します。本当に手動ネットワーク選択モードに入りますか？</string>
+    <string name="prefer_network">優先ネットワーク：</string>
+    <string name="global_mode">グローバルモード</string>
+    <string name="gsm_only">GSM/UMTSのみ</string>
+    <string name="cdma_only">CDMAのみ</string>
+    <string name="prl_sending">PRL更新要求が送信されました。お待ちください...</string>
+    <string name="reset_content">国際メニューがデフォルトにリセットされます。よろしいですか？</string>
+    <string name="time_display_content">通話、SMS、カレンダーのデフォルト時間に設定</string>
+    <string name="beijing_time">北京時間</string>
+    <string name="local_time">現地時間</string>
+    <string name="time_zone_title">"タイムゾーン"</string>
+    <string name="time_zone_hint">都市を探す</string>
+    <string name="reset_success">正常にデフォルトにリセットされました！</string>
+    <string name="gemini_sim_mode_progress_activating_message">有効にしています\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">無効にしています\u2026</string>
+    <string name="main_sim">メインカード</string>
+    <string name="data_conn_msg">データ接続をオフにしてから、メインカードを設定してください。</string>
+    <string name="manual_network_selection_title">手動ネットワーク選択</string>
+    <string name="manual_network_selection_title_with_sim"><xliff:g id="sim_slot">%1$s</xliff:g>手動ネットワーク選択</string>
+    <string name="enable_sim_radio">"有効にする"</string>
+    <string name="enable_data_roaming">国際データローミング</string>
+    <string name="ir_slot1_notes_summary">このUIM/SIMカードのモバイルサービスは優先です</string>
+    <string name="register_automatically">"自動登録..."</string>
+    <string name="not_allowed">お使いのSIMカードはこのネットワークへの接続を許可しません。</string>
+    <string name="connect_later">現在、このネットワークに接続できません。 後でもう一度お試しください。</string>
+    <string name="registration_done">"ネットワークに登録されました。"</string>
+    <string name="cdma_network_selection_title">CDMAネットワーク選択</string>
+    <string name="gsm_network_selection_title">GSMネットワーク選択</string>
+    <string name="current_network_info_title">現在のネットワーク情報</string>
+    <string name="switch_network_manually">次のネットワークに手動で切り替え</string>
+    <string name="status_current_sid">現在のSID</string>
+    <string name="status_current_nid">現在のNID</string>
+    <string name="status_current_sidnid"/>
+    <string name="status_current_cellid">セルID</string>
+    <string name="status_ct_network_type">ネットワークの種類</string>
+    <string name="status_signal_strength">"電波強度"</string>
+    <string name="evdo_signal_strength_info">Evdo</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"利用できません"</string>
+    <string name="device_info_default">"不明"</string>
+    <string name="manual_network_selection">手動ネットワーク選択</string>
+    <string name="manual_network_cdma_searching">CDMAネットワークを検索中......</string>
+    <string name="manual_network_cdma_switch">次のネットワークに手動で切り替え</string>
+    <string name="manual_network_cdma_description">注意：  \nCDMAシステムは自動ネットワーク選択を使用します。手動で何かする必要はありません。 しかし、現在のネットワークが動作しない場合には、「次のネットワークに手動で切り替え」ボタンを試してください。</string>
+    <string name="manual_network_gsm_available_network">"利用可能なネットワーク"</string>
+    <string name="manual_network_notes_title">注意：</string>
+    <string name="manual_network_notes_summary">現在の操作にのみ有効です。</string>
+    <string name="manual_network_register_hint_ok">あなたは正常に\"<xliff:g id="network_current">%s</xliff:g>\"ネットワークに接続されました。ネットワークが良くない場合には、システムは他のローミングネットワークに自動的に接続します。</string>
+    <string name="manual_network_register_hint_fail_null">ネットワークは利用できません。システムは自動的に他のローミングネットワークに接続します。</string>
+    <string name="manual_network_register_hint_fail">ネットワーク\"<xliff:g id="network_failed">%s</xliff:g>\"は利用できません。システムは自動的に他のローミングネットワークに接続します。</string>
+    <string name="manual_network_switching_phone">"お待ちください..."</string>
+    <string name="manual_network_switch_phone_fail">ネットワークモードの切り替えに失敗しました。後でもう一度お試しください。</string>
+    <string name="manual_network_get_cdmaphone_fail">ネットワークの切り替えに失敗しました。後でもう一度お試しください。</string>
+    <string name="manual_network_switch_cdma_fail_data_connect">別のネットワークに手動で切り替える前に、データ接続をオフにしてください。</string>
+    <string name="network_forbidden">禁止されています</string>
+    <string name="network_query_error">"ネットワークの検索中にエラーが発生しました。"</string>
+    <string name="register_on_network">"<xliff:g id="NETWORK">%s</xliff:g>に登録中..."</string>
+    <string name="network_setting_all_forbidden_dialog">利用可能なネットワークが見つかりません。3Gサービスに切り替えるか、禁止されているネットワークをクリックして手動登録してください。</string>
+    <string name="load_networks_progress">GSMネットワークの検索中\u2026</string>
+    <string name="data_connection_summary_title">"モバイルデータ"</string>
+    <string name="data_connection_sim_slot_1">UIM 1モバイルデータを使用する</string>
+    <string name="data_connection_sim_slot_2">SIM 2モバイルデータを使用する</string>
+    <string name="crbt_settings_title">カラーリングバックトーンを設定する</string>
+    <string name="crbt_send_ok">正しく送信されました</string>
+    <string name="crbt_send_fail">メッセージを送信できません</string>
+    <string name="crbt_sending">"送信中"</string>
+    <string name="crbt_to">"宛先"</string>
+    <string name="crbt_wait">"お待ちください"</string>
+    <string name="gemini_3g_disable_warning_case0">"最初にこのカードのデータローミングを有効にする必要があります。それによって高額なローミング請求が発生することがあります。データローミングを有効にして、このカードを選択しますか？"</string>
+    <string name="gemini_3g_disable_warning_case1">"この選択されたカードでは3Gサービスは利用できません。これはデータのロードが遅いことがあります。Settings（設定） &gt; Wireless &amp; networks（無線とネットワーク） &gt; Mobile networks（モバイルネットワーク）から3Gサービス設定を変更できます。このカードを選択しますか？"</string>
+    <string name="gemini_3g_disable_warning_case2">"この選択されたカードでは3Gサービスは利用できません。これはデータのロードが遅いことがあります。Settings（設定） &gt; UIM/SIM management（UIM/SIM管理）から3Gサービス設定を変更できます。このカードを選択しますか？"</string>
+    <string name="gemini_3g_disable_warning_case3">"最初にこのカードのデータローミングを有効にする必要があります。それによって高額なローミング請求が発生することがあります。また、このカードでは3Gサービスは利用できません。これはデータのロードが遅いことがあります。Settings（設定） &gt; Wireless &amp; networks（無線とネットワーク） &gt; Mobile networks（モバイルネットワーク）から設定を変更できます。データローミングを有効にして、このカードを選択しますか？"</string>
+    <string name="gemini_3g_disable_warning_case4">"最初にこのカードのデータローミングを有効にする必要があります。それによって高額なローミング請求が発生することがあります。また、このカードでは3Gサービスは利用できません。これはデータのロードが遅いことがあります。Settings（設定） &gt; UIM/SIM management（UIM/SIM管理）から設定を変更できます。データローミングを有効にして、このカードを選択しますか？"</string>
+    <string name="gemini_data_connection_progress_message">"お待ちください…"</string>
+    <string name="apn_name">接続名</string>
+    <string name="apn_apn">アクセスポイント名</string>
+    <string name="apn_http_proxy">"プロキシ"</string>
+    <string name="apn_http_port">"ポート"</string>
+    <string name="apn_user">ユーザー名</string>
+    <string name="apn_password">"パスワード"</string>
+    <string name="apn_server">"サーバー"</string>
+    <string name="apn_mmsc">"MMSC"</string>
+    <string name="apn_mms_proxy">"MMSプロキシ"</string>
+    <string name="apn_mms_port">"MMSポート"</string>
+    <string name="apn_mcc">"MCC"</string>
+    <string name="apn_mnc">"MNC"</string>
+    <string name="apn_auth_type">"認証タイプ"</string>
+    <string name="apn_auth_type_none">"なし"</string>
+    <string name="apn_auth_type_pap">"PAP"</string>
+    <string name="apn_auth_type_chap">"CHAP"</string>
+    <string name="apn_auth_type_pap_chap">"PAPまたはCHAP"</string>
+    <string name="apn_type">"APNタイプ"</string>
+    <string name="apn_protocol">"APNプロトコル"</string>
+    <string name="apn_roaming_protocol">"APNローミングプロトコル"</string>
+    <string name="carrier_enabled">"APNの有効/無効"</string>
+    <string name="carrier_enabled_summaryOn">"APNは有効です"</string>
+    <string name="carrier_enabled_summaryOff">"APNは無効です"</string>
+    <string name="bearer">"ベアラー"</string>
+    <string name="manual_selection_mode">手動選択モード</string>
+    <string name="apn_settings">"アクセスポイント名"</string>
+    <string name="call_settings">"通話設定"</string>
+    <string name="general_setting_title">"全般設定"</string>
+    <string name="sum_general_setting">デバイスの一般的な電話設定</string>
+    <string name="cdma_setting_title">"CDMA通話設定"</string>
+    <string name="sum_cdma_setting">"その他のCDMA専用通話設定"</string>
+    <string name="gsm_setting_title">"GSM通話設定"</string>
+    <string name="sum_gsm_setting">"その他のGSM専用通話設定"</string>
+    <string name="call_setting_tab_general">"全般"</string>
+    <string name="call_setting_tab_SIM">SIM<xliff:g id="slot_id">%1$d</xliff:g>： <xliff:g id="sim_name">%2$s</xliff:g></string>
+    <string name="esurfing_dialing">eSurfingダイヤル</string>
+    <string name="esurfing_dialing_summary">国際ローミング状態でダイヤルする際に、eSurfingダイヤルダイアログを表示する</string>
+    <string name="esurfing_dialing_guide">eSurfingダイヤルガイド</string>
+    <string name="esurfing_dialing_assist">国際ダイヤルアシスト</string>
+    <string name="minutereminder_title">毎分通知</string>
+    <string name="minutereminder_turnon">50秒ごとの毎分通知をONにする</string>
+    <string name="minutereminder_turnoff">毎分通知をOFFにする</string>
+    <string name="dual_mic_title">ノイズリダクション</string>
+    <string name="dual_mic_turnoff">マイクノイズのデュアル消去をOFFにする</string>
+    <string name="dual_mic_turnon">マイクノイズのデュアル消去をONにする</string>
+    <string name="respond_via_sms_setting_title">"クイック返信"</string>
+    <string name="respond_via_sms_setting_summary"/>
+    <string name="tty_mode_option_title">"TTYモード"</string>
+    <string name="tty_mode_option_summary">"TTYモードの設定"</string> 
+    <string name="voice_mail">"ボイスメール"</string>
+    <string name="sum_voice_mail">ボイスメールサービスと番号</string>
+    <string name="ip_prefix_setting">IPプレフィックス番号</string>
+    <string name="ip_prefix_setting_sum">IPプレフィックス番号設定</string>
+    <string name="labelCF">"着信転送"</string>
+    <string name="call_forwarding_settings">"着信転送設定"</string>
+    <string name="ct_labelCFU">"常に転送"</string>
+    <string name="ct_labelCFB">"通話中の着信時に転送"</string>
+    <string name="ct_labelCFNRy">"不在着信時に転送"</string>
+    <string name="ct_labelCFNRc">"着信不能時に転送"</string>
+    <string name="ct_labelCFC">全ての転送をキャンセル</string>
+    <string name="lable_call_barring">"発信制限"</string>
+    <string name="call_barring_sum">ビデオ通話拒否設定</string>
+    <string name="fdn">"発信番号制限"</string>
+    <string name="sum_fdn">"電話番号の指定による発信制限"</string>
+    <string name="additional_gsm_call_settings">"その他の設定"</string>
+    <string name="call_additional_sum">その他</string>
+     <string name="multiple_call_settings">設定</string>   
+     <string name="general_settings">一般設定</string> 
+     <string name="cdma_settings">CDMA設定</string>   
+     <string name="gsm_settings">GSM設定</string>  
+    <string name="failed_data_occupied">データはビジーです。一時的に送信できません。</string>
+    <string name="failed_connection_failed">データ接続に失敗しました！</string>
+    <string name="failed_gateway_no_response">MMSゲートウェイは応答がありません。</string>
+    <string name="failed_abnormal">MMS送信中に異常終了しました。</string>
+    <string name="mms_cancel_download">ダウンロードがキャンセルされました。</string>
+    <string name="disable_delivery_report">ローミング中は有効にできません。</string>
+    <string name="msg_status_sending">送信</string>
+    <string name="msg_status_failed">"失敗しました"</string>
+    <string name="msg_status_success">"送信済み"</string>
+    <string name="msg_status">"ステータス: "</string>
+    <string name="message_type_label">"タイプ: "</string>
+    <string name="text_message">"テキスト メッセージ"</string>
+    <string name="to_address_label">"To: "</string>
+    <string name="sent_label">"送信: "</string>
+    <string name="saved_label">"保存: "</string>
+    <string name="error_code_label">"エラーコード: "</string>
+    <string name="str_today">"今日"</string>
+    <string name="str_yesterday">"昨日"</string>
+    <string name="time_now">"今"</string>
+    <string name="btn_resend_str">失敗したメッセージの再送信を試みる</string>
+    <string name="send">"送信"</string>
+    <string name="memory_full_cannot_save">"メモリがいっぱいのため、メッセージの下書きは保存できませんでした。"</string>
+    <string name="memory_full_cannot_send">"メモリがいっぱいのため、メッセージは送信できません。"</string>
+    <string name="memory_full_cannot_attach">"メモリがいっぱいのため、添付できません。"</string>
+    <string name="memory_full_cannot_download_mms">"メモリがいっぱいのため、MMSはダウンロードできません。"</string>
+    <string name="storage_low_title">メッセージメモリが少なくなっています</string>
+    <string name="storage_low_body">メッセージメモリはほぼいっぱいです。古いメッセージを削除してください。</string>
+    <string name="split_message_apart">メッセージ部分を分割する</string>
+    <string name="split_thread_apart">スレッド部分を分割する</string>
+    <string name="save_msg_to_card">メッセージをUIM/SIMカードに保存する</string>
+    <string name="select_card">UIM/SIMの選択</string>
+    <string name="manage_card_msg_title">UIM/SIMカードメッセージの管理</string>
+    <string name="manage_card_msg_summary">UIM/SIMカードに保存されたメッセージの管理</string>
+    <string name="manage_uim_messages_title">UIMカードにあるテキストメッセージ</string>
+    <string name="uim_empty">UIMカードにはメッセージがありません。</string>
+    <string name="get_uim_capacity_failed">UIM容量の取得に失敗しました。</string>
+    <string name="confirm_delete_uim_msg">UIMにあるこのメッセージは削除されました。</string>
+    <string name="uim_full_title">UIMカードはいっぱいです</string>
+    <string name="roaming_dlg_title">"注意"</string>
+    <string name="romaing_dlg_content">MMSローミング自動取得を有効にするには、最初にデータローミングをオンにする必要があります。</string>
+    <string name="message_cannot_be_operated">現在のモバイルネットワークタイプの制限のため、これだけが読み取りを可能にします。</string>
+    <string name="confirm_delete_selected_messages">現在のネットワーク上にあるSMSキャンプは削除されます。</string>
+    <string name="capacity_sim_card_due_mode">現在の容量は、UIMキャンプがオンのネットワークで変化します。</string>
+    <string name="str_dlg_msg">ローミング中にテキストメッセージの配信レポートの要求はできません。</string>
+    <string name="str_dlg_never_shown">再度通知しない。</string>
+    <string name="change_mms_to_sms">メッセージは複数のテキストメッセージに分割されます。</string>
+    <string name="local_time_msg">現地時間</string>
+    <string name="time_receive">"受信済み"</string>
+    <string name="time_send">"送信済み"</string>
+    <string name="mms">"MMS"</string>
+    <string name="message_details_title">"メッセージの詳細"</string>
+    <string name="download">"ダウンロード"</string>
+    <string name="mms_cancel">"キャンセル"</string>
+    <string name="unsupported_files">ファイル形式がサポートされていません</string>
+    <string name="sim_manage_call_via">以下を経由して通話</string>
+    <string name="yi_dialing_dialog_title">eSurfingダイヤル</string>
+    <string name="dial_to_home_country">本国へダイヤル</string>
+    <string name="international_call">国際電話</string>
+    <string name="ct_callback">**133コールバック</string>
+    <string name="dial_to_another_country">外国へダイヤル</string>
+    <string name="local_call">市内通話</string>
+    <string name="yi_dialing_dialing_call_button">"発信"</string>
+    <string name="call_ip_call_slot_1">カード1経由のIPダイヤル</string>
+    <string name="call_ip_call_slot_2">カード2経由のIPダイヤル</string>
+    <string name="view_call_log_detail">通話ログ詳細を表示</string>
+    <string name="dial_number">番号をダイヤル</string>
+    <string name="send_message">メッセージ送信</string>
+    <string name="delete_from_call_log_list">通話ログリストから削除</string>
+    <string name="delete_all_calls_with_number">番号からすべての通話を削除</string>
+    <string name="delete_all_calls_with_contact">連絡先からすべての通話を削除</string>
+    <string name="ip_dial_number">IPダイヤル</string>
+    <string name="view_contact_detail">連絡先詳細を表示</string>
+    <string name="copy_number">"コピー"</string>
+    <string name="copy_number_to_dialer">ダイヤラーに番号をコピー</string>
+    <string name="save_number_to_contact">"連絡先に追加"</string>
+    <string name="delete_all_calls_with_number_dialog_title">番号からすべての通話を削除</string>
+    <string name="delete_all_calls_with_number_dialog_message">番号からすべての通話を削除しますか？</string>
+    <string name="delete_all_calls_with_contact_dialog_title">連絡先からすべての通話を削除</string>
+    <string name="delete_all_calls_with_contact_dialog_message">連絡先からすべての通話を削除しますか？</string>
+    <string name="contact_detail_detail">詳細</string>
+    <string name="contact_detail_history">"履歴"</string>
+    <string name="contact_detail_update">"更新"</string>
+    <string name="contact_detail_history_mms_received_time">"着信時%1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"%1$sから着信"</string>
+    <string name="contact_detail_history_mms_sent_time">"送信時%1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"%1$sへ送信"</string>
+    <string name="contact_detail_history_calllog">"通話履歴"</string>
+    <string name="contact_detail_history_mms">"メッセージ"</string>
+    <string name="contact_detail_history_duration">"再生時間:"</string>
+    <string name="contact_detail_history_ismms">"マルチメディアメッセージ"</string>
+    <string name="contact_detail_history_empty_calllog">"転送履歴が空です。"</string>
+    <string name="contact_detail_history_empty_message">メッセージ無し</string>
+    <string name="contact_detail_history_empty">"通話メッセージ履歴はありません"</string>
+    <string name="all_calls_with_number">番号からすべての通話</string>
+    <string name="all_calls_with_contact">連絡先からすべての通話</string>
+    <string name="gsm_network">GSMネットワーク</string>
+    <string name="cdma_network">CDMAネットワーク</string>
+    <string name="no_sim_card">"SIMカードが挿入されていません"</string>
+    <string name="no_sim_card_cdma">UIMカードなし</string>
+    <string name="no_search_result">検索結果無し</string>
+    <string name="look_simstorage">SIMカードの容量を見る</string>
+    <string name="dlg_simstorage_content"/>
+    <string name="wallpaper_instructions">"壁紙を設定"</string>
+    <string name="pick_wallpaper">eSurfing壁紙</string>
+    <string name="ct_master_clear_desc">"これは設定をリセットし、電話から次のデータを消去します。\n\n<li>Googleアカウント</li>\n<li>システム、アプリデータ、設定</li>"</string>
+    <string name="personal_data_title">"個人データ"</string>
+    <string name="personal_data_description">"アカウント、連絡先、通話ログ、メッセージ、その他を含む"</string>
+    <string name="install_app_title">"インストール済みのアプリ"</string>
+    <string name="ct_erase_external_storage">ユーザーファイル</string>
+    <string name="ct_encrypt_personal_data_title"><li>"個人データ"</li></string>
+    <string name="ct_encrypt_install_app_title"><li>インストール済みアプリ</li></string>
+    <string name="ct_encrypt_media_data_title"><li>ユーザーファイル</li></string>
+    <string name="ct_erase_external_storage_description">音楽、ビデオ、写真、その他</string>
+    <string name="factory_failed">工場出荷時データリセットに失敗しました。やり直してください。</string>
+    <string name="sim_slot_1">スロット1</string>
+    <string name="sim_slot_2">スロット2</string>
+    <string name="roaming_settings_time_category_title">ローミングの時間設定</string>
+    <string name="cdma_cfu_dialog_sum">"常にこの番号を使用"</string>
+    <string name="enable">"有効にする"</string>
+    <string name="disable">"無効にする"</string>
+    <string name="selectContact">"連絡先を選択"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="save">"保存"</string>
+    <string name="labelCW">"通話中着信"</string>
+    <string name="screen_timeout_summary">"操作が行われない状態で<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g>経過後"</string>
+    <string name="brightness">"明るさ"</string>
+    <string name="apn_not_set">"未設定"</string>
+    <string name="network_selection_settings">ネットワーク選択</string>
+    <string name="quick_settings_roam_data">データローミング</string>
+    <string name="apn">アクセスポイント</string>
+    <string name="dual_sim_settings">デュアルSIM設定</string>
+    <string name="product_model">"モデル番号"</string>
+    <string name="hardware_version">ハードウェアバージョン</string>
+    <string name="software_version">ソフトウェアバージョン</string>
+    <string name="prl_version">"PRLバージョン:"</string>
+    <string name="current_sid">SID</string>
+    <string name="current_nid">NID</string>
+    <string name="current_meid">"MEID"</string>
+    <string name="current_imei1">IMEI1</string>
+    <string name="current_imei2">IMEI2</string>
+    <string name="current_iccid1">ICCID1</string>
+    <string name="current_iccid2">ICCID2</string>
+    <string name="current_uim_id">UIM ID</string>
+    <string name="current_esn">ESN</string>
+    <string name="unknown">不明</string>
+    <string name="menu_eSurfing_dialing">eSurfingダイヤル</string>
+    <string name="dial_to_china_mainland">中国本土へのダイヤル</string>
+    <string name="dial_to_macau">マカオへのダイヤル</string>
+    <string name="dial_to_hongkong">香港へのダイヤル</string>
+    <string name="dial_to_taiwan">台湾へのダイヤル</string>
+    <string name="skip_button_string">"スキップ"</string>
+    <string name="esurfing_dialing_step1">ステップ1：電話番号を入力し（国際アクセスコードおよび国コードは追加不要）、通話ボタンをクリックすると、eSurfingダイヤリングダイアログが自動でポップアップ表示されます。</string>
+    <string name="esurfing_dialing_step2_china_mainland"/>
+    <string name="esurfing_dialing_step2_china_macau"/>
+    <string name="esurfing_dialing_step2_china_hongkong"/>
+    <string name="esurfing_dialing_step2_china_taiwan"/>
+    <string name="esurfing_dialing_step2_china_other"/>
+    <string name="esurfing_dialing_step2_china_callback"/>
+    <string name="esurfing_dialing_step2_china_dial_other"/>
+    <string name="esurfing_dialing_step2_china_dial_local"/>
+    <string name="country_search">"検索します"</string>
+    <string name="country_start">"開始する"</string>
+    <string name="country_exit">"終了"</string>
+    <string name="country_select_americas">アメリカ</string>
+    <string name="country_select_oceania">オセアニア</string>
+    <string name="country_select_europe">"ヨーロッパ"</string>
+    <string name="country_select_asia">"アジア"</string>
+    <string name="country_select_africa">"アフリカ"</string>
+    <string name="country_select_egypt">エジプト</string>
+    <string name="country_select_south_Africa">南アフリカ</string>
+    <string name="country_select_gambia">ガンビア</string>
+    <string name="country_select_egypt_code"/>
+    <string name="country_select_south_Africa_code"/>
+    <string name="country_select_gambia_code"/>
+    <string name="country_select_senegal_code"/>
+    <string name="esurfing_dialing_guide_title">eSurfingダイヤルガイド</string>
+    <string name="esurfing_dialing_guide_cancel">"キャンセル"</string>
+    <string name="private_num">"非通知"</string>
+    <string name="payphone">"電話ボックス"</string>
+    <string name="keyguard_domestic_zone_name">"北京"</string>
+    <string name="switch_on_text">オン</string>
+    <string name="switch_off_text">"OFF"</string>
+    <string name="search_menu">"検索します"</string>
+    <string name="lte_use_summary">LTEネットワークを使用する</string>
+    <string name="enable_lte_data">4Gデータを有効にする</string>
+    <string name="enable_lte_data_summary">4Gは良好で、高速なインターネットアクセスを提供できます</string>
+    <string name="only_use_LTE_data">LTEデータのみ使用します</string>
+    <string name="only_use_LTE_data_summary">単一データ使用のみを有効にすると、機能は通話やテキストメッセージを使用できなくなります。</string>
+    <string name="lte_data_only_prompt">4Gデータ専用モードのため、この機能は使用できません。 4Gデータ専用モードを終了しますか？</string>
+    <string name="lte_data_only_timeout">現在の場所では4Gデータ専用ネットワークが利用できません。これを終了して、他のネットワークを検索しますか？</string>
+    <string name="lte_only_dialog_button_yes">"はい"</string>
+    <string name="lte_only_dialog_button_no">"いいえ"</string>
+    <string name="lte_only_dialog_title_prompt">プロンプト</string> 
+    <string name="lte_sim_dialog_message"/>
+    <string name="no_sim_dialog_message">チャイナテレコムのUIMカードを挿入してください</string>
+    <string name="edit_app_button_text">アプリの編集</string>
+    <string name="hide_app_button_text">アプリの非表示</string>
+    <string name="lockscreen_carrier_default">"通信サービスなし"</string>
+    <string name="lockscreen_missing_sim_message_short">カードがありません</string>
+    <string name="description_dial_button_left">ダイヤル左</string>
+    <string name="description_dial_button_center">ダイヤル中央</string>
+    <string name="description_dial_button_right">ダイヤル右</string>
+    <string name="callFailed_simError_ct">UIM/SIMがない、またはUIM/SIMエラー</string>
+    <string name="simContacts_emptyLoading">UIM/SIMカードからのロード\u2026</string>
+    <string name="simContacts_title">UIM/SIMカードの連絡先</string>
+    <string name="whether_enable_4G">4Gを有効化しています。LTEネットワーク検索中に、現在のネットワークサービスは停止します。続行しますか？</string>
+</resources>

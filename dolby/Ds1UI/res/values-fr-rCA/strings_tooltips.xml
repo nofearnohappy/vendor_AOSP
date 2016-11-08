@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Égaliseur intelligent/Égaliseur graphique</string>
+	<string name="tooltip_eq_text">L’Égaliseur intelligent analyse les données audio et effectue de manière dynamique les réglages nécessaires pour atteindre la réponse en fréquence souhaitée. Choisissez parmi les quatre valeurs prédéfinies, puis touchez le Visualisateur spectral ci-dessus pour apporter vos modifications à l’Égaliseur graphique.</string>
+	<string name="tooltip_sv_title">Virtualiseur surround</string>
+	<string name="tooltip_sv_text">Le Virtualiseur surround crée un son surround réaliste pour tous les casques ou haut-parleurs stéréo. Activez ou désactivez les effets du son surround.</string>
+	<string name="tooltip_de_title">Amplificateur de dialogue</string>
+	<string name="tooltip_de_text">L’Amplificateur de dialogue améliore la clarté des voix pour tout type de média. Activez ou désactivez l’amplification de dialogue.</string>
+	<string name="tooltip_vl_title">Niveleur de volume</string>
+	<string name="tooltip_vl_text">Le Niveleur de volume fournit un niveau de volume identique pour tous types de contenu et toutes les applications en fonction du niveau de volume général de l’appareil. Activez ou désactivez le nivellement automatique du volume.</string>
+</resources>

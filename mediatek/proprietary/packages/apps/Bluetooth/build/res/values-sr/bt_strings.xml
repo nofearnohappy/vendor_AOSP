@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">"Играње преко Bluetooth-а"</string>
+	<string name="app_description">"Пакет Bluetooth профила"</string>
+	<string name="bt_base_activity_busy_message">Учитава се. Молимо сачекајте...</string>
+	<string name="bt_base_activity_service_disconnected">Услуга прекинута!</string>
+	<string name="bt_base_profile_feature_disabled">"Не може да се користи искључена Bluetooth опција."</string>
+	<string name="bt_share_mgmt_tab_in_title">"Преузимање"</string>
+	<string name="bt_share_mgmt_tab_out_title">"Инстант отпремања"</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"Обриши сва обавештења."</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"Повезано с преносом датотеке"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">Операција писања ознаке није исправно довршена.\n\n %1$s\n\n Желите ли да покушате поново?</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"Брисање пречица до недавно изабраних предлога за претрагу"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"Фајл %1$s од %2$s није примљен."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"Фајл %1$s није послат %2$s."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"Фајл %1$s је послат %2$s."</string>
+	<string name="bt_share_mgmt_notification_ticker">"Историја Bluetooth дељења"</string>
+	<string name="bt_share_mgmt_notification_title">"Историја Bluetooth дељења"</string>
+	<string name="bt_share_mgmt_notification_message">"Одаберите да прегледате Иисторију Bluetooth дељења."</string>
+	<string name="bt_share_openfile_title">Нажалост, отварање датотеке није успело.</string>
+	<string name="bt_share_openfile_message_invalid_param">"Неважећи фајл:%1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"Неподржан тип фајла: %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"Фајл није пронађен: %1$s"</string>
+	<string name="bt_share_openfile_confirm">подешавање SMS сервисног центра је успешно</string>
+</resources>

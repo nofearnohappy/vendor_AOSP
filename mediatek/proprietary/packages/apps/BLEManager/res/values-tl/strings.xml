@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">I-tap para i-on ang Bluetooth</string>
+    <string name="tap_to_add_device">I-tap para idagdag ang device</string>
+    <string name="turning_on_bluetooth">I-on ang bluetooth...</string>
+    <string name="launcher_activity_name">Manager ng BLE</string>
+    <string name="scanning_devices">Ini-scan ang mga device</string>
+    <string name="delete_devices">Mangyaring idiskonekta ang isang deivce para ikonekta ang bago</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Alerto"</string>
+    <string name="device_manager">Tagapamahala ng Device</string>
+    <string name="out_of_range_alert_text">Labas ng range na alerto</string>
+    <string name="in_range_alert_text">Loob ng range na alerto</string>
+    <string name="range_alert_text">Aking range</string>
+    <string name="range_alert_summary">Alertong telepono at device kapag ang device ay nasa loob o labas ng range</string>
+    <string name="range_near_text">Malapit</string>
+    <string name="range_middle_text">gitna</string>
+    <string name="range_far_text">"Malayo"</string>
+    <string name="range_1_distance_text">Tinatayang 1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">Mga setting ng alerto ng telepono</string>
+    <string name="ringtone_tye_text">"Ringtone"</string>
+    <string name="volume_text">"Lakas ng Tunog"</string>
+    <string name="vibration_text">Pag-vibrate</string>
+    <string name="vibration_summary_on">naka-on</string>
+    <string name="vibration_summary_off">"Hindi pinagana"</string>
+    <string name="device_name">"Pangalan ng device"</string>
+    <string name="push_notification_text">I-push ang mga notification sa device</string>
+    <string name="incoming_call_notification_text">"May tumatawag"</string>
+    <string name="missed_call_notificaiotn_text">"Hindi nasagot na tawag"</string>
+    <string name="new_message_notification_text">"Bagong mensahe"</string>
+    <string name="new_email_notification_text">"Bagong email"</string>
+    <string name="disconnection_text">Mga setting ng pagdiskonekta</string>
+    <string name="disconnection_waring_title">Alerto sa pagdiskonekta</string>
+    <string name="disconnection_waring_summary">Alerto ng telepono at device kapag hindi nakakonekta ang device</string>
+    <string name="device_name_change_dialog_title">"Palitan ang pangalan"</string>
+    <string name="disconnect_text">"Idiskonekta"</string>
+    <string name="delete_text">"Tanggalin"</string>
+    <string name="connect_text">"Kumonekta"</string>
+    <string name="device_delete_dialog_message">Tanggalin ang device na ito?</string>
+    <string name="device_disconnect_dialog_message">Idiskonekta ang device?</string>
+    <string name="find_all_text">Hanapin lahat</string>
+    <string name="default_images">Mga Default na Imahe</string>
+    <string name="range_information_text">Ang range ay depende sa lakas ng signal. Sa ideal na sitwasyon, ang range ay maaaring mahigit sa 30 metro.  Ang ilang mga elemento ay makakapaikli sa layo sa 15 metro o mas maikli katulad ng iyong katawan, mga dingding at mga ibang hadlang.</string>
+    <string name="range_information_dialog_check_box_text">Huwag muling ipakita</string>
+    <string-array name="device_image_chooser_items">
+        <item>Pumili mula sa default na imahe</item>
+        <item>"Kumuha ng larawan"</item>
+        <item>Pumili mula sa gallery</item>
+    </string-array>
+    <string name="add_device">Magdagdag ng aparato</string>
+    <string name="yes">"Oo"</string>
+    <string name="no">"Hindi"</string>
+    <string name="connecting_text">"Kumukonekta..."</string>
+    <string name="enable_background_service">Paganahin ang Background Mode</string>
+    <string name="disable_background_service">Huwag Paganahin ang Background Mode</string>
+    <string name="ble_manager_alert">BLE Manager Alert</string>
+    <string name="check">Suriin</string>
+    <string name="dismiss">Balewalain</string>
+    <string name="disconnected">"Hindi nakakonekta"</string>
+    <string name="in_range">nasa range</string>
+    <string name="out_of_range">nasa labas ng range</string>
+    <string name="no_found">Walang nahanap na bluetooth device.</string>
+    <string name="bt_off">Naka-off ang bluetooth, paki-on ito.</string>
+</resources>

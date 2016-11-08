@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"完成"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"删除"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"全选"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"取消全选"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"新建"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> 已选择</string>
+    <string name="multichoice_no_select_alert">"没有条目被选中."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">USIM附属号码标签</string>  
+    <string name="aas_phone_type_none">不使用标签</string>  
+    <string name="aas_new_dialog_title">新增标签</string>  
+    <string name="ass_rename_dialog_title">修改标签</string>  
+    <string name="aas_delele_dialog_message">删除所选的标签会影响到所有使用这些标签的附属号码。请确认是否删除？</string>  
+    <string name="aas_name_invalid">标签名不合法，请重新输入</string>  
+    <string name="aas_name_exist">标签名已存在</string>  
+    <string name="aas_usim_full">标签已满。</string>  
+    <string name="ass_edit_assert_message">修改所选的标签会影响到所有使用该标签的附属号码。请确认是否修改？</string>  
+    <string name="aas_new_fail">创建新标签失败</string>  
+    <string name="aas_edit_fail">修改标签 
+        <xliff:g id="aas">%s</xliff:g>失败。
+    </string>  
+    <string name="aas_delete_fail">删除 
+        <xliff:g id="aas">%s</xliff:g>标签失败。
+    </string>  
+    <string name="aas_phone_primary">主号码</string>  
+    <string name="aas_phone_additional">附属号码</string>  
+    <!-- aas strings end--> 
+</resources>

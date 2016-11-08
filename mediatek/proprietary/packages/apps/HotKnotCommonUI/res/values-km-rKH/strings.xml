@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="allow">"អនុញ្ញាត"</string>
+    <string name="deny">"បដិសេធ"</string>
+    <string name="fail_to_share">ការចែករំលែក ឬ​បែងចែក​មិន​បាន​សម្រេច</string>
+    <string name="try_again">"ព្យាយាម​ម្ដង​ទៀត"</string>
+    <string name="hotknot_share">ការចែករំលែក HotKnot</string>
+    <string name="hint1">ធានា​ឲ្យ​បាន​ថា ឧបករណ៍​/ទូរសព្ទ​ទទួល​មាន​បើក HotKnot ហើយៗ អេក្រង់​វា​មិន​មាន​ជាប់​សោ។</string>
+    <string name="hint2">ដាក់​ឧបករណ៍/​ទូរសព្ទ​អ្នក​ទៅ​លើ​ឧបករណ៍/​ទូរសព្ទ​ទទួល​ឲ្យ​អេក្រង់​នៅ​ទល់​គ្នា។</string>
+    <string name="hint3">យក​ឧបករណ៍/​ទូរសព្ទ​អ្នក​ចេញ​ពី​ឧបករណ៍​/​ទូរសព្ទ​ទទួល ក្រោយ​ពេល​អ្នក​បាន​ស្ដាប់ឮ​សំឡេង​ណែនាំ។</string>
+    <string name="use_hotknot">កម្មវិធី​នេះ​ចាំបាច់​ត្រូវ​ប្រើ​បច្ចេកវិជ្ជា HotKnot លើ​ឧបករណ៍/​ទូរសព្ទ​អ្នក។</string>
+    <string name="fail_to_share_conn_error">ការចែករំលែក​មិន​បាន​សម្រេច ដោយ​សារ​មាន​បញ្ហា​នៃ​ការភ្ជាប់។</string>
+    <string name="fail_to_share_unknown_error">ការចែករំលែក​មិន​បាន​សម្រេច ដោយ​សារ​មាន​បញ្ហា​​អនាមិក។</string>
+    <string name="usb_warning">អាច​នឹង​មាន​ផលប៉ះពាល់​ដល់​មុខងារ HotKnot នៅ​កំឡុងពេល​សាក​ដោយ​ប្រើ USB។</string>
+</resources>

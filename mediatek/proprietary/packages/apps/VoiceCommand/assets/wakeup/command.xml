@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<VoiceWakeupInfos>
+    <!-- voice wakeup command list array size less than 5 is best -->
+	<VoiceWakeupInfo PackageName="com.android.contacts"
+		ClassName="com.android.contacts.activities.PeopleActivity" ID="0" />
+</VoiceWakeupInfos>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For Rcs settings plugin -->
+    <style name="SettingsPluginBase" parent="@android:style/Theme.Material.Settings">
+    </style>
+
+</resources>

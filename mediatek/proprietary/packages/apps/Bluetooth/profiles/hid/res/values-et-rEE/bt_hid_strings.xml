@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">Juhtmeta sisestusseade</string>
+  <string name="bluetooth_hid_connect">"Ühenda"</string>
+    <string name="bluetooth_hid_disconnect">"Katkesta ühendus"</string>
+	<string name="bluetooth_hid_unplug">Eemalda</string>
+	<string name="bluetooth_hid_addnewdevice">Lisa uus seade</string>
+  <string name="bluetooth_hid_paireddevices">Seotud juhtmeta sisestusseade</string>
+	<string name="bluetooth_hid_bt_ok">Bluetoothi aktiveerimine õnnestus.</string> 
+	<string name="bluetooth_hid_bt_fail">Bluetoothi aktiveerimine nurjus.</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">Katkesta ühendus juhtmeta sisestusseadmega</string>
+  <string name="bluetooth_hid_unplug_confirm_title">Eemalda juhtmeta sisestusseade</string>
+  <string name="bluetooth_hid_auth_confirm_title">Võta juhtmeta sisestusseadme palve vastu</string>
+  <string name="bluetooth_hid_summary_connected">"Ühendatud"</string> 
+	<string name="bluetooth_hid_summary_connecting">"Ühendan..."</string>
+	<string name="bluetooth_hid_summary_not_connected">Seotud, aga ühendamata</string>
+	<string name="bluetooth_hid_yes">"Jah"</string> 
+	<string name="bluetooth_hid_no">"Ei"</string>
+  <string name="bluetooth_hid_connected_notify_ticker">Juhtmeta sisestusseade ühendatud</string>
+  <string name="bluetooth_hid_connected_notify_title">Juhtmeta sisestusseade ühendatud</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">Palve juhtmeta sisestusseadme ühendamiseks</string>
+  <string name="bluetooth_hid_connect_request_notify_title">Palve juhtmeta sisestusseadme ühendamiseks</string>
+    <string name="bluetooth_hid_connected_notify_message">Valige ühenduse katkestamiseks %1$s-ga</string>
+    <string name="bluetooth_hid_connect_request_notify_message">Valige %1$s ühenduspalve vastuvõtuks või sellest keeldumiseks</string>
+  <string name="bluetooth_hid_connect_ok">Juhtmeta sisestusseadme %1$s ühendamine õnnestus.</string>
+  <string name="bluetooth_hid_connect_fail">Juhtmeta sisestusseadme %1$s ühendamine nurjus.</string>
+  <string name="bluetooth_hid_disconnect_ok">Juhtmeta sisestusseadme %1$s ühendus katkestatud.</string>
+  <string name="bluetooth_hid_disconnect_fail">Juhtmeta sisestusseadme %1$s ühenduse katkestatamine nurjus.</string>
+  <string name="bluetooth_hid_unplug_ok">Juhtmeta sisestusseade %1$s eemaldatud.</string>
+  <string name="bluetooth_hid_unplug_fail">Juhtmeta sisestusseadme %1$s eemaldamine nurjus.</string>
+  <string name="bluetooth_hid_disconnect_confirm">Kas soovite ühenduse juhtmeta sisestusseadmega %1$s katkestada?</string>
+  <string name="bluetooth_hid_unplug_confirm">Kas soovite juhtmeta sisestusseadme %1$s eemaldada?</string>
+  <string name="bluetooth_hid_auth_confirm">Kas soovite võtta vastu palve juhtmeta sisestusseadmest %1$s?</string>
+  <string name="bluetooth_hid_summary_disconnecting">Ühenduse katkestamine...</string>
+</resources>

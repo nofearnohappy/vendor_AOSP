@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="allow">ခွင့်ပြုမည်</string>
+    <string name="deny">ငြင်းပယ်</string>
+    <string name="fail_to_share">ဝေမျှရန် မအောင်မြင်ပါ</string>
+    <string name="try_again">ပြန်ကြိုးစားကြည့်ပါ</string>
+    <string name="hotknot_share">HotKnot ဝေမျှခြင်း</string>
+    <string name="hint1">လက်ခံနေသောကိရိယာတွင် HotKnot ဖွင့်ထားပြီး ၎င်း၏စခရင်ကို သော့ဖွင့်ထားကြောင်း သေချာပါစေ။</string>
+    <string name="hint2">သင့်ကိရိယာနှင့် လက်ခံနေသော ကိရိယာကို စခရင်ချင်း ထိစပ်ထားပါ။</string>
+    <string name="hint3">အသံတစ်ခု ကြားသောအခါ သင့်ကိရိယာကို လက်ခံနေသော ကိရိယာမှ အဝေးသို့ ယူလိုက်ပါ။</string>
+    <string name="use_hotknot">ဤအပလီကေးရှင်း အတွက် သင့်ကိရိယာတွင် HotKnot နည်းပညာသုံးရန် လိုအပ်သည်။</string>
+    <string name="fail_to_share_conn_error">ချိတ်ဆက်မှု ပြဿနာကြောင့် ဝေမျှရန် မအောင်မြင်ပါ။</string>
+    <string name="fail_to_share_unknown_error">မသိသောအမှားကြောင့် ဝေမျှရန် မအောင်မြင်ပါ။</string>
+    <string name="usb_warning">USB နှင့်အားသွင်းစဉ်အတွင်း HotKnot လုပ်ဆောင်ချက် သက်ရောက်မှုရှိလိမ့်မည်။</string>
+</resources>

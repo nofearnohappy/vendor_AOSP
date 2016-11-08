@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Εξυπηρέτηση πελατών</string>  
+    <string name="hotLine">Γραμμή εξυπηρέτησης πελατών της China Unicom</string>
+    <string name="app_not_found">"Δεν βρέθηκε εφαρμογή για τη διαχείριση αυτής της ενέργειας."</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">اسکن</string>  
+    <!-- Search widget -->  
+    <string name="search_widget">اسکن</string>  
+    <!-- Text in the dialog for confirming whether to remove an item from the search
+         history. [CHAR_LIMIT=40] -->  
+    <string name="remove_from_history">آیا می‌خواهید این مورد را از سابقه جستجو حدف کنید؟</string>
+    <!-- Toast text shown when the app fails to remove an item from
+         the search history. [CHAR_LIMIT=60] -->  
+    <string name="remove_from_history_failed">حذف مورد از سابقه ممکن نیست.</string>
+    <!-- Source selector -->  
+    <string name="corpus_selection_heading">اسکن</string>  
+    <string name="corpus_label_global">"همه"</string>  
+    <!-- Name of the combined Web source shown in QSB -->  
+    <string name="corpus_label_web">وب</string>  
+    <!-- Description of the combined Web source shown in QSB -->  
+    <string name="corpus_description_web">جستجوی اینترنتی، نشانه‌ها و سابقه مرورگر</string>
+    <!-- Name of the Apps source shown in QSB -->  
+    <string name="corpus_label_apps">"برنامه کاربردی"</string>  
+    <!-- Settings description for the Apps source shown in QSB -->  
+    <string name="corpus_description_apps">نام برنامه های نصب شده</string>  
+    <!-- Search hint for the Apps source shown in QSB -->  
+    <string name="corpus_hint_apps">جستجوی برنامه ها</string>  
+    <!-- Search settings stuff -->  
+    <!-- Search settings menu item -->  
+    <string name="menu_settings">تنظیمات جستجو</string>  
+    <!-- Search settings title -->  
+    <string name="search_settings">تنظیمات جستجو</string>  
+    <!-- Title for Google Account category of search settings.
+         [CHAR LIMIT=20] -->  
+    <string name="google_settings_category_title">جستجوی Google</string>  
+    <!-- Title for 'device' category of search settings 
+        [CHAR LIMIT=20] -->  
+    <string name="device_settings_category_title">پاک کردن میانبرها</string>  
+    <!-- Title for 'system search' category of search settings -->  
+    <string name="system_search_category_title">تلفن</string>  
+    <!-- Title and summary for 'search sources' link for system search -->  
+    <string name="search_sources">موارد قابل جستجو</string>  
+    <string name="search_sources_summary">"انتخاب چیزی که باید در گوشی جستجو شود"</string>  
+    <!-- Title and summary used for the option to clear search shortcuts from the system
+         search history -->  
+    <string name="clear_shortcuts">پاک کردن میانبرها</string>  
+    <string name="clear_shortcuts_summary">"پاک کردن میانبرهای پیشنهادات جستجوی انتخاب شده اخیر"</string>  
+    <!--[CHAR LIMIT=200] Title used in the dialog shown after choosing the 'clear search shortcuts' setting. -->  
+    <string name="clear_shortcuts_prompt">"آیا مایلید کلیه میانبرهای مربوط به پیشنهادهای جستجوی اخیراً انتخاب شده را پاک کنید؟"\n\n"برای پاک کردن سابقه مرورگر خود، از تنظیمات مرورگز استفاده کنید."</string>
+    <!--[CHAR LIMIT=30] Text used on the button to clear shortcuts in the dialog shown after choosing the 'clear search shortcuts' setting. -->  
+    <string name="clear_shortcuts_agree">"تأیید"</string>  
+    <!--[CHAR LIMIT=30] Text used on the button to cancel in the dialog shown after choosing the 'clear search shortcuts' setting. -->  
+    <string name="clear_shortcuts_disagree">"لغو"</string>  
+    <!-- Help menu item. Opens a web page with information about how to use Quick Search Box.
+         [CHAR LIMIT=20] -->  
+    <string name="menu_help">راهنمایی</string>  
+    <!-- Search source label for the Google search source. -->  
+    <string name="google_search_label">"Google"</string>  
+    <!-- The search activity label. -->  
+    <string name="google_app_label">جستجوی Google</string>  
+    <!-- This is the hint text shown in the search widget, before text is entered. -->  
+    <!-- This translation MUST MATCH the string "search_hint" which is found in
+         Home/res/values/strings.xml -->  
+    <string name="google_search_hint">جستجوی Google</string>  
+    <!-- Search settings description for the Google search source. [CHAR LIMIT=50] -->  
+    <string name="google_search_description">پیشنهادات جستجوی Google</string>  
+    <!-- Title for Voice Search hints bubble -->  
+    <string name="voice_search_hint_title">بگویید:</string>  
+    <!-- Starting quotation marks of the voice search hint -->  
+    <string name="voice_search_hint_quotation_start">"</string>  
+    <!-- Ending quotation marks of the voice search hint -->  
+    <string name="voice_search_hint_quotation_end">"</string>  
+    <!-- Search Engine Settings label -->  
+    <!-- Settings summary -->  
+    <!-- Settings category title for 'Search suggestion settings' settings activity -->  
+    <!-- Settings category title for 'Search engine setting' settings activity -->  
+</resources>

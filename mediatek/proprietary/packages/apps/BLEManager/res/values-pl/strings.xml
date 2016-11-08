@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Stuknij, aby włączyć funkcję Bluetooth</string>
+    <string name="tap_to_add_device">Stuknij, aby dodać urządzenie</string>
+    <string name="turning_on_bluetooth">Trwa włączanie funkcji Bluetooth...</string>
+    <string name="launcher_activity_name">Menedżer BLE</string>
+    <string name="scanning_devices">Wyszukiwanie urządzeń</string>
+    <string name="delete_devices">Odłącz jedno urządzenie, aby połączyć nowe</string>
+    <string name="cancel">"Anuluj"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">Alerty</string>
+    <string name="device_manager">Menedżer urządzeń</string>
+    <string name="out_of_range_alert_text">Alert urządzenia poza zasięgiem</string>
+    <string name="in_range_alert_text">Alert urządzenia w zasięgu</string>
+    <string name="range_alert_text">Mój zasięg</string>
+    <string name="range_alert_summary">Alert telefonu i urządzenia, gdy urządzenie znajduje się w zasięgu lub poza zasięgiem</string>
+    <string name="range_near_text">W pobliżu</string>
+    <string name="range_middle_text">Średni</string>
+    <string name="range_far_text">"Małe"</string>
+    <string name="range_1_distance_text">Około 1 m</string>
+    <string name="range_10_distance_text">1–10 m</string>
+    <string name="range_20_distance_text">10–20 m</string>
+    <string name="phone_alert_settings">Ustawienia alertów telefonu</string>
+    <string name="ringtone_tye_text">"Dzwonek"</string>
+    <string name="volume_text">"Głośność"</string>
+    <string name="vibration_text">Wibracje</string>
+    <string name="vibration_summary_on">"Wł."</string>
+    <string name="vibration_summary_off">"Wyłączone"</string>
+    <string name="device_name">"Nazwa urządzenia"</string>
+    <string name="push_notification_text">Powiadomienia push do urządzenia</string>
+    <string name="incoming_call_notification_text">"Połączenie przychodzące"</string>
+    <string name="missed_call_notificaiotn_text">"Nieodebrane połączenie"</string>
+    <string name="new_message_notification_text">"Nowa wiadomość"</string>
+    <string name="new_email_notification_text">Nowa wiadomość e-mail</string>
+    <string name="disconnection_text">Ustawienia rozłączania</string>
+    <string name="disconnection_waring_title">Alert rozłączania</string>
+    <string name="disconnection_waring_summary">Alert telefonu i urządzenia w przypadku rozłączenia urządzenia</string>
+    <string name="device_name_change_dialog_title">"Zmień nazwę"</string>
+    <string name="disconnect_text">"Rozłącz"</string>
+    <string name="delete_text">"Usuń"</string>
+    <string name="connect_text">"Połącz"</string>
+    <string name="device_delete_dialog_message">Usunąć to urządzenie?</string>
+    <string name="device_disconnect_dialog_message">Rozłączyć to urządzenie?</string>
+    <string name="find_all_text">Znajdź wszystkie</string>
+    <string name="default_images">Obrazy domyślne</string>
+    <string name="range_information_text">Zasięg zależy od siły sygnału. W idealnych warunkach zasięg może przekraczać 30 metrów.  Określone obiekty, takie jak ciało użytkownika, ściany i inne przeszkody, mogą skrócić odległość do 15 lub mniej metrów.</string>
+    <string name="range_information_dialog_check_box_text">Nie pokazuj ponownie</string>
+    <string-array name="device_image_chooser_items">
+        <item>Wybierz z obrazów domyślnych</item>
+        <item>"Zrób zdjęcie"</item>
+        <item>Wybierz z galerii</item>
+    </string-array>
+    <string name="add_device">Dodaj urządzenie</string>
+    <string name="yes">"Tak"</string>
+    <string name="no">"Nie"</string>
+    <string name="connecting_text">"Łączę..."</string>
+    <string name="enable_background_service">Włącz tryb tła</string>
+    <string name="disable_background_service">Wyłącz tryb tła</string>
+    <string name="ble_manager_alert">Alert menedżera BLE</string>
+    <string name="check">Sprawdź</string>
+    <string name="dismiss">Odrzuć</string>
+    <string name="disconnected">"Odłączone"</string>
+    <string name="in_range">w zasięgu</string>
+    <string name="out_of_range">poza zasięgiem</string>
+    <string name="no_found">Nie znaleziono żadnego urządzenia Bluetooth.</string>
+    <string name="bt_off">Funkcja Bluetooth jest wyłączona; włącz ją.</string>
+</resources>

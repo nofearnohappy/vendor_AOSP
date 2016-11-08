@@ -1,0 +1,16 @@
+OP15 SBP Value.
+
+This file is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+It is a SBP value for OP15.
+
+HOW IT WAS BUILT?
+==================
+When SBP is enabled, this value is set.
+
+HOW TO USE IT?
+==============
+When first time start up, the value will bet written into modem.

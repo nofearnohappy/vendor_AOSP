@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+A bound service for recording some data that used or set by other applications.
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+MTK_DM_AGENT_SUPPORT
+
+HOW TO USE IT?
+==============
+Always called by other applications.
+This DmAgent service can be get by using ServiceManger.

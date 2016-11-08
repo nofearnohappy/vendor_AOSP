@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="bt_prxm_link_loss_level_entries">
+		<item>သတိေပးခ်က္မရွိ</item>
+		<item>သတိေပးခ်က္ အေသးစား</item>
+		<item>သတိေပးခ်က္ အႀကီးစား</item>
+	</string-array>
+	<string-array name="bt_prxm_path_loss_level_entries">
+		<item>သတိေပးခ်က္မရွိ</item>
+		<item>သတိေပးခ်က္ အေသးစား</item>
+		<item>သတိေပးခ်က္ အႀကီးစား</item>
+	</string-array>
+</resources>

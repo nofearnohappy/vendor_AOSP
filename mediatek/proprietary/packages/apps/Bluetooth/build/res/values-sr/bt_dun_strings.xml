@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_dun_authorize_title">"Ауторизовање Bluetooth позивне везе"</string>
+	<string name="bluetooth_dun_authorize_message">"Дозволити захтев за позивну везу од %1$s?"</string>
+	<string name="bluetooth_dun_authorize_allow">"Дозволи"</string>
+	<string name="bluetooth_dun_authorize_decline">Брзина преноса података ће опадати.</string>
+	<string name="bluetooth_dun_notification_connect_request_ticker">"Bluetooth захтев за ауторизовање позивне везе"</string>
+	<string name="bluetooth_dun_notification_connect_request_title">"Bluetooth захтев за ауторизовање позивне везе"</string>
+	<string name="bluetooth_dun_notification_connect_request_message">"Одаберите да прихватите захтев од %1$s"</string>
+</resources>

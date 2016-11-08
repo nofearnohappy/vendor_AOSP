@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.dolby.ds1appUI"
+	android:installLocation="auto"
+	android:sharedUserId="android.uid.system"
+	android:versionCode="1"
+	android:versionName="1.0" >
+
+	<supports-screens
+		android:largeScreens="true"
+		android:normalScreens="true"
+		android:smallScreens="false"
+		android:xlargeScreens="true" />
+
+	<compatible-screens>
+		<screen
+			android:screenDensity="mdpi"
+			android:screenSize="normal" />
+		<screen
+			android:screenDensity="hdpi"
+			android:screenSize="normal" />
+		<screen
+			android:screenDensity="xhdpi"
+			android:screenSize="normal" />
+		<screen
+			android:screenDensity="mdpi"
+			android:screenSize="large" />
+		<screen
+			android:screenDensity="mdpi"
+			android:screenSize="xlarge" />
+	</compatible-screens>
+
+	<uses-sdk
+		android:minSdkVersion="17"
+		android:targetSdkVersion="17" />
+
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<!-- http://developer.android.com/guide/topics/manifest/application-element.html#debug -->
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<application
+		android:name="com.dolby.ds1appCoreUI.DS1Application"
+		android:hardwareAccelerated="true"
+		android:icon="@drawable/launch_icon"
+		android:label="@string/app_name"
+		android:theme="@style/windowsStyle"
+		android:supportsRtl="true" >
+		<activity
+			android:name="com.dolby.ds1appUI.MainActivity"
+			android:label="@string/app_name"
+			android:windowSoftInputMode="adjustPan"
+			android:launchMode="singleTask" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="com.dolby.LAUNCH_DS_APP" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<!-- http://developer.android.com/guide/topics/manifest/activity-element.html -->
+		<activity
+			android:name="com.dolby.instoredemoapp.DlbInStoreDemoPlayer"
+			android:configChanges="screenSize|orientation|keyboardHidden"
+			android:exported="false"
+			android:finishOnTaskLaunch="true"
+			android:label="@string/instore_app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+			<intent-filter>
+				<action android:name="com.dolby.LAUNCH_DS1_INSTOREDEMO_APP" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>

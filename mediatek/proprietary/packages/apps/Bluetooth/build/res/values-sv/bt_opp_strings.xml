@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Inkommande filbegäran"</string>
+	<string name="bt_opp_notification_in_coming_title">"Inkommande filbegäran (från: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Välj att acceptera inkommande fil."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Tillåt inkommande överföringar"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Tar emot: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Utgående fil"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Skickar: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"เชื่อมต่อไปยังการถ่ายโอนไฟล์"</string>
+	<string name="bt_opp_cancel_task_message">"Avbryta denna överföring?"</string>
+	<string name="bt_opp_cancel_task_yes">"Ja"</string>
+	<string name="bt_opp_cancel_task_no">Ingen applikation tillgänglig för utskrift av kontakten.</string>
+	<string name="bt_opp_canceling_task_message">"Avbryter överföring, vänligen vänta…"</string>
+	<string name="bt_opps_confirm_push_title">"Inkommande objekt via Bluetooth"</string>
+	<string name="bt_opps_confirm_push_message">"Inkommande fil: %1$s (%2$s) från %3$s. Acceptera?"</string>
+	<string name="bt_opps_confirm_push_yes">Acceptera Auto-push-tjänsten eller inte?</string>
+	<string name="bt_opps_confirm_push_no">Avvisa</string>
+	<string name="bt_oppc_push_action_label">"Spelar upp genom Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Skickar fil till %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Skickar filer till %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Innehållet för delning stöds inte: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Inget SD-kort eller inte tillräckligt med lagringsutrymme för den inkommande filen."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Ogiltig delningsbegäran från fjärrenhet."</string>
+</resources>

@@ -1,0 +1,22 @@
+Library of MTK Voice_Unlock.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libvoiceunlock_32.a / libvoiceunlock_64.a contains MediaTek developed Voice_Unlock.  
+With Voice_Unlock, users can use the voice unlock function.
+
+HOW IT WAS BUILT?
+==================
+
+Please modify ProjectConfig.mk at the related device such as alps/device/mediatek/k2v1_64/ 
+MTK_VOICE_UNLOCK_SUPPORT = yes
+
+HOW TO USE IT?
+==============
+
+Please refer to the MM/MTD/ASP team.
+
+All the source code of this library were written by MediaTek co..

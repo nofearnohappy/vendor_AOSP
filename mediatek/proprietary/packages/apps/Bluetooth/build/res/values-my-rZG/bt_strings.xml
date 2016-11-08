@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">ဘလူးတုသ္ မွတဆင့္ ဖြင့္ေနသည္</string>
+	<string name="app_description">"ဘလူးတု(သ္)ပ႐ိုဖိုင္ ပက္ေက့အစု"</string>
+	<string name="bt_base_activity_busy_message">ဖြင့္ေနဆဲ။ ေစာင့္ဆိုင္းပါ…</string>
+	<string name="bt_base_activity_service_disconnected">ဝန္ေဆာင္မႈဆားဗစ္ ခ်ိတ္ဆက္မႈအား ျဖဳတ္ၿပီး။</string>
+	<string name="bt_base_profile_feature_disabled">"ပိတ္ထားသည့္ ဘလူးတု(သ္) အဆင္အျပင္အား အသံုးမျပဳႏိုင္ပါ။"</string>
+	<string name="bt_share_mgmt_tab_in_title">ေဒါင္းလုဒ္လုပ္ေနဆဲ</string>
+	<string name="bt_share_mgmt_tab_out_title">အရန္သင့္အပ္လုဒ္မ်ား</string>
+	<string name="bt_share_mgmt_tab_menu_clear">အေၾကာင္းၾကားခ်က္ အားလံုးကို ရွင္းပစ္သည္။</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"ဖိုင္လႊဲေျပာင္းျခင္းသို႔ ခ်ိတ္ဆက္ခဲ့သည္"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">တက္ဂ္ေရးသားေသာ လုပ္ေဆာင္ခ်က္မွာ မွန္ကန္စြာ မၿပီးဆံုးပါ။\n\n %1$s\n\n သင္ျပန္ႀကိဳးစား လိုပါသလား။</string>
+	<string name="bt_share_mgmt_tab_dialog_no">မၾကာေသးမီက ေရြးခ်ယ္ခဲ့ေသာ ရွာေဖြရန္ အဆိုျပဳခ်က္မ်ား အတိုနည္းမ်ားကို ရွင္းလင္းသည္</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"%2$s မွ ဖိုင္ %1$s မရရွိပါ။"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"ဖိုင္ %1$s အား %2$s သို႔ မေပးပို႔ထားပါ။"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"ဖိုင္ %1$s အား %2$s သို႔ မေပးပို႔ထားပါ။"</string>
+	<string name="bt_share_mgmt_notification_ticker">"ဘလူးတု(သ္) ေဝမွ်ခ်က္မွတ္တမ္း"</string>
+	<string name="bt_share_mgmt_notification_title">"ဘလူးတု(သ္) ေဝမွ်ခ်က္မွတ္တမ္း"</string>
+	<string name="bt_share_mgmt_notification_message">"ဘလူးတု(သ္) ေဝမွ်ခ်က္မွတ္တမ္း ၾကည့္ရန္ ေရြးခ်ယ္ပါ။"</string>
+	<string name="bt_share_openfile_title">ဝမ္းနည္းပါတယ္။ ဖိုင္ကို ဖြင့္၍မရပါ။</string>
+	<string name="bt_share_openfile_message_invalid_param">"ဖိုင္အသံုးမရွိပါ- %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"အေထာက္အပံ့ မေပးေသာ ဖိုင္အမ်ဳိးအစား- %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"ဖိုင္ရွာမေတြ႕ပါ: %1$s"</string>
+	<string name="bt_share_openfile_confirm">SMS ဆားဗစ္စင္တာထားရွိျခင္း ေအာင္ျမင္</string>
+</resources>

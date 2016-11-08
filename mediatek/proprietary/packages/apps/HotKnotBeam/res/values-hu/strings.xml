@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Fogadás indítása...</string>
+    <string name="notification_group_title"><xliff:g id="number">%d</xliff:g> fájl fogadása...</string> 
+    <string name="notification_download_done">Érintse meg a részletek megtekintéséhez</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> fájl fogadva</string>
+    <string name="notification_received">Sikeresen fogadva</string> 
+    <string name="notification_download_failure">Sikertelen fogadás a következő miatt: <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Fogadás megszakítva</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> fájl sikertelen</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> fájl sikertelen, <xliff:g id="number">%d</xliff:g> fájl fogadva</string>
+    <string name="download_no_file">A fájl nem létezik</string>
+    <string name="notification_sending">Küldés indítása…</string>
+    <string name="notification_group_upload_title"><xliff:g id="number">%d</xliff:g> fájl küldése...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> fájl elküldve</string>
+    <string name="notification_sent">Sikeres küldés</string>
+    <string name="notification_upload_failed">Sikertelen küldés a következő miatt: <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Küldés megszakítva</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> fájl sikertelen</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> fájl sikertelen, <xliff:g id="number">%d</xliff:g> fájl elküldve</string>
+    <string name="low_storage">kevés a tárhely</string>
+    <string name="connect_failure">"Csatlakozási probléma"</string>
+    <string name="unknown_error">Ismeretlen hiba</string>
+    <string name="share_label">HotKnot-megosztás</string>
+    <string name="rx_ui_image_status">Kép fogadása innen: <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> kép fogadása innen: <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Videó fogadása innen: <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> videó fogadása innen: <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Fájl fogadása innen: <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> fájl fogadása innen: <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Zene fogadása innen: <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> zene fogadása innen: <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">A fogadás nincs kész</string>
+</resources>

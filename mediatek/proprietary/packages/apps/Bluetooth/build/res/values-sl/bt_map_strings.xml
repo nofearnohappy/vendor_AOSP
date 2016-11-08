@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Zahtevek za dovoljenje za oddaljen dostop do sporočil"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Zahtevek za dovoljenje za oddaljen dostop do sporočil"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"To možnost izberite, da bi dovolili povezavo za dostop do sporočil"</string>
+	<string name="bluetooth_map_server_authorize_title">"Zahtevek za dovoljenje za oddaljen dostop do sporočil"</string>
+	<string name="bluetooth_map_server_authorize_message">"Dovoli zahtevek za oddaljen dostop do sporočil od %1$s"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Dovoli"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Zavrni</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Vzpostavljena je povezava za način oddaljenega dostopa do sporočil"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s dostopa do vaših sporočil"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"To možnost izberite, da bi prekinili povezavo s/z %1$s"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Prekini povezavo za oddaljen dostop do sporočil"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Prekinem povezavo s/z %1$s?"</string>
+  <string name="bluetooth_map_server_yes">"Da"</string>
+	<string name="bluetooth_map_server_no">Za tiskanje stika ni na voljo noben program.</string>
+	<string name="bluetooth_map_server_settings">"Nastavitve oddaljenega dostopa do sporočil"</string>
+	<string name="bluetooth_map_server_enable_title">"Zahtevek za dovoljenje za oddaljen dostop do sporočil"</string>
+	<string name="bluetooth_map_server_enable_summary">"Vključi združljivost slušnega pripomočka"</string>
+	<string name="bluetooth_map_server_sim_index_title">Izberite SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Izberite e-poštni račun"</string>
+	<string name="bluetooth_map_server_no_account">"E-poštni račun ni na voljo"</string>
+	<string name="bluetooth_map_server_OK">Nastavitev središča za storitve SMS je pravilna</string>
+	<string name="bluetooth_map_server_cancel">"Ali res želite preklicati prenos?\nPritisnite Naprej za nadaljevanje prenosa\n Pritisnite Zavrzi za opustitev prenosa in izbris prenesene datoteke"</string>
+</resources>

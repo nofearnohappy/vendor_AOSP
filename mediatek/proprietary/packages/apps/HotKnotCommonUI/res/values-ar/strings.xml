@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">مشاركة HotKnot</string>
+    <string name="hint1">تأكد أن جهاز الاستقبال قام بتشغيل HotKnot, واجعل الشاسة مغلقة باستمرار.</string>
+    <string name="hint2">ضع الجهاز الخاص بك على جهاز الاستقبال بحيث تكون الشاشة مقابل الشاشة.</string>
+    <string name="hint3">ابعد الجهاز الخاص بك عن جهاز الاستقبال بعد سماع مطالبة صوتية.</string>
+    <string name="use_hotknot">يحتاج هذا التطبيق لاستخدام تكنولوجيا HotKnot على الجهاز الخاص بك.</string>
+    <string name="allow">"سماح"</string>
+    <string name="deny">"رفض"</string>
+    <string name="fail_to_share">فشل المشاركة </string>
+    <string name="fail_to_share_conn_error">فشل المشاركة بسبب مشكلة في الاتصال.</string>
+    <string name="fail_to_share_unknown_error">فشل المشاركة بسبب خطأ غير معروف.</string>
+    <string name="try_again">"حاول مرة أخرى"</string>
+    <string name="usb_warning">قد تتأثر وظيفة HotKnot أثناء الشحن من خلال USB.</string>
+</resources>

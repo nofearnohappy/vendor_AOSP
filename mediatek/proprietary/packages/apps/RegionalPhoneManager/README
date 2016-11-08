@@ -1,0 +1,26 @@
+WHAT IT DOES?
+==================
+This is a Mediatek feature for configure phone automatically according to SIM card information.
+1. Change boot animation
+2. Change default wallpaper
+3. Configure browser bookmarks and default search engine
+4. Configure APN settings
+5. Configure SMS/MMS related settings
+6. Configure WIFI & NITZ settings 
+
+
+HOW IT WAS BUILD?
+===================
+1. The featureoption MTK_REGIONALPHONE_SUPPORT should be true.
+2. The featureoption MTK_TER_SERVICE should be true.
+
+[Build Method]
+make RegionalPhoneManager
+or
+mmm vend/mediatek/proprietary/packages/apps/RegionalPhoneManager
+
+HOW TO USE IT?
+====================
+Insert valid SIM card and first boot up the device will start it.
+All api interface are at (vendor/mediatek/proprietary/packages/apps/RegionalPhoneManager)
+All the source code of this library were written by MediaTek co..

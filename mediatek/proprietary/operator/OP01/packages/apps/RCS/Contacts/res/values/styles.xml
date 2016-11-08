@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="DirectoryHeaderStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/people_secondary_text_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+   
+	<style name="ContactPickerTheme" parent="@android:style/Theme.Material.Light" >
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="list_item_padding_right">32dp</item>
+        <item name="list_item_padding_left">16dip</item>
+        <item name="list_item_header_text_indent">8dip</item>
+        <item name="android:colorPrimaryDark">@color/statusbar_background_dark</item>
+        <item name="android:colorPrimary">@color/actionbar_background_color</item>
+    </style>
+
+    <style name="ContactsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@style/ContactsActionBarTitleText</item>
+        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:homeAsUpIndicator">@drawable/action_bar_back_arrow</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="ContactsActionBarTitleText"
+           parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="@android:Theme.Material.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:colorPrimaryDark">@color/statusbar_background_dark</item>
+        <item name="android:colorPrimary">@color/actionbar_background_color</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <style name="SuggestionStyle" parent="@android:style/Theme.Material.Light">    
+    	<item name="suggestion_photo_background">@color/suggestion_photo_default_color</item>
+    </style>
+
+    <style name="CaptureActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ContactsActionBarTitleText</item>
+        <item name="android:homeAsUpIndicator">@drawable/action_bar_back_arrow</item>
+    </style>
+
+    <style name="CaptureTheme" parent="@android:Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/CaptureActionBarStyle</item>
+	    <item name="android:windowFullscreen">true</item>
+	    <item name="android:windowActionBarOverlay">true</item>
+	    <item name="android:colorPrimaryDark">@color/statusbar_background_dark</item>
+        <item name="android:colorPrimary">@color/actionbar_background_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">Trasmettitore FM</string>
+    <string name="dlg_seek_title">Ricerca in corso</string>
+    <string name="dlg_search_text">Ricerca di canali non occupati. Attendere…</string>
+    <string name="advanced_title">Impostazione manuale frequenza</string>
+    <string name="text_input_frequency">Inserire la frequenza voluta; è possibile usare 87.5-97.5 e 99.5-108</string>
+    <string name="text_ok">OK</string>
+    <string name="text_auto_search">Ricerca automatica canali non occupati</string>
+    <string name="text_search">Ricerca</string>
+    <string name="toast_plugout_earphone">Scollegare prima gli auricolari.</string>
+    <string name="toast_input_error">Ultimo input non valido. Valore valido 0 o 5.</string>
+    <string name="toast_input_valid">"Inserire il numero compreso nell'intervallo 87.5-97.5 o 99.5-108"</string>
+</resources>

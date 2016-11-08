@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"Готово"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Удалить"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Выбрать все"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Снять все выделения"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Добавить"</string>
+    <string name="selected_item_count">Выбрано <xliff:g id="count">%d</xliff:g></string>
+    <string name="multichoice_no_select_alert">"Элемент не выбран."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">ฉลาก USIM สำหรับหมายเลขเพิ่มเติม</string>  
+    <string name="aas_phone_type_none">ไม่มี</string>  
+    <string name="aas_new_dialog_title">เพิ่มฉลากใหม่</string>  
+    <string name="ass_rename_dialog_title">ดัดแปลงฉลาก</string>  
+    <string name="aas_delele_dialog_message">การลบฉลากจะส่งผลต่อหมายเลขเพิ่มเติมทั้งหมดที่เชื่อมโยงกับฉลาก คุณแน่ใจหรือไม่</string>  
+    <string name="aas_name_invalid">ชื่อฉลากไม่ถูกต้อง โหรดใส่ชื่ออื่น</string>  
+    <string name="aas_name_exist">มีฉลากอยู่แล้ว</string>  
+    <string name="aas_usim_full">ไม่มี\ที่ว่างสำหรับฉลากใหม่</string>  
+    <string name="ass_edit_assert_message">การดัดแปลงฉลากจะส่งผลต่อหมายเลขเพิ่มเติมทั้งหมดที่เชื่อมโยงกับฉลาก คุณแน่ใจหรือไม่</string>  
+    <string name="aas_new_fail">การสร้างฉลากใหม่ไม่สำเร็จ</string>  
+    <string name="aas_edit_fail">การตั้งชื่อ 
+        <xliff:g id="aas">%s</xliff:g> ไม่สำเร็จ
+    </string>  
+    <string name="aas_delete_fail">การลบ 
+        <xliff:g id="aas">%s</xliff:g> ไม่สำเร็จ
+    </string>  
+    <string name="aas_phone_primary">หมายเลขหลัก</string>  
+    <string name="aas_phone_additional">หมายเลขเพิ่มเติม</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"ชื่อเล่นยาวเกินไป"</string>
+</resources>

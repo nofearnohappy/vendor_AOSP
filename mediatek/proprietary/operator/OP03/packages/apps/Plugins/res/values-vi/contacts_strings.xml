@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"Xong"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Xóa"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Chọn tất cả"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Bỏ chọn tất cả"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Mới"</string>
+    <string name="selected_item_count">Đã chọn <xliff:g id="count">%d</xliff:g></string>
+    <string name="multichoice_no_select_alert">"Chưa có mục nào được chọn."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Nhãn USIM cho các số bổ sung</string>  
+    <string name="aas_phone_type_none">KHÔNG CÓ</string>  
+    <string name="aas_new_dialog_title">Thêm nhãn mới</string>  
+    <string name="ass_rename_dialog_title">Sửa đổi nhãn</string>  
+    <string name="aas_delele_dialog_message">Xóa (các) nhãn sẽ ảnh hưởng đến mọi số bổ sung được liên kết với (các) nhãn đó. Bạn chắc chắn?</string>  
+    <string name="aas_name_invalid">Tên nhãn không hợp lệ. Hãy nhập tên nhãn khác.</string>  
+    <string name="aas_name_exist">Nhãn này đã tồn tại.</string>  
+    <string name="aas_usim_full">Không có kh.trống cho các nhãn mới.</string>  
+    <string name="ass_edit_assert_message">Sửa đổi nhãn sẽ ảnh hưởng đến mọi số bổ sung được liên kết với nhãn đó. Bạn chắc chắn?</string>  
+    <string name="aas_new_fail">Không thể tạo nhãn mới.</string>  
+    <string name="aas_edit_fail">Không thể đổi tên 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Không thể xóa 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_phone_primary">Số chính</string>  
+    <string name="aas_phone_additional">Số bổ sung</string>  
+    <!-- aas strings end-->
+
+    <string name="nickname_too_long">"Bí danh quá dài."</string> 
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Inteligentny korektor dźwięku</string>
+	<string name="surround_virtualizer">Wirtualizacja dźwięku</string>
+	<string name="dialogue_enhancer">Uwydatnienie dialogów</string>
+	<string name="volume_leveler">Normalizacja głośności</string>
+	<string name="copyright">Dolby i symbol podwójnej litery D są zastrzeżonymi znakami towarowymi firmy Dolby Laboratories. \u00a9 2013 Dolby Laboratories Inc. Wszelkie prawa zastrzeżone.</string>
+	<string name="movie">Filmy</string>
+	<string name="music">Muzyka</string>
+	<string name="game">Gry</string>
+	<string name="voice">Głos</string>
+	<string name="preset_1">Własny 1</string>
+	<string name="preset_2">Własny 2</string>
+	<string name="open">Otwarty</string>
+	<string name="rich">Bogaty</string>
+	<string name="focused">Skupiony</string>
+	<string name="off">WYŁ.</string>
+	<string name="custom">Ręczny</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Korektor graficzny</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Odtwórz demonstrację</string>
+</resources>

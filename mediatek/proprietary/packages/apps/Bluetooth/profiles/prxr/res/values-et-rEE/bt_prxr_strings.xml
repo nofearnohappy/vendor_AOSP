@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">Läheduskontrolli sätted</string>
+	<string name="bt_prxr_settings_enable_title">Läheduskontroll</string>
+	<string name="bt_prxr_settings_enable_summary">"Lülita sisse"</string>
+	<string name="bt_prxr_settings_busy_title">Läheduskontroll</string>
+	<string name="bt_prxr_settings_busy_message">Laadimine. Palun oodake...</string>
+	<string name="bt_prxr_settings_enable_fail">Luba/keela läheduskontrolli viga</string>
+	<string name="bt_prxr_ll_notification_ticker">Link katkenud</string>
+	<string name="bt_prxr_ll_notification_title">Läheduslink katkenud</string>
+	<string name="bt_prxr_ll_notification_message">Eemalda seade: %1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">Rada katkenud</string>
+	<string name="bt_prxr_pl_notification_title">Lähedustee katkenud</string>
+	<string name="bt_prxr_pl_notification_message">Eemalda seade: %1$s</string>
+</resources>

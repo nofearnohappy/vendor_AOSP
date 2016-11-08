@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Trykk for å slå på Bluetooth</string>
+    <string name="tap_to_add_device">Trykk for å legge til enhet</string>
+    <string name="turning_on_bluetooth">Slår på Bluetooth …</string>
+    <string name="launcher_activity_name">BLE-behandling</string>
+    <string name="scanning_devices">Søker enheter</string>
+    <string name="delete_devices">Koble fra en enhet for å koble til en ny en</string>
+    <string name="cancel">"Avbryt"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Varsel"</string>
+    <string name="device_manager">Enhetsbehandling</string>
+    <string name="out_of_range_alert_text">Utenfor rekkevidde-varsel</string>
+    <string name="in_range_alert_text">Innenfor rekkevidde-advarsel</string>
+    <string name="range_alert_text">Min rekkevidde</string>
+    <string name="range_alert_summary">Både telefon og enhet gir varsel når enheten er innenfor eller utenfor rekkevidden</string>
+    <string name="range_near_text">Nær</string>
+    <string name="range_middle_text">Middels</string>
+    <string name="range_far_text">"Langt unna"</string>
+    <string name="range_1_distance_text">Rundt 1 m</string>
+    <string name="range_10_distance_text">1–10 m</string>
+    <string name="range_20_distance_text">10–20 m</string>
+    <string name="phone_alert_settings">Telefonvarselinnstilling</string>
+    <string name="ringtone_tye_text">"Ringetone"</string>
+    <string name="volume_text">"Volum"</string>
+    <string name="vibration_text">Vibrering</string>
+    <string name="vibration_summary_on">"På"</string>
+    <string name="vibration_summary_off">"Deaktivert"</string>
+    <string name="device_name">"Enhetsnavn"</string>
+    <string name="push_notification_text">Push-varslinger til enhet</string>
+    <string name="incoming_call_notification_text">"Innkommende samtale"</string>
+    <string name="missed_call_notificaiotn_text">"Tapt anrop"</string>
+    <string name="new_message_notification_text">"Ny melding"</string>
+    <string name="new_email_notification_text">Ny e-post</string>
+    <string name="disconnection_text">Frakoblingsinnstillinger</string>
+    <string name="disconnection_waring_title">Frakoblingsvarsel</string>
+    <string name="disconnection_waring_summary">Både telefon og enhet gir varsel når enheten er frakoblet</string>
+    <string name="device_name_change_dialog_title">"Gi nytt navn"</string>
+    <string name="disconnect_text">"Koble fra"</string>
+    <string name="delete_text">"Slett"</string>
+    <string name="connect_text">"Koble til"</string>
+    <string name="device_delete_dialog_message">Slette enheten?</string>
+    <string name="device_disconnect_dialog_message">Koble fra enheten?</string>
+    <string name="find_all_text">Finn alle</string>
+    <string name="default_images">Standardbilder</string>
+    <string name="range_information_text">Rekkevidden avhenger av signalstyrken. I ideelle situasjoner, kan rekkevidden være på 30 meter.  Enkelte elementer som kroppen din, vegger eller andre hindringer kan redusere rekkevidden til 15 meter eller mindre.</string>
+    <string name="range_information_dialog_check_box_text">Ikke vis dette igjen</string>
+    <string-array name="device_image_chooser_items">
+        <item>Velg blant standardbilder</item>
+        <item>"Ta et bilde"</item>
+        <item>Velg fra galleri</item>
+    </string-array>
+    <string name="add_device">Legg til enhet</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nei"</string>
+    <string name="connecting_text">"Kobler til ..."</string>
+    <string name="enable_background_service">Aktiver bakgrunnsmodus</string>
+    <string name="disable_background_service">Deaktiver bakgrunnsmodus</string>
+    <string name="ble_manager_alert">BLE-behandlingsvarsel</string>
+    <string name="check">Sjekk</string>
+    <string name="dismiss">Lukk</string>
+    <string name="disconnected">"Frakoblet"</string>
+    <string name="in_range">innenfor rekkevidde</string>
+    <string name="out_of_range">utenfor rekkevidde</string>
+    <string name="no_found">Ingen Bluetooth-enhet funnet.</string>
+    <string name="bt_off">Bluetooth er av. Slå det på.</string>
+</resources>

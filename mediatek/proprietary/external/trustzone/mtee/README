@@ -1,0 +1,6 @@
+The "mediatek/external/trustzone_uree" directory is intended for user level
+library of MTK in-house TEE.
+
+src                Library source code
+test               Test program (sample code for user level CA)
+include/uree       Include files for user level CA.

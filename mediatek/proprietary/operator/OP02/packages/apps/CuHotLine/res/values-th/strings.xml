@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">บริการลูกค้า</string>  
+    <string name="hotLine">สายด่วนลูกค้า China Unicom</string>
+    <string name="app_not_found">"ไม่พบแอปพลิเคชันสำหรับการทำงานนี้"</string>
+</resources>

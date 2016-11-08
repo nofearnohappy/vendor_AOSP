@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">ग्राहक सेवा</string>  
+    <string name="hotLine">चाइना यूनिकॉम ग्राहक हॉटलाइन</string>
+    <string name="app_not_found">"यह कार्यवाही प्रबंधित करने के लिए कोई ऐप्स  नहीं मिला."</string>
+</resources>

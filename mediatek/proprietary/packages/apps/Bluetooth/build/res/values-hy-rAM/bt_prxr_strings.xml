@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">Մոտիկության զեկույցի կարգավորումներ</string>
+	<string name="bt_prxr_settings_enable_title">Մոտիկության զեկույց</string>
+	<string name="bt_prxr_settings_enable_summary">"Միացնել"</string>
+	<string name="bt_prxr_settings_busy_title">Մոտիկության զեկույց</string>
+	<string name="bt_prxr_settings_busy_message">Բեռնում է: Խնդրում ենք սպասել...</string>
+	<string name="bt_prxr_settings_enable_fail">Միացնել/անջատել մոտիկության զեկույցի սխալը</string>
+	<string name="bt_prxr_ll_notification_ticker">Կապի կորուստ</string>
+	<string name="bt_prxr_ll_notification_title">Մոտիկության կապի կորուստ</string>
+	<string name="bt_prxr_ll_notification_message">Հեռակա սարք` %1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">Ուղու կորուստ</string>
+	<string name="bt_prxr_pl_notification_title">Մոտիկության ուղու կորուստ</string>
+	<string name="bt_prxr_pl_notification_message">Հեռակա սարք` %1$s</string>
+</resources>

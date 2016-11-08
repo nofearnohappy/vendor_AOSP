@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Смарт-эквалайзер</string>
+	<string name="surround_virtualizer">Вирт. объемный звук</string>
+	<string name="dialogue_enhancer">Коррекция речи</string>
+	<string name="volume_leveler">Автогромкость</string>
+	<string name="copyright">Dolby и эмблема в виде двойной буквы D являются зарегистрированными товарными знаками компании Dolby Laboratories. \u00a9 Dolby Laboratories, 2014. Все права защищены.</string>
+	<string name="movie">Фильмы</string>
+	<string name="music">Музыка</string>
+	<string name="game">Игры</string>
+	<string name="voice">Голос</string>
+	<string name="preset_1">Настройка 1</string>
+	<string name="preset_2">Настройка 2</string>
+	<string name="open">Открытый</string>
+	<string name="rich">Насыщенный</string>
+	<string name="focused">Сфокусированный</string>
+	<string name="off">ВЫКЛ.</string>
+	<string name="custom">Настройка</string>
+	<string name="db36">36 дБ</string>
+	<string name="db24">24 дБ</string>
+	<string name="db12">12 дБ</string>
+	<string name="db0">0 дБ</string>
+	<string name="dbn12">-12 дБ</string>
+	<string name="graphical_equalizer">Графический эквалайзер</string>
+	<string name="app_name">Dolby Audio</string>
+
+	<!-- strings for in-store demo application -->
+	<string name="instore_menu_text">Демо-ролик</string>
+</resources>

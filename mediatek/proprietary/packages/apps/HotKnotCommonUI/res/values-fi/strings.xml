@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot-jakaminen</string>
+    <string name="hint1">Varmista, että vastaanottava laite on kytkenyt päälle HotKnotin ja pitää sen näyttöä lukitsemattomana.</string>
+    <string name="hint2">Aseta laitteesi näyttö näyttöä vasten vastaanottavalle laitteelle.</string>
+    <string name="hint3">Ota laitteesi pois vastaanottavalta laitteelta, kun kuulet äänikehotteen.</string>
+    <string name="use_hotknot">Tämän sovelluksen on käytettävä HotKnot-tekniikkaa laitteellasi.</string>
+    <string name="allow">"Salli"</string>
+    <string name="deny">"Estä"</string>
+    <string name="fail_to_share">Jakaminen epäonnistui</string>
+    <string name="fail_to_share_conn_error">Jakaminen epäonnistui yhteysongelman vuoksi.</string>
+    <string name="fail_to_share_unknown_error">Jakaminen epäonnistui tuntemattomasta syystä.</string>
+    <string name="try_again">"Yritä uudelleen"</string>
+    <string name="usb_warning">HotKnot-toiminto saattaa heiketä USB-lataamisen aikana.</string>
+</resources>

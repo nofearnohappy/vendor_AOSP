@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+This repository contains the source to build the ANT HAL library (libantradio.so) for use on Linux based platforms, including Android. Android makefiles are included to configure the build for a specific ANT part which is set in the board config.
+
+HOW IT WAS BUILT?
+==================
+alps/hardware/mediatek/ANT/Test/Android.mk
+libantradio libcutils 
+	
+HOW TO USE IT?
+==============

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_msg_group_msg_notice_choices">
+        <item>接受且提示</item>
+        <item>接受不提示</item>
+        <item>拒绝</item>
+    </string-array>
+</resources>

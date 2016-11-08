@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72sp"
+    android:layout_marginLeft="16sp"
+    android:layout_marginRight="16sp"
+    android:gravity="center_vertical"
+    android:minHeight="72sp"
+    android:soundEffectsEnabled="false" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="2sp"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/icon" />
+    <ImageView
+        android:id="@+id/revertButton"
+        android:layout_width="35sp"
+        android:layout_height="34sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14sp"
+        android:paddingRight="14sp"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/revert_profile" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@id/revertButton"
+        android:layout_marginLeft="0sp"
+        android:layout_marginRight="0sp"
+        android:layout_marginTop="16sp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:soundEffectsEnabled="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameEdit"
+        android:layout_width="192sp"
+        android:layout_height="72sp"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:background="@drawable/blueframe"
+        android:inputType="textCapCharacters|textNoSuggestions"
+        android:minHeight="61sp"
+        android:soundEffectsEnabled="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+</RelativeLayout>

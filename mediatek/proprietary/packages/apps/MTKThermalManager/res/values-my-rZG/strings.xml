@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK အပူခ်ိန္မန္ေနဂ်ာ</string>
+    <string name="coolers">အေအးေပးစက္</string>
+    <string name="thermal_sensors">အပူခ်ိန္ဆင္ဆာမ်ား</string>
+    <string name="thermal_protection">အပူခ်ိန္ ကာကြယ္ျခင္း</string>
+    <string name="thermal_policy_file_colon">"အပူခ်ိန္ေပၚလစီဖုိင္- "</string>
+    <string name="apply_new_thermal_policy">အပူခ်ိန္ ေပၚလစီအသစ္ကို အသုံးခ်ပါ</string>
+    <string name="tz_device_info">TZ ကိရိယာအခ်က္အလက္</string>
+    <string name="thermal_logger">အပူခ်ိန္ မွတ္တမ္းတင္စက္</string>
+    <string name="alert_dialog_two_buttons_title">အပူခ်ိန္သတိေပးခ်က္။</string>
+    <string name="alert_dialog_two_buttons_message">ဖုန္းအား အျမန္အေအးခံထားရန္ လိုအပ္သည္။</string>
+    <string name="alert_dialog_ok">အိုေက</string>
+    <string name="alert_dialog_cancel">မလုပ္ပါ</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">کسٹمر سروس</string>  
+    <string name="hotLine">چائنا یونیکام کسٹمر ہاٹ لائن</string>
+    <string name="app_not_found">اس عمل کے لئے کوئی ایپلیکیشن نہيں ملا</string>
+</resources>

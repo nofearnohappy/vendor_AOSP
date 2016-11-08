@@ -1,0 +1,16 @@
+WHAT IT DOES?
+=============
+CTA feature , it controls apps' permission. Such as , if a 3rd party app requires 
+the permission of read_contact, will show some notification to user.
+
+
+HOW IT WAS BUILT?
+==================
+It's dependent on the MOMS.
+
+HOW TO USE IT?
+==============
+1) enter Settings --- > Security --- > Apps permissions, set 3rd apps's permission.
+2) launch the 3rd controlled app , if the app requires some controlled permissions , will show notification dialog.
+
+All the source code of this module were written by MediaTek co..

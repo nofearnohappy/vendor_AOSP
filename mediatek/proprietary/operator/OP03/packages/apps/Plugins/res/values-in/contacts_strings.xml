@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"Selesai"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Hapus"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Pilih semua"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Batal pilih semua"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Baru"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> dipilih</string>
+    <string name="multichoice_no_select_alert">"Tidak ada item yang dipilih."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Label USIM untuk nomor tambahan</string>  
+    <string name="aas_phone_type_none">TIDAK ADA</string>  
+    <string name="aas_new_dialog_title">Tambahkan label baru</string>  
+    <string name="ass_rename_dialog_title">Modifikasikan label</string>  
+    <string name="aas_delele_dialog_message">Menghapus label akan mempengaruhi semua nomor tambahan yang terhubung ke label. Anda yakin?</string>  
+    <string name="aas_name_invalid">Nama label tidak valid. Masukkan yang lain.</string>  
+    <string name="aas_name_exist">Label sudah ada.</string>  
+    <string name="aas_usim_full">Tidak ada ruang untuk label baru.</string>  
+    <string name="ass_edit_assert_message">Modifikasi label akan mempengaruhi semua nomor tambahan yang terhubung ke label. Anda yakin?</string>  
+    <string name="aas_new_fail">Gagal membuat label baru.</string>  
+    <string name="aas_edit_fail">Gagal mengubah nama 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Penghapus 
+        <xliff:g id="aas">%s</xliff:g> gagal.
+    </string>  
+    <string name="aas_phone_primary">Nomor Utama</string>  
+    <string name="aas_phone_additional">Nomor Tambahan</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"Nama panggilan terlalu panjang."</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">Առանց ազդանշանի</string>
+	<string name="bt_prxm_alert_level_mild">Թույլ ազդանշան</string>
+	<string name="bt_prxm_alert_level_high">Բարձր ազդանշան</string>
+	<string name="bt_prxm_device_mgmt_label">Bluetooth Մոտիկություն</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">Չի կարող աշխատել առանց աջակցվող Bluetooth-ի</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">Չի կարող աշխատել առանց ակտիվացված Bluetooth-ի</string>
+	<string name="bt_prxm_device_mgmt_title">Bluetooth մոտիկության մոնիտոր</string>
+	<string name="bt_prxm_device_mgmt_add_device">Հավելել սարք</string>
+	<string name="bt_prxm_device_mgmt_remove_device">Հեռացնել սարքը</string>
+	<string name="bt_prxm_device_mgmt_device_list">Մոտիկության սարքեր</string>
+	<string name="bt_prxm_device_pref_device_setting">Կապի կորուստ` %1$s / Ուղու կորուստ` %2$s</string>
+	<string name="bt_prxm_devs_title">Մոտիկության կարգավորումներ</string>
+	<string name="bt_prxm_devs_connect_title">"Միանալ"</string>
+	<string name="bt_prxm_devs_connect_summary">Կապակցվել մոտիկության սարքին</string>
+	<string name="bt_prxm_devs_connect_failed">Կապակցումը ձախողվեց</string>
+	<string name="bt_prxm_devs_disconnect_failed">Անջատումը ձախողվեց</string>
+	<string name="bt_prxm_find_device_title">Գտնել սարք</string>
+	<string name="bt_prxm_find_device_summary">Գտնել այս սարքը` գործարկելով դրա ահազանգը</string>
+	<string name="bt_prxm_find_device_cancel_summary">Կտտացրեք` նպատակային սարքի ահազանգը չեղարկելու համար</string>
+	<string name="bt_prxm_devs_link_loss_group_title">Կապի կորուստ</string>
+	<string name="bt_prxm_devs_link_loss_level_title">Կապի կորստի ազդանշանի մակարդակ</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">Սահմանել ազդանշանի մակարդակ</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">Կապի կորստի ազդանշանի մակարդակ սահմանելը ձախողվեց</string>
+	<string name="bt_prxm_devs_path_loss_group_title">Ուղու կորուստ</string>
+	<string name="bt_prxm_devs_path_loss_level_title">Ուղու կորստի ազդանշանի մակարդակ</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">Սահմանել ազդանշանի մակարդակ</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">Ուղու կորստի շեմ</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">Սահմանել ազդանշանի ուժգնության շեմ</string>
+	<string name="bt_prxm_plt_current_rssi">Հեռավորության առկա գնահատումը</string>
+	<string name="bt_prxm_plt_using_current_rssi">Օգտագործել հեռավորության առկա գնահատումը ուղու կորստի ազդանշանի շեմի համար</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">Ուղու կորստի շեմ</string>
+</resources>

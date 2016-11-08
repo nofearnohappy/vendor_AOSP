@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Koputa Bluetoothi sisselülitamiseks</string>
+    <string name="tap_to_add_device">Koputa seadme lisamiseks</string>
+    <string name="turning_on_bluetooth">Bluetooth sisselülitamine...</string>
+    <string name="launcher_activity_name">BLE haldur</string>
+    <string name="scanning_devices">Seadmete skaneerimine</string>
+    <string name="delete_devices">Palun lahutage üks seade, et ühendada uus seade</string>
+    <string name="cancel">"Tühista"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Märguanne"</string>
+    <string name="device_manager">Seadmehaldur</string>
+    <string name="out_of_range_alert_text">Teade Leviulatusest väljas</string>
+    <string name="in_range_alert_text">Teade Leviulatuses</string>
+    <string name="range_alert_text">Minu vahemik</string>
+    <string name="range_alert_summary">Nii telefon kui ka seade teatavad, kui seade on leviulatuses või leviulatusest väljas</string>
+    <string name="range_near_text">Lähedal</string>
+    <string name="range_middle_text">Keskmine</string>
+    <string name="range_far_text">"Kaugele"</string>
+    <string name="range_1_distance_text">Ligikaudu 1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">Telefoni teate sätted</string>
+    <string name="ringtone_tye_text">"Helin"</string>
+    <string name="volume_text">"Helitugevus"</string>
+    <string name="vibration_text">Vibratsioon</string>
+    <string name="vibration_summary_on">"Sees"</string>
+    <string name="vibration_summary_off">"Väljas"</string>
+    <string name="device_name">"Seadme nimi"</string>
+    <string name="push_notification_text">Push teated seadmele</string>
+    <string name="incoming_call_notification_text">"Sissetulev kõne"</string>
+    <string name="missed_call_notificaiotn_text">"Vastamata kõne"</string>
+    <string name="new_message_notification_text">"Uus sõnum"</string>
+    <string name="new_email_notification_text">Uus e-kiri</string>
+    <string name="disconnection_text">Lahtiühendamise sätted</string>
+    <string name="disconnection_waring_title">Lahtiühendamise teade</string>
+    <string name="disconnection_waring_summary">Nii telefon kui ka seade teatavad, kui seade on lahti ühendatud</string>
+    <string name="device_name_change_dialog_title">"Nimeta ümber"</string>
+    <string name="disconnect_text">"Katkesta ühendus"</string>
+    <string name="delete_text">"Kustuta"</string>
+    <string name="connect_text">"Ühenda"</string>
+    <string name="device_delete_dialog_message">Kustutan selle seadme?</string>
+    <string name="device_disconnect_dialog_message">Ühendan seadme lahti?</string>
+    <string name="find_all_text">Otsi kõik</string>
+    <string name="default_images">Vaikepildid</string>
+    <string name="range_information_text">Leviulatus sõltub signaali tugevusest. Ideaalses olukorras võib leviulatus olla 30 meetrit.  Teatud takistused nagu teie keha, seinad jms võivad lühendada leviulatuse 15 meetrini või veelgi väiksemaks.</string>
+    <string name="range_information_dialog_check_box_text">Ära näita uuesti</string>
+    <string-array name="device_image_chooser_items">
+        <item>Vali vaikepildilt</item>
+        <item>"Jäädvusta foto"</item>
+        <item>Vali galeriist</item>
+    </string-array>
+    <string name="add_device">Lisa seade</string>
+    <string name="yes">"Jah"</string>
+    <string name="no">"Ei"</string>
+    <string name="connecting_text">"Ühendan..."</string>
+    <string name="enable_background_service">Luba režiim Taust</string>
+    <string name="disable_background_service">Keela režiim Taust</string>
+    <string name="ble_manager_alert">BLE Manager’i hoiatus</string>
+    <string name="check">Kontrollige</string>
+    <string name="dismiss">Tühista</string>
+    <string name="disconnected">"Ühendus on katkestatud"</string>
+    <string name="in_range">vahemikus</string>
+    <string name="out_of_range">vahemikust väljas</string>
+    <string name="no_found">Bluetooth-seadet ei leitud.</string>
+    <string name="bt_off">Bluetooth on väljas, palun lülitage see sisse.</string>
+</resources>

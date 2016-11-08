@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Süsteemivärskendused"</string>
+    <string name="none_package">Uuendusi ei leitud.</string>
+    <string name="new_version_query">Värskenduste kontrollimine\u2026</string>
+    <string name="menu_stats_refresh">"Värskenda"</string>
+    <string name="network_error">Võrguga ühendamine nurjus</string>
+    <string name="server_version_error">Serveri tõrge: värskendage serveri lähtekood.</string>    
+    <string name="no_new_version">Teie süsteem ei ole värskemaid uuendusi.</string>
+    <string name="not_support_version">Sihtseade ei toeta teenust Over-the-Air.</string>
+    <string name="query_sd_insufficient_space"><xliff:g id="path">%s</xliff:g> jaoks pole piisavalt vaba ruumi</string>
+    <string name="ota_category_title">OTA</string>
+    <string name="sd_category_title">SD-KAARDI UUENDUS</string>
+    <string name="ota_preference_summary">Serveris on süsteemile uuendus</string>
+    <string name="notes_summary">Püsivarauuendus võib muuta seadme stabiilsemaks ja parandada selle vigu.</string>
+    <string name="ask_for_install_ota">Kas soovite süsteemiuuenduse kohe installida?</string>
+    <string name="warning_install_ota" product="tablet">Installimise ajal ei saa tahvlit kasutada ega teha hädaabikõnesid. Palun ärge eemaldage akut ega SD-kaarti või lülitage tahvlit välja.</string>
+    <string name="warning_install_ota" product="default">Installimise ajal ei saa telefoni kasutada ega teha hädaabikõnesid. Palun ärge eemaldage akut ega SD-kaarti või lülitage telefoni välja.</string>
+    <string name="ask_for_install_sd">Teie SD-kaardil on uusim süsteemiuuendus. Kas soovite selle installida?</string>
+    <string name="warning_install_sd" product="tablet">Installimise ajal ei saa kasutada tahvlit ega teha hädaabikõnesid.  Palun ärge eemaldage akut ega SD-kaarti või lülitage tahvlit välja. \nEnne installimist veenduge, et uuendus on alla laetud ametlikust veebisaidist ega ole rikutud.</string>
+    <string name="warning_install_sd" product="default">Installimise ajal ei saa telefoni kasutada ega teha hädaabikõnesid.  Palun ärge eemaldage akut ega SD-kaarti või lülitage telefoni välja. \nEnne installimist veenduge, et uuendus on alla laetud ametlikust veebisaidist ega ole rikutud.</string>
+    <string name="ask_for_download_ota">Kas soovite süsteemi optimeerimise uuenduse alla laadida?</string>
+    <string name="warning_download_ota">Soovitame uuenduse allalaadimiseks kasutada tasuta Wi-Fi pääsupunkti või piiramata mahuga andmesidelepingut. Vastasel korral võib andmeside põhjustada lisakulu. \nEnne uuendamist varundage oma andmed.</string>
+    <string name="notification_content_title">Süsteemi värskendamine</string>
+    <string name="downloading_title">"Allalaadimine\u2026"</string>   
+    <string name="wifi_only_check">"Ainult Wi-Fi"</string>     
+    <string name="btn_install">"Installi"</string>
+    <string name="btn_cancel">"Loobu"</string>
+    <string name="btn_download">Lae alla ja installi</string>
+    <string name="btn_resume">"Laadi alla"</string>
+    <string name="warn_data_cost_title">Uuenduse allalaadimine</string>
+    <string name="warn_data_cost_content">Mobiilvõrgu kaudu allalaadimine võib tuua kaasa lisakulu. Kas soovite jätkata?</string>
+    <string name="warn_data_cost_yes">"Jah"</string>
+    <string name="warn_data_cost_no">"Ei"</string>
+    <string name="notification_download_complete_title">Süsteemiuuendus on valmis</string>
+    <string name="notification_download_complete_context">Toksake, et installida süsteemiuuendus</string>
+    <string name="sdcard_crash_or_unmount">SD-kaardi viga. Kontrollige oma SD-kaardi ja proovige uuesti.</string>
+    <string name="unmount_sdcard">Viga SD-kaardi ühendamisel. Kontrollige kaarti.</string>
+    <string name="insufficient_space_content">Installimine nõuab vähemalt <xliff:g id="deltasize" example="3.5M">%s</xliff:g>baiti andmemahtu. Jätkamiseks peate vabastama andmeruumi.</string>
+    <string name="install_sd_title">Installi uuendus</string>
+    <string name="install_sd_message">Veenduge, et uuendus on alla laetud ametlikust veebisaidist ega ole rikutud. Vastasel korral võib see põhjustada süteemis probleeme.</string>
+    <string name="install_reminder_now">Installi kohe</string>
+    <string name="install_reminder_not_now">"Mitte praegu"</string>
+    <string name="notification_content_text_completed">Allalaadimine õnnestus</string> 
+    <string name="unknown_per">Tundmatu</string>    
+    <string name="unknown_error">Tundmati viga</string>
+    <string name="unknown_error_content">Tekkis tundmatu viga. Sulgege see leht ja proovige uuesti.</string>
+    <string name="insufficient_space_title">Ruumi pole piisavalt</string>
+    <string name="error_sdcard">SD-kaardi info</string>
+    <string name="insufficient_space">SIM-kaardil pole piisavalt vaba ruumi.</string>
+    <string name="package_deleted_error">Süsteemi uuendamine katkestati, sest uuendus on vigane.</string>
+    <string name="cancel_download_title">Tühista allalaadimine</string>
+    <string name="cancel_download_content">See toiming kustutab alla laaditud faili.</string>
+    <string name="change_network_title">"Laadi alla"</string>
+    <string name="change_network_content">Kasutatav APN ei toeta allalaadimist. Kas soovite APN-i vahetada või lülitada sisse Wi-Fi?</string>
+    <string name="change_network_wifi_btn">Kasuta Wi-Fit</string>
+    <string name="change_network_apn_btn">Vaheta APN-i</string>
+    <string name="change_network_discard_btn">"Loobu"</string>    
+    <string name="package_error_title">Installimine nurjus</string>
+    <string name="package_error_message_invalid">Pake on vigane. Palun kontrollige uuendust ja laadige uuesti alla.</string>
+    <string name="package_error_message_insuff" product="tablet">Seadmes pole piisavalt vaba ruumi.</string>
+    <string name="package_error_message_insuff" product="default">Telefonis pole piisavalt vaba ruumi.</string>
+    <string name="package_error_message_crash">Juurdepääs andmesektsioonile puudub.</string>
+    <string name="package_error_message_full">Sektsiooni muutmiseks on vajalik täispake.</string>    
+    <string name="updateSuccess" product="tablet">Õnnitleme! Seadme tarkvara uuendamine versioonile <xliff:g id="version" example="gb.p37">%s</xliff:g> õnnestus.</string> 
+    <string name="updateSuccess" product="default">Õnnitleme! Telefoni tarkvara uuendamine versioonile <xliff:g id="version" example="gb.p37">%s</xliff:g> õnnestus.</string> 
+    <string name="updateFailed">Tarkvara uuendamine versioonile <xliff:g id="version" example="gb.p37">%s</xliff:g> nurjus.</string>
+    <string name="package_unzip">Lahtipakkimine\u2026</string>
+    <string name="package_unzip_error">Lahtipakkimine nurjus</string>
+    <string name="installing_message" product="tablet">Tahvelarvuti lülitatakse välja\u2026</string>
+    <string name="installing_message" product="default">Telefon lülitub välja\u2026</string>
+    <string name="install_sd_info">Uuendamise jätkamiseks tuleb pake kopeerida telefoni.\nTelefonis pole selleks piisavalt vaba ruumi.</string>
+    <string name="sdcard_crash_or_unmount_when_install">Süsteemi uuendamine katkestati, sest SD-kaart pole paigaldatud.</string>
+    <string name="sdcard_inserted">Kas soovite kontrollida, kas SD-kaaril on veel uuendusi?</string>
+    <string name="new_version_detected">Süsteemiuuendus on saadaval</string>
+    <string name="sdcard_unmount">SD-kaart ei ole paigaldatud</string>
+    <string name="cta_warning">Süsteem toetab püsivara täiendust ainult ametlikult veebisaidilt või serverist. Kui kasutaja kasutab püsivara täiendamiseks 3. osapoole püsimälu kujutisfaile ja/või mis tahes teist juurmeetodit, võib see muuta telefoni ebastabiilseks. Arvestage, et kasutaja võtab endale vastutuse kõigi nende ilmingute eest.</string>
+    <string name="low_battery">Madal aku laetuse tase</string>
+    <string name="low_battery_warning">See värskendus vajab vähemalt 15%-list aku ressurssi.</string>
+    <string name="notify_backup">Palun varundage oma andmed (kontaktid, sõnumid, fotod jne) juhuks, kui need peaksid täiendamisprotsessis kaotsi minema.</string> 
+</resources>

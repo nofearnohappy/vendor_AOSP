@@ -1,0 +1,14 @@
+WHAT IT DOES?
+=============
+Trancoder provides a simple fuction for JAVA applciations to transcode video files into different 
+resoltuion or formats.
+This is the JAVA wrapper for VideoTranscoder.
+
+HOW IT WAS BUILT?
+==================
+Same as other module.
+ 
+
+HOW TO USE IT?
+==============
+Use with VideoTransCoder and VideoTranscoderJNI

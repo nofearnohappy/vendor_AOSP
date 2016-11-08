@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">MuatturunTurbo</string>
+    <string name="hetcomm_intro">Muat turun fail bersaiz besar (melebihi 20 MB) dengan lebih cepat menggunakan rangkaian Wi-Fi dan 4G/3G pada masa yang sama. Ikon Muat Turun Turbo akan dipaparkan pada bar status semasa ia sedang berjalan. Untuk menggunakan Muat Turun Turbo, Wi-Fi dan data Mudah Alih perlu dihidupkan. Apabila didayakan, sebarang data aplikasi yang telah dipilih untuk dimuat turun melalui Wi-Fi sahaja akan dimuat turun melalui rangkaian WLAN dan 4G/3G juga.</string>
+    <string name="enable_switch_on">hidup</string>
+    <string name="enable_switch_off">Dimatikan</string>
+    <string name="notify_top_title">Pemecut Muat Turun</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Data Mudah Alih"</string>
+    <string name="conn_notice_title">Sama ada Data Mudah Alih atau Wi-Fi DIMATIKAN.</string>
+    <string name="conn_notice_detail">Untuk mendayakan Muat Turun Turbo, kedua-dua Wi-Fi dan data Mudah Alih perlu dihidupkan.</string>
+    <string name="conn_charging_warning">Memuat turun melalui rangkaian mudah alih boleh menyebabkan caj tambahan dikenakan.</string>
+    <string name="turn_on">Hidupkan <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Muat Turun Turbo MATI kerana Vpn HIDUP</string>
+    <string name="turn_off_due_to_tether">Muat Turun Turbo MATI kerana Penambatan HIDUP</string>
+    <string name="turn_off_due_to_shutdown">Muat Turun Turbo MATI kerana Penutupan</string>
+    <string name="turn_off_due_to_roaming">Muat Turun Turbo MATI kerana Perayauan</string>
+    <string name="ratio_is_single">Kelajuan Wi-Fi/Data mudah alih perlahan. Untuk melajukan muat turun, Muat turun turbo hanya akan menggunakan Data mudah alih/Wi-Fi untuk memuat turun fail.</string>
+    <string name="ratio_is_back">Muat turun turbo menggunakan semula Wi-Fi dan Data mudah alih bersama-sama untuk memuat turun fail.</string>
+    <string name="action_help">Bantuan</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Bantuan Muat Turun Turbo</u>\
+    </h1><br>Muat turun fail bersaiz besar pada kelajuan tertinggi dengan menggunakan Wi-Fi dan 4G/3G pada masa yang sama.\
+    <h4>1. Pergi ke Tetapan dan ketik Muat Turun Turbo.</h4>\
+    <h4>2. Ketik suis untuk menghidupkan Muat Turun Turbo.</h4>\
+    <p><b>[Petua]</b>Untuk melajukan muat turun jika disambungkan ke Wi-Fi dan 4G/3G pada permulaan muat turun.\
+    <p><b>[Petua]</b> Jika sambungan Wi-Fi atau 4G/3G anda terlalu perlahan, anda boleh menggunakan sambungan rangkaian anda yang lebih pantas untuk memuat turun.\
+    <p><b>[Petua]</b> Kelajuan dan prestasi Muat Turun Turbo boleh menjejaskan persekitaran rangkaian semasa memuat turun.\
+    <br>&nbsp;&nbsp;- Jika isyarat tidak stabil, kelajuan dan prestasi ciri ini boleh terjejas.\
+    <br>&nbsp;&nbsp;- namun, secara puratanya, kelajuan muat turun akan ""digandakan"" jika dibandingkan dengan penggunaan Wi-Fi atau 4G/3G secara berasingan.\
+    <p><b>[Petua]</b> Apabila perbezaan kelajuan Wi-Fi dan 4G/3G agak besar (biasanya 2.5 kali), Muat Turun Turbo akan dihentikan atau tidak akan disokong bagi mengelakkan daripada mendapat prestasi yang teruk berkaitan kelajuan.\
+    <p><b>[Petua]</b> Muat Turun Turbo akan dinyahdayakan secara automatik apabila Penambatan/Vpn dihidupkan.\
+    </body></html>]]>"</string>
+</resources>

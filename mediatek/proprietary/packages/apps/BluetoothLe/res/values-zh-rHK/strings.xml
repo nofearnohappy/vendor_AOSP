@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothLe</string>
+    <string name="bg_service_name">BLE管理器</string>
+    <string name="bg_service_active">BLE管理器服務正在運行中</string>
+</resources>

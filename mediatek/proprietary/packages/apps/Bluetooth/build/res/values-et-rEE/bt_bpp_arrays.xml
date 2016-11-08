@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Vertikaalpaigutus"</item>
+		<item>Landscape Launcher</item>
+		<item>"pööratud portree"</item>
+		<item>"pööratud maastik"</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Ühepoolne"</item>
+		<item>"Kahepoolne portree"</item>
+		<item>"Kahepoolne maastik"</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Tavaline"</item>
+		<item>Mustandikast</item>
+		<item>"Kõrge"</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+		<item>Esitaja nimi on tundmatu</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"vigadeta"</item>
+		<item>"C-kaardi faili loomine nurjus"</item>
+		<item>"Tundmatu pildivorming"</item>
+	</string-array>
+</resources>

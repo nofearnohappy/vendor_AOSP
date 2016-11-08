@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"Bluetooth пренос слике"</string>
+	<string name="bt_bipi_push_confirmation">"Потврда гурања слике"</string>
+	<string name="bt_bipi_unsupported_format">"Пријемник не подржава декодирање.\nНаставити слање?</string>
+	<string name="bt_bipi_push_confirmation_ok">подешавање SMS сервисног центра је успешно</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Желите ли сигурно да откажете преузимање?\nПритисните дугме Настави да бисте наставили преузимање\n Притисните дугме Одбаци да бисте одбацили преузимање и обрисали преузету датотеку"</string>
+	<string name="bt_bip_transmitting_dialog_hide">Сакриј локални видео</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Желите ли сигурно да откажете преузимање?\nПритисните дугме Настави да бисте наставили преузимање\n Притисните дугме Одбаци да бисте одбацили преузимање и обрисали преузету датотеку"</string>
+	<string name="bt_bip_transmitting_dialog_ok">подешавање SMS сервисног центра је успешно</string>
+	<string name="bt_bip_transmitting_dialog_yes">"Да"</string>
+	<string name="bt_bip_transmitting_dialog_no">Нема доступне апликације за штампање контакта.</string>
+	<string name="bt_bip_transmitting">"Шаље се слика, %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"Слика %1$s је послата"</string>
+	<string name="bt_bip_transmitting_fail">"Слика %1$s није успешно послата"</string>
+	<string name="bt_bip_cancel_pending_job">"Отказати овај очекивани пренос?"</string>
+	<string name="bt_bip_pending_job">"Пошаљи %1$s (Очекује се)"</string>
+	<string name="bt_bipr_incoming_request">"Захтев за примање слике"</string>
+	<string name="bt_bipr_incoming_request_description">"Одаберите да примите %1$s"</string>
+	<string name="bt_bipr_accept_title">"Захтев за примање слике"</string>
+	<string name="bt_bipr_accept_content">"Прихватити "%1$s (%2$sKB)" од "%3$s" ?"</string>
+	<string name="bt_bipr_accept_always">"Увек прихватити?"</string>
+	<string name="bt_bipr_accept_yes">"Да"</string>
+	<string name="bt_bipr_accept_no">Нема доступне апликације за штампање контакта.</string>
+	<string name="bt_bip_receiving">"Прима се слика %1$s"</string>
+	<string name="bt_bip_receiving_successful">"Слика %1$s је примљена.\nДа ли желите да видите ову слику?"</string>
+	<string name="bt_bip_receiving_fail">"Слика %1$s није успешно примљена"</string>
+	<string name="bt_bip_toast_connect_fail">"Пренос података није успео или је мрежа тренутно заузета."</string>
+	<string name="bt_bip_toast_storage_unmounted">Пре активирања FTP клијента, проверите да ли је SD картица спремна.</string>
+	<string name="bt_bip_toast_sending_object">"Шаље се слика, %1$s"</string>
+	<string name="bt_bip_auth_password">Лозинка:\u0020</string>
+	<string name="bt_bip_auth_userid">ID сервера:\u0020</string>
+	<string name="bt_bip_auth_ok">подешавање SMS сервисног центра је успешно</string>
+	<string name="bt_bip_auth_cancel">"Желите ли сигурно да откажете преузимање?\nПритисните дугме Настави да бисте наставили преузимање\n Притисните дугме Одбаци да бисте одбацили преузимање и обрисали преузету датотеку"</string>
+</resources>

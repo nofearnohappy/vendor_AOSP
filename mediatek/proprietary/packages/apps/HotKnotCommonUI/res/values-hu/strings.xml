@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot megosztás</string>
+    <string name="hint1">Győződjön meg arról, hogy a fogadó eszközön be van kapcsolva a HotKnot, és tartsa kioldott állapotban a kijelzőjét.</string>
+    <string name="hint2">Tegye az eszközét a fogadó eszközre úgy, hogy kijelzőik egymás felé nézzenek.</string>
+    <string name="hint3">Vegye le az eszközt a fogadó eszközről, amint elhangzott a hangos utasítás.</string>
+    <string name="use_hotknot">Az alkalmazásnak HotKnot technológiát kell használnia az eszközén.</string>
+    <string name="allow">"Engedélyezés"</string>
+    <string name="deny">"Elutasítás"</string>
+    <string name="fail_to_share">Sikertelen megosztás</string>
+    <string name="fail_to_share_conn_error">Sikertelen megosztás kapcsolódási hiba miatt.</string>
+    <string name="fail_to_share_unknown_error">Sikertelen megosztás ismeretlen hiba miatt.</string>
+    <string name="try_again">"Újrapróbálkozás"</string>
+    <string name="usb_warning">Elképzelhető, hogy az USB-töltés hatással van a HotKnot funkció működésére.</string>
+</resources>

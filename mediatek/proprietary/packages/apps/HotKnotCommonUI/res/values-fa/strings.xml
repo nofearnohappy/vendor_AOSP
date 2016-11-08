@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Share</string>
+    <string name="hint1">اطمینان حاصل کنید که HotKnot در دستگاه دریافت کننده روشن شده باشد و قفل صفحه نمایش آن را باز نگه دارید.</string>
+    <string name="hint2">صفحه نمایش دستگاه خود را روی صفحه نمایش دستگاه دریافت کننده قرار دهید.</string>
+    <string name="hint3">با شنیدن یک اعلان صوتی، دستگاه خود را از روی دستگاه دریافت کننده بردارید.</string>
+    <string name="use_hotknot">این برنامه نیاز به استفاده از فناوری HotKnot در دستگاه شما دارد.</string>
+    <string name="allow">"مجاز"</string>
+    <string name="deny">"رد کردن"</string>
+    <string name="fail_to_share">به اشتراک گذاری ناموفق بود</string>
+    <string name="fail_to_share_conn_error">به اشتراک گذاری به‌دلیل بروز اشکال در اتصال ناموفق بود.</string>
+    <string name="fail_to_share_unknown_error">به اشتراک گذاری به‌دلیل بروز خطای نامعلوم ناموفق بود.</string>
+    <string name="try_again">"دوباره امتحان کنید"</string>
+    <string name="usb_warning">عملکرد HotKnot ممکن است در حین شارژ USB تحت تأثیر قرار بگیرد.</string>
+</resources>

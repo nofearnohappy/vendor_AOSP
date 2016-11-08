@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbo-nedlasting</string>
+    <string name="hetcomm_intro">Last ned store filer (over 20 MB) raskere ved å bruke både Wi-Fi og 4G/3G-nett samtidig. Ikonet for Turbo-nedlasting vises på statuslinjen når det er i gang. Både Wi-Fi og mobildata må være slått på for å bruke Turbo-nedlasting. Når dette er aktivert, vil alle appdata som du har valgt å kun laste ned via Wi-Fi lastes ned via både WLAN og 4G/3G-nett.</string>
+    <string name="enable_switch_on">"På"</string>
+    <string name="enable_switch_off">Av</string>
+    <string name="notify_top_title">Nedlastingsakselerator</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobildata"</string>
+    <string name="conn_notice_title">Enten mobildata eller Wi-Fi er slått AV.</string>
+    <string name="conn_notice_detail">Både Wi-Fi og mobildata må være slått på for å aktivere Turbo-nedlasting.</string>
+    <string name="conn_charging_warning">Nedlasting via mobilt nettverk kan medføre ekstra kostnader.</string>
+    <string name="turn_on">Slå på <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Turbo-nedlasting er slått AV, da VPN er PÅ</string>
+    <string name="turn_off_due_to_tether">Turbo-nedlasting er slått AV, da Internett-deling er PÅ</string>
+    <string name="turn_off_due_to_shutdown">Turbo-nedlasting er slått AV, da enheten slås av</string>
+    <string name="turn_off_due_to_roaming">Turbo-nedlasting er slått AV, da u bruker Roaming</string>
+    <string name="ratio_is_single">Lav hastighet på Wi-Fi/mobildata. For å øke nedlastingshastigheten vil Turbo-nedlasting kun bruke mobildata/Wi-Fi til å laste ned filer.</string>
+    <string name="ratio_is_back">Turbo-nedlasting gjenbruker Wi-Fi og mobildata sammen til å laste ned filer.</string>
+    <string name="action_help">"Hjelp"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Hjelp til Turbo-nedlasting</u>\
+    </h1><br>Last ned store filer med optimal hastighet ved å bruke Wi-Fi og 4G/3G samtidig.\
+    <h4>1. Gå til Innstillinger og trykk på Turbo-nedlasting.</h4>\
+    <h4>2. Trykk på bryteren for å slå på Turbo-nedlasting.</h4>\
+    <p><b>[Tip]</b> Dette vil øke hastigheten på nedlasting hvis enheten er koblet til både Wi-Fi og 4G/3G når nedlastingen starter.\
+    <p><b>[Tip]</b> Hvis Wi-Fi- eller 4G/3G-forbindelsen er for treg, kan du bruke den nettverkstilkoblingen som er raskere til å laste ned.\
+    <p><b>[Tip]</b> Hastigheten og ytelsen til Turbo-nedlasting kan bli påvirket av nettverksmiljøet mens du laster ned.\
+    <br>&nbsp;&nbsp;- Hvis signalene er ustabile, kan hastigheten og ytelsen til denne funksjonen bli påvirket.\
+    <br>&nbsp;&nbsp;- Sett over ett vil nedlastingshastigheten imidlertid bli tilnærmet «doblet» sammenlignet med bruk av kun Wi-Fi eller 4G/3G.\
+    <p><b>[Tip]</b> Når hastighetsforskjellen mellom Wi-Fi og 4G/3G er stor (normalt 2,5 ganger), vil Turbo-nedlasting stoppe eller slås av for å unngå dårlig hastighetsytelse.\
+    <p><b>[Tip]</b> Turbo-nedlasting blir automatisk deaktivert når Internett-deling/VPN er slått på.\
+    </body></html>]]>"</string>
+</resources>

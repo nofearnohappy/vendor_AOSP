@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Varundus ja taaste</string>
+    <string name="backup">Varudus</string>
+    <string name="restore">Taaste</string>
+    <string name="backuptosd">Varunda SD-kaardile</string>
+    <string name="selectall">Vali kõik</string>
+    <string name="unselectall">"Tühista kõik valikud"</string>
+    <string name="contact_module">Kontakt</string>
+    <string name="message_module">"Sõnumside"</string>
+    <string name="picture_module">"Pilt"</string>
+    <string name="calendar_module">"Kalender"</string>
+    <string name="calllog_module">"Kõnelogi"</string>
+    <string name="app_module">Rakendus</string>
+    <string name="music_module">"Muusika"</string>
+    <string name="notebook_module">Märkmik</string>
+    <string name="bookmark_module">"Järjehoidja"</string>
+    <string name="backuping">Varundamine</string>
+    <string name="restoring">Taastamine</string>
+    <string name="warning">Hoiatus</string>
+    <string name="cancel_backup_confirm">Tühista varundamine?</string>
+    <string name="cancelling">Tühistamine</string>
+    <string name="btn_ok">"OK"</string>
+    <string name="bt_yes">"Jah"</string>
+    <string name="bt_no">"Ei"</string>
+    <string name="menu_delete">"Kustuta"</string>
+    <string name="unknown">Tundmatu</string>
+    <string name="backup_data">Varunda andmed</string>
+    <string name="less_1K">Vähem kui 1 K</string>
+    <string name="notice">Märkus</string>
+    <string name="nosdcard_notice">Sisestage SD-kaart.</string>
+    <string name="restore_confirm_notice">Kas soovite kindlasti taastada?</string>
+    <string name="contitue">"Jätka"</string>
+    <string name="sdcard_removed">SD-kaart eemaldatud.</string>
+    <string name="sdcard_is_full">SD-kaart on täis.</string>
+    <string name="backup_result">Varundamise tulemus</string>
+    <string name="restore_result">Taastamise tulemus</string>
+    <string name="result_success">"Õnnestus"</string>
+    <string name="result_fail">nurjus</string>
+    <string name="result_no_content">sisu pole</string>
+    <string name="error">"Viga"</string>
+    <string name="sdcard_swap_remove">SD-kaarti ei leitud.</string>
+    <string name="sdcard_swap_insert">SD-kaart leitud.</string>
+    <string name="backup_personal_data">"Isikuandmed"</string>
+    <string name="backup_app">Rakendus</string>
+    <string name="backup_personal_data_history">Isiklike andmete varundamise ajalugu</string>
+    <string name="backup_app_data_history">Rakenduste varundamine</string>
+    <string name="backup_app_data_preference_title">Rakendused</string>
+    <string name="contact_all">"Kõik"</string>
+    <string name="contact_phone" product="tablet">"Tahvelarvuti"</string>
+    <string name="contact_phone" product="default">"Telefon"</string>
+    <string name="selected">valitud</string>
+    <string name="delete_please_wait">Kustutamine, palun oodake.</string>
+    <string name="loading_please_wait">uuendamine, palun oodake...</string>
+    <string name="edit_folder_name">Muuda kausta nime</string>
+    <string name="file_no_exist_and_update">Fail on kustutatud. Laadin uuesti.</string>
+    <string name="no_item_selected">Ühtegi üksust pole valitud</string>
+    <string name="updating">uuendamine...</string>
+    <string name="create_folder_fail">kausta loomine nurjus</string>
+    <string name="detect_new_data_title">Leiti uusi andmeid</string>
+    <string name="detect_new_data_text" product="tablet">Valige, et taastada oma andmed tahvelarvutisse.</string>
+    <string name="detect_new_data_text" product="default">Valige telefonis andmete taastamiseks.</string>
+    <string name="notification_backup_title">Varundamine</string>
+    <string name="notification_restore_title">Taastamine</string>
+    <string name="restored_flag">Taastatud</string>
+    <string name="message_sms">"Tekstsõnum"</string>
+    <string name="message_mms">"Multimeediumsõnum"</string>
+    <string name="activity_loading">Laadimine\u2026</string>
+    <string name="sdcard_busy_message">"Teie SD-kaart on hõivatud."</string>
+    <string name="backup_running_toast">Varundamise ajal ei saa andmeid taastada.</string>
+    <string name="air_mode_dialog_title">SIM välja lülitatud</string>
+    <string name="air_mode_dialog_message">Te peate lennurežiimi välja lülitama, et varundada SIM kaartide kontaktid.</string>
+    <string name="sim_locked_dialog_title">SIM-i lukk</string>
+    <string name="sim_locked_dialog_message">Te peate SIM kaardi avama, et kontakte varundada.</string>
+    <string name="sim_locked_dialog_unlock">"Ava"</string>
+    <string name="no_data">"Andmed puuduvad."</string>
+    <string name="app_slot1">Pesa1</string>
+    <string name="app_slot2">Pesa2</string>
+    <string name="app_slot3">Pesa3</string>
+    <string name="app_slot4">Pesa4</string>
+    <string name="notification_backup_ok">Varundamine õnnestus.</string>
+    <string name="notification_backup_failed">Varundamine nurjus.</string>
+    <string name="notification_restore_ok">Taastamine õnnestus.</string>
+    <string name="notification_restore_failed">Taastamine nurjus.</string>
+    <string name="backup_confirm_overwrite_notice">Selle nimega kaust on juba olemas. Kas kirjutada üle?</string>
+</resources>

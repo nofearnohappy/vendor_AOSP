@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">"Esitatakse Bluetoothi kaudu"</string>
+	<string name="app_description">"Bluetooth-profiili pake"</string>
+	<string name="bt_base_activity_busy_message">Laadimine. Palun oodake...</string>
+	<string name="bt_base_activity_service_disconnected">Ühendus teenusega katkestatud.</string>
+	<string name="bt_base_profile_feature_disabled">"Bluetoothi ei saa kasutada, kuna see on välja lülitatud."</string>
+	<string name="bt_share_mgmt_tab_in_title">"Allalaadimine"</string>
+	<string name="bt_share_mgmt_tab_out_title">Kiired üleslaadimised</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"Kustuta kõik teatised."</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"Ühendatud failiedastuseks"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">Märksõna kirjutamistoimingut ei lõpetatud korralikult.\n\n %1$s\n\n Kas soovid uuesti proovida?</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"Kustuta hiljuti valitud otsingusoovituste otseteed"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"Faili %1$s, mille saatis %2$s, ei võetud vastu."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"Fail %1$s ei saadetud %2$s-le."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"Fail %1$s saadetud %2$s-le."</string>
+	<string name="bt_share_mgmt_notification_ticker">"Üle Bluetoothi jagamise ajalugu"</string>
+	<string name="bt_share_mgmt_notification_title">"Üle Bluetoothi jagamise ajalugu"</string>
+	<string name="bt_share_mgmt_notification_message">"Valige üle Bluetoothi jagamise ajaloo vaatamiseks."</string>
+	<string name="bt_share_openfile_title">Kahjuks faili avamine ebaõnnestus.</string>
+	<string name="bt_share_openfile_message_invalid_param">"Vigane fail: %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"Tundmatu failitüüp: %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"Faili ei leitud: %1$s"</string>
+	<string name="bt_share_openfile_confirm">SMS-i teenuskeskuse seadmine OK</string>
+</resources>

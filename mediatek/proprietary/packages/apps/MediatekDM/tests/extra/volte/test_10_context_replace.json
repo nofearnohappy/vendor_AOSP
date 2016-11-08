@@ -1,0 +1,8 @@
+[
+	{ operationName : "Replace", nodeUri : "./IMSMO/PhoneContext_List/1/PhoneContext", objectValue : "phone-context=operator.com@operator.com;user=phone", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/PhoneContext_List/1/Public_user_identity", objectValue : "SIP:+491721234512@example.com", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/PhoneContext_List/2/PhoneContext", objectValue : "example.com", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/PhoneContext_List/2/Public_user_identity", objectValue : "tel:7042", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/PhoneContext_List/3/PhoneContext", objectValue : "operator.com@operator.com;user=dialstring", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/PhoneContext_List/3/Public_user_identity", objectValue : "SIP:+491721234513@example.com", objectType : "chr", newNode : "" },
+]

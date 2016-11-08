@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbohämtning</string>
+    <string name="hetcomm_intro">Hämta stora filer (över 20 MB) snabbare genom att använda Wi-Fi- och 4G/3G-nätverk samtidigt. Ikonen för Turbohämtning visas i statusfältet när det är igång. Både Wi-Fi och mobil data måste vara aktiverad för att använda Turbohämtning. När aktiverad kommer eventuell programdata som endast ska hämtas via Wi-Fi att hämtas via WLAN och 4G/3G ändå.</string>
+    <string name="enable_switch_on">"På"</string>
+    <string name="enable_switch_off">Av</string>
+    <string name="notify_top_title">Hämta accelerator</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobildata"</string>
+    <string name="conn_notice_title">Antingen är mobil data eller Wi-Fi inaktiverat.</string>
+    <string name="conn_notice_detail">För att aktivera Turbohämtning måste både Wi-Fi och mobil data vara aktiverat.</string>
+    <string name="conn_charging_warning">Hämtning via mobila nätverk kan resultera i extra kostnader.</string>
+    <string name="turn_on">Aktivera <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Turbohämtning är AV pga att Vpn är PÅ</string>
+    <string name="turn_off_due_to_tether">Turbohämtning är AV pga att Internetdelning är PÅ</string>
+    <string name="turn_off_due_to_shutdown">Turbohämtning är AV pga avstängning</string>
+    <string name="turn_off_due_to_roaming">Turbohämtning är AV pga roaming</string>
+    <string name="ratio_is_single">Hastigheten för Wi-Fi/Mobil data är långsam. För att öka hastigheten för hämtningen använder Turbohämtning endast mobil data/Wi-Fi för att hämta filer.</string>
+    <string name="ratio_is_back">Turbohämtning använder både Wi-Fi och Mobil data för att hämta filer.</string>
+    <string name="action_help">"Hjälp"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbohämtning hjälp</u>\
+    </h1><br>Hämta stora filer med hög hastighet genom att använda Wi-Fi och 4G/3G samtidigt.\
+    <h4>1. Gå till Inställningar och tryck på Turbohämtning.</h4>\
+    <h4>2. Tryck på växlaren för att aktivera Turbohämtning.</h4>\
+    <p><b>[Tip]</b> För snabbare hämtning om ansluten till både Wi-Fi och 4G/3G när hämtningen startas.\
+    <p><b>[Tip]</b> Om din Wi-Fi- eller 4G/3G-anslutning är för långsam kan du använda din snabbare nätverksanslutning för hämtning.\
+    <p><b>[Tip]</b> Hastigheten och prestandan för Turbohämtning kan påverkas av nätverksmiljön vid hämtning.\
+    <br>&nbsp;&nbsp;- Om signalerna är instabila kan hastigheten och prestandan för denna funktion påverkas.\
+    <br>&nbsp;&nbsp;- Däremot fördubblas hämtningshastigheten (i genomsnitt) jämfört med om enbart Wi-Fi eller 4G/3G används.\
+    <p><b>[Tip]</b> När skillnaden i hastighet mellan Wi-Fi och 4G/3G är stor (normalt 2,5 gånger) stoppas Turbohämtning eller avbryts för att undvika dålig hastighetsprestanda.\
+    <p><b>[Tip]</b> Turbohämtning inaktiveras automatiskt när Internetdelning/Vpn slås på.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bluetooth_ftp_client_file_operations">
+		<item>Ստանալ</item>
+		<item>"Ջնջել"</item>
+	</string-array>
+	<string-array name="bluetooth_ftp_client_folder_operations">
+		<item>Բացել</item>
+		<item>"Ջնջել"</item>
+	</string-array>
+	<string-array name="bluetooth_ftp_server_permission_entries">
+		<item>Միայն կարդալու համար</item>
+		<item>Լիարժեք կառավարում</item>
+	</string-array>
+</resources>

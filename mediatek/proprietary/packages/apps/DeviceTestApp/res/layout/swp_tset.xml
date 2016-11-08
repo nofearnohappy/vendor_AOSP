@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        >      
+        <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@drawable/corners_bg_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> 
+
+
+        
+        <!-- Test Type -->    
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"    
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/test_type"/>
+        <LinearLayout 
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+            
+            <RadioGroup
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:id="@+id/test_type">
+
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:id="@+id/test_type_1"
+                    android:text="@string/test_type_1"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent" />
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:id="@+id/test_type_2"
+                    android:text="@string/test_type_2" />
+            </RadioGroup>
+
+        </LinearLayout>     
+        </LinearLayout>     
+
+        <!-- Quick mode -->
+        <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"    
+                android:textSize="20dp"
+                android:textColor="#FF0000"
+                android:text="@string/quick_mode"/>
+            
+        <Button android:id="@+id/quick_start_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:textSize="20dip"/>
+
+        <Button android:id="@+id/quick_stop_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stop"
+                android:textSize="20dip"/>   
+                
+        <!-- Normal mode -->
+        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"    
+	            android:textSize="20dp"
+	            android:textColor="#0000FF"
+	            android:text="@string/normal_mode"/>
+            
+        <Button android:id="@+id/normal_start_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:textSize="20dip"/>
+
+        <Button android:id="@+id/normal_stop_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stop"
+                android:textSize="20dip"/>   
+
+        <!-- Result-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/result"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+            <TextView android:id="@+id/test_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/empty"/>
+        </LinearLayout>
+        </LinearLayout>
+                
+    </LinearLayout>    
+    </ScrollView>
+</LinearLayout>
+
+

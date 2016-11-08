@@ -1,0 +1,402 @@
+package com.mediatek.build {
+
+  public final class SdkVersion {
+    method public static int getPlatformVersion();
+  }
+
+}
+
+package com.mediatek.camcorder {
+
+  public class CamcorderProfileEx {
+    ctor public CamcorderProfileEx();
+    method public static android.media.CamcorderProfile getProfile(int);
+    method public static android.media.CamcorderProfile getProfile(int, int);
+  }
+
+}
+
+package com.mediatek.effect {
+
+  public abstract class Effect {
+    method public abstract void apply(android.media.Image, android.media.Image);
+    method public abstract java.lang.String getName();
+    method public abstract void release();
+    method public abstract void setParameter(java.lang.String, java.lang.Object);
+    method public void setUpdateListener(com.mediatek.effect.Effect.EffectUpdateListener);
+  }
+
+  public static abstract interface Effect.EffectUpdateListener {
+    method public abstract void onEffectUpdateds(com.mediatek.effect.Effect, java.lang.Object);
+  }
+
+  public class EffectFactory {
+    method public com.mediatek.effect.Effect createEffect(java.lang.String);
+    method public static com.mediatek.effect.EffectFactory createEffectFactory();
+    method public boolean isEffectSupported(java.lang.String);
+    field public static final java.lang.String EFFECTS_FACEBEAUTIFIER = "FaceBeautyEffect";
+  }
+
+}
+
+package com.mediatek.gesture {
+
+  public class Gesture {
+    method public void addHandDetectionListener(com.mediatek.gesture.Gesture.HandDetectionListener, com.mediatek.gesture.Gesture.HandPose);
+    method public static com.mediatek.gesture.Gesture createGesture();
+    method public void removeHandDetectionListener(com.mediatek.gesture.Gesture.HandDetectionListener, com.mediatek.gesture.Gesture.HandPose);
+  }
+
+  public class Gesture.HandDetectionEvent {
+    ctor public Gesture.HandDetectionEvent();
+    method public android.graphics.Rect getBoundBox();
+    method public float getConfidence();
+    method public int getId();
+    method public com.mediatek.gesture.Gesture.HandPose getPose();
+    method public void setBoundBox(android.graphics.Rect);
+    method public void setConfidence(float);
+    method public void setId(int);
+    method public void setPose(com.mediatek.gesture.Gesture.HandPose);
+  }
+
+  public static abstract interface Gesture.HandDetectionListener {
+    method public abstract void onHandDetected(com.mediatek.gesture.Gesture.HandDetectionEvent);
+  }
+
+  public static final class Gesture.HandPose extends java.lang.Enum {
+    method public static com.mediatek.gesture.Gesture.HandPose valueOf(java.lang.String);
+    method public static final com.mediatek.gesture.Gesture.HandPose[] values();
+    enum_constant public static final com.mediatek.gesture.Gesture.HandPose POSE_OPENPLAM;
+    enum_constant public static final com.mediatek.gesture.Gesture.HandPose POSE_VICTORY;
+  }
+
+}
+
+package com.mediatek.hotknot {
+
+  public final class HotKnotAdapter {
+    method public static com.mediatek.hotknot.HotKnotAdapter getDefaultAdapter(android.content.Context);
+    method public boolean isEnabled();
+    method public void setHotKnotBeamUris(android.net.Uri[], android.app.Activity);
+    method public void setHotKnotBeamUrisCallback(com.mediatek.hotknot.HotKnotAdapter.CreateHotKnotBeamUrisCallback, android.app.Activity);
+    method public void setHotKnotMessage(com.mediatek.hotknot.HotKnotMessage, android.app.Activity, android.app.Activity...);
+    method public void setHotKnotMessageCallback(com.mediatek.hotknot.HotKnotAdapter.CreateHotKnotMessageCallback, android.app.Activity, android.app.Activity...);
+    method public void setOnHotKnotCompleteCallback(com.mediatek.hotknot.HotKnotAdapter.OnHotKnotCompleteCallback, android.app.Activity, android.app.Activity...);
+    field public static final java.lang.String ACTION_ADAPTER_STATE_CHANGED = "com.mediatek.hotknot.action.ADAPTER_STATE_CHANGED";
+    field public static final java.lang.String ACTION_HOTKNOT_SETTINGS = "mediatek.settings.HOTKNOT_SETTINGS";
+    field public static final java.lang.String ACTION_MESSAGE_DISCOVERED = "com.mediatek.hotknot.action.MESSAGE_DISCOVERED";
+    field public static final int ERROR_DATA_TOO_LARGE = 1; // 0x1
+    field public static final int ERROR_SUCCESS = 0; // 0x0
+    field public static final java.lang.String EXTRA_ADAPTER_STATE = "com.mediatek.hotknot.extra.ADAPTER_STATE";
+    field public static final java.lang.String EXTRA_DATA = "com.mediatek.hotknot.extra.DATA";
+    field public static final int STATE_DISABLED = 1; // 0x1
+    field public static final int STATE_ENABLED = 2; // 0x2
+  }
+
+  public static abstract interface HotKnotAdapter.CreateHotKnotBeamUrisCallback {
+    method public abstract android.net.Uri[] createHotKnotBeamUris();
+  }
+
+  public static abstract interface HotKnotAdapter.CreateHotKnotMessageCallback {
+    method public abstract com.mediatek.hotknot.HotKnotMessage createHotKnotMessage();
+  }
+
+  public static abstract interface HotKnotAdapter.OnHotKnotCompleteCallback {
+    method public abstract void onHotKnotComplete(int);
+  }
+
+  public final class HotKnotMessage implements android.os.Parcelable {
+    ctor public HotKnotMessage(java.lang.String, byte[]);
+    method public int describeContents();
+    method public byte[] getData();
+    method public java.lang.String getMimeType();
+    method public void writeToParcel(android.os.Parcel, int);
+  }
+
+}
+
+package com.mediatek.imagetransform {
+
+  public class ImageTransformFactory {
+    method public boolean applyTransform(android.media.Image, android.media.Image, com.mediatek.imagetransform.ImageTransformFactory.Options);
+    method public static com.mediatek.imagetransform.ImageTransformFactory createImageTransformFactory();
+    field public static final java.lang.String FLIP_H = "horizontally";
+    field public static final java.lang.String FLIP_V = "vertically";
+    field public static final int ROT_0 = 0; // 0x0
+    field public static final int ROT_180 = 180; // 0xb4
+    field public static final int ROT_270 = 270; // 0x10e
+    field public static final int ROT_90 = 90; // 0x5a
+  }
+
+  public class ImageTransformFactory.Options {
+    ctor public ImageTransformFactory.Options();
+    method public android.graphics.Rect getCropRoi();
+    method public int getEncodingQuality();
+    method public java.lang.String getFlip();
+    method public int getRotation();
+    method public int getSharpness();
+    method public boolean isDither();
+    method public void setCropRoi(android.graphics.Rect);
+    method public void setDither(boolean);
+    method public void setEncodingQuality(int);
+    method public void setFlip(java.lang.String);
+    method public void setRotation(int);
+    method public void setSharpness(int);
+  }
+
+}
+
+package com.mediatek.media {
+
+  public class MediaRecorderEx {
+    ctor public MediaRecorderEx();
+    method public static void pause(android.media.MediaRecorder) throws java.lang.IllegalStateException;
+    method public static void setAlbumTag(android.media.MediaRecorder, java.lang.String) throws java.lang.IllegalStateException;
+    method public static void setArtistTag(android.media.MediaRecorder, java.lang.String) throws java.lang.IllegalStateException;
+    method public static void setHDRecordMode(android.media.MediaRecorder, int, boolean) throws java.lang.IllegalArgumentException, java.lang.IllegalStateException;
+  }
+
+  public final class MediaRecorderEx.HDRecordMode {
+    field public static final int INDOOR = 1; // 0x1
+    field public static final int NORMAL = 0; // 0x0
+    field public static final int OUTDOOR = 2; // 0x2
+  }
+
+}
+
+package com.mediatek.sensorhub {
+
+  public class Action implements android.os.Parcelable {
+    ctor public Action(android.app.PendingIntent, boolean, boolean);
+    ctor public Action(android.app.PendingIntent, boolean);
+    method public int describeContents();
+    method public android.app.PendingIntent getIntent();
+    method public boolean isOnConditionChanged();
+    method public boolean isRepeatable();
+    method public void writeToParcel(android.os.Parcel, int);
+  }
+
+  public class ActionDataResult implements android.os.Parcelable {
+    method public int describeContents();
+    method public static com.mediatek.sensorhub.ActionDataResult extractResult(android.content.Intent);
+    method public java.util.List<com.mediatek.sensorhub.DataCell> getData();
+    method public long getElapsedRealtimeMillis();
+    method public int getRequestId();
+    method public static boolean hasResult(android.content.Intent);
+    method public void writeToParcel(android.os.Parcel, int);
+  }
+
+  public class Condition implements android.os.Parcelable {
+    method public int describeContents();
+    method public void writeToParcel(android.os.Parcel, int);
+    field public static final int OP_ANY = 255; // 0xff
+    field public static final int OP_EQUALS = 5; // 0x5
+    field public static final int OP_GREATER_THAN = 1; // 0x1
+    field public static final int OP_GREATER_THAN_OR_EQUALS = 2; // 0x2
+    field public static final int OP_LESS_THAN = 3; // 0x3
+    field public static final int OP_LESS_THAN_OR_EQUALS = 4; // 0x4
+    field public static final int OP_MOD = 7; // 0x7
+    field public static final int OP_NOT_EQUALS = 6; // 0x6
+  }
+
+  public static class Condition.Builder {
+    ctor public Condition.Builder();
+    method public com.mediatek.sensorhub.Condition combineWithAnd(com.mediatek.sensorhub.Condition, com.mediatek.sensorhub.Condition);
+    method public com.mediatek.sensorhub.Condition combineWithBracket(com.mediatek.sensorhub.Condition);
+    method public com.mediatek.sensorhub.Condition combineWithOr(com.mediatek.sensorhub.Condition, com.mediatek.sensorhub.Condition);
+    method public com.mediatek.sensorhub.Condition createCondition(int, int, int);
+    method public com.mediatek.sensorhub.Condition createCondition(int, int, long);
+    method public com.mediatek.sensorhub.Condition createCondition(int, int, float);
+    method public com.mediatek.sensorhub.Condition createCondition(int, boolean, int, int);
+    method public com.mediatek.sensorhub.Condition createCondition(int, boolean, int, long);
+    method public com.mediatek.sensorhub.Condition createCondition(int, boolean, int, float);
+  }
+
+  public class ContextInfo {
+  }
+
+  public static class ContextInfo.Carry {
+    field public static final int IN_POCKET = 28; // 0x1c
+  }
+
+  public static class ContextInfo.Facing {
+    field public static final int FACE_DOWN = 41; // 0x29
+  }
+
+  public static class ContextInfo.Pedometer {
+    field public static final int STEP_FREQUENCY = 15; // 0xf
+    field public static final int STEP_LENGTH = 14; // 0xe
+    field public static final int TOTAL_COUNT = 16; // 0x10
+    field public static final int TOTAL_DISTANCE = 17; // 0x11
+  }
+
+  public static class ContextInfo.Pickup {
+    field public static final int VALUE = 38; // 0x26
+  }
+
+  public static class ContextInfo.Shake {
+    field public static final int VALUE = 44; // 0x2c
+  }
+
+  public static class ContextInfo.Type {
+    field public static final int CARRY = 1001; // 0x3E9
+    field public static final int FACING = 1002; // 0x3EA
+    field public static final int PEDOMETER = 1003; // 0x3EB
+    field public static final int PICK_UP = 1004; // 0x3EC
+    field public static final int SHAKE = 1005; // 0x3ED
+    field public static final int USER_ACTIVITY = 1006; // 0x3EE
+  }
+
+  public static class ContextInfo.UserActivity {
+    field public static final int CONFIDENCE = 32; // 0x20
+    field public static final int CURRENT_STATE = 31; // 0x1f
+    field public static final int DURATION = 34; // 0x22
+  }
+
+  public static class ContextInfo.UserActivity.State {
+    field public static final int IN_VEHICLE = 20; // 0x14
+    field public static final int ON_BICYCLE = 21; // 0x15
+    field public static final int ON_FOOT = 22; // 0x16
+    field public static final int STILL = 23; // 0x17
+    field public static final int TILTING = 25; // 0x19
+    field public static final int UNKNOWN = 24; // 0x18
+  }
+
+  public class DataCell implements android.os.Parcelable {
+    method public int describeContents();
+    method public float getFloatValue();
+    method public int getIndex();
+    method public int getIntValue();
+    method public long getLongValue();
+    method public int getType();
+    method public boolean isPrevious();
+    method public void writeToParcel(android.os.Parcel, int);
+    field public static final int DATA_TYPE_FLOAT = 3; // 0x3
+    field public static final int DATA_TYPE_INT = 1; // 0x1
+    field public static final int DATA_TYPE_INVALID = 0; // 0x0
+    field public static final int DATA_TYPE_LONG = 2; // 0x2
+  }
+
+  public class SensorHubManager {
+    method public boolean cancelAction(int);
+    method public java.util.List<java.lang.Integer> getContextList();
+    method public boolean isContextSupported(int);
+    method public int requestAction(com.mediatek.sensorhub.Condition, com.mediatek.sensorhub.Action);
+    method public boolean updateCondition(int, com.mediatek.sensorhub.Condition);
+    field public static java.lang.String EXTRA_REQUEST_ID;
+    field public static final int REQUEST_ERROR_CONTEXT_INVALID = -3; // 0xfffffffd
+    field public static final int REQUEST_ERROR_NO_RESOURCE = -2; // 0xfffffffe
+    field public static final int REQUEST_ERROR_UNKNOWN = -1; // 0xffffffff
+    field public static final java.lang.String SENSORHUB_SERVICE = "sensorhubservice";
+  }
+
+  public class SensorHubPermissionException extends java.lang.SecurityException {
+    ctor public SensorHubPermissionException(java.lang.String);
+  }
+
+}
+
+package com.mediatek.telephony {
+
+  public class SmsManagerEx {
+    method public java.util.ArrayList<java.lang.String> divideMessage(java.lang.String);
+    method public static com.mediatek.telephony.SmsManagerEx getDefault();
+    method public void sendDataMessage(java.lang.String, java.lang.String, short, byte[], android.app.PendingIntent, android.app.PendingIntent, int);
+    method public void sendDataMessage(java.lang.String, java.lang.String, short, short, byte[], android.app.PendingIntent, android.app.PendingIntent, int);
+    method public void sendMultipartTextMessage(java.lang.String, java.lang.String, java.util.ArrayList<java.lang.String>, java.util.ArrayList<android.app.PendingIntent>, java.util.ArrayList<android.app.PendingIntent>, int);
+    method public void sendMultipartTextMessageWithExtraParams(java.lang.String, java.lang.String, java.util.ArrayList<java.lang.String>, android.os.Bundle, java.util.ArrayList<android.app.PendingIntent>, java.util.ArrayList<android.app.PendingIntent>, int);
+    method public void sendTextMessage(java.lang.String, java.lang.String, java.lang.String, android.app.PendingIntent, android.app.PendingIntent, int);
+    method public void sendTextMessageWithExtraParams(java.lang.String, java.lang.String, java.lang.String, android.os.Bundle, android.app.PendingIntent, android.app.PendingIntent, int);
+  }
+
+  public class TelephonyManagerEx {
+    ctor public TelephonyManagerEx(android.content.Context);
+    method public int getCallState(int);
+    method public android.telephony.CellLocation getCellLocation(int);
+    method public int getDataActivity(int);
+    method public int getDataState(int);
+    method public java.lang.String getDeviceId(int);
+    method public java.lang.String getLine1Number(int);
+    method public java.util.List<android.telephony.NeighboringCellInfo> getNeighboringCellInfo(int);
+    method public java.lang.String getNetworkCountryIso(int);
+    method public java.lang.String getNetworkOperator(int);
+    method public java.lang.String getNetworkOperatorName(int);
+    method public int getNetworkType(int);
+    method public int getPhoneType(int);
+    method public java.lang.String getSimCountryIso(int);
+    method public java.lang.String getSimOperator(int);
+    method public java.lang.String getSimOperatorName(int);
+    method public java.lang.String getSimSerialNumber(int);
+    method public int getSimState(int);
+    method public java.lang.String getSubscriberId(int);
+    method public java.lang.String getVoiceMailAlphaTag(int);
+    method public java.lang.String getVoiceMailNumber(int);
+    method public boolean hasIccCard(int);
+    method public boolean isNetworkRoaming(int);
+    method public void listen(android.telephony.PhoneStateListener, int, int);
+  }
+
+}
+
+package com.mediatek.voiceextension {
+
+  public abstract class VoiceCommandListener {
+    ctor public VoiceCommandListener();
+    method public abstract void onCommandRecognized(int, int, java.lang.String);
+    method public abstract void onError(int);
+    method public abstract void onPauseRecognition(int);
+    method public abstract void onResumeRecognition(int);
+    method public abstract void onSetCommands(int);
+    method public abstract void onStartRecognition(int);
+    method public abstract void onStopRecognition(int);
+  }
+
+  public class VoiceCommandManager {
+    method public int createCommandSet(java.lang.String);
+    method public int deleteCommandSet(java.lang.String);
+    method public java.lang.String getCommandSetSelected();
+    method public java.lang.String[] getCommandSets();
+    method public java.lang.String[] getCommands() throws java.lang.IllegalAccessException;
+    method public static com.mediatek.voiceextension.VoiceCommandManager getInstance();
+    method public int isCommandSetCreated(java.lang.String);
+    method public void pauseRecognition() throws java.lang.IllegalAccessException;
+    method public void resumeRecognition() throws java.lang.IllegalAccessException;
+    method public int selectCurrentCommandSet(java.lang.String, com.mediatek.voiceextension.VoiceCommandListener);
+    method public void setCommands(java.lang.String[]) throws java.lang.IllegalAccessException;
+    method public void setCommands(java.io.File) throws java.io.FileNotFoundException, java.lang.IllegalAccessException;
+    method public void setCommands(android.content.Context, java.lang.String) throws java.io.IOException, java.lang.IllegalAccessException;
+    method public void setCommands(android.content.Context, int) throws java.lang.IllegalAccessException, android.content.res.Resources.NotFoundException;
+    method public void startRecognition() throws java.lang.IllegalAccessException;
+    method public void stopRecognition() throws java.lang.IllegalAccessException;
+  }
+
+  public class VoiceCommandResult {
+    field public static final int COMMANDSET_ALREADY_EXIST = 201; // 0xc9
+    field public static final int COMMANDSET_ALREADY_SELECTED = 205; // 0xcd
+    field public static final int COMMANDSET_NAME_ILLEGAL = 203; // 0xcb
+    field public static final int COMMANDSET_NAME_LENGTH_EXCEED_LIMIT = 204; // 0xcc
+    field public static final int COMMANDSET_NOT_EXIST = 202; // 0xca
+    field public static final int COMMANDSET_NOT_SELECTED = 206; // 0xce
+    field public static final int COMMANDSET_OCCUPIED = 207; // 0xcf
+    field public static final int COMMANDS_DATA_INVALID = 301; // 0x12d
+    field public static final int COMMANDS_FILE_ILLEGAL = 302; // 0x12e
+    field public static final int COMMANDS_NUM_EXCEED_LIMIT = 303; // 0x12f
+    field public static final int FAILURE = -1; // 0xffffffff
+    field public static final int LISTENER_ALREADY_SET = 7; // 0x7
+    field public static final int LISTENER_ILLEGAL = 5; // 0x5
+    field public static final int LISTENER_NEVER_SET = 6; // 0x6
+    field public static final int MIC_INIT_FAIL = 3; // 0x3
+    field public static final int MIC_OCCUPIED = 4; // 0x4
+    field public static final int PROCESS_ILLEGAL = 14; // 0xe
+    field public static final int RECOGNITION_ALREADY_PAUSED = 11; // 0xb
+    field public static final int RECOGNITION_ALREADY_STARTED = 10; // 0xa
+    field public static final int RECOGNITION_NEVER_PAUSE = 9; // 0x9
+    field public static final int RECOGNITION_NEVER_START = 8; // 0x8
+    field public static final int SERVICE_DISCONNECTTED = 13; // 0xd
+    field public static final int SERVICE_NOT_EXIST = 12; // 0xc
+    field public static final int SUCCESS = 1; // 0x1
+    field public static final int WRITE_STORAGE_FAIL = 2; // 0x2
+  }
+
+}
+

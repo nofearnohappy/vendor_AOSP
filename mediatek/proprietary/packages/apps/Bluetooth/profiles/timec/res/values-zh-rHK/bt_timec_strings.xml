@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_timec_label">藍牙時間同步</string>
+	<string name="bt_timec_main_title">時間客戶端</string>
+	<string name="bt_timec_choose_server_title">選擇伺服器裝置</string>
+	<string name="bt_timec_choose_server_summary">選擇伺服器裝置以同步日期及時間</string>
+	<string name="bt_timec_sync_settings_title">時間同步設定</string>
+	<string name="bt_timec_service_disconnected">與時間服務連線中斷。</string>
+	<string name="bt_timec_sync_title">同步日期及時間</string>
+	<string name="bt_timec_sync_summary">從時間伺服器擷取及套用日期及時間資訊</string>
+	<string name="bt_timec_auto_title">自動同步</string>
+	<string name="bt_timec_auto_summary">自動與時間伺服器同步日期及時間</string>
+	<string name="bt_timec_repeat_title">"重複"</string>
+	<string name="bt_timec_sync_confirm_title">確認同步</string>
+	<string name="bt_timec_sync_confirm_msg">這會與時間伺服器同步。將會停用與流動網絡自動的同步功能，要繼續嗎？</string>
+	<string name="bt_timec_synchronizing_title">同步處理中</string>
+	<string name="bt_timec_synchronizing_msg">正在與時間伺服器同步日期及時間...</string>
+	<string name="bt_timec_sync_completed">同步處理完成</string>
+	<string name="bt_timec_sync_failed">與時間伺服器同步日期及時間失敗</string>
+	<string name="bt_timec_auto_disabled_ticker">己停用自動時間同步功能</string>
+	<string name="bt_timec_auto_disabled_title">已停用藍牙自動時間同步功能</string>
+	<string name="bt_timec_auto_disabled_msg">自動時間同步功能在藍牙關閉時無法運作。</string>
+	<string name="bt_timec_eng_connect_title">"連線"</string>
+	<string name="bt_timec_eng_connect_summary">連接至伺服器</string>
+	<string name="bt_timec_eng_disconnect_summary">中斷伺服器連接</string>
+	<string name="bt_timec_eng_settings_group_title">"設定"</string>
+	<string name="bt_timec_eng_automatic_title">"自動"</string>
+	<string name="bt_timec_eng_automatic_summary">與時間伺服器自動同步</string>
+	<string name="bt_timec_eng_sync_title">與時間伺服器同步</string>
+	<string name="bt_timec_eng_sync_summary">從時間伺服器擷取及套用日期及時間</string>
+	<string name="bt_timec_eng_update_server_title">更新伺服器時間</string>
+	<string name="bt_timec_eng_update_server_summary">要求時間伺服器從時間來源更新日期及時間</string>
+	<string name="bt_timec_eng_dst_title">下一個夏令時間變更</string>
+	<string name="bt_timec_eng_connecting_title">"連線中"</string>
+	<string name="bt_timec_eng_connecting_msg">正在連接至時間伺服器...</string>
+	<string name="bt_timec_eng_connection_failed">連接失敗</string>
+	<string name="bt_timec_eng_connection_lost">連接中斷</string>
+	<string name="bt_timec_eng_disconnecting_title">"正在中斷連線"</string>
+	<string name="bt_timec_eng_disconnecting_msg">正在中斷伺服器連接...</string>
+	<string name="bt_timec_eng_processing_title">處理中</string>
+	<string name="bt_timec_eng_processing_msg">正套用設定至時間伺服器...</string>
+	<string name="bt_timec_eng_processing_failed">無法套用設定至伺服器</string>
+	<string name="bt_timec_eng_server_updating_title">伺服器正在更新</string>
+	<string name="bt_timec_eng_server_updating_msg">按下 BACK 鍵取消更新伺服器時間</string>
+	<string name="bt_timec_eng_server_update_completed">伺服器更新完成</string>
+	<string name="bt_timec_eng_server_update_failed">伺服器更新失敗</string>
+</resources>

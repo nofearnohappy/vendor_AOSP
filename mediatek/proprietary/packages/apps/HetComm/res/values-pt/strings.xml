@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Downloadturbo</string>
+    <string name="hetcomm_intro">Baixe arquivos grandes (acima de 20 MB) mais rápido usando redes Wi-Fi e 4G/3G ao mesmo tempo, O ícone de Download Turbo será exibido na barra de status quando estiver em execução. Para usar Download Turbo, os dados de Wi-Fi e Móveis devem estar ligados. Quando estiver ativado, qualquer dados de aplicativo que você selecionou para baixar por Wi-Fi apenas será baixado por redes WLAN e 4G/3G.</string>
+    <string name="enable_switch_on">em</string>
+    <string name="enable_switch_off">Desligado</string>
+    <string name="notify_top_title">Acelerador de Download</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Dados móveis"</string>
+    <string name="conn_notice_title">Ou rede Móvel ou Wi-Fi está Desligada.</string>
+    <string name="conn_notice_detail">Para ativar Download Turbo, dados Wi-Fi e Mobile devem estar ligados.</string>
+    <string name="conn_charging_warning">Baixar por redes móveis pode resultar em taxas adicionais.</string>
+    <string name="turn_on">Ligue <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Download Turbo está Desligado porque Vpn está Ligado</string>
+    <string name="turn_off_due_to_tether">Download Turbo está Desligado porque Tethering está Ligado</string>
+    <string name="turn_off_due_to_shutdown">Download Turbo está Desligado devido a Desligamento</string>
+    <string name="turn_off_due_to_roaming">Download Turbo está Desligado devido Roaming</string>
+    <string name="ratio_is_single">A velocidade de Wi-Fi/dados móveis é lenta. Para acelerar o download, Turbo download usará apenas dados móveis/Wi-Fi para baixar arquivos.</string>
+    <string name="ratio_is_back">Turbo download reutiliza Wi-Fi e dados móveis para baixar arquivos.</string>
+    <string name="action_help">Ajuda</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Ajuda do Download Turbo</u>\
+    </h1><br>Baixe arquivos grandes em velocidade superior usando Wi-Fi e 4G/3G ao mesmo tempo.\
+    <h4>1. Vá em Configurações e toque em Download Turbo.</h4>\
+    <h4>2. Toque na chave para ligar Download Turbo.</h4>\
+    <p><b>[Dica]</b> Para acelerar o download se conectado tanto a Wi-Fi e 4G/3G no início de seu download.\
+    <p><b>[Dica]</b> Se sua conexão Wi-Fi ou 4G/3G for muito lenta, você pode usar sua conexão mais rápida para download.\
+    <p><b>[Dica]</b> A velocidade e desempenho do Download Turbo podem ser afetatos pelo ambiente de rede ao baixar.\
+    <br>&nbsp;&nbsp;- Se os sinais forem instáveis, a velocidade e desepenho deste recurso podem ser afeitados.\
+    <br>&nbsp;&nbsp;- no entanto na média, a velocidade de download será ""duplicada"" quando comparada a uso apenas de Wi-Fi ou 4G/3G sozinho.\
+    <p><b>[Dica]</b> Quando a diferença de velocidade do Wi-Fi e 4G/3G é grande (Normalmente 2,5 vezes), o Download Turbo parará ou não suportará evitar obter mau desempenho com respeito à velocidade.\
+    <p><b>[Dica]</b> O Download Turbo seria desativado automaticamente uma vez que Tethering/Vpn é ligado.\
+    </body></html>]]>"</string>
+</resources>

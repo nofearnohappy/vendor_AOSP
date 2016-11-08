@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ble_profiles>
+    <ble_profile id="0" extra_info="TestProfile1">
+        <ble_service name="TestService1.xml" />
+    </ble_profile>
+    <ble_profile id="1" extra_inf="TestCase2">
+        <ble_service name="TestService1.xml" />
+        <ble_service name="TestService3.xml" />
+    </ble_profile>
+    <ble_profile id="2" extra_info="TestProfile2">
+        <ble_service name="TestService1.xml" />
+        <ble_service name="TestService2.xml" />
+        <ble_service name="TestService3.xml" />
+    </ble_profile>
+    <ble_profile id="3" extra_info="TestProfile3">
+        <ble_service name="TestService3.xml" />
+        <ble_service name="TestService1.xml" />
+    </ble_profile>
+</ble_profiles>

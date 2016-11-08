@@ -1,0 +1,18 @@
+This module is the application of UIM toolkit.
+
+WHAT IT DOES?
+=============
+This apk is used to provide a service menu which comes from the UIM card. Users can get some value-added services of operator such as phone fee inquiry.
+
+HOW IT WAS BUILT?
+==================
+The apk is developed based on Android STK, but it has own framework files under frameworks/opt/telephony/src/java/com/android/internal/telephony/cdma/utk.
+
+On MTK CDMA platform, it needs telephony-common.jar. 
+
+
+HOW TO USE IT?
+==============
+Install Utk.apk in mediatek CDMA platform with a UIM card, and then users can enter the UIM Application. 
+
+The majority of source code of this library were written by MediaTek based on Android STK.

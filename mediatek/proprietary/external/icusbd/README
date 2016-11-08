@@ -1,0 +1,29 @@
+This directory contains icusbd binary
+
+
+WHAT IT DOES?
+=============
+It is an executable to communicate with MD for supporting icusb SIM card.
+
+HOW IT WAS BUILT?
+==================
+
+It needs the following libs from AOSP:
+1.  libc.a
+2.  libcutils.a
+3.  libusb.a
+
+It will be built when MTK_ICUSB_SUPPORT is defined.
+
+HOW TO USE IT?
+==============
+
+Files in this directory is used to
+generate a binary which's name is 'icusbd'
+
+The binary 'icusbd' is loaded when system boots up in normal mode. 
+It will receive modem command with CCCI interface.
+After deal with this command, it then responses status to modem.
+
+All the source code of this binary were written by MediaTek co..
+

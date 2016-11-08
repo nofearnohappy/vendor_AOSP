@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">涡轮下载</string>
+    <string name="hetcomm_intro">同时使用WLAN和4G/3G网络可快速下载（超过20MB）的大型文件。涡轮下载运行中，在状态栏上会显示涡轮下载图标。使用涡轮下载前，请先开启WLAN和移动数据服务。涡轮下载启用后，任何先前已选择仅用WLAN下载的应用数据都会同时使用WLAN和4G/3G网络进行下载。</string>
+    <string name="enable_switch_on">打开</string>
+    <string name="enable_switch_off">关闭</string>
+    <string name="notify_top_title">涡轮下载</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">WLAN</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_wlan" translate="false">WLAN</string>
+    <string name="connection_mobile">移动数据</string>
+    <string name="conn_notice_title">手机或WLAN已关闭。</string>
+    <string name="conn_notice_detail">使用涡轮下载前，请先开启WLAN和移动数据服务。</string>
+    <string name="conn_charging_warning">使用移动数据下载资料可能导致额外费用。</string>
+    <string name="turn_on">开启 <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">涡轮下载因VPN已开启而关闭。</string>
+    <string name="turn_off_due_to_tether">涡轮下载因网络共享已开启而关闭。</string>
+    <string name="turn_off_due_to_shutdown">涡轮下载因关机而关闭。</string>
+    <string name="turn_off_due_to_roaming">涡轮下载因漫游而关闭。</string>
+    <string name="ratio_is_single">WLAN/移劢数据网络速度慢。若要加快下载速度，涡轮下载将仅会使用WLAN/移劢数据网络来下载文件。</string>
+    <string name="ratio_is_back">涡轮下载重新使用Wi-Fi和移劢数据一起下载文件。</string>
+    <string name="action_help">"帮助"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>""涡轮下载""说明</u>\
+    </h1><br>同时使用WLAN和4G/3G可高速下载大型文件。\
+    <h4>1. 进入“设置”功能列表后，点击“涡轮下载”。</h4>\
+    <h4>2. 点击开启“涡轮下载”的开关。</h4>\
+    <p><b>[提示]</b> 在开始下载前，请先连上WLAN和4G/3G以便“涡轮下载”。\
+    <p><b>[提示]</b> WLAN或4G/3G网络速度太慢时，可改用其他高速网络进行下载。\
+    <p><b>[提示]</b> 涡轮下载”的下载速度及效率可能受网络环境影响。\
+    <br>&nbsp;&nbsp;- 信号如不稳定，“涡轮下载”的下载速度及效率可能不如预期。\
+    <br>&nbsp;&nbsp;- 但平均来看，下载速度会比仅用WLAN或4G/3G上网时快一倍。\
+    <p><b>[提示]</b> WLAN和4G/3G之间的速度差过大（一般以2.5倍为准）时，“涡轮下载”会停止或不支持，以免下载效率受到影响。\
+    <p><b>[提示]</b> 网络共享或VPN开启时，“涡轮下载”会自动停止。\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,28 @@
+This module creates the libMtkVideoSpeedEffect.so libary file.
+
+WHAT IT DOES?
+=============
+libMtkVideoSpeedEffect mainly used for Slow Motion Video feature to share
+the slow motion effect to others
+
+Provide Video Speed Effect native function to application
+ 
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+    libcutils, libutils, libgui, libinder
+
+and the following libs from MediaTek:
+
+    libstagefright, libmedia, libstagefright_foundation, libtimestretch, libaudioflinger, libdpframework, libvcodecdrv
+    
+    
+HOW TO USE IT?
+==============
+
+The libMtkVideoSpeedEffect libraries should not be used directly by an application developer.  
+Used by JNI layer
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.rcs.blacklist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application android:allowBackup="true" >
+        <activity
+            android:name="com.mediatek.rcs.blacklist.BlacklistManagerActivity"
+            android:configChanges="locale|orientation|keyboardHidden|screenSize|layoutDirection|screenLayout"
+            android:label="@string/app_name"
+            android:theme="@style/BlacklistListViewTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="BlacklistProvider"
+            android:authorities="com.cmcc.ccs.black_list"
+            android:multiprocess="false"
+            android:exported="true"
+            android:readPermission="android.permission.READ_CONTACTS"
+            android:writePermission="android.permission.WRITE_CONTACTS">
+        </provider>
+
+    </application>
+
+</manifest>

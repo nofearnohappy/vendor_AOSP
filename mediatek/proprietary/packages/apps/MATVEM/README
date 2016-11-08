@@ -1,0 +1,27 @@
+MATVEM apk. the pre-built system application, which is a tool to test or set matv.
+
+This apk is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+a tool to test or set matv.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+None
+
+and the following libs from MediaTek:
+1. mediatek-framework
+2. com.mediatek.atv.adapter
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+if MATV feature was opened, the MATV item will appear on EM hardware testing list
+all source code are at (vendor/mediatek/proprietary/packages/apps/MATVEM/)
+
+All the source code of this library were written by MediaTek co..

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:layout_above="@+id/retryButtonsLinearLayout">
+		<TextView  
+			android:id="@+id/errorView"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:gravity="center"
+		    android:text="@string/networkerror"
+		/>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/retryButtonsLinearLayout"
+    	android:layout_width="fill_parent"
+		android:layout_height="60dip"
+    	android:gravity="center"
+    	android:layout_alignParentBottom="true">
+		<Button
+			android:id="@+id/buttonRetry"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:text="@string/retry"
+		android:layout_width="132dip"/>
+</LinearLayout>
+</RelativeLayout>

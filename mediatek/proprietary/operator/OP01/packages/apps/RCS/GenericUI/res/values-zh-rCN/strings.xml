@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Op01RcsGenericUI</string>
+
+    <string name="rcs_core_rcs_notification_title">融合通信服务</string>
+    <string name="rcs_core_loaded">融合通信服务已加载</string>
+    <string name="rcs_core_failed">融合通信服务加载失败</string>
+    <string name="rcs_core_started">融合通信服务已启动</string>
+    <string name="rcs_core_stopped">融合通信服务已停止</string>
+    <string name="rcs_core_ims_connected">已连接到融合通信平台</string>
+    <string name="rcs_core_ims_try_connection">正在连接到融合通信平台</string>
+    <string name="rcs_core_ims_connection_failed">无法连接到融合通信平台</string>
+    <string name="rcs_core_ims_try_disconnect">正在断开连接到融合通信平台</string>
+    <string name="rcs_core_ims_battery_disconnected">已断开连接到融合通信平台（电量过低）</string>
+    <string name="rcs_core_ims_disconnected">已断开连接到融合通信平台</string>
+
+    <string name="remind_open_data">请打开融合通信业务对应SIM卡的数据连接以使用融合通信业务</string>
+
+    <!--RCS settings String Start-->
+    <string name="rcs_setting_title">融合通信</string>
+    <string name="rcs_sms_mode_title">自动转短信</string>
+    <string name="rcs_sms_mode_summary">即时文本消息发送失败时，自动转为短信发送</string>
+    <string name="sms_change_default_dialog_text">"要使用“<xliff:g id="NEW_APP">%1$s</xliff:g>”取代“<xliff:g id="CURRENT_APP">%2$s</xliff:g>”作为您的短信应用吗？融合通信业务可能无法正常使用。"</string>
+    <string name="sms_change_default_dialog_title">"要更改短信应用吗？"</string>
+    <!--RCS settings String End-->
+</resources>

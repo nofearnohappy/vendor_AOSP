@@ -1,0 +1,33 @@
+WHAT IT DOES?
+=============
+Device management application, by which the operator can remotely
+get/set parameters on the device, upgrade system(FOTA), install software(SCOMO),
+lock/unlock the device, wipe user's data, reset the device and so on.
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+1.MTK_DM_APP
+2.MTK_DM_AGENT_SUPPORT (DM depends on DmAgent)
+3.MTK_FOTA_SUPPORT (If need FOTA function)
+4.MTK_FOTA_ENTRY (If need FOTA function)
+5.MTK_SCOMO_ENTRY (If need SCOMO function)
+
+and the following libs from Redbend:
+1.libvdmengine.so
+2.libvdmfumo.so
+3.libvdmlawmo.so
+4.libvdmscinv.so
+5.libvdmscomo.so
+6.com.redbend.vdm.jar
+7.com.redbend.vdm.comm.jar
+8.com.redbend.vdm.ddl.jar
+9.com.redbend.vdm.fumo.jar
+10.com.redbend.vdm.lawmo.jar
+11.com.redbend.vdm.scomo.jar
+12.com.redbend.vdm.log.jar
+
+HOW TO USE IT?
+==============
+Need DM server to trigger sessions with the device.
+Contact MediaTek if need any support.

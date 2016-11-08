@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ble_profiles>
+    <ble_profile id="0" extra_info="FindMe">
+        <ble_service name="ImmediateAlertService.xml" />
+    </ble_profile>
+    <ble_profile id="2" extra_info="Time">
+        <ble_service name="CurrentTimeService.xml" />
+        <ble_service name="NextDSTChangeService.xml" />
+        <ble_service name="ReferenceTimeUpdateService.xml" />
+    </ble_profile>
+    <ble_profile id="3" extra_inf="AlertNoticiation">
+        <ble_service name="AlertNotificationService.xml" />
+    </ble_profile>
+        <ble_profile id="4" extra_inf="PhoneAlertState">
+        <ble_service name="PhoneAlertStateService.xml" />
+    </ble_profile>
+</ble_profiles>

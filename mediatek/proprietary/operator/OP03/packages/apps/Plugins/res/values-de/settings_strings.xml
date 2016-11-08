@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Mobiler Wi-Fi-Hotspot</string>
+    <string name="wifi_tether_introduction_text">Wenn Ihr Gerät ein mobiler Wi-Fi-Hotspot ist, können Sie seine Internetverbindung mit bis zu acht Geräten gleichzeitig nutzen.\n\nBeachten Sie, dass beim Tethering mobile Daten verbraucht werden. Dadurch können hohe Gebühren entstehen und die Lebensdauer des Akkus wird verringert.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Legen Sie eine SIM-Karte ein und starten Sie das Gerät neu, um den mobilen Wi-Fi-Hotspot oder Tethering zu verwenden.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Diese Meldung nicht mehr anzeigen</string>
+    <string name="wifi_tether_turn_off_wifi">Um den mobilen Wi-Fi-Hotspot zu aktivieren, müssen Sie zunächst die Wi-Fi-Verbindung deaktivieren. Möchten Sie fortfahren?</string>
+    <string name="wifi_tether_settings_text">Mobiler Wi-Fi-Hotspot – Einstellungen</string>
+    <string name="tether_apn_settings_text">Tethering-APN</string>
+    <string name="tether_apn_settings_subtext">Standard-APN für Tethering festlegen</string>
+    <string name="usb_tethering_accessory_active_subtext">Wenn USB verwendet wird, kann Tethering nicht aktiviert werden.</string>
+    <string name="operator_display">Netzbetreiber anzeigen</string>
+    <string name="operator_display_summary">Netzbetreiber in der Statusleiste anzeigen</string>
+    <string name="by_orange">Von Orange</string>
+    <string name="recommended_by_orange">Von Orange empfohlen</string>
+    <string name="smsmms_app_name">Messaging ist nicht aktiv</string>
+    <string name="click_to_change_to_xms_app">Messaging ist nicht Ihre standardmäßige SMS-App.</string>
+    <string name="click_to_change_to_xms_app_line2">Tippen Sie hier, um weitere Informationen zu erhalten.</string>
+    <string name="sms_change_default_dialog_text1">Die Funktion der Messaging-App auf Ihrem Gerät wurde von Orange getestet.\n\n
+
+Wenn Sie andere SMS-Apps verwenden, kann dies zu Problemen beim Senden und Empfangen von SMS- und MMS-Nachrichten führen.\n\n
+
+Soll <xliff:g id="new_app">%s</xliff:g> anstelle von <xliff:g id="current_app">%s</xliff:g> als SMS-App verwendet werden?</string>
+    
+</resources>

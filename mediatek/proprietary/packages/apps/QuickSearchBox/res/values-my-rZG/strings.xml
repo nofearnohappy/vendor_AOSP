@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ရွာေဖြပါ</string>
+    <string name="search_widget">ရွာေဖြပါ</string>
+    <string name="remove_from_history">ရွာေဖြမႈမွတ္တမ္းမွ ဤအေၾကာင္းအရာကို ဖယ္ရွားလိုပါသလား။</string>
+    <string name="remove_from_history_failed">မွတ္တမ္းမွ အေၾကာင္းအရာ မဖယ္ရွားႏိုင္ပါ။</string>
+    <string name="corpus_selection_heading">ရွာေဖြပါ</string>
+    <string name="corpus_label_global">အားလံုး</string>
+    <string name="corpus_label_web">ဝက္ဘ္</string>
+    <string name="corpus_description_web">ဝက္ဘ္တြင္ရွာေဖြခ်က္၊ စာညႇပ္မ်ားႏွင့္ ဘေရာက္ဆာမွတ္တမ္း</string>
+    <string name="corpus_label_apps">လုပ္ငန္းသံုး ပ႐ိုဂရမ္</string>
+    <string name="corpus_description_apps">တပ္ဆင္ထားေသာ လုပ္ငန္းသံုး ပ႐ိုဂရမ္မ်ား၏ အမည္မ်ား</string>
+    <string name="corpus_hint_apps">လုပ္ငန္းသံုး ပ႐ိုဂရမ္မ်ား ရွာေဖြသည္</string>
+    <string name="menu_settings">အျပင္အဆင္မ်ား ရွာေဖြသည္</string>
+    <string name="search_settings">အျပင္အဆင္မ်ား ရွာေဖြသည္</string>
+    <string name="google_settings_category_title">ဂူးဂဲလ္ ရွာေဖြျခင္း</string>
+    <string name="device_settings_category_title">အတိုနည္းမ်ား ရွင္းလင္းပါ</string>
+    <string name="system_search_category_title">ဖုန္း</string>
+    <string name="search_sources">ရွာေဖြႏိုင္ေသာ အရာဝတၳဳမ်ား</string>
+    <string name="search_sources_summary">ဖုန္းေပၚတြင္ ဘာရွာေဖြမည္ကို ေရြးခ်ယ္ပါ</string>
+    <string name="clear_shortcuts">အတိုနည္းမ်ား ရွင္းလင္းပါ</string>
+    <string name="clear_shortcuts_summary">မၾကာေသးမီက ေရြးခ်ယ္ခဲ့ေသာ ရွာေဖြရန္ အဆိုျပဳခ်က္မ်ား အတိုနည္းမ်ားကို ရွင္းလင္းသည္</string>
+    <string name="clear_shortcuts_prompt">"မၾကာေသးမီက ေရြးထားေသာ ရွာေဖြမႈ အၾကံျပဳခ်က္မ်ားသို႔ ျဖတ္လမ္းမ်ားအားလံုးကို ရွင္းလိုပါသလား။ \n\n"သင့္ဘေရာက္ဆာ မွတ္တမ္းရွင္းလင္းရန္ ဘေရာက္ဆာ အဆင္အျပင္မ်ားကို အသံုးျပဳပါ။"</string>
+    <string name="clear_shortcuts_agree">အိုေက</string>
+    <string name="clear_shortcuts_disagree">မလုပ္ပါ</string>
+    <string name="menu_help">အကူအညီ</string>
+    <string name="google_search_label">ဂူးဂဲလ္</string>
+    <string name="google_app_label">ဂူးဂဲလ္ ရွာေဖြျခင္း</string>
+    <string name="google_search_hint">ဂူးဂဲလ္ ရွာေဖြျခင္း</string>
+    <string name="google_search_description">ဂူးဂဲလ္ ရွာေဖြျခင္း အဆိုျပဳခ်က္မ်ား</string>
+    <string name="voice_search_hint_title">ႀကိဳးစား၍ ေျပာေနသည္-</string>
+    <string name="voice_search_hint_quotation_start">“</string>
+    <string name="voice_search_hint_quotation_end">”</string>
+</resources>

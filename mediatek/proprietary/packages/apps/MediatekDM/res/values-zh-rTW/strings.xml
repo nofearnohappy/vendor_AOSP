@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">裝置管理</string>
+    <string name="no_activity">無可用更新</string>
+    <string name="cancel">取消</string>
+    <string name="wait">正在檢查更新...</string>
+    <string name="download">下載</string>
+    <string name="update">確定</string>
+    <string name="rate">0%</string>
+    <string name="suspend">暫停</string>
+    <string name="resume">繼續</string>
+    <string name="retry">重試</string>
+    <string name="ok">確定</string>
+    <string name="appmanager">應用程式管理程序</string>
+    <string name="networkerror">網路連線失敗！</string>
+    <string name="nonewversion">這已是最新版本</string>
+    <string name="noenoughspace">空間不足</string>
+    <string name="canceldownload">本操作將捨棄已下載的檔案。</string>
+    <string name="description">說明</string>
+    <string name="dscrpContent">軔體更新能夠加強機器穩定度並且修補漏洞。\n版本更新</string>
+    <string name="newfeatures">新增功能</string>
+    <string name="featureNotes">*版本：<xliff:g>%s</xliff:g>\n*大小：<xliff:g>%s</xliff:g></string>
+    <string name="updateNotes">更新時，請停止所有作業。將需要數分鐘時間。</string>
+    <string name="updatenow">立即更新</string>
+    <string name="hour1later">1個小時後更新</string>
+    <string name="neverask">不再提醒</string>
+    <string name="status_bar_notifications_new_version">已發現新版本</string>
+    <string name="status_bar_notifications_downloading">下載新版本</string>
+    <string name="status_bar_notifications_download_completed">下載成功</string>
+    <string name="status_bar_notifications_title">韌體更新</string>
+    <string name="updateSuccessTitle">安裝成功</string>
+    <string name="updateSuccess">固件升級成功</string>
+    <string name="updateFailTitle">安裝失敗</string>
+    <string name="updateFail">韌體更新失敗</string>
+    <string name="dm_entry_title">系統軟體服務</string>
+    <string name="current_version">目前的版本</string>
+    <string name="release_date">發佈日期：</string>
+    <string name="system_update">系統更新</string>
+    <string name="download_status">下載版本</string>
+    <string name="update_install">進行升級</string>
+    <string name="install_version">安裝升級包</string>
+    <string name="start_new_session">繼續</string>
+    <string name="discard">捨棄</string>
+    <string name="old_pkg_exists">您已下載套件。您可繼續下載或捨棄。一旦捨棄，將刪除未完成的套件。</string>
+
+    <string name="gprs_download">本次更新需使用行動網路連線，這會對數據使用產生一些費用。您是否要繼續？</string>
+    <string name="roaming_download">本次更新需使用漫遊行動網路連接，這會對數據使用產生一些費用。您是否要繼續？</string>
+    <string name="gprs_download_title">更新提示</string>
+    <string name="nia_info">來自營運商的加強版裝置管理訊息</string>
+    <string name="network_detect">對伺服器的連線必須使用無線應用協定網路，目前正在偵側網路......</string>
+    <string name="usermode_visible_cmcc">加強版售後服務</string>
+    <string name="usermode_interact_cmcc">是否接受加強版售後服務？</string>
+    <string name="usermode_visible_cu">來自中國聯通的加強版售後服務</string>
+    <string name="usermode_interact_cu">接受來自中國聯通的加強版售後服務</string>
+    <string name="usermode_visible">加強版售後服務</string>
+    <string name="usermode_interact">是否接受加強版售後服務？</string>
+    <string name="sim_not_register">用以更新伺服器的SIM卡未註冊，請重新啟動才能註冊。</string>
+
+ <!-- for scomo -->
+    <string name="scomo_replace_exist">應用程式已存在，是否要取代？</string>
+    <string name="scomo_install_ok">軟體安裝成功</string>
+    <string name="scomo_downloading_paused">暫停軟體下載</string>
+    <string name="scomo_failed">軟體更新失敗</string>
+    <string name="connecting">正在連線</string>
+    <string name="name">軟體名稱:</string>
+    <string name="size">大小:</string>
+    <string name="version">版本:</string>
+    <string name="installing">正在安裝 <xliff:g>%s</xliff:g></string>
+    <string name="new_scomo_available">已有新軟體可用</string>
+    <string name="downloading_scomo">正在下載軟體</string>
+    <string name="pause">暫停</string>
+    <string name="scomo_install_failed">軟體安裝失敗</string>
+    <string name="download_restart">您已下載套件。本項操作會捨棄正在下載的檔案</string>
+    <string name="confirm_update_scomo">確認更新軟體</string>
+    <string name="installing_scomo">正在安裝軟體</string>
+    <string name="click_for_detail">按一下以得到更多明細</string>
+    <string name="program_crash">下載過程中發生了一個嚴重的錯誤而停止，按繼續按鈕來重新啟動。</string>
+    <string name="downloading">正在下載 <xliff:g>%s</xliff:g></string>
+    <string name="cmcc_task_running">已經在執行加強版售後服務</string>
+
+    <string name="software_update">軟體更新</string>
+    <string name="unknown_error">不明錯誤</string>
+    <string name="download_complete">下載完成</string>
+    <string name="download_failed">下載失敗</string>
+    <string name="install_complete">安裝完成</string>
+    <string name="install_failed">安裝失敗</string>
+    <string name="upgrade">升級</string>
+    <string name="install">安裝</string>
+    <string name="confirm_upgrade_msg">已偵測到前一個版本已安裝，請按下升級以升級到新版本。</string>
+    <string name="confirm_install_msg">按下安裝以安裝新軟體</string>
+    <string name="confirm_download_msg">有可用軟體更新\n按下下載繼續</string>
+    <string name="package_format_error">套件格式錯誤</string>
+    <string name="insufficent_storage">儲存空間不足以安裝軟體</string>
+
+    <string name="scomo_activity_title">軟體更新</string>
+    <string name="scomo_cancel_download_message">"真的要取消下載嗎？\n按下\"繼續\"以繼續下載\n按下\"捨棄\"以捨棄下載並且清除已下載的檔案"</string>
+    <string name="scomo_discard">捨棄</string>
+    <string name="scomo_continue">繼續</string>
+    <string name="upgrading">正在升級</string>
+    <string name="paused">暫停</string>
+    <string name="default_scomo_description">無說明內容</string>
+    <string name="unknown">不明</string>
+    <string name="loading">正在載入...</string>
+    <string name="resuming_download">繼續下載</string>
+    
+    <!-- for CollectSetPermissionDialog UI Start -->
+    <string name="manage_permission_app_label">裝置管理使用權限</string>
+    <!-- Send message First alert UI  -->
+    <string name="collect_set_permission_dlg_title">裝置管理</string>
+    <string name="collect_set_permission_dlg_check_hint">記住我的選擇</string>
+    <string name="collect_set_permission_dlg_mgs">中國移動提示：中國移動增強售後服務申請訪問和配置您的設備設置信息，並使用您的蜂窩移動數據網絡，設置信息不涉及您的隱私，該業務使用過程中産生的所有數據流量均免費（在港澳台及國際漫遊情況下不啓用本業務），如選擇確認，視爲您同意本業務訪問您的設備信息並使用您的移動數據網絡；如選擇取消，視爲您不同意，中國移動將不啓動該服務。</string>
+    <!-- Send message double confirm alert UI  -->
+    <string name="confirm_dlg_title">裝置管理</string>
+    <string name="confirm_dlg__msg">中國移動提示：您取消後，中國移動將無法爲您進行正確的終端參數設置，您確定要取消該服務？</string>
+    <!-- common alert UI  -->
+    <string name="alert_dlg_ok_button">確定</string>
+    <string name="alert_dlg_cancel_button">取消</string>
+    <!-- Send message Notification UI  -->
+    <string name="collect_set_permission_notification_tickerText">裝置管理傳送訊息要求</string>
+    <string name="collect_set_permission_notification_title">裝置管理</string>
+    <string name="collect_set_permission_notification_msg">裝置管理使用行動電話通訊使用權限要求</string>
+</resources>

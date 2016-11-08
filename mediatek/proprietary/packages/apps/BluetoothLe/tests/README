@@ -1,0 +1,33 @@
+BluetoothLe is a background process which provides service for GATT-base profiles
+
+BluetoothLe is used by BLEManager by default, but customers can replace BLEManager with customized UI & behavior
+
+
+WHAT IT DOES?
+=============
+BluetoothLe include the following profiles:
+ - ANP 1.0  (Role: Server)
+ - PASP 1.0 (Role: Server)
+ - PXP 1.0  (Role: Monitor)
+ - TIP 1.0  (Role: Server)
+ - FMP 1.0  (Role: Locator / Target)
+
+These profiles are sutable for interaction with Bluetooth Smart wearable devices
+
+HOW TO USE IT?
+==============
+1. BluetoothLe functionality is exposed by Mediatek framework APIs. 
+
+Path to framework APIs:
+/vendor/mediatek/proprietary/frameworks/base/bluetooth/java/com/mediatek/bluetooth/
+/vendor/mediatek/proprietary/frameworks/base/bluetooth/java/com/mediatek/bluetoothle/
+
+Developers can develop their own App based on these APIs
+
+2. Mediatek also provides a default UI implementation which interact with BluetoothLe to allow users to interact with wearable devices via BLE link
+
+Path to BLEManager: 
+/vendor/mediatek/proprietary/packages/apps/BLEManager/
+
+It's suggested that developers reference the App to learn the usage of the Mediatek APIs for BluetoothLe
+

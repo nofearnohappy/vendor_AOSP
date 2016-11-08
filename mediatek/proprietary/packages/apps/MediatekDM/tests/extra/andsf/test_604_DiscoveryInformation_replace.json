@@ -1,0 +1,17 @@
+[
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetworkType", objectValue : "http", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetworkInformationRef", objectValue : "ref", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/PLMN", objectValue : "460000", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/PLMN", objectValue : "46000", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/TAC", objectValue : "TAC", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/LAC", objectValue : "LAC", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/GERAN_CI", objectValue : "AG==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/UTRAN_CI", objectValue : "AW==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/EUTRA_CI", objectValue : "AT==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location/1/HESSID", objectValue : "HESSID", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location/1/SSID", objectValue : "SSID", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location/1/BSSID", objectValue : "BSSID", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular/1/AnchorLatitude", objectValue : "AG==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular/1/AnchorLongitude", objectValue : "AW==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular/1/Radius", objectValue : "1234", objectType : "int", newNode : "" }
+]

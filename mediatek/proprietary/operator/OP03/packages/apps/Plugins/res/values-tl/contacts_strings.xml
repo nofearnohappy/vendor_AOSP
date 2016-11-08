@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"Tapos na"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Tanggalin"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Piliin lahat"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Alisin sa pagkakapili ang lahat"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Bago"</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> napili
+    </string>
+    <string name="multichoice_no_select_alert">"Walang napiling item."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">USIM na mga label para sa mga karagdagang bilang</string>  
+    <string name="aas_phone_type_none">WALA</string>  
+    <string name="aas_new_dialog_title">Magdagdag ng bagong label</string>  
+    <string name="ass_rename_dialog_title">Baguhin ang label</string>  
+    <string name="aas_delele_dialog_message">Ang pagtanggal ng (mga) label ay makakaapekto sa lahat ng mga karagdagang numero na naka-link sa (mga) label. Sigurado ka ba?</string>  
+    <string name="aas_name_invalid">Hindi wasto ang pangalan ng label. Pakipasok ng isa pa.</string>  
+    <string name="aas_name_exist">Umiiral na ang label.</string>  
+    <string name="aas_usim_full">Walang espasyo para sa mga bagong label.</string>  
+    <string name="ass_edit_assert_message">Ang pagbabago sa label ay makakaapekto sa lahat ng mga karagdagang numero na naka-link sa label. Sigurado ka ba?</string>  
+    <string name="aas_new_fail">Nabigong lumikha ng bagong label.</string>  
+    <string name="aas_edit_fail">Nabigong palitan ang pangalan ng 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Nabigo ang pagtanggal ng 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_phone_primary">Pangunahing Numero</string>  
+    <string name="aas_phone_additional">Karagdagang Numero</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"Masyadong mahaba ang palayaw."</string>
+</resources>

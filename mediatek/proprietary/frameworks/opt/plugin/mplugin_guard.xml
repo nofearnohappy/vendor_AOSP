@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPluginGuard>
+
+    <check guard="@PLATFORM" >
+      <info value="platform" />
+    </check>
+    <check guard="@MEDIA" >
+      <info value="media" />
+    </check>
+    <check guard="@SHARED" >
+      <info value="share" />
+    </check>
+    <check guard="@RELEASE" >
+      <info value="release" />
+    </check>
+    <check guard="@TEST" >
+      <info value="test" />
+    </check>
+
+</MPluginGuard>

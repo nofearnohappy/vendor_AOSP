@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Autentiseringsbegäran för åtkomst för fjärrmeddelande"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Autentiseringsbegäran för åtkomst för fjärrmeddelande"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Välj för att tillåta meddelanden över anslutningen"</string>
+	<string name="bluetooth_map_server_authorize_title">"Autentiseringsbegäran för åtkomst för fjärrmeddelande"</string>
+	<string name="bluetooth_map_server_authorize_message">"Tillåt åtkomstbegäran för fjärrmeddelande från %1$s"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Tillåt"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Avvisa</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Åtkomstläge för fjärrmeddelande är anslutet"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s har åtkomst till dina meddelanden"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"Välj för att koppla från %1$s"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Koppla från fjärrmeddelandets åkomst"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Koppla från %1$s?"</string>
+  <string name="bluetooth_map_server_yes">"Ja"</string>
+	<string name="bluetooth_map_server_no">Ingen applikation tillgänglig för utskrift av kontakten.</string>
+	<string name="bluetooth_map_server_settings">"Åtkomstinställningar för fjärrmeddelande"</string>
+	<string name="bluetooth_map_server_enable_title">"Autentiseringsbegäran för åtkomst för fjärrmeddelande"</string>
+	<string name="bluetooth_map_server_enable_summary">"Aktivera kompatibilitet med hörapparat"</string>
+	<string name="bluetooth_map_server_sim_index_title">Välj SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Välj e-postkonto"</string>
+	<string name="bluetooth_map_server_no_account">"Inget tillgänligt e-postkonto"</string>
+	<string name="bluetooth_map_server_OK">inställning av SMS-servicecenter OK</string>
+	<string name="bluetooth_map_server_cancel">"Är du säker på att du vill avbryta hämtningen?\nTryck på Fortsätt för att fortsätta hämtningen\n Tryck på Kasta bort för att avbryta hämtningen och kasta den hämtade filen"</string>
+</resources>

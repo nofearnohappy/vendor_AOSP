@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.esntrack"
+    android:sharedUserId="android.uid.phone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL" />
+
+    <application>
+
+        <!-- Add your intent here for PU, OG, IG, UT -->
+        <receiver
+            android:name="com.mediatek.esntrack.EsnTrackTriggerReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.CDMA_AUTO_SMS_REGISTER_FEASIBLE" />
+                <action android:name="com.android.server.telecom.ESN_OUTGOING_CALL_PLACED" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.intent.action.SUBSCRIPTION_PHONE_STATE" />
+                <action android:name="com.android.internal.telephony.cdma.utk.ESN_MENU_SELECTION" />
+                <action android:name="com.android.mms.transaction.TRIGGER_ESN_MSG_SENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <!-- L1.MP3 Patchback only -->
+                <action android:name="com.mediatek.engineermode.EsnTrack.ADDRESS_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.mediatek.esntrack.EsnTrackBootCompleteReceiver"
+            android:process="com.android.phone" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.mediatek.esntrack.EsnTrackService" />
+    </application>
+
+</manifest>

@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Copyright Statement:
+#
+# This software/firmware and related documentation ("MediaTek Software") are
+# protected under relevant copyright laws. The information contained herein
+# is confidential and proprietary to MediaTek Inc. and/or its licensors.
+# Without the prior written permission of MediaTek inc. and/or its licensors,
+# any reproduction, modification, use or disclosure of MediaTek Software,
+# and information contained herein, in whole or in part, shall be strictly prohibited.
+
+# MediaTek Inc. (C) 2012. All rights reserved.
+#
+# BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+# THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+# RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+# AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+# NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+# SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+# SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+# THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+# THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+# CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+# SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+# STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+# CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+# AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+# OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+# MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+#
+# The following software/firmware and/or related documentation ("MediaTek Software")
+# have been modified by MediaTek Inc. All revisions are subject to any receiver's
+# applicable license agreements with MediaTek Inc. -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mediatek.op09.plugin"
+          coreApp="true"
+          android:sharedUserId="android.uid.system"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="5"/>
+    <protected-broadcast android:name="android.intent.action.SIM_STATE_CHANGED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+
+    <!-- Add your plug-in service here -->
+    <application android:label="OperatorPlugin"
+            android:icon="@drawable/ic_launcher_international_roaming_set">
+
+        <!-- SystemUI Plugin Start-->
+        <service android:name=".Op09QuickSettingsPlugin"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.systemui.ext.IQuickSettingsPlugin"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.systemui.plugin.Op09QuickSettingsPlugin"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+
+        <service android:name=".Op09StatusBarPlugin"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.systemui.ext.IStatusBarPlugin"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.systemui.plugin.Op09StatusBarPlugin"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+        <!-- SystemUI Plugin End-->
+
+        <!-- Default Image Wallpaper start -->
+        <service
+            android:name="com.mediatek.wallpaper.plugin.Op09WallpaperPluginExt"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.common.wallpaper.IWallpaperPlugin"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.wallpaper.plugin.Op09WallpaperPluginExt"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+        <!-- Default Image Wallpaper end -->
+
+        <!-- CT Wallpaper Chooser start -->
+        <activity
+            android:name="com.mediatek.wallpaper.plugin.WallpaperChooser"
+            android:theme="@style/LivePickerTheme"
+            android:label="@string/pick_wallpaper"
+            android:icon="@drawable/ic_launcher_wallpaper"
+            android:screenOrientation="portrait"
+            android:finishOnCloseSystemDialogs="true">
+            <!--  android:process=":wallpaper_chooser"-->
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.wallpaper.preview"
+                android:resource="@xml/wallpaper_picker_preview" />
+        </activity>
+        <!-- CT Wallpaper Chooser end -->
+
+        <!-- Settings Plugin Start -->
+	    <service 
+            android:name="com.mediatek.settings.plugin.FreeService"
+            android:exported="true">
+	    </service>
+
+        <!-- CT 2013 new spec, Manual network selection-->
+        <activity android:name="com.mediatek.settings.plugin.InternationalRoaming"
+                android:process="com.android.phone"
+                android:theme="@style/Theme.SubSettings"
+                android:icon="@drawable/ic_launcher_international_roaming_set"
+                android:label="@string/international_roaming_label"
+                android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc"
+                android:launchMode="singleTask"
+                android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mediatek.OP09.INTERNATIONAL_ROAMING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.settings.plugin.CurrentNetworkInfoStatus" 
+            android:process="com.android.phone"
+            android:theme="@style/Theme.SubSettings"
+            android:label="@string/current_network_info_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.settings.plugin.ManualNetworkSelection"
+                android:parentActivityName="com.mediatek.settings.plugin.InternationalRoaming"
+                android:theme="@style/Theme.SubSettings"
+                android:process="com.android.phone"
+                android:launchMode="singleTask"
+                android:clearTaskOnLaunch="true"
+                android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc"
+                android:label="@string/manual_network_selection_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.OP09.MANUAL_NETWORK_SELECTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- CT 2013 new spec, Manual network selection end-->
+        <activity android:name=".NetworkSelectionSettings"
+                android:parentActivityName="com.mediatek.settings.plugin.InternationalRoaming"
+                android:icon="@drawable/ic_launcher_settings"
+                android:label="@string/network_select_title"
+                android:launchMode="singleTask"
+                android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.OP09.NETWORK_SELECTION_SETTING_UNUSED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.settings.plugin.TimeZoneActivity"
+                android:parentActivityName="com.mediatek.settings.plugin.InternationalRoaming"
+                android:label="@string/time_zone_recommend_title"
+                android:launchMode="singleTask"
+                android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- CT Data Roaming Activity -->
+         <activity android:name="com.mediatek.settings.plugin.DataRoamingSettings"
+                   android:label="@string/data_roaming_title">
+	       <intent-filter>
+		    <action android:name="android.intent.action.MAIN" />
+		    <category android:name="android.intent.category.DEFAULT" />
+	       </intent-filter>
+	    </activity>
+
+        <service android:name="PrlService"></service>
+
+        <service android:exported="true"
+            android:name="com.mediatek.settings.plugin.OP09AudioProfileExt" >
+            <intent-filter >
+                <action android:name="com.mediatek.settings.ext.IAudioProfileExt" />
+            </intent-filter>
+
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.settings.plugin.OP09AudioProfileExt" />
+        </service>
+
+        <!-- Device info Settings Plugin for CT E push feature  -->
+        <service 
+            android:name="com.mediatek.settings.plugin.OP09DeviceInfoSettingsExt" 
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.settings.ext.IDeviceInfoSettingsExt" />
+            </intent-filter>
+            <meta-data 
+                android:name="class" 
+                android:value="com.mediatek.settings.plugin.OP09DeviceInfoSettingsExt" />
+        </service>
+
+
+        <!-- Settings MISC-->
+        <service
+                android:name="com.mediatek.settings.plugin.OP09SettingsMiscExtImp"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.settings.ext.ISettingsMiscExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.settings.plugin.OP09SettingsMiscExtImp"/>
+        </service>
+
+        <service
+                android:name="com.mediatek.settings.plugin.OP09ApnSettingsImp"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.settings.ext.IApnSettingsExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.settings.plugin.OP09ApnSettingsImp"/>
+        </service>
+
+        <service
+                android:name="com.mediatek.settings.plugin.OP09DataUsageSummaryImp"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.settings.ext.IDataUsageSummaryExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.settings.plugin.OP09DataUsageSummaryImp"/>
+        </service>
+
+
+        <service
+                android:name="com.mediatek.settings.plugin.OP09SimManagementExtImp"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.settings.ext.ISimManagementExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.settings.plugin.OP09SimManagementExtImp"/>
+        </service>
+
+
+        <!-- Phone SimSelectDialogPreference plugin start-->
+        <service
+            android:name="com.mediatek.settings.plugin.OP09SimSelectDialogPreferenceExtImp"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.gemini.simui.ext.ISimSelectDialogPreferenceExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.settings.plugin.OP09SimSelectDialogPreferenceExtImp"/>
+        </service>
+
+        <!-- CT Data Roaming Service -->        
+        <service android:name="com.mediatek.settings.plugin.RoamingService">
+	    <intent-filter>
+		<action android:name="com.mediatek.settings.RoamingService" />
+            </intent-filter>
+	    </service>
+
+        <!-- Power Savings -->
+        <activity android:name="com.mediatek.settings.plugin.PowerSavingSettings"
+            android:label="@string/power_saving_mode"
+            android:icon="@drawable/ic_launcher_settings"
+            android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Settings Plugin End -->
+
+        <!-- Phone Plugin Start-->
+
+        <service
+            android:name="com.mediatek.phone.plugin.calloption.PhoneCallOptionHandlerFactoryOP09Extension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.phone.ext.IPhoneMiscExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.phone.plugin.calloption.PhoneCallOptionHandlerFactoryOP09Extension"/>
+        </service>
+        <service
+            android:name="com.mediatek.phone.plugin.EmergencyDialerOP09Extension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.phone.ext.IEmergencyDialerExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.phone.plugin.EmergencyDialerOP09Extension"/>
+        </service>
+        <service
+            android:name="com.mediatek.phone.plugin.OP09PhoneGlobalsExtension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.phone.ext.IPhoneMiscExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.phone.plugin.OP09PhoneGlobalsExtension"/>
+        </service>
+        <!-- Phone Plugin End-->
+        <!-- InCallUI Plugin Start-->
+        <service
+            android:name="com.mediatek.incallui.plugin.OP09CallCardExtension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.incallui.ext.ICallCardExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.incallui.plugin.OP09CallCardExtension"/>
+        </service>
+        <service
+            android:name="com.mediatek.incallui.plugin.OP09NotificationExtension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.incallui.ext.INotificationExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.incallui.plugin.OP09NotificationExtension"/>
+        </service>
+        <service
+            android:name="com.mediatek.incallui.plugin.OP09InCallExtension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.incallui.ext.IInCallExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.incallui.plugin.OP09InCallExtension"/></service>
+        <!-- InCallUI Plugin End-->
+
+        <!-- Dialer Call Log Plugin Start-->
+        <service
+            android:name="com.mediatek.dialer.plugin.calllog.CallLogOP09Extension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.dialer.ext.ICallLogExtension"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.dialer.plugin.calllog.CallLogOP09Extension"/>
+        </service>
+
+        <service
+            android:name="com.mediatek.dialer.plugin.calllog.CallDetailOP09Extension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.dialer.ext.ICallDetailExtension"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.dialer.plugin.calllog.CallDetailOP09Extension"/>
+        </service>
+        <!-- Dialer Call log Plugin End-->
+        <!-- Dialer Dialpad Plugin Start-->
+        <service
+            android:name="com.mediatek.dialer.plugin.dialpad.DialPadOP09Extension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.dialer.ext.IDialPadExtension"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.dialer.plugin.dialpad.DialPadOP09Extension"/>
+        </service>
+        <service
+            android:name="com.mediatek.dialer.plugin.dialpad.DialerSearchAdapterOP09Extension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.dialer.ext.IDialerSearchExtension"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.dialer.plugin.dialpad.DialerSearchAdapterOP09Extension"/>
+        </service>
+        <service
+            android:name="com.mediatek.dialer.plugin.calloption.ContactsCallOptionHandlerFactoryOP09Extension"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.contacts.ext.IContactsCallOptionHandlerExtension"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.dialer.plugin.calloption.ContactsCallOptionHandlerFactoryOP09Extension"/>
+        </service>
+        <!-- Dialer Dialpad Plugin End-->
+
+        <!-- Call Settings Start -->
+
+        <service
+            android:name="com.mediatek.phone.plugin.callsetting.OP09CallSettingsExt"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.phone.ext.ICallSettingsConnection"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.phone.plugin.callsetting.OP09CallSettingsExt"/>
+        </service>
+        <service
+            android:name="com.mediatek.phone.plugin.OP09MobileNetworkSettingsExt"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.phone.ext.IMobileNetworkSettingsExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.phone.plugin.OP09MobileNetworkSettingsExt"/>
+        </service>
+        <service
+            android:name="com.mediatek.phone.plugin.OP09PhoneMiscExt"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.phone.ext.IPhoneMiscExt"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.phone.plugin.OP09PhoneMiscExt"/>
+        </service>
+        <!-- Phone Plugin End-->
+
+        <activity android:name="com.mediatek.phone.plugin.MultipleSimActivity"
+            android:label="@string/multiple_call_settings"
+            android:icon="@drawable/ic_launcher_phone"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.phone.plugin.callsetting.CallSettings" android:label="@string/call_settings"
+            android:icon="@drawable/ic_launcher_phone"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:taskAffinity="com.android.phone.task.callsettings"
+            android:process="com.android.phone"
+            android:launchMode="singleTask"
+            android:theme="@style/SettingsLight">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.phone.CallFeaturesSetting.ADD_VOICEMAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.settings.plugin.TimeSettingsAlertActivity" 
+                  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+                  android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.settings.intent.action.CT_TIME_ROAMING_SETTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       <!-- Call Settings end -->
+
+       <!--Contacts plugin start-->
+       <service android:name=".OP09CTExtension" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.contacts.ext.ICtExtension"/>
+            </intent-filter>
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.contacts.plugin.OP09CTExtension"/>
+        </service>
+
+        <!--Contacts plugin end-->
+
+        <!-- Mms Plugin Start-->
+        <!-- Mms Plugin End-->
+
+        <!-- Keyguard Plugin Start-->
+        <service android:name=".OP09EmergencyButtonExt"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.keyguard.ext.IEmergencyButtonExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.keyguard.plugin.OP09EmergencyButtonExt"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+
+        <service android:name=".OP09CardInfoExtImp"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.keyguard.ext.ICardInfoExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.keyguard.plugin.OP09CardInfoExtImp"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+
+        <service android:name=".OP09CustomizeClockImp"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.keyguard.ext.ICustomizeClock"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.keyguard.plugin.OP09CustomizeClockImp"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+
+        <service android:name=".OP09CarrierTextExt"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.keyguard.ext.ICarrierTextExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.keyguard.plugin.OP09CarrierTextExt"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+
+        <service android:name=".OP09OperatorSIMStringImp"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.keyguard.ext.IOperatorSIMString"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.keyguard.plugin.OP09OperatorSIMStringImp"/>
+            <meta-data android:name="version" android:value="1.0.0"/>
+        </service>
+        <!-- Keyguard Plugin End-->
+
+<!-- CT CDMA info specification start -->
+         <activity android:name="com.mediatek.dialer.plugin.dialpad.CdmaInfoSpecification"
+                   android:theme="@android:style/Theme.NoTitleBar"
+                   android:process="com.android.phone">
+            <intent-filter>
+                <action android:name="android.intent.action.CdmaInfoSpecification" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- CT CDMA info specification end -->
+
+        <!--SettingsProvider Plugin Start-->
+        <service
+                android:name="com.mediatek.settingsprovider.plugin.OP09DatabaseHelperExt"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.providers.settings.ext.IDatabaseHelperExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.settingsprovider.plugin.OP09DatabaseHelperExt"/>
+            <meta-data
+                    android:name="version"
+                    android:value="1.0.0"/>
+        </service>
+        <!--SettingsProvider Plugin End-->
+
+<!-- CT feature data connection start-->
+        <activity android:name="com.mediatek.settings.plugin.DataConnectionSettings"
+                android:launchMode="singleTask"
+                android:clearTaskOnLaunch="true"
+                android:theme="@style/Theme.SubSettings"
+                android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc"
+                android:label="@string/data_connection_summary_title"
+                android:icon="@drawable/ic_data_connection_set">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.OP09.DATA_CONNECTION_SETTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.mediatek.settings.plugin.UseLteDataSettings"
+                android:launchMode="singleTask"
+                android:clearTaskOnLaunch="true"
+                android:theme="@style/Theme.SubSettings"
+                android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc"
+                android:label="@string/enable_lte_data"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.OP09.USE_LTE_DATA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- CT feature data connection end-->
+
+<!-- when sim1 insert 3g card or no uim inserted,show dialog start-->
+        <receiver android:name="com.mediatek.settings.plugin.SimDialogReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CDMA_CARD_TYPE" />
+                <action android:name="com.mediatek.intent.action.STARTSELF_SIM_DIALOG_SERVICE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.mediatek.settings.plugin.UimDetectDialogActivity"
+                android:launchMode="singleInstance"
+                android:clearTaskOnLaunch="true"
+                android:theme="@style/Theme.SimDetectSettings"
+                android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mediatek.OP09.UIM_CHANGE_ALERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.mediatek.settings.plugin.SimDialogService"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.OP09.SIM_DIALOG_SERVICE" />
+            </intent-filter>
+        </service>
+<!-- when sim1 insert 3g card or ,show dialog end-->
+
+        <service
+                android:name="com.mediatek.settings.plugin.OP09DataUsageExtImp"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.settings.ext.IDataUsageSummaryExt"/>
+            </intent-filter>
+            <meta-data
+                    android:name="class"
+                    android:value="com.mediatek.settings.plugin.OP09DataUsageExtImp"/>
+        </service>
+<!-- For CT spec to auto switch data sub when current data sub is radio off start-->
+
+		<!-- For OP09 MMS Feature begin -->
+        <activity android:name="com.mediatek.mms.plugin.VCardViewerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc"
+            android:theme="@style/MmsHoloThemeWhite"
+            android:exported = "true">
+        </activity>
+
+        <activity android:name="com.mediatek.mms.plugin.AdvancedSearchActivity"
+            android:configChanges="keyboardHidden|mcc|mnc"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/MmsTheme"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="com.mediatek.action.AdvancedSearchActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- For OP09 MMS Feature end -->
+
+        <receiver android:name="com.mediatek.settings.plugin.DataChangedReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.DATA_ACTIVITY_CHANGE_CT" />
+            </intent-filter>
+        </receiver>
+        <service
+                android:name="com.mediatek.settings.plugin.ChangeRatModeService"
+                android:exported="true">
+        </service>
+    </application>
+</manifest>

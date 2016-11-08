@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffbf0" >
+
+    <ImageButton
+        android:id="@+id/bluetooth_switch_button"
+        android:layout_width="170dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="#fffbf0"
+        android:src="@drawable/image_add"
+        android:scaleType="centerCrop" />
+    
+    <TextView android:id="@+id/bluetooth_state_text"
+        android:layout_below="@id/bluetooth_switch_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/tap_to_turn_on_bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#898989" />
+
+</RelativeLayout>

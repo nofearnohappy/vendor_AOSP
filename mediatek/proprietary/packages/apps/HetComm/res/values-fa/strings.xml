@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">دانلودتوربو</string>
+    <string name="hetcomm_intro">دانلود فایل های بزرگ (بیشتر از 20 مگابایت) را با استفاده از شبکه های Wi-Fi و 4G/3G همزمان با سرعت بیشتری انجام دهید. در هنگام اجرا، نماد دانلود توربو روی نوار وضعیت نشان داده می شود. برای استفاده از دانلود توربو، باید هر دو داده Wi-Fi و همراه روشن باشند. هنگامی که فعال است، هرگونه داده برنامه ای که برای دانلود فقط از طریق Wi-Fi انتخاب کرده اید، از طریق شبکه های  WLAN و 4G/3G دانلود خواهند شد.</string>
+    <string name="enable_switch_on">روشن</string>
+    <string name="enable_switch_off">خاموش</string>
+    <string name="notify_top_title">افزایش دهنده سرعت دانلود</string>
+    <string name="unit_Mbps">مگابیت در ثانیه</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"داده‌های تلفن همراه"</string>
+    <string name="conn_notice_title">داده همراه یا Wi-Fi خاموش است.</string>
+    <string name="conn_notice_detail">برای فعال کردن دانلود توربو، داده های همراه یا Wi-Fi باید هر دو روشن باشند.</string>
+    <string name="conn_charging_warning">دانلود از طریق شبکه های همراه ممکن است سبب ایجاد هزینه های اضافی شود.</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> را روشن کنید</string>
+    <string name="turn_off_due_to_vpn">Vpn روشن است به همین دلیل دانلود توربو خاموش است</string>
+    <string name="turn_off_due_to_tether">اتصال به اینترنت با تلفن همراه روشن است به همین دلیل دانلود توربو خاموش است</string>
+    <string name="turn_off_due_to_shutdown">خاموش شد، به همین دلیل دانلود توربو خاموش است</string>
+    <string name="turn_off_due_to_roaming">در حالت رومینگ است، به همین دلیل دانلود توربو خاموش است</string>
+    <string name="ratio_is_single">سرعت Wi-Fi/داده همراه کم است. برای افزایش سرعت دانلود، دانلود Turbo فقط از داده همراه/Wi-Fi برای دانلود فایل ها استفاده می کند.</string>
+    <string name="ratio_is_back">دانلود Turbo مجدداً از Wi-Fi و داده همراه در کنار یکدیگر برای دانلود فایل ها استفاده می کند.</string>
+    <string name="action_help">راهنمایی</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>راهنمای دانلود توربو</u>\
+    </h1><br>دانلود فایل های بزرگ با سرعت زیاد سبب استفاده همزمان از Wi-Fi و 4G/3G می شود.\
+    <h4>1. به تنظیمات بروید و روی ""دانلود توربو"" کلیک کنید..</h4>\
+    <h4>2. برای روشن کردن دانلود توربو، روی سوییچ ضربه بزنید.</h4>\
+    <p><b>[نکته]</b> در صورت اتصال به Wi-Fi و 4G/3G در ابتدای دانلود برای سرعت بخشیدن به دانلود.\
+    <p><b>[نکته]</b> اگر سرعت اتصال به Wi-Fi و 4G/3G خیلی کم است، می توانید از اتصال شبکه سریع ترتان برای دانلود استفاده کنید.\
+    <p><b>[نکته]</b> سرعت و عملکرد دانلود توربو ممکن است در حین دانلود تحت تأثیر شرایط محیط قرار بگیرد.\
+    <br>&nbsp;&nbsp;- اگر سیگنال ها ثابت نیستند، سرعت و عملکرد این ویژگی ممکن است تحت تأثیر قرار بگیرد.\
+    <br>&nbsp;&nbsp;- اما به طور متوسط سرعت دانلود در مقایسه با زمانی که فقط از Wi-Fi یا 4G/3G به تنهایی استفاده می کنید، دو برابر می شود.\
+    <p><b>[نکته]</b> وقتی تفاوت سرعت Wi-Fi و 4G/3G خیلی زیاد باشد (معمولاً 2.5 برابر)، دانلود توربو متوقف می شود یا پشتیبانی نمی کند تا در نتیجه عملکرد بدی در ارتباط با سرعت وجود نداشته باشد.\
+    <p><b>[نکته]</b> با اتصال از طریق دستگاه همراه یا روشن کردن Vpn، دانلود توربو غیرفعال می شود.\
+    </body></html>]]>"</string>
+</resources>

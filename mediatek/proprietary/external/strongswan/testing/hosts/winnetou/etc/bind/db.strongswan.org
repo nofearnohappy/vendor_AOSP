@@ -1,0 +1,139 @@
+;
+; Zonefile for the strongswan.org zone
+;
+$TTL	604800
+@		IN	SOA	ns1.strongswan.org.	root.strongswan.org. (
+				     1			; Serial
+				 604800			; Refresh
+				  86400			; Retry	
+				2419200			; Expire
+				 604800 )		; Negative Cache TTL
+;
+@		IN	NS	ns1.strongswan.org.
+ns1		IN	A	192.168.0.150	
+ns1		IN	AAAA	fe80::fcfd:c0ff:fea8:96
+;
+moon		IN	A	192.168.0.1
+sun		IN	A	192.168.0.2
+mars		IN	A	192.168.0.5
+alice1		IN	A	192.168.0.50
+carol		IN	A	192.168.0.100
+winnetou	IN	A	192.168.0.150
+dave		IN	A	192.168.0.200
+;
+ip6-moon	IN	AAAA	fe80::fcfd:c0ff:fea8:01
+ip6-sun		IN	AAAA	fe80::fcfd:c0ff:fea8:02
+ip6-carol	IN	AAAA	fe80::fcfd:c0ff:fea8:64
+ip6-winnetou	IN	AAAA	fe80::fcfd:c0ff:fea8:96
+ip6-dave	IN	AAAA	fe80::fcfd:c0ff:fea8:c8
+;
+crl		IN	CNAME	winnetou.strongswan.org.
+ldap		IN	CNAME	winnetou.strongswan.org.
+ocsp		IN	CNAME	winnetou.strongswan.org.
+;
+moon		IN	CERT	( 1 0 0
+				MIIEIjCCAwqgAwIBAgIBFzANBgkqhkiG9w0BAQsFADBFMQswCQYDVQQGEwJDSDEZ
+				MBcGA1UEChMQTGludXggc3Ryb25nU3dhbjEbMBkGA1UEAxMSc3Ryb25nU3dhbiBS
+				b290IENBMB4XDTA5MDgyNzEwMDMzMloXDTE0MDgyNjEwMDMzMlowRjELMAkGA1UE
+				BhMCQ0gxGTAXBgNVBAoTEExpbnV4IHN0cm9uZ1N3YW4xHDAaBgNVBAMTE21vb24u
+				c3Ryb25nc3dhbi5vcmcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDK
+				L2M91Lu6BYYhWxWgMS9z9TMSTwszm5rhO7ZIsCtMRo4PAeYw+++SGXt3CPXb/+p+
+				SWKGlm11rPE71eQ3ehgh2C3hAurfmWO0iQQaCw+fdreeIVCqOQIOP6UqZ327h5yY
+				YpHk8VQv4vBJTpxclU1PqnWheqe1ZlLxsW773LRml/fQt/UgvJkCBTZZONLNMfK+
+				7TDnYaVsAtncgvDN78nUNEe2qY92KK7SrBJ6SpUEg49m51F+XgsGcsgWVHS85on3
+				Om/G48crLEVJjdu8CxewSRVgb+lPJWzHd8QsU0Vg/7vlqs3ZRMyNtNKrr4opSvVb
+				A6agGlTXhDCreDiXU8KHAgMBAAGjggEaMIIBFjAJBgNVHRMEAjAAMAsGA1UdDwQE
+				AwIDqDAdBgNVHQ4EFgQUapx00fiJeYn2WpTpifH6w2SdKS4wbQYDVR0jBGYwZIAU
+				XafdcAZRMn7ntm2zteXgYOouTe+hSaRHMEUxCzAJBgNVBAYTAkNIMRkwFwYDVQQK
+				ExBMaW51eCBzdHJvbmdTd2FuMRswGQYDVQQDExJzdHJvbmdTd2FuIFJvb3QgQ0GC
+				AQAwHgYDVR0RBBcwFYITbW9vbi5zdHJvbmdzd2FuLm9yZzATBgNVHSUEDDAKBggr
+				BgEFBQcDATA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vY3JsLnN0cm9uZ3N3YW4u
+				b3JnL3N0cm9uZ3N3YW4uY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQCctXg2xeMozaTV
+				jiBL1P8MY9uEH5JtU0EceQ1RbI5/2vGRdnECND9oADY5vamaaE2Mdq2Qh/vlXnML
+				o3ii5ELjsQlYdTYZOcMOdcUUXYvbbFX1cwpkBhyBl1H25KptHcgQ/HnceKp3kOuq
+				wYOYjgwePXulcpWXx0E2QtQCFQQZFPyEWeNJxH0oglg53QPXfHY9I2/Gukj5V0bz
+				p7ME0Gs8KdnYdmbbDqzQgPsta96/m+HoJlsrVF+4Gqihj6BWMBQ2ybjPWZdG3oH9
+				25cE8v60Ry98D0Z/tygbAUFnh5oOvaf642paVgc3aoA77I8U+UZjECxISoiHultY
+				7QTufOwP
+				)
+sun		IN	CERT	( 1 0 0
+				MIIEIDCCAwigAwIBAgIBFjANBgkqhkiG9w0BAQsFADBFMQswCQYDVQQGEwJDSDEZ
+				MBcGA1UEChMQTGludXggc3Ryb25nU3dhbjEbMBkGA1UEAxMSc3Ryb25nU3dhbiBS
+				b290IENBMB4XDTA5MDgyNzA5NTkwNFoXDTE0MDgyNjA5NTkwNFowRTELMAkGA1UE
+				BhMCQ0gxGTAXBgNVBAoTEExpbnV4IHN0cm9uZ1N3YW4xGzAZBgNVBAMTEnN1bi5z
+				dHJvbmdzd2FuLm9yZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN+V
+				VIpn6Q5jaU//EN6p6A5cSfUfhBK0mFa2laFFZh/Y0h66AXqqrQ3X917h7YNsSk68
+				oowY9h9I3gOx7hNVBsJr2VjdYC+b0q5NTha09/A5mimv/prYj6o0yawxoPjoDs9Y
+				h7D7Kf+F8fkgk0stlHJZX66J7dNrFXbg1xBld+Ep5Or2FbEZ9QWUpRQTuhdpNt/4
+				9YuxQ59DemY9IRbwsrKCHH0mGrJsDdqeb0ap+8QvSXHjCt1fr9MNKWaAFAQLKQI4
+				e0da1ntPCEQLeE833+NNRBgGufk0KqGT3eAXqrxa9AEIUJnVcPexQdqUMjcUpXFb
+				8WNzRWB8Egh3BDK6FsECAwEAAaOCARkwggEVMAkGA1UdEwQCMAAwCwYDVR0PBAQD
+				AgOoMB0GA1UdDgQWBBRW1p4v2qihzRlcI1PnxbZwluML+zBtBgNVHSMEZjBkgBRd
+				p91wBlEyfue2bbO15eBg6i5N76FJpEcwRTELMAkGA1UEBhMCQ0gxGTAXBgNVBAoT
+				EExpbnV4IHN0cm9uZ1N3YW4xGzAZBgNVBAMTEnN0cm9uZ1N3YW4gUm9vdCBDQYIB
+				ADAdBgNVHREEFjAUghJzdW4uc3Ryb25nc3dhbi5vcmcwEwYDVR0lBAwwCgYIKwYB
+				BQUHAwEwOQYDVR0fBDIwMDAuoCygKoYoaHR0cDovL2NybC5zdHJvbmdzd2FuLm9y
+				Zy9zdHJvbmdzd2FuLmNybDANBgkqhkiG9w0BAQsFAAOCAQEAo37LYT9Awx0MK/nA
+				FZpPJqUr0Ey+O5Ukcsdx7nd00SlmpiQRY8KmuRXCBQnDEgdLstd3slQjT0pJEgWF
+				0pzxybnI6eOzYAhLfhart+X1hURiNGbXjggm2s4I5+K32bVIkNEqlsYnd/6F9oo5
+				ZNO0/eTTruLZfkNe/zchBGKe/Z7MacVwlYWWCbMtBV4K1d5dGcRRgpQ9WivDlmat
+				Nh9wlscDSgSGk3HJkbxnq695VN7zUbDWAUvWWhV5bIDjlAR/xyT9ApqIxiyVVRul
+				fYrE7U05Hbt6GgAroAKLp6qJup9+TxQAKSjKIwJ0hf7OuYyQ8TZtVHS7AOhm+T/5
+				G/jGGA==
+				)
+;
+moon		IN	IPSECKEY ( 10 1 2 192.168.0.1
+				AwEAAcovYz3Uu7oFhiFbFaAxL3P1MxJPCzObmuE7tkiwK0xGjg8B5jD7
+				75IZe3cI9dv/6n5JYoaWbXWs8TvV5Dd6GCHYLeEC6t+ZY7SJBBoLD592
+				t54hUKo5Ag4/pSpnfbuHnJhikeTxVC/i8ElOnFyVTU+qdaF6p7VmUvGx
+				bvvctGaX99C39SC8mQIFNlk40s0x8r7tMOdhpWwC2dyC8M3vydQ0R7ap
+				j3YortKsEnpKlQSDj2bnUX5eCwZyyBZUdLzmifc6b8bjxyssRUmN27w
+				LF7BJFWBv6U8lbMd3xCxTRWD/u+WqzdlEzI200quviilK9VsDpqAaVNe
+				EMKt4OJdTwoc=
+				)
+sun		IN	IPSECKEY ( 10 1 2 192.168.0.2
+				AwEAAd+VVIpn6Q5jaU//EN6p6A5cSfUfhBK0mFa2laFFZh/Y0h66AXqq
+				rQ3X917h7YNsSk68oowY9h9I3gOx7hNVBsJr2VjdYC+b0q5NTha09/A5
+				mimv/prYj6o0yawxoPjoDs9Yh7D7Kf+F8fkgk0stlHJZX66J7dNrFXbg
+				1xBld+Ep5Or2FbEZ9QWUpRQTuhdpNt/49YuxQ59DemY9IRbwsrKCHH0m
+				GrJsDdqeb0ap+8QvSXHjCt1fr9MNKWaAFAQLKQI4e0da1ntPCEQLeE83
+				3+NNRBgGufk0KqGT3eAXqrxa9AEIUJnVcPexQdqUMjcUpXFb8WNzRWB8
+				Egh3BDK6FsE=
+				)
+carol		IN	IPSECKEY ( 10 1 2 192.168.0.100
+				AwEAAdBdWU+BF7x4lyo+xHnr4UAOU89yQQuT5vdPoXzx6kRPsjYAuukt
+				gXR+SaLkQHw/YRgDPSKj5nzmmlOQf/rWRr+8O2q+C92aUICmkNvZGamo
+				5w2WlOMZ6T5dk2Hv+QM6xT/GzWyVr1dMYu/7tywD1Bw7aW/HqkRESDu6
+				q95VWu+Lzg6XlxCNEez0YsZrN/fC6BL2qzKAqMBbIHFW8OOnh+nEY4IF
+				5AzkZnFrw12GI72Z882pw97lyKwZhSz/GMQFBJx+rnNdw5P1IJwTlG5P
+				UdoDCte/Mcr1iiA+zOovx55x1GoGxduoXWU5egrf1MtalRf9Pc8Xr4q3
+				WEKTAmsZrVE=
+				)
+dave		IN	IPSECKEY ( 10 1 2 192.168.0.200
+				AwEAAcAH8lNvBVjmg0XT7wF6F1tzQ055f5uXRI5yClmFrqdswFA7jWO0
+				4jmvlduD2wr2X4Ng6dlBkSwSEhVkOgrzIYj8UgQT6BZF/44uYjyTYr4b
+				V2SVML9U/a1lYxBhBazpSdfeKJWkdxwjcJCqolZ719mwiyrQn2P2G7qH
+				10YgRuifpFcMs8jkMiIgpzevSMMc0OwhQPNyO5R0LEoUIy4dQJ9rU8GK
+				qmPmk/pdPQaAjpSNuCc1Y9M9vZrETs/XHmBCZXCIWJiz5VOHZ+r073E3
+				Gef9ibMuTj9g2XLvFhdDfU26FK9GkfuOwnWnhVK66diq9xw9Qqynk+8K
+				0J4a81Paq3U=
+				)
+;
+; This is a zone-signing key, keyid 9396, for strongswan.org.
+strongswan.org.	IN	DNSKEY	256 3 8	(
+				AwEAAa5Lb6qTxuy4ZJBDoDStnmstIU5nAsliu6UKZ6imLEg2ufAXfz7f
+				fOtIh2/QECp80GgUDBStMvVJfRjXeJUgavM8d0Ob/rJfl1uH/buyO7Yj
+				D+64n9t29pEuFKSAR+tYyUYk5iTidqE/CNltNkps9wc1wBAxK8ouSVXd
+				bNvV9pvZ
+				)
+;
+; This is a key-signing key, keyid 481, for strongswan.org.
+strongswan.org.	IN	DNSKEY	257 3 8	(
+				AwEAAcXfcWvCGzQq80q9JX1Wvz0lwA/fi1XZmega350wGR8WdFCklvmK
+			 	fAzNaf1CrvN3bH9Gl2VEEhkYMF6h6kVFTU7taspq5t0bLwgCK/nS8QzK
+				TLWvzWdyVayiHfij1PPwnQV5FADBTE5mMEkmn82+PKg6jaKs3ANsc0BP
+				bGSsGIxhUKliLxJEd+6KSl/+ouQD9RfCD5sz9NIF+IXv1ZGp2Rjf+6vK
+				bPO8f0hmttwE/OzKyBgysLBbd6fw2pKOBhunVFmUYPaHM9zLTydzuSIA
+				X9iSeM6HtAvlKgK0JGgPEFrX+jPG6wDvJfzzakx85rMkRGc31NFiFLqM
+				ooWxy1674/U=
+				)

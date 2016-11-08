@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Innkommende filforespørsel"</string>
+	<string name="bt_opp_notification_in_coming_title">"Innkommende filforespørsel (fra: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Velg å godta innkommende fil."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Tillat innkommende filoverføringer"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Mottar: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Utgående fil"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Sender: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Koblet til filoverføring"</string>
+	<string name="bt_opp_cancel_task_message">"Avbryte denne overføringen?"</string>
+	<string name="bt_opp_cancel_task_yes">"Ja"</string>
+	<string name="bt_opp_cancel_task_no">Ingen programmer til å skrive ut kontakten.</string>
+	<string name="bt_opp_canceling_task_message">"Avbryter overføring. Vent litt …"</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth – Innkommende objekt"</string>
+	<string name="bt_opps_confirm_push_message">"Innkommende fil: %1$s (%2$s) fra %3$s. Godta?"</string>
+	<string name="bt_opps_confirm_push_yes">Godta Auto-push-tjeneste eller ikke?</string>
+	<string name="bt_opps_confirm_push_no">Forkast</string>
+	<string name="bt_oppc_push_action_label">"Spiller over Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Sender fil til %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Sender filer til %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Ustøttet deleinnhold: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Ingen SD-kort eller ikke nok lagringsplass for innkommende fil."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Ugyldig deleforespørsel fra ekstern enhet."</string>
+</resources>

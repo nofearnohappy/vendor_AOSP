@@ -1,0 +1,19 @@
+WHAT IT DOES?
+==================
+It is to provide a SDK for APP developers to develop voice command related features such as voice camera, voice contact search, voice music search ...­etc
+
+HOW IT WAS BUILD?
+===================
+1. The feature options MTK_VOICE_INTERFACE_EXTENSION_SUPPORT should be true.
+2. It needs the following library from MediaTek: libvie_jni.so
+
+[Build Method]
+make VoiceExtension
+or
+mmm vend/mediatek/proprietary/packages/apps/VoiceExtension
+
+HOW TO USE IT?
+====================
+Boot up the device will start it.
+All api interface are at (vendor/mediatek/proprietary/packages/apps/VoiceExtension)
+All the source code of this library were written by MediaTek co..

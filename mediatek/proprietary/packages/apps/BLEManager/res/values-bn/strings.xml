@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">ব্লুটুথ চালু করতে টোকা দিন</string>
+    <string name="tap_to_add_device">ডিভাইস যোগ করতে টোকা দিন</string>
+    <string name="turning_on_bluetooth">ব্লুটুথ চালু হচ্ছে...</string>
+    <string name="launcher_activity_name">বিএলই ম্যানেজার</string>
+    <string name="scanning_devices">ডিভাইস স্ক্যান হচ্ছে</string>
+    <string name="delete_devices">নতুন ডিভাইস সংযুক্ত করতে একটি ডিভাইস বিচ্ছ্ন্নি করুন</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="alert_setting">সজাগ করুন</string>
+    <string name="device_manager">ডিভাইস ম্যানেজার</string>
+    <string name="out_of_range_alert_text">আওতার বাইরে সতর্কসংকেত</string>
+    <string name="in_range_alert_text">আওতার মধ্যে সতর্কসংকেত</string>
+    <string name="range_alert_text">আমার আওতা</string>
+    <string name="range_alert_summary">ফোন ও ডিভাইস উভয় সতর্কসংকেত যখন ডিভাইস আওতার মধ্যে বা বাইরে</string>
+    <string name="range_near_text">কাছে</string>
+    <string name="range_middle_text">মধ্য</string>
+    <string name="range_far_text">দূর</string>
+    <string name="range_1_distance_text">১মিটারের মত</string>
+    <string name="range_10_distance_text">১-১০মি</string>
+    <string name="range_20_distance_text">১০-২০মি</string>
+    <string name="phone_alert_settings">ফোনের সতর্কসংকেত সেটিং </string>
+    <string name="ringtone_tye_text">রিংটোন</string>
+    <string name="volume_text">ভলিউম</string>
+    <string name="vibration_text">কম্পন</string>
+    <string name="vibration_summary_on">চালু </string>
+    <string name="vibration_summary_off">বন্ধ করুন</string>
+    <string name="device_name">ডিভাইসের নাম</string>
+    <string name="push_notification_text">ডিভাইসে পুশ নোটিফিকেশন</string>
+    <string name="incoming_call_notification_text">ইনকামিং কল</string>
+    <string name="missed_call_notificaiotn_text">ব্যর্থ কল</string>
+    <string name="new_message_notification_text">নতুন বার্তা </string>
+    <string name="new_email_notification_text">নতুন ইমেইল</string>
+    <string name="disconnection_text">বিচ্ছিন্ন করার সেটিং</string>
+    <string name="disconnection_waring_title">বিচ্ছিন্ন করার সতর্কসংকেত</string>
+    <string name="disconnection_waring_summary">ফোন ও ডিভাইস উভয় সতর্কসংকেত যখন ডিভাইস বিচ্ছিন্ন</string>
+    <string name="device_name_change_dialog_title">পুনরায় নামকরণ করুন</string>
+    <string name="disconnect_text">বিচ্ছিন্ন করুন</string>
+    <string name="delete_text">পরিচিতজন মুছুন</string>
+    <string name="connect_text">সংযুক্ত করুন</string>
+    <string name="device_delete_dialog_message">এই ডিভাইস মুছে ফেলবেন?</string>
+    <string name="device_disconnect_dialog_message">ডিভাইস বিচ্ছিন্ন করবেন?</string>
+    <string name="find_all_text">সব খুঁজুন</string>
+    <string name="default_images">ডিফল্ট ছবি</string>
+    <string name="range_information_text">সিগনালের শক্তির উপর আওতা বা র‍্যাঞ্জ নির্ভর করে। আদর্শ পরিস্থিতিতে, আওতা ৩০ মিটারের মধ্যে হতে পারে।  নির্দিষ্ট কিছু উপাদান যেমন আপনার শরীর, দেয়াল ও অন্যান্য প্রতিবন্ধক ১৫ মিটার বা তার কম দূরত্ব সংক্ষিপ্ত করতে পারে।</string>
+    <string name="range_information_dialog_check_box_text">আবার দেখাবেন না</string>
+    <string-array name="device_image_chooser_items">
+        <item>ডিফল্ট ছবি থেকে বাছাই করুন</item>
+        <item>ছবি তুলুন</item>
+        <item>গ্যালারি থেকে বাছাই করুন</item>
+    </string-array>
+    <string name="add_device">"ডিভাইস যোগ করুন"</string>
+    <string name="yes">"হ্যাঁ"</string>
+    <string name="no">না </string>
+    <string name="connecting_text">সংযুক্ত হচ্ছে...</string>
+    <string name="enable_background_service">ব্যাকগ্রাউন্ড মোড সক্রিয় করুন</string>
+    <string name="disable_background_service">ব্যাকগ্রাউন্ড মোড নিষ্ক্রিয় করুন</string>
+    <string name="ble_manager_alert">বিএলই ম্যানেজার এলার্ট</string>
+    <string name="check">চেক করুন </string>
+    <string name="dismiss">বাতিল করুন</string>
+    <string name="disconnected">বিচ্ছিন্ন</string>
+    <string name="in_range">রেঞ্জের মধ্যে </string>
+    <string name="out_of_range">রেঞ্জের বাইরে </string>
+    <string name="no_found">কোন ব্লুটুথ ডিভাইস পাওয়া যায়নি</string>
+    <string name="bt_off">ব্লুটুথ বন্ধ আছে, এটি চালু করুন।</string>
+</resources>

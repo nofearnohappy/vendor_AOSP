@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Сақтық көшірме жасау және қалпына келтіру</string>
+    <string name="backup">Сақтық көшірме жасау</string>
+    <string name="restore">Қалпына келтіру</string>
+    <string name="backuptosd">SD-картасына сақтық көшірме жасау</string>
+    <string name="selectall">Барлығын белгілеу</string>
+    <string name="unselectall">"Барлық белгілерді алу"</string>
+    <string name="contact_module">Контакт</string>
+    <string name="message_module">Хабар алмасу</string>
+    <string name="picture_module">Сурет</string>
+    <string name="calendar_module">Күнтізбе</string>
+    <string name="calllog_module">Қоңырау журналы</string>
+    <string name="app_module">Қолданба</string>
+    <string name="music_module">Музыка</string>
+    <string name="notebook_module">Жазу кітапшасы</string>
+    <string name="bookmark_module">Бетбелгі</string>
+    <string name="backuping">Сақтық көшірме жасау</string>
+    <string name="restoring">Қалпына келтіру</string>
+    <string name="warning">Ескерту</string>
+    <string name="cancel_backup_confirm">Сақтық көшірме жасауды болдырмау керек пе?</string>
+    <string name="cancelling">Болдырмау</string>
+    <string name="btn_ok">OK</string>
+    <string name="bt_yes">Иә</string>
+    <string name="bt_no">Жоқ</string>
+    <string name="menu_delete">Жою</string>
+    <string name="unknown">Белгісіз</string>
+    <string name="backup_data">Деректі сақтық көшірме жасау</string>
+    <string name="less_1K">1 Кб-тан аз</string>
+    <string name="notice">Ескертпе</string>
+    <string name="nosdcard_notice">SD-картасын енгізіңіз!</string>
+    <string name="restore_confirm_notice">Қалпына келтіруге сенімдісіз бе?</string>
+    <string name="contitue">Жалғастыру</string>
+    <string name="sdcard_removed">SD-картасы алынды!</string>
+    <string name="sdcard_is_full">SD-картасы толы!</string>
+    <string name="backup_result">Сақтық көшірме жасау нәтижесі</string>
+    <string name="restore_result">Қалпына келтіру нәтижесі</string>
+    <string name="result_success">орындалды</string>
+    <string name="result_fail">орындалмады</string>
+    <string name="result_no_content">мазмұн жоқ</string>
+    <string name="error">Қате</string>
+    <string name="sdcard_swap_remove">SD-картасы табылмады.</string>
+    <string name="sdcard_swap_insert">SD-картасы табылды.</string>
+    <string name="backup_personal_data">Жеке деректер</string>
+    <string name="backup_app">Қолданба</string>
+    <string name="backup_personal_data_history">Жеке деректерге сақтық көшірме жасау журналы</string>
+    <string name="backup_app_data_history">Қолданбаларға сақтық көшірме жасау</string>
+    <string name="backup_app_data_preference_title">Қолданбалар</string>
+    <string name="contact_all">Барлығы</string>
+    <string name="contact_phone" product="tablet">"Планшет"</string>
+    <string name="contact_phone" product="default">Қоңырау шалу</string>
+    <string name="selected">таңдалған</string>
+    <string name="delete_please_wait">Жойылуда, күтіңіз!</string>
+    <string name="loading_please_wait">жаңартылғанша күтіңіз...</string>
+    <string name="edit_folder_name">Қалта атауын өңдеу</string>
+    <string name="file_no_exist_and_update">Файл жойылды, қайта жүктеледі.</string>
+    <string name="no_item_selected">Элемент таңдалмады</string>
+    <string name="updating">жаңартуда...</string>
+    <string name="create_folder_fail">қалта құрылмады</string>
+    <string name="detect_new_data_title">Жаңа дерек анықталды</string>
+    <string name="detect_new_data_text" product="tablet">Деректеріңізді планшетте қалпына келтіру үшін таңдаңыз.</string>
+    <string name="detect_new_data_text" product="default">Деректі телефонда қалпына келтіру үшін таңдаңыз.</string>
+    <string name="notification_backup_title">Сақтық көшірме жасау</string>
+    <string name="notification_restore_title">Қалпына келтіру</string>
+    <string name="restored_flag">Қалпына келтірілді</string>
+    <string name="message_sms">Мәтіндік хабар</string>
+    <string name="message_mms">Мультимедиа хабары</string>
+    <string name="activity_loading">Жүктеу\u2026</string>
+    <string name="sdcard_busy_message">SD-картасы бос емес.</string>
+    <string name="backup_running_toast">Сақтық көшірме жасау барысында деректі қалпына келтіру мүмкін емес.</string>
+    <string name="air_mode_dialog_title">SIM-карта өшірулі</string>
+    <string name="air_mode_dialog_message">SIM карта контактілерінің резервтік көшірмелерін жасау үшін ұшу режимін өшіру қажет.</string>
+    <string name="sim_locked_dialog_title">SIM-картаны құлыптау</string>
+    <string name="sim_locked_dialog_message">Контактілердің резервтік көшірмесін жасау үшін SIM картаны құлыптан босату қажет.</string>
+    <string name="sim_locked_dialog_unlock">Құлыптан босату</string>
+    <string name="no_data">Дерек жоқ.</string>
+    <string name="app_slot1">1-ұяшық</string>
+    <string name="app_slot2">2-ұяшық</string>
+    <string name="app_slot3">3-ұяшық</string>
+    <string name="app_slot4">4-ұяшық</string>
+    <string name="notification_backup_ok">Сақтық көшірме жасау әрекеті орындалды.</string>
+    <string name="notification_backup_failed">Сақтық көшірме жасау әрекеті орындалмады.</string>
+    <string name="notification_restore_ok">Қалпына келтіру әрекеті орындалды.</string>
+    <string name="notification_restore_failed">Қалпына келтіру әрекеті орындалмады.</string>
+    <string name="backup_confirm_overwrite_notice">Мұндай қалта бар, көшіресіз бе?</string>
+</resources>

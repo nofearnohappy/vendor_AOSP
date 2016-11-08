@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Prenosný prístupový bod Wi-Fi</string>
+    <string name="wifi_tether_introduction_text">Po zmene vášho zariadenia na prenosný prístupový bod Wi-Fi môžete svoje internetové pripojenie zdieľať až s ôsmimi inými zariadeniami súčasne.\n\nUvedomte si, že zdieľanie internetu bude využívať mobilné dáta. To môže podstatne zvýšiť vaše telefónne poplatky a skrátiť životnosť batérie.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Na používanie prenosného prístupového bodu Wi-Fi alebo zdieľanie internetu, vložte SIM kartu a reštartujte zariadenie.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Túto správu už nezobrazovať</string>
+    <string name="wifi_tether_turn_off_wifi">Na zapnutie prenosného prístupového bodu Wi-Fi najprv musíte vypnúť vaše existujúce Wi-Fi pripojenie. Chcete pokračovať?</string>
+    <string name="wifi_tether_settings_text">Nastavenia prenosného prístupového bodu Wi-Fi</string>
+    <string name="tether_apn_settings_text">Prístupový bod APN pre zdieľanie internetu</string>
+    <string name="tether_apn_settings_subtext">Nastavte predvolený prístupový bod APN pre zdieľanie internetu</string>
+    <string name="usb_tethering_accessory_active_subtext">Zdieľanie internetu nemôže byť zapnuté, keď sa používa pripojenie USB.</string>
+    <string name="operator_display">Zobraziť sieťového operátora</string>
+    <string name="operator_display_summary">Zobraziť sieťového operátora na stavovej lište</string>
+    <string name="by_orange">od spoločnosti Orange</string>
+    <string name="recommended_by_orange">Odporúča Orange</string>
+    <string name="smsmms_app_name">Správy nie sú aktívne</string>
+    <string name="click_to_change_to_xms_app">Správy nie je prednastavená aplikácia pre SMS správy.</string>
+    <string name="click_to_change_to_xms_app_line2">Ďalšie informácie získate, ak ťuknete sem.</string>
+    <string name="sms_change_default_dialog_text1">Funkčnosť aplikácie Správy na vašom zariadení Orange overil.\n\n
+
+Používanie iných aplikácií pre SMS môže spôsobiť problémy s odosielaním a prijímaním SMS a MMS správ.\n\n
+
+Používať ako aplikáciu pre SMS <xliff:g id="new_app">%s</xliff:g> a nie <xliff:g id="current_app">%s</xliff:g>?</string>
+    
+</resources>

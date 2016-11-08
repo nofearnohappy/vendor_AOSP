@@ -1,0 +1,18 @@
+The test apk is a application which used to test DataTransfer apk resides at java layer.
+DataTransfer apk resides at java layer and receive AT commands belongs to Java layer.
+This test apk is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+The test apk is a application which used to test DataTransfer apk resides at java layer.
+DataTransfer apk resides at java layer and receive AT commands belongs to Java layer.
+
+HOW IT WAS BUILT?
+==================
+It will pre-built automatically by build process.
+
+HOW TO USE IT?
+==============
+Send AT command by pctools.AT commands need to implement by java layer will send to atci_service resides at java layer.
+
+All the source code of this library were written by MediaTek co..

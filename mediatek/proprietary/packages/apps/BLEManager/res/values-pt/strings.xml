@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Toque para ligar o Bluetooth</string>
+    <string name="tap_to_add_device">Toque para adicionar dispositivo</string>
+    <string name="turning_on_bluetooth">Ligando bluetooth...</string>
+    <string name="launcher_activity_name">Gerente BLE</string>
+    <string name="scanning_devices">Procurando dispositivos</string>
+    <string name="delete_devices">Desconecte um dispositivo para conectar o novo</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Alerta"</string>
+    <string name="device_manager">Gerente de Dispositivo</string>
+    <string name="out_of_range_alert_text">Alerta fora de alcance</string>
+    <string name="in_range_alert_text">Alerta em alcance</string>
+    <string name="range_alert_text">Meu alcance</string>
+    <string name="range_alert_summary">Tanto telefone e dispositivo alertam quando o dispositivo estão fora de alcance</string>
+    <string name="range_near_text">Perto</string>
+    <string name="range_middle_text">meio</string>
+    <string name="range_far_text">"Longe"</string>
+    <string name="range_1_distance_text">Cerca de 1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">Configurações de alerta de telefone</string>
+    <string name="ringtone_tye_text">"Toque"</string>
+    <string name="volume_text">"Volume"</string>
+    <string name="vibration_text">Vibração</string>
+    <string name="vibration_summary_on">em</string>
+    <string name="vibration_summary_off">"Desativado"</string>
+    <string name="device_name">"Nome do dispositivo"</string>
+    <string name="push_notification_text">Enviar notificações para dispositivo</string>
+    <string name="incoming_call_notification_text">"Chamada recebida"</string>
+    <string name="missed_call_notificaiotn_text">"Chamada perdida"</string>
+    <string name="new_message_notification_text">"Nova mensagem"</string>
+    <string name="new_email_notification_text">"Novo e-mail"</string>
+    <string name="disconnection_text">Configurações de desconexão</string>
+    <string name="disconnection_waring_title">Alerta de desconexão</string>
+    <string name="disconnection_waring_summary">Tanto telefone e dispositivo alertam quando o dispositivo estão desconectados</string>
+    <string name="device_name_change_dialog_title">"Renomear"</string>
+    <string name="disconnect_text">"Desconectar"</string>
+    <string name="delete_text">"Excluir"</string>
+    <string name="connect_text">"Conectar"</string>
+    <string name="device_delete_dialog_message">Excluir este dispositivo?</string>
+    <string name="device_disconnect_dialog_message">Desconectar o dispositivo?</string>
+    <string name="find_all_text">Encontrar todos</string>
+    <string name="default_images">Imagens Padrão</string>
+    <string name="range_information_text">O alcance depende da força do sinal. Em situações ideais,o alcance pode ser mais de 30 metros.  Certos elementos podem encurtar a distância a 15 metros ou menos como seu corpo, parede e outras obstruções.</string>
+    <string name="range_information_dialog_check_box_text">Não exibir novamente</string>
+    <string-array name="device_image_chooser_items">
+        <item>Escolher da imagem padrão</item>
+        <item>"Tirar foto"</item>
+        <item>Escolher da galeria</item>
+    </string-array>
+    <string name="add_device">"Adicionar dispositivo"</string>
+    <string name="yes">"Sim"</string>
+    <string name="no">"Não"</string>
+    <string name="connecting_text">"Conectando..."</string>
+    <string name="enable_background_service">Ativar Modo de Fundo</string>
+    <string name="disable_background_service">Desativar Modo de Fundo</string>
+    <string name="ble_manager_alert">Alerta do Gerente BLE</string>
+    <string name="check">Verificar</string>
+    <string name="dismiss">Descartar</string>
+    <string name="disconnected">"Desconectado"</string>
+    <string name="in_range">em alcance</string>
+    <string name="out_of_range">fora de alcance</string>
+    <string name="no_found">Nenhum dispositivo bluetouth encontrado.</string>
+    <string name="bt_off">Bluetooth está desligado, ligue-o.</string>
+</resources>

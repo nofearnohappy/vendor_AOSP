@@ -1,0 +1,314 @@
+package com.mediatek.wifi.hotspot.em;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.net.wifi.WifiManager;
+import android.content.Context;
+//UNMARK: import android.net.wifi.passpoint.PasspointProvisionManager;
+import android.os.ServiceManager;
+//UNMARK: import android.net.wifi.passpoint.IPasspointProvisionManager;
+import android.os.RemoteException;
+
+public class HSPT_AddCred extends Activity
+{
+
+    private RadioButton		mRadioButtonUName;
+    private RadioButton		mRadioButtonSim;
+    private RadioButton		mRadioButtonCert;
+    private EditText		mEditTextUserName;
+    private EditText		mEditTextPassWord;
+    private EditText		mEditTextIMSI;
+    private EditText		mEditTextMNC;
+    private EditText		mEditTextMCC;
+    private EditText		mEditTextRootCA;
+    private EditText		mEditTextRealm;
+    private CheckBox		mCheclBoxPrefer;
+    private EditText		mEditTextFQDN;
+    private EditText		mEditTextClientCA;
+    private Button			mButtonAddCred;
+    private Button			mButtonClrScr;
+    private Button			mButtonQaddSimCred;
+    private Button			mButtonQaddTtlsCred;
+    private Button          mButtonInstallRootCA;
+    private Button          mButtonInstallServerCA;
+
+    private WifiManager mWifiMgr = null;
+    //UNMARK: private IPasspointProvisionManager mPPPmgr = null;
+
+    private final String EAP_TYPE_SIM = "SIM";
+    private final String EAP_TYPE_TTLS = "TTLS";
+    private final String EAP_TYPE_TLS = "TLS";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.hspt_addcred);
+
+        mWifiMgr = (WifiManager)getSystemService(WIFI_SERVICE);
+        if(mWifiMgr == null)
+        {
+            MtkLog.log("ERR: getSystemService MtkWifiManager failed");
+            return;
+        }
+        //UNMARK: mPPPmgr = IPasspointProvisionManager.Stub.asInterface(ServiceManager.getService(Context.MTK_PASSPOINT_PROVISION_SERVICE));
+        /*UNMARK: if(mPPPmgr == null) {
+            MtkLog.log("ERR: getSystemService MTK_PASSPOINT_PROVISION_SERVICE failed");
+            return;
+        }*/
+        initWidget();
+
+    }
+
+    //=================== initWidget ========================\\
+    private void initWidget()
+    {
+        mRadioButtonUName = (RadioButton)findViewById(R.id.RadioButton_UName);
+        mRadioButtonSim = (RadioButton)findViewById(R.id.RadioButton_Sim);
+        mRadioButtonCert = (RadioButton)findViewById(R.id.RadioButton_Cert);
+        mEditTextUserName = (EditText)findViewById(R.id.EditText_UserName);
+        mEditTextPassWord = (EditText)findViewById(R.id.EditText_Password);
+        mEditTextIMSI = (EditText)findViewById(R.id.EditText_IMSI);
+        mEditTextMNC = (EditText)findViewById(R.id.EditText_MNC);
+        mEditTextMCC = (EditText)findViewById(R.id.EditText_MCC);
+        mEditTextRootCA = (EditText)findViewById(R.id.EditText_RootCA);
+        mEditTextRealm = (EditText)findViewById(R.id.EditText_Realm);
+        mCheclBoxPrefer = (CheckBox)findViewById(R.id.CheckBox_Prefer);
+        mEditTextFQDN = (EditText)findViewById(R.id.EditText_FQDN);
+        mEditTextClientCA = (EditText)findViewById(R.id.EditText_ClientCA);
+        mButtonAddCred = (Button)findViewById(R.id.Button_AddCred);
+        mButtonClrScr = (Button)findViewById(R.id.Button_ClrScr);
+        mButtonQaddSimCred = (Button)findViewById(R.id.Button_QaddSimCred);
+        mButtonQaddTtlsCred = (Button)findViewById(R.id.Button_QaddTtlsCred);
+        mButtonInstallRootCA = (Button)findViewById(R.id.Button_InstallRootCA);
+        mButtonInstallServerCA = (Button)findViewById(R.id.Button_InstallServerCA);
+
+        mButtonAddCred.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                handleAddCred();
+            }
+        });
+
+        mButtonClrScr.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                handleClrScr();
+            }
+        });
+
+        mButtonQaddSimCred.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                handleQaddSimCred();
+            }
+        });
+
+        mButtonQaddTtlsCred.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                handleQaddTtlsCred();
+            }
+        });
+
+        mRadioButtonUName.setChecked(true);
+
+        mButtonInstallRootCA.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                handleInstallRootCA();
+            }
+        });
+
+        mButtonInstallServerCA.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                handleInstallServerCA();
+            }
+        });
+    }
+
+    //=================== main functions ========================\\
+    private void handleClrScr()
+    {
+        mEditTextUserName.setText("");
+        mEditTextPassWord.setText("");
+        mEditTextIMSI.setText("");
+        mEditTextMNC.setText("");
+        mEditTextMCC.setText("");
+        mEditTextRootCA.setText("");
+        mEditTextRealm.setText("");
+        mEditTextFQDN.setText("");
+        mEditTextClientCA.setText("");
+        mCheclBoxPrefer.setChecked(false);
+    }
+
+    private void handleQaddSimCred()
+    {
+        mRadioButtonSim.setChecked(true);
+        mEditTextUserName.setText("");
+        mEditTextPassWord.setText("90dca4eda45b53cf0f12d7c9c3bc6a89:cb9cccc4b9258e6dca4760379fb82581");
+        mEditTextIMSI.setText("232010000000000");
+        mEditTextMNC.setText("026");
+        mEditTextMCC.setText("310");
+        mEditTextRootCA.setText("");
+        mEditTextRealm.setText("mail.example.com");
+        mEditTextFQDN.setText("");
+        mEditTextClientCA.setText("");
+        mCheclBoxPrefer.setChecked(false);
+    }
+
+    private void handleQaddTtlsCred()
+    {
+        mRadioButtonUName.setChecked(true);
+        mEditTextUserName.setText("puff");
+        mEditTextPassWord.setText("111222333");
+        mEditTextIMSI.setText("");
+        mEditTextMNC.setText("");
+        mEditTextMCC.setText("");
+        mEditTextRootCA.setText("cas.pem");
+        mEditTextRealm.setText("wi-fi.org");
+        mEditTextFQDN.setText("");
+        mEditTextClientCA.setText("");
+        mCheclBoxPrefer.setChecked(false);
+    }
+
+    private void handleInstallRootCA()
+    {
+        /*UNMARK: if( mPPPmgr != null ) {
+            MtkLog.log( "handleInstallRootCA");
+            try {
+                mPPPmgr.installRootCA();
+            } catch (RemoteException e) {
+                MtkLog.log("installRootCA fail:"+e);
+            }
+        } else {
+            MtkLog.log("installRootCA fail, mPpm == null");
+        }*/
+    }
+
+    private void handleInstallServerCA()
+    {
+        /*UNMARK:if( mPPPmgr != null ) {
+            MtkLog.log( "handleInstallServerCA");
+            try {
+                mPPPmgr.installServerCA();
+            } catch (RemoteException e) {
+                MtkLog.log("handleInstallServerCA fail:"+e);
+            }
+        } else {
+            MtkLog.log("handleInstallServerCA fail, mPpm == null");
+        }*/
+    }
+
+    private void handleAddCred()
+    {
+        String sMode		= "";
+        String sUserName		= mEditTextUserName.getText().toString();
+        String sPassWord		= mEditTextPassWord.getText().toString();
+        String sImsi		= mEditTextIMSI.getText().toString();
+        String sMnc		= mEditTextMNC.getText().toString();
+        String sMcc		= mEditTextMCC.getText().toString();
+        String sRoocCA		= mEditTextRootCA.getText().toString();
+        String sRealm		= mEditTextRealm.getText().toString();
+        String sFqdn		= mEditTextFQDN.getText().toString();
+        String sClientCA		= mEditTextClientCA.getText().toString();
+        int    bPrefercred_val = mCheclBoxPrefer.isChecked() ? 0 : 128;
+        //TODO: add following
+        //StringFilter simslot;
+        //String priority;
+        //String roamingconsortium;
+        //String milenage;
+        MtkLog.log( "handleAddCred");
+
+        if(mRadioButtonUName.isChecked())
+        {
+            sMode = EAP_TYPE_TTLS;
+        }
+        else if(mRadioButtonSim.isChecked())
+        {
+            sMode = EAP_TYPE_SIM;
+        }
+        else
+        {
+            sMode = EAP_TYPE_TLS;
+        }
+
+        AddCredential(sMode, sUserName, sPassWord, sImsi, sMnc, sMcc, sRoocCA, sRealm, bPrefercred_val, sFqdn, sClientCA);
+
+    }
+
+    private void AddCredential(String type, String username, String passwd, String imsi, String mnc,
+                               String mcc, String root_ca, String realm, int preferred, String fqdn, String client_ca)
+    {
+        if( mWifiMgr != null )
+        {
+            MtkLog.log( "AddCredential " + type + "," + username + "," + passwd + "," + imsi + "," + mnc + "," + mcc + "," + root_ca + "," + realm + "," + preferred
+                        + "," + fqdn + "," + client_ca);
+
+            if( username.length()	== 0 )
+            {
+                username = null;
+            }
+            if( passwd.length() 	== 0 )
+            {
+                passwd = null;
+            }
+            if( imsi.length() 		== 0 )
+            {
+                imsi = null;
+            }
+            if( mnc.length() 		== 0 )
+            {
+                mnc = null;
+            }
+            if( mcc.length() 		== 0 )
+            {
+                mcc = null;
+            }
+            if( root_ca.length() 	== 0 )
+            {
+                root_ca = null;
+            }
+            if( realm.length()		== 0 )
+            {
+                realm = null;
+            }
+            if( fqdn.length() 		== 0 )
+            {
+                fqdn = null;
+            }
+            if( client_ca.length()	== 0 )
+            {
+                client_ca = null;
+            }
+            String simslot;
+            String priority;
+            String roamingconsortium;
+            String milenage;
+            try
+            {
+                //addHsCredential(String type, String username, String passwd, String imsi,
+                //String root_ca, String realm, String fqdn, String client_ca, String milenage,
+                //String simslot, String priority, String roamingconsortium, String mcc_mnc)
+                mWifiMgr.addHsCredential(type, username, passwd, imsi,
+                                         root_ca, realm, fqdn, client_ca, milenage, simslot, priority, roamingconsortium, mcc+mnc);
+            }
+            catch (RemoteException e) {}
+        }
+
+    }
+}

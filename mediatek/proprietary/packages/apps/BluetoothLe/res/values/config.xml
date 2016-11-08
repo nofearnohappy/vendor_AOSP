@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="profile_supported_anp">true</bool>
+    <bool name="profile_supported_fmp">true</bool>
+    <bool name="profile_supported_tip">true</bool>
+    <bool name="profile_supported_pxp">true</bool>
+    <bool name="profile_supported_pasp">true</bool>
+</resources>

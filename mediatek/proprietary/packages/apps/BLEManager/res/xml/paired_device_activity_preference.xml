@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.mediatek.blemanager.ui.NonChangeSwitchPreference
+        android:icon="@drawable/ic_alert_settings"
+        android:key="alert_set_preference"
+        android:title="@string/alert_setting"
+        android:persistent="false" />
+
+    <Preference
+        android:icon="@drawable/ic_device_manager"
+        android:key="device_manager_preference"
+        android:title="@string/device_manager" />
+
+</PreferenceScreen>

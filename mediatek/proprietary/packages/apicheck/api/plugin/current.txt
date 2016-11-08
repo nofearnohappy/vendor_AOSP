@@ -1,0 +1,1404 @@
+package com.mediatek.browser.ext {
+
+  public abstract interface IBrowserBookmarkExt {
+    method public abstract int addDefaultBookmarksForCustomer(android.database.sqlite.SQLiteDatabase);
+    method public abstract boolean bookmarksPageOptionsMenuItemSelected(android.view.MenuItem, android.app.Activity, long);
+    method public abstract void createBookmarksPageOptionsMenu(android.view.Menu, android.view.MenuInflater);
+  }
+
+  public abstract interface IBrowserDownloadExt {
+    method public abstract boolean checkStorageBeforeDownload(android.app.Activity, java.lang.String, long);
+    method public abstract void setRequestDestinationDir(java.lang.String, android.app.DownloadManager.Request, java.lang.String, java.lang.String);
+    method public abstract void showToastWithFileSize(android.app.Activity, long, java.lang.String);
+  }
+
+  public abstract interface IBrowserHistoryExt {
+    method public abstract void createHistoryPageOptionsMenu(android.view.Menu, android.view.MenuInflater);
+    method public abstract boolean historyPageOptionsMenuItemSelected(android.view.MenuItem, android.app.Activity);
+    method public abstract void prepareHistoryPageOptionsMenuItem(android.view.Menu, boolean, boolean);
+  }
+
+  public abstract interface IBrowserMiscExt {
+    method public abstract void onActivityResult(int, int, android.content.Intent, java.lang.Object);
+    method public abstract void processNetworkNotify(android.webkit.WebView, android.app.Activity, boolean);
+  }
+
+  public abstract interface IBrowserRegionalPhoneExt {
+    method public abstract java.lang.String getSearchEngine(android.content.SharedPreferences, android.content.Context);
+    method public abstract void updateBookmarks(android.content.Context);
+  }
+
+  public abstract interface IBrowserSettingExt {
+    method public abstract void customizePreference(int, android.preference.PreferenceScreen, android.preference.Preference.OnPreferenceChangeListener, android.content.SharedPreferences, android.preference.PreferenceFragment);
+    method public abstract java.lang.String getCustomerHomepage();
+    method public abstract java.lang.String getDefaultDownloadFolder();
+    method public abstract java.lang.String getOperatorUA(java.lang.String);
+    method public abstract java.lang.String getSearchEngine(android.content.SharedPreferences, android.content.Context);
+    method public abstract void setOnlyLandscape(android.content.SharedPreferences, android.app.Activity);
+    method public abstract void setStandardFontFamily(android.webkit.WebSettings, android.content.SharedPreferences);
+    method public abstract void setTextEncodingChoices(android.preference.ListPreference);
+    method public abstract boolean updatePreferenceItem(android.preference.Preference, java.lang.Object);
+  }
+
+  public abstract interface IBrowserSiteNavigationExt {
+    method public abstract java.lang.CharSequence[] getPredefinedWebsites();
+    method public abstract int getSiteNavigationCount();
+  }
+
+  public abstract interface IBrowserUrlExt {
+    method public abstract java.lang.String checkAndTrimUrl(java.lang.String);
+    method public abstract android.text.InputFilter[] checkUrlLengthLimit(android.content.Context);
+    method public abstract java.lang.String getNavigationBarTitle(java.lang.String, java.lang.String);
+    method public abstract java.lang.String getOverrideFocusContent(boolean, java.lang.String, java.lang.String, java.lang.String);
+    method public abstract java.lang.String getOverrideFocusTitle(java.lang.String, java.lang.String);
+    method public abstract boolean redirectCustomerUrl(java.lang.String);
+  }
+
+}
+
+package com.mediatek.calendar.ext {
+
+  public abstract interface IEditEventViewExt {
+    method public abstract com.android.datetimepicker.date.DatePickerDialog createDatePickerDialog(android.app.Activity, com.android.datetimepicker.date.DatePickerDialog.OnDateSetListener, int, int, int);
+    method public abstract java.lang.String getDateStringFromMillis(android.app.Activity, long);
+    method public abstract void setDatePickerSwitchUi(android.app.Activity, java.lang.Object, android.widget.Button, android.widget.Button, java.lang.String, android.text.format.Time, android.text.format.Time);
+  }
+
+  public abstract interface ILunarExt {
+    method public abstract java.lang.String buildLunarDate(android.text.format.Time, java.lang.String, long);
+    method public abstract void drawLunarString(android.content.Context, android.graphics.Canvas, android.graphics.Paint, int, int, android.text.format.Time);
+    method public abstract java.lang.String getLunarDisplayedDate(java.lang.String, long, long, boolean);
+  }
+
+}
+
+package com.mediatek.camera.ext {
+
+  public abstract interface ICameraFeatureExt {
+    method public abstract void configRecorder(android.media.MediaRecorder);
+    method public abstract int getQuickViewDisplayDuration();
+    method public abstract void updateSettingItem(java.lang.String, java.util.ArrayList<java.lang.CharSequence>, java.util.ArrayList<java.lang.CharSequence>);
+  }
+
+}
+
+package com.mediatek.cmas.ext {
+
+  public abstract interface ICmasDuplicateMessageExt {
+    method public abstract int handleDuplicateMessage(CellBroadcastContentProvider, android.telephony.CellBroadcastMessage);
+    method public abstract void sendDelayedMsgToDelete(android.os.Handler, android.telephony.CellBroadcastMessage, int);
+    method public abstract void setCmasLocaleChange(boolean);
+  }
+
+  public abstract interface ICmasMainSettingsExt {
+    method public abstract void addAlertSoundVolumeAndVibration(android.preference.PreferenceActivity);
+    method public abstract boolean getAlertVibration(int);
+    method public abstract float getAlertVolume(int);
+    method public abstract boolean setAlertVolumeVibrate(int, boolean);
+    method public abstract void stopMediaPlayer();
+  }
+
+  public abstract interface ICmasMessageInitiationExt {
+    method public abstract java.lang.String getMsgContent(java.lang.String, java.lang.String);
+    method public abstract void registerBroadcastToCheckCallState(android.content.Context);
+    method public abstract boolean setTextViewContent(android.widget.TextView, java.lang.String, IAutoLinkClick, int);
+    method public abstract android.view.WindowManager.LayoutParams updateViewLayoutParams(android.view.WindowManager.LayoutParams);
+    method public abstract android.view.WindowManager.LayoutParams updateViewLpToTouchable(android.view.WindowManager.LayoutParams, boolean);
+  }
+
+  public abstract interface ICmasSimSwapExt {
+    method public abstract void simSwap(android.content.Context, int);
+  }
+
+}
+
+package com.mediatek.contacts.ext {
+
+  public abstract interface IAasExtension {
+    method public abstract boolean checkAasEntry(android.content.ContentValues);
+    method public abstract boolean cursorColumnToBuilder(android.database.Cursor, android.content.ContentProviderOperation.Builder, java.lang.String, java.lang.String, int, int);
+    method public abstract void ensurePhoneKindForCompactEditor(RawContactDeltaList, int, android.content.Context);
+    method public abstract boolean ensurePhoneKindForEditor(AccountType, int, RawContactDelta);
+    method public abstract EditType getCurrentType(ValuesDelta, DataKind, int);
+    method public abstract java.lang.String getCustomTypeLabel(int, java.lang.String);
+    method public abstract java.lang.CharSequence getLabelForBindData(android.content.res.Resources, int, java.lang.String, java.lang.String, android.database.Cursor, java.lang.CharSequence);
+    method public abstract int getMaxEmptyEditors(RawContactDelta, java.lang.String);
+    method public abstract java.lang.String getSubheaderString(int, int);
+    method public abstract java.lang.CharSequence getTypeLabel(int, java.lang.CharSequence, java.lang.String, int);
+    method public abstract boolean handleLabel(DataKind, ValuesDelta, RawContactDelta);
+    method public abstract boolean onTypeSelectionChange(RawContactDelta, ValuesDelta, DataKind, android.widget.ArrayAdapter<EditType>, EditType, EditType);
+    method public abstract java.util.ArrayList<ValuesDelta> rebuildFromState(RawContactDelta, java.lang.String);
+    method public abstract boolean rebuildLabelSelection(RawContactDelta, android.widget.Spinner, android.widget.ArrayAdapter<EditType>, EditType, DataKind);
+    method public abstract void setCurrentSubId(int);
+    method public abstract boolean updateAdditionalNumberToDB(android.content.Intent, long);
+    method public abstract void updateOperation(java.lang.String, android.content.ContentProviderOperation.Builder, android.database.Cursor, int);
+    method public abstract boolean updateOperationList(android.accounts.Account, java.util.ArrayList<android.content.ContentProviderOperation>, int);
+    method public abstract boolean updateValues(android.content.Intent, int, android.content.ContentValues);
+    method public abstract void updateValuesforCopy(android.net.Uri, int, java.lang.String, android.content.ContentValues);
+    method public abstract boolean updateView(RawContactDelta, android.view.View, ValuesDelta, int);
+  }
+
+  public abstract interface ICtExtension {
+    method public abstract android.graphics.drawable.Drawable getPhotoDrawableBySub(android.content.res.Resources, int, android.graphics.drawable.Drawable);
+    method public abstract void loadSimCardIconBitmap(android.content.res.Resources);
+    method public abstract int showAlwaysAskIndicate(int);
+  }
+
+  public abstract interface IOp01Extension {
+    method public abstract void addOptionsMenu(android.content.Context, android.view.Menu);
+    method public abstract boolean areContactAvailable(java.lang.Integer);
+    method public abstract java.lang.String formatNumber(java.lang.String, android.os.Bundle);
+    method public abstract android.graphics.drawable.Drawable getArrowIcon(int, android.graphics.drawable.Drawable);
+    method public abstract int getMultiChoiceLimitCount(int);
+    method public abstract void setViewKeyListener(android.widget.EditText);
+  }
+
+  public abstract interface IRcsExtension {
+    method public abstract void addEditorMenuOptions(android.app.Fragment, android.view.Menu, boolean);
+    method public abstract void addGroupDetailMenuOptions(android.view.Menu, long, android.content.Context, int);
+    method public abstract void addGroupMenuOptions(android.view.Menu, android.content.Context);
+    method public abstract void addListMenuOptions(android.content.Context, android.view.Menu, android.view.MenuItem, android.app.Fragment);
+    method public abstract void addPeopleMenuOptions(android.view.Menu);
+    method public abstract void addQuickContactMenuOptions(android.view.Menu, android.net.Uri, android.content.Context);
+    method public abstract boolean addRcsProfileEntryListener(android.net.Uri, boolean);
+    method public abstract void closeTextChangedListener(boolean);
+    method public abstract android.net.Uri configListUri(android.net.Uri);
+    method public abstract void createPublicAccountEntryView(android.widget.ListView);
+    method public abstract com.mediatek.contacts.ext.IRcsExtension.ContactListItemRcsView getContactListItemRcsView();
+    method public abstract void getGroupListResult(android.app.Fragment, long[]);
+    method public abstract void getIntentData(android.content.Intent, android.app.Fragment);
+    method public abstract com.mediatek.contacts.ext.IRcsExtension.QuickContactRcsScroller getQuickContactRcsScroller();
+    method public abstract boolean needUpdateContactPhoto(boolean, boolean);
+    method public abstract com.google.common.collect.ImmutableList<RawContact> rcsConfigureRawContacts(com.google.common.collect.ImmutableList<RawContact>, boolean);
+    method public abstract void setEditorFragment(android.app.Fragment, android.app.FragmentManager);
+    method public abstract void setListFilter(java.lang.StringBuilder, android.content.Context);
+    method public abstract void setTextChangedListener(RawContactDelta, android.widget.EditText, int, java.lang.String);
+    method public abstract void updateContactPhotoFromRcsServer(android.net.Uri, android.widget.ImageView, android.content.Context);
+  }
+
+  public static abstract interface IRcsExtension.ContactListItemRcsView {
+    method public abstract void onLayout(boolean, int, int, int, int);
+    method public abstract void onMeasure(int, int);
+  }
+
+  public static abstract interface IRcsExtension.QuickContactRcsScroller {
+    method public abstract android.view.View createRcsIconView(android.view.View, android.view.View, android.net.Uri);
+    method public abstract void updateRcsContact(android.net.Uri, boolean);
+    method public abstract void updateRcsIconView();
+  }
+
+  public abstract interface IRcsRichUiExtension {
+    method public abstract void loadRichScrnByContactUri(android.net.Uri, android.content.Context);
+    method public abstract void loadRichScrnByVcardEntry(boolean, VCardEntry, android.content.Context);
+  }
+
+  public abstract interface ISneExtension {
+    method public abstract int checkNickName(ProcessorBase, android.content.Intent, boolean, int);
+    method public abstract void copySimSneToAccount(java.util.ArrayList<android.content.ContentProviderOperation>, android.accounts.Account, android.net.Uri, int);
+    method public abstract void editSimSne(android.content.Intent, long, int, long);
+    method public abstract int importSimSne(java.util.ArrayList<android.content.ContentProviderOperation>, android.database.Cursor, int);
+    method public abstract void onEditorBindEditors(RawContactDelta, AccountType, int);
+    method public abstract void updateValues(android.content.Intent, int, android.content.ContentValues);
+    method public abstract void updateValuesforCopy(android.net.Uri, int, java.lang.String, android.content.ContentValues);
+  }
+
+  public abstract interface IViewCustomExtension {
+    method public abstract com.mediatek.contacts.ext.IViewCustomExtension.ContactListItemViewCustom getContactListItemViewCustom();
+    method public abstract com.mediatek.contacts.ext.IViewCustomExtension.QuickContactCardViewCustom getQuickContactCardViewCustom();
+    method public abstract com.mediatek.contacts.ext.IViewCustomExtension.QuickContactScrollerCustom getQuickContactScrollerCustom();
+  }
+
+  public static abstract interface IViewCustomExtension.ContactListItemViewCustom {
+    method public abstract void onLayout(boolean, int, int, int, int);
+    method public abstract void onMeasure(int, int);
+  }
+
+  public static abstract interface IViewCustomExtension.QuickContactCardViewCustom {
+    method public abstract android.view.View createCardView(android.view.View, android.view.View, android.net.Uri, android.content.Context);
+  }
+
+  public static abstract interface IViewCustomExtension.QuickContactScrollerCustom {
+    method public abstract android.view.View createJoynIconView(android.view.View, android.view.View, android.net.Uri);
+    method public abstract void updateJoynIconView();
+  }
+
+}
+
+package com.mediatek.deskclock.ext {
+
+  public abstract interface IAlarmControllerExt {
+    method public abstract void vibrate(android.content.Context);
+  }
+
+}
+
+package com.mediatek.dialer.ext {
+
+  public abstract interface ICallDetailExtension {
+    method public abstract void onPrepareOptionsMenu(android.content.Context, android.view.Menu, java.lang.CharSequence, java.lang.CharSequence);
+    method public abstract void setCallAccountForCallDetail(android.content.Context, android.telecom.PhoneAccountHandle);
+    method public abstract void setDurationViewVisibility(android.widget.TextView);
+  }
+
+  public abstract interface ICallLogExtension {
+    method public abstract void addResourceForDialerSearch(java.util.HashMap<java.lang.Integer, android.graphics.drawable.Drawable>);
+    method public abstract void appendQuerySelection(int, java.lang.StringBuilder, java.util.List<java.lang.String>);
+    method public abstract void createCallLogMenu(android.app.Activity, android.view.Menu, android.widget.HorizontalScrollView, ICallLogAction);
+    method public abstract android.graphics.drawable.Drawable getAutoRejectDrawable();
+    method public abstract int getPosition(int);
+    method public abstract int getTabCount(android.app.Activity, int);
+    method public abstract boolean isAutoRejectMode();
+    method public abstract void onBackPressed(android.app.Activity, android.support.v13.app.FragmentPagerAdapter, ICallLogAction);
+    method public abstract void onCreate(android.app.Activity, android.os.Bundle);
+    method public abstract void onDestroy(android.app.Activity);
+    method public abstract boolean onHomeButtonClick(android.app.Activity, android.support.v13.app.FragmentPagerAdapter, android.view.MenuItem);
+    method public abstract void onSaveInstanceState(android.app.Activity, android.os.Bundle);
+    method public abstract void prepareCallLogMenu(android.app.Activity, android.view.Menu, android.app.Fragment, android.view.MenuItem, int);
+    method public abstract void resetRejectMode(android.app.Activity);
+    method public abstract void restoreFragments(android.content.Context, android.support.v13.app.FragmentPagerAdapter, android.widget.HorizontalScrollView);
+    method public abstract void setCallAccountForCallLogList(android.content.Context, android.view.View, android.telecom.PhoneAccountHandle);
+    method public abstract void setPosition(int);
+  }
+
+  public abstract interface IDialPadExtension {
+    method public abstract void buildOptionsMenu(android.app.Activity, android.view.Menu);
+    method public abstract void constructPopupMenu(android.widget.PopupMenu, android.view.View, android.view.Menu);
+    method public abstract java.util.List<java.lang.String> getSingleIMEI(java.util.List<java.lang.String>);
+    method public abstract boolean handleChars(android.content.Context, java.lang.String);
+    method public abstract java.lang.String handleSecretCode(java.lang.String);
+    method public abstract void onCreate(android.content.Context, android.app.Fragment, DialpadExtensionAction);
+    method public abstract android.view.View onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle, android.view.View);
+    method public abstract void onDestroy();
+    method public abstract void onHiddenChanged(boolean, int);
+    method public abstract void onViewCreated(android.app.Activity, android.view.View);
+    method public abstract void showDialpadChooser(boolean);
+  }
+
+  public abstract interface IDialerSearchExtension {
+    method public abstract void removeCallAccountForDialerSearch(android.content.Context, android.view.View);
+    method public abstract void setCallAccountForDialerSearch(android.content.Context, android.view.View, android.telecom.PhoneAccountHandle);
+  }
+
+  public abstract interface IRCSeCallLogExtension {
+    method public abstract void bindPluginViewForCallLogList(android.content.Context, android.view.ViewGroup, java.lang.String);
+  }
+
+  public abstract interface ISelectAccountExtension {
+    method public abstract int getAlwaysAskAccountIcon(int);
+  }
+
+}
+
+package com.mediatek.downloadmanager.ext {
+
+  public abstract interface IDownloadProviderFeatureExt {
+    method public abstract void copyContentValues(java.lang.String, android.content.ContentValues, android.content.ContentValues);
+    method public abstract java.lang.String getNotificationText(java.lang.String, java.lang.String, java.lang.String);
+    method public abstract int getShowDialogReasonInt(android.content.Intent);
+    method public abstract java.lang.String getStorageDirectory(java.lang.String);
+    method public abstract void notifyFileAlreadyExistIntent(android.net.Uri, java.lang.String, java.lang.String, java.lang.String, android.content.Context);
+    method public abstract int processFileExistCondition(boolean);
+    method public abstract void setContinueDownload(boolean, boolean);
+    method public abstract void setDownloadPath(java.lang.String, java.lang.String);
+    method public abstract void setDownloadPathSelectFileMager(java.lang.String, java.lang.String, android.content.ContentValues);
+    method public abstract void showFileAlreadyExistDialog(android.app.AlertDialog.Builder, java.lang.CharSequence, java.lang.CharSequence, java.lang.String, java.lang.String, android.content.DialogInterface.OnClickListener);
+  }
+
+}
+
+package com.mediatek.email.ext {
+
+  public abstract interface IOperatorAccount {
+    method public abstract boolean isDraftSyncNeeded(android.content.Context, long);
+    method public abstract boolean isFolderOverridingRequired(android.content.Context, long);
+    method public abstract void updateOperatorMailbox(android.content.Context, long, java.lang.Object, java.lang.String, char, java.lang.Object);
+  }
+
+  public abstract interface ISendNotification {
+    method public abstract void showSendingNotification(android.content.Context, long, int, int);
+    method public abstract void suspendSendFailedNotification(long);
+  }
+
+  public abstract interface IServerProviderExt {
+    method public abstract android.content.Context getContext();
+    method public abstract java.lang.String getDefaultProviderDomain();
+    method public abstract int getDisplayESPNum();
+    method public abstract java.lang.String[] getProviderDomains();
+    method public abstract int[] getProviderIcons();
+    method public abstract java.lang.String[] getProviderNames();
+    method public abstract int getProviderXml();
+    method public abstract boolean isSupportProviderList();
+  }
+
+}
+
+package com.mediatek.gallery3d.ext {
+
+  public abstract interface IActivityHooker {
+    method public abstract void init(android.app.Activity, android.content.Intent);
+    method public abstract void onCreate(android.os.Bundle);
+    method public abstract boolean onCreateOptionsMenu(android.view.Menu);
+    method public abstract void onDestroy();
+    method public abstract boolean onOptionsItemSelected(android.view.MenuItem);
+    method public abstract void onPause();
+    method public abstract boolean onPrepareOptionsMenu(android.view.Menu);
+    method public abstract void onResume();
+    method public abstract void onStart();
+    method public abstract void onStop();
+    method public abstract void setParameter(java.lang.String, java.lang.Object);
+    method public abstract void setVisibility(boolean);
+  }
+
+  public abstract interface IGalleryPickerExt {
+    method public abstract ActionModeHandler onCreate(AbstractGalleryActivity, android.os.Bundle, ActionModeHandler, SelectionManager);
+    method public abstract void onCreateActionBar(android.view.Menu);
+    method public abstract void onDestroy();
+    method public abstract boolean onItemSelected(android.view.MenuItem);
+    method public abstract void onPause();
+    method public abstract void onResume(SelectionManager);
+    method public abstract boolean onSingleTapUp(SlotView, MediaItem);
+  }
+
+  public abstract interface IImageOptionsExt {
+    method public abstract float getImageDisplayScale(float);
+    method public abstract float getMinScaleLimit(MediaType, float);
+    method public abstract void setMediaItem(MediaItem);
+    method public abstract void updateBoxMediaType(PositionController, int, MediaType);
+    method public abstract void updateMediaType(Picture, ScreenNail);
+    method public abstract void updateTileProviderWithScreenNail(TileImageViewAdapter, ScreenNail);
+  }
+
+  public abstract interface IMovieExtension {
+    method public abstract java.util.ArrayList<com.mediatek.gallery3d.ext.IActivityHooker> getHookers(android.content.Context);
+    method public abstract com.mediatek.gallery3d.ext.IRewindAndForwardExtension getRewindAndForwardExtension();
+    method public abstract com.mediatek.gallery3d.ext.IServerTimeoutExtension getServerTimeoutExtension();
+    method public abstract boolean shouldEnableCheckLongSleep();
+  }
+
+  public abstract interface IRewindAndForwardExtension {
+    method public abstract void cancelHideAnimation();
+    method public abstract int getControllerButtonPosition();
+    method public abstract int getHeight();
+    method public abstract int getPaddingRight();
+    method public abstract android.view.View getView();
+    method public abstract void hide();
+    method public abstract void onClick(android.view.View);
+    method public abstract void onLayout(int, int, int, int);
+    method public abstract void setViewEnabled(boolean);
+    method public abstract void show();
+    method public abstract void startHideAnimation();
+    method public abstract void updateView();
+  }
+
+  public abstract interface IServerTimeoutExtension {
+    method public abstract void clearServerInfo();
+    method public abstract void clearTimeoutDialog();
+    method public abstract boolean handleOnResume();
+    method public abstract boolean onError(android.media.MediaPlayer, int, int);
+    method public abstract void onRestoreInstanceState(android.os.Bundle);
+    method public abstract void onSaveInstanceState(android.os.Bundle);
+    method public abstract void recordDisconnectTime();
+    method public abstract void setVideoInfo(android.media.Metadata);
+  }
+
+}
+
+package com.mediatek.incallui.ext {
+
+  public abstract interface ICallCardExt {
+    method public abstract void customizeCallerInfo(android.content.Context, java.lang.Object, android.database.Cursor);
+    method public abstract void setPhoneAccountForSecondCall(android.telecom.PhoneAccount);
+    method public abstract void setPhoneAccountForThirdCall(android.telecom.PhoneAccount);
+  }
+
+  public abstract interface IRCSeCallButtonExt {
+    method public abstract boolean handleMenuItemClick(android.view.MenuItem);
+    method public abstract void onStateChange(android.telecom.Call, java.util.HashMap<java.lang.String, android.telecom.Call>);
+    method public abstract void onViewCreated(android.content.Context, android.view.View);
+  }
+
+  public abstract interface IRCSeCallCardExt {
+    method public abstract void onStateChange(android.telecom.Call);
+    method public abstract void onViewCreated(android.content.Context, android.view.View);
+  }
+
+  public abstract interface IRCSeInCallExt {
+    method public abstract void onCreate(android.os.Bundle, android.app.Activity, com.mediatek.incallui.ext.IInCallScreenExt);
+    method public abstract void onDestroy(android.app.Activity);
+  }
+
+}
+
+package com.mediatek.keyguard.ext {
+
+  public abstract interface ICarrierTextExt {
+    method public abstract java.lang.CharSequence customizeCarrierText(java.lang.CharSequence, java.lang.CharSequence, int);
+    method public abstract java.lang.CharSequence customizeCarrierTextCapital(java.lang.CharSequence);
+    method public abstract java.lang.String customizeCarrierTextDivider(java.lang.String);
+    method public abstract java.lang.CharSequence customizeCarrierTextWhenCardTypeLocked(java.lang.CharSequence, android.content.Context, int, boolean);
+    method public abstract java.lang.CharSequence customizeCarrierTextWhenSimMissing(java.lang.CharSequence);
+    method public abstract boolean showCarrierTextWhenSimMissing(boolean, int);
+  }
+
+  public abstract interface IEmergencyButtonExt {
+    method public abstract void customizeEmergencyIntent(android.content.Intent, int);
+    method public abstract boolean showEccByServiceState(boolean[], int);
+    method public abstract boolean showEccInNonSecureUnlock();
+  }
+
+  public abstract interface IKeyguardUtilExt {
+    method public abstract void customizeCarrierTextGravity(android.widget.TextView);
+    method public abstract void showToastWhenUnlockPinPuk(android.content.Context, int);
+  }
+
+  public abstract interface IOperatorSIMString {
+    method public abstract java.lang.String getOperatorSIMString(java.lang.String, int, com.mediatek.keyguard.ext.IOperatorSIMString.SIMChangedTag, android.content.Context);
+  }
+
+}
+
+package com.mediatek.mms.ext {
+
+  public abstract interface INmsgPluginExt {
+    method public abstract void nmsgCheckService();
+    method public abstract boolean startRemoteActivity(android.content.Context, long, java.lang.String, java.lang.String);
+  }
+
+  public abstract interface IOpAttachmentEditorExt {
+    method public abstract void createFileAttachmentView(android.view.View);
+    method public abstract void createMediaView(android.widget.Button);
+    method public abstract void createSlideshowView(android.content.Context, android.widget.LinearLayout, android.widget.Button, android.widget.Button);
+    method public abstract void init(IAttachmentEditorCallback);
+    method public abstract boolean onTextChangeForOneSlide();
+    method public abstract void setHandler(android.os.Handler);
+    method public abstract boolean update();
+    method public abstract void updateSendButton(boolean);
+  }
+
+  public abstract interface IOpAudioModelExt {
+    method public abstract java.lang.String initModelFromFileUri(java.lang.String, java.lang.String);
+  }
+
+  public abstract interface IOpBootActivityExt {
+    method public abstract boolean enterMms();
+  }
+
+  public abstract interface IOpCBMessageReceiverServiceExt {
+    method public abstract void handleCBMessageReceived(android.content.Context);
+  }
+
+  public abstract interface IOpClassZeroActivityExt {
+    method public abstract void displayZeroMessage(android.app.AlertDialog);
+    method public abstract void handleMessage(android.os.Message, android.os.Handler, boolean, IClassZeroActivityCallback, android.content.Context);
+  }
+
+  public abstract interface IOpComposeExt {
+    method public abstract void addCallAndContactMenuItems(android.content.Context, android.view.ContextMenu, int, java.util.ArrayList<java.lang.String>, IMessageItemCallback);
+    method public abstract boolean addContacts(android.content.Intent, int, int);
+    method public abstract boolean asyncAttachVCardByContactsId(boolean);
+    method public abstract boolean attachVCalendar(boolean, int, android.net.Uri, int);
+    method public abstract boolean checkConditionsAndSendMessage(boolean, boolean);
+    method public abstract java.lang.String checkRecipientsCount(java.lang.String, boolean, int, int, boolean, boolean, android.content.Intent, IMessageListAdapterCallback, java.util.List<android.telephony.SubscriptionInfo>, boolean);
+    method public abstract void chipOnCreateContextMenu(android.view.ContextMenu);
+    method public abstract boolean confirmSendMessageIfNeeded(boolean, boolean);
+    method public abstract boolean dispatchTouchEvent(android.view.MotionEvent);
+    method public abstract void drawBottomPanel(boolean, boolean, boolean);
+    method public abstract void drawTopPanel(boolean, com.mediatek.mms.ext.IOpWorkingMessageExt);
+    method public abstract void editMmsMessageItem(com.mediatek.mms.ext.IOpWorkingMessageExt);
+    method public abstract void editSlideshow(boolean);
+    method public abstract boolean forwardMessage(android.content.Context, IMessageItemCallback, java.lang.String, android.content.Intent);
+    method public abstract int getMessageAndSaveToSub(java.lang.String[], java.lang.String, java.util.ArrayList<java.lang.String>, int, long, int, int);
+    method public abstract int getSmsEncodingType(int, android.content.Context);
+    method public abstract void getSubInfoRunnable(boolean);
+    method public abstract boolean handleAttachmentEditorHandlerMessage(android.os.Message, boolean, IWorkingMessageCallback, ISlideshowModelCallback, boolean);
+    method public abstract boolean handleUiMessage(android.os.Message, int, int);
+    method public abstract boolean haveSomethingToCopyToSDCard(android.content.Context, com.google.android.mms.pdu.PduBody);
+    method public abstract boolean hideOrShowTopPanel(android.view.View);
+    method public abstract void initActivityState(android.content.Intent);
+    method public abstract boolean initFocus();
+    method public abstract void initRecipientsEditor(android.os.Bundle, android.view.View);
+    method public abstract void initResourceRefs(android.widget.LinearLayout, android.widget.TextView, com.mediatek.mms.ext.IOpAttachmentEditorExt);
+    method public abstract boolean lockMessage(android.content.Context, android.net.Uri, long, long, boolean);
+    method public abstract boolean onActivityResult(int, android.content.Intent, com.mediatek.mms.ext.IOpWorkingMessageExt, com.mediatek.mms.ext.IOpWorkingMessageExt);
+    method public abstract boolean onClick(android.view.View, android.widget.ImageButton);
+    method public abstract void onConfigurationChanged();
+    method public abstract void onCreate(IComposeActivityCallback, android.content.Intent, android.content.IntentFilter, android.app.Activity, android.app.Activity, android.os.Bundle, android.os.Handler, android.widget.ImageButton, android.widget.LinearLayout, android.widget.EditText);
+    method public abstract boolean onCreateContextMenu(boolean, boolean, int, boolean, android.view.MenuItem.OnMenuItemClickListener, android.view.ContextMenu, android.view.View, android.view.ContextMenu.ContextMenuInfo, long, int);
+    method public abstract boolean onDeleteMessageListenerClick(android.content.AsyncQueryHandler, long, long);
+    method public abstract void onDiscardDraftListenerClick();
+    method public abstract boolean onKeyDown(int, android.view.KeyEvent);
+    method public abstract boolean onLayoutSizeChanged(boolean);
+    method public abstract boolean onMenuItemClick(android.view.MenuItem, com.mediatek.mms.ext.IOpMessageItemExt, android.content.Intent, android.content.Intent);
+    method public abstract boolean onMessageListItemHandler(android.os.Message, java.lang.String);
+    method public abstract boolean onNewIntent(android.content.Intent, boolean, android.net.Uri, IWorkingMessageCallback, java.lang.Object, IRecipientsEditorCallback, int);
+    method public abstract boolean onOptionsItemSelected(android.view.MenuItem, com.mediatek.mms.ext.IOpWorkingMessageExt, android.view.inputmethod.InputMethodManager);
+    method public abstract boolean onPrepareOptionsMenu(android.view.Menu, boolean, boolean, int, long);
+    method public abstract boolean onProtocolChanged(boolean, java.lang.CharSequence);
+    method public abstract android.net.Uri onQueryMsgListRun(android.net.Uri, long);
+    method public abstract boolean onReceive(java.lang.String, java.lang.Runnable);
+    method public abstract void onRecipientsEditorFocusChange(boolean);
+    method public abstract void onRecipientsEditorTouch();
+    method public abstract void onResume(int, java.lang.String, boolean, android.view.View, android.view.View);
+    method public abstract void onSaveInstanceState(android.os.Bundle);
+    method public abstract void onStart(ITextSizeAdjustHost, android.app.Activity);
+    method public abstract void onSubInforChanged();
+    method public abstract void onSubjectTextEditorFocusChange(boolean);
+    method public abstract void onSubjectTextEditorTouch();
+    method public abstract void onTextEditorTouch();
+    method public abstract boolean processNewIntent(android.content.Intent);
+    method public abstract void resetConfiguration(boolean, boolean, boolean);
+    method public abstract void resetMessage();
+    method public abstract void saveDraft(com.mediatek.mms.ext.IOpWorkingMessageExt);
+    method public abstract boolean sendMessage(com.mediatek.mms.ext.IOpWorkingMessageExt, int);
+    method public abstract void setConfirmMmsToSms(boolean);
+    method public abstract boolean showMessageDetails(java.lang.String);
+    method public abstract java.lang.String showSubSelectedDialog(java.lang.String);
+    method public abstract void showSubjectEditor(android.widget.EditText);
+    method public abstract android.net.Uri startMsgListQuery(android.net.Uri, long);
+    method public abstract int subSelection();
+    method public abstract boolean subSelectionDialog(int);
+    method public abstract boolean updateCounter(java.lang.CharSequence, android.widget.TextView, IWorkingMessageCallback);
+    method public abstract boolean updateCounterUiRun(android.widget.TextView, int, int, IWorkingMessageCallback);
+    method public abstract boolean updateFullScreenTextEditorHeight();
+    method public abstract boolean updateSendButton(boolean, int, boolean, boolean);
+    method public abstract boolean updateSendButtonState(boolean, int, int, int);
+    method public abstract java.lang.String updateTitle(int, java.lang.String, java.lang.String);
+  }
+
+  public abstract interface IOpConversationExt {
+    method public abstract void fillFromCursor(android.database.Cursor, int, boolean);
+    method public abstract boolean startQuery(android.content.AsyncQueryHandler, int, java.lang.String);
+  }
+
+  public abstract interface IOpConversationListExt {
+    method public abstract android.view.View getSearchView(android.widget.SearchView);
+    method public abstract boolean onClickSmsPromoBanner();
+    method public abstract boolean onCreate(android.app.Activity, android.os.Bundle);
+    method public abstract void onCreateOptionsMenu(android.view.Menu, android.view.MenuItem, int, int, android.widget.SearchView);
+    method public abstract boolean onOptionsItemSelected(android.view.MenuItem, int);
+    method public abstract void onPrepareOptionsMenu(android.view.Menu);
+    method public abstract boolean onQueryTextChange(java.lang.String);
+  }
+
+  public abstract interface IOpConversationListItemExt {
+    method public abstract boolean bind(android.content.Context, android.widget.TextView, android.widget.TextView, android.widget.ImageView, com.mediatek.mms.ext.IOpConversationExt, boolean, android.widget.LinearLayout);
+    method public abstract int formatMessage(android.widget.ImageView, com.mediatek.mms.ext.IOpConversationExt, int);
+    method public abstract boolean onFinishInflate(android.widget.TextView);
+  }
+
+  public abstract interface IOpDefaultRetrySchemeExt {
+    method public abstract int[] init(int...);
+  }
+
+  public abstract interface IOpDeliveryReportExt {
+    method public abstract android.database.Cursor getSmsReportItems(android.content.Intent, java.lang.String[], java.lang.String);
+  }
+
+  public abstract interface IOpDialogModeActivityExt {
+    method public abstract java.lang.String getNotificationContentString(java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+    method public abstract void initDialogView(android.widget.TextView, android.widget.Button, android.widget.TextView, android.widget.TextView, android.widget.LinearLayout, android.widget.LinearLayout, android.widget.TextView, android.database.Cursor);
+    method public abstract void onReceive(android.content.Context, android.content.Intent);
+    method public abstract boolean onResume();
+    method public abstract boolean openThread();
+    method public abstract void setDialogView(android.content.Context, int, boolean, int, java.lang.String, java.lang.String, android.widget.ImageView);
+    method public abstract void setHost(IDialogModeActivityCallback);
+    method public abstract boolean simSelection(int, int, java.lang.String, int, android.content.Intent, long, int[], IDialogModeActivityCallback);
+    method public abstract void updateCounter(android.widget.TextView, int, int, int, java.lang.String);
+    method public abstract void updateSendButtonState(boolean);
+  }
+
+  public abstract interface IOpFileAttachmentModelExt {
+    method public abstract boolean checkContentRestriction();
+    method public abstract void init(android.content.Context, android.net.Uri, java.lang.String, java.lang.String, int);
+  }
+
+  public abstract interface IOpFileAttachmentUtilsExt {
+    method public abstract boolean createFileAttachmentView(android.content.Context, java.util.ArrayList, IFileAttachmentModelCallback, android.widget.TextView, android.widget.ImageView, android.widget.TextView, java.lang.String, android.widget.TextView, android.widget.ImageView, android.graphics.drawable.Drawable, android.graphics.drawable.Drawable, com.mediatek.mms.ext.IOpFileAttachmentModelExt, java.lang.String);
+    method public abstract void getAttachFiles(android.content.Context, com.google.android.mms.pdu.PduPart, java.lang.String, java.util.ArrayList, java.util.ArrayList, IFileAttachmentModelCallback);
+    method public abstract boolean setOrAppendFileAttachment(boolean);
+  }
+
+  public abstract interface IOpFolderModeSmsViewerExt {
+    method public abstract boolean dispatchTouchEvent(android.view.MotionEvent);
+    method public abstract java.lang.String forwardMessage(android.content.Context, java.lang.String, java.lang.String, int);
+    method public abstract void onStart(ITextSizeAdjustHost, android.app.Activity);
+  }
+
+  public abstract interface IOpGeneralPreferenceActivityExt {
+    method public abstract void setMessagePreferences(android.app.Activity, android.preference.PreferenceCategory);
+  }
+
+  public abstract interface IOpLoadReqExt {
+    method public abstract void executeReq(android.content.Context, long, com.mediatek.mms.ext.IOpMmsDraftDataExt);
+  }
+
+  public abstract interface IOpManageSimMessagesExt {
+    method public abstract java.lang.String checkSimCapacity(com.mediatek.internal.telephony.IccSmsStorageStatus, java.lang.String);
+    method public abstract void confirmDeleteDialog(android.app.AlertDialog.Builder);
+    method public abstract void confirmMultiDelete(android.app.AlertDialog.Builder, java.util.Iterator<java.util.Map.Entry<java.lang.String, java.lang.Boolean>>);
+    method public abstract boolean dispatchTouchEvent(android.view.MotionEvent);
+    method public abstract java.lang.String forwardMessage(android.content.Context, java.lang.String, java.lang.String, android.database.Cursor);
+    method public abstract void onCreate(ITextSizeAdjustHost, android.app.Activity, int);
+    method public abstract boolean onCreateContextMenu(android.database.Cursor);
+    method public abstract java.lang.String[] onMultiDelete(java.lang.String[]);
+    method public abstract android.net.Uri startQueryIcc(android.net.Uri);
+    method public abstract void updateListWithCursor(android.database.Cursor);
+    method public abstract boolean updateState(int, android.widget.TextView);
+  }
+
+  public abstract interface IOpMessageItemExt {
+    method public abstract boolean onOpCreateMessageItem(android.content.Context, android.database.Cursor, long, java.lang.String, IMessageItemCallback, IColumnsMapCallback);
+    method public abstract boolean onOpCreateMessageItem(android.content.Context, long, java.lang.String, IMessageItemCallback, long, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long);
+  }
+
+  public abstract interface IOpMessageListAdapterExt {
+    method public abstract void clearList();
+    method public abstract java.lang.String getAddress(long);
+    method public abstract java.lang.String getBody(long);
+    method public abstract int getBoxType(long);
+    method public abstract void initListMap(android.database.Cursor, IColumnsMapCallback);
+  }
+
+  public abstract interface IOpMessageListItemExt {
+    method public abstract void bind(com.mediatek.mms.ext.IOpMessageItemExt);
+    method public abstract void bindCommonMessage(android.widget.Button, android.widget.TextView);
+    method public abstract void bindDefault(android.widget.Button);
+    method public abstract void bindNotifInd(android.content.Context, java.lang.String, android.widget.TextView, android.widget.TextView, android.widget.CheckBox, boolean, android.widget.TextView, android.widget.LinearLayout);
+    method public abstract void drawRightStatusIndicator(android.content.Context, android.widget.LinearLayout, com.mediatek.mms.ext.IOpMessageItemExt, android.widget.TextView, android.widget.TextView, android.widget.LinearLayout, java.lang.String);
+    method public abstract android.text.SpannableStringBuilder formatMessage(com.mediatek.mms.ext.IOpMessageItemExt, android.text.SpannableStringBuilder, java.lang.String, boolean);
+    method public abstract void hideAllView();
+    method public abstract void inflateDownloadControls(android.app.Activity, android.widget.LinearLayout, android.widget.TextView);
+    method public abstract void init(IMessageListItemCallback, android.content.Context);
+    method public abstract boolean onDownloadButtonClick(android.app.Activity, boolean);
+    method public abstract boolean onFileAttachmentViewClick(boolean, java.lang.String);
+    method public abstract boolean onMessageListItemClick();
+    method public abstract void openUrl(android.content.Context, java.lang.String);
+    method public abstract void showDownloadingAttachment(android.widget.CheckBox);
+    method public abstract void showFileAttachmentView(android.view.View, android.widget.TextView, android.widget.TextView, android.widget.ImageView, android.widget.TextView, java.util.ArrayList, android.content.Intent, long, IFileAttachmentModelCallback, com.mediatek.mms.ext.IOpFileAttachmentModelExt);
+    method public abstract boolean showOrHideFileAttachmentView(java.util.ArrayList);
+  }
+
+  public abstract interface IOpMessagePluginExt {
+    method public abstract com.mediatek.mms.ext.IOpAttachmentEditorExt getOpAttachmentEditorExt();
+    method public abstract com.mediatek.mms.ext.IOpAudioModelExt getOpAudioModelExt();
+    method public abstract com.mediatek.mms.ext.IOpBootActivityExt getOpBootActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpCBMessageReceiverServiceExt getOpCBMessageReceiverServiceExt();
+    method public abstract com.mediatek.mms.ext.IOpClassZeroActivityExt getOpClassZeroActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpComposeExt getOpComposeExt();
+    method public abstract com.mediatek.mms.ext.IOpConversationExt getOpConversationExt();
+    method public abstract com.mediatek.mms.ext.IOpConversationListExt getOpConversationListExt();
+    method public abstract com.mediatek.mms.ext.IOpConversationListItemExt getOpConversationListItemExt();
+    method public abstract com.mediatek.mms.ext.IOpDefaultRetrySchemeExt getOpDefaultRetrySchemeExt();
+    method public abstract com.mediatek.mms.ext.IOpDeliveryReportExt getOpDeliveryReportExt();
+    method public abstract com.mediatek.mms.ext.IOpDialogModeActivityExt getOpDialogModeActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpFileAttachmentModelExt getOpFileAttachmentModelExt();
+    method public abstract com.mediatek.mms.ext.IOpFileAttachmentUtilsExt getOpFileAttachmentUtilsExt();
+    method public abstract com.mediatek.mms.ext.IOpFolderModeSmsViewerExt getOpFolderModeSmsViewerExt();
+    method public abstract com.mediatek.mms.ext.IOpGeneralPreferenceActivityExt getOpGeneralPreferenceActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpLoadReqExt getOpLoadReqExt();
+    method public abstract com.mediatek.mms.ext.IOpManageSimMessagesExt getOpManageSimMessagesExt();
+    method public abstract com.mediatek.mms.ext.IOpMessageItemExt getOpMessageItemExt();
+    method public abstract com.mediatek.mms.ext.IOpMessageListAdapterExt getOpMessageListAdapterExt();
+    method public abstract com.mediatek.mms.ext.IOpMessageListItemExt getOpMessageListItemExt();
+    method public abstract com.mediatek.mms.ext.IOpMessageUtilsExt getOpMessageUtilsExt();
+    method public abstract com.mediatek.mms.ext.IOpMessagingNotificationExt getOpMessagingNotificationExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsAppExt getOpMmsAppExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsConfigExt getOpMmsConfigExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsDraftDataExt getOpMmsDraftDataExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsPlayerActivityAdapterExt getOpMmsPlayerActivityAdapterExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsPlayerActivityExt getOpMmsPlayerActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsPreferenceActivityExt getOpMmsPreferenceActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsPushReceiveServiceExt getOpMmsPushReceiveServiceExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsSystemEventReceiverExt getOpMmsSystemEventReceiverExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsThumbnailPresenterExt getOpMmsThumbnailPresenterExt();
+    method public abstract com.mediatek.mms.ext.IOpMmsWidgetServiceExt getOpMmsWidgetServiceExt();
+    method public abstract com.mediatek.mms.ext.IOpMultiDeleteActivityExt getOpMultiDeleteActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpMultiSaveActivityExt getOpMultiSaveActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpNotificationTransactionExt getOpNotificationTransactionExt();
+    method public abstract com.mediatek.mms.ext.IOpPushReceiverExt getOpPushReceiverExt();
+    method public abstract com.mediatek.mms.ext.IOpRecipientListActivityExt getOpRecipientListActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpRecipientsEditorExt getOpRecipientsEditorExt();
+    method public abstract com.mediatek.mms.ext.IOpRetrieveTransactionExt getOpRetrieveTransactionExt();
+    method public abstract com.mediatek.mms.ext.IOpRetrySchedulerExt getOpRetrySchedulerExt();
+    method public abstract com.mediatek.mms.ext.IOpSearchActivityExt getOpSearchActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpSiManagerExt getOpSiManagerExt();
+    method public abstract com.mediatek.mms.ext.IOpSlideEditorActivityExt getOpSlideEditorActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpSlideViewExt getOpSlideViewExt();
+    method public abstract com.mediatek.mms.ext.IOpSlideshowActivityExt getOpSlideshowActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpSlideshowEditActivityExt getOpSlideshowEditActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpSlideshowModelExt getOpSlideshowModelExt();
+    method public abstract com.mediatek.mms.ext.IOpSlideshowPresenterExt getOpSlideshowPresenterExt();
+    method public abstract com.mediatek.mms.ext.IOpSmsMessageSenderExt getOpSmsMessageSenderExt();
+    method public abstract com.mediatek.mms.ext.IOpSmsPreferenceActivityExt getOpSmsPreferenceActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpSmsReceiverExt getOpSmsReceiverExt();
+    method public abstract com.mediatek.mms.ext.IOpSmsReceiverServiceExt getOpSmsReceiverServiceExt();
+    method public abstract com.mediatek.mms.ext.IOpSmsRejectedReceiverExt getOpSmsRejectedReceiverExt();
+    method public abstract com.mediatek.mms.ext.IOpSmsSingleRecipientSenderExt getOpSmsSingleRecipientSenderExt();
+    method public abstract com.mediatek.mms.ext.IOpStatusBarSelectorCreatorExt getOpStatusBarSelectorCreatorExt();
+    method public abstract com.mediatek.mms.ext.IOpSubSelectActivityExt getOpSubSelectActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpTransactionServiceExt getOpTransactionServiceExt();
+    method public abstract com.mediatek.mms.ext.IOpWPMessageActivityExt getOpWPMessageActivityExt();
+    method public abstract com.mediatek.mms.ext.IOpWPMessageListItemExt getOpWPMessageListItemExt();
+    method public abstract com.mediatek.mms.ext.IOpWapPushReceiverServiceExt getOpWapPushReceiverServiceExt();
+    method public abstract com.mediatek.mms.ext.IOpWappushMessagingNotificationExt getOpWappushMessagingNotificationExt();
+    method public abstract com.mediatek.mms.ext.IOpWorkingMessageExt getOpWorkingMessageExt();
+    method public abstract void setOpMessageUtilsCallback(IMessageUtilsCallback);
+  }
+
+  public abstract interface IOpMessageUtilsExt {
+    method public abstract boolean allowSafeDraft(android.app.Activity, boolean, boolean, int);
+    method public abstract void checkThreadMuteTimeout(android.net.Uri, IMuteCacheCallback);
+    method public abstract java.lang.String formatDateAndTimeStampString(java.lang.String, android.content.Context, long, long, boolean);
+    method public abstract java.lang.String formatTimeStampString(android.content.Context, long, int);
+    method public abstract java.lang.String formatTimeStampStringExtend(android.content.Context, long, int);
+    method public abstract java.lang.CharSequence[] getVisualTextName(java.lang.CharSequence[], android.content.Context, boolean);
+    method public abstract boolean isSupportedFile(java.lang.String);
+    method public abstract boolean isSupportedFile(com.google.android.mms.pdu.PduPart);
+    method public abstract void setExtendedAudioType(java.util.ArrayList<java.lang.String>);
+    method public abstract android.net.Uri startDeleteAll(android.net.Uri);
+  }
+
+  public abstract interface IOpMessagingNotificationExt {
+    method public abstract android.net.Uri getUndeliveredMessageCount(android.net.Uri);
+    method public abstract boolean notifyFailed(android.content.Context, java.lang.Class<?>, boolean, boolean, long, android.app.Notification, java.lang.String, java.lang.String);
+    method public abstract void onUpdateNotification(boolean);
+    method public abstract boolean updateNotification(android.content.Context, int, long, java.lang.Class<?>, int, boolean, android.net.Uri, android.app.Notification.Builder);
+  }
+
+  public abstract interface IOpMmsAppExt {
+    method public abstract void onCreate(IMmsAppCallback);
+  }
+
+  public abstract interface IOpMmsConfigExt {
+    method public abstract int getMaxTextLimit();
+    method public abstract int getMmsRecipientLimit();
+    method public abstract int getMmsRetryPromptIndex();
+    method public abstract android.os.Bundle getMmsServiceConfig();
+    method public abstract int getSmsToMmsTextThreshold();
+    method public abstract void setHttpSocketTimeout(int);
+    method public abstract void setMaxTextLimit(int);
+    method public abstract void setMmsRecipientLimit(int);
+    method public abstract void setSmsToMmsTextThreshold(int);
+  }
+
+  public abstract interface IOpMmsPlayerActivityAdapterExt {
+    method public abstract void getView(android.net.Uri, java.lang.String, com.mediatek.widget.ImageViewEx, android.graphics.Bitmap, java.lang.String, android.widget.ImageView, java.lang.String, java.lang.String, android.widget.ImageView, android.view.View, android.widget.LinearLayout);
+    method public abstract void setExtendUrlSpan(android.widget.TextView);
+  }
+
+  public abstract interface IOpMmsPlayerActivityExt {
+    method public abstract boolean dispatchTouchEvent(android.view.MotionEvent);
+    method public abstract boolean haveSomethingToCopyToSDCard(android.content.Context, com.google.android.mms.pdu.PduBody, IMmsPlayerActivityCallback);
+    method public abstract void initListAdapter(android.widget.TextView, int);
+    method public abstract void onOptionsItemSelected(android.content.Intent);
+    method public abstract void onStart(ITextSizeAdjustHost, android.app.Activity);
+  }
+
+  public abstract interface IOpMmsPreferenceActivityExt {
+    method public abstract void restoreDefaultPreferences(android.app.Activity, android.content.SharedPreferences.Editor);
+    method public abstract void setMessagePreferences(android.app.Activity, android.preference.PreferenceCategory, int);
+  }
+
+  public abstract interface IOpMmsPushReceiveServiceExt {
+    method public abstract void doInBackground(android.content.Context);
+  }
+
+  public abstract interface IOpMmsSystemEventReceiverExt {
+    method public abstract void onReceive(android.content.Context, android.content.Intent, int);
+    method public abstract void setNotificationIndUnstarted(android.content.ContentValues, int);
+  }
+
+  public abstract interface IOpMmsThumbnailPresenterExt {
+    method public abstract android.graphics.Bitmap presentImageThumbnail(java.lang.String, java.lang.String);
+    method public abstract android.graphics.Bitmap presentVideoThumbnail(java.lang.String, java.lang.String);
+  }
+
+  public abstract interface IOpMmsWidgetServiceExt {
+    method public abstract boolean getViewAt(android.content.Intent, boolean, IConversationCallback);
+    method public abstract boolean getViewMoreConversationsView(android.content.Intent, boolean);
+  }
+
+  public abstract interface IOpMultiDeleteActivityExt {
+    method public abstract java.lang.String forwardMessage(android.content.Context, java.lang.String, java.lang.String, int);
+    method public abstract boolean markAsLocked(android.content.Context, long[], boolean);
+    method public abstract boolean onActionItemClicked(IMultiDeleteActivityCallback);
+    method public abstract void onCreate(IMultiDeleteActivityCallback);
+    method public abstract void onMultiDeleteClick(android.net.Uri, java.lang.String[]);
+    method public abstract void onPrepareActionMode(android.view.MenuItem, int);
+    method public abstract void setExitCompose(android.content.Intent, android.os.Handler);
+    method public abstract android.net.Uri startMsgListQuery(android.net.Uri, long);
+  }
+
+  public abstract interface IOpMultiSaveActivityExt {
+    method public abstract boolean initListAdapter(android.content.Context, java.lang.String, long, java.lang.String, java.util.ArrayList, com.google.android.mms.pdu.PduPart, long, java.util.ArrayList, IMultiSaveActivityCallback, IFileAttachmentModelCallback);
+    method public abstract long onCreate(android.content.Intent);
+    method public abstract void save(android.content.Context, long, boolean, java.lang.String, java.lang.String);
+  }
+
+  public abstract interface IOpNotificationTransactionExt {
+    method public abstract void init(IDownloadManagerCallback);
+    method public abstract boolean run(boolean, android.net.Uri, android.content.Context, android.net.Uri, java.lang.String);
+    method public abstract void sendNotifyRespInd(android.content.Context, int, com.google.android.mms.pdu.NotifyRespInd);
+  }
+
+  public abstract interface IOpPushReceiverExt {
+    method public abstract void doInBackground(android.content.Context);
+    method public abstract boolean onReceive(android.content.Context, android.content.Intent, java.lang.Class<?>);
+  }
+
+  public abstract interface IOpRecipientListActivityExt {
+    method public abstract void onCreate(android.app.Activity, android.os.Bundle);
+    method public abstract boolean onOptionsItemSelected(boolean);
+  }
+
+  public abstract interface IOpRecipientsEditorExt {
+    method public abstract void init(MTKRecipientEditTextView, boolean);
+    method public abstract boolean isValidAddress(boolean, java.lang.String);
+    method public abstract void onCreateInputConnection(android.view.inputmethod.EditorInfo);
+  }
+
+  public abstract interface IOpRetrieveTransactionExt {
+    method public abstract void init(IDownloadManagerCallback);
+    method public abstract boolean run(boolean, android.net.Uri, android.content.Context, android.net.Uri, java.lang.String);
+    method public abstract void sendAcknowledgeInd(android.content.Context, int, com.google.android.mms.pdu.AcknowledgeInd);
+  }
+
+  public abstract interface IOpRetrySchedulerExt {
+    method public abstract boolean noNeedSendMsgToToastHandler();
+    method public abstract void scheduleRetry(IDefaultRetrySchemeCallback, int);
+  }
+
+  public abstract interface IOpSearchActivityExt {
+    method public abstract java.lang.String getSearchString();
+    method public abstract void onCreate(android.content.Context, android.content.Intent);
+    method public abstract java.lang.CharSequence onQueryComplete(android.database.Cursor);
+    method public abstract android.net.Uri startQuery(boolean, java.lang.String);
+  }
+
+  public abstract interface IOpSiManagerExt {
+    method public abstract void handleIncoming(android.content.Context, android.content.ContentValues, java.lang.String);
+  }
+
+  public abstract interface IOpSlideEditorActivityExt {
+    method public abstract boolean dispatchTouchEvent(android.view.MotionEvent);
+    method public abstract void onStart(ITextSizeAdjustHost, android.app.Activity);
+  }
+
+  public abstract interface IOpSlideViewExt {
+    method public abstract void displayAudioInfo();
+    method public abstract void enableMMSConformanceMode(android.content.Context, android.widget.TextView, int, int);
+    method public abstract void hideAudioInfo();
+    method public abstract void initAudioInfoView(boolean, android.widget.LinearLayout, android.widget.LinearLayout, android.view.ViewGroup);
+    method public abstract void setAudio(android.net.Uri);
+    method public abstract void setImage(com.mediatek.widget.ImageViewEx, android.view.ViewGroup);
+    method public abstract void setText(android.content.Context, android.widget.TextView, boolean);
+    method public abstract void setVideo(android.widget.VideoView);
+    method public abstract void videoViewMatchStatusbar(android.view.View, android.view.ViewGroup);
+  }
+
+  public abstract interface IOpSlideshowActivityExt {
+    method public abstract com.mediatek.mms.ext.IOpSlideshowActivityExt.Direction dispatchTouchEvent(android.view.MotionEvent);
+  }
+
+  public abstract interface IOpSlideshowEditActivityExt {
+    method public abstract boolean adjustAddSlideVisibility(android.view.Menu, ISlideshowModelCallback, android.view.View);
+    method public abstract void onOptionsItemSelected(android.content.Context, android.view.MenuItem, ISlideshowEditorCallback, ISlideshowEditActivityCallback);
+    method public abstract boolean onPrepareOptionsMenu(android.view.Menu, ISlideshowModelCallback, int);
+  }
+
+  public abstract interface IOpSlideshowModelExt {
+    method public abstract int checkAttachmentSize(int);
+    method public abstract void makePduBody(com.google.android.mms.pdu.PduPart, java.lang.String);
+    method public abstract void setPartData(com.google.android.mms.pdu.PduPart, IFileAttachmentModelCallback);
+  }
+
+  public abstract interface IOpSlideshowPresenterExt {
+    method public abstract android.graphics.Bitmap presentImage(java.lang.String, java.lang.String, boolean);
+  }
+
+  public abstract interface IOpSmsMessageSenderExt {
+    method public abstract android.net.Uri queueMessage(int, android.content.ContentResolver, java.lang.String, java.lang.String, java.lang.Long, boolean, long, long, long);
+  }
+
+  public abstract interface IOpSmsPreferenceActivityExt {
+    method public abstract boolean addSmsInputModePreference(android.preference.Preference.OnPreferenceChangeListener);
+    method public abstract void changeSingleCardKeyToSimRelated();
+    method public abstract void onCreate(android.preference.PreferenceActivity);
+    method public abstract boolean onPreferenceChange(android.preference.Preference, java.lang.Object);
+    method public abstract void restoreDefaultPreferences(android.app.Activity, android.content.SharedPreferences.Editor);
+    method public abstract void setMessagePreferences(android.app.Activity, android.preference.PreferenceCategory, int);
+    method public abstract void setMultiCardPreference();
+  }
+
+  public abstract interface IOpSmsReceiverExt {
+    method public abstract void onReceiveWithPrivilege(android.content.Intent, java.lang.String);
+  }
+
+  public abstract interface IOpSmsReceiverServiceExt {
+    method public abstract android.content.Intent displayClassZeroMessage(android.content.Intent);
+    method public abstract android.net.Uri handleSmsReceived(android.content.Context, android.telephony.SmsMessage[], android.content.Intent, int);
+    method public abstract void onCreate(android.app.Service, ISmsReceiverServiceCallback);
+    method public abstract void onDestroy(android.app.Service);
+    method public abstract boolean storeMessage(android.telephony.SmsMessage[], android.telephony.SmsMessage, android.content.ContentValues);
+  }
+
+  public abstract interface IOpSmsRejectedReceiverExt {
+    method public abstract void onReceive(android.content.Context);
+  }
+
+  public abstract interface IOpSmsSingleRecipientSenderExt {
+    method public abstract boolean sendMessage(android.content.Context, int, java.lang.String, java.lang.String, java.util.ArrayList<java.lang.String>, java.util.ArrayList<android.app.PendingIntent>, java.util.ArrayList<android.app.PendingIntent>);
+    method public abstract int sendMessagePrepare(android.content.Context, int);
+    method public abstract boolean sendOpMessage(android.content.Context, int, java.util.ArrayList<android.app.PendingIntent>);
+  }
+
+  public abstract interface IOpStatusBarSelectorCreatorExt {
+    method public abstract com.mediatek.widget.CustomAccountRemoteViews.AccountInfo createAlwaysAskAccountInfo(int, java.lang.String, android.content.Intent, boolean);
+    method public abstract boolean refreshData(java.util.ArrayList<com.mediatek.widget.CustomAccountRemoteViews.AccountInfo>, long, java.lang.String);
+    method public abstract boolean showStatusBarIndicator(android.content.Context, boolean);
+  }
+
+  public abstract interface IOpSubSelectActivityExt {
+    method public abstract void onCreate(android.app.Activity);
+    method public abstract boolean onListItemClick(android.app.Activity, int);
+    method public abstract java.lang.String[] setSaveLocation();
+  }
+
+  public abstract interface IOpTransactionServiceExt {
+    method public abstract void cancelTransaction(android.content.Context, android.net.Uri);
+    method public abstract boolean cancelandRemoveTransaction();
+    method public abstract void handleOpTransactionProcessed(android.content.Intent, boolean, boolean);
+    method public abstract boolean handleTransactionProcessed(ITransactionServiceCallback, int, java.lang.Object, android.content.Intent);
+    method public abstract void init(ITransactionServiceCallback);
+    method public abstract void markStateComplete(android.net.Uri);
+    method public abstract boolean onNewIntent(android.net.Uri, int);
+    method public abstract void onOpNewIntent(android.content.Intent);
+    method public abstract boolean processTransaction(boolean);
+    method public abstract void setTransactionFail(android.content.Context, int, android.database.Cursor);
+  }
+
+  public abstract interface IOpWPMessageActivityExt {
+    method public abstract boolean dispatchTouchEvent(android.view.MotionEvent);
+    method public abstract void onStart(ITextSizeAdjustHost, android.app.Activity);
+  }
+
+  public abstract interface IOpWPMessageListItemExt {
+    method public abstract void bindCommonMessage(android.content.Context, int, android.widget.TextView);
+  }
+
+  public abstract interface IOpWapPushReceiverServiceExt {
+    method public abstract void handleWapPushReceived(android.content.Context);
+  }
+
+  public abstract interface IOpWappushMessagingNotificationExt {
+    method public abstract boolean updateNotification(android.content.Context, android.app.Notification.Builder);
+  }
+
+  public abstract interface IOpWorkingMessageExt {
+    method public abstract int changeMedia(int, int);
+    method public abstract void initOpWorkingMessage(IWorkingMessageCallback);
+    method public abstract boolean onCreateSplitToMmsAndSmsConv(ISplitToMmsAndSmsConversationCallback, IConversationCallback);
+    method public abstract com.google.android.mms.pdu.SendReq opAsyncUpdateDraftMmsMessage(com.google.android.mms.pdu.SendReq);
+    method public abstract void opLoadFinished(com.mediatek.mms.ext.IOpMmsDraftDataExt);
+    method public abstract com.google.android.mms.pdu.SendReq opSaveAsMms(com.google.android.mms.pdu.SendReq);
+    method public abstract com.google.android.mms.pdu.SendReq opSendThreadRun(com.google.android.mms.pdu.SendReq);
+    method public abstract boolean removeAllAttachFiles();
+    method public abstract boolean setAttachment(int, int, ISlideshowEditorCallback);
+  }
+
+}
+
+package com.mediatek.mms.service.ext {
+
+  public abstract interface IMmsServiceCancelDownloadExt {
+    method public abstract void addAcquireNetworkUri(java.lang.String);
+    method public abstract void addHttpClient(java.lang.String, java.net.HttpURLConnection);
+    method public abstract void cacheLocationUri(java.lang.Integer, java.lang.String);
+    method public abstract boolean canBeCanceled(java.lang.String);
+    method public abstract void cancelDownload(java.lang.String);
+    method public abstract java.lang.String getCachedLocationUri(java.lang.Integer);
+    method public abstract boolean isCancelDownloadEnable();
+    method public abstract boolean needBeCanceled(java.lang.String);
+    method public abstract void removeAcquireNetWorkUri(java.lang.String);
+    method public abstract void removeCachedLocationUri(java.lang.Integer);
+    method public abstract void removeCanceledUri(java.lang.String);
+    method public abstract void removeHttpClient(java.lang.String);
+  }
+
+  public abstract interface IMmsServiceFailedNotifyExt {
+    method public abstract boolean enableNotify();
+    method public abstract void popupToast(int, java.lang.String);
+  }
+
+}
+
+package com.mediatek.music.ext {
+
+  public abstract interface IMusicTrackBrowser {
+    method public abstract void onActivityResult(int, int, android.content.Intent, android.content.Context, PluginUtils.IMusicListenter, java.lang.String, android.app.Activity, android.os.Bundle);
+    method public abstract void onCreateOptionsMenu(android.view.Menu, java.lang.String, android.os.Bundle);
+    method public abstract boolean onOptionsItemSelected(android.content.Context, android.view.MenuItem, java.lang.String, android.app.Activity, PluginUtils.IMusicListenter, android.os.Bundle);
+    method public abstract void onPrepareOptionsMenu(android.view.Menu, java.lang.String, android.os.Bundle);
+  }
+
+}
+
+package com.mediatek.phone.ext {
+
+  public abstract interface ICallFeaturesSettingExt {
+    method public abstract java.lang.String getWfcSummary(android.content.Context, int);
+    method public abstract void initCdmaCallForwardOptionsActivity(android.preference.PreferenceActivity, int);
+    method public abstract void initOtherCallFeaturesSetting(android.preference.PreferenceActivity);
+    method public abstract void initOtherCallFeaturesSetting(android.preference.PreferenceFragment);
+    method public abstract void initPlugin(android.preference.PreferenceActivity, android.preference.Preference);
+    method public abstract void onCallFeatureSettingsEvent(int);
+    method public abstract void onError(android.preference.Preference);
+    method public abstract void resetImsPdnOverSSComplete(android.content.Context, int);
+  }
+
+  public abstract interface ICallForwardExt {
+    method public abstract boolean getCallForwardInTimeSlot(android.preference.EditTextPreference, android.os.Message, android.os.Handler);
+    method public abstract boolean handleGetCFInTimeSlotResponse(android.preference.EditTextPreference, android.os.Message);
+    method public abstract void onBindDialogView(android.preference.EditTextPreference, android.view.View);
+    method public abstract boolean onCallForwardActivityResult(int, int, android.content.Intent);
+    method public abstract void onCreate(android.app.Activity, int);
+    method public abstract boolean onDialogClosed(android.preference.EditTextPreference, int);
+    method public abstract boolean setCallForwardInTimeSlot(android.preference.EditTextPreference, int, java.lang.String, int, android.os.Handler);
+    method public abstract void updateCfiIcon(int, android.content.Context, com.mediatek.phone.ext.ICallForwardExt.ICfiAction);
+    method public abstract void updateSummaryTimeSlotText(android.preference.EditTextPreference, java.lang.String[]);
+  }
+
+  public abstract interface IEmergencyDialerExt {
+    method public abstract void onCreate(android.app.Activity);
+    method public abstract void onDestroy(android.app.Activity);
+  }
+
+  public abstract interface IIncomingCallExt {
+    method public abstract boolean handlePhoneEvent(android.os.Message, com.android.internal.telephony.PhoneProxy);
+  }
+
+  public abstract interface IMmiCodeExt {
+    method public abstract void configBeforeMmiDialogShow(com.android.internal.telephony.MmiCode);
+    method public abstract void onMmiDailogShow(android.os.Message);
+    method public abstract boolean showUssdInteractionDialog(com.android.internal.telephony.Phone, android.widget.EditText);
+    method public abstract boolean skipPlayingUssdTone();
+  }
+
+  public abstract interface IMobileNetworkSettingsExt {
+    method public abstract void customizeAlertDialog(android.preference.Preference, android.app.AlertDialog.Builder);
+    method public abstract void customizePreferredNetworkMode(android.preference.ListPreference, int);
+    method public abstract void initMobileNetworkSettings(android.preference.PreferenceActivity, int);
+    method public abstract void initOtherMobileNetworkSettings(android.preference.PreferenceActivity, int);
+    method public abstract void onPreferenceChange(android.preference.Preference, java.lang.Object);
+    method public abstract boolean onPreferenceTreeClick(android.preference.PreferenceScreen, android.preference.Preference);
+    method public abstract void onResume();
+    method public abstract void unRegister();
+    method public abstract void updateLTEModeStatus(android.preference.ListPreference);
+    method public abstract void updateNetworkTypeSummary(android.preference.ListPreference);
+  }
+
+  public abstract interface INetworkSettingExt {
+    method public abstract java.util.List<com.android.internal.telephony.OperatorInfo> customizeNetworkList(java.util.List<com.android.internal.telephony.OperatorInfo>, int);
+    method public abstract boolean onPreferenceTreeClick(com.android.internal.telephony.OperatorInfo, int);
+  }
+
+  public abstract interface IPhoneMiscExt {
+    method public abstract int getSelectedIndex(int);
+    method public abstract boolean publishBinderDirectly();
+    method public abstract java.lang.String[] removeAskFirstFromSelectionListIndex(java.lang.String[]);
+    method public abstract java.lang.CharSequence[] removeAskFirstFromSelectionListValue(java.lang.CharSequence[]);
+  }
+
+}
+
+package com.mediatek.providers.settings.ext {
+
+  public abstract interface IDatabaseHelperExt {
+    method public abstract java.lang.String getResBoolean(android.content.Context, java.lang.String, java.lang.String);
+    method public abstract java.lang.String getResInteger(android.content.Context, java.lang.String, java.lang.String);
+    method public abstract java.lang.String getResStr(android.content.Context, java.lang.String, java.lang.String);
+  }
+
+}
+
+package com.mediatek.qsb.ext {
+
+  public abstract interface IPreferenceSetting {
+    method public abstract com.mediatek.common.search.SearchEngine getDefaultSearchEngine(android.content.Context);
+  }
+
+  public abstract interface IWebSearchHandler {
+    method public abstract boolean handleSearchInternal(android.content.Context, java.lang.String, java.lang.String);
+  }
+
+}
+
+package com.mediatek.rpm.ext {
+
+  public abstract interface IRegionalPhoneAddMmsApnExt {
+    method public abstract boolean addMmsApn(android.content.Context);
+  }
+
+  public abstract interface ISettingsExt {
+    method public abstract void updateConfiguration(android.content.Context);
+  }
+
+}
+
+package com.mediatek.settings.ext {
+
+  public abstract interface IApnSettingsExt {
+    method public abstract void addApnTypeExtra(android.content.Intent);
+    method public abstract java.lang.String[] customizeApnProjection(java.lang.String[]);
+    method public abstract void customizePreference(int, android.preference.PreferenceScreen);
+    method public abstract void customizeTetherApnSettings(android.preference.PreferenceScreen);
+    method public abstract void customizeUnselectableApn(java.util.ArrayList<android.preference.Preference>, java.util.ArrayList<android.preference.Preference>, int);
+    method public abstract java.lang.String[] getApnTypeArray(java.lang.String[], android.content.Context, java.lang.String);
+    method public abstract java.lang.String getFillListQuery(java.lang.String, java.lang.String);
+    method public abstract android.net.Uri getPreferCarrierUri(android.net.Uri, int);
+    method public abstract boolean getScreenEnableState(int, android.app.Activity);
+    method public abstract android.net.Uri getUriFromIntent(android.net.Uri, android.content.Context, android.content.Intent);
+    method public abstract void initTetherField(android.preference.PreferenceFragment);
+    method public abstract boolean isAllowEditPresetApn(java.lang.String, java.lang.String, java.lang.String, int);
+    method public abstract boolean isSelectable(java.lang.String);
+    method public abstract void onDestroy();
+    method public abstract long replaceApn(long, android.content.Context, android.net.Uri, java.lang.String, java.lang.String, android.content.ContentValues, java.lang.String);
+    method public abstract void saveApnValues(android.content.ContentValues);
+    method public abstract void setApnTypePreferenceState(android.preference.Preference, java.lang.String);
+    method public abstract void setMvnoPreferenceState(android.preference.Preference, android.preference.Preference);
+    method public abstract void setPreferenceTextAndSummary(int, java.lang.String);
+    method public abstract java.lang.String updateApnName(java.lang.String, int);
+    method public abstract void updateFieldsStatus(int, int, android.preference.PreferenceScreen);
+    method public abstract void updateMenu(android.view.Menu, int, int, java.lang.String);
+    method public abstract void updateTetherState();
+  }
+
+  public abstract interface IAppsExt {
+    method public abstract void launchApp(android.preference.PreferenceScreen, java.lang.String);
+  }
+
+  public abstract interface IAudioProfileExt {
+    method public abstract void addCustomizedPreference(android.preference.PreferenceScreen);
+    method public abstract boolean isOtherAudioProfileEditable();
+    method public abstract void onAudioProfileSettingPaused(android.preference.PreferenceFragment);
+    method public abstract void onAudioProfileSettingResumed(android.preference.PreferenceFragment);
+    method public abstract boolean onPreferenceTreeClick(android.preference.PreferenceScreen, android.preference.Preference);
+    method public abstract void setRingtonePickerParams(android.content.Intent);
+  }
+
+  public abstract interface IDataProtectionExt {
+    method public abstract void addDataPrf(android.preference.PreferenceGroup);
+  }
+
+  public abstract interface IDataUsageSummaryExt {
+    method public abstract void create(java.util.Map<java.lang.String, java.lang.Boolean>);
+    method public abstract java.lang.String customizeBackgroundString(java.lang.String, java.lang.String);
+    method public abstract void destroy();
+    method public abstract boolean needToShowDialog();
+    method public abstract void setCurrentTab(int);
+    method public abstract boolean setDataEnableClickListener(android.app.Activity, android.view.View, android.widget.Switch, android.view.View.OnClickListener);
+  }
+
+  public abstract interface IDevExt {
+    method public abstract void customUSBPreference(android.preference.Preference);
+  }
+
+  public abstract interface IDeviceInfoSettingsExt {
+    method public abstract void addEpushPreference(android.preference.PreferenceScreen);
+    method public abstract void updateSummary(android.preference.Preference, java.lang.String, java.lang.String);
+  }
+
+  public abstract interface IMdmPermissionControlExt {
+    method public abstract void addMdmPermCtrlPrf(android.preference.PreferenceGroup);
+  }
+
+  public abstract interface IPermissionControlExt {
+    method public abstract void addAutoBootPrf(android.preference.PreferenceGroup);
+    method public abstract void addPermSwitchPrf(android.preference.PreferenceGroup);
+    method public abstract void enablerPause();
+    method public abstract void enablerResume();
+    method public abstract java.util.List<android.provider.SearchIndexableData> getRawDataToIndex(boolean);
+  }
+
+  public abstract interface IPplSettingsEntryExt {
+    method public abstract void addPplPrf(android.preference.PreferenceGroup);
+    method public abstract void enablerPause();
+    method public abstract void enablerResume();
+  }
+
+  public abstract interface IRCSSettings {
+    method public abstract void addRCSPreference(android.app.Activity, android.preference.PreferenceScreen);
+    method public abstract int getDefaultSmsClickContentExt(java.util.List<android.telephony.SubscriptionInfo>, int, int);
+    method public abstract boolean isNeedAskFirstItemForSms();
+    method public abstract void setDefaultSmsApplication(java.lang.String, android.content.Context);
+  }
+
+  public abstract interface IRcseOnlyApnExt {
+    method public abstract boolean isRcseOnlyApnEnabled(java.lang.String);
+    method public abstract void onCreate(com.mediatek.settings.ext.IRcseOnlyApnExt.OnRcseOnlyApnStateChangedListener, int);
+    method public abstract void onDestory();
+  }
+
+  public abstract interface ISettingsMiscExt {
+    method public abstract void addCustomizedItem(java.lang.Object, java.lang.Boolean);
+    method public abstract void customizeDashboardTile(java.lang.Object, android.widget.ImageView);
+    method public abstract java.lang.String customizeSimDisplayString(java.lang.String, int);
+    method public abstract void initCustomizedLocationSettings(android.preference.PreferenceScreen, int);
+    method public abstract void setFactoryResetTitle(java.lang.Object);
+    method public abstract void setTimeoutPrefTitle(android.preference.Preference);
+    method public abstract void updateCustomizedLocationSettings();
+  }
+
+  public abstract interface ISimManagementExt {
+    method public abstract void customizeListArray(java.util.List<java.lang.String>);
+    method public abstract void customizeSubscriptionInfoArray(java.util.List<android.telephony.SubscriptionInfo>);
+    method public abstract int customizeValue(int);
+    method public abstract int getDefaultSmsSubIdForAuto();
+    method public abstract void hideSimEditorView(android.view.View, android.content.Context);
+    method public abstract void initAutoItemForSms(java.util.ArrayList<java.lang.String>, java.util.ArrayList<android.telephony.SubscriptionInfo>);
+    method public abstract boolean isSimDialogNeeded();
+    method public abstract void onPause();
+    method public abstract void onResume(android.content.Context);
+    method public abstract void setDataState(int);
+    method public abstract void setDataStateEnable(int);
+    method public abstract android.telecom.PhoneAccountHandle setDefaultCallValue(android.telecom.PhoneAccountHandle);
+    method public abstract android.telephony.SubscriptionInfo setDefaultSubId(android.content.Context, android.telephony.SubscriptionInfo, java.lang.String);
+    method public abstract void setRadioPowerState(int, boolean);
+    method public abstract void setSmsAutoItemIcon(android.widget.ImageView, int, int);
+    method public abstract void showChangeDataConnDialog(android.preference.PreferenceFragment, boolean);
+    method public abstract boolean switchDefaultDataSub(android.content.Context, int);
+    method public abstract void updateDefaultSmsSummary(android.preference.Preference);
+    method public abstract boolean useCtTestcard();
+  }
+
+  public abstract interface ISimRoamingExt {
+    method public abstract void showPinToast(boolean);
+  }
+
+  public abstract interface IStatusBarPlmnDisplayExt {
+    method public abstract void createCheckBox(android.preference.PreferenceScreen, int);
+  }
+
+  public abstract interface IStatusExt {
+    method public abstract void customizeImei(java.lang.String, java.lang.String, android.preference.PreferenceScreen, int);
+  }
+
+  public abstract interface IWfcSettingsExt {
+    method public abstract void addOtherCustomPreference();
+    method public abstract java.lang.String getWfcSummary(android.content.Context, int);
+    method public abstract void initPlugin(android.preference.PreferenceFragment);
+    method public abstract void onWfcSettingsEvent(int);
+    method public abstract void onWirelessSettingsEvent(int);
+    method public abstract void updateWfcModePreference(android.preference.PreferenceScreen, android.preference.ListPreference, boolean, int);
+  }
+
+  public abstract interface IWifiApDialogExt {
+    method public abstract void setAdapter(android.content.Context, android.widget.Spinner, int);
+  }
+
+  public abstract interface IWifiExt {
+    method public abstract void addDisconnectButton(android.app.AlertDialog, boolean, android.net.NetworkInfo.DetailedState, android.net.wifi.WifiConfiguration);
+    method public abstract int getEapMethodbySpinnerPos(int, java.lang.String, int);
+    method public abstract int getPosByEapMethod(int, java.lang.String, int);
+    method public abstract int getPriority(int);
+    method public abstract void hideWifiConfigInfo(com.mediatek.settings.ext.IWifiExt.Builder, android.content.Context);
+    method public abstract void initConnectView(android.app.Activity, android.preference.PreferenceScreen);
+    method public abstract void initNetworkInfoView(android.preference.PreferenceScreen);
+    method public abstract void initPreference(android.content.ContentResolver);
+    method public abstract void refreshNetworkInfoView();
+    method public abstract void setAPNetworkId(android.net.wifi.WifiConfiguration);
+    method public abstract void setAPPriority(int);
+    method public abstract void setEapMethodArray(android.widget.ArrayAdapter, java.lang.String, int);
+    method public abstract void setPriorityView(android.widget.LinearLayout, android.net.wifi.WifiConfiguration, boolean);
+    method public abstract void setProxyText(android.widget.TextView);
+    method public abstract void setSecurityText(android.widget.TextView);
+    method public abstract void setSleepPolicyPreference(android.preference.ListPreference, java.lang.String[], java.lang.String[]);
+  }
+
+  public abstract interface IWifiSettingsExt {
+    method public abstract void addCategories(android.preference.PreferenceScreen);
+    method public abstract void addPreference(android.preference.PreferenceScreen, android.preference.Preference, boolean);
+    method public abstract void disconnect(android.net.wifi.WifiConfiguration);
+    method public abstract void emptyCategory(android.preference.PreferenceScreen);
+    method public abstract void emptyScreen(android.preference.PreferenceScreen);
+    method public abstract void recordPriority(int);
+    method public abstract void refreshCategory(android.preference.PreferenceScreen);
+    method public abstract void registerPriorityObserver(android.content.ContentResolver);
+    method public abstract void setLastConnectedConfig(android.net.wifi.WifiConfiguration);
+    method public abstract void setNewPriority(android.net.wifi.WifiConfiguration);
+    method public abstract void unregisterPriorityObserver(android.content.ContentResolver);
+    method public abstract void updateContextMenu(android.view.ContextMenu, int, android.net.NetworkInfo.DetailedState);
+    method public abstract void updatePriority();
+    method public abstract void updatePriorityAfterSubmit(android.net.wifi.WifiConfiguration);
+  }
+
+}
+
+package com.mediatek.settingslib.ext {
+
+  public abstract interface IWifiLibExt {
+    method public abstract void appendApSummary(java.lang.StringBuilder, int, java.lang.String, java.lang.String);
+    method public abstract boolean shouldCheckNetworkCapabilities();
+  }
+
+}
+
+package com.mediatek.soundrecorder.ext {
+
+  public abstract interface IQualityLevel {
+    method public abstract int getDefaultQualityLevel();
+    method public abstract int[][] getQualityLevelParams();
+    method public abstract java.lang.String[] getQualityLevelStrings();
+  }
+
+}
+
+package com.mediatek.systemui.ext {
+
+  public abstract interface IMobileIconExt {
+    method public abstract int customizeMobileNetCondition(int);
+    method public abstract int customizeWifiNetCondition(int);
+  }
+
+  public abstract interface INavigationBarPlugin {
+    method public abstract android.graphics.drawable.Drawable getBackImage(android.graphics.drawable.Drawable);
+    method public abstract android.graphics.drawable.Drawable getBackImeImage(android.graphics.drawable.Drawable);
+    method public abstract android.graphics.drawable.Drawable getBackLandImage(android.graphics.drawable.Drawable);
+    method public abstract android.graphics.drawable.Drawable getHomeImage(android.graphics.drawable.Drawable);
+    method public abstract android.graphics.drawable.Drawable getRecentImage(android.graphics.drawable.Drawable);
+    method public abstract android.graphics.drawable.Drawable getRecentLandImage(android.graphics.drawable.Drawable);
+  }
+
+  public abstract interface IQuickSettingsPlugin {
+    method public abstract java.lang.Object customizeAddQSTile(java.lang.Object);
+    method public abstract java.lang.String customizeApnSettingsTile(boolean, IconIdWrapper, java.lang.String);
+    method public abstract java.lang.String customizeDataConnectionTile(int, IconIdWrapper, java.lang.String);
+    method public abstract boolean customizeDisplayDataUsage(boolean);
+    method public abstract java.lang.String customizeDualSimSettingsTile(boolean, IconIdWrapper, java.lang.String);
+    method public abstract java.lang.String customizeQuickSettingsTileOrder(java.lang.String);
+    method public abstract void customizeSimDataConnectionTile(int, IconIdWrapper);
+  }
+
+  public abstract interface IStatusBarPlmnPlugin {
+    method public abstract void addPlmn(android.widget.LinearLayout, android.content.Context);
+    method public abstract android.view.View customizeCarrierLabel(android.view.ViewGroup, android.view.View);
+    method public abstract void setPlmnVisibility(int);
+    method public abstract boolean supportCustomizeCarrierLabel();
+    method public abstract void updateCarrierLabel(int, boolean, boolean, java.lang.String[]);
+    method public abstract void updateCarrierLabelVisibility(boolean, boolean);
+  }
+
+}
+
+package com.mediatek.telecom.ext {
+
+  public abstract interface ICallMgrExt {
+    method public abstract int buildCallCapabilities(boolean);
+  }
+
+  public abstract interface IPhoneAccountExt {
+    method public abstract boolean shouldRemoveDefaultPhoneAccount(java.util.List<android.telecom.PhoneAccountHandle>);
+  }
+
+}
+

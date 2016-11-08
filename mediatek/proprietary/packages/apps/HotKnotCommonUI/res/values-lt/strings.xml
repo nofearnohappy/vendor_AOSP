@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot bendrinimas</string>
+    <string name="hint1">Įsitikinkite, ar imtuvo prietaise yra įjungtas HotKnot, ir neuždarykite jo ekrano.</string>
+    <string name="hint2">Padėkite savo prietaisą ant imtuvo prietaiso ekranas į ekraną.</string>
+    <string name="hint3">Išgirdę balso komandą, patraukite savo prietaisą nuo imtuvo prietaiso.</string>
+    <string name="use_hotknot">Šiai programėliai reikia, kad jūsų prietaise būtų naudojama Hot Knot technologija.</string>
+    <string name="allow">"Leisti"</string>
+    <string name="deny">"Atmesti"</string>
+    <string name="fail_to_share">Bendrinti nepavyko</string>
+    <string name="fail_to_share_conn_error">Bendrinti nepavyko dėl ryšio problemos.</string>
+    <string name="fail_to_share_unknown_error">Bendrinti nepavyko dėl nežinomos klaidos.</string>
+    <string name="try_again">"Bandyti dar kartą"</string>
+    <string name="usb_warning">Vykstant USB krovimui, funkcija „HotKnot“ gali tinkamai neveikti.</string>
+</resources>

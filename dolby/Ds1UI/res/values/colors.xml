@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="green">#0fea84</color>
+    <color name="ltblue">#13aadb</color>
+    <color name="dkblue">#0b182e</color>
+    <color name="dkblue2">#060c17</color>
+    <color name="blue">#16305c</color>
+    <color name="border">#093853</color>
+    <color name="ltborder">#1372a9</color>
+    <color name="white">#ffffff</color>
+    <color name="halfgray">#808080</color>
+    <color name="disabledblue">#41729b</color>
+    <color name="disabledblue_selected">#a1c2eb</color>
+    <color name="disabledlabels">#386386</color>
+
+</resources>

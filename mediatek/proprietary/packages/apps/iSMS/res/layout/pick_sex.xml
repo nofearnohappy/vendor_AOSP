@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="274dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/account_edit_dialog">
+    
+	<LinearLayout 
+	    android:id="@+id/ll_men"
+	    android:layout_width="fill_parent"
+	    android:layout_height="48dp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical">
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/account_sex_male"
+	        android:textSize="16sp"
+	        android:layout_marginLeft="12dp"
+	        android:textColor="#333333"/>
+	    <View 
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"/>
+	    <CheckBox 
+	        android:id="@+id/check_male"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="12dp"
+	        android:button="@drawable/button_checkbox"/>
+	    
+	</LinearLayout>
+	<View android:layout_height="0.3dp"
+	    android:layout_width="fill_parent"
+	    android:background="#cccccc"/>
+	<LinearLayout 
+	    android:id="@+id/ll_women"
+	    android:layout_width="fill_parent"
+	    android:layout_height="48dp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical">
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/account_sex_female"
+	        android:textSize="16sp"
+	        android:layout_marginLeft="12dp"
+	        android:textColor="#333333"/>
+	    <View 
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"/>
+	    <CheckBox 
+	        android:id="@+id/check_female"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="12dp"
+	        android:button="@drawable/button_checkbox"/>
+	    
+	</LinearLayout>
+	
+</LinearLayout>

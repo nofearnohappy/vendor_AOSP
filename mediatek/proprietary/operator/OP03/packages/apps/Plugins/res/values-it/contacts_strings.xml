@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done" msgid="796017761764190697">"Salva"</string>  
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Elimina"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Seleziona tutto"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Deseleziona tutto"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Nuovo"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> selezionato</string>
+    <string name="multichoice_no_select_alert">"Nessuna voce selezionata."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Etichette USIM per numeri supplementari</string>  
+    <string name="aas_phone_type_none">NESSUNO</string>  
+    <string name="aas_new_dialog_title">Aggiungi nuova etichetta</string>  
+    <string name="ass_rename_dialog_title">Modifica etichetta</string>  
+    <string name="aas_delele_dialog_message">"L'eliminazione di etichette influisce sui numeri supplementari collegati alle etichette. Continuare?"</string>  
+    <string name="aas_name_invalid">"Nome dell'etichetta non valido. Immetterne un altro."</string>  
+    <string name="aas_name_exist">Etichetta già presente.</string>  
+    <string name="aas_usim_full">Nessuno spazio per nuove etichette.</string>  
+    <string name="ass_edit_assert_message">"La modifica dell'etichetta influisce su tutti i numeri supplementari collegati all'etichetta. Continuare?"</string>  
+    <string name="aas_new_fail">Impossibile creare nuova etichetta.</string>  
+    <string name="aas_edit_fail">Impossibile assegnare nuovo nome a 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Eliminazione di 
+        <xliff:g id="aas">%s</xliff:g> non riuscita.
+    </string>  
+    <string name="aas_phone_primary">Numero principale</string>  
+    <string name="aas_phone_additional">Numero supplementare</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"Il nickname è troppo lungo."</string>
+</resources>

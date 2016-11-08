@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+Test application of DeviceRegister.
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+MTK_AUTO_TEST
+
+HOW TO USE IT?
+==============
+Install the APK to phone and launch Dev Tools from the main menu.
+Click Instrumentation item and choose "com.mediatek.deviceregister.test.TestRunner".

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="perm_status_entry">
+        <item>總是允許</item>
+        <item>總是詢問</item>
+        <item>總是拒絕</item>
+    </string-array>
+    <string-array name="permission_label">
+        <item>撥打電話</item>
+        <item>發起多方通話</item>
+	    <item>發送簡訊</item>
+	    <item>發送﻿多媒體訊息</item>
+            <item>發送郵件</item>
+	    <item>啟動錄音</item>
+	    <item>讀取簡訊紀錄</item>
+	    <item>寫/刪簡訊紀錄</item>
+	    <item>讀取多媒體訊息紀錄</item>
+	    <item>寫/刪多媒體訊息紀錄</item>
+	    <item>讀取聯絡人</item>
+	    <item>寫/刪聯絡人</item>
+	    <item>讀取通話紀錄</item>
+	    <item>寫/刪通話紀錄</item>
+	    <item>獲取當前位置</item>
+	    <item>使用﻿攝像頭</item>
+	    <item>開啟數據連線</item>
+	    <item>開啟 WLAN</item>
+	    <item>開啟藍牙</item>
+	    <item>啟動HotKnot</item>
+	    <item>設置融合通信個人信息</item>
+	    <item>設置融合通信群聊管理員</item>
+	    <item>修改融合通信群聊主題</item>
+	    <item>接受融合通信群聊邀請</item>
+	    <item>移除融合通信群聊成員</item>
+	    <item>修改融合通信個人暱稱</item>
+	    <item>退出融合通信群聊</item>
+	    <item>解散融合通信群聊</item>
+	    <item>舉報融合通信公眾賬號</item>
+	    <item>關注融合通信公眾賬號</item>
+	    <item>取消關注融合通信公眾賬號</item>
+    </string-array>
+    <string-array name = "confirm_msg_body">
+        <item>撥打電話</item>
+        <item>發起多方通話</item>
+        <item>發送簡訊</item>
+	<item>發送﻿多媒體訊息</item>
+        <item>發送郵件</item>
+        <item>啟動錄音</item>
+        <item>讀取簡訊紀錄</item>
+        <item>寫/刪簡訊紀錄</item>
+        <item>讀取多媒體訊息紀錄</item>
+        <item>寫/刪多媒體訊息紀錄</item>
+	<item>讀取聯絡人</item>
+	<item>寫/刪聯絡人</item>
+	<item>讀取通話紀錄</item>
+	<item>寫/刪通話紀錄</item>
+        <item>獲取當前位置</item>
+        <item>﻿使用攝像頭</item>
+        <item>開啟數據連線</item>
+        <item>開啟 WLAN</item>
+        <item>開啟藍牙</item>
+        <item>啟動HotKnot</item>
+        <item>設置融合通信個人信息</item>
+        <item>設置融合通信群聊管理員</item>
+        <item>修改融合通信群聊主題</item>
+        <item>接受融合通信群聊邀請</item>
+        <item>移除融合通信群聊成員</item>
+        <item>修改融合通信個人暱稱</item>
+        <item>退出融合通信群聊</item>
+        <item>解散融合通信群聊</item>
+        <item>舉報融合通信公眾賬號</item>
+        <item>關注融合通信公眾賬號</item>
+        <item>取消關注融合通信公眾賬號</item>
+    </string-array>
+</resources>

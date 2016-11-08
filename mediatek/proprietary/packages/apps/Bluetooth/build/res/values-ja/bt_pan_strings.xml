@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"グループがアドホックネットワーク認証をリクエストできるようにします"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"ネットワークアクセスポイントの認証リクエストを許可します"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"%1$sから、グループのアドホックネットワーク認証リクエストを許可しますか？"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"%1$sから、ネットワークアクセスポイントの認証リクエストを許可しますか？"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">%1$sとグループアドホックネットワークの接続を外しました。</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">%1$sとネットワークアクセスポイントの接続を外しました。</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"%1$sとのグループアドホックネットワーク接続を外しますか？"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"%1$sとのネットワークアクセスポイント接続を外しますか？"</string>
+	<string name="bluetooth_pan_yes">"許可する"</string>
+	<string name="bluetooth_pan_no">データ転送レートは低下します。</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"Bluetoothグループアドホックネットワーク認証リクエスト"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"Bluetoothグループアドホックネットワーク認証リクエスト"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"選択して、%1$sから、グループのアドホックネットワーク認証リクエストを許可できます"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"Bluetoothネットワークアクセスポイント認証リクエスト"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"Bluetoothネットワークアクセスポイント認証リクエスト"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"選択して、%1$sから、ネットワークアクセスポイントの認証リクエストを許可できます"</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"Bluetoothグループアドホックネットワークを接続しました"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"Bluetoothグループアドホックネットワークを接続しました"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"選択して、%1$sから、グループのアドホックネットワークの接続を外せます"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"Bluetoothネットワークアクセスポイントを接続しました"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"Bluetoothネットワークアクセスポイントを接続しました"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"選択して、%1$sから、ネットワークアクセスポイントの接続を外せます。"</string>
+	<string name="bluetooth_pan_GN_connect_ok">%1$sとグループアドホックネットワークを接続しました。</string>
+    <string name="bluetooth_pan_GN_connect_fail">%1$sとグループアドホックネットワークを接続できません。</string>
+    <string name="bluetooth_pan_NAP_connect_ok">%1$sとネットワークアクセスポイントを接続しました。</string>
+    <string name="bluetooth_pan_NAP_connect_fail">%1$sとネットワークアクセスポイントを接続できません。</string>
+    <string name="bluetooth_pan_NAP_unavailable">%1$sのネットワークアクセスポイントは利用できません</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">%1$sとグループアドホックネットワークの接続を外しました。</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">%1$sとグループアドホックネットワークの接続を外せません。</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">%1$sとネットワークアクセスポイントの接続を外しました。</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">%1$sとネットワークアクセスポイントの接続を外せません。</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">%1$sとグループアドホックネットワークの接続を外しました。</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">%1$sとネットワークアクセスポイントの接続を外しました。</string>
+    <string name="bluetooth_pan_server_settings">Bluetooth PANサービスを選択</string>
+    <string name="bluetooth_pan_nap_enable_title">ネットワークアクセスポイント</string>
+    <string name="bluetooth_pan_nap_enable_summary">選択してNAPサービスをON／OFFできます</string>
+    <string name="bluetooth_pan_gn_enable_title">グループのアドホックネットワーク</string>
+    <string name="bluetooth_pan_gn_enable_summary">選択してGNサービスをON／OFFできます</string>
+</resources>

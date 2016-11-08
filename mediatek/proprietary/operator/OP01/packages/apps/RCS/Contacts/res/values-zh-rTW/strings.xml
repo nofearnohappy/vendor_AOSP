@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">新聯絡</string>
+    
+    <!-- group string start -->
+    <string name="no_group">沒有群組。</string>
+    <string name="no_group_chat">没有群聊。</string>
+    <string name="group_chat_title">選擇目標群聊</string>  
+    <string name="contact_list_loading">載入中\u2026</string>
+    <string name="group_list_title">"選擇目標群組"</string> 
+    <string name="account_phone_only" product="default">"電話聯絡人"</string>
+    <string name="please_wait">"請稍候..."</string>
+    <string name="group_chat">群聊</string>
+    <string name="group_label">"群組"</string>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> 人"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> 人"</item>
+    </plurals>
+    <!-- group string end -->
+
+    <!-- vcard string start -->
+    <string name="phone_number">"電話號碼"</string>
+    <string name="phone_email">"電子郵件"</string>
+    <string name="card_preview">"預覽"</string>
+    <string name="fail_reason_not_supported">"不支援此格式。"</string>
+    <string name="fail_reason_io_error">"I/O 錯誤"</string>
+    <string name="fail_reason_no_vcard_file">"找不到 vCard 檔案。"</string>
+    <string name="contact_saved">"聯絡人已儲存。"</string>
+    <string name="contact_saved_error">"無法儲存聯絡人。"</string>
+    <string name="name_tag">"姓名 "</string>
+    <string name="company_tag">"公司 "</string>
+    <string name="title_tag">"職稱 "</string>
+    <!-- vcard string end -->
+    
+    <!-- rich screen string start -->
+    <string name="rich_screen">"增強屏顯"</string>
+    <string name="activity_no_found">"找不到可以處理這個動作的應用程式。"</string>
+    <string name="group_member_no_number">"所有聯絡人資訊中都沒有電話號碼。"</string>
+    <string name="contact_no_number">"此聯絡人沒有電話號碼。"</string>        
+    <!-- rich screen string end -->
+
+    <string name="rcs_entry_card_title">融合通信</string>
+
+    <!-- qrcode string start -->
+    <string name="qrcode_card">二維碼掃描器</string>
+    <string name="menu_gallery">相簿</string>
+    <string name="msg_camera_framework_bug">很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。</string>
+    <string name="msg_default_status">將二維碼置於鏡頭範圍內以進行掃描。</string>
+    <string name="result_address_book">找到聯絡人資訊</string>
+    <string name="result_no_contact">"沒有發現聯系人，請點擊屏幕繼續掃描。"</string>
+    <!-- qrcode string end -->
+
+    <!-- profile app string start -->
+    <string name="photo_action_choose_photo">選擇相片</string>
+    <string name="photo_action_take_photo">拍摄相片</string>
+    <string name="photo_action_delete">移除相片</string>
+    <string name="photo_action_choose_new_photo">選取新相片</string>
+    <string name="photo_action_take_new_photo">拍攝新相片</string>
+
+    <string name="profile_info_phone_number">電話號碼</string>
+    <string name="profile_info_name">姓名</string>
+    <string name="profile_info_family_name">姓氏</string>
+    <string name="profile_info_given_name">名字</string>
+    <string name="profile_info_portrait">头像</string>
+    <string name="profile_info_address">地址</string>
+    <string name="profile_info_email">電郵地址</string>
+    <string name="profile_info_birthday">生日</string>
+    <string name="profile_info_company">公司名稱</string>
+    <string name="profile_info_company_tel">公司電話</string>
+    <string name="profile_info_title">職稱</string>
+    <string name="profile_info_company_addr">公司地址</string>
+    <string name="profile_info_company_fax">公司傳真</string>
+    <string name="profile_info_home_number">住家電話</string>
+    <string name="profile_info_work_number">公司電話</string>
+    <string name="profile_info_fixed_number">固定電話</string>
+    <string name="profile_info_other_number">其他電話</string>
+
+    <string name="title_activity_profile_detail">個人資料</string>
+    <string name="title_activity_profile_center">個人中心</string>
+    <string name="subtitle_phone_number">"手機號碼："</string>
+
+    <string name="edit">"編輯"</string>
+    <string name="plugin_center">應用中心</string>
+    <string name="circles">圈子</string>
+    <string name="nethall">營業廳</string>
+    <string name="please_download_it_android_market">請到軟件商店自行下載!</string>
+    <string name="please_download_it_plugin_center">"請到\"通訊錄->我->應用中心\"下載!"</string>
+    <string name="other_number_add_new">新增電話號碼</string>    
+    
+    <string name="share_profile">分享</string>
+    <string name="share_via">個人資料分享</string>
+    <string name="share_error">個人資料無法分享。</string>    
+    <string name="profile_get_sucess">成功載入個人資料!</string>
+    <string name="profile_get_portrait_sucess">成功載入個人頭像!</string>
+    <string name="profile_set_sucess">成功上传個人資料!</string>
+    <string name="profile_set_portrait_sucess">成功上传個人頭像!</string>
+    <string name="profile_get_fail">載入個人資料失敗!</string>
+    <string name="profile_get_portrait_fail">載入個人頭像失敗!</string>
+    <string name="profile_set_fail">上传個人資料失敗!</string>
+    <string name="profile_set_portrait_fail">上传個人頭像失敗!</string>
+    <string name="profile_loading">載入中…</string>   
+    <!-- profile app string end -->
+    
+    <!-- restore contact string start -->
+    <string name="restore_notify_title">恢復</string>
+    <string name="restore_notify_msg">從RCS-e伺服器恢復聯絡人？</string>
+    <!-- restore contact string end -->
+    
+    <!-- network contact backup restore string start -->
+    <!-- common -->
+    <string name="backup_restore_lable">備份/恢復聯絡人</string>
+    <string name="backup_restore">備份/恢復</string>
+    <string name="backup">備份</string>
+    <string name="restore">恢復</string>
+    <string name="restore_success">聯絡人恢復成功！</string>
+    <string name="restore_success_donoting">雲端聯系人為空,不需要恢复。</string>
+    <string name="restore_fail">聯絡人恢復失败，請重新恢复。</string>
+    <string name="restoring">正在恢复，請稍候...</string>
+    <string name="backup_success">聯絡人備份成功！</string>
+    <string name="backup_fail">聯絡人備份失敗，請重新備份。</string>
+    <string name="backuping">正在備份，請稍候...</string>
+    <string name="no_contacts">手機聯系人為空，不需要備份。</string>
+    <string name="confirm_backup">雲端聯系人將被本地手機聯系人覆蓋。是否繼續？</string>
+    <string name="confirm_restore">本地手機聯系人將被雲端聯系人覆蓋。是否繼續？</string>
+    <string name="rcs_unavailable">無法連接到融合通信平台，請核實</string>
+        
+    <!-- setting -->
+    <string name="setting_title">設置</string>
+    <string name="wlan_switch_title">僅在WIFI環境下使用</string>
+    <string name="wlan_switch_note">開啟後，通訊錄備份和恢復功能僅在WIFI網路環境下使用，能夠節省數據流量</string>
+    <string name="backup_switch_title">自動備份</string>
+    <string name="backup_time_title">自動備份時間</string>
+    <string name="dialog_backup_time">自動備份時間選擇</string>
+    <string name="backup_type_title">自動備份頻率</string>
+    <string name="dialog_backup_type">自動備份周期選擇</string>
+    <string-array name="backup_type_list_entries">
+        <item>即時備份</item>
+        <item>每日備份</item>
+        <item>每周備份</item>
+        <item>每月備份</item>
+    </string-array>
+    <string-array name="backup_type_list_entries_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- first boot activity -->
+
+    <!-- home activity -->
+    <string name="open_wifi_tips">WLAN沒有打開．</string>
+    <string name="set_wlan">設置WLAN</string>
+    <string name="open_wifi_propose">Wifi不可用，如繼續備份/恢復可能花費大量移動數據，是否繼續？</string>
+    <string name="btcontinue">繼續</string>
+
+    <!-- auto backup notification -->
+    <string name="auto_backup_success">聯絡人自動備份成功！</string>
+    <string name="auto_backup_fail">聯絡人自動備份失敗，請重新備份。</string>
+    <string name="auto_backuping">正在自動備份，請稍候...</string>    
+    <!-- network contact backup restore string end -->
+
+    <string name="title_public_account">公共賬號</string>
+</resources>

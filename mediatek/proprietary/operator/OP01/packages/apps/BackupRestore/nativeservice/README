@@ -1,0 +1,14 @@
+WHAT IT DOES?
+=============
+It is a daemon service to support the major App, it is mainly to get the permission visit other App's private data for user Backup.
+
+HOW IT WAS BUILT?
+==================
+It is depended on BackupAndRestore.apk
+When OP01_COMPATIBLE is set yes, and OPTR_SPEC_SEG_DEF is set OP01_SPEC0200_SEGC,
+it will be auto build out and packaged into image;
+
+HOW TO USE IT?
+==============
+In Backup App setting, set "App+Data", Select one App which has private data(Ex:with one Game, play some steps), backup to SD card, uninstall the App, then restore the corresponding data package, check whether the App and its private data recovered;
+

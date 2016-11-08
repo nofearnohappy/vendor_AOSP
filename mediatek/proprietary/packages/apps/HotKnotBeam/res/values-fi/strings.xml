@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Alkaa vastaanottaa…</string>
+    <string name="notification_group_title">Vastaanottaa <xliff:g id="number">%d</xliff:g> tiedostoa…</string> 
+    <string name="notification_download_done">Kosketa nähdäksesi tiedot</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> tiedostoa vastaanotettu</string>
+    <string name="notification_received">Vastaanotto onnistui</string> 
+    <string name="notification_download_failure">Vastaanotto epäoonistui, syynä <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Vastaanotto peruttu</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> tiedostoa epäonnistui</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> tiedostoa epäonnistui, <xliff:g id="number">%d</xliff:g> tiedostoa vastaanotettu</string>
+    <string name="download_no_file">Tiedostoa ei ole</string>
+    <string name="notification_sending">Alkaa lähettää…</string>
+    <string name="notification_group_upload_title">Lähettää <xliff:g id="number">%d</xliff:g> tiedostoa...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> tiedostoa lähetetty</string>
+    <string name="notification_sent">Lähetys onnistui</string>
+    <string name="notification_upload_failed">Lähetys epäonnistui, syynä <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Lähetys peruttu</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> tiedostoa epäonnistui</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> tiedostoa epäonnistui, <xliff:g id="number">%d</xliff:g> tiedostoa lähetetty</string>
+    <string name="low_storage">tallennustila vähissä</string>
+    <string name="connect_failure">"Yhteysongelma"</string>
+    <string name="unknown_error">Tuntematon virhe</string>
+    <string name="share_label">HotKnot-jakaminen</string>
+    <string name="rx_ui_image_status">Vastaanotetaan kuvaa kohteesta <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Vastaanotetaan <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> kuvaa kohteesta <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Vastaanotetaan videota kohteesta <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Vastaanotetaan <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> videota kohteesta <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Vastaanotetaan tiedostoa kohteesta <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Vastaanotetaan <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> tiedostoa kohteesta <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Vastaanotetaan musiikkia kohteesta <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Vastaanotetaan <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> musiikkitiedostoa kohteesta <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Vastaanotto kesken</string>
+</resources>

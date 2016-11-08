@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<VoiceWakeupInfos>
+	<VoiceWakeupInfo PackageName="com.google.android.googlequicksearchbox"
+		ClassName="com.google.android.googlequicksearchbox.VoiceSearchActivity"
+		ID="0" KeyWord="OK Google Now" />
+</VoiceWakeupInfos>

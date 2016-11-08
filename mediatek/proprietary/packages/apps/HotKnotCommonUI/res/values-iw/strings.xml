@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">שיתוף HotKnot</string>
+    <string name="hint1">ודא ש-HotKnot הופעל במכשיר המקבל, והקפד שהמסך שלו לא ננעל.</string>
+    <string name="hint2">הנח את המכשיר שלך על המסך של המכשיר המקבל - מסך על מסך.</string>
+    <string name="hint3">הרחק את המכשיר שלך מהמכשיר המקבל לאחר שיישמע צליל אישור.</string>
+    <string name="use_hotknot">על אפליקציה זו להשתמש בטכנולוגיית HotKnot במכשיר שלך.</string>
+    <string name="allow">"אפשר"</string>
+    <string name="deny">"דחה"</string>
+    <string name="fail_to_share">השיתוף נכשל</string>
+    <string name="fail_to_share_conn_error">השיתוף נכשל בשל בעיה בחיבור.</string>
+    <string name="fail_to_share_unknown_error">השיתוף נכשל בשל שגיאה בלתי מוכרת.</string>
+    <string name="try_again">"נסה שוב"</string>
+    <string name="usb_warning">ייתכן שהפונקציה HotKnot תושפע במהלך טעינה ב-USB.</string>
+</resources>

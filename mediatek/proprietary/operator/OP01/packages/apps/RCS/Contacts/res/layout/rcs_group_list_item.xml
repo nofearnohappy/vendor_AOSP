@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="?attr/list_item_padding_left"
+    android:paddingStart="?attr/list_item_padding_left"
+    android:minHeight="@dimen/group_min_line_item_height" >
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginRight="?attr/list_item_padding_right"
+        android:layout_marginEnd="?attr/list_item_padding_right"
+        android:background="@color/secondary_header_separator_color" />
+
+    <include
+        android:id="@+id/group_list_header"
+        layout="@layout/rcs_group_account_header"
+        android:visibility="gone"/>
+
+    <!-- android:background="@drawable/group_list_item_background" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingStart="8dip"
+        android:paddingBottom="8dip"
+        android:orientation="vertical"
+        android:duplicateParentState="true">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="?android:attr/textColorPrimary"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorSecondary"
+			android:ellipsize="end"
+            android:singleLine="true" />
+    </LinearLayout>
+    
+</LinearLayout>
+

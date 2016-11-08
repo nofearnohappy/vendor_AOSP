@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"Bluetooth арқылы сурет жіберу"</string>
+	<string name="bt_bipi_push_confirmation">"Суретті басып растау"</string>
+	<string name="bt_bipi_unsupported_format">"Қабылдаушы кодтауды қолдамайды.\nЖіберу әрекетін жалғасытру керек пе?"</string>
+	<string name="bt_bipi_push_confirmation_ok">SMS қызмет көрсету орталығы орнатылған</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Жүктеуді болдырмау қажет пе?\nЖүктеуді жалғастыру үшін Жалғастыру түймешігін басыңыз\n Жүктеуді тоқтату және жүктелген файлды жою үшін Жою түймешігін басыңыз"</string>
+	<string name="bt_bip_transmitting_dialog_hide">Жергілікті видеоны жасыру</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Жүктеуді болдырмау қажет пе?\nЖүктеуді жалғастыру үшін Жалғастыру түймешігін басыңыз\n Жүктеуді тоқтату және жүктелген файлды жою үшін Жою түймешігін басыңыз"</string>
+	<string name="bt_bip_transmitting_dialog_ok">SMS қызмет көрсету орталығы орнатылған</string>
+	<string name="bt_bip_transmitting_dialog_yes">Иә</string>
+	<string name="bt_bip_transmitting_dialog_no">Файлды басып шығару үшін қолжетімді қолданба жоқ.</string>
+	<string name="bt_bip_transmitting">"Сурет жіберілуде, %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"Сурет %1$s жіберілді"</string>
+	<string name="bt_bip_transmitting_fail">"Сурет %1$s жіберілмеді"</string>
+	<string name="bt_bip_cancel_pending_job">"Тоқтатылған жіберу әрекетін болдырмайсыз ба?"</string>
+	<string name="bt_bip_pending_job">"Жіберу %1$s (тоқтатылды)"</string>
+	<string name="bt_bipr_incoming_request">"Кіріс суретті сұрау"</string>
+	<string name="bt_bipr_incoming_request_description">"%1$s қабылдау үшін таңдаңыз"</string>
+	<string name="bt_bipr_accept_title">"Кіріс суретті сұрау"</string>
+	<string name="bt_bipr_accept_content">"%3$s" жіберушіден "%1$s (%2$sKB)" қабылдау керек пе?</string>
+	<string name="bt_bipr_accept_always">"Әрқашан қабылдау керек пе?"</string>
+	<string name="bt_bipr_accept_yes">Иә</string>
+	<string name="bt_bipr_accept_no">Файлды басып шығару үшін қолжетімді қолданба жоқ.</string>
+	<string name="bt_bip_receiving">"Суретті қабылдау, %1$s"</string>
+	<string name="bt_bip_receiving_successful">"%1$s суреті қабылданды.\nОсы суретті көресіз бе?"</string>
+	<string name="bt_bip_receiving_fail">"%1$s суреті қабылданбады"</string>
+	<string name="bt_bip_toast_connect_fail">"Деректер байланысы орындалмады немесе ағымдағы желі бос емес."</string>
+	<string name="bt_bip_toast_storage_unmounted">FTP клиентін белсендіру алдында, SD картасының дайын екендігін тексеріңіз. </string>
+	<string name="bt_bip_toast_sending_object">"Сурет жіберілуде, %1$s"</string>
+	<string name="bt_bip_auth_password">Құпия сөз:\u0020</string>
+	<string name="bt_bip_auth_userid">Сервер идентификаторы:\u0020</string>
+	<string name="bt_bip_auth_ok">SMS қызмет көрсету орталығы орнатылған</string>
+	<string name="bt_bip_auth_cancel">"Жүктеуді болдырмау қажет пе?\nЖүктеуді жалғастыру үшін Жалғастыру түймешігін басыңыз\n Жүктеуді тоқтату және жүктелген файлды жою үшін Жою түймешігін басыңыз"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothLe</string>
+    <string name="bg_service_name">អង្គ​គ្រប់គ្រង BLE</string>
+    <string name="bg_service_active">សេវាកម្ម អង្គ​គ្រប់គ្រង BLE កំពុង​ដំណើរការ</string>
+</resources>

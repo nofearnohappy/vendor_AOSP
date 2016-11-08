@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="HexSID">false</entry>
+<entry key="WBXML">false</entry>
+<entry key="RestartOnLock">false</entry>
+<entry key="Operator">cmcc</entry>
+<entry key="SequentialNonce">false</entry>
+<entry key="MobileDataOnly">true</entry>
+<entry key="UseSmsReg">true</entry>
+<entry key="CollectSetPermission">true</entry>
+</properties>

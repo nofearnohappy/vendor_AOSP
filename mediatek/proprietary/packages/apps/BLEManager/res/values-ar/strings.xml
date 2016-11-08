@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">انقر لتشغيل البلوتوث</string>
+    <string name="tap_to_add_device">انقر لإضافة جهاز</string>
+    <string name="turning_on_bluetooth">جار تشغيل البلوتوث...</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">فحص الأجهزة</string>
+    <string name="delete_devices">يرجى فصل أحد الأجهزة لتوصيل الجهاز الجديد</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="ok">"موافق"</string>
+    <string name="alert_setting">"تنبيه"</string>
+    <string name="device_manager">مدير الجهاز</string>
+    <string name="out_of_range_alert_text">خارج نطاق التنبيه</string>
+    <string name="in_range_alert_text">داخل نطاق التنبيه</string>
+    <string name="range_alert_text">نطاقي</string>
+    <string name="range_alert_summary">تنبيه الهاتف والجهاز عندما يكون الجهاز داخل النطاق أو خارجه</string>
+    <string name="range_near_text">قريب</string>
+    <string name="range_middle_text">المنتصف</string>
+    <string name="range_far_text">"بعيد"</string>
+    <string name="range_1_distance_text">حوالي 1 متر</string>
+    <string name="range_10_distance_text">1-10 متر</string>
+    <string name="range_20_distance_text">20-10 متر</string>
+    <string name="phone_alert_settings">إعدادات تنبيه الهاتف</string>
+    <string name="ringtone_tye_text">"نغمة الرنين"</string>
+    <string name="volume_text">"مستوى الصوت"</string>
+    <string name="vibration_text">الاهتزاز</string>
+    <string name="vibration_summary_on">تشغيل</string>
+    <string name="vibration_summary_off">"معطّل"</string>
+    <string name="device_name">"اسم الجهاز"</string>
+    <string name="push_notification_text">دفع الإخطارات إلى الجهاز</string>
+    <string name="incoming_call_notification_text">"مكالمة واردة"</string>
+    <string name="missed_call_notificaiotn_text">"مكالمة فائتة"</string>
+    <string name="new_message_notification_text">"رسالة جديدة"</string>
+    <string name="new_email_notification_text">"رسالة إلكترونية جديدة"</string>
+    <string name="disconnection_text">إعدادات قطع الاتصال</string>
+    <string name="disconnection_waring_title">تنبيه قطع الاتصال</string>
+    <string name="disconnection_waring_summary">تنبيه الهاتف والجهاز عندما يكون الجهاز غير متصل</string>
+    <string name="device_name_change_dialog_title">"إعادة تسمية"</string>
+    <string name="disconnect_text">"قطع الاتصال"</string>
+    <string name="delete_text">"حذف"</string>
+    <string name="connect_text">"اتصال"</string>
+    <string name="device_delete_dialog_message">مسح الجهاز؟</string>
+    <string name="device_disconnect_dialog_message">فصل الجهاز؟</string>
+    <string name="find_all_text">البحث عن الكل</string>
+    <string name="default_images">الصور الافتراضية</string>
+    <string name="range_information_text">النطاق يعتمد على قوة الإشارة. في الحالات المثالية، يمكن أن يكون النطاق أكثر من 30 مترا.  يمكن لبعض العناصر أن تقلل المسافة إلى 15 مترا أو أقل مثل الجسم والجدران وغيرها من العوائق.</string>
+    <string name="range_information_dialog_check_box_text">لا تعرض ذلك مرة أخرى</string>
+    <string-array name="device_image_chooser_items">
+        <item>اختيار من الصور الافتراضية</item>
+        <item>"التقاط صورة"</item>
+        <item>اختيار من المعرض</item>
+    </string-array>
+    <string name="add_device">"إضافة جهاز"</string>
+    <string name="yes">"نعم"</string>
+    <string name="no">"لا"</string>
+    <string name="connecting_text">"جارٍ الاتصال..."</string>
+    <string name="enable_background_service">تمكين وضع الخلفية</string>
+    <string name="disable_background_service">تعطيل وضع الخلفية</string>
+    <string name="ble_manager_alert">تنبيه مدير BLE</string>
+    <string name="check">تحقق</string>
+    <string name="dismiss">رفض</string>
+    <string name="disconnected">"تم قطع الاتصال"</string>
+    <string name="in_range">داخل النطاق</string>
+    <string name="out_of_range">خارج النطاق</string>
+    <string name="no_found">لم يتم العثور على جهاز Bluetouth.</string>
+    <string name="bt_off">Bluetooth متوقف عن التشغيل، يرجى تشغيله.</string>
+</resources>

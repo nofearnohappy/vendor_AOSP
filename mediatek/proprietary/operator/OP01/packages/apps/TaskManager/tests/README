@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+It is to test TaskManager application, do TaskManager basic test.
+
+HOW IT WAS BUILT?
+==================
+It need set MTK_AUTO_TEST = yes, Only built in OP01 project.
+
+HOW TO USE IT?
+==============
+It is a android test application, user could use adb command to run this apk or find it from "Dev Tools->Instrumention".

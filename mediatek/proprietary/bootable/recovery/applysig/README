@@ -1,0 +1,24 @@
+Applysig of MTK recovery features, icluding append signature to the end of image.
+
+WHAT IT DOES?
+=============
+Applysig appends signature to the end of image.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library :
+1.  libmtdutils
+2.  libapplysig
+3.  libpartition
+4.  libstdc++
+5.  libc
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/bootable/recovery' and 'alps/bootable/recovery' folder.
+
+HOW TO USE IT?
+==============
+Provide API for recovery to use it.
+all api interface are at (vendor/mediatek/proprietary/protect/bootable/recovery/applysig/applysig.h)
+
+All the source code of this program were written by MediaTek co..

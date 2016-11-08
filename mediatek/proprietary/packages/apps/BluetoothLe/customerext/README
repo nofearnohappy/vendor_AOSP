@@ -1,0 +1,24 @@
+This module creates the com.mediatek.bluetoothle.ext.jar
+
+This jar is pre-built by MediaTek internally.
+
+WHAT IT DOES?
+=============
+It's dependent by other module for customers extending one or more new ANS detectors into BLEManager.
+
+HOW IT WAS BUILT?
+==================
+It needs the following *.jar from mediatek:
+mediatek-framework
+
+HOW TO USE IT?
+==============
+This jar is in out folder after build load finished.
+In extend APK, this jar will be static included. Customer need create a new detector class extends BluetoothAnsDetector.java, and override these methods
+public BluetoothAnsDetector(Context context)
+public void initializeAll()
+public void clearAll()
+and create a new AnsExtension class implements IBluetoothLeAnsExtension.java
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

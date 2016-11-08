@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">備份和復原</string>
+    <string name="backup">備份</string>
+    <string name="restore">復原</string>
+    <string name="backuptosd">備份至 SD 卡</string>
+    <string name="selectall">選擇全部</string>
+    <string name="unselectall">"全部不選"</string>
+    <string name="contact_module">聯絡人</string>
+    <string name="message_module">"訊息"</string>
+    <string name="picture_module">"相片"</string>
+    <string name="calendar_module">"日曆"</string>
+    <string name="calllog_module">"通話記錄"</string>
+    <string name="app_module">應用程式</string>
+    <string name="music_module">"音樂"</string>
+    <string name="notebook_module">筆記本</string>
+    <string name="bookmark_module">"書籤"</string>
+    <string name="backuping">正在備份</string>
+    <string name="restoring">正在復原</string>
+    <string name="warning">警告</string>
+    <string name="cancel_backup_confirm">取消備份？</string>
+    <string name="cancelling">取消中</string>
+    <string name="btn_ok">"確定"</string>
+    <string name="bt_yes">"是"</string>
+    <string name="bt_no">"否"</string>
+    <string name="menu_delete">"刪除"</string>
+    <string name="unknown">"不明"</string>
+    <string name="backup_data">備份資料</string>
+    <string name="less_1K">小於 1K</string>
+    <string name="notice">注意事項</string>
+    <string name="nosdcard_notice">請插入 SD 卡！</string>
+    <string name="restore_confirm_notice">您確定要復原嗎？</string>
+    <string name="contitue">"繼續"</string>
+    <string name="sdcard_removed">SD 卡已移除！</string>
+    <string name="sdcard_is_full">SD 卡空間已滿！</string>
+    <string name="backup_result">備份結果</string>
+    <string name="restore_result">復原結果</string>
+    <string name="result_success">"成功"</string>
+    <string name="result_fail">失敗</string>
+    <string name="result_no_content">"無內容"</string>
+    <string name="error">"錯誤"</string>
+    <string name="sdcard_swap_remove">偵測不到 SD 卡。</string>
+    <string name="sdcard_swap_insert">偵測到 SD 卡。</string>
+    <string name="backup_personal_data">"個人資料"</string>
+    <string name="backup_app">應用程式</string>
+    <string name="backup_personal_data_history">個人資料備份記錄</string>
+    <string name="backup_app_data_history">應用程式備份</string>
+    <string name="backup_app_data_preference_title">應用程式</string>
+    <string name="contact_all">"全部"</string>
+    <string name="contact_phone" product="tablet">"平板電腦"</string>
+    <string name="contact_phone" product="default">"電話"</string>
+    <string name="selected">"已選取"</string>
+    <string name="delete_please_wait">正在刪除，請稍候！</string>
+    <string name="loading_please_wait">正在更新，請稍候… </string>
+    <string name="edit_folder_name">編輯資料夾名稱</string>
+    <string name="file_no_exist_and_update">檔案已被刪除，將會重新載入。</string>
+    <string name="no_item_selected">沒有選擇項目</string>
+    <string name="updating">更新中...</string>
+    <string name="create_folder_fail">建立資料夾失敗</string>
+    <string name="detect_new_data_title">偵測到新資料</string>
+    <string name="detect_new_data_text" product="tablet">"選取以將您的資料復原至平板電腦。"</string>
+    <string name="detect_new_data_text" product="default">"選取以將您的資料復原至手機。"</string>
+    <string name="notification_backup_title">正在備份</string>
+    <string name="notification_restore_title">正在復原</string>
+    <string name="restored_flag">已復原</string>
+    <string name="message_sms">"短訊"</string>
+    <string name="message_mms">"多媒體訊息"</string>
+    <string name="activity_loading">下載中\u2026</string>
+    <string name="sdcard_busy_message">"SD 記憶卡忙碌中。"</string>
+    <string name="backup_running_toast">備份時無法復原資料。</string>
+    <string name="air_mode_dialog_title">SIM 已關閉</string>
+    <string name="air_mode_dialog_message">你必須關閉飛航模式來備份SIM卡聯絡人。</string>
+    <string name="sim_locked_dialog_title">SIM 鎖定</string>
+    <string name="sim_locked_dialog_message">你必須解除SIM卡鎖來備份聯絡人。</string>
+    <string name="sim_locked_dialog_unlock">"解除鎖定"</string>
+    <string name="no_data">"無資料。"</string>
+    <string name="app_slot1">插槽1</string>
+    <string name="app_slot2">插槽2</string>
+    <string name="app_slot3">插槽3</string>
+    <string name="app_slot4">插槽4</string>
+    <string name="notification_backup_ok">"已成功備份。"</string>
+    <string name="notification_backup_failed">備份失敗。</string>
+    <string name="notification_restore_ok">"已成功復原。"</string>
+    <string name="notification_restore_failed">復原失敗。</string>
+    <string name="backup_confirm_overwrite_notice">資料夾已存在，確定覆寫？</string>
+    <string name="permission_not_satisfied_exit">權限被拒絕。您可以依次選擇“設置”>“應用”來更改權限。</string>
+</resources>

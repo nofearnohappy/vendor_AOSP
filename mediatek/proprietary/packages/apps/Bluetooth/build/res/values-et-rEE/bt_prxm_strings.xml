@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">Ilma märguandeta</string>
+	<string name="bt_prxm_alert_level_mild">Nõrk märguanne</string>
+	<string name="bt_prxm_alert_level_high">Tugev märguanne</string>
+	<string name="bt_prxm_device_mgmt_label">Bluetoothi lähedus</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">Ilma Bluetoothi toeta ei saa töötada</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">Ilma Bluetoothita ei saa töötada</string>
+	<string name="bt_prxm_device_mgmt_title">Bluetoothi läheduse jälgimine</string>
+	<string name="bt_prxm_device_mgmt_add_device">Lisa seade</string>
+	<string name="bt_prxm_device_mgmt_remove_device">Eemalda seade</string>
+	<string name="bt_prxm_device_mgmt_device_list">Lähedased seadmed</string>
+	<string name="bt_prxm_device_pref_device_setting">Link katkenud: %1$s / rada katkenud: %2$s</string>
+	<string name="bt_prxm_devs_title">Läheduse sätted</string>
+	<string name="bt_prxm_devs_connect_title">"Ühenda"</string>
+	<string name="bt_prxm_devs_connect_summary">Ühenda lähedal oleva seadmega</string>
+	<string name="bt_prxm_devs_connect_failed">Ühendamine nurjus</string>
+	<string name="bt_prxm_devs_disconnect_failed">Ühenduse katkestamine nurjus</string>
+	<string name="bt_prxm_find_device_title">Otsi seadet</string>
+	<string name="bt_prxm_find_device_summary">Leia seade selle alarmi käivitamise teel</string>
+	<string name="bt_prxm_find_device_cancel_summary">Klõpsake, et tühistada alarm sihtseadmel</string>
+	<string name="bt_prxm_devs_link_loss_group_title">Link katkenud</string>
+	<string name="bt_prxm_devs_link_loss_level_title">Lingi katkemismärguande tase</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">Määra märguande tase</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">Lingi katkemismärguande taseme määramine nurjus</string>
+	<string name="bt_prxm_devs_path_loss_group_title">Rada katkenud</string>
+	<string name="bt_prxm_devs_path_loss_level_title">Raja katkemismärguande tase</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">Määra märguande tase</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">Raja katkemislävi</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">Määra signaalitugevuse lävi</string>
+	<string name="bt_prxm_plt_current_rssi">Praegune kauguse hindamine</string>
+	<string name="bt_prxm_plt_using_current_rssi">Kasuta raja katkemise märguandetaseme jaoks praegust kauguse hindamist</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">Raja katkemislävi</string>
+</resources>

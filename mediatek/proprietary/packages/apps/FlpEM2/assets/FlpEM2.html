@@ -1,0 +1,425 @@
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    </style>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?sensor=true">
+    </script>
+    <script type="text/javascript">
+	
+	  var gMap;
+	  var gMarker;
+	  var gAccuracy;
+	  var gConerInfo;
+	  var gInfo;
+	  var gFences = new Array();
+	  var gLines = new Array();
+	  var gCircle = new Array();
+	  var gLastPos;
+	  var gWifi = new Array();
+	  var gBt = new Array();
+	  
+	  function getPos(lat, lng) {
+		var pos = new google.maps.LatLng(lat, lng);
+		return pos;
+	  }
+	  
+      function initialize() {
+	    initMap(getPos(25.084, 121.56));
+		initListener();
+		initLog();
+		initMarker();
+		initAccuracy();
+		initFences();
+		initInfo('my default window');
+      }
+	  
+	  function initMap(pos) {
+        var mapOptions = {
+          center: pos,
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP, /*ROADMAP, SATELLITE, HYBRID, TERRAIN */
+		  mapTypeControl: true,
+		  scaleControl: true,
+		  streetViewControl: false,
+		  zoomControl: true, 
+		  draggable: true,
+		  disableDefaultUI: true,
+        };
+        gMap = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+	  }
+	  
+	  function initLog() {
+		gConerInfo = document.createElement('DIV');
+		gConerInfo.style.borderStyle = 'solid';
+		gConerInfo.style.backgroundColor = 'white';
+		gConerInfo.style.cursor = 'pointer';
+		gConerInfo.style.fontSize = '8 px';
+		gConerInfo.innerHTML = '';
+		gMap.controls[google.maps.ControlPosition.LEFT_TOP].push(gConerInfo);
+	  }
+	  
+	  function initListener() {
+		google.maps.event.addListener(gMap, 'click', function(event) {
+		  Android.onClicked(event.latLng.lat(), event.latLng.lng());
+		});
+		google.maps.event.addListener(gMap, 'zoom_changed', function() {
+		  Android.onZoomChanged(gMap.getZoom());
+		});
+		google.maps.event.addListener(gMap, 'dblclick', function(event) {
+		  Android.onDoubleClicked(event.latLng.lat(), event.latLng.lng());
+		});
+		google.maps.event.addListener(gMap, 'dragstart', function() {
+		});
+		google.maps.event.addListener(gMap, 'drag', function() {
+		});
+		google.maps.event.addListener(gMap, 'dragend', function() {
+		});
+		google.maps.event.addListener(gMap, 'center_changed', function() {
+		  Android.onCenterChanged(gMap.getCenter().lat(), gMap.getCenter().lng());
+		});
+	  }
+	  
+	  function initMarker() {
+		gMarker = new google.maps.Marker({
+		  clickable: true,
+		  draggable: false,
+		  optimized: true,
+		  position: getPos(0, 0),
+		  map: gMap,
+		  visible: false,
+		});
+		google.maps.event.addListener(gMarker, 'click', function(event) {
+		  var o = "Location\n";
+		  o += "lat=[" + gMarker.getPosition().lat() + "]\n";
+		  o += "lng=[" + gMarker.getPosition().lng() + "]\n";
+		  o += "acc=[" + gAccuracy.getRadius() + "]";
+		  Android.toast(o);
+		});
+	  }
+	  
+	  function initAccuracy() {
+	    gAccuracy  = new google.maps.Circle({
+		    center: getPos(0, 0),
+		    radius: 0, //meter
+		    strokeColor: "#ffffff",
+		    strokeOpacity: 0.8,
+		    strokeWeight: 2,
+		    fillColor: "#00ffff",
+		    fillOpacity: 0.5,
+		    map: gMap,
+		    visible: false,
+		    zIndex: 2,
+		});
+		google.maps.event.addListener(gAccuracy, 'click', function(event) {
+		  var o = "Location\n";
+		  o += "lat=[" + gMarker.getPosition().lat() + "]\n";
+		  o += "lng=[" + gMarker.getPosition().lng() + "]\n";
+		  o += "acc=[" + gAccuracy.getRadius() + "]";
+		  Android.toast(o);
+		});
+	  }
+	  
+	  function initFences() {
+  		for (var i = 0; i < 100; i++) {
+	      var g = new FenceInfo();
+	      g.init(i);
+  		  gFences[i] = g;
+  		}
+	  }
+	  
+	  function initInfo(message) {
+	    gInfo = new google.maps.InfoWindow({
+		  content: message,
+		  maxWidth: 5000,
+		});
+	  }
+	  
+	  function addLocation(lat, lng) {
+	    var newPos = getPos(lat, lng);
+	    if(gLastPos == null) {
+	      gLastPos = newPos;
+	    } else {
+	      var line = createLine(gLastPos.lat(), gLastPos.lng(), lat, lng);
+	      gLines.push(line);
+	      gLastPos = newPos;
+	    }
+	    alog("[js] lines.length=" + gLines.length + " lat=" + lat + " lng=" + lng);
+	  }
+	  
+	  function addThreeLocation(lat, lng) {
+	    var gLastPos = getPos(lat, lng);
+	    var circle = createCircle(gLastPos.lat(), gLastPos.lng());
+	    gCircle.push(circle);
+	    alog("[js] gCircle=" + " lat=" + lat + " lng=" + lng);
+	  }
+	  
+	  function clearLocation() {
+	    gLastPos = null;
+	    while(gLines.length > 0) {
+	      var line = gLines.shift();
+	      line.setMap(null);
+	      line = null;
+	    }
+	    while(gCircle.length > 0) {
+	      var circle = gCircle.shift();
+	      circle.setMap(null);
+	      circle = null;
+	    }
+	  }
+	  
+	  function setMapCenter(lat, lng) {
+	    gMap.panTo(new google.maps.LatLng(lat, lng));
+	  }
+	  
+	  function alog(msg) {
+	    Android.log(msg);
+	  }
+	  
+	  function updateCornerInfo(msg) {
+	    gConerInfo.innerHTML = msg;
+	  }
+	  
+	  function updateInfo(lat, lng, message) {
+		gInfo.setContent(message);
+		gInfo.setPosition(getPos(lat, lng));
+		gInfo.open(gMap);
+	  }
+	  
+	  function appendInfo(message) {
+	    gInfo.setContent(gInfo.getContent() + message);
+	  }
+	  
+	  function enableFence(id, enabled) {
+		gFences[id].setVisible(enabled);
+	  }
+	  
+	  function updateFence(id, lat, lng, r, color) {
+		gFences[id].updateFence(lat, lng, r, color);
+	  }
+	  
+	  function updateFence2(id, color) {
+	    gFences[id].updateFence2(color);
+	  }
+	  
+	  function enableMarker(enabled) {
+	  	gMarker.setVisible(enabled);
+	  }
+	  
+	  function updateMarker(lat, lng) {
+	  	gMarker.setPosition(getPos(lat, lng));
+	  }
+	  
+	  function enableAccuracy(enabled) {
+	    gAccuracy.setVisible(enabled);
+	  }
+	  
+	  function updateAccuracy(lat, lng, acc) {
+	    gAccuracy.setCenter(getPos(lat, lng));
+	    gAccuracy.setRadius(acc);
+	  }
+	  
+	  function test(data) {
+	    alog("" + data);
+	  }
+	  
+	  function getColorString(color) { 
+	    var colorString = color.toString(16);
+	    if(color < 16) {
+	      colorString = "00000" + colorString; 
+	    } else if(color < 256) {
+	      colorString = "0000" + colorString; 
+	    } else if(color < 4096) {
+	      colorString = "000" + colorString; 
+	    } else if(color < 65536) {
+	      colorString = "00" + colorString; 
+	    } else if(color < 1048576) {
+	      colorString = "0" + colorString;
+	    }
+	    return colorString;
+	  }
+	  
+	  function createLine(lat1, lng1, lat2, lng2) {
+	    var line = [getPos(lat1, lng1), getPos(lat2, lng2)];
+		var polygon = new google.maps.Polygon({
+		  paths: line,
+		  strokeColor: "#0000ff",
+		  strokeOpacity: 0.5,
+		  map: gMap,
+		});
+		return polygon;
+	  }
+	  
+	  function createCircle(lat, lng) {
+	    var circle = [getPos(lat, lng)];
+	    var circle = new google.maps.Circle({
+		  center: getPos(lat, lng),
+		  radius: 20, //meter
+		  strokeColor: "#FF0000",
+		  strokeOpacity: 0.8,
+		  strokeWeight: 2,
+		  fillColor: "#FF0000",
+		  fillOpacity: 0.35,
+		  map: gMap,
+		});
+		return circle;
+	  }
+	  
+	  function addBtApInfo(id, lat, lng) {
+	    var marker = new google.maps.Marker({
+		  clickable: true,
+		  draggable: false,
+		  optimized: true,
+		  position: getPos(lat, lng),
+		  map: gMap,
+		  icon: "/data/data/com.mediatek.flp.em/files/bt_icon.png",
+		  visible: true,
+		});
+	    var ap = new ApInfo();
+	    ap.set(id, marker);
+		gBt.push(ap);
+		google.maps.event.addListener(marker, 'click', function(event) {
+		  var o = "Bluetooth AP\n";
+		  o += "MAC=[" + ap.getId() + "]\n";
+		  o += "lat=[" + ap.lat() + "]\n";
+		  o += "lng=[" + ap.lng() + "]";
+		  Android.toast(o);
+		});
+	  }
+	  
+	  function clearBtApInfo() {
+	    while(gBt.length > 0) {
+	      var ap = gBt.shift();
+	      ap.clear();
+	      ap = null;
+	    }
+	  }
+	  
+	  function addWifiApInfo(id, lat, lng) {
+	    var marker = new google.maps.Marker({
+		  clickable: true,
+		  draggable: false,
+		  optimized: true,
+		  position: getPos(lat, lng),
+		  map: gMap,
+		  icon: "/data/data/com.mediatek.flp.em/files/wifi_icon.png",
+		  visible: true,
+		});
+	    var ap = new ApInfo();
+	    ap.set(id, marker);
+	    gWifi.push(ap);
+		google.maps.event.addListener(marker, 'click', function(event) {
+		  var o = "Wi-Fi AP\n";
+		  o += "SSID=[" + ap.getId() + "]\n";
+		  o += "lat=[" + ap.lat() + "]\n";
+		  o += "lng=[" + ap.lng() + "]";
+		  Android.toast(o);
+		});
+	  }
+	  
+	  function clearWifiApInfo() {
+	    while(gWifi.length > 0) {
+	      var ap = gWifi.shift();
+	      ap.clear();
+	      ap = null;
+	    }
+	  }
+	  
+	  var FenceInfo = function() {
+	    var id;
+	    var circle;
+	    var listener;
+	    var color = 0;
+	    return {
+	      init: function(_id) {
+	        id = _id;
+	        circle = new google.maps.Circle({
+		      center: getPos(0, 0),
+		      radius: 0, //meter
+		      strokeColor: "#ffffff",
+		      strokeOpacity: 0.8,
+		      strokeWeight: 2,
+		      fillColor: "#000000",
+		      fillOpacity: 0.5,
+		      map: gMap,
+		      visible: false,
+		    });
+		    
+		    google.maps.event.addListener(circle, 'click', function(event) {
+		      var o = "Geofence\n";
+		      o += "Id=[" + id + "]\n";
+    		  o += "lat=[" + circle.getCenter().lat() + "]\n";
+		      o += "lng=[" + circle.getCenter().lng() + "]\n";
+		      o += "radius=[" + circle.getRadius() + "]\n";
+		      o += "trans=[";
+		      if((color & 0xff0000) == 0xff0000) {
+		        o += "UNCERTAIN ";
+		      }
+		      if((color & 0x00ff00) == 0xff00) {
+		        o += "ENTER ";
+		      }
+		      if((color & 0x0000ff) == 0xff) {
+		        o += "EXIT ";
+		      }
+		      if(color == 0x606060) {
+		        o += "UNKNOWN ";
+		      }
+		      o += "]";
+		      Android.toast(o);
+		    });
+	      },
+	      setVisible: function(enabled) {
+	        circle.setVisible(enabled);
+	        color = 0;
+	      },
+	      updateFence: function(lat, lng, r, _color) {
+	        circle.setOptions({
+		      center: getPos(lat, lng),
+		      radius: r, //meter
+		      fillColor: "#" + getColorString(_color),
+		    });
+		    color = _color;
+	      },
+	      updateFence2: function(_color) {
+	        circle.setOptions({
+		      fillColor: "#" + getColorString(_color),
+		    });
+		    color = _color;
+	      },
+	    };
+	  };
+	  
+      var ApInfo = function() {
+    	var id = "";
+    	var marker;
+    	return {
+    	  set: function(_id, _marker) {
+    		id = _id;
+    		marker = _marker;
+    	  },
+    	  getId: function() {
+    		return id;
+    	  },
+    	  getMarker: function() {
+    		return marker;
+    	  },
+    	  lat: function() {
+    		return marker.getPosition().lat();
+    	  },
+    	  lng: function() {
+    		return marker.getPosition().lng();
+    	  },
+    	  clear: function() {
+    	    marker.setMap(null);
+    	  },
+    	};
+      };
+	  
+    </script>
+  </head>
+  <body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetoothLeTestTest</string>
+    <string-array name="service_uuid1">
+        <item >00001811-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="characteristic_uuid1">
+        <item >00002a47-0000-1000-8000-00805f9b34fb</item>
+        <item >00002a46-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="descriptor_uuid1">
+        <item >00002901-0000-1000-8000-00805f9b34fb</item>
+        <item >00002908-0000-1000-8000-00805f9b34fb</item>
+        <item >00002903-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="service_uuid2">
+        <item >00001812-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="characteristic_uuid2">
+        <item >00002a47-0000-1000-8000-00805f9b34fb</item>
+        <item >00002a46-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="descriptor_uuid2">
+        <item >00002901-0000-1000-8000-00805f9b34fb</item>
+        <item >00002908-0000-1000-8000-00805f9b34fb</item>
+        <item >00002903-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="service_uuid3">
+        <item >00001813-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="characteristic_uuid3">
+        <item >00002a47-0000-1000-8000-00805f9b34fb</item>
+        <item >00002a46-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    <string-array name="descriptor_uuid3">
+        <item >00002901-0000-1000-8000-00805f9b34fb</item>
+        <item >00002908-0000-1000-8000-00805f9b34fb</item>
+        <item >00002903-0000-1000-8000-00805f9b34fb</item>
+    </string-array>
+    
+</resources>

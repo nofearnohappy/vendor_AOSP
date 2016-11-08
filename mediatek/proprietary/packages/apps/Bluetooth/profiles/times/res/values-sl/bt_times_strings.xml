@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_times_settings_title">Nastavitve časovnega strežnika</string>
+	<string name="bt_times_settings_enable_title">Časovni strežnik</string>
+	<string name="bt_times_settings_enable_summary">"Vklopi"</string>
+</resources>

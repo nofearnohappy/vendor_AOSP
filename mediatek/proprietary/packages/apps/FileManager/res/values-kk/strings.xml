@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Файлды реттеуші</string>
+    <string name="sort_by">Сұрыптау</string>
+    <string name="copy">Көшіру</string>
+    <string name="create_folder">Қалта жасау</string>
+    <string name="cut">Кесу</string>
+    <string name="delete">Жою</string>
+    <string name="details">Толық мәлімет</string>
+    <string name="paste">Қою</string>
+    <string name="rename">Атын өзгерту</string>
+    <string name="new_folder">Жаңа қалта</string>
+    <string name="confirm_rename">Атын растау</string>
+    <string name="pasting">Қою</string>
+    <string name="loading">Жүктеу\u2026</string>
+    <string name="deleting">Жойылуда</string>
+    <string name="alert_delete_multiple">Осы элементтер жойылады.</string>
+    <string name="alert_delete_single">Осы элемент жойылады.</string>
+    <string-array name="sort_by">
+        <item>Түрі</item>
+        <item>Атауы (А-Я)</item>
+        <item>Өлшемі (үлкен-кіші)</item>
+        <item>Мерзімі (жаңа-ескі)</item>
+    </string-array>
+    <string name="name">Аты</string>
+    <string name="size">Өлшемі</string>
+    <string name="modified_time">Өзгертіла алады</string>
+    <string name="readable">Оқыла алады</string>
+    <string name="executable">Орындала алады</string>
+    <string name="writable">Жазыла алады</string>
+    <string name="msg_rename_ext">Файл кеңейтімі өзгертілмек, бұл файлдың танылмауын тудыруы мүмкін. Осы әрекеттің орындалуына сенімдісіз бе?</string>
+    <string name="wait">Күте тұрыңыз\u2026</string>
+    <string name="done">Дайын</string>
+    <string name="cancel">Болдырмау</string>
+    <string name="no">Жоқ</string>
+    <string name="ok">OK</string>
+    <string name="yes">Иә</string>
+    <string name="deselect_all">"Барлық белгілерді алу"</string>
+    <string name="select_all">Барлығын белгілеу</string>
+    <string name="share">Бөлісу</string>
+    <string name="sort">Сұрыптау</string>
+    <string name="more">Қосымша параметрлер</string>
+    <string name="search">Іздеу</string>
+    <string name="show_file">Жасырылған файлдарды көрсету</string>
+    <string name="hide_file">Жасырылған файлдарды жасыру</string>
+    <string name="selected">таңдалған</string>
+    <string name="send_file">Файлды жіберу</string>
+    <string name="empty_msg">(Қалтаны тазарту)</string>
+    <string name="default_search_text">Файлдарды іздеу</string>
+    <string name="free_space">Қолжетімді</string>
+    <string name="total_space">Жалпы орын</string>
+    <string name="search_files">Файлдарды іздеу</string>
+    <string name="copy_deny">Көшіру рұқсаты жоқ.</string>
+    <string name="cut_deny">Кесу рұқсаты жоқ.</string>
+    <string name="delete_deny">Жою рұқсаты жоқ.</string>
+    <string name="insufficient_memory">Бос орын жеткіліксіз.</string>
+    <string name="invalid_empty_name">Файл немесе қалта атауы бос бола алмайды.</string>
+    <string name="paste_same_folder">Бірдей каталогқа қою мүмкін емес.</string>
+    <string name="invalid_char_prompt">Жарамсыз таңба(лар) енгізілді.</string>
+    <string name="msg_unable_open_file">Файл пішіміне қолдау көрсетілмейді.</string>
+    <string name="search_text_empty">Іздеу мазмұндары бос бола алмайды.</string>
+    <string name="paste_sub_folder">Ішкі қалтаны қою мүмкін емес.</string>
+    <string name="operation_fail">Кейбір файл әрекеттері мүмкін емес.</string>
+    <string name="search_result">\"%1$s\" үшін %2$d нәтиже бар</string>
+    <string name="already_exists">%1$s бұрыннан пайдалануда.</string>
+    <string name="path_not_exists">%1$s жоқ.</string>
+    <string name="unmounted">%1$s қосылмаған.</string>
+    <string name="create_hidden_file">"Файлдың атауы '.'. белгілерінен басталса, ол жасырылады"</string>
+    <string name="modify_hidden_file">"Файлдың атауы '.'. белгілерінен басталмаса, оны жасыру мүмкін емес"</string>
+    <string name="file_name_too_long">Енгізілген атау тым ұзын.</string>
+    <string name="paste_fail">Қою мүмкін емес.</string>
+    <string name="delete_fail">Жою мүмкін емес.</string>
+    <string name="some_paste_fail">Кейбір қою әрекеттері мүмкін емес.</string>
+    <string name="some_delete_fail">Кейбір жою әрекеттері мүмкін емес.</string>
+    <string name="search_empty">Іздеу мазмұны бос болмауы тиіс.</string>
+    <string name="search_setting_description">Жергілікті файлдар және қалталар</string>
+    <string name="change_mode">Файл немесе қалтаны таңдаңыз</string>
+    <string name="folder_beam_forbidden_title">Қалтаны бағыттап жіберу мүмкін емес</string>
+    <string name="folder_beam_forbidden_message">Қалтаны бағыттап жіберуге қолдау көрсетілмейді.</string>
+    <string name="drm_beam_forbidden_title">Бағыттап жіберуге тыйым салынған</string>
+    <string name="drm_beam_forbidden_message">DRM(Авторлық құқықтың сандық қорғауы) арқылы қорғалған файлдар бағыттап жіберіле алмайды.</string>
+</resources>

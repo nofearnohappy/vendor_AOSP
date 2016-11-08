@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Inteligentni ekvilajzer/Grafički ekvilajzer</string>
+	<string name="tooltip_eq_text">Inteligentni ekvilajzer analizira i dinamički podešava zvuk radi usklađivanja sa željenim tonom. Odaberite neku od četiri unapred podešene vrednosti, a zatim dodirnite vizuelizator spektra da biste uneli prilagođene izmene u grafički ekvilajzer.</string>
+	<string name="tooltip_sv_title">Virtuelni okružujući zvuk</string>
+	<string name="tooltip_sv_text">Funkcija za virtuelni okružujući zvuk kreira realističan okružujući zvuk na bilo kojim slušalicama ili stereo zvučnicima. Podesite prekidač na „uključeno“ ili „isključeno“ da biste kontrolisali efekat okružujućeg zvuka.</string>
+	<string name="tooltip_de_title">Poboljšavanje dijaloga</string>
+	<string name="tooltip_de_text">Funkcija za poboljšavanje dijaloga poboljšava jasnoću govora u bilo kojoj vrsti medija. Podesite prekidač na „uključeno“ ili „isključeno“ da biste kontrolisali poboljšanje dijaloga.</string>
+	<string name="tooltip_vl_title">Nivelacija jačine zvuka</string>
+	<string name="tooltip_vl_text">Funkcija za nivelaciju jačine zvuka pruža ujednačenu jačinu zvuka u svim sadržajima i aplikacijama u skladu sa glavnom jačinom zvuka koja je podešena na uređaju. Postavite prekidač na „uključeno“ ili „isključeno“ da biste kontrolisali automatsko nivelisanje jačine zvuka.</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done" msgid="796017761764190697">"انجام شد"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"حذف"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"انتخاب همه"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"لغو انتخاب همه موارد"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"جدید"</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> انتخاب شد
+    </string>
+    <string name="multichoice_no_select_alert">"موردی انتخاب نشده است."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">برچسب های USIM برای اعداد اضافی</string>  
+    <string name="aas_phone_type_none">هیچ کدام</string>  
+    <string name="aas_new_dialog_title">افزودن برچسب جديد</string>  
+    <string name="ass_rename_dialog_title">اصلاح برچسب</string>  
+    <string name="aas_delele_dialog_message">حذف برچسب(ها) روی همه اعداد اضافی مرتبط با برچسب(ها) تاثیر می گذارد. آیا مطمئن هستید؟</string>  
+    <string name="aas_name_invalid">نام برچسب غیرمعتبر است. لطفا نام دیگری وارد کنید.</string>  
+    <string name="aas_name_exist">برچسب از قبل وجود دارد.</string>  
+    <string name="aas_usim_full">جای خالی برای برچسب های جدید نیست.</string>  
+    <string name="ass_edit_assert_message">اصلاح برچسب(ها) روی همه اعداد اضافی مرتبط با برچسب(ها) تاثیر می گذارد. آیا مطمئن هستید؟</string>  
+    <string name="aas_new_fail">ایجاد برچسب جدید ناموفق بود.</string>  
+    <string name="aas_edit_fail">تغییر نام ناموفق 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">حذف 
+        <xliff:g id="aas">%s</xliff:g> ناموفق بود.
+    </string>  
+    <string name="aas_phone_primary">شماره اصلی</string>  
+    <string name="aas_phone_additional">شماره اضافی</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"نام مستعار بیش از حد طولانی است."</string>
+</resources>

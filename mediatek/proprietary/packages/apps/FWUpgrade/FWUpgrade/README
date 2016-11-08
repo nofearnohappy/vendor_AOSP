@@ -1,0 +1,20 @@
+APK of Firmware Upgrade, including check new version, download update.zip,
+display popup of upgrade success.
+
+WHAT IT DOES?
+=============
+FWUpgrade.apk include funtion:
+1. check new version
+2. download update.zip
+3. display popup of upgrade success
+
+HOW IT WAS BUILT?
+==================
+1. The featureoption MTK_FW_UPGRADE should be true.
+
+It needs the following library from AOSP:
+1. framework.jar
+
+HOW TO USE IT?
+==============
+Ensure the project has build otapackage（make otapackage）

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+<string name="intelligent_equalizer">智能等化器 </string>
+
+<string name="surround_virtualizer">環繞音效虛擬器</string>
+
+<string name="dialogue_enhancer">對白強化器</string>
+<string name="volume_leveler">音量調節器</string>
+<string name="copyright">Dolby 和雙 D 符號是 Dolby Laboratories 的註冊商標。.\u00a92012 Dolby Laboratories。保留一切權利。</string>
+<string name="movie">電影</string>
+<string name="music">音樂</string>
+<string name="game">遊戲</string>
+<string name="voice">聲音</string>
+<string name="preset_1">自訂 1</string>
+<string name="preset_2">自訂 2</string>
+<string name="open">開擴</string>
+<string name="rich">飽滿</string>
+<string name="focused">聚焦</string>
+<string name="off">關</string>
+<string name="custom">手動</string>
+<string name="db36">36dB</string>
+<string name="db24">24dB</string>
+<string name="db12">12dB</string>
+<string name="db0">0dB</string>
+<string name="dbn12">-12dB</string>
+<string name="graphical_equalizer">圖形等化器 </string>
+<string name="app_name">Dolby Audio</string>
+<string name="instore_menu_text">播放示範短片</string>
+
+</resources>

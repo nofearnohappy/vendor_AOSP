@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/hetcomm_notification_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/app_name"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_toRightOf="@id/hetcomm_notification_icon">
+            <TextView
+                android:id="@+id/notify_top_title_text"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notify_top_title"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/notify_top_speed_unit_text"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_Mbps"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/notify_top_speed_text"
+                android:layout_toLeftOf="@id/notify_top_speed_unit_text"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/notify_network_text1"
+                style="@style/hetcomm_notification_label"
+                android:layout_width="40dp"
+                android:layout_below="@id/notify_top_title_text"
+                android:text="@string/network_WiFi"
+                android:textColor="#ff6e6e6e"
+                />
+            <TextView
+                android:id="@+id/notify_network_text2"
+                style="@style/hetcomm_notification_label"
+                android:layout_width="40dp"
+                android:layout_below="@+id/notify_speed_progress1"
+                android:text="@string/network_Mobile"
+                android:textColor="#ff6e6e6e"
+                />
+
+            <ProgressBar
+                android:id="@+id/notify_speed_progress1"
+                android:layout_width="165dp"
+                android:layout_height="8sp"
+                android:layout_below="@id/notify_top_title_text"
+                android:layout_toRightOf="@+id/notify_network_text1"
+                android:progressDrawable="@drawable/progress_wifi_color"
+                android:indeterminate="false"
+                android:indeterminateOnly="false"
+                android:layout_marginTop="5dp"
+                />
+
+            <ProgressBar
+                android:id="@+id/notify_speed_progress2"
+                android:layout_width="165dp"
+                android:layout_height="8sp"
+                android:layout_toRightOf="@+id/notify_network_text2"
+                android:layout_below="@id/notify_speed_progress1"
+                android:progressDrawable="@drawable/progress_mobile_color"
+                android:indeterminate="false"
+                android:indeterminateOnly="false"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/notify_network_speed_unit_text1"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/notify_top_title_text"
+                android:layout_alignParentRight="true"
+                style="@style/hetcomm_notification_label"
+                android:text="@string/unit_Mbps"
+                android:textColor="#ff6e6e6e"
+                />
+
+            <TextView
+                android:id="@+id/notify_network_speed_text1"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/notify_top_title_text"
+                android:layout_toLeftOf="@id/notify_network_speed_unit_text1"
+                style="@style/hetcomm_notification_label"
+                android:textColor="#ff6e6e6e"
+                />
+
+            <TextView
+                android:id="@+id/notify_network_speed_unit_text2"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/notify_speed_progress1"
+                android:layout_alignParentRight="true"
+                style="@style/hetcomm_notification_label"
+                android:text="@string/unit_Mbps"
+                android:textColor="#ff6e6e6e"
+                />
+
+            <TextView
+                android:id="@+id/notify_network_speed_text2"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/notify_speed_progress1"
+                android:layout_toLeftOf="@id/notify_network_speed_unit_text2"
+                style="@style/hetcomm_notification_label"
+                android:textColor="#ff6e6e6e"
+                />
+
+    </RelativeLayout>
+</RelativeLayout>

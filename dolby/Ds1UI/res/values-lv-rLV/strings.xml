@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Inteliģentais ekvalaizers</string>
+	<string name="surround_virtualizer">Iesk. skaņas virtualizētājs</string>
+	<string name="dialogue_enhancer">Dialoga uzlabotājs</string>
+	<string name="volume_leveler">Skaļuma izlīdzinātājs</string>
+	<string name="copyright">Dolby un dubultais D ir reģistrētas Dolby Laboratories tirdzniecības zīmes. \u00a9 2013 Dolby Laboratories Inc. Visas tiesības reģistrētas.</string>
+	<string name="movie">Filma</string>
+	<string name="music">Mūzika</string>
+	<string name="game">Spēle</string>
+	<string name="voice">Balss</string>
+	<string name="preset_1">1. pielāgojums</string>
+	<string name="preset_2">2. pielāgojums</string>
+	<string name="open">Atvērts</string>
+	<string name="rich">Bagātīgs</string>
+	<string name="focused">Fokusēts</string>
+	<string name="off">IZSLĒGTS</string>
+	<string name="custom">Manuāls</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Grafiskais ekvalaizers</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Atskaņot demonstrāciju</string>
+</resources>

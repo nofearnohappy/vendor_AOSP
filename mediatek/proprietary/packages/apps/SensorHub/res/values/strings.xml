@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SensorHub</string>
+    <string name="sensor_hub_entry">SensorHub</string>
+    <string name="sensor_hub_error">SensorHub not support, exit</string>
+    <string name="gesture_wake_up">Gesture-WakeUp</string>
+    <string name="sensor_accelerometer">Accelerometer</string>
+    <string name="sensor_light">Ambient Light</string>
+    <string name="sensor_proximity">Proximity</string>
+    <string name="batch_mode_interval_text">Batch mode polling interval (10~1000 ms)</string>
+    <string name="batch_mode_timeout_text">Batch mode timeout (0~4000000 ms)</string>
+    <string name="sensor_set_button">Set</string>
+    <string name="sensor_fifo_title">FIFO full interrupt</string>
+    <string name="sensor_fifo_summary">Sensor hub buffer is full, wake up Android</string>
+    <string name="number_range_error">Please check the numbers range!</string>
+    <string name="register_error"><xliff:g id="name">%1$s</xliff:g> register fail!</string>
+    <string name="register_done"><xliff:g id="name">%1$s</xliff:g> register success!</string>
+    <string name="not_support_fifo">FOFI full interrupt setting is not supported!</string>
+    <string name="enable_notify_sound">Enable notification sound</string>
+    <string name="enable_log">Start/End the testing</string>
+    <string name="request_sensor">Request Trigger Sensor</string>
+    <string name="clear_step">Clear Step counter</string>
+    <string name="inital_step_string">本次测试起始步数:  </string>
+    <string name="total_step_string">本次总步数:  </string>
+    <string name="inital_distance_string">本次测试起始距离:  </string>
+    <string name="total_distance_string">本次总距离:  </string>
+</resources>

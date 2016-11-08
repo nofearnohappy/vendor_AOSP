@@ -1,0 +1,25 @@
+MFNR Modules (1.0)
+
+
+WHAT IT DOES?
+=============
+
+A platform dependent MFNR module static link library, which provides MFNR core
+to control the hardware dependent modules
+
+
+HOW IT WAS BUILT?
+==================
+
+To determine the module version, you have to set MFLL_MODULE_VERSION from the
+alps/vendor/mediatek/proprietary/hardware/mtkcam/feature/common/mfnr/Android.mk
+
+
+HOW TO USE IT?
+==============
+
+User don't use this library directly but MFNR core does.
+
+
+All the source code of this program were written by MediaTek co..
+

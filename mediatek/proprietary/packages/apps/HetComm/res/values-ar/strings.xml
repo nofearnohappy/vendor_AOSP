@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">التنزيل السريع</string>
+    <string name="hetcomm_intro">تنزيل ملفات ضخمة الحجم (أكبر من 20 ميجابايت) بشكل أسرع باستخدام شبكات Wi-fi و4G/3G في نفس الوقت. ستظهر أيقونة التنزيل السريع على شريط الحالة عندما يكون التطبيق قيد التشغيل. لاستخدام التنزيل السريع يجب تشغيل Wi-Fi وبيانات المحمول معًا. عند تمكين هذا الخيار سيتم تنزيل أية بيانات تطبيق كنت قد اخترته للتنزيل عبر شبكة Wi-Fi فقط عبر شبكتي WLAN و4G/3G معًا.</string>
+    <string name="enable_switch_on">تشغيل</string>
+    <string name="enable_switch_off">إيقاف</string>
+    <string name="notify_top_title">مسرع التنزيل</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"بيانات الجوال"</string>
+    <string name="conn_notice_title">إما بيانات المحمول أو Wi-Fi في وضع إيقاف.</string>
+    <string name="conn_notice_detail">لتمكين  التنزيل السريع يجب تشغيل Wi-Fi وبيانات المحمول معًا.</string>
+    <string name="conn_charging_warning">قد تتحمل رسوم إضافية نظير التنزيل من خلال شبكات المحمول.</string>
+    <string name="turn_on">تشغيل <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">التنزيل السريع في وضع إيقاف لأن Vpn في وضع تشغيل</string>
+    <string name="turn_off_due_to_tether">التنزيل السريع في وضع إيقاف لأن الربط في وضع تشغيل</string>
+    <string name="turn_off_due_to_shutdown">التنزيل السريع في وضع إيقاف بسبب إيقاف التشغيل</string>
+    <string name="turn_off_due_to_roaming">التنزيل السريع في وضع إيقاف بسبب التجوال</string>
+    <string name="ratio_is_single">سرعة بيانات الجوال/Wi-Fi بطيئة. لزيادة سرعة عملية التنزيل، يستخدم التنزيل السريع مع بيانات الجوال/Wi-Fi فحسب لتنزيل الملفات.</string>
+    <string name="ratio_is_back">يعمل التنزيل السريع على إعادة استخدام بيانات الجوال/Wi-Fi معًا بهدف تنزيل الملفات.</string>
+    <string name="action_help">تعليمات</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>تعليمات التنزيل السريع</u>\
+    </h1><br>تنزيل ملفات ضخمة الحجم بسرعة فائقة باستخدام شبكةWi-Fi و4G/3G في نفس الوقت.\
+    <h4>1. اذهب إلى Settings (الإعدادات) وانقر فوق Turbo Download (تنزيل سريع).</h4>\
+    <h4>2. انقر فوق المفتاح لتشغيل التنزيل السريع.</h4>\
+    <p><b>[تلميح]</b> لتسريع التنزيل في حالة الاتصال بشبكة Wi-Fi و4G/3G عند بدء التنزيل.\
+    <p><b>[تلميح]</b> إذا كان اتصالك بشبكة Wi-Fi أو 4G/3G بطيئًا فبإمكانك استخدام الاتصال الشبكي الأسرع لديك للتنزيل.\
+    <p><b>[تمليح]</b> قد تتأثر سرعة وأداء التنزيل السريع بببئة الشبكة التي تعمل عليها أثناء التنزيل.\
+    <br>&nbsp;&nbsp;- إذا كانت الإشارات غير مستقرة فقد تتأثر سرعة وأداء هذه الخاصية.\
+    <br>&nbsp;&nbsp;- إلا أنه في المتوسط ستكون سرعة التنزيل ""الضعف"" عند مقارنتها بسرعة التنزيل باستخدام شبكة Wi-Fi أو 4G/3G فقط.\
+    <p><b>[تمليح]</b> عندما يكون الاختلاف في سرعة شبكة Wi-Fi و4G/3G كبيرًا (عادة ما يكون التنزيل أسرع بمعدل 2.5) ستتوقف خاصية التنزيل السريع أو تكون غير مدعومة لتجنب سوء الأداء المتعلق بالسرعة.
+    <p><b>[تلميح]</b> سيتم تعطيل خاصية التنزيل السريع تلقائيًا بمجرد تشغيل Tethering/Vpn (الربط بنقطة الاتصال).\
+    </body></html>]]>"</string>
+</resources>

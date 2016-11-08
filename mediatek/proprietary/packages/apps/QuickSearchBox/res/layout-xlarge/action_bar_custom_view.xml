@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    android:splitMotionEvents="true" >
+
+    <!-- Begin left_pane for suggestions -->
+    <RelativeLayout
+        android:id="@+id/left_pane"
+        android:layout_width="@dimen/suggestions_width"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dip"
+        android:layout_marginStart="5dp" >
+
+        <!--The search plate is after the suggestions, to give it a higherz-index.-->
+        <LinearLayout
+            android:id="@+id/search_plate"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:gravity="top|start"
+            android:orientation="horizontal"
+            android:paddingTop="8dp" >
+
+            <LinearLayout
+                android:id="@+id/search_edit_frame"
+                android:layout_width="0dip"
+                android:layout_height="36dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/textfield_start_mirrored"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <include layout="@layout/corpus_indicator" />
+
+                <com.android.quicksearchbox.ui.QueryTextView
+                    android:id="@+id/search_src_text"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dip"
+                    android:layout_marginEnd="8dip"
+                    android:layout_marginStart="5dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/textfield_search_empty_google"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical|start"
+                    android:imeOptions="actionGo"
+                    android:inputType="text|textAutoComplete"
+                    android:singleLine="true"
+                    android:textColor="@android:color/primary_text_dark"
+                    android:textColorHint="@color/search_hint"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textDirection="locale" />
+
+                <ImageButton
+                    android:id="@+id/search_close_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_bg"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:src="@drawable/ic_clear_disabled" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="78dip"
+                android:layout_height="36dp"
+                android:background="@drawable/textfield_end_mirrored"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <!-- One of these two will be visible at a time -->
+                <ImageButton
+                    android:id="@+id/search_go_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/search_go_btn_mirrored" />
+
+                <ImageButton
+                    android:id="@+id/search_voice_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_btn_speak_now"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- End left_pane -->
+
+    <!-- Begin right_pane -->
+    <RelativeLayout
+        android:id="@+id/right_pane"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dip"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1" >
+        <RelativeLayout
+            android:id="@+id/shortcut_title"
+            android:layout_width="@dimen/shortcuts_width"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/section_header_mirrored"
+            android:clickable="true"
+            android:visibility="invisible" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingBottom="10dip"
+        android:paddingEnd="10dip"
+        android:paddingStart="10dip"
+        android:paddingTop="5dip"
+        android:singleLine="true"
+        android:src="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+        android:visibility="invisible" />
+
+</LinearLayout>

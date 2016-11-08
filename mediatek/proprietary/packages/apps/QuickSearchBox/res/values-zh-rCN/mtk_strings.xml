@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="search_engine_settings">搜索引擎</string>  
+    <string name="pref_content_search_engine_consistency">搜索引擎一致性设置</string>  
+    <string name="pref_content_search_engine">选择搜索引擎</string>  
+    <string name="pref_search_engine_unify_summary">将搜索引擎变更应用到浏览器</string> 
+    <string name="pref_search_engine_unify">同步搜索引擎</string>  
+    <string name="search_suggestion_settings">搜索建议</string>  
+    <string name="clear_history">清除历史记录</string>
+    <string name="clear_history_summary">清除所有搜索历史记录</string>
+    <string name="clear_history_prompt">所有搜索历史记录将会被清除。</string>
+    <string name="corpus_description_web_search_only">"网页搜索"</string>
+</resources>

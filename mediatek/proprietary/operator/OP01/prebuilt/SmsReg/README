@@ -1,0 +1,18 @@
+[Function]
+
+
+WHAT IT DOES?
+=============
+This is a config file for SmsReg feature.
+The file content information about operator customized.
+such as server address, format of short message,and so on.
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+1.MTK_SMSREG_APP
+New load
+
+HOW TO USE IT?
+==============
+Download the full load to Mediatek platform

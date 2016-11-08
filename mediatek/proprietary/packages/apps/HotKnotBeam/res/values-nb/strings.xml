@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Begynn å motta …</string>
+    <string name="notification_group_title">Mottar <xliff:g id="number">%d</xliff:g> filer …</string> 
+    <string name="notification_download_done">Trykk for å vise detaljer</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> filer mottatt</string>
+    <string name="notification_received">Mottak var vellykket</string> 
+    <string name="notification_download_failure">Kunne ikke motta på grunn av <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Mottak avbrutt</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> filer mislyktes</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> filer mislyktes. <xliff:g id="number">%d</xliff:g> filer ble mottatt</string>
+    <string name="download_no_file">Filen finnes ikke</string>
+    <string name="notification_sending">Begynn å sende …</string>
+    <string name="notification_group_upload_title">Sender <xliff:g id="number">%d</xliff:g> filer …</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> filer ble sendt</string>
+    <string name="notification_sent">Sending var vellykket</string>
+    <string name="notification_upload_failed">Kunne ikke sende på grunn av <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Sending avbrutt</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> filer mislyktes</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> filer mislyktes. <xliff:g id="number">%d</xliff:g> filer ble sendt</string>
+    <string name="low_storage">lite lagringsplass</string>
+    <string name="connect_failure">"Tilkoblingsproblem"</string>
+    <string name="unknown_error">Ukjent feil</string>
+    <string name="share_label">HotKnot-deling</string>
+    <string name="rx_ui_image_status">Mottar bilde fra <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Mottar <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> bilder fra <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Mottar video fra <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Mottar <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> videoer fra <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Mottar fil fra <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Mottar <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> filer fra <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Mottar musikk fra <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Mottar <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> musikk fra <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Mottak ikke ferdig</string>
+</resources>

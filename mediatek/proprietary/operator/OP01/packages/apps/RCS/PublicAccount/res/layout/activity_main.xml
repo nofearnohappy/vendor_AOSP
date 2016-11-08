@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mediatek.rcs.pam.MainActivity" >
+
+    <ScrollView
+        android:id="@+id/button_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+	        <Button
+	            android:id="@+id/button_message_history"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_message_history" />
+	
+	        <Button
+	            android:id="@+id/button_account_details"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_account_details" />
+	
+	        <Button
+	            android:id="@+id/button_test_provider"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_test_provider" />
+	
+	        <Button
+	            android:id="@+id/button_subscribe"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_subscribe" />
+	
+	        <Button
+	            android:id="@+id/button_unsubscribe"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_unsubscribe" />
+	
+	        <Button
+	            android:id="@+id/button_subscribed"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_subscribed" />
+
+	        <Button
+	            android:id="@+id/button_search"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_search" />
+	
+	        <Button
+	            android:id="@+id/button_details"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_details" />
+	
+	        <Button
+	            android:id="@+id/button_get_menu"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_get_menu" />
+	
+	        <Button
+	            android:id="@+id/button_history"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_history" />
+	
+	        <Button
+	            android:id="@+id/button_complain"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/test_button_complain" />
+	
+		    <Button
+		        android:id="@+id/button_recommends"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_recommends" />
+		
+		    <Button
+		        android:id="@+id/button_accept_status"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_accept_status" />
+		
+		    <Button
+		        android:id="@+id/button_send_pager_mode_message"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_send_pager_mode_message" />
+		
+		    <Button
+		        android:id="@+id/button_send_large_mode_message"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_send_large_mode_message" />
+		
+		    <Button
+		        android:id="@+id/button_send_image"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_send_image" />
+		    		
+		    <Button
+		        android:id="@+id/button_send_audio"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_send_audio" />
+		    		
+		    <Button
+		        android:id="@+id/button_send_video"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_send_video" />
+		    		
+		    <Button
+		        android:id="@+id/button_send_geoloc"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_send_geoloc" />
+		    		
+		    <Button
+		        android:id="@+id/button_send_vcard"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_send_vcard" />
+		    		
+		    <Button
+		        android:id="@+id/button_resend_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/test_button_resend_text" />
+		    		    		    		    
+		</LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

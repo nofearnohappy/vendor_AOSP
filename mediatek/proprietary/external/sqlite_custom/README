@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+provides some defination about functions and variables for DialerSearch to query name or number.
+
+
+HOW IT WAS BUILT?
+==================
+Same as other module.
+
+
+HOW TO USE IT?
+==============
+Use with DialerSearch Query.

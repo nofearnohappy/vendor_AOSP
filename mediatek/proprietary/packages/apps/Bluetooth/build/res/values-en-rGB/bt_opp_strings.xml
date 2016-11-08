@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Incoming file request"</string>
+	<string name="bt_opp_notification_in_coming_title">"Incoming file request (from: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Select to accept incoming file."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Allow incoming file transfers"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Receiving: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Outgoing file"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Sending: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Connected to file transfer"</string>
+	<string name="bt_opp_cancel_task_message">"Cancel this transfer?"</string>
+	<string name="bt_opp_cancel_task_yes">"Yes"</string>
+	<string name="bt_opp_cancel_task_no">No application available to print the contact.</string>
+	<string name="bt_opp_canceling_task_message">"Cancelling transfer, please wait..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - Incoming object"</string>
+	<string name="bt_opps_confirm_push_message">"Incoming file: %1$s (%2$s) from %3$s. Accept?"</string>
+	<string name="bt_opps_confirm_push_yes">Accept Auto-push service or not?</string>
+	<string name="bt_opps_confirm_push_no">Reject</string>
+	<string name="bt_oppc_push_action_label">"Playing through Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Sending file to %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Sending files to %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Unsupported share content: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"No SD card or not enough storage space for incoming file."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Invalid share request from remote device."</string>
+</resources>

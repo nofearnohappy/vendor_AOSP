@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:minHeight="?android:attr/listPreferredItemHeight"
+  android:gravity="center_vertical">
+  
+  <RadioButton 
+        android:id="@+id/radiobutton" 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="30dip"
+        android:paddingRight="20dip"
+        android:focusable="false"/>
+        
+  <TextView android:id="@+id/profiles_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/radiobutton"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:maxLines="1"
+        android:layout_marginLeft="9dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip"
+        android:paddingRight="10dip"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="false"/>
+</RelativeLayout>

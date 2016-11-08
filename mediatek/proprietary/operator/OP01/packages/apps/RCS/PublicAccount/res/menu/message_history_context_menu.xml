@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mediatek.pam.client.android.activities.MessageHistoryActivity" >
+
+    <item
+       android:id="@+id/message_history_context_delete_item"
+       android:showAsAction="always"
+       android:title="@string/message_history_context_delete"/>
+
+</menu>

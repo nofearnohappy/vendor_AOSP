@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">UIM Գործիքախումբ</string>
+    <string name="menu_end_session">"Ավարտել աշխատաշրջանը"</string>
+    <string name="help">Օգնություն</string>
+    <string name="menu_back">"Հետ"</string>
+    <string name="service_name">"Ծառայության անվանումը"</string>
+    <string name="utk_no_service">Չկա մատչելի ծառայություն</string>
+    <string name="button_ok">"Լավ"</string>
+    <string name="button_cancel">"Չեղարկել"</string>
+    <string name="button_yes">"Այո"</string>
+    <string name="button_no">"Ոչ"</string>
+    <string name="alphabet">"Այբուբեններ"</string>
+    <string name="digits">Թվանիշեր (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">"Զանգն ընթանում է..."</string>
+    <string name="utk_app_state">"Ծրագրի կարգավիճակը"</string>
+    <string name="enable_app">"Միացված է"</string>
+    <string name="disable_app">Անջատված է</string>
+    <string name="activity_not_found" product="default">"Հավելվածը տեղադրված չէ ձեր հեռախոսում:"</string>
+    <string name="lable_busy_on_call">Հեռախոսն զբաղված է զանգ կատարելու համար, խնդրում ենք նախ ավարտել զանգը</string>
+    <string name="lable_on_flight_mode">Այս ծրագիրը չի կարող օգտագործվել թռիչքի ռեժիմում</string>
+    <string name="utk_dialog_title">UIM Գործիքախումբ</string>
+    <string name="default_open_channel_msg">"Բացե՞լ կապուղին:"</string>
+    <string name="default_send_data_msg">"Տվյալների ուղարկում"</string>
+    <string name="default_receive_data_msg">"Տվյալների ստացում"</string>
+    <string name="default_close_channel_msg">"Կապուղին փակված է"</string>
+    <string name="utk_dialog_accept">"Այո"</string>
+    <string name="utk_dialog_reject">"Ոչ"</string>
+    <string name="utk_send_sms">Ուղարկում է հաղորդագրություն...</string>
+</resources>

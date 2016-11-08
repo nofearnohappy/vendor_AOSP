@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="MAX_BRIGHTNESS_LEVEL">255</integer>
+    <integer name="MAX_DARKENING_SPEED_LEVEL">255</integer>
+    <integer name="MAX_BRIGHTENING_SPEED_LEVEL">255</integer>
+    <integer name="MAX_SMARTBACKLIGHT_STRENGTH">255</integer>
+    <integer name="MAX_SMARTBACKLIGHT_RANGE">255</integer>
+    <integer name="MAX_READABILITY_LEVEL">255</integer>
+    <integer name="MAX_LOW_BL_READABILITY_LEVEL">255</integer>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <string name="tooltip_eq_title">智能等化器/圖形等化器</string>
+<string name="tooltip_eq_text">智能等化器可持續分析並動態調整音訊，以便符合所要的音調。從顯示的四個預設項中選擇，然後輕按上方的”頻譜虛擬化器”，對圖形等化器進行自訂修改。</string>
+
+<string name="tooltip_sv_title">環繞音效虛擬器</string>
+
+<string name="tooltip_sv_text">環繞音效虛擬器可讓各種耳機或立體聲喇叭發出親歷其境的環繞音效。可用「開」或「關」控制環繞音效功能。</string>
+
+<string name="tooltip_de_title">對白強化器</string>
+<string name="tooltip_de_text">對白強化器可提升各類媒體的話音清晰度。可用「開」或「關」控制對白強化功能。</string>
+<string name="tooltip_vl_title">音量調節器</string>
+<string name="tooltip_vl_text">音量調節器可根據裝置的主要音量值，為所有內容及應用程式提供一致的音量。可用「開」或「關」控制自動音量調節功能。 </string>
+
+</resources>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Переносная точка доступа Wi-Fi</string>
+    <string name="wifi_tether_introduction_text">Переносная точка доступа Wi-Fi позволяет подключить через устройство к Интернету одновременно до восьми других устройств.\n\nИмейте в виду, что другие устройства будут использовать мобильную сеть. Это может резко увеличить счета за телефон и сократить время работы аккумулятора.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Для использования устройства в качестве точки доступа к Wi-Fi и услугам мобильного интернета вставьте SIM-карту и перегрузите устройство.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Больше не выводить это сообщение</string>
+    <string name="wifi_tether_turn_off_wifi">Чтобы включить переносную точку доступа Wi-Fi, сначала потребуется отключить Wi-Fi-соединение. Продолжить?</string>
+    <string name="wifi_tether_settings_text">Настройки переносной точки доступа Wi-Fi</string>
+    <string name="tether_apn_settings_text">Имя точки доступа</string>
+    <string name="tether_apn_settings_subtext">Установите имя точки доступа (APN), которое будет использовать по умолчанию.</string>
+    <string name="usb_tethering_accessory_active_subtext">Точку доступа нельзя включить при использовании USB.</string>
+    <string name="operator_display">Показывать оператора сети</string>
+    <string name="operator_display_summary">Показывать оператора сети в панели состояния</string>
+    <string name="by_orange">разработчик: Orange</string>
+    <string name="recommended_by_orange">Рекомендовано Orange</string>
+    <string name="smsmms_app_name">Сообщения не активировано</string>
+    <string name="click_to_change_to_xms_app">Cообщения не используется по умолчанию для написания SMS.</string>
+    <string name="click_to_change_to_xms_app_line2">Коснитесь здесь, чтобы узнать подробнее.</string>
+    <string name="sms_change_default_dialog_text1">Приложение Сообщения протестировано Orange на предмет работы на этом устройстве.\n\n
+
+Использование других SMS-приложений может создать проблемы при отправке и получении сообщений SMS и MMS.\n\n
+
+Использовать <xliff:g id="new_app">%s</xliff:g> вместо <xliff:g id="current_app">%s</xliff:g> для написания SMS?</string>
+    
+</resources>

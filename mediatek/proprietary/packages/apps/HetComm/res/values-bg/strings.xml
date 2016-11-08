@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Турбосваляне</string>
+    <string name="hetcomm_intro">Бързо сваляне на големи файлове (над 20 MB) с едновременно използване на мрежи Wi-Fi и 4G/3G. Иконата Турбо сваляне се показва в лентата за статуса при активиране. За Турбо сваляне трябва да са активирани и Wi-Fi, и Mobile data (мобилни данни). Когато е разрешено, всички данни от избраните приложения за сваляне само с Wi-Fi ще бъдат винаги сваляни през WLAN и 4G/3G.</string>
+    <string name="enable_switch_on">"Включено"</string>
+    <string name="enable_switch_off">Изкл</string>
+    <string name="notify_top_title">Ускорител на сваляне</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Мобилни данни"</string>
+    <string name="conn_notice_title">Или Mobile или Wi-Fi е изключена.</string>
+    <string name="conn_notice_detail">За разрешаване на Турбо сваляне двете Wi-Fi и Mobile data трябва да са включени.</string>
+    <string name="conn_charging_warning">Свалянето през мобилни мрежи може да е свързано с допълнителни такси в зависимост.</string>
+    <string name="turn_on">Включете <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Турбо сваляне е Изкл защото Vpn е Вкл</string>
+    <string name="turn_off_due_to_tether">Турбо сваляне е Изкл защото Tethering е Вкл</string>
+    <string name="turn_off_due_to_shutdown">Турбо сваляне е Изкл поради затваряне на системата</string>
+    <string name="turn_off_due_to_roaming">Турбо сваляне е Изкл поради роуминг</string>
+    <string name="ratio_is_single">Скоростта на Wi-Fi/Mobile Data е малка. За ускоряване на свалянето Turbo download ще използва само Mobile data/Wi-Fi за сваляне на файловете.</string>
+    <string name="ratio_is_back">Turbo download използва пак Wi-Fi и Mobile data заедно за сваляне на файловете.</string>
+    <string name="action_help">"Помощ"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Помощ за сваляне турбо</u>\
+    </h1><br>Сваляне на големи файлове с максимална скорост с използване на Wi-Fi и 4G/3G едновременно.\
+    <h4>1. Отворете Настройки и чукнете на сваляне турбо.</h4>\
+    <h4>2. Чукнете на ключа за включване на сваляне турбо.</h4>\
+    <p><b>[Съвети ]</b> За ускоряване на свалянето при връзка и с Wi-Fi, и с 4G/3G от началото на свалянето.\
+    <p><b>[Съвети ]</b> Ако връзката Wi-Fi или 4G/3G е много бавна, използвайте по-бърза мрежова връзка за сваляне.\
+    <p><b>[Съвети ]</b> Скоростта и производителността на сваляне турбо могат да бъдат повлияни от мрежовата сред по време на свалянето.\
+    <br>&nbsp;&nbsp;- Ако сигналите са нестабилни, могат да влошат скоростта и производителността на функцията.\
+    <br>&nbsp;&nbsp;- Обаче средната скорост на сваляне ще бъде ""удвоена"" в сравнение с използването на Wi-Fi или 4G/3G поотделно.\
+    <p><b>[Съвети ]</b> Ако разликата в скоростите на Wi-Fi и 4G/3G е значителна (обикновено 2,5 пъти), сваляне турбо ще прекъсне или няма да действа за избягване на ниска производителност и скорост.\
+    <p><b>[Съвети ]</b> сваляне турбо се изключва автоматично при включване на Tethering/Vpn.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,20 @@
+This module provide a executable binary to run some xlog commad
+
+WHAT IT DOES?
+=============
+
+libja3m.so contains the native side JNI interface for the A3M engine.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+liblog libcutils
+and the following libs from MediaTek:
+
+libaed
+
+HOW TO USE IT?
+==============
+
+Just run it through adb command

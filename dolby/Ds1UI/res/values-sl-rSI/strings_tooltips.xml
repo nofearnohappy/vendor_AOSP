@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Inteligentni izenačevalnik/Grafični izenačevalnik</string>
+	<string name="tooltip_eq_text">Inteligentni izenačevalnik analizira in dinamično nastavi zvok, da ustreza želenmu tonu. Izberite iz štirih prikazanih prednastavitev, nato pa se dotaknite spektralnega vizualizatorja, da na grafičnem izenačevalniku izvedete spremembe po meri.</string>
+	<string name="tooltip_sv_title">Virtualiz. prost. zvoka</string>
+	<string name="tooltip_sv_text">Virtualizator prostorskega zvoka ustvari realističen prostorski zvok s katerihkoli slušalk ali stereo zvočnikov. Nastavite stikalo na vključeno ali izključeno, da nadzorujete učinek prostorskega zvoka.</string>
+	<string name="tooltip_de_title">Izboljševalnik pogovora</string>
+	<string name="tooltip_de_text">Izboljševalnik pogovora izboljša jasnost in čistost pogovora v vseh medijih. Nastavite stikalo na vključeno ali izključeno, da nadzirate izboljšavo dialoga.</string>
+	<string name="tooltip_vl_title">Izrav. jakosti zvoka</string>
+	<string name="tooltip_vl_text">Izravnalnik jakosti zvoka zagotovi dosledno jakost zvoka vseh vsebin in aplikacij na osnovi glavne zvočne ravni naprave. Nastavite stikalo na vključeno ali izključeno, da nadzirate samodejno izravnavanje zvoka.</string>
+</resources>

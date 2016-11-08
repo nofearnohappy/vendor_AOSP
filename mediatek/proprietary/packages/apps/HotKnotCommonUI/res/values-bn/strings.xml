@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">হটনট শেয়ার</string>
+    <string name="hint1">নিশ্চিত করুন রিসিভিং ডিভাইস হটনটে চালু হংয়েছে, এবং এর স্ক্রিন আনলক আছে।</string>
+    <string name="hint2">স্ক্রিন থেকে স্ক্রিন মুখী করে রিসিভিং ডিভাইসে আপনার ডিভাইসটি রাখুন।</string>
+    <string name="hint3">ভয়েস প্রম্পট শোনার পর রিসিভিং ডিভাইস থেকে আপনার ডিভাইস সরিয়ে নিন।</string>
+    <string name="use_hotknot">এই অ্যাপ্লিকেশনের আপনার ডিভাইসে হটনট প্রযুক্তি ব্যবহার করা প্রয়োজন।</string>
+    <string name="allow">অনুমতি দিন</string>
+    <string name="deny">প্রত্যাখান করুন</string>
+    <string name="fail_to_share">শেয়ার করতে ব্যর্থ হয়েছে</string>
+    <string name="fail_to_share_conn_error">সংযোগ সমস্যার কারণে শেয়ার করতে ব্যর্থ হয়েছে</string>
+    <string name="fail_to_share_unknown_error">অজানা ত্রুটির কারণে শেয়ার করতে ব্যর্থ হয়েছে</string>
+    <string name="try_again">আবার চেষ্টা করুন</string>
+    <string name="usb_warning">ইউএসবি চার্জিংয়ের সময় হটনট ফাংশন আক্রান্ত হতে পারে।</string>
+</resources>

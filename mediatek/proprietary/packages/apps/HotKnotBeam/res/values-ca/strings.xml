@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Inicia la recepció...</string>
+    <string name="notification_group_title">Rebent <xliff:g id="number">%d</xliff:g> fitxers...</string> 
+    <string name="notification_download_done">Toca per veure’n els detalls</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> fitxers rebuts</string>
+    <string name="notification_received">Rebut correctament</string> 
+    <string name="notification_download_failure">No s’ha pogut rebre degut a <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Recepció cancel·lada</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> fitxers han fallat</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> fitxers han fallat, <xliff:g id="number">%d</xliff:g> fitxers rebuts</string>
+    <string name="download_no_file">El fitxer no existeix</string>
+    <string name="notification_sending">Inici de l’enviament...</string>
+    <string name="notification_group_upload_title">Enviant <xliff:g id="number">%d</xliff:g> fitxers...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> fitxers enviats</string>
+    <string name="notification_sent">S’ha enviat correctament</string>
+    <string name="notification_upload_failed">No s’ha pogut enviar degut a <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Enviament cancel·lat</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> fitxers han fallat</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> fitxers han fallat, <xliff:g id="number">%d</xliff:g> fitxers enviats</string>
+    <string name="low_storage">emmagatzematge baix</string>
+    <string name="connect_failure">"Problema de connexió"</string>
+    <string name="unknown_error">Errada desconeguda</string>
+    <string name="share_label">HotKnot Share</string>
+    <string name="rx_ui_image_status">Rebent imatge de <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">S’estan rebent <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> imatges de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Rebent vídeo de <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">S’estan rebent <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> vídeos de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Rebent fitxer de <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">S’estan rebent <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> fitxers de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Rebent música de <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">S’està rebent <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> música de <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">La recepció no ha acabat</string>
+</resources>

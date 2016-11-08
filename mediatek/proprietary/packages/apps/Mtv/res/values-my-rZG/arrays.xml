@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<resources>    
+    <string-array name="supported_locations">
+		<item>အလိုအေလ်ာက္ ေရြးခ်ယ္ရန္</item>  
+        <item>တ႐ုတ္ျပည္မႀကီး</item>
+        <item>ထိုင္ဝမ္</item>
+        <item>တ႐ုတ္ ရွန္ဂ်န္</item>
+        <item>တ႐ုတ္ ေဟာင္ေကာင္</item>
+        <item>အာဖကန္နစၥတန္</item>
+        <item>အာဂ်င္တီးနား</item>
+        <item>ျသစေတးလ်</item>
+        <item>ဘရာဇီး</item>
+        <item>ျမန္မာ</item>
+        <item>ကေမၻာဒီးယား</item>
+        <item>ကေနဒါ</item>
+        <item>ခ်ီလီ</item>
+        <item>အေရွ႕ ဥေရာပ</item>
+        <item>အေနာက္ ဥေရာပ</item>
+        <item>ျပင္သစ္</item>
+        <item>ျပင္သစ္ ကိုလိုနီ</item>
+        <item>အိႏၵိယ</item>
+        <item>အင္ဒိုနီးရွား</item>
+        <item>အီရန္</item>
+        <item>အီတလီ</item>
+        <item>ဂ်ပန္</item>
+        <item>ကိုရီးယား</item>
+        <item>ေလာ</item>
+        <item>မေလးရွား</item>
+        <item>မကၠဆီကို</item>
+        <item>နယူးဇီလန္</item>
+        <item>ပါကစၥတန္</item>
+        <item>ပါရာေဂြး</item>
+        <item>ဖိလိပင္း</item>
+        <item>ေပၚတူဂီ</item>
+        <item>႐ုရွ</item>
+        <item>စင္ကာပူ</item>
+        <item>ေတာင္ အာဖရိက</item>
+        <item>စပိန္</item>
+        <item>ထိုင္း</item>
+        <item>တူရကီ</item>
+        <item>အာရပ္ေစာ္ဘြားမ်ား ျပည္ေထာင္စု</item>
+        <item>ယူႏိုက္တက္ကင္းဒမ္း</item>
+        <item>အေမရိကန္ ျပည္ေထာင္စု</item>
+        <item>ဥ႐ုေဂြး</item>
+        <item>ဗင္နီဇြဲလား</item>
+        <item>ဗီယက္နမ္</item>
+        <item>အိုင္ယာလန္</item>
+        <item>ေမာ္႐ိုကို</item>      
+</string-array>
+<string-array name="AudioFormats">
+<item>မိုႏို</item>
+<item>စတီရီယို</item>
+<item>SAP</item>
+<item>အခြဲ</item>
+<item>အဓိက အခြဲ</item>
+<item>ပင္မ</item>
+<item>Dual1</item>
+<item>Dual2</item>
+<item>NICAM မိုႏို</item>
+<item>NICAM စတီရီယို</item>
+<item>NICAM Dual1</item>
+<item>NICAM Dual2</item>
+</string-array>
+</resources>

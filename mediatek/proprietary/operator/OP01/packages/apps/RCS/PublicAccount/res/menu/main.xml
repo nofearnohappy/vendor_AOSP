@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mediatek.rcs.pam.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/action_history"/>
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/action_list"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/action_search"/>
+
+</menu>

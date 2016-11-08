@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein is
+ * confidential and proprietary to MediaTek Inc. and/or its licensors. Without
+ * the prior written permission of MediaTek inc. and/or its licensors, any
+ * reproduction, modification, use or disclosure of MediaTek Software, and
+ * information contained herein, in whole or in part, shall be strictly
+ * prohibited.
+ *
+ * MediaTek Inc. (C) 2010. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER
+ * ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
+ * WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR
+ * NONINFRINGEMENT. NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH
+ * RESPECT TO THE SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY,
+ * INCORPORATED IN, OR SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES
+ * TO LOOK ONLY TO SUCH THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO.
+ * RECEIVER EXPRESSLY ACKNOWLEDGES THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO
+ * OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES CONTAINED IN MEDIATEK
+ * SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK SOFTWARE
+ * RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S
+ * ENTIRE AND CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE
+ * RELEASED HEREUNDER WILL BE, AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE
+ * MEDIATEK SOFTWARE AT ISSUE, OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE
+ * CHARGE PAID BY RECEIVER TO MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek
+ * Software") have been modified by MediaTek Inc. All revisions are subject to
+ * any receiver's applicable license agreements with MediaTek Inc.
+ */
+-->
+
+<allapps xmlns:launcher="http://schemas.android.com/apk/res/com.mediatek.op09.plugin">
+    <!-- page 0, for common apps -->  
+    <application_item
+        launcher:appPackageName="com.android.mms"
+        launcher:appClassName="com.android.mms.ui.BootActivity"
+        launcher:page="0"
+        launcher:cellX="0"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.android.dialer"
+        launcher:appClassName="com.android.dialer.DialtactsActivity"
+        launcher:page="0"
+        launcher:cellX="1"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.android.contacts"
+        launcher:appClassName="com.android.contacts.activities.PeopleActivity"
+        launcher:page="0"
+        launcher:cellX="2"
+        launcher:cellY="0"/>
+         
+    <application_item
+        launcher:appPackageName="com.android.browser"
+        launcher:appClassName="com.android.browser.BrowserActivity"
+        launcher:page="0"
+        launcher:cellX="3"
+        launcher:cellY="0"/>
+                
+    <application_item
+        launcher:appPackageName="com.android.settings"
+        launcher:appClassName="com.android.settings.Settings"
+        launcher:page="0"
+        launcher:cellX="0"
+        launcher:cellY="1"/>
+                
+    <application_item
+        launcher:appPackageName="com.android.gallery3d"
+        launcher:appClassName="com.android.camera.CameraLauncher"
+        launcher:page="0"
+        launcher:cellX="1"
+        launcher:cellY="1"/>
+                
+    <application_item
+        launcher:appPackageName="com.android.calendar"
+        launcher:appClassName="com.android.calendar.AllInOneActivity"
+        launcher:page="0"
+        launcher:cellX="2"
+        launcher:cellY="1"/>
+          
+    <application_item
+        launcher:appPackageName="com.android.deskclock"
+        launcher:appClassName="com.android.deskclock.DeskClock"
+        launcher:page="0"
+        launcher:cellX="3"
+        launcher:cellY="1"/>
+
+    <!-- page 1 Reserved for CT Apps -->
+    <application_item
+        launcher:appPackageName="im.yixin"
+        launcher:appClassName="im.yixin.activity.WelcomeActivity"
+        launcher:page="1"
+        launcher:cellX="0"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.youku.phone"
+        launcher:appClassName="com.youku.phone.ActivityWelcome"
+        launcher:page="1"
+        launcher:cellX="1"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="cn.kuwo.player"
+        launcher:appClassName="cn.kuwo.player.activities.EntryActivity"
+        launcher:page="1"
+        launcher:cellX="2"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.netease.newsreader.activity"
+        launcher:appClassName="com.netease.nr.biz.ad.AdActivity"
+        launcher:page="1"
+        launcher:cellX="3"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.peopledailychina.activity"
+        launcher:appClassName="com.peopledailychina.activity.WelcomeActivity"
+        launcher:page="1"
+        launcher:cellX="0"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.chaozh.iReader"
+        launcher:appClassName="com.chaozh.iReader.ui.activity.WelcomeActivity"
+        launcher:page="1"
+        launcher:cellX="1"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.UCMobile"
+        launcher:appClassName="com.UCMobile.main.UCMobile"
+        launcher:page="1"
+        launcher:cellX="2"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.qihoo.browser"
+        launcher:appClassName="com.qihoo.browser.activity.SplashActivity"
+        launcher:page="1"
+        launcher:cellX="3"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.besttone.elocal"
+        launcher:appClassName="com.besttone.elocal.LoadingActivity"
+        launcher:page="1"
+        launcher:cellX="0"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="com.imusic.iting"
+        launcher:appClassName="com.gwsoft.imusic.controller.LoadingActivity"
+        launcher:page="1"
+        launcher:cellX="1"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="com.lectek.android.sfreader"
+        launcher:appClassName="com.lectek.android.sfreader.ui.SplashActivity"
+        launcher:page="1"
+        launcher:cellX="2"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="com.telecom.video"
+        launcher:appClassName="com.telecom.video.ui.activity.LoadingActivity"
+        launcher:page="1"
+        launcher:cellX="3"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="com.egame"
+        launcher:appClassName="com.egame.app.FlashScreenActivity"
+        launcher:page="1"
+        launcher:cellX="0"
+        launcher:cellY="3"/>
+
+    <application_item
+        launcher:appPackageName="com.eshore.ezone"
+        launcher:appClassName="com.eshore.ezone.StartActivity"
+        launcher:page="1"
+        launcher:cellX="1"
+        launcher:cellY="3"/>
+
+    <application_item
+        launcher:appPackageName="com.erdo.android.FJDXCartoon"
+        launcher:appClassName="cn.icartoons.icartoon.activity.homepage.Activity_Start"
+        launcher:page="1"
+        launcher:cellX="2"
+        launcher:cellY="3"/>
+
+    <application_item
+        launcher:appPackageName="cn.ffcs.wisdom.city"
+        launcher:appClassName="cn.ffcs.wisdom.city.WelcomeActivity"
+        launcher:page="1"
+        launcher:cellX="3"
+        launcher:cellY="3"/>
+        
+    <application_item
+        launcher:appPackageName="cn.egame.terminal.client4g"
+        launcher:appClassName="cn.egame.terminal.client4g.uis.Egame4GFlashActivity"
+        launcher:page="1"
+        launcher:cellX="0"
+        launcher:cellY="4"/>    
+
+     <application_item
+        launcher:appPackageName="com.telecom.video.ikan4g"
+        launcher:appClassName="com.telecom.video.ikan4g.ui.activity.LoadingActivity"
+        launcher:page="1"
+        launcher:cellX="1"
+        launcher:cellY="4"/>
+        
+
+    <!-- page 2, for ct apps -->
+    <application_item
+        launcher:appPackageName="com.taobao.taobao"
+        launcher:appClassName="com.taobao.tao.Welcome"
+        launcher:page="2"
+        launcher:cellX="0"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.autonavi.minimap"
+        launcher:appClassName="com.autonavi.minimap.Splashy"
+        launcher:page="2"
+        launcher:cellX="1"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.tencent.qqpimsecure"
+        launcher:appClassName="com.tencent.qqpimsecure.ui.activity.SplashActivity"
+        launcher:page="2"
+        launcher:cellX="2"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.corp21cn.mail189"
+        launcher:appClassName="com.corp21cn.mailapp.activity.ClientIntroducePage"
+        launcher:page="2"
+        launcher:cellX="3"
+        launcher:cellY="0"/>
+
+    <application_item
+        launcher:appPackageName="com.pdager"
+        launcher:appClassName="com.pdager.enavi.Act.APIMain"
+        launcher:page="2"
+        launcher:cellX="0"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.ct.client"
+        launcher:appClassName="com.ct.client.SplashActivity"
+        launcher:page="2"
+        launcher:cellX="1"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.mediatek.vnet"
+        launcher:appClassName="com.mediatek.vnet.VNet"
+        launcher:page="2"
+        launcher:cellX="2"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.chinatelecom.pim"
+        launcher:appClassName="com.chinatelecom.pim.activity.PimLauncherActivity"
+        launcher:page="2"
+        launcher:cellX="3"
+        launcher:cellY="1"/>
+
+    <application_item
+        launcher:appPackageName="com.besttone.hall"
+        launcher:appClassName="com.besttone.hall.UIMain"
+        launcher:page="2"
+        launcher:cellX="0"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="com.chinatelecom.bestpayclient"
+        launcher:appClassName="com.chinatelecom.bestpayclient.BufferActivity"
+        launcher:page="2"
+        launcher:cellX="1"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="telecom.mdesk"
+        launcher:appClassName="telecom.mdesk.Launcher"
+        launcher:page="2"
+        launcher:cellX="2"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="com.akazam.android.wlandialer"
+        launcher:appClassName="com.akazam.android.wlandialer.StartActivity"
+        launcher:page="2"
+        launcher:cellX="3"
+        launcher:cellY="2"/>
+
+    <application_item
+        launcher:appPackageName="com.cn21.ecloud"
+        launcher:appClassName="com.cn21.ecloud.activity.StartActivity"
+        launcher:page="2"
+        launcher:cellX="0"
+        launcher:cellY="3"/>
+
+    <application_item
+        launcher:appPackageName="com.android.utk"
+        launcher:appClassName="com.android.utk.UtkLauncherActivity"
+        launcher:page="2"
+        launcher:cellX="1"
+        launcher:cellY="3"/>
+
+    <application_item
+        launcher:appPackageName="com.mediatek.csm"
+        launcher:appClassName="com.mediatek.csm.CustomerServiceMenu"
+        launcher:page="2"
+        launcher:cellX="2"
+        launcher:cellY="3"/>
+
+    <application_item
+        launcher:appPackageName=""
+        launcher:appClassName=""
+        launcher:page="2"
+        launcher:cellX="3"
+        launcher:cellY="3"/>
+
+    <application_item
+        launcher:appPackageName=""
+        launcher:appClassName=""
+        launcher:page="3"
+        launcher:cellX="0"
+        launcher:cellY="0"/>
+</allapps>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+     <CheckBoxPreference android:key="sim_radio_state"
+         android:persistent="false"
+         android:title="@string/enable_sim_radio"/>
+     <Preference
+         android:key="current_network_info"
+         android:persistent="false"
+         android:title="@string/current_network_info_title"> 
+     </Preference>
+     <Preference
+         android:key="manual_network_selection"
+         android:persistent="false"
+         android:title="@string/manual_network_selection_title"> 
+     </Preference>
+     <CheckBoxPreference
+         android:key="manual_network_selection_gsm"
+         android:persistent="false"
+         android:title="@string/manual_network_selection_title"> 
+     </CheckBoxPreference>
+     <Preference
+         android:key="notes"
+         android:title="@string/ir_slot1_notes_summary"/>
+     <Preference
+         android:key="roaming_hotline"
+         android:title="@string/roaming_hotline_title"
+         android:summary="@string/summary_free_service">
+     </Preference>
+ </PreferenceScreen>

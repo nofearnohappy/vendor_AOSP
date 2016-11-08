@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">เริ่มรับ...</string>
+    <string name="notification_group_title">กำลังรับ <xliff:g id="number">%d</xliff:g> ไฟล์...</string> 
+    <string name="notification_download_done">แตะเพื่อดูรายละเอียด</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> ไฟล์ได้รับ</string>
+    <string name="notification_received">รับสำเร็จ</string> 
+    <string name="notification_download_failure">ไม่สามารถรับเนื่องจาก <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">การรับถูกยกเลิก</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> ไฟล์ล้มเหลว</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> ไฟล์ล้มเหลว, <xliff:g id="number">%d</xliff:g> ไฟล์ได้รับ</string>
+    <string name="download_no_file">ไม่มีไฟล์</string>
+    <string name="notification_sending">เริ่มการส่ง...</string>
+    <string name="notification_group_upload_title">กำลังส่ง <xliff:g id="number">%d</xliff:g> ไฟล์...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> ไฟล์ถูกส่ง</string>
+    <string name="notification_sent">ส่งสำเร็จ</string>
+    <string name="notification_upload_failed">ไม่สามารถส่งเนื่องจาก <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">การส่งถูกยกเลิก</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> ไฟล์ล้มเหลว</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> ไฟล์ล้มเหลว, <xliff:g id="number">%d</xliff:g> ไฟล์ถูกส่ง</string>
+    <string name="low_storage">ที่เก็บข้อมูลเหลือน้อย</string>
+    <string name="connect_failure">"ปัญหาการเชื่อมต่อ"</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="share_label">HotKnot แชร์</string>
+    <string name="rx_ui_image_status">กำลังรับภาพจาก <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">กำลังรับ <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ภาพจาก <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">กำลังรับวิดีโอจาก <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">กำลังรับ <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> วิดีโอจาก <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">กำลังรับไฟล์จาก <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">กำลังรับ <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ไฟล์จาก <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">กำลังรับเพลงจาก <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">กำลังรับ <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> เพลงจาก <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">การรับไม่เสร็จ</string>
+</resources>

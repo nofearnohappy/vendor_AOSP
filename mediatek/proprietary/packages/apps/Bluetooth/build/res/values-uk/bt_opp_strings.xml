@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Запит вхідного файла"</string>
+	<string name="bt_opp_notification_in_coming_title">"Запит вхідного файла (від %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Виберіть, щоб прийняти вхідний файл."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Дозвол. передав. вхідн. файлів"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Отримання: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Вихідний файл"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Надсилання: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Підключено до передачі файлів"</string>
+	<string name="bt_opp_cancel_task_message">"Скасувати цю передачу"</string>
+	<string name="bt_opp_cancel_task_yes">"Так"</string>
+	<string name="bt_opp_cancel_task_no">Нема застосунків для друку контактів.</string>
+	<string name="bt_opp_canceling_task_message">"Скасувати передачу, будь ласка, почекайте..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - Вхідний об'єкт"</string>
+	<string name="bt_opps_confirm_push_message">"Вхідний файл: %1$s (%2$s) від %3$s. Прийняти?</string>
+	<string name="bt_opps_confirm_push_yes">Чи прийняти послугу авто-направлення?</string>
+	<string name="bt_opps_confirm_push_no">Відхилити</string>
+	<string name="bt_oppc_push_action_label">"Відтвор. через Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Надсилання файла до %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Надсилання файлів до %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Не підтримується зміст спільного користування: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Нема карти SD або мало місця для вхідного файла."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Недійсний запит про спільне користування від віддаленого пристрою."</string>
+</resources>

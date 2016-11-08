@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_dun_authorize_title">"Bluetooth арқылы қосылуға рұқсат ету"</string>
+	<string name="bluetooth_dun_authorize_message">"%1$s қосылу сауалына рұқсат етесіз бе?"</string>
+	<string name="bluetooth_dun_authorize_allow">Рұқсат ету</string>
+	<string name="bluetooth_dun_authorize_decline">Деректерді беру жылдамдығы төмендейді.</string>
+	<string name="bluetooth_dun_notification_connect_request_ticker">"Bluetooth арқылы байланысуға рұқсат алу сауалы"</string>
+	<string name="bluetooth_dun_notification_connect_request_title">"Bluetooth арқылы байланысуға рұқсат алу сауалы"</string>
+	<string name="bluetooth_dun_notification_connect_request_message">"%1$s сауалын қабылдау үшін таңдаңыз"</string>
+</resources>

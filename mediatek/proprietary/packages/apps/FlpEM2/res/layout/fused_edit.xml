@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left">
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/fused_session_id" style="@style/info_label" />
+     <TextView android:id="@+id/edit_session_id" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/max_power_allocation_in_mw" style="@style/info_label" />
+     <EditText android:id="@+id/edit_max_power_allocation_in_mw" style="@style/full_edit" android:maxLength="15" android:inputType="numberDecimal"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/smallest_displacement_meters" style="@style/info_label" />
+     <EditText android:id="@+id/edit_smallest_displacement_meters" style="@style/full_edit" android:maxLength="15" android:inputType="numberDecimal"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/period" style="@style/info_label" />
+     <EditText android:id="@+id/edit_period" style="@style/full_edit" android:maxLength="18" android:inputType="number"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/source" style="@style/info_label" />
+  <LinearLayout style="@style/vertical_layout">
+      <CheckBox android:id="@+id/edit_gnss" android:text="@string/gnss" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_wifi" android:text="@string/wifi" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_sensors" android:text="@string/sensors" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_cell" android:text="@string/cell" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_bt" android:text="@string/bt" style="@style/base"/>
+  </LinearLayout>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/batch_flag" style="@style/info_label" />
+     <RadioGroup style="@style/vertical_layout">
+  <RadioButton android:id="@+id/edit_callback_on_location_fix" android:text="@string/callback_on_location_fix" style="@style/base"/>
+  <RadioButton android:id="@+id/edit_wakeup_on_fifo_full" android:text="@string/wakeup_on_fifo_full" style="@style/base"/>
+  <RadioButton android:id="@+id/edit_none" android:text="@string/none" style="@style/base"/>
+  </RadioGroup>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/edit_ok" android:text="@string/ok" style="@style/base"/>
+  <Button android:id="@+id/edit_cancel" android:text="@string/cancel" style="@style/base"/>
+ </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

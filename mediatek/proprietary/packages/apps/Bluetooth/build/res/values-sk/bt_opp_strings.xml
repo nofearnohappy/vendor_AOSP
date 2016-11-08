@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Požiadavka na prichádzajúci súbor"</string>
+	<string name="bt_opp_notification_in_coming_title">"Požiadavka na prichádzajúci súbor (z: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Vyberte, ak chcete prijať prichádzajúci súbor."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Povoliť prichádzajúce prenosy súborov"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Prebieha príjem: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Odchádzajúci súbor"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Prebieha odosielanie: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Pripojené na prenos súborov"</string>
+	<string name="bt_opp_cancel_task_message">"Zrušiť tento prenos?"</string>
+	<string name="bt_opp_cancel_task_yes">"Áno"</string>
+	<string name="bt_opp_cancel_task_no">Pre tlač kontaktu nie je k dispozícii žiadna aplikácia.</string>
+	<string name="bt_opp_canceling_task_message">"Prebieha zrušenie prenosu, čakajte prosím..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - prichádzajúci predmet"</string>
+	<string name="bt_opps_confirm_push_message">"Prichádzajúci súbor: %1$s (%2$s) od %3$s. Prijať?"</string>
+	<string name="bt_opps_confirm_push_yes">Prijať alebo neprijať službu Auto-push?</string>
+	<string name="bt_opps_confirm_push_no">Odmietnuť</string>
+	<string name="bt_oppc_push_action_label">"Prehrávanie pomocou rozhrania Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Prebieha odoslanie súboru do %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Prebieha odoslanie súborov do %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Nepodporované zdieľanie obsahu: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Karta SD nie je vložená alebo pre prichádzajúci súbor je málo miesta v pamäti."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Neplatná požiadavka na zdieľanie zo vzdialeného zariadenia."</string>
+</resources>

@@ -1,0 +1,15 @@
+MoblePortal is required by specific operator. It has to be preinstalled on the operator project.
+You can launch "http://10086.cn/m" by this apk.
+
+
+WHAT IT DOES?
+=============
+This apk is a shortcut to launch "http://10086.cn/m".
+
+HOW IT WAS BUILT?
+==================
+It will be preinstalled on the operator project.
+
+HOW TO USE IT?
+==============
+End user can launch "http://10086.cn/m" by it

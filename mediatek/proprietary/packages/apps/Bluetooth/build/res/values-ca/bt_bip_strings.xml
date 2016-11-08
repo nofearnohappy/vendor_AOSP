@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"Transferència d'imatges per Bluetooth"</string>
+	<string name="bt_bipi_push_confirmation">"Confirmació d'enviament d'imatges"</string>
+	<string name="bt_bipi_unsupported_format">"El receptor no admet la codificació. \nVoleu continuar amb l'enviament?"</string>
+	<string name="bt_bipi_push_confirmation_ok">Centre de Servei SMS establert</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Realment vols cancel·lar la descàrrega?\nPrem Continua per seguir descarregant\nPrem Descarta per descartar la descàrrega i esborrar el fitxer descarregat"</string>
+	<string name="bt_bip_transmitting_dialog_hide">Amaga el vídeo local</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Realment vols cancel·lar la descàrrega?\nPrem Continua per seguir descarregant\nPrem Descarta per descartar la descàrrega i esborrar el fitxer descarregat"</string>
+	<string name="bt_bip_transmitting_dialog_ok">Centre de Servei SMS establert</string>
+	<string name="bt_bip_transmitting_dialog_yes">"Sí"</string>
+	<string name="bt_bip_transmitting_dialog_no">No hi ha cap aplicació disponible per imprimir el contacte.</string>
+	<string name="bt_bip_transmitting">"Enviant imatge %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"La imatge %1$s s'ha enviat"</string>
+	<string name="bt_bip_transmitting_fail">"No s'ha pogut enviar la imatge %1$s"</string>
+	<string name="bt_bip_cancel_pending_job">"Voleu cancel·lar la transmissió pendent?"</string>
+	<string name="bt_bip_pending_job">"Enviar %1$s (pendent)"</string>
+	<string name="bt_bipr_incoming_request">"Sol·licitud d'imatge rebuda"</string>
+	<string name="bt_bipr_incoming_request_description">"Seleccioneu per rebre %1$s"</string>
+	<string name="bt_bipr_accept_title">"Sol·licitud d'imatge rebuda"</string>
+	<string name="bt_bipr_accept_content">"Voleu acceptar "%1$s (%2$sKB)" des de "%3$s" ?"</string>
+	<string name="bt_bipr_accept_always">"Acceptar sempre?"</string>
+	<string name="bt_bipr_accept_yes">"Sí"</string>
+	<string name="bt_bipr_accept_no">No hi ha cap aplicació disponible per imprimir el contacte.</string>
+	<string name="bt_bip_receiving">"Rebent imatge %1$s"</string>
+	<string name="bt_bip_receiving_successful">"La imatge %1$s s'ha rebut.\nVoleu veure-la?"</string>
+	<string name="bt_bip_receiving_fail">"No s'ha pogut rebre la imatge %1$s"</string>
+	<string name="bt_bip_toast_connect_fail">"La connexió de dades ha fallat o la xarxa està ocupada ara."</string>
+	<string name="bt_bip_toast_storage_unmounted">Abans d’activar el client d’FTP, comprova si la targeta SD està a punt.</string>
+	<string name="bt_bip_toast_sending_object">"Enviant imatge %1$s"</string>
+	<string name="bt_bip_auth_password">Contrasenya:\u0020</string>
+	<string name="bt_bip_auth_userid">Id. del servidor:\u0020</string>
+	<string name="bt_bip_auth_ok">Centre de Servei SMS establert</string>
+	<string name="bt_bip_auth_cancel">"Realment vols cancel·lar la descàrrega?\nPrem Continua per seguir descarregant\nPrem Descarta per descartar la descàrrega i esborrar el fitxer descarregat"</string>
+</resources>

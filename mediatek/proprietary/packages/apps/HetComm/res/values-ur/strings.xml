@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">ٹربو ڈاؤن لوڈ</string>
+    <string name="hetcomm_intro">بیک وقت Wi-Fi اور 4G/3G کا استعمال کرکے بڑی فائلوں (20 MB سے زیادہ) کو تیزی سے ڈاؤن لوڈ کریں۔ ٹربو ڈاؤن لوڈ آئیکن چلتے وقت اسٹیٹس بار پر نظر آئے گا۔ ٹربو ڈاؤن لوڈ استعمال کرنے کے لیے، Wi-Fi اور موبائل ڈیٹا دونوں آن ہونا ضروری ہے۔ اس کے فعال ہونے پر، آپ کے ذریعہ صرف Wi-Fi کے ذریعہ ڈاؤن لوڈ کے لیے منتخب کردہ کوئی ایپلیکیشن ڈیٹا WLAN اور 4G/3G کے ذریعہ ڈاؤن لوڈ کیا جائے گا</string>
+    <string name="enable_switch_on">آن</string>
+    <string name="enable_switch_off">بند</string>
+    <string name="notify_top_title">ڈاؤن لوڈ ایکسیلریٹر</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">Wi-Fi</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">موبائل ڈيٹا</string>
+    <string name="conn_notice_title">یا تو موبائل یا Wi-Fi آف ہے۔</string>
+    <string name="conn_notice_detail">ٹربو ڈاؤن لوڈ فعال کرنے کے لیے، Wi-Fi اور موبائل ڈیٹا دونوں آن ہونا ضروری ہے۔</string>
+    <string name="conn_charging_warning">موبائل نیٹ ورک سے جڑنا زائد اخراجات کا سبب بن سکتا ہے۔</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> کو آن کریں۔</string>
+    <string name="turn_off_due_to_vpn">Vpn آن ہونے کی وجہ سے ٹربو ڈاؤن لوڈ بند ہے</string>
+    <string name="turn_off_due_to_tether">ٹیتھرنگ آن ہونے کی وجہ سے ٹربو ڈاؤن لوڈ آف ہے</string>
+    <string name="turn_off_due_to_shutdown">بند ہونے کی وجہ سے ٹربو ڈاؤن لوڈ آف ہے</string>
+    <string name="turn_off_due_to_roaming">رومنگ کی وجہ سے ٹربو ڈاؤن لوڈ آف ہے</string>
+    <string name="ratio_is_single">Wi-Fi/موبائل ڈیٹا کی رفتار سست ہے۔ ڈاؤن لوڈ کو تیز کرنے کے لیے، ٹربو ڈاؤن لوڈ فائلوں کو ڈاؤن لوڈ کرنے کے لیے صرف موبائل ڈیٹا/Wi-Fi استعمال کرے گا۔</string>
+    <string name="ratio_is_back">ٹربو ڈاؤن لوڈ فائلوں کو ڈاؤن لوڈ کرنے کے لیے  ایک ساتھ Wi-Fi اور موبائل ڈیٹا دوبارہ استعمال کرتا ہے۔</string>
+    <string name="action_help">مدد</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbo مدد ڈاؤن لوڈ کریں</u>\
+  </h1><br> ایک ہی وقت میں Wi-Fi اور 4G/3G استعمال کرکے اعلی رفتار پر بڑی فائلیں ڈاؤن لوڈ کریں۔\
+    <h4>1. سیٹنگز پر جائیں اور ٹربو ڈاؤن لوڈ پر تھپکی دیں</h4>\
+    <h4>2. ٹربو ڈاؤن لوڈ آن کرنے کے لیے سوئچ پر تھپکی دیں</h4>\
+    <p><b>[نکتہ]</b> اپنے ڈاؤن لوڈ کو تیز کرنے کے لیے اگر آپ اپنے ڈاؤن لوڈ کی شروعات میںWi-Fi اور 4G/3G دونوں سے جڑے ہوئے ہوں۔\
+    <p><b>[نکتہ]</b> اگر Wi-Fi یا 4G/3G کنکشن بہت سست ہو تو، آپ ڈاؤن لوڈ کرنے کے لیے اپنے تیز رفتار نیٹ ورک کنکشن کا استعمال کرسکتے ہیں۔\
+    <p><b>[نکتہ]</b> ٹربو ڈاؤن لوڈ کی رفتار اور کارکردگی ڈاؤن لوڈ کرتے وقت نیٹ ورک ماحول سے متاثر ہوسکتی ہے۔\
+    <br>&nbsp;&nbsp;- اگر سگنلز غیر مستحکم ہوں تو، اس خصوصیت کی رفتار اور کارکردگی متاثر ہوسکتی ہے۔\
+    <br>&nbsp;&nbsp;- البتہ، اوسطاً، ڈاؤن لوڈ کی رفتارصرف Wi-Fi یا  4G/3G کے مقابلے ""دوگنی"" ہوجائے گی۔\
+    <p><b>[نکتہ]</b> جب Wi-Fi اور 4G/3G میں رفتار کا فرق زیادہ (عام طور پر 2.5 گنا) ہو تو، رفتار کے معاملے میں خراب کارکردگی سے بچنے کے لیے ٹربو ڈاؤن لوڈ رک جائے گا یا تعاون نہیں کرے گا۔\
+    <p><b>[نکتہ]</b> ٹیتھرنگ/Vpn آن ہونے پر ٹربو ڈاؤن لوڈ خود بخود آن ہوجائے گا۔\
+    </body></html>]]>"</string>
+</resources>

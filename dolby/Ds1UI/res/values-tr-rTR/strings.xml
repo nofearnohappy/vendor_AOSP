@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Akıllı Dengeleyici</string>
+	<string name="surround_virtualizer">Surround Sanallaştırıcı</string>
+	<string name="dialogue_enhancer">Diyalog Netleştirici</string>
+	<string name="volume_leveler">Ses Düzeyi Düzenleyici</string>
+	<string name="copyright">Dolby ve çift D sembolü Dolby Laboratories’in tescilli ticari markalarıdır. \u00a9 2013 Dolby Laboratories Inc. Tüm hakları saklıdır.</string>
+	<string name="movie">Film</string>
+	<string name="music">Müzik</string>
+	<string name="game">Oyun</string>
+	<string name="voice">Diyalog</string>
+	<string name="preset_1">Kişisel 1</string>
+	<string name="preset_2">Kişisel 2</string>
+	<string name="open">Açık</string>
+	<string name="rich">Zengin</string>
+	<string name="focused">Odaklı</string>
+	<string name="off">Kapalı</string>
+	<string name="custom">Manuel</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Grafik Dengeleyici</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Demoyu Oynat</string>
+</resources>

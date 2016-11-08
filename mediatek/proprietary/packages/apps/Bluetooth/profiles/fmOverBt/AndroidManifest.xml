@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1" android:versionName="1.0" package="com.mediatek.bluetooth"
+	android:sharedUserId="android.uid.mtkbt">
+	
+<!-- BLUEANGEL::IF MTK_BT_PROFILE_FMOVERBT -->
+	
+	<!-- FM over BT Start -->
+        <service android:name="com.mediatek.bluetooth.fmOverBt.FmOverBtService" android:exported="true" >
+            <intent-filter>
+                <action android:name="com.mediatek.bluetooth.fmOverBt.IFmOverBtService"/>
+                <action android:name="com.mediatek.bluetooth.fmOverBt.FmOverBtService"/>
+            </intent-filter>
+        </service>    
+        
+   <!-- FM over BT END -->   
+   
+<!-- BLUEANGEL::FI MTK_BT_PROFILE_FMOVERBT --> 
+
+</manifest> 

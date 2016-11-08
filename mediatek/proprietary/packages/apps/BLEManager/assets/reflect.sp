@@ -1,0 +1,6 @@
+1.0
+vertex_source_file reflect.vert
+fragment_source_file reflect.frag
+
+uniform u_t_modelViewProjection T_MODEL_VIEW_PROJECTION
+uniform u_mirrorTexture M_MIRROR_TEXTURE

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<service uuid="00001806-0000-1000-8000-00805f9b34fb" service_type="Primary" extra_info="Reference Time Update Service">
+    <characteristic uuid="00002a16-0000-1000-8000-00805f9b34fb" extra_info="Time Update Control Point">
+        <property>
+            <broadcast>no</broadcast>
+            <read>no</read>
+            <write_no_response>yes</write_no_response>
+            <write>no</write>
+            <notify>no</notify>
+            <indicate>no</indicate>
+            <signed_write>no</signed_write>
+            <extended_props>no</extended_props>
+        </property>
+        <permission>
+            <read>no</read>
+            <read_encrypted>no</read_encrypted>
+            <read_encrypted_mitm>no</read_encrypted_mitm>
+            <write>yes</write>
+            <write_encrypted>no</write_encrypted>
+            <write_encrypted_mitm>no</write_encrypted_mitm>
+            <write_signed>no</write_signed>
+            <write_signed_mitm>no</write_signed_mitm>
+        </permission>
+    </characteristic>
+    <characteristic uuid="00002a17-0000-1000-8000-00805f9b34fb" extra_info="Time Update State">
+        <property>
+            <broadcast>no</broadcast>
+            <read>yes</read>
+            <write_no_response>no</write_no_response>
+            <write>no</write>
+            <notify>no</notify>
+            <indicate>no</indicate>
+            <signed_write>no</signed_write>
+            <extended_props>no</extended_props>
+        </property>
+        <permission>
+            <read>yes</read>
+            <read_encrypted>no</read_encrypted>
+            <read_encrypted_mitm>no</read_encrypted_mitm>
+            <write>no</write>
+            <write_encrypted>no</write_encrypted>
+            <write_encrypted_mitm>no</write_encrypted_mitm>
+            <write_signed>no</write_signed>
+            <write_signed_mitm>no</write_signed_mitm>
+        </permission>
+    </characteristic>
+</service>

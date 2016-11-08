@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+This is a mediatek sdk using to tranform an image 
+
+
+HOW IT WAS BUILT?
+==================
+Build command:mmm vendor/mediatek/proprietary/frameworks/base/media/imageTransform
+
+
+HOW TO USE IT?
+==============
+please refer to its sdk documents

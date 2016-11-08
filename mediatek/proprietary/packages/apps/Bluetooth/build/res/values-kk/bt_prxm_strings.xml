@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">Ескерту жоқ</string>
+	<string name="bt_prxm_alert_level_mild">Орта деңгейдегі ескерту</string>
+	<string name="bt_prxm_alert_level_high">Жоғары деңгейдегі ескерту</string>
+	<string name="bt_prxm_device_mgmt_label">Bluetooth жақындығы</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">Bluetooth қолдауынсыз жұмыс істемейді</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">Bluetooth қосылмай жұмыс істемейді</string>
+	<string name="bt_prxm_device_mgmt_title">Bluetooth жақындық мониторы</string>
+	<string name="bt_prxm_device_mgmt_add_device">Құрылғы қосу</string>
+	<string name="bt_prxm_device_mgmt_remove_device">Құрылғыны алып тастау</string>
+	<string name="bt_prxm_device_mgmt_device_list">Жақындық құрылғылары</string>
+	<string name="bt_prxm_device_pref_device_setting">Байланыстың үзілуі: %1$s / Жолды жоғалту: %2$s</string>
+	<string name="bt_prxm_devs_title">Жақындық параметрлері</string>
+	<string name="bt_prxm_devs_connect_title">Қосылу</string>
+	<string name="bt_prxm_devs_connect_summary">Жақындық құрылғысына қосылу</string>
+	<string name="bt_prxm_devs_connect_failed">Қосылу орындалмады</string>
+	<string name="bt_prxm_devs_disconnect_failed">Өшіру орындалмады</string>
+	<string name="bt_prxm_find_device_title">Құрылғыны табу</string>
+	<string name="bt_prxm_find_device_summary">Дабылды іске қосу арқылы құрылғыны табу</string>
+	<string name="bt_prxm_find_device_cancel_summary">Мақсатты құрылғыдағы дабылды болдырмау үшін басыңыз</string>
+	<string name="bt_prxm_devs_link_loss_group_title">Байланыстың үзілуі</string>
+	<string name="bt_prxm_devs_link_loss_level_title">Байланыс үзілуінің ескерту деңгейі</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">Ескерту деңгейін орнату</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">Байланыс үзілуінің ескерту деңгейін орнату орындалмады</string>
+	<string name="bt_prxm_devs_path_loss_group_title">Жолдың жоғалуы</string>
+	<string name="bt_prxm_devs_path_loss_level_title">Жол жоғалуының екерту деңгейі</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">Ескерту деңгейін орнату</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">Жолдың жоғалу шегі</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">Сигнал деңгейінің шегін орнату</string>
+	<string name="bt_prxm_plt_current_rssi">Қашықтықтың ағымдағы бағасы</string>
+	<string name="bt_prxm_plt_using_current_rssi">Қашықтықтың ағымдағы бағасын жолдың жоғалуын ескерту шегі үшін пайдаланыңыз</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">Жолдың жоғалу шегі</string>
+</resources>

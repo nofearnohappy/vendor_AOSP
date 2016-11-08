@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:key="item1"
+        android:title="group vCard"/>
+    
+    <Preference
+        android:key="item2"
+        android:title="group chat"/>
+     
+    <Preference
+        android:key="item3"
+        android:title="add contact"/>
+
+    <Preference
+        android:key="item4"
+        android:title="add group"/>
+    
+    <Preference
+        android:key="item5"
+        android:title="vCard preview"/>
+
+     <Preference
+        android:key="item6"
+        android:title="2D code card"/>
+
+     <Preference
+        android:key="item7"
+        android:title="my number"/>
+
+     <Preference
+        android:key="item8"
+        android:title="cmcc qrcode"/>
+
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+Library of MTK ape decode modules.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+The exe contains MediaTek developed apis related the ape decode modules.  
+
+HOW IT WAS BUILT?
+==================
+
+HOW TO USE IT?
+==============
+
+Provide api for the ape decode features.
+all api interface are at (vendor/mediatek/proprietary/external/apedec/exe)
+
+All the source code of this library were written by MediaTek co..

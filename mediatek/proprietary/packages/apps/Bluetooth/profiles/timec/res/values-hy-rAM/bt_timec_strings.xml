@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_timec_label">Bluetooth Ժամանակի համաժամեցում</string>
+	<string name="bt_timec_main_title">Ժամանակի սպասառու</string>
+	<string name="bt_timec_choose_server_title">Ընտրել սպասարկիչ սարք</string>
+	<string name="bt_timec_choose_server_summary">Ընտրել սպասարկիչ սարք` ամսաթիվը և ժամանակը դրա հետ համաժամեցնելու համար</string>
+	<string name="bt_timec_sync_settings_title">Ժամանակի համաժամեցման կարգավորումներ</string>
+	<string name="bt_timec_service_disconnected">Ժամանակի ծառայության հետ կապակցումը խզվեց:</string>
+	<string name="bt_timec_sync_title">Համաժամեցնել ամսաթիվը և ժամանակը</string>
+	<string name="bt_timec_sync_summary">Առբերել և կիրառել ամսաթվի և ժամանակի տեղեկատվությունը ժամանակի սպասարկչից</string>
+	<string name="bt_timec_auto_title">Ավտոմատ համաժամեցում</string>
+	<string name="bt_timec_auto_summary">Ավտոմատ կերպով համաժամեցնել ամսաթիվը և ժամանակը` ժամանակի սպասարկչի հետ</string>
+	<string name="bt_timec_repeat_title">"Կրկնել"</string>
+	<string name="bt_timec_sync_confirm_title">Հաստատել` համաժամեցնելու համար</string>
+	<string name="bt_timec_sync_confirm_msg">Այն կհամաժամեցվի ժամանակի սպասարկչի հետ: Ավտոմատ համաժամեցումը բջջային ցանցի հետ կանջատվի, շարունակե՞լ:</string>
+	<string name="bt_timec_synchronizing_title">Համաժամեցվում է</string>
+	<string name="bt_timec_synchronizing_msg">Համաժամեցվում է ամսաթիվը և ժամանակը` ժամանակի սպասարկչի հետ...</string>
+	<string name="bt_timec_sync_completed">Համաժամեցումն ավարտվեց</string>
+	<string name="bt_timec_sync_failed">Չհաջողվեց համաժամեցնել ամսաթիվը և ժամանակը` ժամանակի սպասարկչի հետ</string>
+	<string name="bt_timec_auto_disabled_ticker">Ժամանակի ավտոմատ համաժամեցումն անջատված է</string>
+	<string name="bt_timec_auto_disabled_title">Bluetooth-ի ժամանակի ավտոմատ համաժամեցումն անջատված է</string>
+	<string name="bt_timec_auto_disabled_msg">Ժամանակի ավտոմատ համաժամեցումը չի կարող գործել, երբ Bluetooth-ն անջատված է:</string>
+	<string name="bt_timec_eng_connect_title">"Միանալ"</string>
+	<string name="bt_timec_eng_connect_summary">Կապակցվել սպասարկչին</string>
+	<string name="bt_timec_eng_disconnect_summary">Անջատվել սպասարկչից</string>
+	<string name="bt_timec_eng_settings_group_title">"Կարգավորումներ"</string>
+	<string name="bt_timec_eng_automatic_title">"Ինքնաշխատ"</string>
+	<string name="bt_timec_eng_automatic_summary">Ավտոմատ կերպով համաժամեցնել ժամանակի սպասարկչի հետ</string>
+	<string name="bt_timec_eng_sync_title">Համաժամեցնել ժամանակի սպասարկչի հետ</string>
+	<string name="bt_timec_eng_sync_summary">Առբերել և կիրառել ամսաթիվը և ժամանակը` ժամանակի սպասարկչից</string>
+	<string name="bt_timec_eng_update_server_title">Արդիականացնել սպասարկչի ժամանակը</string>
+	<string name="bt_timec_eng_update_server_summary">Պահանջել ժամանակի սպասարկչին արդիականացնել ամսաթիվը և ժամանակը` ըստ իր ժամանակի աղբյուրի</string>
+	<string name="bt_timec_eng_dst_title">Հաջորդ DST փոփոխությունը</string>
+	<string name="bt_timec_eng_connecting_title">"Միանում է"</string>
+	<string name="bt_timec_eng_connecting_msg">Կապակցվում է ժամանակի սպասարկչին...</string>
+	<string name="bt_timec_eng_connection_failed">Կապն ընդհատված է</string>
+	<string name="bt_timec_eng_connection_lost">Կապը խզված է</string>
+	<string name="bt_timec_eng_disconnecting_title">"Անջատվում է"</string>
+	<string name="bt_timec_eng_disconnecting_msg">Անջատվում է ժամանակի սպասարկչից...</string>
+	<string name="bt_timec_eng_processing_title">Մշակվում է</string>
+	<string name="bt_timec_eng_processing_msg">Կարգավորումը գործադրվում է ժամանակի սպասարկչի նկատմամբ...</string>
+	<string name="bt_timec_eng_processing_failed">Չհաջողվեց գործադրել կարգավորումը սպասարկչի նկատմամբ</string>
+	<string name="bt_timec_eng_server_updating_title">Սպասարկիչն արդիականացվում է</string>
+	<string name="bt_timec_eng_server_updating_msg">Սեղմեք ԵՏ ստեղնը` սպասարկչի ժամանակի թարմացումը չեղարկելու համար</string>
+	<string name="bt_timec_eng_server_update_completed">Սպասարկչի թարմացումն ավարտվեց</string>
+	<string name="bt_timec_eng_server_update_failed">Չհաջողվեց արդիականացնել սպասարկիչը</string>
+</resources>

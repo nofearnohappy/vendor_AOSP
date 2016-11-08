@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"完成"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"刪除"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"全選"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"全部取消選取"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"新增"</string>
+    <string name="selected_item_count">已選擇 <xliff:g id="count">%d</xliff:g></string>
+    <string name="multichoice_no_select_alert">"未選取任何項目。"</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">其他號碼的 USIM 標籤</string>  
+    <string name="aas_phone_type_none">無</string>  
+    <string name="aas_new_dialog_title">新增標籤</string>  
+    <string name="ass_rename_dialog_title">修改標籤</string>  
+    <string name="aas_delele_dialog_message">刪除標籤會影響連結該標籤的所有其他號碼。確定要繼續？</string>  
+    <string name="aas_name_invalid">標籤名稱無效，請輸入其他名稱。</string>  
+    <string name="aas_name_exist">此標籤已存在。</string>  
+    <string name="aas_usim_full">空間不足，無法新增標籤。</string>  
+    <string name="ass_edit_assert_message">修改標籤會影響連結該標籤的所有其他號碼。確定要繼續？</string>  
+    <string name="aas_new_fail">無法建立新標籤。</string>  
+    <string name="aas_edit_fail">無法重新命名 
+        <xliff:g id="aas">%s</xliff:g>。
+    </string>  
+    <string name="aas_delete_fail">無法刪除 
+        <xliff:g id="aas">%s</xliff:g>。
+    </string>  
+    <string name="aas_phone_primary">主要號碼</string>  
+    <string name="aas_phone_additional">其他號碼</string>  
+    <!-- aas strings end--> 
+</resources>

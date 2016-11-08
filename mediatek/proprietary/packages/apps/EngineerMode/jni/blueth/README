@@ -1,0 +1,35 @@
+JNI Library of engineermode bluetooth, which contain the api
+to communicate with bluetooth driver
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libem_bt_jni.so provide jni interface to EngineerMode to 
+access native interface of bluetooth
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. libnativehelper
+2. libandroid_runtime
+3. libutils
+4. libui
+5. libcutils
+
+and the following libs from MediaTek:
+1. libbluetoothem_mtk
+2. libbluetooth_relayer
+3. libbtem
+4. libextem
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+provide jni interface to EngineerMode to access native interface of bluetooth
+all api interface are at (vendor/mediatek/proprietary/packages/apps/EngineerMode/jni/blueth)
+
+All the source code of this library were written by MediaTek co..

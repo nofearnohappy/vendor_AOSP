@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">محفوظ کریں</string>
+    <string name="menu_deleteContact" msgid="1916555454274101750">رابطہ مٹائيں</string>
+    <string name="menu_select_all">"تمام منتخب کریں"</string>  
+    <string name="menu_select_none">"تمام کو غیر منتخب کریں"</string>  
+    <string name="menu_new_contact_action_bar">نیا</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> منتخب
+    </string> 
+    <string name="multichoice_no_select_alert">"کوئی شے منتخب شدہ نہیں۔"</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">اضافی نمبروں کیلئے USIM لیبلز</string>  
+    <string name="aas_phone_type_none">کوئی نہیں</string>  
+    <string name="aas_new_dialog_title">ایک نیا لیبل شامل کریں</string>  
+    <string name="ass_rename_dialog_title">لیبل میں ترمیم کریں</string>  
+    <string name="aas_delele_dialog_message">لیبل (لیبلز) کو حذف کرنے سے وہ سبھی اضافی نمبرز متاثر ہوں گے جو اس لیبل (لیبلز) سے مربوط ہیں۔ کیا آپ کو یقین ہے؟</string>  
+    <string name="aas_name_invalid">لیبل کا نام غلط ہے۔ براہ کرم کوئی دوسرا درج کریں۔</string>  
+    <string name="aas_name_exist">لیبل پہلے سے موجود ہے۔</string>  
+    <string name="aas_usim_full">نئے لیبلز کیلئے جگہ نہیں ہے۔</string>  
+    <string name="ass_edit_assert_message">لیبل میں ترمیم کرنے سے وہ سبھی اضافی نمبرز متاثر ہوں گے جو اس لیبل سے مربوط ہیں۔ کیا آپ کو یقین ہے؟</string>  
+    <string name="aas_new_fail">نیا لیبل بنانے میں ناکام رہا۔</string>  
+    <string name="aas_edit_fail"> 
+        <xliff:g id="aas">%s</xliff:g> کا نام بدلنے میں ناکام رہا۔
+    </string>  
+    <string name="aas_delete_fail"> 
+        <xliff:g id="aas">%s</xliff:g> کی تنسیخ ناکام ہوگئی۔
+    </string>  
+    <string name="aas_phone_primary">بنیادی نمبر</string>  
+    <string name="aas_phone_additional">اضافی نمبر</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"عرفی نام کافی طویل ہے۔"</string>
+</resources>

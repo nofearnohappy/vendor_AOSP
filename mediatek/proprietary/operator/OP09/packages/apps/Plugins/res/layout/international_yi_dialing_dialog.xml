@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle"
+    android:dividerPadding="0dip">
+
+    <Button android:id="@+id/country_select_button"
+        android:layout_width="match_parent"
+        android:layout_height="42dip"
+        android:layout_marginTop="16dip"
+        android:layout_marginBottom="16dip"/>
+
+    <EditText
+        android:id="@+id/numberEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:imeOptions="actionDone"/>
+
+    <RadioGroup android:id="@+id/whole_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <RadioButton android:id="@+id/home_country"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/dial_to_home_country"/>
+
+        <RadioGroup android:id="@+id/home_country_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dip">
+
+            <RadioButton android:id="@+id/international_call"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/international_call"/>
+
+            <RadioButton android:id="@+id/ct_callback"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/ct_callback"/>
+
+        </RadioGroup>
+
+        <RadioButton android:id="@+id/dial_to_another_country"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/dial_to_another_country"/>
+
+        <RadioButton android:id="@+id/local_call"
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/local_call"/>
+
+    </RadioGroup>
+
+</LinearLayout>

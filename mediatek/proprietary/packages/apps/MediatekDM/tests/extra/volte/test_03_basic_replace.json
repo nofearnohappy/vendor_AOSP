@@ -1,0 +1,15 @@
+[
+	{ operationName : "Replace", nodeUri : "./IMSMO/PDP_ContextOperPref", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/P-CSCF_Address", objectValue : "pcscf.operator.com", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Timer_T1", objectValue : "2000", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Timer_T2", objectValue : "16000", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Timer_T4", objectValue : "17000", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Resource_Allocation_Mode", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Voice_Domain_Preference_E_UTRAN", objectValue : "1", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Voice_Domain_Preference_UTRAN", objectValue : "1", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/SMS_Over_IP_Networks_Indication", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Keep_Alive_Enabled", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Mobility_Management_IMS_Voice_Termination", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/RegRetryBaseTime", objectValue : "100", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/RegRetryMaxTime", objectValue : "200", objectType : "int", newNode : "" },
+]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"Kész"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Törlés"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Összes kijelölése"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Összes kijelölés megszüntetése"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Új"</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> kiválasztva
+    </string> 
+    <string name="multichoice_no_select_alert">"Nincs kijelölt elem."</string> 
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">USIM-címkék további számokhoz</string>  
+    <string name="aas_phone_type_none">NINCS</string>  
+    <string name="aas_new_dialog_title">Új címke hozzáadása</string>  
+    <string name="ass_rename_dialog_title">Címke módosítása</string>  
+    <string name="aas_delele_dialog_message">A címke(k) törlése befolyásolja a címké(k)hez rendelt összes kiegészítő számot. Biztos benne?</string>  
+    <string name="aas_name_invalid">A címkenév érvénytelen. Kérjük, adjon meg egy másikat.</string>  
+    <string name="aas_name_exist">Ilyen címke már létezik.</string>  
+    <string name="aas_usim_full">Nincs több hely új címkék számára.</string>  
+    <string name="ass_edit_assert_message">A címke módosítása befolyásolja a címkéhez rendelt összes kiegészítő számot. Biztos benne?</string>  
+    <string name="aas_new_fail">Az új címke létrehozása sikertelen.</string>  
+    <string name="aas_edit_fail">A(z) 
+        <xliff:g id="aas">%s</xliff:g> átnevezése sikertelen.
+    </string>  
+    <string name="aas_delete_fail">A(z) 
+        <xliff:g id="aas">%s</xliff:g> törlése sikertelen.
+    </string>  
+    <string name="aas_phone_primary">Elsődleges szám</string>  
+    <string name="aas_phone_additional">Kiegészítő szám</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"A becenév túl hosszú."</string>
+</resources>

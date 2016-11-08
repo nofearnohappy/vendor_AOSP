@@ -1,0 +1,16 @@
+This module creates static libraries---libifaddrs.a
+
+
+WHAT IT DOES?
+=============
+It generates a linked list that Each element of the list describes one network interface. 
+
+HOW IT WAS BUILT?
+==================
+Without any conditions.
+
+
+HOW TO USE IT?
+==============
+The library could be used by any deamon if deamon has included header file. In fact, the library is provided API for "vendor/mediatek/proprietary/external/wide-dhcpv6" 
+ 

@@ -1,0 +1,20 @@
+WHAT IT DOES?
+=============
+Will be built as /system/bin/aal to perform MediaTek AAL work.
+The process will be run in background as AALService.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libcutils.so
+2.  libutils.so
+3.  libbinder.so
+	
+and the following libs from MediaTek:
+1.  libaal.so
+2.  libaal_cust.so
+
+HOW TO USE IT?
+==============
+Turn on MTK_AAL_SUPPORT in the ProjectConfig.mk and set
+CONFIG_MTK_AAL_SUPPORT=y in the kernel config.

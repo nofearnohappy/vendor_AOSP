@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Share</string>
+    <string name="hint1">Assegura’t que el dispositiu receptor ha activat el HotKnot i que té la pantalla desbloquejada.</string>
+    <string name="hint2">Col·loca el teu dispositiu davant del dispositiu receptor, de manera que una pantalla miri l’altra.</string>
+    <string name="hint3">Allunya el teu dispositiu del dispositiu receptor quan sentis una indicació de veu.</string>
+    <string name="use_hotknot">Aquesta aplicació necessita fer servir la tecnologia HotKnot del teu dispositiu.</string>
+    <string name="allow">"Permet"</string>
+    <string name="deny">"Denega"</string>
+    <string name="fail_to_share">No s’ha pogut compartir</string>
+    <string name="fail_to_share_conn_error">No s’ha pogut compartir per causa d’un problema de connexió.</string>
+    <string name="fail_to_share_unknown_error">No s’ha pogut compartir per causa d’un error desconegut.</string>
+    <string name="try_again">"Torna-ho a provar"</string>
+    <string name="usb_warning">"És possible que en recarregar l'USB, la funció HotKnot es vegi afectada."</string>
+</resources>

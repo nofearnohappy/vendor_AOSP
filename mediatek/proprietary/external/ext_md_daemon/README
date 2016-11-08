@@ -1,0 +1,20 @@
+The bin file 'ext_mdinit' is a daemon service.
+This bin is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+
+ext_mdinit is used to control mt6261 external md state transition.
+
+HOW IT WAS BUILT?
+==================
+
+This module is released in binary format in 'vendor/mediatek/proprietary/external/ext_mdinit' folder.
+
+
+
+HOW TO USE IT?
+==============
+
+The bin file is a system service, and it's started at system booting up while parsing init.modem.rc.

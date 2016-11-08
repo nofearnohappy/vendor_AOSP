@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Տարածում</string>
+    <string name="hint1">Համոզվեք, որ ստացող սարքում HotKnot-ը միացված է, իսկ դրա էկրանը` ապակողպված:</string>
+    <string name="hint2">Ձեր սարքի էկրանը տեղադրեք ստացող սարքի էկրանին դեմ հանդիման:</string>
+    <string name="hint3">Ձեր սարքը հեռացրեք ստացող սարքից ձայնային ազդանշանը լսելուց հետո:</string>
+    <string name="use_hotknot">Այս ծրագիրը պետք է օգտագործի Ձեր սարքի HotKnot տեխնոլոգիան:</string>
+    <string name="allow">"Թույլատրել"</string>
+    <string name="deny">"Մերժել"</string>
+    <string name="fail_to_share">Չհաջողվեց տարածել</string>
+    <string name="fail_to_share_conn_error">Չհաջողվեց տարածել` կապակցման խնդրի պատճառով:</string>
+    <string name="fail_to_share_unknown_error">Չհաջողվեց տարածել` անհայտ սխալի պատճառով:</string>
+    <string name="try_again">"Կրկին փորձեք"</string>
+    <string name="usb_warning">HotKnot գործառույթը կարող է ազդեցություն կրել USB լիցքավորման ժամանակ:</string>
+</resources>

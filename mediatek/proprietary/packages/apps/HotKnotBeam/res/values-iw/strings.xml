@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">התחל לקבל...</string>
+    <string name="notification_group_title">מקבל <xliff:g id="number">%d</xliff:g> קבצים...</string> 
+    <string name="notification_download_done">גע כדי להציג את הפרטים</string>
+    <string name="notification_group_received">התקבלו <xliff:g id="number">%d</xliff:g> קבצים</string>
+    <string name="notification_received">התקבלו בהצלחה</string> 
+    <string name="notification_download_failure">הקבלה נכשלה בשל <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">הקבלה בוטלה</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> קבצים נכשלו</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> קבצים נכשלו, <xliff:g id="number">%d</xliff:g> קבצים התקבלו</string>
+    <string name="download_no_file">הקבצים לא קיימים</string>
+    <string name="notification_sending">התחל לשלוח...</string>
+    <string name="notification_group_upload_title">שולח <xliff:g id="number">%d</xliff:g> קבצים...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> קבצים נשלחו</string>
+    <string name="notification_sent">נשלחו בהצלחה</string>
+    <string name="notification_upload_failed">השליחה נכשלה בשל <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">השליחה בוטלה</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> קבצים נכשלו</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> קבצים נכשלו, <xliff:g id="number">%d</xliff:g> קבצים נשלחו</string>
+    <string name="low_storage">שטח האחסון מועט</string>
+    <string name="connect_failure">"בעיה בחיבור"</string>
+    <string name="unknown_error">שגיאה בלתי מוכרת</string>
+    <string name="share_label">שיתוף HotKnot </string>
+    <string name="rx_ui_image_status">מקבל תמונה מ-<xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">מקבל <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> תמונות מ-<xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">מקבל סרטון מ-<xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">מקבל <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> סרטונים מ-<xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">מקבל קובץ מ-<xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">מקבל <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> קבצים מ-<xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">מקבל מוזיקה מ-<xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">מקבל <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> מוזיקה מ-<xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">הקבלה לא הושלמה</string>
+</resources>

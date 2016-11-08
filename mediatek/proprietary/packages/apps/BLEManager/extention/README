@@ -1,0 +1,24 @@
+This module creates the BLEExtention.apk
+
+This apk is not pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+This is a demo to customers about how to extend one or more new ANS detectors into BLEManager.
+
+HOW IT WAS BUILT?
+==================
+It needs the following *.jar from mediatek:
+com.mediatek.bluetoothle.ext mediatek-framework
+
+and the following *.jar from AOSP:
+telephony-common
+
+HOW TO USE IT?
+==============
+This is a demo srouce, customer can view these codes and write some detecters by himself.
+After customer write some detector, he can build the apk out and install it into phone.
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

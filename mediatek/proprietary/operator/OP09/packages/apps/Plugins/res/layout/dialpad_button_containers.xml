@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialpad_floating_action_buttons_container"
+    android:layout_width="@dimen/floating_action_buttons_width"
+    android:layout_height="@dimen/floating_action_buttons_height"
+    android:layout_centerHorizontal="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/dialpad_floating_action_button_container_left"
+            android:background="@drawable/fab_green"
+            android:layout_width="@dimen/floating_action_button_width"
+            android:layout_height="@dimen/floating_action_button_height"
+            android:layout_marginLeft="@dimen/floating_action_button_margin"
+            android:layout_marginBottom="@dimen/floating_action_button_margin"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/dialpad_floating_action_button_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/floating_action_button"
+                android:contentDescription="@string/description_dial_button_left"
+                android:src="@drawable/fab_ic_call_sim1"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/dialpad_floating_action_button_container_center"
+            android:background="@drawable/fab_green"
+            android:layout_width="@dimen/floating_action_button_width"
+            android:layout_height="@dimen/floating_action_button_height"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/dialpad_floating_action_button_center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/floating_action_button"
+                android:contentDescription="@string/description_dial_button_center"
+                android:src="@drawable/fab_ic_call"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/dialpad_floating_action_button_container_right"
+            android:background="@drawable/fab_green"
+            android:layout_width="@dimen/floating_action_button_height"
+            android:layout_height="@dimen/floating_action_button_height"
+            android:layout_marginLeft="@dimen/floating_action_button_margin"
+            android:layout_marginRight="@dimen/floating_action_button_margin"
+            android:layout_marginBottom="@dimen/floating_action_button_margin"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/dialpad_floating_action_button_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/floating_action_button"
+                android:contentDescription="@string/description_dial_button_right"
+                android:src="@drawable/fab_ic_call_sim2"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

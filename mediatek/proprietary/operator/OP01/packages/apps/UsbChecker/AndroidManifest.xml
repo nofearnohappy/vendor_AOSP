@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.usbchecker"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+        
+    <application
+        android:persistent="true"
+        android:allowBackup="false"
+        android:allowClearUserData="false">
+        <activity
+            android:name="com.mediatek.usbchecker.UsbCheckerActivity"
+            android:theme="@*android:style/Theme.Material.Light.Dialog.Alert"
+            android:excludeFromRecents="true" >
+        </activity>
+        <activity
+            android:name="com.mediatek.usbchecker.EnablerActivity"
+            android:label="@string/title_enabler_activity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Holo"
+            android:excludeFromRecents="true"
+            android:exported="true" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <service
+            android:name="com.mediatek.usbchecker.UsbCheckerService">
+        </service>
+        
+        <receiver
+            android:name="com.mediatek.usbchecker.UsbCheckerReceiver">
+            <intent-filter android:priority="0x7FFFFFFF">
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.hardware.usb.action.USB_STATE"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN_IPO" />
+                <!-- <action android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </receiver>
+        
+        
+    </application>
+
+</manifest>

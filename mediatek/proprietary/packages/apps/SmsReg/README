@@ -1,0 +1,16 @@
+WHAT IT DOES?
+=============
+This feature is only turned on OP01 project.
+When device is boot,SmsReg will check whether the SIM card  already registered.
+If not registered, SmsReg will show a dialog for User confirm.
+After confirmed, SmsReg will send a free short message to OP01 operator Server.
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+1.MTK_SMSREG_APP
+2.MTK_DM_AGENT_SUPPORT (SmsReg depends on DmAgent)
+
+HOW TO USE IT?
+==============
+install SmsReg.apk in mediatek platform.

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">Brez opozoril</string>
+	<string name="bt_prxm_alert_level_mild">Opozorilo srednje stopnje</string>
+	<string name="bt_prxm_alert_level_high">Opozorilo visoke stopnje</string>
+	<string name="bt_prxm_device_mgmt_label">Bližina Bluetooth</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">Ne more delovati brez podpore Bluetooth</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">Ne more delovati brez omogočenega Bluetooth</string>
+	<string name="bt_prxm_device_mgmt_title">Monitor bližine Bluetooth</string>
+	<string name="bt_prxm_device_mgmt_add_device">Dodaj napravo</string>
+	<string name="bt_prxm_device_mgmt_remove_device">Odstrani napravo</string>
+	<string name="bt_prxm_device_mgmt_device_list">Naprave v bližini</string>
+	<string name="bt_prxm_device_pref_device_setting">Izguba povezave: %1$s / izgubljena pot: %2$s</string>
+	<string name="bt_prxm_devs_title">Nastavitve bližine</string>
+	<string name="bt_prxm_devs_connect_title">"Vzpostavi povezavo"</string>
+	<string name="bt_prxm_devs_connect_summary">Vzpostavi povezavo z napravo v bližini</string>
+	<string name="bt_prxm_devs_connect_failed">Vzpostavitev povezave ni uspela</string>
+	<string name="bt_prxm_devs_disconnect_failed">Prekinitev povezave ni uspela</string>
+	<string name="bt_prxm_find_device_title">Najdi napravo</string>
+	<string name="bt_prxm_find_device_summary">Poiščite to napravo, tako da v njej sprožite alarm</string>
+	<string name="bt_prxm_find_device_cancel_summary">Kliknite za preklic alarma v ciljni napravi</string>
+	<string name="bt_prxm_devs_link_loss_group_title">Izguba povezave</string>
+	<string name="bt_prxm_devs_link_loss_level_title">Stopnja opozorila za izgubo povezave</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">Nastavi stopnjo opozorila</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">Nastavitev stopnje opozorila izgube povezave</string>
+	<string name="bt_prxm_devs_path_loss_group_title">Izguba poti</string>
+	<string name="bt_prxm_devs_path_loss_level_title">Stopnja opozorila za izgubo poti</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">Nastavi stopnjo opozorila</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">Prag za izgubo poti</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">Nastavitev praga za moč signala</string>
+	<string name="bt_prxm_plt_current_rssi">Trenutna ocena razdalje</string>
+	<string name="bt_prxm_plt_using_current_rssi">Za prag opozorila o izgubi poti uporabi trenutno oceno razdalje</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">Prag za izgubo poti</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" >
+
+    <TextView android:id="@+id/ip_msg_text_content"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:paddingTop="10dip"
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ip_msg_pic_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/ip_msg_gif_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/media_play"/>
+
+    <RelativeLayout 
+        android:id="@+id/ip_msg_video_content"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+		android:layout_centerInParent="true"
+    	android:background="@color/black" >
+    	
+    	<ImageView
+        	android:id="@+id/ip_msg_video_preview"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"/>
+
+    	<VideoView
+        	android:id="@+id/ip_msg_video_view"
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:layout_centerInParent="true" />
+    	    
+	    <ImageButton
+    	    android:id="@+id/ip_msg_video_control"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"
+        	android:src="@drawable/media_play"/>
+
+	</RelativeLayout>
+	   
+    <ProgressBar
+        android:id="@+id/progress_large"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView android:id="@+id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"        
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+</RelativeLayout>

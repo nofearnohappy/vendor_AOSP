@@ -1,0 +1,35 @@
+<resources>
+	<style name="BlacklistListViewTheme" parent="@android:style/Theme.Material.Light" >
+        <item name="android:actionBarStyle">@style/BlacklistActionBarStyle</item>
+		<!---->
+        <item name="list_item_padding_right">32dp</item>
+        <item name="list_item_padding_left">16dip</item>
+        <item name="list_item_header_text_indent">8dip</item>
+		
+    </style>
+
+    <style name="BlacklistActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@style/BlacklistActionBarTitleText</item>
+        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:homeAsUpIndicator">@drawable/action_bar_back_arrow</item>
+		<item name="android:colorPrimaryDark">@color/actionbar_background_color_dark</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="BlacklistActionBarTitleText"
+           parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+	    <!-- Align to Contacts' theme. -->
+        <item name="android:actionBarStyle">@style/BlacklistActionBarStyle</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

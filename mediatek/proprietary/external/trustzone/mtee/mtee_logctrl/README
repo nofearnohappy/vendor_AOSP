@@ -1,0 +1,23 @@
+The executable 'mtee_logctrl' is a program to control the log level in mtk in-house tee.
+
+
+WHAT IT DOES?
+=============
+
+The 'mtee_logctrl' can get or set the current log level inside the MTK in-house TEE.
+
+
+HOW IT WAS BUILT?
+==================
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/trustzone' folder.
+
+
+HOW TO USE IT?
+==============
+
+Feed the mtee_logctrl with one argument, which is number from 0 to 5, to set the log level. The smaller level is set, more log is printed.
+
+
+All the source code of this library were written by MediaTek co..

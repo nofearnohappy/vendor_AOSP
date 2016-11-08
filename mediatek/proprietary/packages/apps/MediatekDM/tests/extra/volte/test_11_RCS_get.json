@@ -1,0 +1,17 @@
+[
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/AuthType", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/Realm", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/UserName", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/UserPwd", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/NatUrlFmt", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/IntUrlFmt", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/QValue", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/MaxSizeImageShare", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/MaxTimeVideoShare", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/VoiceCalls", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/Chat", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/SendSms", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/FileTransfer", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/VideoShare", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/ImageShare", objectValue : "", objectType : "", newNode : "" },
+]

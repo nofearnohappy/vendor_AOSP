@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">便携式 Wi-Fi 热点</string>
+    <string name="wifi_tether_introduction_text">通过将您的设备设置为便携式 Wi-Fi 热点模式，您可以同时让其他设备（最多8台）共享其互联网连接。\n\n请注意，网络共享将使用移动数据，这可能会大幅增加您的电话费并缩短电池续航时间。</string>
+    <string name="wifi_tether_checkbox_nosim_text">请插入 SIM 卡并重启设备，以便使用便携式 Wi-Fi 热点或进行网络共享。</string>
+    <string name="wifi_tether_checkbox_show_once_more">不再显示此消息</string>
+    <string name="wifi_tether_turn_off_wifi">开启便携式 Wi-Fi 热点需要先关闭您的 Wi-Fi 连接。是否继续？</string>
+    <string name="wifi_tether_settings_text">便携式 Wi-Fi 热点设置</string>
+    <string name="tether_apn_settings_text">网络共享接入点名称（APN）</string>
+    <string name="tether_apn_settings_subtext">设置默认网络共享接入点名称（APN）</string>
+    <string name="usb_tethering_accessory_active_subtext">使用 USB 时无法开启网络共享。</string>
+    <string name="operator_display">显示网络运营商</string>
+    <string name="operator_display_summary">在状态栏中显示网络运营商</string>
+    <string name="by_orange">Orange 开发</string>
+    <string name="recommended_by_orange">Orange 推荐</string>
+    <string name="smsmms_app_name">“信息”应用未激活</string>
+    <string name="click_to_change_to_xms_app">“信息”不是您的默认短信应用。</string>
+    <string name="click_to_change_to_xms_app_line2">轻触此处获得更多信息。</string>
+    <string name="sms_change_default_dialog_text1">“信息”应用经 Orange 测试，可以在您的设备上正常运行。\n\n
+
+使用其它短信应用可能会导致在发送和接受短信、彩信过程中出现问题。\n\n
+
+是否使用<xliff:g id="new_app">%s</xliff:g>代替<xliff:g id="current_app">%s</xliff:g>作为您的短信应用？</string>
+    
+</resources>

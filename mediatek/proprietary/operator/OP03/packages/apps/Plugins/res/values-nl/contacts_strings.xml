@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done" msgid="796017761764190697">"Gereed"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Verwijderen"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Alles selecteren"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Selectie ongedaan maken"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Nieuw"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> geselecteerd</string>
+    <string name="multichoice_no_select_alert">"Geen item geselecteerd."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">USIM-labels voor extra nummers</string>  
+    <string name="aas_phone_type_none">GEEN</string>  
+    <string name="aas_new_dialog_title">Een nieuw label toevoegen</string>  
+    <string name="ass_rename_dialog_title">Het label bewerken</string>  
+    <string name="aas_delele_dialog_message">Verwijderen van de label(s) beïnvloedt alle extra nummers die aan de label(s) gekoppeld zijn. Zeker weten?</string>  
+    <string name="aas_name_invalid">De labelnaam is ongeldig. Geef een andere op.</string>  
+    <string name="aas_name_exist">Het label bestaat al.</string>  
+    <string name="aas_usim_full">Geen ruimte voor nieuwe labels.</string>  
+    <string name="ass_edit_assert_message">Bewerken van het label beïnvloedt alle extra nummers die aan het label zijn gekoppeld. Weet u het zeker?</string>  
+    <string name="aas_new_fail">Maken van nieuw label mislukt.</string>  
+    <string name="aas_edit_fail">Hernoemen 
+        <xliff:g id="aas">%s</xliff:g> mislukt.
+    </string>  
+    <string name="aas_delete_fail">Verwijderen van 
+        <xliff:g id="aas">%s</xliff:g> mislukt.
+    </string>  
+    <string name="aas_phone_primary">Primair nummer</string>  
+    <string name="aas_phone_additional">Extra nummer</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"Bijnaam is te lang."</string>
+</resources>

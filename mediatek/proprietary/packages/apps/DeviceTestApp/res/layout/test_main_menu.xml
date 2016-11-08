@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        >      
+        <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@drawable/corners_bg_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/instrument"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+            <TextView android:id="@+id/instrument"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/empty"/>
+        </LinearLayout>
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/test_type"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+
+	        <Button android:id="@+id/platform_test"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/platform_test"
+	                android:textSize="20dip"/>
+
+            <TextView android:id="@+id/test_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/empty"/>
+
+	        <Button android:id="@+id/operation_test"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/operation_test"
+	                android:textSize="20dip"/>   
+
+            <TextView android:id="@+id/test_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/empty"/>
+
+	        <Button android:id="@+id/p2p_test"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/p2p_test"
+	                android:textSize="20dip"/>   
+
+	        <TextView android:id="@+id/test_result"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="20dp"
+	            android:text="@string/empty"/>
+	            
+	        <Button android:id="@+id/swp_test"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/swp_test"
+	                android:textSize="20dip"/>	                
+
+	        <TextView android:id="@+id/test_result"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="20dp"
+	            android:text="@string/empty"/>
+	            
+	        <Button android:id="@+id/llcp_test"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/llcp_test"
+	                android:textSize="20dip"/>	          
+
+	        <TextView android:id="@+id/test_result"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="20dp"
+	            android:text="@string/empty"/>
+	            
+	        <Button android:id="@+id/snep_test"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/snep_test"
+	                android:textSize="20dip"/>	      
+        </LinearLayout>
+        </LinearLayout>
+                
+    </LinearLayout>    
+    </ScrollView>
+</LinearLayout>
+

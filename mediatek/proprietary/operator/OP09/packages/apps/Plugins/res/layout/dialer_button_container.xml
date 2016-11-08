@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dialpad_background">
+
+        <ImageButton
+            android:id="@+id/dialButtonLeft"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:state_enabled="false"
+            android:background="@drawable/btn_call"
+            android:src="@drawable/ic_dial_action_call"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/dialButtonRight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:state_enabled="false"
+            android:background="@drawable/btn_call"
+            android:src="@drawable/ic_dial_action_call"
+            android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+WHAT IT DOES?
+=============
+This folder contains samples on how to use the Android ANT+ API.
+
+HOW IT WAS BUILT?
+==================
+This is binary file.
+
+HOW TO USE IT?
+==============
+Note about member-only features: As a benefit of ANT+ Membership, members get exclusive access to new profiles and features for a given time period. For more information see http://www.thisisant.com/business/go-ant/levels-and-benefits/. Once your ANT+ Membership is activated, the ANT+ Member-only version of the library can be obtained from http://www.thisisant.com/developer/resources/downloads/ in the member-only release section.
+ANT+ Demo (.apk) - shows an example of a very simple fitness monitoring application displaying heart rate, stride-based speed and distance monitor, and weight scale data. The demo code is not released for this app as some people were taking the source, rebreanding it and putting it on the play store. We hope for a higher quality app experience than that from developers and don't need a bunch of clones all over the play store.

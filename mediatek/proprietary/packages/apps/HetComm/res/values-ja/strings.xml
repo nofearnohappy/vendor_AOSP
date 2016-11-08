@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">ターボダウンロード</string>
+    <string name="hetcomm_intro">Wi-Fiと4G/3Gネットワークを同時に使用して、大容量ファイル（20MB超）を高速にダウンロードします。 実行中は、ターボダウンロードのアイコンがステータスバーに表示されます。 ターボダウンロードを使用するには、Wi-Fiとモバイルデータの両方をオンにすることが必要です。 これを有効にすると、Wi-Fiのみでダウンロードすることを選択したアプリケーションデータでも、WLANと4G/3Gネットワークを経由してダウンロードされます。</string>
+    <string name="enable_switch_on">オン</string>
+    <string name="enable_switch_off">"OFF"</string>
+    <string name="notify_top_title">ダウンロードアクセラレータ</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"モバイルデータ"</string>
+    <string name="conn_notice_title">モバイルまたはWi-Fiのどちらかがオフです。</string>
+    <string name="conn_notice_detail">ターボダウンロードを有効にするには、Wi-Fiとモバイルデータの両方をオンにすることが必要です。</string>
+    <string name="conn_charging_warning">モバイルネットワークを経由したダウンロードは、その利用に応じた追加料金が発生することがあります。</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g>をオンにする</string>
+    <string name="turn_off_due_to_vpn">VPNがオンのため、ターボダウンロードはオフです</string>
+    <string name="turn_off_due_to_tether">テザリングがオンのため、ターボダウンロードはオフです</string>
+    <string name="turn_off_due_to_shutdown">シャットダウンのため、ターボダウンロードはオフです</string>
+    <string name="turn_off_due_to_roaming">ローミングのため、ターボダウンロードはオフです</string>
+    <string name="ratio_is_single">Wi-Fi/モバイルデータ速度が遅いです。ダウンロードを高速化するには、ファイルをダウンロードするためにTurbo downloadはモバイルデータ/Wi-Fiだけを使用します。ｿｸﾄﾞｵｿｺｳｿｸｶｼﾖｳ</string>
+    <string name="ratio_is_back">Turbo downloadはファイルをダウンロードするために、Wi-Fiとモバイルデータを一緒に再利用します。ｲｯｼｮｻｲﾘﾖｳ</string>
+    <string name="action_help">"ヘルプ"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>ターボダウンロードのヘルプ</u>\
+    </h1><br>Wi-Fiと4G/3Gを同時に使用して、最高速度で大容量ファイルをダウンロードします。\
+    <h4>1. 設定に進み、ターボダウンロードをタップします。</h4>\
+    <h4>2. スイッチをタップして、ターボダウンロードをオンにします。</h4>\
+    <p><b>[Tip]</b>ダウンロードの開始時にWi-Fiと4G/3Gの両方に接続されている場合には、ダウンロードが高速化されます。\
+    <p><b>[Tip]</b>Wi-Fiまたは4G/3G接続が遅い場合には、ダウンロードに高速な方のネットワークを使用できます。\
+    <p><b>[Tip]</b>ターボダウンロードの速度とパフォーマンスは、ダウンロード時のネットワーク環境に影響されることがあります。\
+    <br>&nbsp;&nbsp;- シグナルが不安定な場合には、この機能の速度とパフォーマンスが影響を受けることがあります。\
+    <br>&nbsp;&nbsp;- しかし、平均的には、Wi-Fiまたは4G/3Gだけを使用する場合と比べて、ダウンロード速度は「2倍」となります。\
+    <p><b>[Tip]</b>Wi-Fiと4G/3Gの速度差が大きい場合（通常は2.5倍）、ターボダウンロードは停止する、または速度のパフォーマンスが悪化することを避けるためにサポートされなくなります。\
+    <p><b>[Tip]</b>テザリング/VPNがオンになると、ターボダウンロードは自動的に無効になります。\
+    </body></html>]]>"</string>
+</resources>

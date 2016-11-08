@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Akıllı Dengeleyici/Grafik Dengeleyici</string>
+	<string name="tooltip_eq_text">Akıllı Dengeleyici, istediğiniz tonu sağlamak için sesi analiz eder ve dinamik bir şekilde ayarlar. Gösterilen dört ön ayardan birini seçin ve ardından Grafik Dengeleyici’de kişisel değişiklikler yapmak için Spektral Görüntüleyici’ye dokunun.</string>
+	<string name="tooltip_sv_title">Surround Sanallaştırıcı</string>
+	<string name="tooltip_sv_text">Surround Sanallaştırıcı, kulaklıklarda ya da stereo hoparlörlerde gerçekçi surround ses elde edilmesini sağlar. Surround ses efektini kontrol etmek için düğmeyi açık ya da kapalı olarak ayarlayın.</string>
+	<string name="tooltip_de_title">Diyalog Netleştirici</string>
+	<string name="tooltip_de_text">Diyalog Netleştirici, her tür ortamda konuşmanın netliğini arttırır. Diyalog netleştirmeyi kontrol etmek için düğmeyi açık ya da kapalı olarak ayarlayın.</string>
+	<string name="tooltip_vl_title">Ses Düzeyi Düzenleyici</string>
+	<string name="tooltip_vl_text">Ses Düzeyi Düzenleyici, cihazın ana ses düzeyine göre tüm içerik ve uygulamalarda ses düzeyinin tutarlı olmasını sağlar. Otomatik ses düzeyini kontrol etmek için düğmeyi açık ya da kapalı olarak ayarlayın.</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"အဝင္ဖိုင္ေတာင္းဆိုမႈ"</string>
+	<string name="bt_opp_notification_in_coming_title">"အဝင္ဖိုင္ေတာင္းဆိုမႈ (မွ- %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"အဝင္ဖိုင္အား လက္ခံရန္ ေရြးခ်ယ္ပါ။"</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">ဝင္လာေသာ ဖိုင္ေျပာင္းေရႊ႕ျခင္းကို ခြင့္ျပဳပါ</string>
+	<string name="bt_opp_notification_in_ongoing_message">"လက္ခံရယူေနဆဲ- %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"အထြက္ဖိုင္"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"ေပးပို႔ေနဆဲ- %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"ဖိုင္လႊဲေျပာင္းျခင္းသို႔ ခ်ိတ္ဆက္ခဲ့သည္"</string>
+	<string name="bt_opp_cancel_task_message">"ဤေပးပို႔မႈကို ဖ်က္မလား။"</string>
+	<string name="bt_opp_cancel_task_yes">ဟုတ္ပါသည္</string>
+	<string name="bt_opp_cancel_task_no">အဆက္အသြယ္အား ပံုႏွိပ္ထုတ္ရန္ လုပ္ငန္းသံုး ပ႐ိုဂရမ္ မရရွိႏိုင္ပါ။</string>
+	<string name="bt_opp_canceling_task_message">"ေပးပို႔မႈကို ဖ်က္ေနဆဲ၊ ေစာင့္ဆိုင္းပါ…"</string>
+	<string name="bt_opps_confirm_push_title">"ဘလူးတု(သ္) - အဝင္အေၾကာင္းအရာ"</string>
+	<string name="bt_opps_confirm_push_message">"အဝင္ဖိုင္: %3$s မွ %1$s (%2$s)။ လက္ခံမလား။"</string>
+	<string name="bt_opps_confirm_push_yes">အလိုအေလ်ာက္ - ပြတ္ရွ္ ဝန္ေဆာင္မႈကို လက္ခံမွာလား၊ လက္မခံဘူးလား။</string>
+	<string name="bt_opps_confirm_push_no">စကားေျပာထားသည့္ မွတ္တမ္း အားလံုးအား ဤစကားေျပာခန္းမွ ရွင္းလင္းမည္</string>
+	<string name="bt_oppc_push_action_label">ဘလူးတုသ္ မွတဆင့္ ဖြင့္ေနသည္</string>
+	<string name="bt_oppc_push_toast_sending_file">"%1$s သို႔ ဖိုင္ေပးပို႔ဆဲ"</string>
+	<string name="bt_oppc_push_toast_sending_files">"%1$s သို႔ ဖိုင္ေပးပို႔ဆဲ"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"အေထာက္အပံ့ မေပးသည့္ ေဝမွ်ထားသည့္ အေၾကာင္းအရာ: %1$s"</string>
+	<string name="bt_oppc_push_toast_unknown_device">"အမည္မသိပစၥည္း"</string>
+	<string name="bt_opps_toast_storage_unavailable">"SD ကဒ္မရွိပါ သို႔မဟုတ္ အဝင္ဖိုင္ သိမ္းဆည္းရန္ ေနရာမလံုေလာက္ပါ။"</string>
+	<string name="bt_oppc_toast_disk_full">" ပို႔ထားေသာ အခ်က္အလက္မ်ား သိမ္းရန္ ဒစ္ခ္ေနရာ အလံုအေလာက္မရွိ။"</string>
+	<string name="bt_opps_push_toast_invalid_request">"အေဝးရွိပစၥည္းမွ အသံုးမရွိသည့္ ေဝမွ်ခ်က္ေတာင္းခံမႈ။"</string>
+	<string name="permlab_bluetoothWhitelist">အမည္ေကာင္း ဘလူးတုသ္ အသံုးျပဳမႈ။</string>
+	<string name="permdesc_bluetoothWhitelist">အသံုးျပဳသူ၏ ခြင့္ျပဳခ်က္မလိုဘဲ ပစၥည္းတစ္ခုမွ တစ္ခုသို႔ ဖိုင္မ်ားေပးပို႔ျခင္းျဖင့္ ပ႐ိုဂရမ္အား ဘလူးတု(သ္)ပစၥည္းကို ယာယီခြင့္ျပဳစာရင္း ျပဳလုပ္ရန္ ခြင့္ျပဳပါ။</string>
+	<string name="permlab_handoverStatus">ဘလူးတုသ္ျဖင့္ လႊဲေျပာင္းပို႔ေသာ ထုတ္လႊင့္ခ်က္မ်ားကို လက္ခံပါ။</string>
+	<string name="permdesc_handoverStatus">ဘလူးတု(သ္)မွ အခ်က္အလက္မ်ားကို တစ္ေနရာမွ တစ္ေနရာသို႔ ထိန္းခ်ဳပ္ေပးပို႔မႈ အေျခအေနႏွင့္ ပတ္သက္သည့္ သတင္း အခ်က္အလက္မ်ားကို လက္ခံရယူရန္ ခြင့္ျပဳပါ။</string>
+</resources>

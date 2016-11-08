@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"Bluetooth-ով պատկերի փոխանցում"</string>
+	<string name="bt_bipi_push_confirmation">"Պատկերի push ձևով ուղարկման հաստատում"</string>
+	<string name="bt_bipi_unsupported_format">"Կոդավորումը չի աջակցվում հասցեատիրոջ կողմից:\nՇարունակե՞լ ուղարկել:"</string>
+	<string name="bt_bipi_push_confirmation_ok">SMS ծառայության կենտրոնը հաջողությամբ նախադրվեց</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Իսկապե՞ս չեղարկել ներբեռնումը:\nՍեղմեք "Շարունակել", որպեսզի շարունակեք ներբեռնումը\n Սեղմեք "Հրաժարվել", որպեսզի հրաժարվեք ներբեռնումից և վերացնեք ֆայլի ներբեռնումը"</string>
+	<string name="bt_bip_transmitting_dialog_hide">Թաքցնել տեղային տեսանյութը</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Իսկապե՞ս չեղարկել ներբեռնումը:\nՍեղմեք "Շարունակել", որպեսզի շարունակեք ներբեռնումը\n Սեղմեք "Հրաժարվել", որպեսզի հրաժարվեք ներբեռնումից և վերացնեք ֆայլի ներբեռնումը"</string>
+	<string name="bt_bip_transmitting_dialog_ok">SMS ծառայության կենտրոնը հաջողությամբ նախադրվեց</string>
+	<string name="bt_bip_transmitting_dialog_yes">"Այո"</string>
+	<string name="bt_bip_transmitting_dialog_no">Կոնտակտը տպելու համար որևէ ծրագիր մատչելի չէ:</string>
+	<string name="bt_bip_transmitting">"Ուղարկվում է պատկեր, %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"Պատկեր %1$s ուղարկվել է"</string>
+	<string name="bt_bip_transmitting_fail">"Չի հաջողվել ուղարկել պատկեր %1$s"</string>
+	<string name="bt_bip_cancel_pending_job">"Չեղարկե՞լ սպասվող փոխանցումը"</string>
+	<string name="bt_bip_pending_job">"Ուղարկել %1$s (սպասվող)"</string>
+	<string name="bt_bipr_incoming_request">"Մտից պատկերի հայցում"</string>
+	<string name="bt_bipr_incoming_request_description">"Ընտրել` ստանալու համար %1$s"</string>
+	<string name="bt_bipr_accept_title">"Մտից պատկերի հայցում"</string>
+	<string name="bt_bipr_accept_content">"Ընդունե՞լ %1$s (%2$sKB)" "%3$s" -ից:"</string>
+	<string name="bt_bipr_accept_always">"Միշտ ընդունե՞լ:"</string>
+	<string name="bt_bipr_accept_yes">"Այո"</string>
+	<string name="bt_bipr_accept_no">Կոնտակտը տպելու համար որևէ ծրագիր մատչելի չէ:</string>
+	<string name="bt_bip_receiving">"Ստացվում է պատկեր, %1$s"</string>
+	<string name="bt_bip_receiving_successful">"Պատկեր %1$s ստացվել է:\nԿցանկանա՞ք դիտել այն:"</string>
+	<string name="bt_bip_receiving_fail">"Պատկեր %1$s չի ստացվել"</string>
+	<string name="bt_bip_toast_connect_fail">"Տվյալների կապակցումը ձախողվեց կամ ցանցն այժմ զբաղված է":</string>
+	<string name="bt_bip_toast_storage_unmounted">FTP սպասառուն ակտիվացնելուց առաջ ստուգեք, պատրաստ է, արդյոք, SD քարտը:</string>
+	<string name="bt_bip_toast_sending_object">"Ուղարկվում է պատկեր, %1$s"</string>
+	<string name="bt_bip_auth_password">Գաղտնաբառ`\u0020</string>
+	<string name="bt_bip_auth_userid">Սպասարկչի նույնացուցիչ`\u0020</string>
+	<string name="bt_bip_auth_ok">SMS ծառայության կենտրոնը հաջողությամբ նախադրվեց</string>
+	<string name="bt_bip_auth_cancel">"Իսկապե՞ս չեղարկել ներբեռնումը:\nՍեղմեք "Շարունակել", որպեսզի շարունակեք ներբեռնումը\n Սեղմեք "Հրաժարվել", որպեսզի հրաժարվեք ներբեռնումից և վերացնեք ֆայլի ներբեռնումը"</string>
+</resources>

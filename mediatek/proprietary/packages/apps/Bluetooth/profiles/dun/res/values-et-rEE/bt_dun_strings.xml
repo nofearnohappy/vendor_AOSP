@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_dun_authorize_title">"Bluetooth-sissehelistamise lubamine"</string>
+	<string name="bluetooth_dun_authorize_message">"Lubada %1$s-l kasutada sissehelistamisteenust?"</string>
+	<string name="bluetooth_dun_authorize_allow">"Luba"</string>
+	<string name="bluetooth_dun_authorize_decline">Andmeedastuse kiirus langeb.</string>
+	<string name="bluetooth_dun_notification_connect_request_ticker">"Bluetooth-sissehelistamisloa palve"</string>
+	<string name="bluetooth_dun_notification_connect_request_title">"Bluetooth-sissehelistamisloa palve"</string>
+	<string name="bluetooth_dun_notification_connect_request_message">"Valige %1$s palve vastuvõtmiseks"</string>
+</resources>

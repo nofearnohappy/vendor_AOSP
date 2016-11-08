@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">برای روشن کردن Bluetooth ضربه بزنید</string>
+    <string name="tap_to_add_device">برای افزودن دستگاه ضربه بزنید</string>
+    <string name="turning_on_bluetooth">در حال روشن کردن Bluetooth...</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">اسکن دستگاه ها</string>
+    <string name="delete_devices">لطفاً اتصال یک دستگاه را قطع کنید تا دستگاه جدید اضافه شود</string>
+    <string name="cancel">"لغو"</string>
+    <string name="ok">"تأیید"</string>
+    <string name="alert_setting">"هشدار"</string>
+    <string name="device_manager">مدیر دستگاه</string>
+    <string name="out_of_range_alert_text">هشدار خارج از محدوده</string>
+    <string name="in_range_alert_text">هشدار وجود در محدوده</string>
+    <string name="range_alert_text">محدوده من</string>
+    <string name="range_alert_summary">هنگامی که دستگاه در محدوده و خارج از آن است، تلفن و دستگاه هر دو هشدار پخش می کنند</string>
+    <string name="range_near_text">نزدیک</string>
+    <string name="range_middle_text">وسط</string>
+    <string name="range_far_text">"دور"</string>
+    <string name="range_1_distance_text">حدوداً 1 متر</string>
+    <string name="range_10_distance_text">1 تا 10 متر</string>
+    <string name="range_20_distance_text">10 تا 20 متر</string>
+    <string name="phone_alert_settings">تنظیمات هشدار تلفن</string>
+    <string name="ringtone_tye_text">"آهنگ زنگ"</string>
+    <string name="volume_text">"میزان صدا"</string>
+    <string name="vibration_text">لرزش</string>
+    <string name="vibration_summary_on">روشن</string>
+    <string name="vibration_summary_off">"غیر فعال شد"</string>
+    <string name="device_name">"نام دستگاه"</string>
+    <string name="push_notification_text">اعلان های ارسال برای دستگاه</string>
+    <string name="incoming_call_notification_text">"تماس ورودی"</string>
+    <string name="missed_call_notificaiotn_text">"تماس بی‌پاسخ"</string>
+    <string name="new_message_notification_text">"پیام جدید"</string>
+    <string name="new_email_notification_text">"ایمیل جدید"</string>
+    <string name="disconnection_text">تنظیمات قطع اتصال</string>
+    <string name="disconnection_waring_title">هشدار قطع اتصال</string>
+    <string name="disconnection_waring_summary">هنگامی که اتصال دستگاه قطع می شود، تلفن و دستگاه هر دو هشدار پخش می کنند</string>
+    <string name="device_name_change_dialog_title">"تغییر نام"</string>
+    <string name="disconnect_text">"قطع اتصال"</string>
+    <string name="delete_text">"حذف"</string>
+    <string name="connect_text">"اتصال"</string>
+    <string name="device_delete_dialog_message">دستگاه حذف شود؟</string>
+    <string name="device_disconnect_dialog_message">اتصال دستگاه قطع شود؟</string>
+    <string name="find_all_text">یافتن همه موارد</string>
+    <string name="default_images">تصاویر پیش فرض</string>
+    <string name="range_information_text">محدوده به قدرت سیگنال بستگی دارد. در شرایط بهینه، محدوده می تواند بیش از 30 متر باشد.  عوامل خاصی می توانند فاصله را تا 15 متر یا کمتر کاهش دهند، مواردی مانند بدن شما، دیوارها یا دیگر موانع.</string>
+    <string name="range_information_dialog_check_box_text">دوباره نشان داده نشود</string>
+    <string-array name="device_image_chooser_items">
+        <item>انتخاب از تصویر پیش فرض</item>
+        <item>"عکس گرفتن"</item>
+        <item>انتخاب از گالری</item>
+    </string-array>
+    <string name="add_device">"افزودن دستگاه"</string>
+    <string name="yes">"بله"</string>
+    <string name="no">"خیر"</string>
+    <string name="connecting_text">"درحال اتصال…"</string>
+    <string name="enable_background_service">فعال کردن حالت پس زمینه</string>
+    <string name="disable_background_service">غیرفعال کردن حالت پس زمینه</string>
+    <string name="ble_manager_alert">هشدار مدیر BLE</string>
+    <string name="check">بررسی کنید</string>
+    <string name="dismiss">لغو</string>
+    <string name="disconnected">"قطع اتصال"</string>
+    <string name="in_range">در محدوده</string>
+    <string name="out_of_range">خارج از محدوده</string>
+    <string name="no_found">دستگاه Bluetooth پیدا نشد.</string>
+    <string name="bt_off">Bluetooth خاموش است، لطفاً آن را روشن کنید.</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <string name="tooltip_eq_title">智能均衡器/图形均衡器</string>
+    <string name="tooltip_eq_text">智能均衡器用于分析并动态调整音频，使其达到期望的音调。从显示的四种预设中选择一种，然后按“频谱分析仪”，对图形均衡器进行定制修改。</string>
+
+    <string name="tooltip_sv_title">环绕音虚拟器</string>
+    <string name="tooltip_sv_text">环绕音虚拟器用于从任何耳机或立体声扬声器创造出逼真的环绕立体声。通过将开关设为开或关可以控制环绕立体声的音效。</string>
+    <string name="tooltip_de_title">对话增强器</string>
+    <string name="tooltip_de_text">对话增强器用于提高任何类型媒体中的语音清晰度。通过将开关设为开或关可以控制对话的增强效果。</string>
+    <string name="tooltip_vl_title">音量调节器</string>
+    <string name="tooltip_vl_text">音量调节器可以根据设备的主音量水平，为所有内容和应用场合提供一致的音量。通过将开关设为开或关可以实现自动音量调节。 </string>
+
+</resources>

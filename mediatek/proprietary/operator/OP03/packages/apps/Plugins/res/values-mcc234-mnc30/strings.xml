@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The default homepage. -->
+    <string name="homepage_base" translatable="false">http://www.t-mobile-favourites.co.uk/</string>
+    <!-- Bookmarks -->
+    <string-array name="bookmarks_for_op03" translatable="false">
+        <item>T-Mobile Home</item>
+        <item>http://www.t-mobile-favourites.co.uk/</item>
+        <item>Facebook</item>
+        <item>http://m.facebook.com</item>
+        <item>Twitter</item>
+        <item>http://m.twitter.com/</item>
+        <item>Ebay</item>
+        <item>http://www.ebay.co.uk</item>
+        <item>Yahoo</item>
+        <item>http://m.yahoo.com</item>
+        <item>MSN</item>
+        <item>http://home.mobile.live.com/Home.mvc</item>
+        <item>BBC News</item>
+        <item>http://www.bbc.co.uk/news/mobile/</item>
+        <item>Sky Sports</item>
+        <item>http://m.skysports.com/</item>
+        <item>Music</item>
+        <item>http://www.t-mobile-favourites.co.uk/go/androidmusic/</item>
+        <item>Games &amp; Apps</item>
+        <item>http://www.t-mobile-favourites.co.uk/go/androidgames</item>
+        <item>Mobile TV &amp; Video</item>
+        <item>http://www.t-mobile-favourites.co.uk/go/mobiletv/</item>
+        <item>Wikipedia</item>
+        <item>http://en.wikipedia.org</item>
+        <item>Transport for London</item>
+        <item>http://www.tfl.gov.uk</item>
+        <item>National Rail</item>
+        <item>http://www.nationalrail.co.uk</item>
+        <item>Yell.com</item>
+        <item>http://www.yell.com</item>
+        <item>Gumtree</item>
+        <item>http://www.gumtree.co.uk</item>
+    </string-array>
+</resources>

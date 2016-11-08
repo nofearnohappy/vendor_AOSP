@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Operator Plugin APK</string>
+
+    <!-- MMS String Start-->
+    <string name="exceed_subject_length_limitation">Reached max length</string>
+    <string name="select_text">Select text</string>
+    <string name="changeview">Change Mode</string>
+    <string name="menu_sim_sms" >"SIM SMS"</string>
+    <string name="multi_files">Multi-files</string>
+    <string name="download_failed_due_to_full_memory">Download message failed due to memory full.</string>
+    <string name="menu_add_to_bookmark">Add to bookmark</string>
+    <string name="sms_validity_period">SMS Validity Period</string>
+    <string name="sms_validity_period_nosetting">No set</string>
+    <string name="sms_validity_period_1hour">1 Hour</string>
+    <string name="sms_validity_period_6hours">6 Hours</string>
+    <string name="sms_validity_period_12hours">12 Hours</string>
+    <string name="sms_validity_period_1day">1 Day</string>
+    <string name="sms_validity_period_max">Maximum</string>
+    <string name="forward_from">Forward from:</string>
+    <string name="forward_byself">Me</string>
+    <string name="sms_forward_setting">SMS Forward Setting</string>
+    <string name="sms_forward_setting_summary">Forward SMS with sender\'s name and number</string>
+    <!-- Title of storage status in settings -->
+    <string name="pref_title_storage_status">Current storage usage</string>
+    <string name="storage_dialog_mms">MMS:\u0020<xliff:g id="number">%s</xliff:g> item(s)</string>
+    <string name="storage_dialog_sms">SMS:\u0020<xliff:g id="number">%s</xliff:g> item(s)</string>
+    <string name="storage_dialog_attachments">MMS attachments:\u0020</string>
+    <string name="storage_dialog_database">Database:\u0020</string>
+    <string name="storage_dialog_available_space">Available space:\u0020</string>
+
+    <!-- MMS enable to send delivery report -->
+    <string name="pref_title_mms_enable_to_send_delivery_reports">Send delivery report</string>
+    <string name="pref_summary_mms_enable_to_send_delivery_reports">Send a delivery report for each message you receive</string>
+    <string name="mms_sim_select_auto">Auto</string>
+    
+    <string name="add_top_slide">Add slide to top</string>
+    <string name="add_bottom_slide">Add slide to bottom</string>
+
+    <string name="attach_image">Pictures</string>
+    <string name="attach_take_photo">Capture picture</string>
+    <string name="attach_video">Videos</string>
+    <string name="attach_record_video">Capture video</string>
+    <string name="attach_sound">Audio</string>
+    <string name="attach_record_sound">Record audio</string>
+    <string name="attach_slideshow">Slideshow</string>
+    <string name="attach_vcalendar">Calendar</string>
+    <string name="attach_vcard">Contact</string>
+    <!-- MMS String End-->
+
+    <!-- Browser String Start-->
+    <string name="homepage_for_op01" translatable="false">
+        http://go.10086.cn/rd/go/dh/</string>
+    <string-array name="predefined_websites_op01" translatable="false">
+        <item>about:blank</item>
+        <item>about:blank1</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank2</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank3</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank4</item>
+        <item>sitenavigation_thumbnail_default</item>
+
+        <item>about:blank</item>
+        <item>about:blank5</item>
+        <item>sitenavigation_thumbnail_default</item>
+
+        <item>about:blank</item>
+        <item>about:blank6</item>
+        <item>sitenavigation_thumbnail_default</item>
+
+        <item>about:blank</item>
+        <item>about:blank7</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank8</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank9</item>
+        <item>sitenavigation_thumbnail_default</item>
+    </string-array>
+    <string-array name="bookmarks_for_op01" translatable="false">
+        <item>MM网</item>
+        <item>http://a.10086.cn/j/6061/</item>
+        <item>手机阅读</item>
+        <item>http://wap.cmread.com</item>
+        <item>手机游戏</item>
+        <item>http://g.10086.cn</item>
+        <item>手机视频</item>
+        <item>http://wap.cmvideo.cn</item>
+        <item>无线音乐</item>
+        <item>http://m.10086.cn/wireless/html5/index.html</item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
+        <item>飞信首页</item>
+        <item>http://f.10086.cn</item>
+        <item>139邮箱</item>
+        <item>http://mail.10086.cn</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
+    </string-array>
+    <array name="bookmark_preloads_for_op01">       
+        <item>@raw/op01_favicon_mm</item>
+        <item>@raw/op01_thumb_mm</item>
+        <item>@raw/op01_favicon_cmread</item>
+        <item>@raw/op01_thumb_cmread</item>
+        <item>@raw/op01_favicon_10086_game</item>
+        <item>@raw/op01_thumb_game</item>
+        <item>@raw/op01_favicon_cmvideo</item>
+        <item>@raw/op01_thumb_cmvideo</item>
+        <item>@raw/op01_favicon_10086_music</item>
+        <item>@raw/op01_thumb_music</item>
+        <item>@raw/op01_favicon_webaddress</item>
+        <item>@raw/op01_thumb_webaddress</item>
+        <item>@raw/op01_favicon_fetion</item>
+        <item>@raw/op01_thumb_fetion</item>
+        <item>@raw/op01_favicon_139mail</item>
+        <item>@raw/op01_thumb_139mail</item>
+        <item>@raw/op01_favicon_12580</item>
+        <item>@raw/op01_thumb_12580</item>
+    </array>
+    <string name="add_new_bookmark">Add bookmark</string>
+    <string name="new_folder">New folder</string>
+    <string name="clear_history">Clear history</string>
+    <string name="make_primary">Do not show this reminder again</string>
+    <string name="dialog_title">Change Data Connection</string>
+    <string name="wifi_failover_gprs_content">WiFi is unavailable, try to connect to mobile network?</string>
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="download_pending_with_file_size">Starting download. File size: </string>
+    <string name="max_input_browser_search">Your input has reached the max limit.</string>
+    <string name="max_input_browser_search_title">Input limit</string>
+    <string name="max_input_browser_search_button">OK</string>
+    <string name="site_navigation">Site navigation</string>
+    <string name="clear_history_dlg">Delete the browser navigation history?</string>
+    <string name="pref_default_font_family">Font</string>
+    <string name="pref_default_font_family_default" translatable="false">Sans-serif</string>
+    <string name="pref_default_font_family_dialogtitle">Font</string>
+    <string-array name="pref_default_font_family_choices" translatable="false">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="pref_default_font_family_values" translatable="false">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string name="pref_extras_set_download_directory_title">Set download directory</string>
+    <string name="pref_content_landscape_only">Landscape-only display</string>
+    <string name="pref_content_landscape_only_summary">Display pages only in the wider, landscape screen orientation</string>
+    <!-- Browser String End-->
+    
+    <!-- DownloadManager String Start-->
+    <string name="notification_download_complete">Download complete.</string>
+    <string name="notification_download_complete_op01">File is saved to: </string>
+    <!-- DownloadManager String End-->
+
+    <string name="loop">"Loop"</string>
+    <string name="stop">"Stop"</string>
+    <string name="single_track">"Single track"</string>
+    <string name="bookmark_add">"Add bookmark"</string>
+    <string name="bookmark_display">"Show bookmarks"</string>
+    <string name="media_detail">"Media details"</string>
+    <string name="input_url">"Input URL"</string>
+    <string name="streaming_settings">"Streaming Settings"</string>
+    <string name="stereo">"Stereo"</string>
+    <string name="single">"Single"</string>
+    <!--Wifi Settings String start-->
+    <string name="wifi_security_cmcc">Security</string>
+    <string name="proxy_exclusionlist_label_cmcc">Bypass proxy for</string>
+    <string name="wifi_priority_label">Priority</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="wifi_gateway">Gateway</string>
+    <string name="wifi_network_netmask">Netmask</string>
+    <string name="wifi_connect_ap_title">Network auto connect</string>
+    <string name="wifi_connect_ap_summary">Connect to the recently used AP automatically when Wi-Fi enabled</string>
+    <string name="wifi_connect_type_title">Set network connection method</string>
+    <string name="wifi_signal_found_msg">Current connection signal is weak, would you like to use another WLAN network?</string>
+    <string name="wifi_priority_type_title">Set AP priority manually</string>
+    <string name="wifi_priority_type_summary">Allow to set priority for each access point manually</string>
+    <string name="wifi_priority_settings_title">AP priority settings</string>
+    <string name="wifi_priority_settings_summary">Click to set priority of each access point</string>
+    <string name="wifi_priority_changed">Priority old value=<xliff:g id="old_value">%s</xliff:g>,new value=<xliff:g id="new_value">%s</xliff:g></string>
+    <string name="wifi_priority_settings_label">Priority settings</string>
+    <string name="wifi_priority_missing_app">No app was found to handle this action.</string>
+    <string name="wifi_configured_ap_list">Remembered access point list</string>
+
+    <string name="confirm_title">Confirm</string>
+    <string name="msg_wlan_signal_found">Found WLAN signal %s, would you like to use this WLAN network? Using this network will interrupt the data service partially.</string>
+    <string name="msg_wlan_signal_found_manul">Found WLAN signal, would you like to use this WLAN network?</string>
+    <string name="gemini_default_sim_auto">Auto</string>   
+    <string name="wifi_settings">Wi\u2011Fi</string>
+    <string name="wifi_menu_disconnect">Disconnect from network</string>
+    <string name="flight_mode_title">Turn on Airplane mode</string>
+    <string name="msg_flight_mode_notify">To use connectivity features such as Wi-Fi during the Airplane mode, turn them on manually in Settings or on the notification panel.</string>
+    <string name="mark_no_remind">Do not remind me again</string>
+    <string name="setting_remind_title">Reminder</string>
+    <string name="msg_wifi_hotspot_notify">Data connection is still off. Turn it on can make portable Wi-Fi hotspot work efficiently.</string>
+    <string name="wifi_disconnect">Disconnect</string>
+    <string name="wifi_reminder_frequency_title">Reminder frequency</string>
+    <string name="wifi_cmcc_costs_title">Wi-Fi costs reminder</string>
+    <string name="wifi_cmcc_costs_msg">Wi-Fi traffic costs may happen when CMCC Wi-Fi AP connected.</string>
+    <string name="wifi_count_down_sec">(Auto close after <xliff:g id="time_sec">%1$s</xliff:g> seconds.)</string>
+    <!--Wifi Settings String End-->
+
+    <!-- Contact String Start -->
+    <string name="look_simstorage">View SIM Card Capacity</string>
+	<string name="dlg_simstorage_content">phone number book Storage Capacity <xliff:g id="items">%d</xliff:g>, has been used <xliff:g id="items">%d</xliff:g>.</string>
+	<string name="multichoice_contacts_limit">"Selected contacts can't be more than "<xliff:g id="count">%d</xliff:g></string>
+    <string name="menu_blacklist">Black list</string>
+    <string name="groupsLabel">Groups</string>
+    <!-- Contact String End -->
+
+	<!-- Camera white balance start -->
+	<string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
+    <string name="pref_camera_whitebalance_entry_twilight">Twilight</string>
+    <string name="pref_camera_whitebalance_entry_shade">Shade</string>
+    <string name="pref_camera_whitebalance_entry_warm_fluorescent">Warm fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_tungsten">Tungsten</string>
+    <string name="pref_camera_scene_entryvalue_normal" translatable="false">normal</string>
+    <string name="pref_camera_scene_entry_normal">Normal</string>
+	<!-- Camera white balance end -->
+
+    <string name="server_timeout_title">"Server Timeout"</string>
+    <string name="server_timeout_message">"Reconnect the server to play the video or not?"</string>
+    <string name="resume_playing_resume">Resume playing</string>
+    
+    <!--SystemUI String start-->
+    <!-- Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_phone">No phone.</string>
+    <!-- Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_one_bar">Phone one bar.</string>
+    <!-- Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_two_bars">Phone two bars.</string>
+    <!-- Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_three_bars">Phone three bars.</string>
+    <!-- Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_four_bars">Phone four bars.</string>
+    <!-- Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_signal_full">Phone signal full.</string>
+    <!-- Zen mode: No interruptions title, with a warning about alarms. [CHAR LIMIT=60] -->
+    <string name="zen_no_interruptions_with_warning">No interruption. Except alarm.</string>
+    <!--SystemUI String end-->
+
+    <!--Music String start-->
+    <string name="add_file">Add file</string>
+    <string name="non_audio_file">Failed to add, selected is not an audio file.</string>
+    <string name="clear_playlist">Clear playlist</string>
+    <!--Music String End-->
+    <!--Storage Settings String start-->
+    <string name="SD_ready_title">SD card ready</string>
+    <string name="default_storage_path_change_msg">Do you want to change the default write disk?</string>
+    <!--Storage String End-->
+
+    <!-- Phone String start -->
+    <string name="call_video_call">Video call</string>
+    <string name="vt_start_time_from">Start</string>
+    <!-- Phone String end -->
+    
+    <!-- Change data connection -->
+    <string name="change_data_conn_title">Change data connection</string>
+    <string name="change_data_conn_message">" is not availible now, change the default data connection to "</string>
+    <string name="change_data_conn_progress_message">"Please wait..."</string>
+    <string name="change_data_conn_alert_volte">"4G services including VoLTE will be not available. Would you like to continue?"</string>
+    <string name="change_data_conn_alert_rcs">"4G services including RCS will be not available. Would you like to continue?"</string>
+    <string name="change_data_conn_alert">"4G services including VoLTE and RCS will be not available. Would you like to continue?"</string>
+    <string name="data_switch_started">Switching data SIM, this may take up to a minute...</string>
+
+    <string name="privacy_settings">Reset</string>
+    <string name="configed_access_points">Credible access points</string>
+    <string name="new_access_points">Unknown access points</string>
+<!--Callrejection String start-->
+    <string translatable="false" name="menu_select_all">"Select all"</string>
+    <string translatable="false" name="menu_select_none">"Deselect all"</string>
+    <string name="call_reject_title">Call Rejection</string>
+    <string name="call_reject_sum">Manage auto-rejection mode and list</string>
+    <string name="call_reject_mode_title">call auto reject mode</string>
+    <string name="call_all_numbers">call auto reject mode: All numbers</string>
+    <string name="reject_list_full">Reject list is full.</string>
+    
+    <string-array name="call_reject_mode_entries">
+        <item>Off</item>
+        <item>All numbers</item>
+        <item>Auto reject list</item>
+    </string-array>
+    <string-array name="call_reject_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="call_reject_list_title">call auto reject list</string>
+    <string name="call_reject_list_sum">Manage call auto reject list</string>
+    <string name="call_reject_list_delete">DELETE</string>
+    <string name="call_reject_list_add">ADD</string>
+    <string name="add_call_reject_number">Add auto reject number</string>
+    <string name="select_from">Select from</string>
+    <string name="select_all">Select all</string>
+    <string name="select_clear">Clear selected</string>
+    <string name="select_trash">Trash</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> selected</string>
+    <string-array name="call_reject_dialog_array">
+        <item>Contacts</item>
+        <item>Call logs</item>
+    </string-array>
+    <string name="call_reject_please_wait">Please wait\u2026</string>
+    <string name="call_reject_no_name">No name</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <!--Callrejection String End-->
+    <!--CMCC DM setting String begin-->
+    <string name="cmcc_dm_settings_title">Device Management Permission</string>
+    <string name="cmcc_dm_settings_enable_summary">Enable auto boot</string>
+    <string name="cmcc_dm_settings_disable_summary">Disable auto boot</string>
+    <!--CMCC DM setting String End-->
+    <!--Agps String begin-->
+    <string name="agps_settings_title">A-GPS settings</string>    
+    <string name="gps_settings_title">GPS settings</string>
+    <string name="location_settings_title">Location access</string>
+    <!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for Google location service (cell ID, wifi, etc.) -->
+    <string name="location_network_based">Wi\u2011Fi &amp; mobile network location</string>
+    <!-- [CHAR LIMIT=130] Security & location settings screen, setting summary for Google location service check box-->
+    <string name="location_neighborhood_level">Let apps use Google\'s location service to estimate your location faster. Anonymous location data will be collected and sent to Google.</string>
+    <!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for GPS satellites -->
+    <string name="location_gps">GPS satellites</string>
+    <!-- [CHAR LIMIT=45] Label for turning on/off location access completely. -->
+    <string name="location_access_title">Access to my location</string>
+    <!-- [CHAR LIMIT=none] Description text for location access switch -->
+    <string name="location_access_summary">Let apps that have asked your permission use your location information</string>
+    <!-- [CHAR LIMIT=45] Section heading for location sources -->
+    <string name="location_sources_heading">Location sources</string>
+    
+    <string name="agps_OK">OK</string>
+    <string name="agps_enable_confirm_title">A-GPS Enable Confirm</string>
+    <string name="agps_enable_confirm">A-GPS needs a wireless data connection to acquire the assistant data that may cause extra fees. Are you sure to turn on the A-GPS?</string>
+    <string name="agps_enable_confirm_allow">Continue</string>
+    <string name="agps_enable_confirm_deny">Cancel</string>
+    <string name="agps_settings_enable">A-GPS</string>
+    <string name="agps_settings_enable_on">GPS can speed up the fixed time of location with assistant data via wireless data connection</string>
+    <string name="agps_settings_enable_off">Use assistant data to speed up the fixed time of location with GPS</string>
+    <string name="agps_settings_eng_enable">A-GPS settings</string>
+    <string name="agps_settings_eng_summary">Set up A-GPS settings</string>   
+    <string name="Network_Initiate">Network Request</string>
+    <string name="Network_Initiate_Summary_on">Allow network to request position</string>
+    <string name="Network_Initiate_Summary_off">Deny network to request position</string>
+    <string name="Network_Used">Network Used</string>
+    <string name="MobileNetwork_Category">Mobile Network</string>
+    <string name="AgpsHelp_Category">Help</string>
+    <string name="about_agps_title">About A-GPS</string>
+    <string name="about_agps_message">\t A-GPS (Assisted-GPS) is the system that can improve the startup performance and time-to-first-fix (TTFF) of GPS satellites.
+    \n\t An A-GPS capable device can connect to location servers to acquire the assist data through mobile network data connection.
+    \n\t Notice that the data traffic may cause extra fees under network roaming conditions. Please contact with your operators for the details.</string>
+    <string name="Network_Local_and_Roaming_Summary">Use A-GPS both under home and roaming network</string>
+    <string name="Network_Only_Local_Summary">Use A-GPS only under home network</string>
+    <string name="Network_Roaming_dialog_title">Attention</string>
+    <string name="Network_Roaming_dialog_content">If the network under roaming condition, A-GPS data traffic may cause extra roaming fees.</string>
+    <!--Agps String end-->
+    <!-- Add for LTE TDD Begin-->
+    <!-- 4G/3G/2G(Auto) -9- NT_MODE_LTE_GSM_WCDMA -->
+    <!-- 3G/2G(Auto)    -0- NT_MODE_WCDMA_PREF -->
+    <string-array name="lte_network_mode_choices">
+        <item>4G/3G/2G(Auto)</item>
+        <item>3G/2G(Auto)</item>
+    </string-array>
+        <string-array name="lte_network_mode_values" translatable="false">
+        <item>"9"</item>
+        <item>"0"</item>
+    </string-array>
+    <!-- Add for LTE TDD End-->
+
+    <!--Sound Recorder String Start-->
+    <string name="recording_format_high">High</string>
+    <string name="recording_format_mid">Mid</string>
+    <string name="recording_format_low">Low</string>
+    <!--Sound Recorder String End-->
+
+    <string name="call_log_auto_rejected_label">Auto rejected calls</string>
+
+    <!-- Do not translate. About phone, status item title -->
+    <string name="status_imei" translatable="false">IMEI</string>
+    <!-- Do not translate. About phone, status item title -->
+    <string name="status_imei_sv" translatable="false">IMEI SV</string>
+
+    <!-- Speed Dial phase -->
+    <string name="sd_add">Add</string>
+    <string name="voicemail">Voicemail</string>
+    <string name="reselect_number">The number has already been assigned to a speed dial key, please select another nubmer.</string>
+    <string name="invalid_number">The number format is not support, please select another nubmer.</string>
+    <string name="call_speed_dial">Numeric key speed dial</string>
+    <string name="dialog_no_speed_dial_number_message">No speed dial number，is now set？</string>
+    <string name="add_speed_dial">Tap to add speed dial</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) added to speed dial <xliff:g id="key">%3$s</xliff:g></string>
+    <string name="speed_dial_added2"><xliff:g id="contact_name">%1$s</xliff:g> added to speed dial <xliff:g id="key">%2$s</xliff:g></string>
+    <string name="remove_speed_dial">Remove</string>
+    <string name="remove_sd_confirm_1">Are you sure you want to remove <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) from speed dial <xliff:g id="key">%3$s</xliff:g>?</string>
+    <string name="remove_sd_confirm_2">Are you sure you want to remove <xliff:g id="contact_name">%1$s</xliff:g> from speed dial <xliff:g id="key">%2$s</xliff:g>?</string>        
+    <string name="contact_list_loading">Loading</string>
+
+    <string name="time_from">FROM</string>
+    <string name="time_to">TO</string>
+    <string name="time_slot">TIME FORWARD</string>
+    <string name="time_slot_hint">Time can not be the same</string>
+
+    <!--Gallery String Start-->
+    <string name="reach_max_select_num_hint">"Up to %1$d items can be selected"</string>
+    <string name="select_ok">Ok</string>
+    <!--Gallery String End-->
+
+	<!--add or remove black list menu Start-->
+    <string name="add_black_list">Add to black list</string>
+    <string name="remove_black_list">Remove from black list</string>
+    <!--add or remove black list menu  End-->
+    
+    <!--add default_data_switch_err_msg1 Start-->
+    <string name="default_data_switch_err_msg1">Can not switch preferred SIM for cellular data during the call.</string>
+    <!--add default_data_switch_err_msg1 End-->
+
+    <!--Video Player String Start-->
+    <string name="proxy_host">Host</string>
+    <string name="proxy_port">Port</string>
+    <string name="apn_settings">Access Point Names</string>
+    <string name="rtsp_proxy_settings">"RTSP Proxy Settings"</string>
+    <string name="rtsp_proxy_settings_summary">"Setup and manage RTSP proxy settings"</string>
+    <string name="enable_rtsp_proxy">"Enable RTSP proxy"</string>
+    <string name="enable_rtsp_proxy_summary">"Enable/Disable RTSP proxy"</string>
+    <string name="http_proxy_settings">"HTTP Proxy Settings"</string>
+    <string name="http_proxy_settings_summary">"Setup and manage HTTP proxy settings"</string>
+    <string name="enable_http_proxy">"Enable HTTP proxy"</string>
+    <string name="enable_http_proxy_summary">"Enable/Disable HTTP proxy"</string>
+    <string name="apn_settings_summary">"Current SIM: %1$s\nCurrent APN: %2$s"</string>
+    <string name="apn_settings_not_valid">"SIM's Data Connectivity is closed, cann't set APN"</string>
+    <string name="udp_port_settings">"RTP/RTCP Port Range"</string>
+    <string name="udp_port_settings_summary">"Set Max and Min Port Number"</string>
+    <string name="max_udp_port">"Max Port Number"</string>
+    <string name="min_udp_port">"Min Port Number"</string>
+    <string name="server_timeout_title">"Server Timeout"</string>
+    <string name="server_timeout_message">"Reconnect the server to play the video or not?"</string>
+    <string name="streaming_settings">"Streaming Settings"</string>
+    <string name="wifi_network_no_need_apn">WIFI network, no need to set APN</string>
+    <string name="apn_settings_no_default_apn">none</string>
+    <string name="http_buffer_size">"HTTP buffer size"</string>
+    <string name="http_buffer_size_summary">"Set HTTP buffer size for streaming"</string>
+    <string name="http_buffer_size_text">"Current HTTP buffer size: %1$d(s)"</string>
+    <string name="rtsp_buffer_size">"RTSP buffer size"</string>
+    <string name="rtsp_buffer_size_summary">"Set RTSP buffer size for streaming"</string>
+    <string name="rtsp_buffer_size_text">"Current RTSP buffer size: %1$d(s)"</string>
+    <string name="buffer_size_tip">"Valid value range: %1$d - %2$d seconds"</string>
+    <string name="settings">Settings</string>
+    <!--Video Player String End-->
+
+    <!--Application Settings String Start-->
+    <string name="launch_main_label">Launch application</string>
+    <string name="launch_main">Launch the application by main activity</string>
+    <!--Application Settings String End-->
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_dun_authorize_title">"Autorització de marcació per Bluetooth"</string>
+	<string name="bluetooth_dun_authorize_message">"Voleu permetre la sol·licitud de marcació per connexió de %1$s?”</string>
+	<string name="bluetooth_dun_authorize_allow">"Permet"</string>
+	<string name="bluetooth_dun_authorize_decline">La velocitat de transmissió de dades baixarà.</string>
+	<string name="bluetooth_dun_notification_connect_request_ticker">"Sol·licitud d'autorització de marcació per Bluetooth"</string>
+	<string name="bluetooth_dun_notification_connect_request_title">"Sol·licitud d'autorització de marcació per Bluetooth"</string>
+	<string name="bluetooth_dun_notification_connect_request_message">"Seleccioneu per acceptar la sol·licitud de %1$s"</string>
+</resources>

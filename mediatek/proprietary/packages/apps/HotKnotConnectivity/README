@@ -1,0 +1,32 @@
+Service of Mediatek HotKnot features, icluding message transmission, file transmission through the HotKnot technology.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+HotKnotConnectivity.apk contains MediaTek developed HotKnot connectivity service
+It can help to transfer file through Bluetooth OPP.
+Without them, HotKnot functionalities with Bluetooth will not work
+
+HOW IT WAS BUILT?
+==================
+1. The featureoption MTK_HOTKNOT_SUPPORT should be true.
+
+
+
+[Build Method]
+
+make HotKnotConnectivity
+or
+mmm vendor/mediatek/proprietary/packages/apps/HotKnotConnectivity
+
+
+
+HOW TO USE IT?
+==============
+
+1) enter Settings page and press HotKnot On/Off
+
+2) if enable it , will show the HotKnot icon on the status bar to tell user HotKnot is on
+All the source code of this module were written by MediaTek co..

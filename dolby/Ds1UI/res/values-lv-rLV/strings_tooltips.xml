@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Inteliģentais ekvalaizers/Grafiskais ekvalaizers</string>
+	<string name="tooltip_eq_text">Inteliģentais ekvalaizers analizē un dinamiski pielāgo audio atbilstoši vēlamajam tonim. Izvēlieties no četriem redzamajiem sākotnējiem iestatījumiem un pēc tam pieskarieties spektrālajam vizualizētājam, lai veiktu grafiskā ekvalaizera pielāgotas modifikācijas.</string>
+	<string name="tooltip_sv_title">Iesk. skaņas virtualizētājs</string>
+	<string name="tooltip_sv_text">Ieskaujošās skaņas virtualizētājs rada reālistisku ieskaujošo skaņu jebkurās austiņās vai stereo skaļruņos. Iestatiet slēdzi ieslēgtā vai izslēgtā pozīcijā, lai kontrolētu ieskaujošās skaņas efektu.</string>
+	<string name="tooltip_de_title">Dialoga uzlabotājs</string>
+	<string name="tooltip_de_text">Dialoga uzlabotājs uzlabo runas skaidrību jebkurā vidē. Iestatiet slēdzi ieslēgtā vai izslēgtā pozīcijā, lai kontrolētu dialogu uzlabošanu.</string>
+	<string name="tooltip_vl_title">Skaļuma izlīdzinātājs</string>
+	<string name="tooltip_vl_text">Skaļuma izlīdzinātājs nodrošina vienmērīgu skaļumu visu ierakstu un programmu atskaņošanas laikā, balstoties uz ierīces galveno skaļuma līmeni. Iestatiet slēdzi ieslēgtā vai izslēgtā pozīcijā, lai kontrolētu automātisko skaļuma izlīdzināšanu.</string>
+</resources>

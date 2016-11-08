@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_timec_repeat_entries">
+		<item>"15 minutit"</item>
+		<item>"30 minutit"</item>
+		<item>"1 tund"</item>
+		<item>"3 tundi"</item>
+		<item>6 tundi</item>
+		<item>12 tundi</item>
+		<item>"1 päev"</item>
+	</string-array>
+</resources>

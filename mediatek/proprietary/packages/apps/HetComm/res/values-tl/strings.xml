@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbodownload</string>
+    <string name="hetcomm_intro">Mag-download ng mga malalaking file(mahigit sa 20 MB) nang mas mabilis gamit ang Wi-Fi at mga 4G/3G network nang magkasabay. Ang icon ng Turbo Download ay ipapakita sa status bar kapag tumatakbo ito. Para gamitin ang Turbo Download, ang Wi-Fi at Mobile data ay dapat naka-on. Kapag gumgana ito, ang anumang application data na napili mong mag-download da pamamagitan ng Wi-Fi lang ay ida-downloaded sa pamamagitan ng WLAN at 4G/3G networks pa rin.</string>
+    <string name="enable_switch_on">naka-on</string>
+    <string name="enable_switch_off">Off</string>
+    <string name="notify_top_title">Pampabilis ng Pag-download</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Data sa Mobile"</string>
+    <string name="conn_notice_title">Alinman sa Mobile o Wi-Fi ay NAKA-OFF.</string>
+    <string name="conn_notice_detail">Para paganahin ang Turbo Download, ang Wi-Fi at ang Mobile data ay dapat naka-on.</string>
+    <string name="conn_charging_warning">Ang pag-download gamit ang mga mobile network ay maaarng magresult sa mga nakadependeng karagdagang singil.</string>
+    <string name="turn_on">I-on ang <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Ang Turbo Download ay NAKA-OFF dahil sa Vpn ON</string>
+    <string name="turn_off_due_to_tether">Ang Turbo Download ay NAKA-OFF dahil sa Tethering ON</string>
+    <string name="turn_off_due_to_shutdown">Ang Turbo Download ay NAKA-OFF dahil sa Shutdown</string>
+    <string name="turn_off_due_to_roaming">Ang Turbo Download ay NAKA-OFF dahil sa Roaming</string>
+    <string name="ratio_is_single">Mabagal ang speed ng Wi-Fi/Mobile data. Para pabilisin ang download, gagamit lang ang Turbo download ng Mobile data/Wi-Fi para mag-download ng mga file.</string>
+    <string name="ratio_is_back">Ang Turbo download ay muling gumagamit ng magkakasamang Wi-Fi at Mobile data para mag-download ng mga file.</string>
+    <string name="action_help">Tulong</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Tulong sa Turbo Download</u>\
+    </h1><br>Mag-download na malalaking file sa pinakamatuling bilis sa pamamagitan ng paggamit ng Wi-Fi at 4G/3G nang sabay.\
+    <h4>1. Pumunta sa Mga Setting at i-tap ang Turbo Download.</h4>\
+    <h4>2. I-tap ang switch para i-on ang Turbo Download.</h4>\
+    <p><b>[Payo]</b> Para pabilisin ang pag-download kung konektado sa Wi-Fi at 4G/3G sa simula ng iyong pag-download.\
+    <p><b>[Payo]</b> Kung ang iyong Wi-Fi o 4G/3G connection ay masyadong mabagal, you magagamit mo ang mas mabilis mong koneksyon sa network para mag-download.\
+    <p><b>[Payo]</b> Ang tulin at pagganap ng Turbo Download ay maaaring maapektuhan ng kapaligiran ng network habang nagda-download.\
+    <br>&nbsp;&nbsp;- Kung hindi stable ang mga signal, ang tulin at pagganap ng tampok na ito ay maaaring maapektuhan.\
+    <br>&nbsp;&nbsp;- subalit, sa karaniwan, ang tulin ng download ay ""madodoble"" kaysa kumpara sa paggamit lang ng Wi-Fi o 4G/3G lang.\
+    <p><b>[Payo]</b> Kapag ang kaibahan ng tulin ng Wi-Fi at 4G/3G ay malaki(Karaniwang 2.5 beses), hihinto ang Turbo Download o hindi susuporta para maiwasang  makakuha ng masamang pagganap pagdating sa tulin.\
+    <p><b>[Payo]</b> Awtomatikong hindi pagaganahin ang Turbo Download kapag ang Tethering/Vpn ay naka-on.\
+    </body></html>]]>"</string>
+</resources>

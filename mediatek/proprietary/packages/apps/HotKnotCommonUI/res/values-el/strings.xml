@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Κοινή χρήση HotKnot</string>
+    <string name="hint1">Βεβαιωθείτε ότι η συσκευή λήψης έχει ενεργοποιημένο το HotKnot και διατηρείστε ξεκλείδωτη την οθόνη της.</string>
+    <string name="hint2">Τοποθετήστε τη συσκευή σας και τη συσκευή λήψης τη μία επάνω στην άλλη με τις οθόνες τους να εφάπτονται.</string>
+    <string name="hint3">Απομακρύνετε τη συσκευή σας από τη συσκευή λήψης όταν ακούσετε μια φωνητική προτροπή.</string>
+    <string name="use_hotknot">Η εφαρμογή χρειάζεται να χρησιμοποιήσει την τεχνολογία HotKnot στη συσκευή σας.</string>
+    <string name="allow">"Να επιτραπεί"</string>
+    <string name="deny">"Απόρριψη"</string>
+    <string name="fail_to_share">Αποτυχία κοινής χρήσης</string>
+    <string name="fail_to_share_conn_error">Αποτυχία κοινής χρήσης λόγω προβλήματος σύνδεσης.</string>
+    <string name="fail_to_share_unknown_error">Αποτυχία κοινής χρήσης λόγω άγνωστου σφάλματος.</string>
+    <string name="try_again">"Προσπαθήστε ξανά"</string>
+    <string name="usb_warning">Η λειτουργία HotKnot ενδέχεται να επηρεαστεί κατά τη διάρκεια της φόρτισης μέσω USB.</string>
+</resources>

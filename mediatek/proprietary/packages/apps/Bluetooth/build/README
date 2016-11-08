@@ -1,0 +1,34 @@
+APK of Bluetooth Advanced Profiles(BlueAngel Plus Features).
+
+This APK is built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+MtkBt.apk is a Bluetooth service, including Mediatek Bluetooth advanced profiles, such as FTP, SIMAP, DUN, BIP, BPP and so on.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. framework.jar
+2. telephony-common.jar
+3. mms-common.jar
+
+and the following libs from MediaTek:
+1. mediatek-framework.jar
+2. mediatek-telephony-common.jar
+
+All source/dependency modules of this module are already put in
+'system/framework' folder.
+
+HOW TO USE IT?
+==============
+Bluetooth advanced profiles is default disabled, following next steps to enable those features:
+1. Modify advanced profiles configuration file.
+    (1) Get config file "alps/vendor/mediatek/proprietary/external/bluetooth/bt_cust/btconfig.xml"
+    (2) Modify related profile "value" from "false" to "true"
+    (3) After update it and build done and download in target, this configure file located in "/etc/bluetooth/btconfig.xml". 
+        Note: You can modify its value(by ADB) for dynamic switch advanced peofiles.
+2. On target, go to Setting->Bluetooth(On)=>Menu("Rename Phone", "Visibility timeout"...), in this 
+menu will plug in "Advanced Profiles" item, click it then enter advanced setting, you can enable 
+profiles here and start BT profiles operations.
+

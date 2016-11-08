@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">خدمات مشتریان</string>  
+    <string name="hotLine">خط مستقیم مشتریان China Unicom</string>
+    <string name="app_not_found">"برنامه‌ای برای انجام این عملکرد یافت نشد."</string>
+</resources>

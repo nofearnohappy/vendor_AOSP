@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Share</string>
+    <string name="hint1">Переконайтеся, що на HotKnot увімкнено приймач, а екран розблоковано.</string>
+    <string name="hint2">Прикладіть пристрій до пристрою-приймача екран до екрану.</string>
+    <string name="hint3">Почувши голосову підказку, віддаліть свій пристрій від пристрою-приймача.</string>
+    <string name="use_hotknot">Цій задачі потрібна технологія HotKnot на вашому пристрої.</string>
+    <string name="allow">"Дозволити"</string>
+    <string name="deny">"Відхилити"</string>
+    <string name="fail_to_share">Не вдалося спільне користування</string>
+    <string name="fail_to_share_conn_error">Не вдалося спільне користування через проблему підключення.</string>
+    <string name="fail_to_share_unknown_error">Не вдалося спільне користування через невідому помилку.</string>
+    <string name="try_again">"Повтор."</string>
+    <string name="usb_warning">Функція HotKnot може зазнати впливу під час USB-зарядження.</string>
+</resources>

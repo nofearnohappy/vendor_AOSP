@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Πατήστε για να ενεργοποιήσετε τη λειτουργία Bluetooth</string>
+    <string name="tap_to_add_device">Πατήστε για να προσθέσετε συσκευή</string>
+    <string name="turning_on_bluetooth">Ενεργοποίηση της λειτουργίας bluetooth…</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Συσκευές σάρωσης</string>
+    <string name="delete_devices">Αποσυνδέστε μια συσκευή προκειμένου να συνδέσετε μια νέα</string>
+    <string name="cancel">"Ακύρωση"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Προειδοποίηση"</string>
+    <string name="device_manager">Διαχείριση συσκευών</string>
+    <string name="out_of_range_alert_text">Ειδοποίηση εκτός εμβέλειας</string>
+    <string name="in_range_alert_text">Ειδοποίηση εντός εμβέλειας</string>
+    <string name="range_alert_text">Η εμβέλεια μου</string>
+    <string name="range_alert_summary">Ειδοποίηση τόσο από το τηλέφωνο όσο και από τη συσκευή όταν η συσκευή βρίσκεται εντός ή εκτός εμβέλειας</string>
+    <string name="range_near_text">Κοντά</string>
+    <string name="range_middle_text">μέση</string>
+    <string name="range_far_text">"Μακριά"</string>
+    <string name="range_1_distance_text">Περίπου 1 m</string>
+    <string name="range_10_distance_text">1-10 m</string>
+    <string name="range_20_distance_text">10-20 m</string>
+    <string name="phone_alert_settings">Ρυθμίσεις ειδοποίησης τηλεφώνου</string>
+    <string name="ringtone_tye_text">"Ήχος κλήσης"</string>
+    <string name="volume_text">"Ένταση ήχου"</string>
+    <string name="vibration_text">Δόνηση</string>
+    <string name="vibration_summary_on">ενεργοποίηση</string>
+    <string name="vibration_summary_off">"Απενεργοποιημένη"</string>
+    <string name="device_name">"Όνομα συσκευής"</string>
+    <string name="push_notification_text">Ειδοποιήσεις push στη συσκευή</string>
+    <string name="incoming_call_notification_text">"Εισερχόμενη κλήση"</string>
+    <string name="missed_call_notificaiotn_text">"Αναπάντητη κλήση"</string>
+    <string name="new_message_notification_text">"Νέο μήνυμα"</string>
+    <string name="new_email_notification_text">"Νέο μήνυμα ηλεκτρονικού ταχυδρομείου"</string>
+    <string name="disconnection_text">Ρυθμίσεις αποσύνδεσης</string>
+    <string name="disconnection_waring_title">Ειδοποίηση αποσύνδεσης</string>
+    <string name="disconnection_waring_summary">Ειδοποίηση τόσο από το τηλέφωνο όσο και από τη συσκευή όταν η συσκευή είναι αποσυνδεδεμένη</string>
+    <string name="device_name_change_dialog_title">"Μετονομασία"</string>
+    <string name="disconnect_text">"Αποσύνδεση"</string>
+    <string name="delete_text">"Διαγραφή"</string>
+    <string name="connect_text">"Σύνδεση"</string>
+    <string name="device_delete_dialog_message">Διαγραφή αυτής της συσκευής;</string>
+    <string name="device_disconnect_dialog_message">Αποσύνδεση αυτής της συσκευής;</string>
+    <string name="find_all_text">Εύρεση όλων</string>
+    <string name="default_images">Προεπιλεγμένες εικόνες</string>
+    <string name="range_information_text">Η εμβέλεια εξαρτάται από την ένταση του σήματος. Σε ιδανικές καταστάσεις, μπορεί να υπερβαίνει τα 30 μέτρα.  Ορισμένα στοιχεία, όπως το σώμα σας, τοίχοι και λοιπά εμπόδια, μπορούν να μειώσουν την απόσταση στα 15 μέτρα ή και λιγότερο.</string>
+    <string name="range_information_dialog_check_box_text">Να μην εμφανιστεί ξανά</string>
+    <string-array name="device_image_chooser_items">
+        <item>Επιλέξτε από τις προεπιλεγμένες εικόνες</item>
+        <item>"Λήψη φωτογραφίας"</item>
+        <item>Επιλέξτε από τη συλλογή</item>
+    </string-array>
+    <string name="add_device">Προσθήκη συσκευής</string>
+    <string name="yes">"Ναι"</string>
+    <string name="no">"Όχι"</string>
+    <string name="connecting_text">"Σύνδεση…"</string>
+    <string name="enable_background_service">Ενεργοποίηση της λειτουργίας στο παρασκήνιο</string>
+    <string name="disable_background_service">Απενεργοποίηση της λειτουργίας στο παρασκήνιο</string>
+    <string name="ble_manager_alert">Ειδοποίηση BLE Manager</string>
+    <string name="check">Έλεγχος</string>
+    <string name="dismiss">Παράβλεψη</string>
+    <string name="disconnected">"Εκτός σύνδεσης"</string>
+    <string name="in_range">σε εύρος</string>
+    <string name="out_of_range">εκτός εύρους</string>
+    <string name="no_found">Δεν βρέθηκε συσκευή bluetoοth.</string>
+    <string name="bt_off">Η λειτουργία bluetoοth είναι απενεργοποιημένη, ενεργοποιήστε την.</string>
+</resources>

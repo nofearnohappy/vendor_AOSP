@@ -1,0 +1,19 @@
+Library of MTK NFC features.
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libmtknfc.so contains MediaTek developed NFC modules.  
+Without them, MediaTek-NFC functionalities will not work.
+
+HOW IT WAS BUILT?
+==================
+This library is pre-built by MediaTek internal.
+
+HOW TO USE IT?
+==============
+
+Provide api for NFC stack to control the NFC features.
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">المعادل الذكي/المعادل الرسومي</string>
+	<string name="tooltip_eq_text">يقوم المعادل الذكي بتحليل الصوت وتعديله ديناميكيًا ليطابق النغمة المطلوبة. اختر أحد الإعدادات المسبقة المعروضة، ثم المس المعدل الطيفي لإجراء تعديلات تخصيصية للمعدل الرسومي.</string>
+	<string name="tooltip_sv_title">المحاكي المحيطي</string>
+	<string name="tooltip_sv_text">ينشئ المحاكي المحيطي صوتًا محيطيًا واقعيًا من أي مجموعة سماعات رأس أو سماعات استيريو. ضع المفتاح في وضع التشغيل أو الإيقاف للتحكم في تأثير الصوت المحيطي.</string>
+	<string name="tooltip_de_title">محسن الحوار</string>
+	<string name="tooltip_de_text">يعمل محسن الحوار على تحسين وضوح الحديث في أي نوع من الوسائط. ضع المفتاح في وضع التشغيل أو الإيقاف للتحكم في تحسين الحوار.</string>
+	<string name="tooltip_vl_title">محدد مستوى الصوت</string>
+	<string name="tooltip_vl_text">يوفر محدد مستوى الصوت صوتًا ثابتًا عبر كل المحتويات والتطبيقات بناءً على مستوى الصوت الرئيسي للجهاز. ضع المفتاح في وضع التشغيل أو الإيقاف للتحكم في التحديد التلقائي لمستوى الصوت.</string>
+</resources>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">“信息”不是您的默认短信应用</string>
+    <string name="banner_sms_promo_message1">点击此处激活。</string>
+    <string name="roaming_warning">在漫游时连接至互联网可能会大幅增加您的电话费。您的运营商会在您的漫游数据用量达到一定限额时通知您。确定继续？</string>
+    
+</resources>

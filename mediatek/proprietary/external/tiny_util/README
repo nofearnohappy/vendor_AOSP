@@ -1,0 +1,21 @@
+Tiny utility to enable MTK swap mechanism.
+
+
+WHAT IT DOES?
+=============
+tiny_mkswap is used to set up a swap area.
+tiny_swapon/tiny_swapoff is used to enable/disable a swap area for swapping.
+tiny_switch is a used to determine whether we should enable swap.
+tiny_fallocate is used to preallocate space for a swap file.
+
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libc.so
+2.  libcutils.so
+
+
+HOW TO USE IT?
+==============
+Provide executableS for MTK swap mechanism.

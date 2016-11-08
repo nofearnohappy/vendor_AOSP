@@ -1,0 +1,14 @@
+This directory contains sources for Mediatek incorporated ext handling for MtkQuickSearchBox.
+
+WHAT IT DOES?
+=============
+This module defines interfaces for extending the operator specific features for MtkQuickSearchBox.
+These interfaces help in usage of customized default search engine and handle custom search.
+
+HOW IT WAS BUILT?
+==================
+com.mediatek.qsb.ext gets built as static Java library.
+
+HOW TO USE IT?
+==============
+In operator plugin, the interfaces need to be implemented to extend functionality.

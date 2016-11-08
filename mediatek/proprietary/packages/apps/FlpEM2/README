@@ -1,0 +1,24 @@
+The Android Package 'FlpEM2.apk' is a GPS/Fused Location Provider tool on MediaTek's
+platforms.
+This Android Package is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+The Android Package 'FlpEM2.apk' is the implementation that provides
+GPS/Fused Location Provider UI for tester to do fused location framework
+and native layer related testing.
+
+HOW IT WAS BUILT?
+==================
+This module can be build command:
+'mmm -j vendor/mediatek/proprietary/packages/apps/FlpEM2/'.
+
+HOW TO USE IT?
+==============
+The Android Package 'FlpEM2.apk' can be launched by EngineerMode of Fused Location Provider.
+or use ADB command:
+"adb shell am start -n com.mediatek.flp.em/com.mediatek.flp.em.FlpTabActivity".
+
+Source
+==============
+All the source code of this Android Package were written by MediaTek co..

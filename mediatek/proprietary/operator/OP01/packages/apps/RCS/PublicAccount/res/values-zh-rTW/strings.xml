@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:name:tc:xliff:document:1.2">
+
+    <string name="app_name">PAMAndroidClient</string>
+    <string name="title_activity_account_details">賬號詳情</string>
+    <string name="title_activity_message_history">消息歷史消息历史</string>
+    <string name="title_activity_message_history_result">消息歷史結果</string>
+    <string name="subscribe_failed">關注失敗</string>
+    <string name="unsubscribe_failed">取消關注失敗</string>
+    <string name="get_details_failed">獲取詳情失敗</string>
+    <string name="unsubscribe_alert_title">取消關注?</string>
+    <string name="unsubscribe_alert_message">賬號已停用/關閉，取消關注？</string>
+
+    <!--  account details activity -->
+    <string name="button_chat">開始聊天</string>
+    <string name="not_registered_promt">無法連接到服務器</string>
+    <string name="button_view_history">查看歷史消息</string>
+    <string name="button_subscribe">關注</string>
+    <string name="button_unsubscribe">取消關注</string>
+    <string name="button_clear_history">清空聊天</string>
+    <string name="switch_notification">消息通知</string>
+    <string name="title_telephone">企業電話：</string>
+    <string name="title_email">郵箱：</string>
+    <string name="title_address">地址：</string>
+    <string name="title_field">所屬行業：</string>
+    <string name="account_details_refresh">刷新</string>
+    <string name="account_details_complain">舉報</string>
+    <string name="empty_history_description">無會話</string>
+    <string name="empty_search_description">沒有找到符合條件的消息</string>
+    <string name="account_details_no_account">未指定賬號</string>
+    
+    <string name="complain_reason_title">選擇舉報類型</string>
+    <string name="complain_description_title">填寫舉報內容</string>
+    
+    <string name="title_activity_complain_account">舉報</string>
+    <string name="complain_public_account">舉報</string>
+    
+    <string name="complain_account_reason_harassment">騷擾</string>
+    <string name="complain_account_reason_fraud">詐騙/虛假信息</string>
+    <string name="complain_account_reason_infringement">侵權</string>
+    <string name="complain_account_reason_porn">色情</string>
+    <string name="complain_account_reason_irregularity">違背法律法規</string>
+    
+    <string name="complain_account_success">舉報成功</string>
+    <string name="complain_account_failure">舉報失敗</string>
+
+    <!-- message history activity -->
+    <string name="message_history_context_delete">刪除</string>
+    <string name="message_history_cannot_connect_to_rcs">無法連接到融合通信平台</string>
+
+    <!-- menu display names -->
+    <string name="action_close">關閉</string>
+    <string name="action_copy_url">複製鏈接</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_favorite">收藏</string>
+    <string name="action_forward">轉發</string>
+    <string name="action_history">歷史</string>
+    <string name="action_refresh">刷新</string>
+    <string name="button_search">搜索</string>
+
+    <!-- Template for SMS digest -->
+    <string name="sms_digest_template_pic">圖片: </string>
+    <string name="sms_digest_template_audio">音頻: </string>
+    <string name="sms_digest_template_video">視頻: </string>
+    <string name="sms_digest_template_article">文章: </string>
+    <string name="sms_digest_template_articles">文章:</string>
+    <string name="sms_digest_template_geoloc">地理位置訊息</string>
+    <string name="sms_digest_template_vcard">聯系人電子名片</string>
+
+    <!-- Message -->
+    <string name="search_description">搜索消息內容</string>
+    <string name="account_logo">圖標</string>
+    <string name="account_name">名稱</string>
+    <string name="message_timestamp">時間點</string>
+    <string name="message_summary">消息總結</string>
+
+    <!-- Title -->
+    <string name="title_activity_account_list">賬號列表</string>
+    <string name="title_activity_account_history">賬號歷史</string>
+    <string name="title_activity_account_search">賬號搜索</string>
+    <string name="title_activity_pa_web_view">圖文混排</string>
+
+    <!-- Text -->
+    <string name="hint_max_length">最多%1$d個字符</string>
+    <string name="hint_search_public_accounts">搜索公共賬號</string>
+    <string name="hint_search_public_accounts_long">輸入需要添加的公共賬號的關鍵詞以搜索該公共賬號</string>
+    <string name="text_no_accounts_followed">未關注賬號，點擊類型查看推薦賬號</string>
+    <string name="text_loading">加載中</string>
+    <string name="text_no_history_message">無歷史消息</string>
+    <string name="text_no_more_result">無更多結果</string>
+    <string name="text_no_search_result">無搜索結果</string>
+    <string name="text_service_not_connect">未連接到服務器，請稍後重試</string>
+    <string name="text_network_error">網絡異常</string>
+    <string name="text_exception_happend">發生異常</string>
+
+    <!-- Message -->
+    <string name="view">瀏覽</string>
+    <string name="replace">替代</string>
+    <string name="remove">移除</string>
+    <string name="send">發送</string>
+    <string name="send_fail">發送失敗</string>
+    <string name="ipmsg_sms_hint">輸入文本消息</string>
+    <string name="show_pa_details">顯示詳情</string>
+    <string name="contact_name">姓名</string>
+    <string name="ipmsg_accept">接受</string>
+    <string name="ipmsg_reject">拒絕</string>
+    <string name="ipmsg_resend">重新發送</string>
+    <string name="read_all">閱讀全部</string>
+    <string name="attach_take_photo">拍攝照片</string>
+    <string name="attach_record_video">拍攝視頻</string>
+    <string name="attach_record_sound">錄音</string>
+    <string name="attach_vcard">聯繫人</string>
+    <string name="attach_image">圖片</string>
+    <string name="attach_video">視頻</string>
+    <string name="attach_sound">音頻</string>
+    <string name="attach_position">位置</string>
+    <string name="attach_vcalendar">日曆</string>
+    <string name="message_options">消息選項</string>
+    <string name="menu_forward">轉發</string>
+    <string name="menu_copy_url">複製鏈接</string>
+    <string name="delete_message">刪除</string>
+    <string name="menu_copy">複製</string>
+    <string name="menu_report">舉報</string>
+    <string name="delete_all">刪除全部</string>
+    <string name="ipmsg_no_such_file">找不到文件</string>
+    <string name="sending">正在發送</string>
+    <string name="confirm">確認</string>
+    <string name="report_success">舉報成功</string>
+	<string name="report_failed">舉報失敗</string>
+	<string name="message_saved_as_draft">文本消息已保存為草稿</string>
+	<string name="multi_contacts_name">多條聯繫人</string>
+	<string name="multi_contacts_notification">包含多條聯繫人, 是否導入聯繫人?</string>
+	<string name="service_not_ready">公眾賬號通信服務未就緒</string>
+	<string name="account_not_subscribed">賬號未被關注</string>
+	<string name="account_stopped">賬號已停用/關閉</string>
+	<string name="open_keyboard_to_compose_message">打開鍵盤輸入訊息</string>
+	<string name="delete_confirm">将会删除此信息</string>
+	<string name="delete_all_confirm">將會刪除此信息</string>
+	<string name="delete_fail">刪除失敗</string>
+  <string name="error_unkown">未知錯誤</string>
+	<string name="error_audio_too_long">音頻文件長度超過180秒，無法發送。</string>
+	<string name="error_video_too_large">視頻文件過大，無法發送。</string>
+	<string name="error_image_too_large">圖片文件過大，無法發送。</string>
+	<string name="error_unsupport_type">不支持的文件類型。</string>
+	<string name="error_path_not_exist">路徑不存在。</string>
+	<string name="error_file_not_found">找不到文件。</string>
+	<string name="image_tool_large">圖片過大。</string>
+	<string name="image_resize_hint">圖片過大，是否縮小後發送？</string>
+	<string name="no_such_app">找不到應用</string>
+	<string name="geoloc_being_get">正在獲取位置...</string>
+	<string name="geoloc_send_confirm">獲取位置成功，是否發送？</string>
+	<string name="geoloc_get_failed">無法獲取當前的位置信息</string>
+	<string name="geoloc_map_failed">獲取無法獲取地圖信息。</string>
+	<string name="geoloc_check_gps">請檢查GPS開關。</string>
+    <string name="retry_indicator">重發信息？</string>
+	<string name="sending_text">正在發送...</string>
+	<string name="to_send_text">待發送...</string>
+	<string name="send_fail_text">發送失敗</string>
+    <string name="select_text">選擇文字</string>
+    <string name="yes">確定</string>
+    <string name="copy_to_sdcard">存儲附件</string>
+    <string name="copy_to_sdcard_fail">無法存儲附件</string>
+    <string name="copy_to_sdcard_success">已存儲附件</string>
+    <string name="select_message">選擇訊息</string>
+    <string name="select_all">選擇全部</string>
+    <string name="unselect_all">取消全選</string>
+    <string name="confirm_delete_selected_messages">選擇的訊息將被刪除</string>
+    <string name="deleting">刪除中</string>
+    <string name="add_favorite_success">已收藏</string>
+    <string name="select_link_title">選擇操作</string>
+    
+    <plurals name="message_view_selected_message_count">
+        <item quantity="one"  >已選 <xliff:g id="message_count">%d</xliff:g> 個</item>
+        <item quantity="other">已選  <xliff:g id="message_count">%d</xliff:g> 個</item>
+    </plurals>
+</resources>

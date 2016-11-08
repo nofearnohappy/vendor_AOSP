@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">New Contacts</string>
+
+    <!-- group string start -->
+    <string name="no_group">No groups.</string>
+    <string name="no_group_chat">No group chat.</string>
+    <string name="group_chat_title">Choose target group chat</string>
+    <string name="contact_list_loading">Loading\u2026</string>
+    <string name="group_list_title">"Choose target group"</string>
+    <string name="account_phone_only" product="default">Phone contact</string>
+    <string name="account_usim_only" translatable="false">USIM</string>
+    <string name="please_wait">"Please wait"</string>
+    <string name="group_chat">"group chat"</string>
+    <string name="group_label">Groups</string>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> person</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> people</item>
+    </plurals>
+    <!-- group string end -->
+
+    <!-- vcard string start -->
+    <string name="phone_number">"Number"</string>
+    <string name="phone_email">"Email"</string>
+    <string name="card_preview">"Preview"</string>
+    <string name="fail_reason_not_supported">The format isn\'t supported.</string>
+    <string name="fail_reason_io_error">I/O error</string>
+    <string name="fail_reason_no_vcard_file">No vCard file found.</string>
+    <string name="contact_saved">Contact saved.</string>
+    <string name="contact_saved_error">Couldn\'t save contact.</string>
+    <string name="name_tag">Name </string>
+    <string name="company_tag">Company </string>
+    <string name="title_tag">Title </string>
+    <!-- vcard string end -->
+
+    <!-- rich screen string start -->
+    <string name="rich_screen">Rich screen</string>
+    <string name="activity_no_found">No app was found to handle this action.</string>
+    <string name="group_member_no_number">No contacts with phone numbers.</string>
+    <string name="contact_no_number">No phone number.</string>    
+    <!-- rich screen string end -->
+
+    <string name="rcs_entry_card_title">RCS</string>
+
+    <!-- qrcode string start -->
+    <string name="qrcode_card">QR Code Scanner</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_status">Place a QR Code inside the viewfinder rectangle to scan it.</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_no_contact">"Found no contact, please click screen to continue scanning."</string>
+    <!-- qrcode string end -->
+
+    <!-- profile app string start -->
+    <string name="tag_fragment_entry">tag_fragment_entry</string>
+    <string name="tag_fragment_detail">tag_fragment_detail</string>
+    <string name="photo_action_choose_photo">Choose photo</string>
+    <string name="photo_action_take_photo">Take photo</string>
+    <string name="photo_action_delete">Remove photo</string>
+    <string name="photo_action_choose_new_photo">Choose new photo</string>
+    <string name="photo_action_take_new_photo">Take new photo</string>
+    <string name="title_activity_profile_detail">My profile</string>
+    <string name="title_activity_profile_center">Profile center</string>
+    <string name="subtitle_phone_number">"Phone number: "</string>
+
+    <string name="profile_info_phone_number">Phone number</string>
+    <string name="profile_info_name">Name</string>
+    <string name="profile_info_family_name">Family name</string>
+    <string name="profile_info_given_name">Given name</string>
+    <string name="profile_info_portrait">Photo</string>
+    <string name="profile_info_address">Address</string>
+    <string name="profile_info_email">Email</string>
+    <string name="profile_info_birthday">Birthday</string>
+    <string name="profile_info_company">Company</string>
+    <string name="profile_info_company_tel">Office telephone</string>
+    <string name="profile_info_title">Title</string>
+    <string name="profile_info_company_addr">Office address</string>
+    <string name="profile_info_company_fax">Office fax</string>
+    <string name="profile_info_home_number">Home number</string>
+    <string name="profile_info_work_number">Work number</string>
+    <string name="profile_info_fixed_number">Fixed number</string>
+    <string name="profile_info_other_number">Other number</string>
+    <string name="profile_info_qr_code">My QR Code</string>
+    <string name="profile_business_info">Business infomation</string>
+    <string name="profile_please_add_business_info">Please add your business info in my profile.</string>
+    <string name="edit">"Edit "</string>
+    <string name="plugin_center">APP Market</string>
+    <string name="circles">Circles</string>
+    <string name="nethall">Net Hall</string>
+    <string name="other_number_add_new">Add new</string>
+    <string name="please_download_it_android_market">please download it from android market!</string>
+    <string name="please_download_it_plugin_center">please download it from \"Contact->Profile->APP Market\"!</string>
+    
+    <string name="share_profile">Share</string>
+    <string name="share_via">Share via</string>
+    <string name="share_error">Profile can\'t be shared.</string>
+    <string name="profile_get_sucess">Download profile sucess!</string>
+    <string name="profile_get_portrait_sucess">Download portrait sucess!</string>
+    <string name="profile_set_sucess">Upload profile sucess!</string>
+    <string name="profile_set_portrait_sucess">Upload portrait sucess!</string>
+    <string name="profile_get_fail">Download profile fail!</string>
+    <string name="profile_get_portrait_fail">Download portrait fail!</string>
+    <string name="profile_set_fail">Upload profile fail!</string>
+    <string name="profile_set_portrait_fail">Upload portrait fail!</string>
+    <string name="profile_loading">Loading...</string>    
+    <string name="profile_set_qr_mode_fail">Update QR code setting fail!</string>
+    <string name="profile_set_qr_mode_sucess">Update QR code setting sucess!</string>
+    <!-- profile app string end -->
+
+    <!-- network contact backup restore string start -->
+    <!-- common -->
+    <string name="backup_restore_lable">Backup/Restore Contacts</string>
+    <string name="backup_restore">Backup/Restore</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="restore_success">Restore contacts successful.</string>
+    <string name="restore_success_donoting">No contacts to restore from server.</string>
+    <string name="restore_fail">Restore contacts failed</string>
+    <string name="restoring">Restoring contacts</string>
+    <string name="backup_success">Backup contacts successful.</string>
+    <string name="backup_fail">Backup contacts failed.</string>
+    <string name="backuping">Backuping contacts</string>
+    <string name="no_contacts">No contacts to bakcup.Please check.</string>
+    <string name="confirm_backup">Existed contacts in server will be replaced. Continue?</string>
+    <string name="confirm_restore">Local contacts will be replaced. Continue?</string>
+    <string name="rcs_unavailable">RCS-e service is unavailable. Please check.</string>
+    
+    <!-- setting -->
+    <string name="setting_title">Settings</string>
+    <string name="wlan_switch_title">Backup/Restore only with WiFi</string>
+    <string name="wlan_switch_note">Switch for backup/restore by WiFi only</string>
+    <string name="backup_switch_title">Automatic backup</string>
+    <string name="backup_time_title">Auto backup time</string>
+    <string name="dialog_backup_time">Select auto backup time</string>
+    <string name="backup_type_title">Auto backup type</string>
+    <string name="dialog_backup_type">Select auto backup type</string>
+    
+    <string-array name="backup_type_list_entries">
+        <item>Realtime backup</item>
+        <item>Backup every day</item>
+        <item>Backup every week</item>
+        <item>Backup every month</item>
+    </string-array>
+    <string-array name="backup_type_list_entries_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- first boot activity -->
+
+    <!-- home activity -->
+    <string name="open_wifi_tips">WiFi is not connected.</string>
+    <string name="set_wlan">WiFi settings</string>
+    <string name="open_wifi_propose">Contacts backup/restore will consume you mobile data for Wifi is unavailable. Continue?</string>
+    <string name="btcontinue">Continue</string>
+    
+    <!-- auto backup notification -->
+    <string name="auto_backup_success">Auto backup successful.</string>
+    <string name="auto_backup_fail">Auto backup failed.</string>
+    <string name="auto_backuping">Auto backuping...</string>    
+    <!-- network contact backup restore string end -->
+
+    <string name="title_public_account">Public Account</string>
+</resources>

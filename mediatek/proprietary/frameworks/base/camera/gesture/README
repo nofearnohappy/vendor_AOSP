@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+This is a Mediatek sdk using to detect a gesture in camera preview frame
+
+
+HOW IT WAS BUILT?
+==================
+Build command:mmm vendor/mediatek/proprietary/frameworks/base/camera/gesture
+
+
+HOW TO USE IT?
+==============
+please refer to its sdk documents

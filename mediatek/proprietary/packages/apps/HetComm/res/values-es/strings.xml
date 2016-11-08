@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">DescargaTurbo</string>
+    <string name="hetcomm_intro">Descargue grandes archivos (más de 20 MB) a máxima velocidad utilizando  redes Wi-Fi y 4G/3G al mismo tiempo. El icono Descarga Turbo se mostrará en la barra de estado cuando se esté ejecutando. Para utilizar la función Descarga Turbo, tanto los datos Wi-Fi como los datos móviles deben estar activados. Cuando estén habilitados, los datos de cualquier aplicación que haya seleccionado para descargar a través de Wi-Fi solamente se descargarán mediante redes WLAN y 4G/3G.</string>
+    <string name="enable_switch_on">activado</string>
+    <string name="enable_switch_off">Desactivado</string>
+    <string name="notify_top_title">Acelerador de descarga</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Datos móviles"</string>
+    <string name="conn_notice_title">La funcionalidad móvil o Wi-Fi está DESACTIVADA.</string>
+    <string name="conn_notice_detail">Para habilitar la función Descarga Turbo, tanto los datos Wi-Fi como los datos móviles deben estar activados.</string>
+    <string name="conn_charging_warning">La descarga a través de redes móviles puede implicar tarifas adicionales.</string>
+    <string name="turn_on">Activar <xliff:g id="connected">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Descarga Turbo está desactivada porque la funcionalidad Vpn está ACTIVADA</string>
+    <string name="turn_off_due_to_tether">Descarga Turbo está desactivada porque la funcionalidad Anclaje a red está ACTIVADA</string>
+    <string name="turn_off_due_to_shutdown">Descarga Turbo está desactivada debido al apagado</string>
+    <string name="turn_off_due_to_roaming">Descarga Turbo está desactivada debido a la itinerancia</string>
+    <string name="ratio_is_single">La velocidad de los datos Wi-Fi o móviles es lenta. Para acelerar la descarga, la descarga Turbo, solamente utilizará datos móviles o Wi-Fi para descargar archivos.</string>
+    <string name="ratio_is_back">La descarga Turbo reutilizará los datos Wi-Fi y móviles conjuntamente para descargar archivos.</string>
+    <string name="action_help">Ayuda</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Ayuda de Descarga turbo</u>\
+    </h1><br>Descargue grandes archivos a máxima velocidad utilizando Wi-Fi y 4G/3G al mismo tiempo.\
+    <h4>1. Vaya a Configuración y pulse Descarga turbo.</h4>\
+    <h4>2. Pulse el conmutador para activar Descarga Turbo.</h4>\
+    <p><b>[Sugerencia]</b> Para acelerar la descarga si está conectado tanto a Wi-Fi como a 4G/3G al inicio de la descarga.\
+    <p><b>[Sugerencia]</b> Si la conexión Wi-Fi o 4G/3G es demasiado lenta, puede usar la conexión de red más rápida para realizar la descarga.\
+    <p><b>[Sugerencia]</b> La velocidad y el rendimiento de Descarga Turbo pueden verse afectados por el entorno de red durante la descarga.\
+    <br>&nbsp;&nbsp;- Si las señales son inestables, la velocidad y el rendimiento de esta función pueden verse afectados.\
+    <br>&nbsp;&nbsp;- Sin embargo, como valor promedio, la velocidad de descarga será el ""doble"" si se compara con el uso de Wi-Fi o 4G/3G solamente.\
+    <p><b>[Sugerencia]</b> Cuando la diferencia de velocidad de Wi-Fi y 4G/3G sea grande (normalmente 2,5 veces), Descarga Turbo se detendrá o no se admitirá para evitar empeorar el rendimiento de velocidad.\
+    <p><b>[Sugerencia]</b> Descarga Turbo se deshabilitará automáticamente cuando la funcionalidad Anclaje a red/VPN esté activada.\
+    </body></html>]]>"</string>
+</resources>

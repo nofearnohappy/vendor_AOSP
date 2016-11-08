@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Sdílení HotKnot</string>
+    <string name="hint1">Zkontrolujte, zda je v přijímacím přístroji zapnutá technologie HotKnot, nechte jeho displej odemknutý.</string>
+    <string name="hint2">Přiložte displej vašeho přístroje na displej přijímacího přístroje.</string>
+    <string name="hint3">Po zaznění hlasového pokynu sejměte váš přístroj z přijímacího přístroje.</string>
+    <string name="use_hotknot">Tato aplikace vyžaduje technologii HotKnot ve vašem přístroji.</string>
+    <string name="allow">"Povolit"</string>
+    <string name="deny">"Zamítnout"</string>
+    <string name="fail_to_share">Sdílení se nezdařilo</string>
+    <string name="fail_to_share_conn_error">Sdílení se nezdařilo z důvodu problému s připojením.</string>
+    <string name="fail_to_share_unknown_error">Sdílení se nezdařilo z důvodu neznámé chyby.</string>
+    <string name="try_again">"Zkuste to znovu"</string>
+    <string name="usb_warning">Funkce HotKnot může být během USB nabíjení omezena.</string>
+</resources>

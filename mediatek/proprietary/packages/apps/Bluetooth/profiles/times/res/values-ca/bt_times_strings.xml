@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_times_settings_title">Configuració de servidor de temps</string>
+	<string name="bt_times_settings_enable_title">Servidor de temps</string>
+	<string name="bt_times_settings_enable_summary">"Activa"</string>
+</resources>

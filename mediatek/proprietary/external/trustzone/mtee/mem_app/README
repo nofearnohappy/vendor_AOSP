@@ -1,0 +1,23 @@
+The executable 'uree_mem' is a program to get heap status in mtk in-house tee.
+
+
+WHAT IT DOES?
+=============
+
+The 'uree_mem' program can query the information of current usage status of heap inside the MTK in-house TEE.
+
+
+HOW IT WAS BUILT?
+==================
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/trustzone' folder.
+
+
+HOW TO USE IT?
+==============
+
+Just execute the uree_mem in shell environment, and the result will be printed through stdout.
+
+
+All the source code of this library were written by MediaTek co..

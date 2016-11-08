@@ -1,0 +1,20 @@
+APK of FMTransmitter test apk, including the tests about power on,poweroff,seek channel.
+
+This APK is built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+audiotest.apk is used to test the FMTransmitter power on,power off and seek channel operations
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. librobotium4.jar
+
+All source/dependency modules of this module are already put in
+'system/framework' folder.
+
+HOW TO USE IT?
+==============
+Ensure the FMTransmitter.apk is installed on the device
+adb shell am instrument -w com.mediatek.FMTransmitter.tests/com.mediatek.FMTransmitter.tests.FMTransmitterFunctionRunner

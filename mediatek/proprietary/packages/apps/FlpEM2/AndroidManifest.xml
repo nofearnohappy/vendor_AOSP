@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.flp.em"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:process="system" >
+        <uses-library android:name="com.android.location.provider" />
+
+        <activity
+            android:name="com.mediatek.flp.em.FlpTabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.flp.em.FlpDiagnostic" />
+        <activity android:name="com.mediatek.flp.em.FlpStatus" />
+        <activity android:name="com.mediatek.flp.em.FlpFusedLocation" />
+        <activity android:name="com.mediatek.flp.em.FlpGeofence" />
+        <activity android:name="com.mediatek.flp.em.FlpMap" />
+        <activity android:name="com.mediatek.flp.em.FlpHeading" />
+
+        <service
+            android:name="com.mediatek.flp.service.FusedLocationService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.location.service.FusedProvider" />
+            </intent-filter>
+
+            <meta-data
+                android:name="serviceVersion"
+                android:value="0" />
+            <meta-data
+                android:name="serviceIsMultiuser"
+                android:value="true" />
+        </service>
+        <service
+            android:name="com.mediatek.flp.service.GeofenceService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.location.service.GeofenceProvider" />
+            </intent-filter>
+
+            <meta-data
+                android:name="serviceVersion"
+                android:value="0" />
+            <meta-data
+                android:name="serviceIsMultiuser"
+                android:value="true" />
+        </service>
+    </application>
+
+</manifest>

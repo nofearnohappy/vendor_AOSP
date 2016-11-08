@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"縦向き"</item>
+		<item>ランドスケープランチャー</item>
+		<item>"逆ポートレート"</item>
+		<item>"逆ランドスケープ"</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"片面"</item>
+		<item>"両面長端"</item>
+		<item>"両面短端"</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"標準"</item>
+		<item>下書きトレイ</item>
+		<item>"高"</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+		<item>不明なアーティスト名</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"エラー無し"</item>
+		<item>"v-カードを作成できません"</item>
+		<item>"画像形式がサポートされていません"</item>
+	</string-array>
+</resources>

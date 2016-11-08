@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"Accepta la sol·licitud d'autorització de xarxa Ad-hoc de grup"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"Accepta la sol·licitud d'autorització de punts d'accés a la xarxa"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"Voleu acceptar la sol·licitud d'autorització de xarxa Ad-hoc de grup de %1$s?"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"Voleu acceptar la sol·licitud d'autorització de punts d'accés de xarxa de %1$s?"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">"La desconnexió de la xarxa Ad-hoc de grup amb %1$s s'ha realitzat amb èxit""</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">"La desconnexió dels punts d'accés de xarxa amb %1$s s'ha realitzat correctament"</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"Voleu desconnectar la xarxa Ad-hoc de grup amb %1$s?"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"Voleu desconnectar els punts d'accés de xarxa amb %1$s?"</string>
+	<string name="bluetooth_pan_yes">"Permet"</string>
+	<string name="bluetooth_pan_no">La velocitat de transmissió de dades baixarà.</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"Sol·licitud d'autorització de xarxa Ad-hoc de grup Bluetooth"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"Sol·licitud d'autorització de xarxa Ad-hoc de grup Bluetooth"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"Seleccioneu-lo per acceptar la sol·licitud d'autorització de xarxa Ad-hoc de grup de %1$s"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"Sol·licitud d'autorització de punts d'accés de xarxa Bluetooth"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"Sol·licitud d'autorització de punts d'accés de xarxa Bluetooth"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"Seleccioneu-lo per acceptar la sol·licitud d'autorització de punts d'accés de xarxa de %1$s"</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"Xarxa Ad-hoc de grup Bluetooth connectada"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"Xarxa Ad-hoc de grup Bluetooth connectada"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"Seleccioneu-lo per desconnectar la xarxa Ad-hoc de grup de %1$s"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"Punts d'accés de xarxa Bluetooth connectats"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"Punts d'accés de xarxa Bluetooth connectats"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"Seleccioneu-lo per desconnectar els punts d'accés de xarxa de %1$s"</string>
+	<string name="bluetooth_pan_GN_connect_ok">"La connexió de xarxa Ad-hoc de grup amb %1$s s'ha realitzat correctament""</string>
+    <string name="bluetooth_pan_GN_connect_fail">"Errada en la connexió de xarxa Ad-hoc de grup amb %1$s"</string>
+    <string name="bluetooth_pan_NAP_connect_ok">"La connexió dels punts d'accés de xarxa amb %1$s s'ha realitzat correctament""</string>
+    <string name="bluetooth_pan_NAP_connect_fail">"Errada en la connexió dels punts d'accés de xarxa amb %1$s""</string>
+    <string name="bluetooth_pan_NAP_unavailable">"Servei de punts d'accés de xarxa de %1$s no disponible"</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">"La desconnexió de la xarxa Ad-hoc de grup amb %1$s s'ha realitzat amb èxit""</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">Errada en la desconnexió de la xarxa Ad-hoc de grup amb %1$s</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">"La desconnexió dels punts d'accés de xarxa amb %1$s s'ha realitzat correctament"</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">"Errada en la desconnexió dels punts d'accés de xarxa amb %1$s""</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">Xarxa Ad-hoc de grup desconnectada amb %1$s "</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">"Punts d'accés de xarxa desconnectats amb %1$s ""</string>
+    <string name="bluetooth_pan_server_settings">Selecciona el servei PAN Bluetooth</string>
+    <string name="bluetooth_pan_nap_enable_title">"Punts d'accés de xarxa"</string>
+    <string name="bluetooth_pan_nap_enable_summary">Seleccioneu-lo per activar o desactivar el servei NAP</string>
+    <string name="bluetooth_pan_gn_enable_title">Xarxa Ad-hoc de grup</string>
+    <string name="bluetooth_pan_gn_enable_summary">Seleccioneu-lo per engegar o apagar el servei GN</string>
+</resources>

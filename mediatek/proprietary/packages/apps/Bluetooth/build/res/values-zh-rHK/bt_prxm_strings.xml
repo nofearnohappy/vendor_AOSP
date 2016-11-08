@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">沒有提醒</string>
+	<string name="bt_prxm_alert_level_mild">輕聲提醒</string>
+	<string name="bt_prxm_alert_level_high">大聲提醒</string>
+	<string name="bt_prxm_device_mgmt_label">藍芽鄰近範圍</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">沒有藍芽支援無法使用</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">沒有啟用藍芽無法使用</string>
+	<string name="bt_prxm_device_mgmt_title">藍芽鄰近範圍監測器</string>
+	<string name="bt_prxm_device_mgmt_add_device">新增裝置</string>
+	<string name="bt_prxm_device_mgmt_remove_device">移除裝置</string>
+	<string name="bt_prxm_device_mgmt_device_list">鄰近裝置</string>
+	<string name="bt_prxm_device_pref_device_setting">遺失連結：%1$s / 路徑遺失：%2$s</string>
+	<string name="bt_prxm_devs_title">鄰近範圍設定</string>
+	<string name="bt_prxm_devs_connect_title">"連線"</string>
+	<string name="bt_prxm_devs_connect_summary">連接鄰近裝置</string>
+	<string name="bt_prxm_devs_connect_failed">連接失敗</string>
+	<string name="bt_prxm_devs_disconnect_failed">中斷連接失敗</string>
+	<string name="bt_prxm_find_device_title">尋找裝置</string>
+	<string name="bt_prxm_find_device_summary">透過開啟裝置的警示系統來尋找裝置</string>
+	<string name="bt_prxm_find_device_cancel_summary">按此以取消目標裝置的警示系統</string>
+	<string name="bt_prxm_devs_link_loss_group_title">連結遺失</string>
+	<string name="bt_prxm_devs_link_loss_level_title">連結遺失提醒等級</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">設定提醒等級</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">設定連結遺失提醒等級失敗</string>
+	<string name="bt_prxm_devs_path_loss_group_title">路徑遺失</string>
+	<string name="bt_prxm_devs_path_loss_level_title">路徑遺失提醒等級</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">設定提醒等級</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">路徑遺失門檻</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">設定訊號強度門檻</string>
+	<string name="bt_prxm_plt_current_rssi">目前距離預測</string>
+	<string name="bt_prxm_plt_using_current_rssi">對於路徑遺失提醒門檻使用目前距離預測</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">路徑遺失門檻</string>
+</resources>

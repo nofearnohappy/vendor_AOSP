@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Интелигентен еквалайзер:/Графичен еквалайзер:</string>
+	<string name="tooltip_eq_text">Интелигентният еквалайзер анализира и динамично регулира звука, за да отговаря на желан нюанс. Изберете от показаните четири предварителни настройки и натиснете спектралния визуализатор за осъществяване на промени по избор в графичния еквалайзер.</string>
+	<string name="tooltip_sv_title">Обемен виртуализатор</string>
+	<string name="tooltip_sv_text">Обемният виртуализатор създава реалистичен обемен звук при всеки комплект слушалки или стерео високоговорители. Използвайте ключа, за да включвате или изключвате ефекта на обемния звук.</string>
+	<string name="tooltip_de_title">Подобрител на диалози</string>
+	<string name="tooltip_de_text">Подобрителят на диалози повишава яснотата на говора във всеки вид медия. Използвайте ключа, за да включвате или изключвате подобряването на диалозите.</string>
+	<string name="tooltip_vl_title">Изравнител на звука</string>
+	<string name="tooltip_vl_text">Изравнителят на звука осигурява постоянната му сила за всички съдържания и приложения въз основа на контролното ниво на силата на звука на устройството. Използвайте ключа, за да включвате или изключвате автоматичното изравняване на силата на звука.</string>
+</resources>

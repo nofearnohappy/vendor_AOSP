@@ -1,0 +1,5 @@
+LIBRARY Tfa98xx_hal.dll
+EXPORTS
+NXP_I2C_Write
+NXP_I2C_WriteRead
+NXP_I2C_BufferSize

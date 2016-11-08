@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- OP09 default resource -->
+    <bool name="def_data_roaming_op09" translatable="false">true</bool>
+    <bool name="def_data_roaming_2_op09" translatable="false">true</bool>
+    <!--Set location default on for OP09-->
+    <string name="def_location_providers_allowed_op09" translatable="false">network,gps</string>
+</resources>

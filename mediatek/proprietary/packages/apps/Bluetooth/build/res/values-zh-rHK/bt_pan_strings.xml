@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"接受群組特別網絡許可要求"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"接受網絡存取點許可要求"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"您要接受 %1$s 的群組特別網絡許可要求嗎？"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"您要接受 %1$s 的網絡存取點許可要求嗎？"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">中斷與 %1$s 群組特別網絡連接成功！</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">中斷與 %1$s 網絡存取點連接成功！</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"您要中斷與 %1$s 的群組特別網絡連接嗎？"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"您要中斷與 %1$s 的網絡存取點連接嗎？"</string>
+	<string name="bluetooth_pan_yes">"允許"</string>
+	<string name="bluetooth_pan_no">數據傳送率將會下降</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"藍芽群組特別網絡許可要求"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"藍芽群組特別網絡許可要求"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"勾選以接受 %1$s 的群組特別網絡許可要求"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"藍芽網絡存取點許可要求"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"藍芽網絡存取點許可要求"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"勾選以接受 %1$s 的網絡存取點許可要求"</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"藍芽群組特別網絡已連接"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"藍芽群組特別網絡已連接"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"勾選以中斷與 %1$s 的群組特別網絡連接"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"藍芽網絡存取點已連接"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"藍芽網絡存取點已連接"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"勾選以中斷與 %1$s 的網絡存取點連接"</string>
+	<string name="bluetooth_pan_GN_connect_ok">與 %1$s 連接群組特別網絡成功！</string>
+    <string name="bluetooth_pan_GN_connect_fail">與 %1$s 連接群組特別網絡失敗！</string>
+    <string name="bluetooth_pan_NAP_connect_ok">與 %1$s 連接網絡存取點成功！</string>
+    <string name="bluetooth_pan_NAP_connect_fail">與 %1$s 連接網絡存取點失敗！</string>
+    <string name="bluetooth_pan_NAP_unavailable">%1$s 的網絡存取點服務不可用</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">中斷與 %1$s 群組特別網絡連接成功！</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">中斷與 %1$s 群組特別網絡連接失敗！</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">中斷與 %1$s 網絡存取點連接成功！</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">中斷與 %1$s 網絡存取點連接失敗！</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">已中斷與 %1$s 群組特別網的連接！</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">已中斷與 %1$s 網絡存取點的連接！</string>
+    <string name="bluetooth_pan_server_settings">藍芽 PAN 服務選擇</string>
+    <string name="bluetooth_pan_nap_enable_title">網絡存取點</string>
+    <string name="bluetooth_pan_nap_enable_summary">勾選以開啟或關閉 NAP 服務</string>
+    <string name="bluetooth_pan_gn_enable_title">群組特別網絡</string>
+    <string name="bluetooth_pan_gn_enable_summary">勾選以開啟或關閉 GN 服務</string>
+</resources>

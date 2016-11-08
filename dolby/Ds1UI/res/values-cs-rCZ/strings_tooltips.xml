@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Inteligentní ekvalizér/Grafický ekvalizér</string>
+	<string name="tooltip_eq_text">Inteligentní ekvalizér analyzuje a dynamicky upravuje zvuk tak, aby odpovídal požadované barvě zvuku. Vyberte ze čtyř zobrazených možností a poté volbou Spektrálního vizualizéru proveďte vlastní změny Grafického ekvalizéru.</string>
+	<string name="tooltip_sv_title">Simul. prostor. zvuku</string>
+	<string name="tooltip_sv_text">Simulátor prostorového zvuku vytváří realistický prostorový zvuk přes jakákoli sluchátka či stereo reproduktory. Spínačem vypněte nebo zapněte efekt prostorového zvuku.</string>
+	<string name="tooltip_de_title">Zvýrazňovač dialogu</string>
+	<string name="tooltip_de_text">Zvýrazňovač dialogu zlepšuje srozumitelnost mluvené řeči ze všech zdrojů signálu. Vypínačem zapněte nebo vypněte Zvýrazňovač dialogu.</string>
+	<string name="tooltip_vl_title">Vyrovnávač hlasitosti</string>
+	<string name="tooltip_vl_text">Vyrovnávač hlasitosti udržuje stálou hlasitost veškerého obsahu a aplikací na jedné úrovni - dané nastavením ovladače hlasitosti zařízení. Spínačem vypněte nebo zapněte automatické vyrovnávání hlasitosti.</string>
+</resources>

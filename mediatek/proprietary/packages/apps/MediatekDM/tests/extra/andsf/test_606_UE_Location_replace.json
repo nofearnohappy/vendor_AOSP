@@ -1,0 +1,14 @@
+[
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/RPLMN", objectValue : "RPLMN", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/Geo_Location/Latitude", objectValue : "Lati==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/Geo_Location/Longitude", objectValue : "Long==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/PLMN", objectValue : "46000", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/TAC", objectValue : "TAC", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/LAC", objectValue : "LAC", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/GERAN_CI", objectValue : "AG==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/UTRAN_CI", objectValue : "AW==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/EUTRA_CI", objectValue : "AT==", objectType : "bin", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/WLAN_Location/1/HESSID", objectValue : "HESSID", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/WLAN_Location/1/SSID", objectValue : "SSID", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/UE_Location/WLAN_Location/1/BSSID", objectValue : "BSSID", objectType : "chr", newNode : "" }
+]

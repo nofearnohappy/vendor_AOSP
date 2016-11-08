@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTK Wi-Fi Test</string>
+    <string name="action_settings">Settings</string>
+
+
+
+		<string name="Scanning_text">Wi-Fi Scanning Service Test --- G-Scan Test</string>
+    <string name="wifi_capability" translatable="false">Wi-Fi Capability:</string>
+    <string name="wifi_hs20" translatable="false">Passpoint R1:</string>
+		<string name="start_gscan_bt">Start G-Scan</string>
+		<string name="stop_gscan_bt">Stop G-Scan</string>
+		<string name="get_gscan_result_bt">Get G-Scan Result</string>
+		<string name="scansettings_txt1">input 1 should be band,periodInMs,reportEvents,numBssidsPerScan e.g. 0,1000,0,3</string>
+	  <string name="gscan_txt1">Input 1</string>
+	  <string name="gscan_txt2">Input 2</string>
+	  <string name="channel1_txt1">Input 1</string>
+    <string name="scansettings_txt2">intput 2 should be (freq,passive,dwellTimeMS)e.g.(2412,1,1);(2420,0,1)</string>
+    <string name="supportset_txt">Support Set N [1~8]</string>
+	  <string name="set1">Set 1 </string>
+	  <string name="set2">Set 2 </string>
+	  <string name="set3">Set 3 </string>
+	  <string name="set4">Set 4 </string>
+	  <string name="set5">Set 5 </string>
+	  <string name="set6">Set 6 </string>
+	  <string name="set7">Set 7 </string>
+	  <string name="set8">Set 8 </string>
+	  
+		<string name="set_gscan_bt">Set G-Scan</string>
+
+
+		<string name="wifi_tracking_change_caption_txt">Wi-Fi Tracking Changes</string>
+		<string name="start_track_bt">Start</string>
+		<string name="stop_track_bt">Stop</string>
+	  <string name="set_wifichange_bt">Set Change Config</string>
+		
+		<string name="wifi_change_txt">e.g. rssiSampleSize,lostApSampleSize,unchangedSampleSize,,minApsBreachingThreshold,periodInMs</string>
+		<string name="wifi_change_txt2">BssidInfos e.g. bssid,low,high,frequencyHint; </string>
+		
+		<string name="hotlist_caption_text">Wi-Fi Hotlist Function</string>
+		<string name="start_hotlist_bt">Start Tracking Hotlists</string>
+		<string name="stop_hotlist_bt">Stop Tracking Hotlists</string>
+		<string name="hotlist_list_label">Hotlists Result</string>
+		
+		
+		<string name="RTT_text">Wi-Fi RTT Service Test...</string>
+		<string name="start_ranging_bt">Start RTT</string>
+		<string name="stop_ranging_bt">Stop RTT</string>
+
+		<string name="linklayer_text">Wi-Fi Link Layer Statistic Test...</string>
+		<string name="get_lls_bt">Get Link Layer Statistics</string>
+				
+	  <string name="bssidinfo_bssid">BSSID List</string>
+	  <string name="bssidinfo_lowrssi">Low RSSI</string>
+	  <string name="bssidinfo_highrssi">High RSSI</string>
+	  <string name="bssidinfo_frequencyHint">Freq Hint</string>
+	  
+	  
+
+		<string name="scan_list_label">Scan Results</string>
+
+		
+		<string name="on_change_list_lbl">wifi change -- on change result </string>
+		<string name="on_mquiescence_list_lbl">wifi change -- on mquiescence result </string>
+    
+    <string name="hotlist_txt">BssidInfos e.g. bssid,low,high,frequencyHint; </string>
+    
+    <string name="lls_result">Link layer stiatistics result </string>
+    <string name="wifi_avaliable_channel">Wi-Fi avaliable channel</string>
+    <string name="band_txt">Band</string>
+
+</resources>

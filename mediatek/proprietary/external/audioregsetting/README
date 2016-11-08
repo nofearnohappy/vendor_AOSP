@@ -1,0 +1,24 @@
+The exec image 'audioregsetting.bin' is a excution bin which set audioregiser by this tool
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+
+audioregsetting is a tool which will set audio register.
+
+
+HOW IT WAS BUILT?
+==================
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/audioregsetting' folder.
+
+
+HOW TO USE IT?
+==============
+
+The exec image 'audioregsetting.bin' is loaded and can be use to set  audioregiser by this tool
+
+
+All the source code of this library were written by MediaTek co..

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"Juurdepääs telefoniraamatule üle Bluetoothi"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"Bluetoothi PBAP loa palve"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"Bluetoothi PBAP autentimise palve"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"Valige, et lubada PBAP-ühendust"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"Bluetoothi PBAP luba"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"Pääsukood"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">SMS-i teenuskeskuse seadmine OK</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"Kas soovid kindlasti allalaadimise tühistada?\nVajuta nuppu Jätka, et allalaadimist jätkata\nVajuta nuppu Likvideeri, et allalaadimine likvideerida ja allalaaditud fail kustutada"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">"Luba"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"Bluetoothi PBAP loa palve"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"Lubada %1$s-le PBAP-ühendust?"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"Bluetoothi PBAP autentimise palve"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message">"PBAP autentimispalve %1$s-lt"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">Andmeedastuse kiirus langeb.</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"Alati luatud?"</string>
+</resources>

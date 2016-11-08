@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Paylaşım</string>
+    <string name="hint1">"Alıcı cihazın HotKnot'ı açtığından emin olun ve ekran kilidini açık tutun."</string>
+    <string name="hint2">Cihazınızı alıcı cihaz üzerine ekranlar üstüste gelecek şekilde yerleştirin.</string>
+    <string name="hint3">Bir sesli uyarı duyduğunuzda cihazınızı alıcı cihazın üzerinden alın.</string>
+    <string name="use_hotknot">Bu uygulama cihazınızda HotKnot teknolojisinin kullanılmasını gerektirir.</string>
+    <string name="allow">"İzin ver"</string>
+    <string name="deny">"Reddet"</string>
+    <string name="fail_to_share">Paylaşma başarısız</string>
+    <string name="fail_to_share_conn_error">Bağlantı sorunu nedeniyle paylaşma başarısız.</string>
+    <string name="fail_to_share_unknown_error">Bilinmeyen hata nedeniyle paylaşma başarısız.</string>
+    <string name="try_again">"Tekrar dene"</string>
+    <string name="usb_warning">USB şarj etme sırasında HotKnot işlevi etkilenebilir.</string>
+</resources>

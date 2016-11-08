@@ -1,0 +1,11 @@
+The GPU shared binaries for HAN's GPU.
+
+WHAT IT DOES?
+=============
+The implementation of OpenGLES and OpenCL for Android.
+
+HOW IT WAS BUILT?
+==================
+
+HOW TO USE IT?
+==============

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Brzopreuzimanje</string>
+    <string name="hetcomm_intro">Preuzimajte velike datoteke (preko 20 MB) brže istodobnim korištenjem Wi-Fi i 4G/3G mreže. Ikona za Turbo preuzimanje prikazat će se na traci statusa kad se pokrene. Da biste koristili Turbo preuzimanje, Wi-Fi i Mobilni podaci moraju biti uključeni. Kada su uključeni, svi podaci aplikacije koju ste odabrali za preuzimanje samo putem W-Fi mreže svejedno će se preuzeti putem WLAN i 4G/3G mreža.</string>
+    <string name="enable_switch_on">"Uključeno"</string>
+    <string name="enable_switch_off">Isključeno</string>
+    <string name="notify_top_title">Download Accelerator</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobilni podaci"</string>
+    <string name="conn_notice_title">Mobilni podaci ili Wi-Fi su isključeni.</string>
+    <string name="conn_notice_detail">Da biste omogućili Turbo preuzimanje, Wi-Fi i Mobilni podaci moraju biti uključeni.</string>
+    <string name="conn_charging_warning">Preuzimanje putem mobilnih mreža može dovesti do dodatnih troškova.</string>
+    <string name="turn_on">Uključite <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Turbo preuzimanje je isključen jer je Vpn uključen</string>
+    <string name="turn_off_due_to_tether">Turbo preuzimanje je isključen jer je dijeljenje uključenu</string>
+    <string name="turn_off_due_to_shutdown">Turbo preuzimanje je isključen zbog isključivanja</string>
+    <string name="turn_off_due_to_roaming">Turbo preuzimanje je isključen zbog isključivanja roaminga</string>
+    <string name="ratio_is_single">Brzina prijenosa Wi-Fi/mobilnih podataka je niska. Ako želite ubrzati preuzimanje, Turbo preuzimanje će za preuzimanje datoteka koristiti samo mobilne podatke/Wi-Fi.</string>
+    <string name="ratio_is_back">Turbo preuzimanje za preuzimanje datoteka koristi zajedno Wi-Fi i mobilne podatke.</string>
+    <string name="action_help">"Pomoć"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Pomoć za Turbo preuzimanje</u>\
+    </h1><br>Preuzimajte velike datoteke na najvišoj brzini uz pomoć Wi-Fi i 4G/3G u isto vrijeme.\
+    <h4>1. Idite na Postavke i dodirnite Turbo preuzimanje.</h4>\
+    <h4>2. Dodirnite sklopku i uključite Turbo preuzimanje.</h4>\
+    <p><b>[Savjeti]</b> Ako želite ubrzati preuzimanje dok ste spojeni na Wi-Fi i 4G/3G na početku preuzimanja.\
+    <p><b>[Savjeti]</b> Ako je vaša Wi-Fi ili 4G/3G veza prespora, za preuzimanje možete koristiti bržu mrežnu vezu.\
+    <p><b>[Savjeti]</b> Na brzinu i radna svojstva Turbo preuzimanja za vrijeme preuzimanja može štetno utjecati okruženje.\
+    <br>&nbsp;&nbsp;- Ako su signali nestabilni, to može štetno utjecati na brzinu i radna svojstva ove funkcije.\
+    <br>&nbsp;&nbsp;- ipak, u prosjeku će brzina preuzimanja biti ""udvostručena"" u usporedbi na brzinu samo preko Wi-Fi ili samo preko 4G/3G.\
+    <p><b>[Savjeti]</b> Kada je razlika u brzinama za Wi-Fi i 4G/3G velika (normalno je 2,5 puta), Turbo preuzimanje će se zaustaviti ili neće biti podržano kako bi se izbjegle loše radne karakteristike obzirom na brzinu.\
+    <p><b>[Savjeti]</b> Turbo preuzimanje bit će automatski deaktivirano kada je dijeljenje veze/Vpn uključeno.\
+    </body></html>]]>"
+</string>
+</resources>

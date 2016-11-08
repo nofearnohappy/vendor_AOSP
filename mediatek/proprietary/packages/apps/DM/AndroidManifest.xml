@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.dm"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_WAP_PUSH" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+    <!-- The following are for lawmo -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <!-- for scomo -->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Holo"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        android:name=".DmApplication">
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:name=".fumo.DmClient"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            >
+            <intent-filter >
+                <action android:name="com.mediatek.dm.DMCLIENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/updateSuccessTitle"
+            android:name=".fumo.DmReport"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter >
+                <action android:name="com.mediatek.dm.UPDATECOMPLETE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/system_update"
+            android:name=".fumo.DmEntry"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.mediatek.dm">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:name=".DmNiInfoActivity"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter >
+                <action android:name="com.mediatek.dm.SHOWDIALOG" />
+                <action android:name="com.mediatek.dm.SHOWNIADIALOG" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".DmService" >
+            <intent-filter >
+                <action android:name="com.mediatek.dm.DMSERVE" />
+                <action android:name="com.mediatek.dm.DMDOWNLOADINGFOREGROUND" />
+                <action android:name="android.intent.action.DM_RECEIVED_WAP_PUSH" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="DmReceiver" >
+            <intent-filter >
+                <!-- DM_WAP_PUSH received -->
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+                <data android:mimeType="application/vnd.syncml.dm+wbxml" />
+                <data android:mimeType="application/vnd.syncml.notification" />
+                <data android:mimeType="application/vnd.wap.connectivity-wbxml" />
+            </intent-filter>
+            <intent-filter >
+                <!-- Update reminder -->
+                <action android:name="com.mediatek.dm.REMINDER" />
+            </intent-filter>
+            <intent-filter >
+                <!-- System update service entry -->
+                <action android:name="com.mediatek.DMSWUPDATE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mediatek.dm.fumo_ci" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mediatek.dm.REBOOT_CHECK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- for scheduled polling -->
+        <service android:name=".bootcheck.BootService" />
+
+        <receiver android:name=".bootcheck.BootReceiver" >
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name=".bootstrap.OmaCpReceiver" >
+            <intent-filter>
+                <!-- For CP  capability use -->
+                <action android:name="com.mediatek.omacp.capability" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <!-- For CP use -->
+                <action android:name="com.mediatek.omacp.settings" />
+                <data android:mimeType="application/com.mediatek.omacp-w7" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".scomo.DmScomoActivity" 
+            android:excludeFromRecents="true">
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:name=".scomo.DmScomoDownloadDetailActivity"
+            android:label="@string/scomo_activity_title"
+            >
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:name=".scomo.DmScomoConfirmActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:taskAffinity="">
+        </activity>
+
+        <receiver android:name=".scomo.DmScomoPackageManagerReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

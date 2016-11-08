@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        package="com.mediatek.wfo.impl"
+        coreApp="true"
+        android:sharedUserId="android.uid.phone">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:name="WfoApp"
+                 android:persistent="true">
+<!--        <uses-library android:name="wfo-common"
+                      android:required="true" /> -->
+    </application>
+</manifest>

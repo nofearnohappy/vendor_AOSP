@@ -1,0 +1,8 @@
+[
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/1/ICSI", objectValue : "3gpp-service.ims.icsi.mmtel", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/1/ICSI_Resource_Allocation_Mode", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/2/ICSI", objectValue : "3gpp-application.ims.iari.rcse.im", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/2/ICSI_Resource_Allocation_Mode", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/3/ICSI", objectValue : "3gpp-service.ims.icsi.omapush", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/3/ICSI_Resource_Allocation_Mode", objectValue : "true", objectType : "bool", newNode : "" },
+]

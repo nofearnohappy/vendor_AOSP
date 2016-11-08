@@ -1,0 +1,114 @@
+package com.mediatek.rcs.pam;
+
+
+public interface Constants {
+    String TAG_PREFIX = "PAM/";
+
+    int IS_SYSTEM_YES = 1;
+    int IS_SYSTEM_NO = 0;
+
+    int INIT_YES = 1;
+    int INIT_NO = 0;
+
+    int INCLUDING_DELETED_YES = 1;
+    int INCLUDING_DELETED_NO = 0;
+
+    String SIP_PREFIX = "sip:";
+    String QUOTED_SIP_PREFIX = "<sip:";
+    String TEL_PREFIX = "tel:";
+
+    int ORDER_BY_REVERSED_TIMESTAMP = 0;
+    int ORDER_BY_NAME = 1;
+    int INVALID = -1;
+    // int UNDEFINED = -2;
+
+    int ORDER_BY_TIMESTAMP_ASCENDING = 0;
+    int ORDER_BY_TIMESTAMP_DESCENDING = 1;
+
+    int DEFAULT_RECOMMEND_LEVEL = 1;
+    int MIN_RECOMMEND_LEVEL = 1;
+    int MAX_RECOMMEND_LEVEL = 5;
+
+    int DEFAULT_ACCOUNT_TYPE = 0;
+
+    int SUBSCRIPTION_STATUS_YES = 1;
+    int SUBSCRIPTION_STATUS_NO = 0;
+
+    int ACTIVE_STATUS_NORMAL = 0;
+    int ACTIVE_STATUS_SUSPENDED = 1;
+    int ACTIVE_STATUS_CLOSED = 2;
+
+    int MENU_CONF_YES = 1;
+    int MENU_CONF_NO = 0;
+
+    int MENU_TYPE_MESSAGE = 0;
+    int MENU_TYPE_HYPERLINK = 1;
+    int MENU_TYPE_DEVICE_API = 2;
+    int MENU_TYPE_APPLICATION = 3;
+    int MENU_TYPE_INVALID = -1;
+    int MAX_MENU_TYPE = 3;
+    int MIN_MENU_TYPE = 0;
+
+    int MAX_MENU_DEPTH = 3;
+
+    int MEDIA_TYPE_TEXT = 10;
+    int MEDIA_TYPE_VCARD = 18;
+    int MEDIA_TYPE_GEOLOC = 19;
+    int MEDIA_TYPE_PICTURE = 20;
+    int MEDIA_TYPE_VIDEO = 30;
+    int MEDIA_TYPE_AUDIO = 40;
+    int MEDIA_TYPE_SINGLE_ARTICLE = 51;
+    int MEDIA_TYPE_MULTIPLE_ARTICLE = 52;
+    int MEDIA_TYPE_SMS = 60;
+    int THUMBNAIL_TYPE = MEDIA_TYPE_PICTURE;
+    int MEDIA_TYPE_SUBSCRIBED_LIST_CHANGED = 71;
+    int MEDIA_TYPE_ACCOUNT_DETAIL_CHANGED = 72;
+
+    int COMPLAIN_RESULT_SUCCESS = 0;
+    int COMPLAIN_RESULT_FAILED = 1;
+
+    int TABLE_MESSAGE = 0;
+    int TABLE_FT = 1;
+
+    int MESSAGE_FORWARDABLE_YES = 0;
+    int MESSAGE_FORWARDABLE_NO = 1;
+
+    // keep these in sync with RCSe stack
+    int MESSAGE_DIRECTION_INCOMING = 0;
+    int MESSAGE_DIRECTION_OUTGOING = 1;
+
+    int MESSAGE_STATUS_UNREAD = 0;
+    int MESSAGE_STATUS_UNREAD_REPORT = 1;
+    int MESSAGE_STATUS_READ = 2;
+    int MESSAGE_STATUS_SENDING = 3;
+    int MESSAGE_STATUS_SENT = 4;
+    int MESSAGE_STATUS_FAILED = 5;
+    int MESSAGE_STATUS_TO_SEND = 6;
+    int MESSAGE_STATUS_DRAFT = 100;
+
+    int FT_STATE_INVITED = 0;
+    int FT_STATE_INITIATED = 1;
+    int FT_STATE_STARTED = 2;
+    int FT_STATE_TRANSFERRED = 3;
+    int FT_STATE_ABORTED = 4;
+    int FT_STATE_FAILED = 5;
+    int FT_STATE_PAUSED = 6;
+
+    int ACCEPT_STATUS_YES = 1;
+    int ACCEPT_STATUS_NO = 0;
+    int SET_ACCEPT_STATUS_RESULT_SUCCESS = 1;
+    int SET_ACCEPT_STATUS_RESULT_NO = 0;
+
+    int IDTYPE_COMMERCIAL = 0;
+    int IDTYPE_PERSONAL = 1;
+
+    int COMPLAIN_TYPE_ACCOUNT = 1;
+    int COMPLAIN_TYPE_MESSAGE = 2;
+
+    int LARGE_MESSAGE_THRESHOLD = 900;
+
+    long MAX_MEDIA_SIZE = 3 * 1024 * 1024;
+
+    int DELETED_NO = 0;
+    int DELETED_YES = 1;
+}

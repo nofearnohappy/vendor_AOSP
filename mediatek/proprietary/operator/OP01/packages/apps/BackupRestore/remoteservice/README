@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+It is a remote service to support the major App, it is mainly to get the system permission to enable/disable App between App installation procedure
+
+HOW IT WAS BUILT?
+==================
+It is depended on BackupAndRestore.apk
+When OPTR_SPEC_SEG_DEF is set OP01_SPEC0200_SEGC, it will be auto build out and packaged into image;
+
+HOW TO USE IT?
+==============
+It is used to support BackupAndRestore.apk, you will use it when Restore one App that you backup previously.
+It means it works OK when when you can Restore App correctly.

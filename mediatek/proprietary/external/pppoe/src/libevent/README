@@ -1,0 +1,28 @@
+This module creates static libraries---libpppoeevent.
+
+
+WHAT IT DOES?
+=============
+It is event-handling library, which will be used for pppoe deamon.
+
+
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+libcutils
+
+and the following libs from MediaTek:
+
+liblog.so
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/pppoe/src' folder.
+
+HOW TO USE IT?
+==============
+
+It will be used as a event-handling library. Any deamon can link it to use its API
+
+It is open source library.

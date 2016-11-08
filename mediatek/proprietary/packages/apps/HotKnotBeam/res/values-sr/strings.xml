@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Почетак пријема...</string>
+    <string name="notification_group_title">Пријем <xliff:g id="number">%d</xliff:g> датотека...</string> 
+    <string name="notification_download_done">Додирните да бисте погледали детаљније информације</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> датотека примљено</string>
+    <string name="notification_received">Успешно примљено</string> 
+    <string name="notification_download_failure">Пријем није успео због <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Пријем отказан</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> датотека није успело</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> датотека није успело, <xliff:g id="number">%d</xliff:g> датотека примљено</string>
+    <string name="download_no_file">Датотека не постоји</string>
+    <string name="notification_sending">Почетак пријема...</string>
+    <string name="notification_group_upload_title">Слање <xliff:g id="number">%d</xliff:g> датотека...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> датотека послато</string>
+    <string name="notification_sent">Успешно послато</string>
+    <string name="notification_upload_failed">Слање није успело због <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Слање отказано</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> датотека није успело</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> датотека није успело, <xliff:g id="number">%d</xliff:g> датотека послато</string>
+    <string name="low_storage">недовољна меморија</string>
+    <string name="connect_failure">"Проблем са везом"</string>
+    <string name="unknown_error">Непозната грешка</string>
+    <string name="share_label">HotKnot дељење</string>
+    <string name="rx_ui_image_status">Пријем слике од <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Пријем <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> слика од <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Пријем видео записа од <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Пријем <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> видео записа од <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Пријем датотеке од <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Пријем <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> датотека од <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Пријем музике од <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Пријем <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> музике од <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Пријем завршен</string>
+</resources>

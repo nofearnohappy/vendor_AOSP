@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="test_type_table">
+        <item>Platform</item>
+        <item>Operation</item>
+        <item>P2P</item>
+    </string-array>
+
+    <string-array name="pattern_number_table">
+        <item>0000h</item>
+        <item>0001h</item>
+        <item>0002h</item>
+        <item>0003h</item>
+        <item>0004h</item>
+        <item>0005h</item>
+        <item>0006h</item>
+        <item>0007h</item>
+        <item>0008h</item>
+        <item>0009h</item>
+        <item>000Ah</item>
+        <item>000Bh</item>
+        <item>000Ch</item>
+        <item>000Dh</item>
+    </string-array>
+
+    <string-array name="fsci_table">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="test_instrument_table">
+        <item>AT4</item>
+        <item>Comprion</item>
+        <item>Clear2Pay</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- LLCP Test Group -->
+    <string-array name="llcp_group_table">
+        <item>1200</item>
+        <item>1240</item>
+        <item>1280</item>
+    </string-array>
+
+    <!-- SNEP Role -->
+    <string-array name="snep_role_table">
+        <item>Client Tests</item>
+        <item>Server Tests</item>
+    </string-array>
+
+    <!-- SNEP Data -->
+    <string-array name="snep_data_table">
+        <item>Data1</item>
+        <item>Data2</item>
+    </string-array>
+</resources>
+

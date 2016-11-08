@@ -1,0 +1,11 @@
+<resources>
+
+    <declare-styleable name="ListItemView">
+        <attr name="list_item_padding_top" format="dimension"/>
+        <attr name="list_item_padding_right" format="dimension"/>
+        <attr name="list_item_padding_bottom" format="dimension"/>
+        <attr name="list_item_padding_left" format="dimension"/>       
+        <attr name="list_item_header_text_indent" format="dimension"/>     
+    </declare-styleable>
+
+</resources>

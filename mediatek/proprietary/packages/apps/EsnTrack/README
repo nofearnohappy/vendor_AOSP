@@ -1,0 +1,14 @@
+WHAT IT DOES?
+=============
+ESN TRACK SMS sending for TATA and MTS.
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+MTK_ESN_TRACK_APP
+
+HOW TO USE IT?
+==============
+Install the APK to CDMA phone and turn on the register switch in engineer mode.
+When the UIM card initiated done, a message contains some information of the phone will be sent to server in the background.
+Contact MediaTek if need any support.

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Усправно"</item>
+		<item>Покретач у положеном режиму</item>
+		<item>"обрнуто-усправно"</item>
+		<item>"обрнуто-положено"</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Једнострано"</item>
+		<item>"Двострана-дуга-ивица"</item>
+		<item>"Двострана-кратка-ивица"</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Нормална"</item>
+		<item>Сандуче са радном верзијом</item>
+		<item>"Висок"</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+		<item>Непознато име извођача</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"без грешке"</item>
+		<item>"Креирање фајла v-картице неуспешно"</item>
+		<item>"Неподржани формат слике"</item>
+	</string-array>
+</resources>

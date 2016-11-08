@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>Портрет</item>
+		<item>Мәзір белгішелерін іске қосу құралы</item>
+		<item>"кері-кітаптық"</item>
+		<item>"кері-альбомдық"</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Бір жақты"</item>
+		<item>"Екі жақты ұзын шетпен"</item>
+		<item>"Екі жақты қысқа шетпен"</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>Қалыпты</item>
+		<item>Нобай жәшігі</item>
+		<item>Жоғары</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+		<item>Белгісіз орындаушы аты</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"қате жоқ"</item>
+		<item>"v-card файлы құрылмады"</item>
+		<item>"Қолдау көрсетілмейтін сурет пішімі"</item>
+	</string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Файлды қабылдауға сауал"</string>
+	<string name="bt_opp_notification_in_coming_title">"Файлды қабылдауға сауал (жіберуші: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Кіріс файлды қабылдау үшін таңдаңыз"</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">Кіріс файл тасымалдарына рұқсат ету</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Қабылдау: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Шығыс файлы"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Жіберу: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Файлды тасымалдау үшін қосылған"</string>
+	<string name="bt_opp_cancel_task_message">"Жіберу әрекетін болдырмайсыз ба?"</string>
+	<string name="bt_opp_cancel_task_yes">Иә</string>
+	<string name="bt_opp_cancel_task_no">Файлды басып шығару үшін қолжетімді қолданба жоқ.</string>
+	<string name="bt_opp_canceling_task_message">"Жіберу әрекеті тоқтатылуда, күтіңіз..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - кіріс нысаны"</string>
+	<string name="bt_opps_confirm_push_message">"%3$s жіберушіден кіріс файл: %1$s (%2$s). Қабылдайсыз ба?"</string>
+	<string name="bt_opps_confirm_push_yes">Auto-push қызметін қабылдау қажет пе немесе қажет емес пе?</string>
+	<string name="bt_opps_confirm_push_no">Қабылдамау</string>
+	<string name="bt_oppc_push_action_label">Bluetooth құрылғысы арқылы ойнату </string>
+	<string name="bt_oppc_push_toast_sending_file">"%1$s үшін файл жіберу"</string>
+	<string name="bt_oppc_push_toast_sending_files">"%1$s үшін файлдарды жіберу"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Қолдау көрсетілмейтін бөлісу материалы: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"SD-картасы жоқ немесе кіріс файлы үшін сақтау орны жеткіліксіз."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Қашықтықтағы құрылғыдан дұрыс емес бөлісу сауалы."</string>
+</resources>

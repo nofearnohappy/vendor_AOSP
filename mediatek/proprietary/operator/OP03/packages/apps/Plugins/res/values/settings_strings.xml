@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Portable Wi-Fi hotspot</string>
+    <string name="wifi_tether_introduction_text">By turning your device into a portable Wi-Fi hotspot, you can share its internet connection with up to eight other devices at once.\n\nPlease notice that tethering will use mobile data. This may increase your call charges significantly and reduce battery life.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Please insert a SIM Card and restart the device to use portable Wi-Fi hotspot or tethering.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Don\'t show this message again</string>
+    <string name="wifi_tether_turn_off_wifi">To turn the portable Wi-Fi hotspot on we will first need to turn off your Wi-Fi connection. Do you want to continue?</string>
+    <string name="wifi_tether_settings_text">Portable Wi-Fi hotspot settings</string>
+    <string name="tether_apn_settings_text">Tethering APN</string>
+    <string name="tether_apn_settings_subtext">Set the default APN for tethering</string>
+    <string name="usb_tethering_accessory_active_subtext">Tethering cannot be turned on when USB is in use.</string>
+    <string name="operator_display">Show network operator</string>
+    <string name="operator_display_summary">Show network operator in the status bar</string>
+    <string name="by_orange">by Orange</string>
+    <string name="recommended_by_orange">Recommended by Orange</string>
+    <string name="smsmms_app_name">Messaging is not active</string>
+    <string name="click_to_change_to_xms_app">Messaging is not your default SMS app.</string>
+    <string name="click_to_change_to_xms_app_line2">Tap here for more information.</string>
+    <string name="sms_change_default_dialog_text1">Messaging app is tested by Orange to work on your device.\n\n
+
+Using other SMS apps could cause problems sending and receiving SMS and MMS messages.\n\n
+
+Use <xliff:g id="new_app">%s</xliff:g> instead of <xliff:g id="current_app">%s</xliff:g> as your SMS app?</string>
+    
+</resources>

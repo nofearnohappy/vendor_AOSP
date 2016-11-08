@@ -1,0 +1,32 @@
+MTK SDIO Auto-K Daemon, Communicate with SDIO Auto-K kernel, store calibration result into storage / NVRAM.
+SDIO Auto-K does calibration in advance to help SDIO device run at 200 MHz stably
+
+WHAT IT DOES?
+=============
+autokd is a daemon of SDIO Auto-K, which communicates with SDIO Auto-K kernel and store calibration result into storage / NVRAM.
+Without autokd, SDIO Auto-K will not start and the device connected by SDIO will not finish probing
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libstlport.so
+2.  libcutils.so
+3.  libdl.so
+4.  liblog.so
+
+and the following libs from MediaTek:
+1.  libnvram.so
+2.  libcustom_nvram.so
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/autokd/' folder.
+
+HOW TO USE IT?
+==============
+
+autokd is only used by MTK SDIO kernel driver
+autokd will polling device status to do relative actions.
+autokd can be event triggered as well.
+The events and polling devices please refer to (vendor/mediatek/proprietary/external/autokd/)
+
+All the source code of this daemon were written by MediaTek co..

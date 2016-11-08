@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Išmanusis glodintuvas</string>
+	<string name="surround_virtualizer">Erdv. garso virtualiz.</string>
+	<string name="dialogue_enhancer">Dialogų stiprintuvas</string>
+	<string name="volume_leveler">Gars. vienodintuvas</string>
+	<string name="copyright">„Dolby“ ir dvigubos D simbolis yra „Dolby Laboratories“ registruotieji prekių ženklai. \u00a9 „Dolby Laboratories Inc.“, 2013 m. Visos teisės saugomos.</string>
+	<string name="movie">Filmas</string>
+	<string name="music">Muzika</string>
+	<string name="game">Žaidimas</string>
+	<string name="voice">Balsas</string>
+	<string name="preset_1">1 pasirinktinis</string>
+	<string name="preset_2">2 pasirinktinis</string>
+	<string name="open">Erdvus</string>
+	<string name="rich">Raiškus</string>
+	<string name="focused">Koncentruotas</string>
+	<string name="off">IŠJUNGTA</string>
+	<string name="custom">Rankinis</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Grafinis glodintuvas</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Leisti dem. versiją</string>
+</resources>

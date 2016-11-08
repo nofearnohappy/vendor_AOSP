@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Հպեք` Bluetooth-ը միացնելու համար</string>
+    <string name="tap_to_add_device">Հպեք` սարք ավելացնելու համար</string>
+    <string name="turning_on_bluetooth">Bluetooth-ը միանում է...</string>
+    <string name="launcher_activity_name">BLE Կառավարիչ</string>
+    <string name="scanning_devices">Զննում է սարքերը</string>
+    <string name="delete_devices">Անջատեք մի սարքը` մյուսը միացնելու համար</string>
+    <string name="cancel">"Չեղարկել"</string>
+    <string name="ok">"Լավ"</string>
+    <string name="alert_setting">"Զգուշացում"</string>
+    <string name="device_manager">Սարքի կառավարիչ </string>
+    <string name="out_of_range_alert_text">Ընդգրկույթից դուրս ահազանգ</string>
+    <string name="in_range_alert_text">Ընդգրկույթից ներս ահազանգ</string>
+    <string name="range_alert_text">Իմ ընդգրկույթը</string>
+    <string name="range_alert_summary">Ե´վ հեռախոսի և´ սարքի ահազանգը, երբ սարքն ընդգրկույթից ներս է կամ դուրս </string>
+    <string name="range_near_text">Մոտիկ</string>
+    <string name="range_middle_text">Միջին</string>
+    <string name="range_far_text">Հեռու</string>
+    <string name="range_1_distance_text">Մոտ 1մ</string>
+    <string name="range_10_distance_text">1-10մ</string>
+    <string name="range_20_distance_text">10-20մ</string>
+    <string name="phone_alert_settings">Հեռախոսի ահազանգի կարգավորումներ</string>
+    <string name="ringtone_tye_text">"Զանգերանգ"</string>
+    <string name="volume_text">"Ձայն"</string>
+    <string name="vibration_text">Թրթռում</string>
+    <string name="vibration_summary_on">"Միացված է"</string>
+    <string name="vibration_summary_off">"Անջատված է"</string>
+    <string name="device_name">"Սարքի անունը"</string>
+    <string name="push_notification_text">
+Սարքի push ծանուցումներ</string>
+    <string name="incoming_call_notification_text">"Մուտքային զանգ"</string>
+    <string name="missed_call_notificaiotn_text">"Բաց թողնված զանգ"</string>
+    <string name="new_message_notification_text">"Նոր հաղորդագրություն"</string>
+    <string name="new_email_notification_text">Նոր էլ. փոստ</string>
+    <string name="disconnection_text">Անջատման կարգավորումներ</string>
+    <string name="disconnection_waring_title">Անջատման ահազանգ</string>
+    <string name="disconnection_waring_summary">Ե´վ հեռախոսի և´ սարքի ահազանգը, երբ սարքն անջատված է</string>
+    <string name="device_name_change_dialog_title">"Վերանվանել"</string>
+    <string name="disconnect_text">"Անջատել"</string>
+    <string name="delete_text">"Ջնջել"</string>
+    <string name="connect_text">"Միանալ"</string>
+    <string name="device_delete_dialog_message">Ջնջե՞լ այս սարքը:</string>
+    <string name="device_disconnect_dialog_message">Անջատե՞լ սարքը:</string>
+    <string name="find_all_text">Գտնել բոլորը</string>
+    <string name="default_images">Սկզբնադիր պատկերներ</string>
+    <string name="range_information_text">Ընդգրկույթը կախված է ազդանշանի ուժգնությունից: Լավագույն պայմաններում ընդգրկույթը կարող է լինել 30 մետրից ավելի: Որոշ տարրեր կարող են կրճատել հեռավորությունը մի 15 կամ ավելի պակաս մետրի, ինչպես օրինակ Ձեր մարմինը, պատերը կամ այլ խոչընդոտներ: </string>
+    <string name="range_information_dialog_check_box_text">Չցուցադրել կրկին</string>
+    <string-array name="device_image_chooser_items">
+        <item>Ընտրել սկզբնադիր պատկերներից</item>
+        <item>"Լուսանկարել"</item>
+        <item>Ընտրել պատկերասրահից</item>
+    </string-array>
+    <string name="add_device">Հավելել սարք</string>
+    <string name="yes">"Այո"</string>
+    <string name="no">"Ոչ"</string>
+    <string name="connecting_text">"Միանում է..."</string>
+    <string name="enable_background_service">Միացնել Ետնաշերտի ռեժիմը</string>
+    <string name="disable_background_service">Անջատել Ետնաշերտի ռեժիմը</string>
+    <string name="ble_manager_alert">BLE Կառավարչի ահազանգ</string>
+    <string name="check">Ստուգել</string>
+    <string name="dismiss">Անտեսել</string>
+    <string name="disconnected">"Անջատված է"</string>
+    <string name="in_range">ընդգրկույթում</string>
+    <string name="out_of_range">ընդգրկույթից դուրս</string>
+    <string name="no_found">Չի գտնվել bluetooth սարք:</string>
+    <string name="bt_off">Bluetooth-ն անջատված է, միացրեք այն:</string>
+</resources>

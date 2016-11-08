@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dip"
+    >
+
+    <TextView
+            android:id="@+id/prompt0"
+            android:text="@string/sensor_fifo_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    <TextView
+            android:id="@+id/prompt3"
+            android:text="@string/sensor_fifo_summary"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/prompt0"
+            android:textColor="@color/dark" />
+
+    <CheckBox
+            android:id="@+id/checkbox_fifo"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/prompt3" />
+
+    <TextView
+            android:id="@+id/prompt1"
+            android:text="@string/batch_mode_interval_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/prompt3" />
+
+    <EditText
+            android:id="@+id/batch_mode_interval"
+            android:layout_below="@id/prompt1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:maxLength="4"
+            android:inputType="number" />
+
+    <TextView
+            android:id="@+id/prompt2"
+            android:layout_below="@id/batch_mode_interval"
+            android:text="@string/batch_mode_timeout_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    <EditText
+            android:id="@+id/batch_mode_timeout"
+            android:layout_below="@id/prompt2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:maxLength="7"
+            android:inputType="number" />
+
+    <Button
+            android:id="@+id/set_button"
+            android:layout_below="@id/batch_mode_timeout"
+            android:text="@string/sensor_set_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+</RelativeLayout>

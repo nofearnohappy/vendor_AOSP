@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_chat_phone_click">
+        <item>@string/chat_menu_call</item>
+        <item>@string/chat_menu_sms</item>
+        <item>@string/chat_menu_copy</item>
+        <item>@string/chat_menu_new_contact</item>
+        <item>@string/chat_menu_update_contact</item>
+    </string-array>
+    <string-array name="menu_chat_email_click">
+        <item>@string/chat_menu_email</item>
+        <item>@string/chat_menu_copy</item>
+        <item>@string/chat_menu_new_contact</item>
+        <item>@string/chat_menu_update_contact</item>
+    </string-array>
+    <string-array name="menu_chat_web_click">
+        <item>@string/chat_menu_web</item>
+        <item>@string/chat_menu_copy</item>
+    </string-array>
+    <string-array name="menu_chat_text_longclick">
+        <item>@string/delete</item>
+        <item>@string/chat_menu_copy</item>
+    </string-array>
+</resources>

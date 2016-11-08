@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Udostępnianie HotKnot</string>
+    <string name="hint1">Upewnij się, że w urządzeniu odbierającym włączono funkcję HotKnot i pozostaw ekran urządzenia w stanie odblokowania.</string>
+    <string name="hint2">Przyłóż ekran urządzenia do ekranu urządzenia odbierającego.</string>
+    <string name="hint3">Po usłyszeniu monitu głosowego oddal urządzenie od urządzenia odbierającego.</string>
+    <string name="use_hotknot">Aplikacja ta wymaga korzystania z dostępnej w urządzeniu technologii HotKnot.</string>
+    <string name="allow">"Zezwól"</string>
+    <string name="deny">"Odrzuć"</string>
+    <string name="fail_to_share">Nie można udostępnić</string>
+    <string name="fail_to_share_conn_error">Nie można udostępnić z powodu problemu z połączeniem.</string>
+    <string name="fail_to_share_unknown_error">Nie można udostępnić z powodu nieznanego błędu.</string>
+    <string name="try_again">"Spróbuj ponownie"</string>
+    <string name="usb_warning">Ładowanie przez USB może mieć wpływ na funkcję HotKnot.</string>
+</resources>

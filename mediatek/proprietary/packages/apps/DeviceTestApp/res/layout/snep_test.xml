@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        >      
+        <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@drawable/corners_bg_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> 
+            
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/test_role"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+
+            <Spinner
+                android:id="@+id/test_role"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />  
+
+        </LinearLayout>
+        </LinearLayout>
+
+        <!-- Protocol Type -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:id="@+id/protocol_type_testview"
+            android:text="@string/llcp_protocol_type" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:id="@+id/protocol_type_LLayout1"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:id="@+id/protocol_type_LLayout2"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:id="@+id/protocol_type_select">
+
+                <RadioButton
+                    android:checked="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/typeA"
+                    android:text="@string/llcp_protocol_typeA"/>
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/typeF212"
+                    android:text="@string/llcp_protocol_typeF212" />
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/typeF424"
+                    android:text="@string/llcp_protocol_typeF424" />
+            </RadioGroup>
+
+        </LinearLayout>
+        </LinearLayout>
+
+        <!-- Request Type -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:id="@+id/request_type_testview"
+            android:text="@string/request_name" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:id="@+id/request_type_LLayout1"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:id="@+id/request_type_LLayout2"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:id="@+id/request_select">
+
+                <RadioButton
+                    android:checked="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/request_put"
+                    android:text="@string/request_put"/>
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/request_get"
+                    android:text="@string/request_get" />
+            </RadioGroup>
+
+        </LinearLayout>
+        </LinearLayout>
+
+		<!-- Request Data -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:id="@+id/request_data_view"
+            android:text="@string/test_data"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:id="@+id/request_data_LLayout1"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:id="@+id/request_data_LLayout2"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/test_data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />  
+        </LinearLayout>
+        </LinearLayout>
+
+		<!-- Button -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button android:id="@+id/test_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_send"
+                    android:textSize="20dip"/>
+
+            <Button android:id="@+id/test_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stop"
+                    android:textSize="20dip"/>
+
+        </LinearLayout>
+        
+        <!-- Result -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/result"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+            <TextView android:id="@+id/test_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/empty"/>
+        </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>    
+    </ScrollView>
+</LinearLayout>
+
+
+
+

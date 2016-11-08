@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"ファイル着信要求"</string>
+	<string name="bt_opp_notification_in_coming_title">"ファイル着信要求（以下より： %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"選択してファイル着信を許可できます。"</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"ファイル転送の受信を許可"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"受信中:" %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"送信ファイル"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"送信中：" %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"ファイル転送サーバーに接続しました"</string>
+	<string name="bt_opp_cancel_task_message">"この転送をキャンセルしますか？"</string>
+	<string name="bt_opp_cancel_task_yes">"はい"</string>
+	<string name="bt_opp_cancel_task_no">連絡先を印刷できるアプリが見つかりません。</string>
+	<string name="bt_opp_canceling_task_message">"転送キャンセル中、お待ちください…"</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth－オブジェクト着信"</string>
+	<string name="bt_opps_confirm_push_message">"ファイル着信：%3$sからの%1$s (%2$s) を受け取りますか?"</string>
+	<string name="bt_opps_confirm_push_yes">自動プッシュサービスを受け入れますか？</string>
+	<string name="bt_opps_confirm_push_no">拒否</string>
+	<string name="bt_oppc_push_action_label">"Bluetooth経由で再生中です"</string>
+	<string name="bt_oppc_push_toast_sending_file">"ファイルを %1$sへ送信中"</string>
+	<string name="bt_oppc_push_toast_sending_files">ファイルを %1$sへ送信中"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"共有内容は未対応です：%1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"ファイル着信を保存する空間が不足しているか、SDカードが存在しません。"</string>
+	<string name="bt_opps_push_toast_invalid_request">"リモートデバイスからの共有リクエストが無効です。"</string>
+</resources>

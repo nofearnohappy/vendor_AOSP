@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Ажурирања система"</string>
+    <string name="none_package">Нема важећих пакета за ажурирање</string>
+    <string name="new_version_query">Провера ажурирања\u2026</string>
+    <string name="menu_stats_refresh">"Освежи"</string>
+    <string name="network_error">Мрежна веза није успела</string>
+    <string name="server_version_error">Грешка сервера: Ажурирајте изворни код сервера.</string>    
+    <string name="no_new_version">Ваш систем је тренутно ажуриран.</string>
+    <string name="not_support_version">Ваш циљ не\ подржава бежични пренос.</string>
+    <string name="query_sd_insufficient_space">Недовољно места за <xliff:g id="path">%s</xliff:g></string>
+    <string name="ota_category_title">OTA</string>
+    <string name="sd_category_title">Ажурирање SD картице</string>
+    <string name="ota_preference_summary">На серверу је пронађено ажурирање за систем</string>
+    <string name="notes_summary">Ажурирање фирмвера може да побољша стабилност уређаја и закрпи грешке.</string>
+    <string name="ask_for_install_ota">Да ли желите да сада инсталирате ажурирање за систем?</string>
+    <string name="warning_install_ota" product="tablet">Током инсталације нећете моћи да користите таблет и успостављате хитне позиве. Немојте да вадите батерију и SD картицу или да искључујете таблет.</string>
+    <string name="warning_install_ota" product="default">Током инсталације нећете моћи да користите телефон и успостављате хитне позиве. Немојте да вадите батерију и SD картицу или да искључујете телефон.</string>
+    <string name="ask_for_install_sd">На вашој SD картици је пронађен пакет са најновијим ажурирањима за систем, да ли желите да га инсталирате?</string>
+    <string name="warning_install_sd" product="tablet">Током инсталације нећете моћи да користите таблет и успостављате хитне позиве. Немојте да вадите батерију и SD картицу или да искључујете таблет. \nПре почетка инсталације, обратите пажњу да преузмете пакет са званичне интернет странице и да не буде оштећен.</string>
+    <string name="warning_install_sd" product="default">Током инсталације нећете моћи да користите телефон и успостављате хитне позиве. Немојте да вадите батерију и SD картицу или да искључујете телефон. \nПре почетка инсталације, обратите пажњу да преузмете пакет са званичне интернет странице и да не буде оштећен.</string>
+    <string name="ask_for_download_ota">Да ли желите да преузмете ажурирања за оптимизацију система?</string>
+    <string name="warning_download_ota">Препоручујемо да приликом примене овог ажурирања користите приступну тачку за бесплатни  Wi-Fi или неограничени план података. Ако немате стандардну цену за пренос података, може доћи до наплате. \nНаправите резервну копију својих података пре ажурирања.</string>
+    <string name="notification_content_title">Ажурирање система</string>
+    <string name="downloading_title">"'Преузимање\u2026''"</string>   
+    <string name="wifi_only_check">"'Само Wi-Fi''"</string>     
+    <string name="btn_install">"Инсталирај"</string>
+    <string name="btn_cancel">"Одбаци"</string>
+    <string name="btn_download">Преузми и инсталирај</string>
+    <string name="btn_resume">"Преузми"</string>
+    <string name="warn_data_cost_title">Преузми инсталирање</string>
+    <string name="warn_data_cost_content">У случају преузимања преко мобилних мрежа може доћи до додатне наплате. Да ли желите да наставите?</string>
+    <string name="warn_data_cost_yes">"Да"</string>
+    <string name="warn_data_cost_no">"Не"</string>
+    <string name="notification_download_complete_title">Ажурирање за систем је спремно</string>
+    <string name="notification_download_complete_context">Тапните да бисте инсталирали ажурирање за систем</string>
+    <string name="sdcard_crash_or_unmount">Грешка SD картице. Проверите SD картицу и покушајте поново.</string>
+    <string name="unmount_sdcard">SD картица је погрешно постављена, проверите је.</string>
+    <string name="insufficient_space_content">За инсталацију је потребно барем <xliff:g id="deltasize" example="3.5M">%s</xliff:g> бајта простора за складиштење. Ослободите простор да бисте наставили.</string>
+    <string name="install_sd_title">Инсталирај ажурирање</string>
+    <string name="install_sd_message">Обратите пажњу да преузмете пакет са званичне интернет странице и да не буде оштећен. У противном може изазвати проблеме у систему.</string>
+    <string name="install_reminder_now">Инсталирај сада</string>
+    <string name="install_reminder_not_now">"Не сада"</string>
+    <string name="notification_content_text_completed">Успешно преузимање</string> 
+    <string name="unknown_per">"Непознато"</string>    
+    <string name="unknown_error">Непозната грешка</string>
+    <string name="unknown_error_content">Појавила се непозната грешка. Напустите ову страницу и покушајте поново.</string>
+    <string name="insufficient_space_title">Нема довољно простора</string>
+    <string name="error_sdcard">Подаци о SD картици</string>
+    <string name="insufficient_space">Нема довољно места на SD картици</string>
+    <string name="package_deleted_error">Ажурирања за систем су прекинута јер је ажурирање неисправно.</string>
+    <string name="cancel_download_title">Откажи преузимање</string>
+    <string name="cancel_download_content">Ова операција ће одбацити преузету датотеку.</string>
+    <string name="change_network_title">"Преузми"</string>
+    <string name="change_network_content">Тренутни APN не подржава преузимање, да ли желите да пређете на други APN или да укључите Wi-Fi?</string>
+    <string name="change_network_wifi_btn">Користити Wi-Fi?</string>
+    <string name="change_network_apn_btn">Промени APN</string>
+    <string name="change_network_discard_btn">"Одбаци"</string>    
+    <string name="package_error_title">Инсталација није успела</string>
+    <string name="package_error_message_invalid">Грешка пакета. Проверите ажурирање и преузмите га поново.</string>
+    <string name="package_error_message_insuff" product="tablet">На уређају нема довољно простора.</string>
+    <string name="package_error_message_insuff" product="default">На телефону нема довољно простора.</string>
+    <string name="package_error_message_crash">Не може да се приступи партицији са подацима.</string>
+    <string name="package_error_message_full">Потребан је пун пакет за промену стања партиције.</string>    
+    <string name="updateSuccess" product="tablet">Честитамо! Ваш уређај је успешно ажуриран на верзију <xliff:g id="version" example="gb.p37">%s</xliff:g>.</string> 
+    <string name="updateSuccess" product="default">Честитамо! Ваш телефон је успешно ажуриран на верзију <xliff:g id="version" example="gb.p37">%s</xliff:g>.</string> 
+    <string name="updateFailed">Није успело ажурирање на верзију <xliff:g id="version" example="gb.p37">%s</xliff:g>.</string>
+    <string name="package_unzip">Пакет се декомпресује\u2026</string>
+    <string name="package_unzip_error">Грешка у декомпресовању</string>
+    <string name="installing_message" product="tablet">Ваш таблет ће се искључити\u2026</string>
+    <string name="installing_message" product="default">Ваш телефон ће се искључити\u2026</string>
+    <string name="install_sd_info">За наставак ажурирања потребно је копирати пакет на простору за складиштење.\nНема довољно простора на телефону.</string>
+    <string name="sdcard_crash_or_unmount_when_install">Ажурирања система су заустављена јер је SD картица искључена. </string>
+    <string name="sdcard_inserted">Да ли желите да скенирате своју SD картицу да бисте пронашли додатне пакете за ажурирање?</string>
+    <string name="new_version_detected">Ажурирање за систем је доступно</string>
+    <string name="sdcard_unmount">SD картица није постављена</string>
+    <string name="cta_warning">Систем подржава надоградњу фирмвера само са званичне веб локације или сервера. Ако корисник користи ROM слику треће стране и/или било који други основни метод за надоградњу фирмвера, то може довести до нестабилног рада телефона. Узмите у обзир да је на кориснику сва одговорност за поменута понашања.</string>
+    <string name="low_battery">Низак ниво батерије</string>
+    <string name="low_battery_warning">Ово ажурирање захтева најмање 15% батерије.</string>
+    <string name="notify_backup">Направите резервну копију ваших података (као што су контакти, поруке, фотографије, итд.) у случају да подаци буду изгубљени током процеса надоградње.</string> 
+</resources>

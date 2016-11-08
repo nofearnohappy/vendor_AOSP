@@ -1,0 +1,12 @@
+WHAT IT DOES?
+=============
+A platform-independent module to manage camera devices.
+
+HOW IT WAS BUILT?
+==================
+The following libs from MediaTek:
+libcam.external_device.so
+
+HOW TO USE IT?
+==============
+Provide API for external devices

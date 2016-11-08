@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Hotspot Wi-Fi portatile</string>
+    <string name="wifi_tether_introduction_text">Trasformando il tuo dispositivo in un hotspot Wi-Fi portatile, puoi condividere la connessione internet con un massimo di otto dispositivi contemporaneamente.\n\nIl tethering utilizza la rete dati. Questo potrebbe aumentare il costo delle chiamate e ridurre la durata della batteria.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Inserisci una scheda SIM e riavvia il dispositivo per utilizzare l\'hotspot Wi-Fi o il tethering.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Non mostrare più questo messaggio</string>
+    <string name="wifi_tether_turn_off_wifi">Per attivare l\'hotspot Wi-Fi portatile, devi prima disattivare la connessione wireless. Continuare?</string>
+    <string name="wifi_tether_settings_text">Impostazioni hotspot Wi-Fi portatile</string>
+    <string name="tether_apn_settings_text">APN tethering</string>
+    <string name="tether_apn_settings_subtext">Imposta l\'APN predefinito per il tethering</string>
+    <string name="usb_tethering_accessory_active_subtext">Impossibile attivare il tethering mentre USB è in uso.</string>
+    <string name="operator_display">Mostra operatore di rete</string>
+    <string name="operator_display_summary">Mostra operatore di rete nella barra di stato</string>
+    <string name="by_orange">di Orange</string>
+    <string name="recommended_by_orange">Consigliato da Orange</string>
+    <string name="smsmms_app_name">L\'applicazione Messaggi non è attiva</string>
+    <string name="click_to_change_to_xms_app">Messaggi non è l\'applicazione predefinita per gli SMS.</string>
+    <string name="click_to_change_to_xms_app_line2">Tocca qui per maggiori informazioni.</string>
+    <string name="sms_change_default_dialog_text1">Messaggi è l\'applicazione testata da Orange per funzionare sul tuo dispositivo.\n\n
+
+L\'utilizzo di applicazioni diverse potrebbe causare problemi all\'invio e alla ricezione di SMS e MMS.\n\n
+
+Utilizza <xliff:g id="new_app">%s</xliff:g> invece di <xliff:g id="current_app">%s</xliff:g> come applicazione per gli SMS?</string>
+    
+</resources>

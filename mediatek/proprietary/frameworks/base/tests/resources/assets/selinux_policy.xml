@@ -1,0 +1,1733 @@
+<?xml version="1.0" ?>
+<SELinux_AVC_Rules>
+    <avc_rule name="1" type="neverallow">
+        <type type="source">shell</type>
+        <type type="source">nfc</type>
+        <type type="source">platform_app</type>
+        <type type="source">bluetooth</type>
+        <type type="source">radio</type>
+        <type type="source">isolated_app</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_app</type>
+        <type type="source">release_app</type>
+        <type type="source">shared_app</type>
+        <type type="target">kernel</type>
+        <obj_class name="security">
+            <permission>load_policy</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="2" type="neverallow">
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">nfc</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">shared_app</type>
+        <type type="target">audio_data_file</type>
+        <type type="target">sysfs_nfc_power_writable</type>
+        <type type="target">ion_device</type>
+        <type type="target">debuggerd</type>
+        <type type="target">netd</type>
+        <type type="target">system_server_tmpfs</type>
+        <type type="target">lmkd</type>
+        <type type="target">uhid_device</type>
+        <type type="target">init_shell</type>
+        <type type="target">radio</type>
+        <type type="target">zygote_socket</type>
+        <type type="target">system_wpa_socket</type>
+        <type type="target">sockfs</type>
+        <type type="target">selinuxfs</type>
+        <type type="target">dumpstate_socket</type>
+        <type type="target">untrusted_app_devpts</type>
+        <type type="target">shell_prop</type>
+        <type type="target">property_socket</type>
+        <type type="target">runas</type>
+        <type type="target">debuggerd_exec</type>
+        <type type="target">mqueue</type>
+        <type type="target">shell_data_file</type>
+        <type type="target">drmserver_tmpfs</type>
+        <type type="target">debuggerd_tmpfs</type>
+        <type type="target">init</type>
+        <type type="target">netif</type>
+        <type type="target">device</type>
+        <type type="target">apk_tmp_file</type>
+        <type type="target">logd</type>
+        <type type="target">servicemanager</type>
+        <type type="target">gpsd_tmpfs</type>
+        <type type="target">bluetooth_socket</type>
+        <type type="target">adb_keys_file</type>
+        <type type="target">sdcardd_exec</type>
+        <type type="target">system_app_tmpfs</type>
+        <type type="target">mediaserver_exec</type>
+        <type type="target">ppp_exec</type>
+        <type type="target">media_rw_data_file</type>
+        <type type="target">clatd_exec</type>
+        <type type="target">ueventd</type>
+        <type type="target">labeledfs</type>
+        <type type="target">asec_image_file</type>
+        <type type="target">camera_device</type>
+        <type type="target">efs_file</type>
+        <type type="target">media_app</type>
+        <type type="target">tmpfs</type>
+        <type type="target">bluetooth_prop</type>
+        <type type="target">logdr_socket</type>
+        <type type="target">nfc</type>
+        <type type="target">zygote_tmpfs</type>
+        <type type="target">cache_backup_file</type>
+        <type type="target">drmserver_socket</type>
+        <type type="target">logd_exec</type>
+        <type type="target">nfc_tmpfs</type>
+        <type type="target">zygote</type>
+        <type type="target">hostapd</type>
+        <type type="target">tee_data_file</type>
+        <type type="target">lmkd_socket</type>
+        <type type="target">zoneinfo_data_file</type>
+        <type type="target">cgroup</type>
+        <type type="target">platform_app</type>
+        <type type="target">release_app</type>
+        <type type="target">qtaguid_device</type>
+        <type type="target">surfaceflinger_tmpfs</type>
+        <type type="target">shm</type>
+        <type type="target">hci_attach_tmpfs</type>
+        <type type="target">rild_exec</type>
+        <type type="target">kernel</type>
+        <type type="target">system_ndebug_socket</type>
+        <type type="target">hci_attach_dev</type>
+        <type type="target">cpuctl_device</type>
+        <type type="target">iio_device</type>
+        <type type="target">dhcp</type>
+        <type type="target">audio_device</type>
+        <type type="target">bootanim_exec</type>
+        <type type="target">tee</type>
+        <type type="target">wpa_exec</type>
+        <type type="target">bluetooth</type>
+        <type type="target">sysfs_lowmemorykiller</type>
+        <type type="target">mdnsd_exec</type>
+        <type type="target">console_device</type>
+        <type type="target">rild</type>
+        <type type="target">hw_random_device</type>
+        <type type="target">radio_prop</type>
+        <type type="target">wallpaper_file</type>
+        <type type="target">surfaceflinger_exec</type>
+        <type type="target">audio_prop</type>
+        <type type="target">port</type>
+        <type type="target">gps_device</type>
+        <type type="target">vcs_device</type>
+        <type type="target">alarm_device</type>
+        <type type="target">keystore_tmpfs</type>
+        <type type="target">logd_socket</type>
+        <type type="target">inputflinger_exec</type>
+        <type type="target">gpu_device</type>
+        <type type="target">unlabeled</type>
+        <type type="target">racoon_exec</type>
+        <type type="target">init_tmpfs</type>
+        <type type="target">binder_device</type>
+        <type type="target">servicemanager_tmpfs</type>
+        <type type="target">sysfs_wake_lock</type>
+        <type type="target">system_app</type>
+        <type type="target">vold_exec</type>
+        <type type="target">powerctl_prop</type>
+        <type type="target">proc</type>
+        <type type="target">tee_device</type>
+        <type type="target">su_exec</type>
+        <type type="target">usermodehelper</type>
+        <type type="target">ppp_device</type>
+        <type type="target">watchdog_device</type>
+        <type type="target">netd_tmpfs</type>
+        <type type="target">debugfs</type>
+        <type type="target">wpa_socket</type>
+        <type type="target">rpmsg_device</type>
+        <type type="target">anr_data_file</type>
+        <type type="target">lmkd_tmpfs</type>
+        <type type="target">mdnsd_tmpfs</type>
+        <type type="target">logd_tmpfs</type>
+        <type type="target">proc_bluetooth_writable</type>
+        <type type="target">dhcp_exec</type>
+        <type type="target">gpsd</type>
+        <type type="target">log_device</type>
+        <type type="target">mediaserver_tmpfs</type>
+        <type type="target">security_prop</type>
+        <type type="target">vold_tmpfs</type>
+        <type type="target">system_server</type>
+        <type type="target">runas_exec</type>
+        <type type="target">adbd_socket</type>
+        <type type="target">radio_data_file</type>
+        <type type="target">tee_exec</type>
+        <type type="target">backup_data_file</type>
+        <type type="target">full_device</type>
+        <type type="target">kmsg_device</type>
+        <type type="target">ram_device</type>
+        <type type="target">inotify</type>
+        <type type="target">loop_device</type>
+        <type type="target">mtd_device</type>
+        <type type="target">random_device</type>
+        <type type="target">apk_private_tmp_file</type>
+        <type type="target">installd_socket</type>
+        <type type="target">camera_data_file</type>
+        <type type="target">uncrypt</type>
+        <type type="target">asec_public_file</type>
+        <type type="target">mediaserver</type>
+        <type type="target">graphics_device</type>
+        <type type="target">dumpstate_tmpfs</type>
+        <type type="target">usb_device</type>
+        <type type="target">vold</type>
+        <type type="target">drm_data_file</type>
+        <type type="target">sdcard_external</type>
+        <type type="target">gps_control</type>
+        <type type="target">mdns_socket</type>
+        <type type="target">logd_debug</type>
+        <type type="target">rild_debug_socket</type>
+        <type type="target">mtp_tmpfs</type>
+        <type type="target">release_app_tmpfs</type>
+        <type type="target">root_block_device</type>
+        <type type="target">dnsmasq</type>
+        <type type="target">sdcard_internal</type>
+        <type type="target">dm_device</type>
+        <type type="target">download_file</type>
+        <type type="target">inputflinger_tmpfs</type>
+        <type type="target">netd_socket</type>
+        <type type="target">racoon_tmpfs</type>
+        <type type="target">sensors_device</type>
+        <type type="target">hostapd_exec</type>
+        <type type="target">watchdogd</type>
+        <type type="target">system_file</type>
+        <type type="target">pipefs</type>
+        <type type="target">fscklogs</type>
+        <type type="target">rild_prop</type>
+        <type type="target">hci_attach_exec</type>
+        <type type="target">gpsd_exec</type>
+        <type type="target">bootanim_tmpfs</type>
+        <type type="target">servicemanager_exec</type>
+        <type type="target">proc_net</type>
+        <type type="target">shell_exec</type>
+        <type type="target">null_device</type>
+        <type type="target">debug_prop</type>
+        <type type="target">serial_device</type>
+        <type type="target">bluetooth_tmpfs</type>
+        <type type="target">sysfs_writable</type>
+        <type type="target">devpts</type>
+        <type type="target">wpa_tmpfs</type>
+        <type type="target">racoon</type>
+        <type type="target">shell</type>
+        <type type="target">video_device</type>
+        <type type="target">racoon_socket</type>
+        <type type="target">usbaccessory_device</type>
+        <type type="target">dumpstate</type>
+        <type type="target">adbd</type>
+        <type type="target">bootanim</type>
+        <type type="target">owntty_device</type>
+        <type type="target">untrusted_app</type>
+        <type type="target">sysfs_bluetooth_writable</type>
+        <type type="target">mtp_device</type>
+        <type type="target">vold_prop</type>
+        <type type="target">ctl_default_prop</type>
+        <type type="target">vpn_data_file</type>
+        <type type="target">dnsmasq_exec</type>
+        <type type="target">socket_device</type>
+        <type type="target">keystore_data_file</type>
+        <type type="target">installd_tmpfs</type>
+        <type type="target">sysfs_devices_system_cpu</type>
+        <type type="target">drmserver_exec</type>
+        <type type="target">proc_security</type>
+        <type type="target">sysfs</type>
+        <type type="target">properties_device</type>
+        <type type="target">block_device</type>
+        <type type="target">gps_data_file</type>
+        <type type="target">mtp</type>
+        <type type="target">inputflinger</type>
+        <type type="target">surfaceflinger</type>
+        <type type="target">systemkeys_data_file</type>
+        <type type="target">cache_file</type>
+        <type type="target">dalvikcache_data_file</type>
+        <type type="target">mdnsd</type>
+        <type type="target">mdnsd_socket</type>
+        <type type="target">lmkd_exec</type>
+        <type type="target">netd_exec</type>
+        <type type="target">nfc_device</type>
+        <type type="target">kmem_device</type>
+        <type type="target">ashmem_device</type>
+        <type type="target">sdcardd</type>
+        <type type="target">hci_attach</type>
+        <type type="target">dnsproxyd_socket</type>
+        <type type="target">wifi_data_file</type>
+        <type type="target">gps_socket</type>
+        <type type="target">fuse_device</type>
+        <type type="target">dhcp_tmpfs</type>
+        <type type="target">mtp_exec</type>
+        <type type="target">nfc_data_file</type>
+        <type type="target">tee_tmpfs</type>
+        <type type="target">default_prop</type>
+        <type type="target">input_device</type>
+        <type type="target">dumpstate_exec</type>
+        <type type="target">drmserver</type>
+        <type type="target">logdw_socket</type>
+        <type type="target">uncrypt_tmpfs</type>
+        <type type="target">rild_tmpfs</type>
+        <type type="target">zygote_exec</type>
+        <type type="target">keystore</type>
+        <type type="target">radio_tmpfs</type>
+        <type type="target">clatd</type>
+        <type type="target">zero_device</type>
+        <type type="target">recovery</type>
+        <type type="target">ctl_dumpstate_prop</type>
+        <type type="target">adb_device</type>
+        <type type="target">ppp</type>
+        <type type="target">rild_socket</type>
+        <type type="target">ptmx_device</type>
+        <type type="target">apk_private_data_file</type>
+        <type type="target">tun_device</type>
+        <type type="target">uncrypt_exec</type>
+        <type type="target">media_data_file</type>
+        <type type="target">media_app_tmpfs</type>
+        <type type="target">untrusted_app_tmpfs</type>
+        <type type="target">ctl_rildaemon_prop</type>
+        <type type="target">healthd</type>
+        <type type="target">node</type>
+        <type type="target">isolated_app_tmpfs</type>
+        <type type="target">radio_device</type>
+        <type type="target">urandom_device</type>
+        <type type="target">tombstone_data_file</type>
+        <type type="target">shared_app_tmpfs</type>
+        <type type="target">security_file</type>
+        <type type="target">system_data_file</type>
+        <type type="target">qtaguid_proc</type>
+        <type type="target">tty_device</type>
+        <type type="target">sdcardd_tmpfs</type>
+        <type type="target">isolated_app</type>
+        <type type="target">ueventd_tmpfs</type>
+        <type type="target">installd_exec</type>
+        <type type="target">system_prop</type>
+        <type type="target">platform_app_tmpfs</type>
+        <type type="target">wpa</type>
+        <type type="target">rootfs</type>
+        <type type="target">app_data_file</type>
+        <type type="target">apk_data_file</type>
+        <type type="target">dhcp_data_file</type>
+        <type type="target">asec_apk_file</type>
+        <type type="target">platform_app_data_file</type>
+        <type type="target">keystore_exec</type>
+        <type type="target">bluetooth_data_file</type>
+        <type type="target">klog_device</type>
+        <type type="target">debuggerd_prop</type>
+        <type type="target">vold_socket</type>
+        <type type="target">bluetooth_efs_file</type>
+        <type type="target">installd</type>
+        <type type="target">shell_tmpfs</type>
+        <type type="target">shared_app</type>
+        <obj_class name="fifo_file">
+            <permission>relabelto</permission>
+        </obj_class>
+        <obj_class name="chr_file">
+            <permission>relabelto</permission>
+        </obj_class>
+        <obj_class name="file">
+            <permission>relabelto</permission>
+        </obj_class>
+        <obj_class name="sock_file">
+            <permission>relabelto</permission>
+        </obj_class>
+        <obj_class name="blk_file">
+            <permission>relabelto</permission>
+        </obj_class>
+        <obj_class name="lnk_file">
+            <permission>relabelto</permission>
+        </obj_class>
+        <obj_class name="dir">
+            <permission>relabelto</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="3" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">self</type>
+        <obj_class name="capability">
+            <permission>sys_ptrace</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="4" type="neverallow">
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">self</type>
+        <obj_class name="capability">
+            <permission>sys_rawio</permission>
+            <permission>mknod</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="5" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">self</type>
+        <obj_class name="capability2">
+            <permission>mac_override</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="6" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">self</type>
+        <obj_class name="capability2">
+            <permission>mac_admin</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="7" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">kernel</type>
+        <obj_class name="security">
+            <permission>load_policy</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="8" type="neverallow">
+        <type type="source">vold</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">kernel</type>
+        <obj_class name="security">
+            <permission>setenforce</permission>
+            <permission>setcheckreqprot</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="9" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">system_server_tmpfs</type>
+        <type type="target">logdr_socket</type>
+        <type type="target">lmkd_socket</type>
+        <type type="target">system_wpa_socket</type>
+        <type type="target">ueventd_tmpfs</type>
+        <type type="target">dumpstate_socket</type>
+        <type type="target">wpa_tmpfs</type>
+        <type type="target">property_socket</type>
+        <type type="target">shell_data_file</type>
+        <type type="target">debuggerd_tmpfs</type>
+        <type type="target">bootanim_tmpfs</type>
+        <type type="target">apk_tmp_file</type>
+        <type type="target">gpsd_tmpfs</type>
+        <type type="target">bluetooth_socket</type>
+        <type type="target">adb_keys_file</type>
+        <type type="target">system_app_tmpfs</type>
+        <type type="target">media_rw_data_file</type>
+        <type type="target">shared_app_tmpfs</type>
+        <type type="target">backup_data_file</type>
+        <type type="target">zygote_socket</type>
+        <type type="target">tee_data_file</type>
+        <type type="target">cache_backup_file</type>
+        <type type="target">drmserver_socket</type>
+        <type type="target">system_ndebug_socket</type>
+        <type type="target">nfc_tmpfs</type>
+        <type type="target">zoneinfo_data_file</type>
+        <type type="target">radio_data_file</type>
+        <type type="target">surfaceflinger_tmpfs</type>
+        <type type="target">apk_private_tmp_file</type>
+        <type type="target">hci_attach_tmpfs</type>
+        <type type="target">rild_debug_socket</type>
+        <type type="target">wallpaper_file</type>
+        <type type="target">sdcardd_tmpfs</type>
+        <type type="target">keystore_tmpfs</type>
+        <type type="target">bluetooth_data_file</type>
+        <type type="target">init_tmpfs</type>
+        <type type="target">servicemanager_tmpfs</type>
+        <type type="target">efs_file</type>
+        <type type="target">installd_socket</type>
+        <type type="target">inputflinger_tmpfs</type>
+        <type type="target">netd_tmpfs</type>
+        <type type="target">wpa_socket</type>
+        <type type="target">anr_data_file</type>
+        <type type="target">lmkd_tmpfs</type>
+        <type type="target">mdnsd_tmpfs</type>
+        <type type="target">logd_tmpfs</type>
+        <type type="target">mediaserver_tmpfs</type>
+        <type type="target">vold_tmpfs</type>
+        <type type="target">dnsproxyd_socket</type>
+        <type type="target">adbd_socket</type>
+        <type type="target">camera_data_file</type>
+        <type type="target">asec_public_file</type>
+        <type type="target">dumpstate_tmpfs</type>
+        <type type="target">drm_data_file</type>
+        <type type="target">gps_control</type>
+        <type type="target">logd_debug</type>
+        <type type="target">mtp_tmpfs</type>
+        <type type="target">release_app_tmpfs</type>
+        <type type="target">download_file</type>
+        <type type="target">netd_socket</type>
+        <type type="target">racoon_tmpfs</type>
+        <type type="target">system_file</type>
+        <type type="target">asec_image_file</type>
+        <type type="target">tombstone_data_file</type>
+        <type type="target">racoon_socket</type>
+        <type type="target">logd_socket</type>
+        <type type="target">untrusted_app_tmpfs</type>
+        <type type="target">vpn_data_file</type>
+        <type type="target">keystore_data_file</type>
+        <type type="target">bluetooth_tmpfs</type>
+        <type type="target">drmserver_tmpfs</type>
+        <type type="target">gps_data_file</type>
+        <type type="target">systemkeys_data_file</type>
+        <type type="target">cache_file</type>
+        <type type="target">dalvikcache_data_file</type>
+        <type type="target">installd_tmpfs</type>
+        <type type="target">mdnsd_socket</type>
+        <type type="target">mdns_socket</type>
+        <type type="target">wifi_data_file</type>
+        <type type="target">gps_socket</type>
+        <type type="target">dhcp_tmpfs</type>
+        <type type="target">nfc_data_file</type>
+        <type type="target">tee_tmpfs</type>
+        <type type="target">zygote_tmpfs</type>
+        <type type="target">uncrypt_tmpfs</type>
+        <type type="target">rild_tmpfs</type>
+        <type type="target">isolated_app_tmpfs</type>
+        <type type="target">radio_tmpfs</type>
+        <type type="target">rild_socket</type>
+        <type type="target">media_data_file</type>
+        <type type="target">media_app_tmpfs</type>
+        <type type="target">audio_data_file</type>
+        <type type="target">unlabeled</type>
+        <type type="target">security_file</type>
+        <type type="target">system_data_file</type>
+        <type type="target">bluetooth_efs_file</type>
+        <type type="target">platform_app_tmpfs</type>
+        <type type="target">app_data_file</type>
+        <type type="target">dhcp_data_file</type>
+        <type type="target">asec_apk_file</type>
+        <type type="target">platform_app_data_file</type>
+        <type type="target">logdw_socket</type>
+        <type type="target">apk_private_data_file</type>
+        <type type="target">vold_socket</type>
+        <type type="target">apk_data_file</type>
+        <type type="target">shell_tmpfs</type>
+        <obj_class name="file">
+            <permission>entrypoint</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="10" type="neverallow">
+        <type type="source">vold</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">kmem_device</type>
+        <obj_class name="chr_file">
+            <permission>rename</permission>
+            <permission>lock</permission>
+            <permission>quotaon</permission>
+            <permission>execute_no_trans</permission>
+            <permission>open</permission>
+            <permission>append</permission>
+            <permission>create</permission>
+            <permission>write</permission>
+            <permission>relabelfrom</permission>
+            <permission>getattr</permission>
+            <permission>entrypoint</permission>
+            <permission>read</permission>
+            <permission>mounton</permission>
+            <permission>ioctl</permission>
+            <permission>link</permission>
+            <permission>unlink</permission>
+            <permission>swapon</permission>
+            <permission>execute</permission>
+            <permission>setattr</permission>
+            <permission>execmod</permission>
+            <permission>relabelto</permission>
+            <permission>audit_access</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="11" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">kmem_device</type>
+        <obj_class name="chr_file">
+            <permission>rename</permission>
+            <permission>execute</permission>
+            <permission>open</permission>
+            <permission>read</permission>
+            <permission>lock</permission>
+            <permission>audit_access</permission>
+            <permission>quotaon</permission>
+            <permission>getattr</permission>
+            <permission>execute_no_trans</permission>
+            <permission>mounton</permission>
+            <permission>write</permission>
+            <permission>relabelfrom</permission>
+            <permission>ioctl</permission>
+            <permission>link</permission>
+            <permission>entrypoint</permission>
+            <permission>swapon</permission>
+            <permission>execmod</permission>
+            <permission>append</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="12" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">usermodehelper</type>
+        <obj_class name="file">
+            <permission>write</permission>
+            <permission>append</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="13" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">proc_security</type>
+        <obj_class name="file">
+            <permission>write</permission>
+            <permission>append</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="14" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">init</type>
+        <obj_class name="process">
+            <permission>ptrace</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="15" type="neverallow">
+        <type type="source">kernel</type>
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">vold</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">recovery</type>
+        <type type="source">runas</type>
+        <type type="source">init</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">init</type>
+        <obj_class name="binder">
+            <permission>call</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="16" type="neverallow">
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">zygote</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">block_device</type>
+        <obj_class name="blk_file">
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>open</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="17" type="neverallow">
+        <type type="source">sdcardd</type>
+        <type type="source">init_shell</type>
+        <type type="source">adbd</type>
+        <type type="source">debuggerd</type>
+        <type type="source">netd</type>
+        <type type="source">tee</type>
+        <type type="source">bluetooth</type>
+        <type type="source">lmkd</type>
+        <type type="source">surfaceflinger</type>
+        <type type="source">mdnsd</type>
+        <type type="source">radio</type>
+        <type type="source">hci_attach</type>
+        <type type="source">clatd</type>
+        <type type="source">watchdogd</type>
+        <type type="source">drmserver</type>
+        <type type="source">keystore</type>
+        <type type="source">runas</type>
+        <type type="source">servicemanager</type>
+        <type type="source">dhcp</type>
+        <type type="source">shell</type>
+        <type type="source">uncrypt</type>
+        <type type="source">untrusted_app</type>
+        <type type="source">ueventd</type>
+        <type type="source">gpsd</type>
+        <type type="source">isolated_app</type>
+        <type type="source">system_app</type>
+        <type type="source">media_app</type>
+        <type type="source">system_server</type>
+        <type type="source">wpa</type>
+        <type type="source">racoon</type>
+        <type type="source">dumpstate</type>
+        <type type="source">nfc</type>
+        <type type="source">shared_app</type>
+        <type type="source">hostapd</type>
+        <type type="source">platform_app</type>
+        <type type="source">mtp</type>
+        <type type="source">inputflinger</type>
+        <type type="source">logd</type>
+        <type type="source">rild</type>
+        <type type="source">dnsmasq</type>
+        <type type="source">healthd</type>
+        <type type="source">mediaserver</type>
+        <type type="source">bootanim</type>
+        <type type="source">ppp</type>
+        <type type="source">release_app</type>
+        <type type="source">installd</type>
+        <type type="target">sysfs_nfc_power_writable</type>
+        <type type="target">sysfs_lowmemorykiller</type>
+        <type type="target">selinuxfs</type>
+        <type type="target">untrusted_app_devpts</type>
+        <type type="target">tmpfs</type>
+        <type type="target">sysfs</type>
+        <type type="target">sockfs</type>
+        <type type="target">proc_net</type>
+        <type type="target">sysfs_wake_lock</type>
+        <type type="target">rootfs</type>
+        <type type="target">proc</type>
+        <type type="target">usermodehelper</type>
+        <type type="target">devpts</type>
+        <type type="target">debugfs</type>
+        <type type="target">qtaguid_proc</type>
+        <type type="target">sysfs_bluetooth_writable</type>
+        <type type="target">labeledfs</type>
+        <type type="target">device</type>
+        <type type="target">pipefs</type>
+        <type type="target">mqueue</type>
+        <type type="target">sysfs_devices_system_cpu</type>
+        <type type="target">sysfs_writable</type>
+        <type type="target">proc_security</type>
+        <type type="target">inotify</type>
+        <type type="target">proc_bluetooth_writable</type>
+        <type type="target">cgroup</type>
+        <type type="target">shm</type>
+        <obj_class name="filesystem">
+            <permission>relabelfrom</permission>
+            <permission>relabelto</permission>
+            <permission>mount</permission>
+            <permission>remount</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="18" type="neverallow">
+        <type type="source">logd</type>
+        <type type="target">ashmem_device</type>
+        <type type="target">fscklogs</type>
+        <type type="target">cpuctl_device</type>
+        <type type="target">iio_device</type>
+        <type type="target">audio_device</type>
+        <type type="target">root_block_device</type>
+        <type type="target">properties_device</type>
+        <type type="target">console_device</type>
+        <type type="target">dm_device</type>
+        <type type="target">hw_random_device</type>
+        <type type="target">sensors_device</type>
+        <type type="target">input_device</type>
+        <type type="target">full_device</type>
+        <type type="target">gps_device</type>
+        <type type="target">vcs_device</type>
+        <type type="target">alarm_device</type>
+        <type type="target">video_device</type>
+        <type type="target">gpu_device</type>
+        <type type="target">adb_device</type>
+        <type type="target">ion_device</type>
+        <type type="target">ptmx_device</type>
+        <type type="target">binder_device</type>
+        <type type="target">null_device</type>
+        <type type="target">tun_device</type>
+        <type type="target">mtp_device</type>
+        <type type="target">rpmsg_device</type>
+        <type type="target">fuse_device</type>
+        <type type="target">watchdog_device</type>
+        <type type="target">radio_device</type>
+        <type type="target">urandom_device</type>
+        <type type="target">usbaccessory_device</type>
+        <type type="target">kmsg_device</type>
+        <type type="target">serial_device</type>
+        <type type="target">camera_device</type>
+        <type type="target">log_device</type>
+        <type type="target">owntty_device</type>
+        <type type="target">device</type>
+        <type type="target">zero_device</type>
+        <type type="target">qtaguid_device</type>
+        <type type="target">tty_device</type>
+        <type type="target">socket_device</type>
+        <type type="target">block_device</type>
+        <type type="target">mtd_device</type>
+        <type type="target">random_device</type>
+        <type type="target">uhid_device</type>
+        <type type="target">tee_device</type>
+        <type type="target">loop_device</type>
+        <type type="target">klog_device</type>
+        <type type="target">ppp_device</type>
+        <type type="target">graphics_device</type>
+        <type type="target">nfc_device</type>
+        <type type="target">ram_device</type>
+        <type type="target">kmem_device</type>
+        <type type="target">hci_attach_dev</type>
+        <type type="target">usb_device</type>
+        <obj_class name="blk_file">
+            <permission>read</permission>
+            <permission>write</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="19" type="neverallow">
+        <type type="source">logd</type>
+        <type type="target">kernel</type>
+        <type type="target">sdcardd</type>
+        <type type="target">init_shell</type>
+        <type type="target">adbd</type>
+        <type type="target">vold</type>
+        <type type="target">debuggerd</type>
+        <type type="target">netd</type>
+        <type type="target">tee</type>
+        <type type="target">bluetooth</type>
+        <type type="target">lmkd</type>
+        <type type="target">surfaceflinger</type>
+        <type type="target">mdnsd</type>
+        <type type="target">radio</type>
+        <type type="target">hci_attach</type>
+        <type type="target">clatd</type>
+        <type type="target">watchdogd</type>
+        <type type="target">drmserver</type>
+        <type type="target">keystore</type>
+        <type type="target">recovery</type>
+        <type type="target">runas</type>
+        <type type="target">init</type>
+        <type type="target">servicemanager</type>
+        <type type="target">dhcp</type>
+        <type type="target">shell</type>
+        <type type="target">uncrypt</type>
+        <type type="target">untrusted_app</type>
+        <type type="target">ueventd</type>
+        <type type="target">gpsd</type>
+        <type type="target">isolated_app</type>
+        <type type="target">system_app</type>
+        <type type="target">media_app</type>
+        <type type="target">system_server</type>
+        <type type="target">wpa</type>
+        <type type="target">racoon</type>
+        <type type="target">dumpstate</type>
+        <type type="target">nfc</type>
+        <type type="target">shared_app</type>
+        <type type="target">hostapd</type>
+        <type type="target">platform_app</type>
+        <type type="target">mtp</type>
+        <type type="target">inputflinger</type>
+        <type type="target">logd</type>
+        <type type="target">zygote</type>
+        <type type="target">rild</type>
+        <type type="target">dnsmasq</type>
+        <type type="target">healthd</type>
+        <type type="target">mediaserver</type>
+        <type type="target">bootanim</type>
+        <type type="target">ppp</type>
+        <type type="target">release_app</type>
+        <type type="target">installd</type>
+        <obj_class name="process">
+            <permission>ptrace</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="20" type="neverallow">
+        <type type="source">logd</type>
+        <type type="target">system_file</type>
+        <obj_class name="fifo_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="chr_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="sock_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="blk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="lnk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="dir">
+            <permission>write</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="21" type="neverallow">
+        <type type="source">logd</type>
+        <type type="target">app_data_file</type>
+        <type type="target">system_data_file</type>
+        <obj_class name="fifo_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="chr_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="sock_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="blk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="lnk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="dir">
+            <permission>write</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="22" type="neverallow">
+        <type type="source">netd</type>
+        <type type="target">ashmem_device</type>
+        <type type="target">fscklogs</type>
+        <type type="target">cpuctl_device</type>
+        <type type="target">iio_device</type>
+        <type type="target">audio_device</type>
+        <type type="target">root_block_device</type>
+        <type type="target">properties_device</type>
+        <type type="target">console_device</type>
+        <type type="target">dm_device</type>
+        <type type="target">hw_random_device</type>
+        <type type="target">sensors_device</type>
+        <type type="target">input_device</type>
+        <type type="target">full_device</type>
+        <type type="target">gps_device</type>
+        <type type="target">vcs_device</type>
+        <type type="target">alarm_device</type>
+        <type type="target">video_device</type>
+        <type type="target">gpu_device</type>
+        <type type="target">adb_device</type>
+        <type type="target">ion_device</type>
+        <type type="target">ptmx_device</type>
+        <type type="target">binder_device</type>
+        <type type="target">null_device</type>
+        <type type="target">tun_device</type>
+        <type type="target">mtp_device</type>
+        <type type="target">rpmsg_device</type>
+        <type type="target">fuse_device</type>
+        <type type="target">watchdog_device</type>
+        <type type="target">radio_device</type>
+        <type type="target">urandom_device</type>
+        <type type="target">usbaccessory_device</type>
+        <type type="target">kmsg_device</type>
+        <type type="target">serial_device</type>
+        <type type="target">camera_device</type>
+        <type type="target">log_device</type>
+        <type type="target">owntty_device</type>
+        <type type="target">device</type>
+        <type type="target">zero_device</type>
+        <type type="target">qtaguid_device</type>
+        <type type="target">tty_device</type>
+        <type type="target">socket_device</type>
+        <type type="target">block_device</type>
+        <type type="target">mtd_device</type>
+        <type type="target">random_device</type>
+        <type type="target">uhid_device</type>
+        <type type="target">tee_device</type>
+        <type type="target">loop_device</type>
+        <type type="target">klog_device</type>
+        <type type="target">ppp_device</type>
+        <type type="target">graphics_device</type>
+        <type type="target">nfc_device</type>
+        <type type="target">ram_device</type>
+        <type type="target">kmem_device</type>
+        <type type="target">hci_attach_dev</type>
+        <type type="target">usb_device</type>
+        <obj_class name="blk_file">
+            <permission>read</permission>
+            <permission>write</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="23" type="neverallow">
+        <type type="source">netd</type>
+        <type type="target">kernel</type>
+        <obj_class name="security">
+            <permission>setenforce</permission>
+            <permission>setbool</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="24" type="neverallow">
+        <type type="source">netd</type>
+        <type type="target">kernel</type>
+        <obj_class name="security">
+            <permission>load_policy</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="25" type="neverallow">
+        <type type="source">netd</type>
+        <type type="target">kernel</type>
+        <type type="target">sdcardd</type>
+        <type type="target">init_shell</type>
+        <type type="target">adbd</type>
+        <type type="target">vold</type>
+        <type type="target">debuggerd</type>
+        <type type="target">netd</type>
+        <type type="target">tee</type>
+        <type type="target">bluetooth</type>
+        <type type="target">lmkd</type>
+        <type type="target">surfaceflinger</type>
+        <type type="target">mdnsd</type>
+        <type type="target">radio</type>
+        <type type="target">hci_attach</type>
+        <type type="target">clatd</type>
+        <type type="target">watchdogd</type>
+        <type type="target">drmserver</type>
+        <type type="target">keystore</type>
+        <type type="target">recovery</type>
+        <type type="target">runas</type>
+        <type type="target">init</type>
+        <type type="target">servicemanager</type>
+        <type type="target">dhcp</type>
+        <type type="target">shell</type>
+        <type type="target">uncrypt</type>
+        <type type="target">untrusted_app</type>
+        <type type="target">ueventd</type>
+        <type type="target">gpsd</type>
+        <type type="target">isolated_app</type>
+        <type type="target">system_app</type>
+        <type type="target">media_app</type>
+        <type type="target">system_server</type>
+        <type type="target">wpa</type>
+        <type type="target">racoon</type>
+        <type type="target">dumpstate</type>
+        <type type="target">nfc</type>
+        <type type="target">shared_app</type>
+        <type type="target">hostapd</type>
+        <type type="target">platform_app</type>
+        <type type="target">mtp</type>
+        <type type="target">inputflinger</type>
+        <type type="target">logd</type>
+        <type type="target">zygote</type>
+        <type type="target">rild</type>
+        <type type="target">dnsmasq</type>
+        <type type="target">healthd</type>
+        <type type="target">mediaserver</type>
+        <type type="target">bootanim</type>
+        <type type="target">ppp</type>
+        <type type="target">release_app</type>
+        <type type="target">installd</type>
+        <obj_class name="process">
+            <permission>ptrace</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="26" type="neverallow">
+        <type type="source">netd</type>
+        <type type="target">system_file</type>
+        <obj_class name="fifo_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="chr_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="sock_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="blk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="lnk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="dir">
+            <permission>write</permission>
+        </obj_class>
+    </avc_rule>
+    <avc_rule name="27" type="neverallow">
+        <type type="source">netd</type>
+        <type type="target">app_data_file</type>
+        <type type="target">system_data_file</type>
+        <obj_class name="fifo_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="chr_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="sock_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="blk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="lnk_file">
+            <permission>write</permission>
+        </obj_class>
+        <obj_class name="dir">
+            <permission>write</permission>
+        </obj_class>
+    </avc_rule>
+</SELinux_AVC_Rules>

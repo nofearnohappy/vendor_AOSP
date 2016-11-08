@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Divider color for header separator -->
+    <color name="main_header_separator_color">#AAAAAA</color>
+
+    <!-- Divider color for header separator -->
+    <color name="secondary_header_separator_color">#D0D0D0</color>
+
+    <!-- Secondary text color in the Phone app -->
+    <color name="people_secondary_text_color">#737373</color>
+
+    <!-- actionbar default background color -->
+    <color name="actionbar_background_color">#0288d1</color>
+
+    <!-- statusbar default background color -->
+    <color name="statusbar_background_dark">#0277bd</color>
+
+    <!-- actionbar default text color -->
+    <color name="actionbar_text_color">#ffffff</color>
+
+    <!-- Color for icons in the actionbar -->
+    <color name="actionbar_icon_color">#ffffff</color>
+    
+    <!-- Profile for list divider color -->
+    <color name="list_divider">#ffcccccc</color>
+
+    <!-- suggestion  photo default  color-->
+    <color name="suggestion_photo_default_color">#ffcccccc</color>
+
+    <!-- qrcode color-->
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ff00ff00</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+</resources>

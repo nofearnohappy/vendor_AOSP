@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="menu_done" msgid="796017761764190697">"تم"</string>
+     <string name="menu_deleteContact" msgid="6788644058868189393">"حذف"</string>
+     <string name="menu_select_all" msgid="621719255150713545">"تحديد الكل"</string>
+     <string name="menu_select_none" msgid="7093222469852132345">"إلغاء تحديد الكل"</string>
+     <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"جديد"</string>
+     <string name="selected_item_count">تم تحديد <xliff:g id="count">%d</xliff:g></string>
+     <string name="multichoice_no_select_alert">"لم يتم تحديد أي عنصر."</string>
+      
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">تسميات USIM لأرقام إضافية</string>  
+    <string name="aas_phone_type_none">لا يوجد</string>  
+    <string name="aas_new_dialog_title">إضافة تسمية جديدة</string>  
+    <string name="ass_rename_dialog_title">تعديل التسمية</string>  
+    <string name="aas_delele_dialog_message">سيؤثر حذف التسمية (التسميات) على كل الأرقام الإضافية ذات الصلة بها. هل أنت متأكد؟</string>  
+    <string name="aas_name_invalid">اسم التسمية المحدد غير صالح. الرجاء إدخال اسم آخر.</string>  
+    <string name="aas_name_exist">التسمية موجودة بالفعل.</string>  
+    <string name="aas_usim_full">المساحة غير كافية لإدخال تسميات جديدة.</string>  
+    <string name="ass_edit_assert_message">سيؤثر تعديل التسمية على كل الأرقام الإضافية ذات الصلة بها. هل أنت متأكد؟</string>  
+    <string name="aas_new_fail">تعذر إنشاء تسمية جديدة.</string>  
+    <string name="aas_edit_fail">تعذر إعادة تسمية me 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">تعذر إعادة تسمية me 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_phone_primary">الرقم الأساسي</string>  
+    <string name="aas_phone_additional">الرقم الإضافي</string>  
+    <!-- aas strings end--> 
+
+</resources>

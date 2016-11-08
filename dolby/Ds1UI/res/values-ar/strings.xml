@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">المعادل الذكي</string>
+	<string name="surround_virtualizer">المحاكي المحيطي</string>
+	<string name="dialogue_enhancer">محسن الحوار</string>
+	<string name="volume_leveler">محدد مستوى الصوت</string>
+	<string name="copyright">إن Dolby ورمز D المزدوج تمثل علامات تجارية مسجلة لمعامل Dolby Laboratories‏. ‎\u00a9 2013 Dolby Laboratories Inc.‎ كافة الحقوق محفوظة.</string>
+	<string name="movie">فيلم</string>
+	<string name="music">موسيقى</string>
+	<string name="game">لعبة</string>
+	<string name="voice">صوت</string>
+	<string name="preset_1">التخصيص 1</string>
+	<string name="preset_2">التخصيص 2</string>
+	<string name="open">مفتوح</string>
+	<string name="rich">غني</string>
+	<string name="focused">مركّز</string>
+	<string name="off">متوقف</string>
+	<string name="custom">تخصيص</string>
+	<string name="db36">36dB‏</string>
+	<string name="db24">24dB‏</string>
+	<string name="db12">12dB‏</string>
+	<string name="db0">0dB‏</string>
+	<string name="dbn12">‎-12dB‏</string>
+	<string name="graphical_equalizer">المعادل الرسومي</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">تشغيل العرض التوضيحي</string>
+</resources>

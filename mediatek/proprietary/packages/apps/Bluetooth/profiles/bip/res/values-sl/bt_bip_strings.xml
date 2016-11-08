@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"Prenos slike Bluetooth"</string>
+	<string name="bt_bipi_push_confirmation">"Potrditev potiska slike"</string>
+	<string name="bt_bipi_unsupported_format">"Prejemnik ne podpira kodiranja.\nŽelite nadaljevati s pošiljanjem?"</string>
+	<string name="bt_bipi_push_confirmation_ok">Nastavitev središča za storitve SMS je pravilna</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Ali res želite preklicati prenos?\nPritisnite Naprej za nadaljevanje prenosa\n Pritisnite Zavrzi za opustitev prenosa in izbris prenesene datoteke"</string>
+	<string name="bt_bip_transmitting_dialog_hide">Skrij lokalni video</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Ali res želite preklicati prenos?\nPritisnite Naprej za nadaljevanje prenosa\n Pritisnite Zavrzi za opustitev prenosa in izbris prenesene datoteke"</string>
+	<string name="bt_bip_transmitting_dialog_ok">Nastavitev središča za storitve SMS je pravilna</string>
+	<string name="bt_bip_transmitting_dialog_yes">"Da"</string>
+	<string name="bt_bip_transmitting_dialog_no">Za tiskanje stika ni na voljo noben program.</string>
+	<string name="bt_bip_transmitting">"Pošiljam sliko, %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"Slika %1$s je poslana"</string>
+	<string name="bt_bip_transmitting_fail">"Pošiljanje slike %1$s ni uspelo"</string>
+	<string name="bt_bip_cancel_pending_job">"Ali želite preklicati prenos na čakanju?"</string>
+	<string name="bt_bip_pending_job">"Pošiljam %1$s (na čakanju)"</string>
+	<string name="bt_bipr_incoming_request">"Zahtevek za dohodno sliko"</string>
+	<string name="bt_bipr_incoming_request_description">"Izberite, da bi prejeli %1$s"</string>
+	<string name="bt_bipr_accept_title">"Zahtevek za dohodno sliko"</string>
+	<string name="bt_bipr_accept_content">"Ali želite sprejeti "%1$s (%2$sKB)" od "%3$s" ?"</string>
+	<string name="bt_bipr_accept_always">"Zmeraj sprejmem?"</string>
+	<string name="bt_bipr_accept_yes">"Da"</string>
+	<string name="bt_bipr_accept_no">Za tiskanje stika ni na voljo noben program.</string>
+	<string name="bt_bip_receiving">"Prejemam sliko, %1$s"</string>
+	<string name="bt_bip_receiving_successful">"Slika %1$s je prejeta.\nAli si jo želite ogledati?"</string>
+	<string name="bt_bip_receiving_fail">"Prejemanje slike %1$s ni uspelo"</string>
+	<string name="bt_bip_toast_connect_fail">"Podatkovna povezava ni uspela ali pa je omrežje zasedeno."</string>
+	<string name="bt_bip_toast_storage_unmounted">Pred aktiviranjem odjemalca FTP preverite, ali je kartica SD pripravljena.</string>
+	<string name="bt_bip_toast_sending_object">"Pošiljam sliko, %1$s"</string>
+	<string name="bt_bip_auth_password">Geslo:\u0020</string>
+	<string name="bt_bip_auth_userid">Identifikacijska številka strežnika:\u0020</string>
+	<string name="bt_bip_auth_ok">Nastavitev središča za storitve SMS je pravilna</string>
+	<string name="bt_bip_auth_cancel">"Ali res želite preklicati prenos?\nPritisnite Naprej za nadaljevanje prenosa\n Pritisnite Zavrzi za opustitev prenosa in izbris prenesene datoteke"</string>
+</resources>

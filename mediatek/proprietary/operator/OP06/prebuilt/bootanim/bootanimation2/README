@@ -1,0 +1,7 @@
+This is a boot animaiton resource file for operator 46001 and 46009.
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+bootanimation.zip contains the pictures of showing boot animation;
+In the absence of bootanimation.zip, it will show the default boot animaiton.

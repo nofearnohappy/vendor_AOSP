@@ -1,0 +1,7 @@
+[
+	{ operationName : "Get", nodeUri : "./IMSMO/LBO_P-CSCF_Address", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/LBO_P-CSCF_Address/1/Address", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/LBO_P-CSCF_Address/1/AddressType", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/LBO_P-CSCF_Address/2/Address", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/LBO_P-CSCF_Address/2/AddressType", objectValue : "", objectType : "", newNode : "" },
+]

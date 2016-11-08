@@ -1,0 +1,14 @@
+WHAT IT DOES?
+=============
+SMS register application for CT(China Telecom).
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+MTK_DEVREG_APP
+
+HOW TO USE IT?
+==============
+Install the APK to phone and turn on the register switch in engineer mode.
+When the UIM card initiated done, a message contains some information of the phone will be sent to server in the background.
+Contact MediaTek if need any support.

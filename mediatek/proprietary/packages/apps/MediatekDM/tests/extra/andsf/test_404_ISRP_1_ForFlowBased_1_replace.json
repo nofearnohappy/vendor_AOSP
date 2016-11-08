@@ -1,0 +1,43 @@
+[
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/App-ID/1/OSId", objectValue : "Test OS Id", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/App-ID/1/OSApps/1/OSAppId", objectValue : "Test OS App Id", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/AddressType", objectValue : "IPv6", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/StartSourceIPaddress", objectValue : "192.168.0.1", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/EndSourceIPaddress", objectValue : "192.168.0.10", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/StartDestIPaddress", objectValue : "192.168.1.1", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/EndDestIPaddress", objectValue : "192.168.1.10", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/ProtocolType", objectValue : "3", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/StartSourcePortNumber", objectValue : "2000", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/EndSourcePortNumber", objectValue : "2010", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/StartDestPortNumber", objectValue : "3000", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/EndDestPortNumber", objectValue : "3010", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/QoS", objectValue : "AG==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/IPFlow/1/DomainName", objectValue : "com.mediatek.test", objectType : "chr", newNode : "" },
+
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/3GPP_Location/1/PLMN", objectValue : "46000", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/3GPP_Location/1/TAC", objectValue : "TAC", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/3GPP_Location/1/LAC", objectValue : "LAC", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/3GPP_Location/1/GERAN_CI", objectValue : "AG==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/3GPP_Location/1/UTRAN_CI", objectValue : "AW==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/3GPP_Location/1/EUTRA_CI", objectValue : "AT==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/WLAN_Location/1/HESSID", objectValue : "HESSID", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/WLAN_Location/1/SSID", objectValue : "SSID", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/WLAN_Location/1/BSSID", objectValue : "BSSID", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/Geo_Location/Circular/1/AnchorLatitude", objectValue : "AG==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/Geo_Location/Circular/1/AnchorLongitude", objectValue : "AW==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/ValidityArea/Geo_Location/Circular/1/Radius", objectValue : "1234", objectType : "int", newNode : "" },
+	
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/TimeOfDay/1/TimeStart", objectValue : "08:00:00", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/TimeOfDay/1/TimeStop", objectValue : "18:00:00", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/TimeOfDay/1/DateStart", objectValue : "2011.7.18", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/TimeOfDay/1/DateStop", objectValue : "2014.4.1", objectType : "chr", newNode : "" },
+
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingCriteria/1/APN", objectValue : "CMNET", objectType : "chr", newNode : "" },
+
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingRule/1/AccessTechnology", objectValue : "3", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingRule/1/AccessId", objectValue : "AccessId", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingRule/1/SecondaryAccessId", objectValue : "SecondaryAccessId", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RoutingRule/1/AccessNetworkPriority", objectValue : "4", objectType : "0", newNode : "" },
+
+	{ operationName : "Replace", nodeUri : "./ANDSF/ISRP/1/ForFlowBased/1/RulePriority", objectValue : "2", objectType : "int", newNode : "" },
+]

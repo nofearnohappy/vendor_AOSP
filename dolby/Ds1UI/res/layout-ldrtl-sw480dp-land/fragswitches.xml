@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="vertical" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="start|center" >
+
+			<TextView
+				android:id="@+id/svText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="4sp"
+				android:gravity="center_vertical"
+				android:text="@string/surround_virtualizer"
+				android:textAppearance="@style/TextAppearanceMedium" />
+
+			<ImageView
+				android:id="@+id/qm_sv"
+				android:layout_width="19sp"
+				android:layout_height="21sp"
+				android:layout_marginStart="6sp"
+				android:gravity="center_vertical"
+				android:src="@drawable/sel_tooltip_qm" />
+		</LinearLayout>
+
+		<ToggleButton
+			android:id="@+id/svButton"
+			style="@style/SwitchButton_ldrtl"
+			android:layout_width="214sp"
+			android:layout_height="72sp"
+			android:layout_gravity="start"
+			android:gravity="center_vertical|start" >
+		</ToggleButton>
+	</LinearLayout>
+
+	<View
+		android:layout_width="1sp"
+		android:layout_height="75sp"
+		android:layout_marginTop="5sp"
+		android:background="@color/border" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:gravity="center_horizontal" >
+
+		<LinearLayout
+			android:id="@+id/linearLayout1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignStart="@+id/deButton"
+			android:layout_alignParentTop="true"
+			android:gravity="center_horizontal|center"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/deText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="4sp"
+				android:text="@string/dialogue_enhancer"
+				android:textAppearance="@style/TextAppearanceMedium" />
+
+			<ImageView
+				android:id="@+id/qm_de"
+				android:layout_width="19sp"
+				android:layout_height="21sp"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="6sp"
+				android:src="@drawable/sel_tooltip_qm" />
+		</LinearLayout>
+
+		<ToggleButton
+			android:id="@+id/deButton"
+			style="@style/SwitchButton_ldrtl"
+			android:layout_width="214sp"
+			android:layout_height="72sp"
+			android:layout_centerHorizontal="true" />
+	</LinearLayout>
+
+	<View
+		android:layout_width="1sp"
+		android:layout_height="75sp"
+		android:layout_marginTop="5sp"
+		android:background="@color/border" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="vertical"
+		android:gravity="center_horizontal" >
+
+		<LinearLayout
+			android:id="@+id/linearLayout2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignStart="@+id/vlButton"
+			android:layout_alignParentTop="true"
+			android:gravity="center_horizontal|center"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/vlText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="4sp"
+				android:text="@string/volume_leveler"
+				android:textAppearance="@style/TextAppearanceMedium" />
+
+			<ImageView
+				android:id="@+id/qm_vl"
+				android:layout_width="19sp"
+				android:layout_height="21sp"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="6sp"
+				android:src="@drawable/sel_tooltip_qm" />
+		</LinearLayout>
+
+		<ToggleButton
+			android:id="@+id/vlButton"
+			style="@style/SwitchButton_ldrtl"
+			android:layout_width="214sp"
+			android:layout_height="72sp"
+			android:layout_alignParentEnd="true" />
+	</LinearLayout>
+
+</LinearLayout>

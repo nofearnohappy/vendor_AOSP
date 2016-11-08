@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">Transmissor d’FM</string>
+    <string name="dlg_seek_title">"S\'està cercant"</string>
+    <string name="dlg_search_text">S’estan cercant canals no ocupats, espera si us plau...</string>
+    <string name="advanced_title">Freqüència establerta manualment</string>
+    <string name="text_input_frequency">Introduïu la freqüència que voleu fer servir, podeu utilitzar freqüències entre 87,5-97,5 i 99,5-108</string>
+    <string name="text_ok">"D\'acord"</string>
+    <string name="text_auto_search">Cerca automàticament els canals no ocupats</string>
+    <string name="text_search">"Cerca"</string>
+    <string name="toast_plugout_earphone">Abans desendolla l’auricular.</string>
+    <string name="toast_input_error">La darrera entrada no és vàlida, un valor vàlid és 0 o 5.</string>
+    <string name="toast_input_valid">Introduïu un número de l’interval 87,5-97,5 o 99,5-108</string>
+</resources>

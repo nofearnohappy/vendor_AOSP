@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Egalizator inteligent/Egalizator grafic</string>
+	<string name="tooltip_eq_text">Egalizatorul inteligent analizează şi ajustează dinamic sunetul pentru a ajunge la tonul dorit. Selectaţi una dintre cele patru setări predefinite, apoi selectaţi Vizualizatorul spectral pentru a aduce modificări personalizate Egalizatorului grafic.</string>
+	<string name="tooltip_sv_title">Virtualizator surround</string>
+	<string name="tooltip_sv_text">Virtualizatorul surround creează un sunet surround realist, indiferent de căştile sau difuzoarele stereo folosite. Glisați comutatorul în poziţia Pornit sau Oprit pentru a controla efectul de sunet surround.</string>
+	<string name="tooltip_de_title">Dialog mai clar</string>
+	<string name="tooltip_de_text">Această tehnologie îmbunătăţeşte claritatea vocii pe orice tip de suport media. Glisați comutatorul în poziţia Pornit sau Oprit pentru a controla claritatea dialogului.</string>
+	<string name="tooltip_vl_title">Egalizator volum</string>
+	<string name="tooltip_vl_text">Egalizatorul de volum asigură un volum consistent pentru toate tipurile de conţinut şi aplicaţii, pe baza nivelului de volum master al dispozitivului. Glisați comutatorul în poziţia Pornit sau Oprit pentru a controla egalizarea volumului.</string>
+</resources>

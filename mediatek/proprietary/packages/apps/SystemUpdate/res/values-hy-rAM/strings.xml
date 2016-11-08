@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Համակարգի թարմացումներ"</string>
+    <string name="none_package">Չկան արդիականացման վավեր փաթեթներ:</string>
+    <string name="new_version_query">Արդիացման ստուգում\u2026</string>
+    <string name="menu_stats_refresh">"Թարմացնել"</string>
+    <string name="network_error">Ցանցային կապակցումը ձախողվեց</string>
+    <string name="server_version_error">Սպասարկչի սխալ. Խնդրում ենք թարմացնել սպասարկչի աղբյուրի կոդը:</string>    
+    <string name="no_new_version">Ձեր համակարգն այժմ արդիական է:</string>
+    <string name="not_support_version">Ձեր նպատակակետը չի աջակցում Over-the-Air:</string>
+    <string name="query_sd_insufficient_space">Անբավարար տարածք <xliff:g id="path">%s</xliff:g>-ի համար</string>
+    <string name="ota_category_title">OTA</string>
+    <string name="sd_category_title">SD ՔԱՐՏԻ ԱՐԴԻԱԿԱՆԱՑՈՒՄ</string>
+    <string name="ota_preference_summary">Գտնվել է համակարգի արդիականացում սպասարկչի վրա</string>
+    <string name="notes_summary">Ծրագրաշարի արդիականացումը կնպաստի սարքի կայունությանը և կշտկի վրիպակները:</string>
+    <string name="ask_for_install_ota">Կցանկանա՞ք այժմ տեղադրել համակարգի արդիականացումը: </string>
+    <string name="warning_install_ota" product="tablet">Դուք չեք կարողանա օգտագործել պլանշետը կամ կատարել արտակարգ իրավիճակների զանգեր տեղադրման պրոցեսի ժամանակ: Խնդրում ենք չհանել մարտկոցը և ձեր SD քարտը, և չանջատել պլանշետը:</string>
+    <string name="warning_install_ota" product="default">Դուք չեք կարողանա օգտագործել հեռախոսը կամ կատարել արտակարգ իրավիճակների զանգեր տեղադրման պրոցեսի ժամանակ: Խնդրում ենք չհանել մարտկոցը և ձեր SD քարտը, և չանջատել հեռախոսը:</string>
+    <string name="ask_for_install_sd">Ձեր SD քարտում գտնվել է համակարգի արդիականացման ամենանոր փաթեթը, կցանկանա՞ք տեղադրել այն: </string>
+    <string name="warning_install_sd" product="tablet">Դուք չեք կարողանա օգտագործել պլանշետը կամ կատարել արտակարգ իրավիճակների զանգեր տեղադրման պրոցեսի ժամանակ: Խնդրում ենք չհանել մարտկոցը և ձեր SD քարտը, և չանջատել պլանշետը: \nՆախքան տեղադրումը սկսելը` խնդրում ենք համոզվել, որ փաթեթը ներբեռնված լինի պաշտոնական կայքից և վնասված չլինի:</string>
+    <string name="warning_install_sd" product="default">Դուք չեք կարողանա օգտագործել հեռախոսը կամ կատարել արտակարգ իրավիճակների զանգեր տեղադրման պրոցեսի ժամանակ: Խնդրում ենք չհանել մարտկոցը և ձեր SD քարտը, և չանջատել հեռախոսը: \nՆախքան տեղադրումը սկսելը` խնդրում ենք համոզվել, որ փաթեթը ներբեռնված լինի պաշտոնական կայքից և վնասված չլինի:</string>
+    <string name="ask_for_download_ota">Կցանկանա՞ք ներբեռնել համակարգի լավարկման արդիականացումը:</string>
+    <string name="warning_download_ota">Մենք խորհուրդ ենք տալիս օգտագործել անվճար Wi-Fi կամ տվյալների անսահմանափակ պլան` այս արդիականացումը գործադրելու համար: Այլապես կգանձվեն տվյալների կապակցման սովորական վարձերը: \nԽնդրում ենք արդիականացումից առաջ պատճենելով պահուստավորել ձեր տվյալները:</string>
+    <string name="notification_content_title">Համակարգի արդիացում</string>
+    <string name="downloading_title">"Ներբեռնում է\u2026"</string>   
+    <string name="wifi_only_check">"Միայն Wi-Fi"</string>     
+    <string name="btn_install">"Տեղադրել"</string>
+    <string name="btn_cancel">"Հրաժարվել"</string>
+    <string name="btn_download">Ներբեռնել և տեղադրել</string>
+    <string name="btn_resume">"Ներբեռնել"</string>
+    <string name="warn_data_cost_title">Ներբեռնել արդիականացումը</string>
+    <string name="warn_data_cost_content">Բջջային ցանցերի միջոցով ներբեռնումը կարող է առաջացնել հավելյալ ծախսեր: Ցանկանու՞մ եք շարունակել:</string>
+    <string name="warn_data_cost_yes">"Այո"</string>
+    <string name="warn_data_cost_no">"Ոչ"</string>
+    <string name="notification_download_complete_title">Համակարգի արդիականացումը պատրաստ է</string>
+    <string name="notification_download_complete_context">Հպել` համակարգի արդիականացումը տեղադրելու համար</string>
+    <string name="sdcard_crash_or_unmount">SD քարտի սխալ: Խնդրում ենք ստուգել ձեր SD քարտը և փորձել կրկին:</string>
+    <string name="unmount_sdcard">SD քարտը առաջացրեց սխալ, խնդրում ենք ստուգել այն:</string>
+    <string name="insufficient_space_content">Տեղադրման համար անհրաժեշտ է առնվազն<xliff:g id="deltasize" example="3.5M">%s</xliff:g> բայթ պահոց: Խնդրում ենք տարածք ազատել` շարունակելու համար:</string>
+    <string name="install_sd_title">Տեղադրել արդիականացումը</string>
+    <string name="install_sd_message">\nԽնդրում ենք համոզվել, որ փաթեթը ներբեռնված լինի պաշտոնական կայքից և վնասված չլինի: Այլապես կառաջացնի համակարգի խնդիրներ:</string>
+    <string name="install_reminder_now">Տեղադրել հիմա</string>
+    <string name="install_reminder_not_now">"Ոչ հիմա"</string>
+    <string name="notification_content_text_completed">Հաջողությամբ ներբեռնվեց</string> 
+    <string name="unknown_per">Անհայտ</string>    
+    <string name="unknown_error">Անհայտ սխալ</string>
+    <string name="unknown_error_content">Առաջանում է անհայտ սխալ: Խնդրում ենք էջից դուրս գալ և կրկին փորձել:</string>
+    <string name="insufficient_space_title">Ոչ բավարար տարածք</string>
+    <string name="error_sdcard">SD քարտի տեղեկություն</string>
+    <string name="insufficient_space">Ոչ բավարար տարածք SD քարտում:</string>
+    <string name="package_deleted_error">Համակարգի արդիականացումը դադարեցվեց, քանի որ արդիականացումն անվավեր է:</string>
+    <string name="cancel_download_title">Չեղարկել ներբեռնումը</string>
+    <string name="cancel_download_content">Այս գործողությունը կհրաժարվի վերբեռնած ֆայլից:</string>
+    <string name="change_network_title">"Ներբեռնել"</string>
+    <string name="change_network_content">Ընթացիկ APN-ը չի աջակցում ներբեռնում, կցանկանա՞ք փոխել այլ APN-ի կամ միացնել Wi-Fi-ն:</string>
+    <string name="change_network_wifi_btn">Օգտագործել Wi-Fi</string>
+    <string name="change_network_apn_btn">Փոխել APN-ը</string>
+    <string name="change_network_discard_btn">"Հրաժարվել"</string>    
+    <string name="package_error_title">Տեղադրումը ձախողվեց</string>
+    <string name="package_error_message_invalid">Փաթեթի սխալ: Խնդրում ենք ստուգել արդիականացումը և ներբեռնել կրկին:</string>
+    <string name="package_error_message_insuff" product="tablet">Ոչ բավարար տարածք սարքի մեջ:</string>
+    <string name="package_error_message_insuff" product="default">Ոչ բավարար տարածք հեռախոսի մեջ:</string>
+    <string name="package_error_message_crash">Հնարավոր չէ մատչել տվյալների մասնաբաժնին:</string>
+    <string name="package_error_message_full">Անհրաժեշտ է ամբողջական փաթեթ փոփոխված մասնաբաժնի դեպքի համար:</string>    
+    <string name="updateSuccess" product="tablet">Շնորհավորում ենք: Ձեր սարքը հաջողությամբ արդիականացվեց <xliff:g id="version" example="gb.p37">%s</xliff:g> տարբերակին:</string> 
+    <string name="updateSuccess" product="default">Շնորհավորում ենք: Ձեր հեռախոսը հաջողությամբ արդիականացվեց <xliff:g id="version" example="gb.p37">%s</xliff:g> տարբերակին:</string> 
+    <string name="updateFailed">Չհաջողվեց արդիականացնել <xliff:g id="version" example="gb.p37">%s</xliff:g>տարբերակին:</string>
+    <string name="package_unzip">Փաթեթի դուրսբերում zip-ից\u2026</string>
+    <string name="package_unzip_error">zip-ից փաթեթի դուրսբերման սխալ</string>
+    <string name="installing_message" product="tablet">Ձեր պլանշետը կփակվի\u2026</string>
+    <string name="installing_message" product="default">Ձեր հեռախոսը կանջատվի\u2026</string>
+    <string name="install_sd_info">Պահանջվում է փաթեթը պատճենել հեռախոսի պահոցում` արդիականացումը շարունակելու համար: \nՈչ բավարար տարածք հեռախոսի մեջ:</string>
+    <string name="sdcard_crash_or_unmount_when_install">Համակարգի արդիականացումը դադարեցվեց, քանի որ SD քարտը միացված չէ:</string>
+    <string name="sdcard_inserted">Կցանկանա՞ք սկանավորել ձեր SD քարտը` գտնելու համար ավելի արդիականացման փաթեթներ:</string>
+    <string name="new_version_detected">Համակարգի արդիականացումը մատչելի է</string>
+    <string name="sdcard_unmount">SD քարտը միացված չէ:</string>
+    <string name="cta_warning">Համակարգն աջակցում է ծրագրաշարի արդիացում միայն պաշտոնական կայքից կամ սպասարկչից: Եթե օգտվողն օգտագործում է 3 կողմի ROM պատկեր և/կամ այլ արմատային մեթոդ` ծրագրաշարն արդիացնելու համար, ապա այն կարող է առաջացնել հեռախոսի անկայունություն:
+Խնդրում ենք նկատի ունենալ, որ օգտվողն է կրում այսպիսի գործողությունների ողջ պատասխանատվությունը:</string>
+    <string name="low_battery">Մարտկոցն սպառվում է</string>
+    <string name="low_battery_warning">Այս արդիացման համար պահանջվում է առնվազն 15% մարտկոց:</string>
+    <string name="notify_backup">Պահեստավորեք ձեր տվյալները (օր.` կոնտակտներ, հաղորդագրություններ, լուսանկարներ և այլն) արդիացման ընթացքում տվյալների կորստի դեպքերի համար:</string> 
+</resources>

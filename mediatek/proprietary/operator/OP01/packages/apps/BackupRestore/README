@@ -1,0 +1,19 @@
+WHAT IT DOES?
+=============
+BackupAndRestore is a CMCC customized feature, it is used to backup Contact, SMS, MMS, Calendar, Picture, Music, Notebook and App(support App's private data) to external SD card. As well, it can restore from data package to the corresponding module;
+The data package conform CMCC SPEC requirement, and can used among all CMCC contract phones;
+
+HOW IT WAS BUILT?
+==================
+Since it is a Customized feature for CMCC, it is auto bound together with OP01 configuration;
+When OPTR_SPEC_SEG_DEF is set OP01_SPEC0200_SEGC, BackupAndRestore will be auto build out and packaged into image;
+It will build out 3 components:BackupAndRestore.apk BrRemoteService.apk br_app_data_service,
+BackupAndRestore.apk is the major App, and the other two services is used to support the major App;
+
+HOW TO USE IT?
+==============
+1. Insert one external SD card;
+2. Enter launcher, launch BackupAndRestore to enter the Main Activity
+   From the Backup TabFragment, you can select Contact, Message, Picture etc to backup to external SD card;
+   For App, it will list All installed App(except system App) for backup, it will decide according to setting to backup App's apk package only or together with App's personal data;
+   From the Restore TabFragment, you can select data package or App to restore the data to corresponding module or install App. For app, if it detect App's private data package, it will also restore App's private data, or it will only replace the App.

@@ -1,0 +1,25 @@
+MediaTek meta mode tool library for HDCP (High-bandwidth Digital Content Protection)
+key configuration.
+
+WHAT IT DOES?
+=============
+libmeta_hdcp.so writes HDCP key and provisions the key for WiFi display 
+with DxHDCP solution.
+
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libcutils.so
+
+and the following libs from 3rd party Discretix:
+1.  libDxHdcp.so
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+Run meta tool and write HDCP key.
+
+All the source code of this program were written by MediaTek co..

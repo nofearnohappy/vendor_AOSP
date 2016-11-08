@@ -1,0 +1,29 @@
+Executable file of MTK Camera SingleShot function test
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+acdk_camshottest test camera singleshot function.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library:
+libstlport.so
+libcutils.so
+libimageio.so
+libcamdrv.so
+libcam.iopipe.so
+libcam_utils.so
+libcam.halsensor.so
+libcam.metadata.so
+libm4u.so
+libutils.so
+libstlport.so
+libcam.camshot.so
+libhardware.so
+libutils.so
+libbinder.so
+libdl.so
+

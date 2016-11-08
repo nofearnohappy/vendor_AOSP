@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">com.hesine.nmsg</string>
+    <string name="action_settings">Settings</string>
+    <!-- for ConversationActivity -->
+    <string name="share_image">Images</string>
+    <string name="take_photo">Take Photo</string> 
+    <string name="record_audio">Record Audio</string> 
+    <string name="yesterday">Yesterday</string>
+    <string name="read_more">View All</string>
+    <string name="chat_menu_call">Call</string>
+    <string name="chat_menu_sms">New message</string>
+    <string name="chat_menu_copy">Copy</string>
+    <string name="chat_menu_new_contact">Creat new contact</string> 
+    <string name="chat_menu_update_contact">Update existing contact</string>
+    <string name="chat_menu_email">Email</string>
+    <string name="chat_menu_web">Open</string>
+    <string name="chat_copy_done">copied</string>
+    <string name="chat_no_app">No application can perform this operation.</string>
+    <string name="chat_make_audio_format">%1$s/60s</string>
+    <string name="chat_lose_sdcard">Failed, no memory card detected.</string>
+    <string name="audio_too_short">Too short, please try again.</string>
+    <string name="chat_waiting">Please wait&#8230;</string> 
+    <string name="resize_pic_failed">Failed to compress the picture!</string> 
+    <string name="chat_audio_tips">Hold to Talk, Release to Send</string>
+    <string name="chat_audio_up_motion_cancel">Slide up to cancel</string>
+    <string name="chat_audio_finger_up_cancel">Release to cancel</string>
+    <string name="chat_delete_message">Delete now?</string>
+    <string name="chat_resend_message">Resend message?</string>
+    <string name="space_not_enough">Low memory, Please clear up the storage</string> 
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="menu_settings">Settings</string>
+    <string name="save_title">Note</string> 
+    <string name="save_image">Save image to SD card ?</string>
+    <string name="clear_all_messages">Clear all history?</string>
+    <string name="setting_introduce">Intro</string>
+    <string name="setting_introduce_text">TCL official account which provides the latest handset information, activities and coupons</string> 
+    <string name="setting_switch_text">Receive Messages</string>
+    <string name="setting_clear_history">Clear History</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_add_contact">Add contact</string>
+    <string name="menu_view_contact">View account</string>
+    <string name="delete_msgs_for_uuid">Chat history deleted</string>
+    <string name="add_contact_exist">Contact exists</string>
+    <string name="add_contact_success">Contact saved</string>
+    <string name="save_image_title">Share to</string>
+    <string name="new_msg"> messages</string>
+    <string name="account_sex">Gender</string>
+    <string name="account_icon_text">Profile Photo</string>
+    <string name="account_name_text">Full Name</string>
+    <string name="account_name_user1">Input name</string>
+    <string name="account_name_tel_hint">Input phone number</string> 
+    <string name="account_sex_text">Gender</string>
+    <string name="account_sex_male">Male</string>
+    <string name="account_sex_female">Female</string>
+    <string name="account_tel_text">Mobile phone</string>
+    <string name="account_set_avadar">Profile</string> 
+    <string name="update_title">Updates for iSMS</string>
+    <string name="update_content">Please click to download the new version...</string>
+    <string name="account_set_name">Modify name</string>
+    <string name="account_set_number">Modify phone number</string>
+    <string name="video_loading">Loading video...</string>
+    
+    <!-- statistic  begin -->
+    <string name="statistics_receive_msg_success">消息成功送达</string>
+    <string name="statistics_receive_pn_norification">成功接收PN通知</string>
+    <string name="statistics_app_click">点击APP入口</string>
+    <string name="statistics_msg_read">消息阅读</string>
+    <string name="statistics_msg_share">消息分享</string>
+    <string name="statistics_service_account">通讯录账号</string>
+    <string name="statistics_msg_send">用户发送消息</string>
+    <string name="statistics_delete_threads">删除短信列表</string>
+    <string name="statistics_uuid">生成UUID</string>
+    <string name="statistics_account_status">订阅</string>
+    <string name="statistics_request_msg">获取消息</string>
+    <string name="statistics_apk_list_info">软件列表信息</string>
+    <string name="statistics_receive_msg_fail">取消息失败</string>
+    <string name="statistics_msg_send_success">用户发送消息成功</string>
+    <string name="statistics_msg_send_fail">用户发送消息失败</string>
+    
+    <!-- statistic  end -->
+    
+    <string name="network_unavailable">Network unavailable, please try again later</string>
+    <string name="saved">Image saved to</string>
+    <string name="delete">Delete</string>
+    <string name="reload">Tap to load again</string>
+    <string name="add_contact_fail">Failed to add contact</string>
+    <string name="save_image_fail">Failed to save image</string>
+    <string name="get_image_fail">Failed to get image</string>
+    <string name="delete_msg_wait_dialog">Please wait...</string>
+    
+    <string name="personal_setting">Me</string>	
+	<string name="nmsg_setting">iSMS Settings</string>
+	<string name="nmsg_setting_receive">Follow</string>
+	<string name="nmsg_setting_unreceive">Followed</string>
+	<string name="nmsg_receive_setting">Official Accounts</string>
+	<string name="nmsg_receive_wifi">Network Setting </string>
+	<string name="nmsg_receive_wifi_only">Receive messages only in Wi-Fi</string>
+	<string name="dialog_receive_text">You will no longer receive messages from \“%s\”</string>
+	<string name="nmsg_setting_intro">Note:Choose to follow the official account to receive news and service notifications.</string>
+	<string name="nmsg_setting_noaccount">No official account</string>
+</resources>

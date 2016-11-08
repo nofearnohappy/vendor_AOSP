@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">"Dispositiu d'entrada sense fil"</string>
+  <string name="bluetooth_hid_connect">"Connecta"</string>
+    <string name="bluetooth_hid_disconnect">"Desconnecta"</string>
+	<string name="bluetooth_hid_unplug">Desendolla</string>
+	<string name="bluetooth_hid_addnewdevice">Afegeix nou dispositiu</string>
+  <string name="bluetooth_hid_paireddevices">"Dispositiu d'entrada sense fil associat"</string>
+	<string name="bluetooth_hid_bt_ok">"El Bluetooth s'ha activat amb èxit""</string> 
+	<string name="bluetooth_hid_bt_fail">"El Bluetooth no s'ha pogut activar""</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">"Desconnecta el dispositiu d'entrada sense fil"</string>
+  <string name="bluetooth_hid_unplug_confirm_title">"Desendolla el dispositiu d'entrada sense fil"</string>
+  <string name="bluetooth_hid_auth_confirm_title">"Accepta la sol·licitud de dispositius d'entrada sense fil"</string>
+  <string name="bluetooth_hid_summary_connected">"Connectat"</string> 
+	<string name="bluetooth_hid_summary_connecting">"S\'està connectant..."</string>
+	<string name="bluetooth_hid_summary_not_connected">Associat però no connectat</string>
+	<string name="bluetooth_hid_yes">"Sí"</string> 
+	<string name="bluetooth_hid_no">"No"</string>
+  <string name="bluetooth_hid_connected_notify_ticker">"Dispositiu d'entrada sense fil connectat"</string>
+  <string name="bluetooth_hid_connected_notify_title">"Dispositiu d'entrada sense fil connectat"</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">"Sol·licitud de connexió de dispositiu d'entrada sense fil"</string>
+  <string name="bluetooth_hid_connect_request_notify_title">"Sol·licitud de connexió de dispositiu d'entrada sense fil"</string>
+    <string name="bluetooth_hid_connected_notify_message">Seleccioneu per desconnectar la connexió amb %1$s</string>
+    <string name="bluetooth_hid_connect_request_notify_message">Seleccioneu per acceptar o no la sol·licitud de connexió %1$s</string>
+  <string name="bluetooth_hid_connect_ok">Teclat sense fil %1$s connectat amb èxit"</string>
+  <string name="bluetooth_hid_connect_fail">Teclat sense fil %1$s no connectat"</string>
+  <string name="bluetooth_hid_disconnect_ok">Teclat sense fil %1$s desconnectat amb èxit"</string>
+  <string name="bluetooth_hid_disconnect_fail">Errada en desconnectar el teclat sense fil %1$s"</string>
+  <string name="bluetooth_hid_unplug_ok">"El dispositiu d'entrada sense fil %1$s s'ha desendollat amb èxit""</string>
+  <string name="bluetooth_hid_unplug_fail">"Errada en desendollar el dispositiu d'entrada sense fil %1$s""</string>
+  <string name="bluetooth_hid_disconnect_confirm">Voleu desconnectar el teclat sense fil %1$s?</string>
+  <string name="bluetooth_hid_unplug_confirm">"Voleu desendollar el teclat sense fil %1$s?"</string>
+  <string name="bluetooth_hid_auth_confirm">"Voleu acceptar la sol·licitud del teclat sense fil %1$s?"</string>
+  <string name="bluetooth_hid_summary_disconnecting">"Desconnectant..."</string>
+</resources>

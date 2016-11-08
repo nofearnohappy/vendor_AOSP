@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="275dp"
+    android:layout_height="247dp"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/vtop"
+    	android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentTop="true"
+        android:background="#ff1888c9" />
+    <ImageView
+        android:id="@+id/vleft"
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff1888c9" />
+    <ImageView
+        android:id="@+id/vright"
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff1888c9" />
+    <include
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/vtop"
+        android:layout_toEndOf="@+id/vleft"
+        android:layout_toStartOf="@+id/vright"
+        layout="@layout/header" />
+
+    <ImageView
+        android:id="@+id/vm1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/header"
+        android:background="#ff1888c9" />
+
+
+     <LinearLayout
+                android:id="@+id/widget_bottom2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/vm1"
+                android:layout_toEndOf="@+id/vleft"
+                android:layout_toStartOf="@+id/vright"
+                android:background="#80000000"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/profile_1"
+                    android:layout_width="42dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/moviedis" />
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#ff1888c9" />
+
+                <ImageView
+                    android:id="@+id/profile_2"
+                    android:layout_width="42dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/musicdis" />
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#ff1888c9" />
+
+                <ImageView
+                    android:id="@+id/profile_3"
+                    android:layout_width="42dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/gamedis" />
+            </LinearLayout>
+    <ImageView
+        android:id="@+id/vm2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/widget_bottom2"
+        android:background="#ff1888c9" />
+
+         <LinearLayout
+                android:id="@+id/widget_bottom4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/vm2"
+                android:layout_toEndOf="@+id/vleft"
+                android:layout_toStartOf="@+id/vright"
+                android:background="#80000000"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/profile_4"
+                    android:layout_width="42dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/voicedis" />
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#ff1888c9" />
+
+                <ImageView
+                    android:id="@+id/profile_5"
+                    android:layout_width="42dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/preset1dis" />
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#ff1888c9" />
+
+                <ImageView
+                    android:id="@+id/profile_6"
+                    android:layout_width="42dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:soundEffectsEnabled="false"
+                    android:src="@drawable/preset2dis" />
+            </LinearLayout>
+
+        <ImageView
+            android:id="@+id/vbottom"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/widget_bottom4"
+            android:background="#ff1888c9" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">無線輸入裝置</string>
+  <string name="bluetooth_hid_connect">"連線"</string>
+    <string name="bluetooth_hid_disconnect">"中斷連線"</string>
+	<string name="bluetooth_hid_unplug">拔除</string>
+	<string name="bluetooth_hid_addnewdevice">新增裝置</string>
+  <string name="bluetooth_hid_paireddevices">已配對無線輸入裝置</string>
+	<string name="bluetooth_hid_bt_ok">藍芽啟用成功！</string> 
+	<string name="bluetooth_hid_bt_fail">藍芽啟用失敗！</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">中斷無線輸入裝置連接</string>
+  <string name="bluetooth_hid_unplug_confirm_title">拔除無線輸入裝置</string>
+  <string name="bluetooth_hid_auth_confirm_title">接受無線輸入裝置要求</string>
+  <string name="bluetooth_hid_summary_connected">"已連線"</string> 
+	<string name="bluetooth_hid_summary_connecting">"正在連線..."</string>
+	<string name="bluetooth_hid_summary_not_connected">已配對但尚未連接</string>
+	<string name="bluetooth_hid_yes">"是"</string> 
+	<string name="bluetooth_hid_no">"否"</string>
+  <string name="bluetooth_hid_connected_notify_ticker">無線輸入裝置已連接</string>
+  <string name="bluetooth_hid_connected_notify_title">無線輸入裝置已連接</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">無線輸入裝置連接要求</string>
+  <string name="bluetooth_hid_connect_request_notify_title">無線輸入裝置連接要求</string>
+    <string name="bluetooth_hid_connected_notify_message">勾選以中斷與 %1$s 的連接</string>
+    <string name="bluetooth_hid_connect_request_notify_message">勾選以接受或拒絕 %1$s 的連接要求</string>
+  <string name="bluetooth_hid_connect_ok">無線輸入裝置 %1$s 連接成功！</string>
+  <string name="bluetooth_hid_connect_fail">無線輸入裝置 %1$s 連接失敗！</string>
+  <string name="bluetooth_hid_disconnect_ok">無線輸入裝置 %1$s 中斷連接成功！</string>
+  <string name="bluetooth_hid_disconnect_fail">無線輸入裝置 %1$s 中斷連接失敗！</string>
+  <string name="bluetooth_hid_unplug_ok">無線輸入裝置 %1$s 拔除成功！</string>
+  <string name="bluetooth_hid_unplug_fail">無線輸入裝置 %1$s 拔除失敗！</string>
+  <string name="bluetooth_hid_disconnect_confirm">您要中斷與無線輸入裝置 %1$s 的連接嗎？</string>
+  <string name="bluetooth_hid_unplug_confirm">您要拔除無線輸入裝置 %1$s 嗎？</string>
+  <string name="bluetooth_hid_auth_confirm">您要接受 %1$s 的無線輸入裝置要求嗎？</string>
+  <string name="bluetooth_hid_summary_disconnecting">中斷連接…</string>
+</resources>

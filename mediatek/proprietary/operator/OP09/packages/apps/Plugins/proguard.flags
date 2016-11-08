@@ -1,0 +1,69 @@
+# Browser plugin @{
+-keep class com.mediatek.browser.plugin.** { *; }
+# @}
+
+# Email plugin @{
+-keep class com.mediatek.email.plugin.** { *; }
+# @}
+
+# DownloadManager plugin @{
+-keep class com.mediatek.downloadmanager.plugin.** { *; }
+# @}
+
+# Music plugin @{
+-keep class com.mediatek.music.ext.** { *; }
+# @}
+
+# launcher2 plugin @{
+-keep class com.mediatek.launcher2.plugin.** { *; }
+# @}
+
+# launcher3 plugin @{
+-keep class com.mediatek.launcher3.plugin.** { *; }
+# @}
+
+# Wallpaper plugin @{
+-keep class com.mediatek.wallpaper.plugin.** { *; }
+
+# SystemUI plugin @{
+-keep class com.mediatek.systemui.plugin.** { *; }
+-keep class com.mediatek.systemui.ext.** { *; }
+# @}
+
+# Dialer plugin @{
+-keep class com.mediatek.dialer.plugin.** { *; }
+-keep class com.mediatek.dialer.ext.** { *; }
+# @}
+
+# Incallui plugin @{
+-keep class com.mediatek.incallui.plugin.** { *; }
+-keep class com.mediatek.incallui.ext.** { *; }
+# @}
+
+# telecom plugin @{
+-keep class com.mediatek.telecom.plugin.** { *; }
+-keep class com.mediatek.telecom.ext.** { *; }
+# @}
+
+# Phone plugin @{
+-keep class com.mediatek.phone.plugin.** { *; }
+-keep class com.mediatek.phone.ext.** { *; }
+# @}
+
+# Mms plugin @{
+-keep class com.mediatek.mms.plugin.** { *; }
+# @}
+
+# Keyguard plugin @{
+-keep class com.mediatek.keyguard.plugin.** { *; }
+# @}
+
+# Settings plugin @{
+-keep class com.mediatek.settings.plugin.** { *; }
+-keep class com.mediatek.settings.ext.** { *; }
+-keep class com.mediatek.settingslib.ext.** { *; }
+# @}
+
+-dontwarn com.mediatek.op09.plugin.**
+-ignorewarnings
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/ScrollView"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <ScrollView android:id="@+id/ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/ImageView"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/solutionInput"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/empty_string" />
+
+    </ScrollView>
+
+    <!-- <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ScrollView"
+        android:text="ok" />
+ 	-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageView"
+        android:layout_toRightOf="@+id/ImageView"
+        android:text="@string/ett_solution_string"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

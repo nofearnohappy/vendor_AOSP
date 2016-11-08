@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Punt d\'accés Wi-Fi portàtil</string>
+    <string name="wifi_tether_introduction_text">Si convertiu el vostre dispositiu en un punt d\'accés Wi-Fi portàtil, podeu compartir la connexió a Internet amb un total de fins a vuit dispositius més alhora.\n\nTingueu en compte que la compartició de xarxa utilitza dades mòbils, la qual cosa pot incrementar considerablement la facturació i reduir la vida de la bateria.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Inseriu una targeta SIM i reinicieu el dispositiu per fer servir un punt d\'accés Wi-Fi portàtil o la compartició de xarxes.</string>
+    <string name="wifi_tether_checkbox_show_once_more">No tornar a mostrar aquest missatge</string>
+    <string name="wifi_tether_turn_off_wifi">Per activar el punt d\'accés Wi-Fi portàtil, en primer lloc haureu de desactivar la connexió Wi-Fi. Voleu continuar?</string>
+    <string name="wifi_tether_settings_text">Configuració del punt d\'accés Wi-Fi portàtil</string>
+    <string name="tether_apn_settings_text">APN de compartició de xarxa</string>
+    <string name="tether_apn_settings_subtext">Establir l\'APN predeterminat per a la compartició de xarxa</string>
+    <string name="usb_tethering_accessory_active_subtext">Quan s\'està fent servir la connexió USB no es pot activar la funció de compartició de xarxa.</string>
+    <string name="operator_display">Mostrar l\'operador de xarxa</string>
+    <string name="operator_display_summary">Mostrar l\'operador de xarxa en la barra d\'estat</string>
+    <string name="by_orange">per Orange</string>
+    <string name="recommended_by_orange">Recomanat per Orange</string>
+    <string name="smsmms_app_name">Missatgeria no està activa</string>
+    <string name="click_to_change_to_xms_app">Missatgeria no és la vostra aplicació SMS predeterminada.</string>
+    <string name="click_to_change_to_xms_app_line2">Feu un toc aquí per obtenir més informació.</string>
+    <string name="sms_change_default_dialog_text1">Orange ha comprovat que l\'aplicació Missatgeria funciona en el vostre dispositiu.\n\n
+
+L\'ús d\'altres aplicacions SMS podria crear problemes a l\'hora d\'enviar i rebre missatges SMS i MMS.\n\n
+
+Voleu utilitzar <xliff:g id="new_app">%s</xliff:g> com a aplicació SMS en lloc de <xliff:g id="current_app">%s</xliff:g>?</string>
+    
+</resources>

@@ -1,0 +1,22 @@
+The shared library 'liburee.so' is a library to provide user-space ree service calls API.
+
+
+WHAT IT DOES?
+=============
+
+The 'liburee.so' provides the API for MTK in-house TEE service call interface.
+
+
+HOW IT WAS BUILT?
+==================
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/trustzone' folder.
+
+
+HOW TO USE IT?
+==============
+
+Link with liburee, and call the functions provided by it.
+
+All the source code of this library were written by MediaTek co..

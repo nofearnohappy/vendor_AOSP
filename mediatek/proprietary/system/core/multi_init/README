@@ -1,0 +1,36 @@
+This directory contains the multi_init binary, which is the first process instead of init in meta mode and factory mode.
+Multi_init source code will reuse init folder, we just modify the Android.mk and init.cpp file to support meta mode and factory mode.
+
+
+WHAT IT DOES?
+=============
+For multi_init, we will parse meta_init.rc in meta mode and parse factory_init.rc in factory mode.
+
+HOW IT WAS BUILT?
+==================
+It needs the following libs from AOSP:
+1. libfs_mgr
+2. liblogwrap
+3. libcutils
+4. liblog
+5. libc
+6. libselinux
+7. libmincrypt
+8. libext4_utils_static
+9. libsquashfs_utils
+10.libbase
+11.libutils
+12.libc++_static
+13.libdl
+14.libsparse_static
+15.libz
+16.libinit
+
+
+This module is released in source code format in 'vendor\mediatek\proprietary\system\core\multi_init' folder.
+
+
+HOW TO USE IT?
+==============
+Since in meta mode and factory mode, lk will send the command line"rdinit=sbin/multi_init". So in meta mode and factory mode, it will start multi_init instead of init.
+

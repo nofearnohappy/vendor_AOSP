@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/voice_rcd_hint_rcding"
+    android:layout_width="220dp"
+    android:layout_height="46dp"
+    android:background="@drawable/ic_bg_recorder"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/AudioTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cancel_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+</LinearLayout>

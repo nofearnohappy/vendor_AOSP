@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Startar mottagning…</string>
+    <string name="notification_group_title">Tar emot <xliff:g id="number">%d</xliff:g> filer...</string> 
+    <string name="notification_download_done">Tryck för att visa information</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> mottagna filer</string>
+    <string name="notification_received">Mottagning klar</string> 
+    <string name="notification_download_failure">Mottagning misslyckades på grund av <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Mottagningen avbröts</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> filer misslyckades</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> filer misslyckades, <xliff:g id="number">%d</xliff:g> mottagna filer</string>
+    <string name="download_no_file">Filen finns inte</string>
+    <string name="notification_sending">Startar sändning…</string>
+    <string name="notification_group_upload_title">Skickar <xliff:g id="number">%d</xliff:g> filer...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> filer skickade</string>
+    <string name="notification_sent">Sändning klar</string>
+    <string name="notification_upload_failed">Sändningen misslyckades på grund av <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Sändning avbröts</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> filer misslyckades</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> filer misslyckades, <xliff:g id="number">%d</xliff:g> filer skickade</string>
+    <string name="low_storage">lågt lagringsutrymme</string>
+    <string name="connect_failure">"Anslutningsproblem"</string>
+    <string name="unknown_error">Okänt fel</string>
+    <string name="share_label">HotKnot-delning</string>
+    <string name="rx_ui_image_status">Tar emot bild från <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Tar emot <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> bilder från <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Tar emot video från <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Tar emot <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> videofiler från <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Tar emot fil från <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Tar emot <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> filer från <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Tar emot musik från <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Tar emot <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> musik från <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Mottagning ej slutförd</string>
+</resources>

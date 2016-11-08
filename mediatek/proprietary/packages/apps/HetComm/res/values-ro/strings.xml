@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Descărcareaccelerată</string>
+    <string name="hetcomm_intro">Descărcaţi fişiere mari (de peste 20 MB) mai rapid utilizând reţelele Wi-Fi şi 4G/3G în acelaşi timp. Pictograma funcţiei Descărcare accelerată va fi afişată în bara de stare atunci când această funcţie este activă. Pentru a utiliza funcţia Descărcare accelerată, conexiunea Wi-Fi şi conexiunea de date mobile trebuie să fie activate. Când este activată funcţia, orice date ale aplicaţiilor pe care aţi ales să le descărcaţi numai prin Wi-Fi vor fi descărcate atât prin reţele WLAN, cât şi prin reţele 4G/3G.</string>
+    <string name="enable_switch_on">activat</string>
+    <string name="enable_switch_off">Oprit</string>
+    <string name="notify_top_title">Accelerator descărcare</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Date pentru mobil"</string>
+    <string name="conn_notice_title">Conexiunea de date mobile sau conexiunea Wi-Fi este DEZACTIVATĂ.</string>
+    <string name="conn_notice_detail">Pentru a activa funcţia Descărcare accelerată,  trebuie activate atât conexiunea Wi-Fi, cât şi conexiunea de date mobile.</string>
+    <string name="conn_charging_warning">Descărcarea prin intermediul reţelelor mobile poate duce la taxarea suplimentară din partea operatorului.</string>
+    <string name="turn_on">Activaţi <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Funcţia Descărcare accelerată va fi DEZACTIVATĂ deoarece funcţia VPN este ACTIVATĂ</string>
+    <string name="turn_off_due_to_tether">Funcţia Descărcare accelerată va fi DEZACTIVATĂ deoarece funcţia Tethering este ACTIVATĂ</string>
+    <string name="turn_off_due_to_shutdown">Funcţia Descărcare accelerată va fi DEZACTIVATĂ deoarece dispozitivul a fost oprit</string>
+    <string name="turn_off_due_to_roaming">Funcţia Descărcare accelerată va fi DEZACTIVATĂ deoarece vă aflaţi în roaming</string>
+    <string name="ratio_is_single">Viteza de transfer a datelor prin reţeaua Wi-Fi/reţeaua de date mobile este redusă. Pentru a accelera descărcarea, Turbo download va utiliza numai reţeaua de date mobile/numai reţeaua Wi-Fi pentru a descărca fişierele.</string>
+    <string name="ratio_is_back">Funcţia Turbo download combină reţeaua Wi-Fi şi reţeaua de date mobile pentru a descărca fişierele.</string>
+    <string name="action_help">Ajutor</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Ajutor Descărcare accelerată</u>\
+    </h1><br>Descărcaţi fişiere mari la viteză maximă utilizând conexiunile Wi-Fi şi 4G/3G în acelaşi timp.\
+    <h4>1. Accesaţi Settings (Setări) şi atingeţi Descărcare accelerată.</h4>\
+    <h4>2. Atingeţi comutatorul pentru a activa funcţia Descărcare accelerată.</h4>\
+    <p><b>[Sfat]</b> Astfel, veţi accelera descărcarea dacă sunteţi conectat la Wi-Fi şi la 4G/3G în momentul în care începeţi descărcarea.\
+    <p><b>[Sfat]</b> În cazul în care conexiunea Wi-Fi sau 4G/3G este prea lentă, veţi putea utiliza conexiunea mai rapidă pentru descărcare.\
+    <p><b>[Sfat]</b> Viteza sau performanţa funcţiei Descărcare accelerată poate afecta mediul reţelei pe durata descărcării.\
+    <br>&nbsp;&nbsp;- Dacă semnalele sunt instabile, este posibil ca viteza şi performanţa acestei funcţii să fie afectate.\
+    <br>&nbsp;&nbsp;- Totuşi, în medie, viteza de descărcarea va fi dublă faţă de cea în care se utilizează doar Wi-Fi sau doar 4G/3G.\
+    <p><b>[Sfat]</b> În cazurile în care diferenţa de viteză dintre conexiunile Wi-Fi şi 4G/3G este mare (de obicei de 2,5 ori), funcţia Descărcare accelerată se va opri sau nu va fi acceptată, pentru ca viteza de descărcare să nu fie afectată.\
+    <p><b>[Sfat]</b> Funcţia Descărcare accelerată va fi dezactivată în mod automat în momentul în care este activată funcţia Tethering/VPN.\
+    </body></html>]]>"</string>
+</resources>

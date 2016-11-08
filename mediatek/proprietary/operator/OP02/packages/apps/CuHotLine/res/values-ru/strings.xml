@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Служба работы с клиентами</string>  
+    <string name="hotLine">Горячая линия по работе с клиентами China Unicom</string>
+    <string name="app_not_found">"Действие не поддерживается ни в одном приложении."</string>
+</resources>

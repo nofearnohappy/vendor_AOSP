@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentTop="true"
+	android:orientation="vertical" ><FrameLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/spectralVis"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+
+		<com.dolby.ds1appUI.GraphicVisualiser
+			android:id="@+id/graphic_vis"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:duplicateParentState="true"
+			android:padding="1dp" />
+	</FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">Done</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">Delete</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Select all"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Unselect all"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">New</string>
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Custom labels</string>  
+    <string name="aas_phone_type_none">NONE</string>  
+    <string name="aas_new_dialog_title">Add a new label</string>  
+    <string name="ass_rename_dialog_title">Edit label</string>  
+    <string name="aas_delele_dialog_message">Delete the label(s) will affact all additional numbers which are linked to the label(s). Are you sure?</string>  
+    <string name="aas_name_invalid">The label name is invalid. Please input another one.</string>  
+    <string name="aas_name_exist">The label already exists.</string>  
+    <string name="aas_usim_full">There\'s no space for new labels.</string>  
+    <string name="ass_edit_assert_message">Modify the label will affect all additional numbers which are linked to the label.Are you sure?</string>  
+    <string name="aas_new_fail">Failed to create new label.</string>  
+    <string name="aas_edit_fail">Failed to rename 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Deletion of 
+        <xliff:g id="aas">%s</xliff:g> failed.
+    </string>  
+    <string name="aas_phone_primary">Primary Number</string>  
+    <string name="aas_phone_additional">Additional Number</string> 
+    <!-- aas strings end-->  
+
+    <string name="nickname_too_long">"Nickname is too long."</string>
+</resources>

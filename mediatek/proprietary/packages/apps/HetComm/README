@@ -1,0 +1,22 @@
+WHAT IT DOES?
+=============
+The purpose of this service APK is to provide file transfer service between two HotKnot devices.
+During the file transfer, there will be a notification for show the file transferrring/receiving status.
+
+
+HOW IT WAS BUILT?
+==================
+The MTK_HOTKNOT_SUPPORT feature optin should be true.
+
+[Build Method]
+make HotKnotBeam
+or
+mmm vendor/mediatek/proprietary/packages/apps/HotKnotBeam/
+
+HOW TO USE IT?
+==============
+1.
+It is launched after receiving com.mediatek.hotknotbeam.START intent which is sent from HotKnot APK.
+2.
+It is launched when the HotKnot setting is enabled or closed when the HotKnot setting is disabled.
+

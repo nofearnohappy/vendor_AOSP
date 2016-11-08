@@ -1,0 +1,23 @@
+Library of MTK Voice_UI.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libvoiceui_32.a / libvoiceui_64.a contains MediaTek developed Voice_UI.  
+With Voice_UI, users can use voice camera and voice contact search functions.
+
+HOW IT WAS BUILT?
+==================
+
+Please modify ProjectConfig.mk at the related device such as alps/device/mediatek/k2v1_64/ 
+MTK_VOICE_CONTACT_SEARCH_SUPPORT = yes
+MTK_VOICE_UI_SUPPORT = yes
+
+HOW TO USE IT?
+==============
+
+Please refer to the MM/MTD/ASP team.
+
+All the source code of this library were written by MediaTek co..

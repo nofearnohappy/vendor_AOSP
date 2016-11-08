@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">수신 시작…</string>
+    <string name="notification_group_title"><xliff:g id="number">%d</xliff:g> 개의 파일을 수신하는 중...</string> 
+    <string name="notification_download_done">터치하면 세부정보를 볼 수 있습니다.</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> 개의 파일이 수신됨</string>
+    <string name="notification_received">성공적으로 수신됨</string> 
+    <string name="notification_download_failure"><xliff:g id="reason">%s</xliff:g> 때문에 수신에 실패함</string> 
+    <string name="notification_download_cancel">수신이 취소됨</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> 파일 실패</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> 개의 파일이 실패하고, <xliff:g id="number">%d</xliff:g> 개의 파일이 수신됨</string>
+    <string name="download_no_file">파일이 존재하지 않음</string>
+    <string name="notification_sending">보내기 시작…</string>
+    <string name="notification_group_upload_title"><xliff:g id="number">%d</xliff:g> 개의 파일을 보내는 중...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> 개의 파일이 보내짐</string>
+    <string name="notification_sent">성공적으로 보내짐</string>
+    <string name="notification_upload_failed"><xliff:g id="reason">%s</xliff:g> 때문에 보내기에 실패함</string>
+    <string name="notification_upload_cancel">보내기가 취소됨</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> 파일 실패</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> 개의 파일이 실패하고, <xliff:g id="number">%d</xliff:g> 개의 파일이 보내짐</string>
+    <string name="low_storage">저장 공간 부족</string>
+    <string name="connect_failure">"연결 문제"</string>
+    <string name="unknown_error">알 수 없는 오류</string>
+    <string name="share_label">HotKnot 공유</string>
+    <string name="rx_ui_image_status"><xliff:g id="device">%s</xliff:g> 에서 이미지를 수신하는 중</string>
+    <string name="rx_group_ui_image_status"><xliff:g id="device">%3$s</xliff:g>에서 <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g>개의 이미지를 수신하는 중</string>
+    <string name="rx_ui_video_status"><xliff:g id="device">%s</xliff:g> 에서 비디오를 수신하는 중</string>
+    <string name="rx_group_ui_video_status"><xliff:g id="device">%3$s</xliff:g> 에서 <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> 개의 비디오를 수신하는 중</string>
+    <string name="rx_ui_status"><xliff:g id="device">%s</xliff:g> 에서 파일을 수신하는 중</string>                
+    <string name="rx_group_ui_status"><xliff:g id="device">%3$s</xliff:g> 에서 <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> 개의 파일을 수신하는 중</string>
+    <string name="rx_ui_music_status"><xliff:g id="device">%s</xliff:g> 에서 음악을 수신하는 중</string>
+    <string name="rx_group_ui_music_status"><xliff:g id="device">%3$s</xliff:g> 에서 <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> 개의 음악을 수신하는 중</string>
+    <string name="rx_ui_failed_status">수신이 완료되지 않음</string>
+</resources>

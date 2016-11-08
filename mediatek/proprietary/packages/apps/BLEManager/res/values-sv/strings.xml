@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Tryck för att aktivera Bluetooth</string>
+    <string name="tap_to_add_device">Tryck för att lägga till en enhet</string>
+    <string name="turning_on_bluetooth">Aktiverar Bluetooth...</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Skannar enheter</string>
+    <string name="delete_devices">Koppla från en enhet för att ansluta en ny</string>
+    <string name="cancel">"Avbryt"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Varning"</string>
+    <string name="device_manager">Enhetshanteraren</string>
+    <string name="out_of_range_alert_text">Varning - utom räckhåll</string>
+    <string name="in_range_alert_text">Varning - inom räckhåll</string>
+    <string name="range_alert_text">Min räckvidd</string>
+    <string name="range_alert_summary">Både telefonen och enheten varnar när enheten är inom eller utom räckhåll</string>
+    <string name="range_near_text">Nära</string>
+    <string name="range_middle_text">Medium</string>
+    <string name="range_far_text">"Lång"</string>
+    <string name="range_1_distance_text">Cirka 1 meter</string>
+    <string name="range_10_distance_text">1-10 meter</string>
+    <string name="range_20_distance_text">10-20 meter</string>
+    <string name="phone_alert_settings">Varningsinställningar telefon</string>
+    <string name="ringtone_tye_text">"Ringsignal"</string>
+    <string name="volume_text">"Volym"</string>
+    <string name="vibration_text">Vibration</string>
+    <string name="vibration_summary_on">"På"</string>
+    <string name="vibration_summary_off">"Inaktiverat"</string>
+    <string name="device_name">"Enhetens namn"</string>
+    <string name="push_notification_text">Push-meddelanden till enhet</string>
+    <string name="incoming_call_notification_text">"Inkommande samtal"</string>
+    <string name="missed_call_notificaiotn_text">"Missat samtal"</string>
+    <string name="new_message_notification_text">"Nytt meddelande"</string>
+    <string name="new_email_notification_text">Nytt e-postmeddelande</string>
+    <string name="disconnection_text">Frånkoppling inställningar</string>
+    <string name="disconnection_waring_title">Varning frånkoppling</string>
+    <string name="disconnection_waring_summary">Både telefonen och enheten varnar när enheten är frånkopplad</string>
+    <string name="device_name_change_dialog_title">"Byt namn"</string>
+    <string name="disconnect_text">"Koppla ifrån"</string>
+    <string name="delete_text">"Ta bort"</string>
+    <string name="connect_text">"Anslut"</string>
+    <string name="device_delete_dialog_message">Ta bort den här enheten?</string>
+    <string name="device_disconnect_dialog_message">Koppla från enheten?</string>
+    <string name="find_all_text">Hitta alla</string>
+    <string name="default_images">Standardbilder</string>
+    <string name="range_information_text">Räckvidden beror på signalstyrkan. I idealiska situationer kan räckvidden vara över 30 meter.  Vissa element kan minska avståndet till 15 meter eller mindre, t.ex. din kropp, väggar och övriga hinder.</string>
+    <string name="range_information_dialog_check_box_text">Visa inte igen</string>
+    <string-array name="device_image_chooser_items">
+        <item>Välj från standardbild</item>
+        <item>"Ta foto"</item>
+        <item>Välj från galleri</item>
+    </string-array>
+    <string name="add_device">Lägg till enhet</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nej"</string>
+    <string name="connecting_text">"Ansluter ..."</string>
+    <string name="enable_background_service">Aktivera bakgrundsläge</string>
+    <string name="disable_background_service">Inaktivera bakgrundsläge</string>
+    <string name="ble_manager_alert">BLE Manager-varning</string>
+    <string name="check">Kontrollera</string>
+    <string name="dismiss">Avvisa</string>
+    <string name="disconnected">"Frånkopplad"</string>
+    <string name="in_range">inom räckhåll</string>
+    <string name="out_of_range">utom räckhåll</string>
+    <string name="no_found">Ingen Bluetooth-enhet hittades.</string>
+    <string name="bt_off">Bluetooth är av, vänligen aktivera det.</string>
+</resources>

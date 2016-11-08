@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Топлотни менаџер</string>
+    <string name="coolers">Хладњаци</string>
+    <string name="thermal_sensors">Топлотни сензори</string>
+    <string name="thermal_protection">Топлотна заштита</string>
+    <string name="thermal_policy_file_colon">"Датотека топлотне смернице: "</string>
+    <string name="apply_new_thermal_policy">Примени нове топлотне смернице</string>
+    <string name="tz_device_info">TZ информације о уређају</string>
+    <string name="thermal_logger">Топлотна евиденција</string>
+    <string name="alert_dialog_two_buttons_title">Термално упозорење!</string>
+    <string name="alert_dialog_two_buttons_message">Телефон се убрзо мора охладити!</string>
+    <string name="alert_dialog_ok">"Потврди"</string>
+    <string name="alert_dialog_cancel">"Откажи"</string>
+</resources>

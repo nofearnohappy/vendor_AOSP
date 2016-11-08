@@ -1,0 +1,28 @@
+Library of engineermode 32-bit platform, which is a 32-bit dummy library to let EngineerMode
+application run on 32-bit VM. 
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libem_platform32_dummy.so is a 32-bit dummy library whose aim is to let EngineerMode App
+run on 32-bit VM
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+None
+
+and the following libs from MediaTek:
+None
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+Provide the 32-bit library to let EngineerMode app run on 32-bit running space.
+all api interface are at (vendor/mediatek/proprietary/packages/apps/EngineerMode/jni/platform32)
+
+All the source code of this library were written by MediaTek co..

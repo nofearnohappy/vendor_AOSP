@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Partajare HotKnot</string>
+    <string name="hint1">Asiguraţi-vă că dispozitivul destinaţie are activată funcţia HotKnot şi că ecranul acestuia este deblocat.</string>
+    <string name="hint2">Aşezaţi dispozitivul dvs. pe dispozitivul destinaţie, astfel încât ecranele acestora să intre în contact.</string>
+    <string name="hint3">Îndepărtaţi dispozitivul dvs. de dispozitivul destinaţie după ce auziţi un mesaj vocal.</string>
+    <string name="use_hotknot">Această aplicaţie trebuie să utilizeze tehnologia HotKnot a dispozitivului dvs.</string>
+    <string name="allow">"Permiteți"</string>
+    <string name="deny">"Respingeți"</string>
+    <string name="fail_to_share">Partajarea a eşuat</string>
+    <string name="fail_to_share_conn_error">Partajarea a eşuat din cauza unei probleme a conexiunii.</string>
+    <string name="fail_to_share_unknown_error">Partajarea a eşuat din cauza unei erori necunoscute.</string>
+    <string name="try_again">"Încercaţi din nou"</string>
+    <string name="usb_warning">Funcţia HotKnot poate fi afectată în timpul încărcării USB.</string>
+</resources>

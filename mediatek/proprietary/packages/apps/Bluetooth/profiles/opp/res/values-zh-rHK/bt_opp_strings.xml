@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"收到檔案接收要求"</string>
+	<string name="bt_opp_notification_in_coming_title">"收到檔案接收要求（來自：%1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"勾選以接受檔案。"</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"允許接收外來檔案"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"正在接收：%1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"檔案傳送"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"正在傳送：%1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"已連接至檔案轉移"</string>
+	<string name="bt_opp_cancel_task_message">"取消傳輸？"</string>
+	<string name="bt_opp_cancel_task_yes">"是"</string>
+	<string name="bt_opp_cancel_task_no">沒有應用程式可列印聯絡人。</string>
+	<string name="bt_opp_canceling_task_message">"正在取消傳輸，請稍候..."</string>
+	<string name="bt_opps_confirm_push_title">"藍芽 - 收到項目"</string>
+	<string name="bt_opps_confirm_push_message">"檔案接收：來自 %3$s 的 %1$s (%2$s)。接受？"</string>
+	<string name="bt_opps_confirm_push_yes">接受自動推送服務嗎？</string>
+	<string name="bt_opps_confirm_push_no">拒絕</string>
+	<string name="bt_oppc_push_action_label">"正在透過藍牙播放"</string>
+	<string name="bt_oppc_push_toast_sending_file">"正在傳送檔案至 %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"正在傳送檔案至 %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"不支援分享內容：%1$s"</string>
+	<string name="bt_oppc_push_toast_unknown_device">"未知裝置"</string>
+	<string name="bt_opps_toast_storage_unavailable">"沒有 SD 卡或記憶體空間不足。"</string>
+	<string name="bt_oppc_toast_disk_full">"硬碟空間不足以儲存傳送資訊。"</string>
+	<string name="bt_opps_push_toast_invalid_request">"遙距裝置分享要求無效。"</string>
+	<string name="permlab_bluetoothWhitelist">"將藍牙裝置列入許可名單。"</string>
+	<string name="permdesc_bluetoothWhitelist">允許將應用程式暫時加進白名單		允許裝置傳送檔案至此裝置而毋須使用者確認的藍芽裝置。</string>
+	<string name="permlab_handoverStatus">"接收藍牙交遞傳輸廣播。"</string>
+	<string name="permdesc_handoverStatus">允許從藍芽接收交收傳輸狀態。</string>
+</resources>

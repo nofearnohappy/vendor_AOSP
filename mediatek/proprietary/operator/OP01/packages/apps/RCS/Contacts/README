@@ -1,0 +1,31 @@
+It is RCSContacts.apk for op01 operator's RCS(Rich Communication System) requirement.
+
+
+WHAT IT DOES?
+=============
+The apk Contains serveral base function for user, such as:
+1.Syncing profile data to server, when editing personal information.
+2.It will get photo of contact from server, when viewing this contact.
+3.It wiil be trigger searching contact operation by same number, when editing this contact's number.
+4.When user receive vcard from RCS message, user can preview this vcard then save it ot not.
+5.Contacts application will show all group chat in list, user can select it and chat.
+6.User can scan QRCode in editor, it will get contact information from QRCode.
+7.It will set rich screen photo to one contact or one group or all in contacts application.
+
+HOW IT WAS BUILT?
+==================
+Only and awalys built in OP01 project.
+
+RCS feature option must open for project.
+
+All dependency library of this module are already put in
+'system/lib' folder.
+
+HOW TO USE IT?
+==============
+
+The functions can't trigger by itself, it will call interfce by contacts application or call
+activity by message.
+
+The majority of source code were written by MediaTek.
+Various open source libraries are also used and contained in this folder.

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Ketik untuk menghidupkan Bluetooth</string>
+    <string name="tap_to_add_device">Ketik untuk menambahkan peranti</string>
+    <string name="turning_on_bluetooth">Menghidupkan bluetooth...</string>
+    <string name="launcher_activity_name">Pengurus BLE</string>
+    <string name="scanning_devices">Mengimbas peranti</string>
+    <string name="delete_devices">Sila putuskan sambungan satu peranti untuk menyambung peranti baru</string>
+    <string name="cancel">"Batal"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Makluman"</string>
+    <string name="device_manager">Pengurus Peranti</string>
+    <string name="out_of_range_alert_text">Awasan luar liputan</string>
+    <string name="in_range_alert_text">Awasan dalam liputan</string>
+    <string name="range_alert_text">Liputan saya</string>
+    <string name="range_alert_summary">Awasan kedua-dua telefon dan peranti semasa peranti berada dalam atau luar liputan</string>
+    <string name="range_near_text">Dekat</string>
+    <string name="range_middle_text">tengah</string>
+    <string name="range_far_text">"Jauh"</string>
+    <string name="range_1_distance_text">Kira-kira 1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">Tetapan awasan telefon</string>
+    <string name="ringtone_tye_text">"Nada dering"</string>
+    <string name="volume_text">"Kelantangan"</string>
+    <string name="vibration_text">Getaran</string>
+    <string name="vibration_summary_on">hidup</string>
+    <string name="vibration_summary_off">Mati</string>
+    <string name="device_name">"Nama peranti"</string>
+    <string name="push_notification_text">Tolak pemberitahuan ke peranti</string>
+    <string name="incoming_call_notification_text">"Panggilan masuk"</string>
+    <string name="missed_call_notificaiotn_text">"Panggilan tidak dijawab"</string>
+    <string name="new_message_notification_text">"Mesej baru"</string>
+    <string name="new_email_notification_text">E-mel baru</string>
+    <string name="disconnection_text">Tetapan pemutusan sambungan</string>
+    <string name="disconnection_waring_title">Awasan pemutusan sambungan</string>
+    <string name="disconnection_waring_summary">Awasan kedua-dua telefon dan peranti semasa peranti diputuskan sambungan</string>
+    <string name="device_name_change_dialog_title">"Namakan semula"</string>
+    <string name="disconnect_text">"Putus sambungan"</string>
+    <string name="delete_text">"Padam"</string>
+    <string name="connect_text">"Sambung"</string>
+    <string name="device_delete_dialog_message">Padamkan peranti ini?</string>
+    <string name="device_disconnect_dialog_message">Putuskan sambungan peranti?</string>
+    <string name="find_all_text">Cari semua</string>
+    <string name="default_images">Imej Lalai</string>
+    <string name="range_information_text">Liputan bergantung pada kekuatan isyarat. Dalam situasi yang ideal, liputan boleh melebihi 30 meter.  Elemen tertentu boleh memendekkan jarak kepada 15 meter atau kurang seperti badan anda, dinding dan halangan lain.</string>
+    <string name="range_information_dialog_check_box_text">Jangan tunjukkan lagi</string>
+    <string-array name="device_image_chooser_items">
+        <item>Pilih daripada imej lalai</item>
+        <item>"Ambil foto"</item>
+        <item>Pilih daripada galeri</item>
+    </string-array>
+    <string name="add_device">"Tambah peranti"</string>
+    <string name="yes">"YA"</string>
+    <string name="no">"TIDAK"</string>
+    <string name="connecting_text">"Menyambung..."</string>
+    <string name="enable_background_service">Dayakan Mod Latar Belakang</string>
+    <string name="disable_background_service">Nyahdayakan Mod Latar Belakang</string>
+    <string name="ble_manager_alert">Awasan Pengurus BLE</string>
+    <string name="check">Semak</string>
+    <string name="dismiss">Buang</string>
+    <string name="disconnected">"Diputuskan sambungan"</string>
+    <string name="in_range">dalam julat</string>
+    <string name="out_of_range">di luar julat</string>
+    <string name="no_found">Tiada peranti bluetooth ditemui.</string>
+    <string name="bt_off">Bluetooth dimatikan, sila hidupkannya.</string>
+</resources>

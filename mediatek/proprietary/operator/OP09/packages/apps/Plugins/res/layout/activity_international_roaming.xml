@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical" >
+  <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="48dip"
+     android:orientation="vertical" >
+    
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" 
+       android:layout_gravity="top"
+       android:layout_marginTop="6dip"
+       >
+      <ImageView
+	 android:id="@+id/title_icon"
+	 android:layout_width="wrap_content"
+	 android:layout_height="32dip"
+	 android:layout_marginLeft="5dip"
+	 android:layout_gravity="center_vertical"
+	 android:gravity="bottom"
+	 android:src="@drawable/ic_launcher_settings" />
+      <TextView android:id="@+id/time_zone_tilte"
+		android:layout_width="wrap_content"
+		android:layout_height="30dip"
+		android:layout_marginLeft="-4dip"
+		android:layout_marginTop="2dip"
+		android:layout_gravity="center_vertical|left"
+		android:text="@string/time_zone_title"
+		android:textAppearance="@android:style/TextAppearance.Holo.Medium">
+      </TextView>
+      
+      <LinearLayout
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:orientation="horizontal" 
+	 android:layout_gravity="end|right"
+	 >
+	<View
+	   android:layout_width="0dip"
+	   android:layout_height="1dip"
+	   android:layout_weight="1">
+	  
+	</View>
+	<SearchView
+	   android:id="@+id/searchView"
+	   android:layout_width="wrap_content"
+	   android:layout_height="36dip"
+	   android:layout_gravity="center_vertical|end|right"
+	   android:queryHint="@string/time_zone_hint">
+	</SearchView>
+      </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       android:layout_marginTop="4dip">
+      <View
+	 android:layout_width="match_parent"
+	 android:layout_height="2dip"
+	 android:layout_gravity="bottom|end"
+	 android:background="@android:color/holo_blue_light">
+	
+      </View>
+    </LinearLayout>
+  </LinearLayout>
+
+  <fragment
+     android:id="@+id/timezone_list"
+     android:name="com.mediatek.op09.plugin.ZonePicker"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"/>
+
+  <!-- <Button
+          android:id="@+id/search_bar"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:minHeight="?android:attr/listPreferredItemHeight"
+          android:layout_weight="6"
+          android:text="aaa"/> -->
+</LinearLayout>

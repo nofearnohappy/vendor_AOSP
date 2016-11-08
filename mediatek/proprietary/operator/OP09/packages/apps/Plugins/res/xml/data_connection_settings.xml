@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Data connection setting config -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/data_connection_summary_title">
+        <com.mediatek.settings.plugin.RadioPreference
+            android:key="data_connection_sim_slot_1"
+            android:title="@string/data_connection_sim_slot_1" />
+        <com.mediatek.settings.plugin.RadioPreference
+            android:key="data_connection_sim_slot_2"
+            android:title="@string/data_connection_sim_slot_2" />
+</PreferenceScreen>

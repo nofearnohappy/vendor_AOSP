@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"Concluído"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Eliminar"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Seleccionar tudo"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Desmarcar tudo"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Novo"</string>
+
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Nomes USIM para números adicionais</string>  
+    <string name="aas_phone_type_none">NENHUM</string>  
+    <string name="aas_new_dialog_title">Adicionar nova etiqueta</string>  
+    <string name="ass_rename_dialog_title">Modificar a etiqueta</string>  
+    <string name="aas_delele_dialog_message">A eliminação da(s) etiqueta(s) irá afectar todos os números adicionais que estejam ligados a esta(s) etiqueta(s). Tem a certeza?</string>  
+    <string name="aas_name_invalid">O nome da etiqueta é inválido. Introduza outro.</string>  
+    <string name="aas_name_exist">A etiqueta já existe.</string>  
+    <string name="aas_usim_full">Não existe espaço para novas etiquetas.</string>  
+    <string name="ass_edit_assert_message">A modificação da etiqueta irá afectar todos os números adicionais que estejam ligados a esta etiqueta. Tem a certeza?</string>  
+    <string name="aas_new_fail">Falha ao criar nova etiqueta.</string>  
+    <string name="aas_edit_fail">Falha ao mudar o nome 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">A eliminação de 
+        <xliff:g id="aas">%s</xliff:g> falhou.
+    </string>  
+    <string name="aas_phone_primary">Número principal</string>  
+    <string name="aas_phone_additional">Número adicional</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"A alcunha é demasiado longa."</string>
+</resources>

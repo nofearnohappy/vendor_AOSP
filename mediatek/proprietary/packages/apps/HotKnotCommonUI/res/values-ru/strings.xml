@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Share</string>
+    <string name="hint1">На приемном устройстве должна быть включена функция HotKnot, а экран разблокирован.</string>
+    <string name="hint2">Поместите ваше устройство на приемное устройство экраном к экрану.</string>
+    <string name="hint3">После голосового сообщения уберите ваше устройство от приемного устройства.</string>
+    <string name="use_hotknot">Для использования данного приложения устройство должно быть оснащено функцией HotKnot.</string>
+    <string name="allow">"Разрешить"</string>
+    <string name="deny">"Отклонить"</string>
+    <string name="fail_to_share">Не удалось поделиться</string>
+    <string name="fail_to_share_conn_error">Совместный доступ не удался из-за проблем с подключением</string>
+    <string name="fail_to_share_unknown_error">Совместный доступ не удался из-за неустановленной ошибки.</string>
+    <string name="try_again">"Повторите попытку"</string>
+    <string name="usb_warning">При зарядке через USB функция HotKnot может работать ненадлежащим образом.</string>
+</resources>

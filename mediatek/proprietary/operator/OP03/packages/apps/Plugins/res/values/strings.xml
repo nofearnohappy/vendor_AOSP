@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Operator Plugin APK</string>
+     <!-- Orange customization begin -->
+    <string name="roaming_warning">Connecting to the internet when roaming may increase your call charges significantly. Your operator informs you once your data consumption abroad reaches certain thresholds. Are you sure you want to continue?
+</string>
+    <string name="roaming">Roaming Warning</string>
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <string name="networksettings_tips_data_enabled">"Switch on data service? You may incur charges on data traffic!"</string>
+    <string name="networksettings_tips_data_disabled">"Switch off data service? Other services will get impacted, e.g. sending and receiving MMS or E-mail."</string>
+    <string name="network_roaming_warning">Connecting to the internet in roaming incurs specific charge for you. Your operator informs you once your data consumption abroad reaches certain thresholds. Check roaming tariffs and choose the option that suits you best from your operator.</string>
+    <string name="network_roaming_warning_title">"Allow data roaming?"</string>
+    <string name="prefer_2g">"Use only 2G networks"</string>
+    <string name="updating_settings">"Updating settings"</string>
+    <!-- Orange customization end -->
+    
+    <!-- Thethering apn settings menu -->
+    <string name="tethering_apn_settings_title">APN settings</string>
+    <!-- Thethering apn settings menu -->
+    <string name="tethering_apn_settings_summary">Configure APN for tethering</string> 
+    <string-array name="bookmarks_for_op03" translatable="false">
+    <item>Orange world</item>
+    <item translatable="false">http://www.orange.fr</item>
+    <item>Orange Entreprises</item>
+    <item translatable="false">http://accueil.orangemib.net</item>
+    <item>Actu</item>
+    <item translatable="false">http://info.mob1.orange.fr</item>
+    <item>Meteo</item>
+    <item translatable="false">http://meteo.mob1.orange.fr</item>
+    <item>Jeux</item>
+    <item translatable="false">http://jeux.mob1.orange.fr</item>
+    <item>Sport</item>
+    <item translatable="false">http://sport.mob1.orange.fr</item>
+    <item>Trafic</item>
+    <item translatable="false">http://trafic2.mob1.orange.fr</item>
+    <item>Business Lounge</item>
+    <item translatable="false">http://business.lounge.orange.fr</item>
+    <item>My Friends</item>
+    <item translatable="false">http://www.orange.fr/0/accueil/Retour?SA=MOCDEVICE</item>
+    <item>BlackBerry-touch</item>
+    <item translatable="false">http://www.blackberry-touch.com</item>
+  </string-array>
+</resources>

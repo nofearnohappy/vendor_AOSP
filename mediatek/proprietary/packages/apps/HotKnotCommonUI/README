@@ -1,0 +1,23 @@
+Common UI provider a user interface to show the HotKnot transmission page
+
+WHAT IT DOES?
+=============
+This application provider a user interface to show the HotKnot the tramission page.
+
+HOW IT WAS BUILT?
+==================
+1. The featureoption MTK_HOTKNOT_SUPPORT should be true.
+
+
+
+[Build Method]
+make HotKnotCommonUI
+or 
+mmm vendor/mediatek/proprietary/packages/apps/HotKnotCommonUI
+
+HOW TO USE IT?
+==============
+
+1.It is launched after receiving com.mediatek.hotknot.action.SHARE intent which is sent from apps.
+
+All the source code of this module were written by MediaTek co..

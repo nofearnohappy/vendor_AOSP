@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">গ্রহণ করা শুরু করুন...</string>
+    <string name="notification_group_title"><xliff:g id="number">%d</xliff:g> ফাইল গ্রহণ করছে...</string> 
+    <string name="notification_download_done">বিস্তারিত দেখতে স্পর্শ করুন</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> ফাইল এসেছে </string>
+    <string name="notification_received">সফলভাবে এসেছে</string> 
+    <string name="notification_download_failure"><xliff:g id="reason">%s</xliff:g>-এর কারণে গ্রহণ করতে ব্যর্থ হয়েছে</string> 
+    <string name="notification_download_cancel">গ্রহণ করা বাতিল হয়েছে</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> ফাইল ব্যর্থ হয়েছে</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> ফাইল ব্যর্থ হয়েছে, <xliff:g id="number">%d</xliff:g> ফাইল এসেছে</string>
+    <string name="download_no_file">ফাইল বিদ্যমান নেই</string>
+    <string name="notification_sending">পাঠানো শুরু করুন...</string>
+    <string name="notification_group_upload_title"><xliff:g id="number">%d</xliff:g> ফাইল পাঠাচ্ছে...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> ফাইল পাঠানো হয়েছে</string>
+    <string name="notification_sent">সফলভাবে পাঠানো হয়েছে</string>
+    <string name="notification_upload_failed"><xliff:g id="reason">%s</xliff:g>-এর কারণে পাঠাতে ব্যর্থ হয়েছে</string>
+    <string name="notification_upload_cancel">পাঠানো বাতিল হয়েছে</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> ফাইল ব্যর্থ হয়েছে</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> ফাইল ব্যর্থ হয়েছে, <xliff:g id="number">%d</xliff:g> ফাইল পাঠানো হয়েছে</string>
+    <string name="low_storage">কম স্টোরেজ</string>
+    <string name="connect_failure">সংযোগে সমস্যা</string>
+    <string name="unknown_error">অজানা ত্রুটি</string>
+    <string name="share_label">হটনট শেয়ার</string>
+    <string name="rx_ui_image_status"><xliff:g id="device">%s</xliff:g> থেকে ছবি গ্রহণ করছে</string>
+    <string name="rx_group_ui_image_status"><xliff:g id="device">%3$s</xliff:g> থেকে <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ছবি গ্রহণ করছে</string>
+    <string name="rx_ui_video_status"><xliff:g id="device">%s</xliff:g> থেকে ভিডিও গ্রহণ করছে</string>
+    <string name="rx_group_ui_video_status"><xliff:g id="device">%3$s</xliff:g> থেকে <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ভিডিও গ্রহণ করছে</string>
+    <string name="rx_ui_status"><xliff:g id="device">%s</xliff:g> থেকে ফাইল গ্রহণ করছে</string>                
+    <string name="rx_group_ui_status"><xliff:g id="device">%3$s</xliff:g> থেকে <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ফাইল গ্রহণ করছে</string>
+    <string name="rx_ui_music_status"><xliff:g id="device">%s</xliff:g> থেকে সংগীত গ্রহণ করছে</string>
+    <string name="rx_group_ui_music_status"><xliff:g id="device">%3$s</xliff:g> থেকে <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> সংগীত গ্রহণ করছে</string>
+    <string name="rx_ui_failed_status">গ্রহণ করা অসমাপ্ত</string>
+</resources>

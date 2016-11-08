@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"Bluetooth телефон кітапшасына қол жеткізу"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"Bluetooth PBAP рұқсат алу сауалы"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"Bluetooth PBAP аутентификация сауалы"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"PBAP байланысына рұқсат ету үшін таңдаңыз"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"Bluetooth PBAP рұқсат алу"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"Қол жеткізу коды"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">SMS қызмет көрсету орталығы орнатылған</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"Жүктеуді болдырмау қажет пе?\nЖүктеуді жалғастыру үшін Жалғастыру түймешігін басыңыз\n Жүктеуді тоқтату және жүктелген файлды жою үшін Жою түймешігін басыңыз"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">Рұқсат ету</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"Bluetooth PBAP рұқсат алу сауалы"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"%1$s арқылы PBAP байланыс сауалына рұқсат етесіз бе?"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"Bluetooth PBAP аутентификация сауалы"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message">"%1$s арқылы PBAP аутентификация сауалы"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">Деректерді беру жылдамдығы төмендейді.</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"Әрқашан рұқсат етілген?"</string>
+</resources>

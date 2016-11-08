@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">警告無し</string>
+	<string name="bt_prxm_alert_level_mild">中警告</string>
+	<string name="bt_prxm_alert_level_high">高警告</string>
+	<string name="bt_prxm_device_mgmt_label">Bluetooth距離</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">Bluetoothをサポートしていない限り動作しません</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">Bluetoothを有効にしていない限り動作しません</string>
+	<string name="bt_prxm_device_mgmt_title">Bluetooth距離モニター</string>
+	<string name="bt_prxm_device_mgmt_add_device">デバイスを追加する</string>
+	<string name="bt_prxm_device_mgmt_remove_device">デバイスを削除する</string>
+	<string name="bt_prxm_device_mgmt_device_list">近接距離にあるデバイス</string>
+	<string name="bt_prxm_device_pref_device_setting">リンク喪失：%1$s / パス喪失：%2$s</string>
+	<string name="bt_prxm_devs_title">近接設定</string>
+	<string name="bt_prxm_devs_connect_title">"接続"</string>
+	<string name="bt_prxm_devs_connect_summary">近接距離にあるデバイスと接続する</string>
+	<string name="bt_prxm_devs_connect_failed">接続できません</string>
+	<string name="bt_prxm_devs_disconnect_failed">接続を外せません</string>
+	<string name="bt_prxm_find_device_title">デバイスの検索</string>
+	<string name="bt_prxm_find_device_summary">アラートをトリガーすることで、このデバイスを検索する</string>
+	<string name="bt_prxm_find_device_cancel_summary">クリックして、ターゲットデバイスでアラートをキャンセルします</string>
+	<string name="bt_prxm_devs_link_loss_group_title">リンク喪失</string>
+	<string name="bt_prxm_devs_link_loss_level_title">リンク喪失警告レベル</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">設定警告レベル</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">リンク喪失警告レベルを設定できません</string>
+	<string name="bt_prxm_devs_path_loss_group_title">パス喪失</string>
+	<string name="bt_prxm_devs_path_loss_level_title">パス喪失警告レベル</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">設定警告レベル</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">パス喪失しきい値</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">信号強度しきい値を設定する</string>
+	<string name="bt_prxm_plt_current_rssi">現在の推定距離</string>
+	<string name="bt_prxm_plt_using_current_rssi">現在の推定距離をパス喪失警告しきい値に利用する</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">パス喪失しきい値</string>
+</resources>

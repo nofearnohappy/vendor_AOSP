@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Դիմանկար"</item>
+		<item>Հորիզոնական թողարկիչ</item>
+		<item>"հակառակ դիմանկար"</item>
+		<item>"հակառակ բնանկար"</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Միկողմանի"</item>
+		<item>"Երկկողմանի երկար եզրով"</item>
+		<item>"Երկկողմանի կարճ եզրով"</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Սովորական"</item>
+		<item>Սևագիր</item>
+		<item>"Բարձր"</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+		<item>Կատարողի անհայտ անուն</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"սխալ չկա"</item>
+		<item>"v-card ֆայլի ստեղծումը ձախողվեց"</item>
+		<item>"Չաջակցվող պատկերի ձևաչափ"</item>
+	</string-array>
+</resources>

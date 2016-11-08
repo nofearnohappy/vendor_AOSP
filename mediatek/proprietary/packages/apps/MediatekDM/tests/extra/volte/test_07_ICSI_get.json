@@ -1,0 +1,9 @@
+[
+	{ operationName : "Get", nodeUri : "./IMSMO/ICSI_List", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/ICSI_List/1/ICSI", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/ICSI_List/1/ICSI_Resource_Allocation_Mode", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/ICSI_List/2/ICSI", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/ICSI_List/2/ICSI_Resource_Allocation_Mode", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/ICSI_List/3/ICSI", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/ICSI_List/3/ICSI_Resource_Allocation_Mode", objectValue : "", objectType : "", newNode : "" },
+]

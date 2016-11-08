@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ofm_add_icon"
+        android:title="@string/menu_share"/>
+    <item
+        android:id="@+id/menu_view_contact"
+        android:icon="@drawable/ofm_add_icon"
+        android:title="@string/menu_view_contact"/>
+    <item
+        android:id="@+id/menu_add_contact"
+        android:icon="@drawable/ofm_add_icon"
+        android:title="@string/menu_add_contact"/>
+
+</menu>
+<!--
+           <menu>  
+            <item android:id="@+id/action_sort_size"  
+                  android:icon="@drawable/ic_launcher"  
+                  android:title="bbbbbbbb"  
+                  android:onClick="onSort" />  
+            <item android:id="@+id/action_sort_alpha"  
+                  android:icon="@android:drawable/ic_menu_sort_by_size"  
+                  android:title="aaaaaa"  
+                  android:onClick="onSort" />  
+                  </menu> 
+
+-->

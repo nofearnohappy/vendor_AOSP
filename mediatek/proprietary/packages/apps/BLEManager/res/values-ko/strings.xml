@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">탭핑하면 블루투스가 켜집니다</string>
+    <string name="tap_to_add_device">탭핑하면 장치가 추가됩니다</string>
+    <string name="turning_on_bluetooth">블루투스를 켜는 중…</string>
+    <string name="launcher_activity_name">BLE 관리자</string>
+    <string name="scanning_devices">장치 검색 중</string>
+    <string name="delete_devices">새 장치를 연결하려면 장치 하나의 연결을 끊으십시오</string>
+    <string name="cancel">"취소"</string>
+    <string name="ok">"확인"</string>
+    <string name="alert_setting">"알림"</string>
+    <string name="device_manager">장치 관리자</string>
+    <string name="out_of_range_alert_text">범위 초과 경고</string>
+    <string name="in_range_alert_text">범위 내 경고</string>
+    <string name="range_alert_text">내 범위</string>
+    <string name="range_alert_summary">장치가 범위 내에 있거나 범위를 벗어난 경우 전화와 장치 모두 경고</string>
+    <string name="range_near_text">근처</string>
+    <string name="range_middle_text">중간</string>
+    <string name="range_far_text">"축소"</string>
+    <string name="range_1_distance_text">약 1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">전화 경고 설정</string>
+    <string name="ringtone_tye_text">"벨소리"</string>
+    <string name="volume_text">"볼륨"</string>
+    <string name="vibration_text">진동</string>
+    <string name="vibration_summary_on">"사용"</string>
+    <string name="vibration_summary_off">"사용 중지됨"</string>
+    <string name="device_name">"장치 이름"</string>
+    <string name="push_notification_text">장치에 대한 푸시 알림</string>
+    <string name="incoming_call_notification_text">"수신 전화"</string>
+    <string name="missed_call_notificaiotn_text">"부재중 전화"</string>
+    <string name="new_message_notification_text">"새 메시지"</string>
+    <string name="new_email_notification_text">"새 이메일"</string>
+    <string name="disconnection_text">연결 끊기 설정</string>
+    <string name="disconnection_waring_title">연결 끊기 경고</string>
+    <string name="disconnection_waring_summary">장치 연결이 끊어지면 전화와 장치 모두 경고</string>
+    <string name="device_name_change_dialog_title">"이름 바꾸기"</string>
+    <string name="disconnect_text">"연결 끊기"</string>
+    <string name="delete_text">"삭제"</string>
+    <string name="connect_text">"연결"</string>
+    <string name="device_delete_dialog_message">이 장치를 삭제하시겠습니까?</string>
+    <string name="device_disconnect_dialog_message">장치 연결을 끊으시겠습니까?</string>
+    <string name="find_all_text">모두 찾기</string>
+    <string name="default_images">기본 이미지</string>
+    <string name="range_information_text">범위는 신호 강도에 따라 다릅니다. 이상적인 상황에서, 범위는 30 미터 이상이 될 수 있습니다.  특정 요소가 신체, 벽, 기타 장애물까지의 거리를 15 미터 이하로 줄일 수 있습니다. </string>
+    <string name="range_information_dialog_check_box_text">다시 표시하지 않음</string>
+    <string-array name="device_image_chooser_items">
+        <item>기본 이미지에서 선택</item>
+        <item>"사진 촬영"</item>
+        <item>갤러리에서 선택</item>
+    </string-array>
+    <string name="add_device">장치 추가</string>
+    <string name="yes">"예"</string>
+    <string name="no">"아니요"</string>
+    <string name="connecting_text">"연결 중..."</string>
+    <string name="enable_background_service">배경 모드 사용</string>
+    <string name="disable_background_service">배경 모드 사용 안 함</string>
+    <string name="ble_manager_alert">BLE 관리자 경고</string>
+    <string name="check">확인</string>
+    <string name="dismiss">무시</string>
+    <string name="disconnected">"연결 끊김"</string>
+    <string name="in_range">범위 내에 있음</string>
+    <string name="out_of_range">범위를 벗어남</string>
+    <string name="no_found">블루투스 장치를 찾을 수 없습니다.</string>
+    <string name="bt_off">블루투스가 꺼졌습니다. 블루투스를 켜십시오.</string>
+</resources>

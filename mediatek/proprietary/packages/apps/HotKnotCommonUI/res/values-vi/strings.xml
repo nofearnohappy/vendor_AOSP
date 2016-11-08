@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Chia sẻ HotKnot</string>
+    <string name="hint1">Đảm bảo thiết bị nhận đã bật HotKnot, và giữ màn hình thiết bị không bị khóa.</string>
+    <string name="hint2">Đặt thiết bị của bạn song song với màn hình thiết bị nhận.</string>
+    <string name="hint3">Đưa thiết bị của bạn ra xa thiết bị nhận sau khi nghe một âm báo.</string>
+    <string name="use_hotknot">Ứng dụng này cần sử dụng công nghệ HotKnot trên thiết bị của bạn.</string>
+    <string name="allow">"Cho phép"</string>
+    <string name="deny">"Từ chối"</string>
+    <string name="fail_to_share">Không thể chia sẻ</string>
+    <string name="fail_to_share_conn_error">Không thể chia sẻ do sự cố kết nối.</string>
+    <string name="fail_to_share_unknown_error">Không thể chia sẻ do lỗi không xác định.</string>
+    <string name="try_again">"Thử lại"</string>
+    <string name="usb_warning">Chức năng HotKnot có thể bị ảnh hưởng trong khi sạc qua USB.</string>
+</resources>

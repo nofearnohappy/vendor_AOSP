@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Hotspot Wi-Fi portabil</string>
+    <string name="wifi_tether_introduction_text">Transformându-ţi dispozitivul într-un hotspot Wi-Fi portabil, poţi partaja conexiunea la internet cu până la opt alte dispozitive în acelaşi timp.\n\nReţine că tethering-ul va folosi date mobile. Acest lucru îţi poate crește semnificativ costurile cu apelurile şi poate reduce durata de viaţă a bateriei.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Introdu o cartelă SIM şi reporneşte dispozitivul pentru a utiliza hotspot-ul Wi-Fi portabil sau tethering-ul.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Nu afişa din nou acest mesaj</string>
+    <string name="wifi_tether_turn_off_wifi">Pentru a activa hotspot-ul Wi-Fi portabil, va trebui să întrerupem mai întâi conexiunea ta Wi-Fi. Doreşti să continui?</string>
+    <string name="wifi_tether_settings_text">Setări hotspot Wi-Fi portabil</string>
+    <string name="tether_apn_settings_text">APN tethering</string>
+    <string name="tether_apn_settings_subtext">Setează APN-ul implicit pentru tethering</string>
+    <string name="usb_tethering_accessory_active_subtext">Tethering-ul nu poate fi activat când se utilizează USB-ul.</string>
+    <string name="operator_display">Afişează operator de reţea</string>
+    <string name="operator_display_summary">Afişează operator de reţea în bara de stare</string>
+    <string name="by_orange">de la Orange</string>
+    <string name="recommended_by_orange">Recomandat de Orange</string>
+    <string name="smsmms_app_name">Mesaje nu este activă</string>
+    <string name="click_to_change_to_xms_app">Mesaje nu este aplicaţia ta de SMS implicită.</string>
+    <string name="click_to_change_to_xms_app_line2">Atinge aici pentru mai multe informaţii.</string>
+    <string name="sms_change_default_dialog_text1">Aplicaţia Mesaje este testată de Orange pentru a funcţiona pe dispozitivul tău.\n\n
+
+Utilizarea altor aplicaţii de SMS ar putea provoca probleme cu trimiterea şi primirea mesajelor SMS şi MMS.\n\n
+
+Utilizezi <xliff:g id="new_app">%s</xliff:g> în loc de <xliff:g id="current_app">%s</xliff:g> ca aplicaţia ta de SMS?</string>
+    
+</resources>

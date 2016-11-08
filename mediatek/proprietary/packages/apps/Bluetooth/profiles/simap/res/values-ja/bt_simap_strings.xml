@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="simap_remote_request">"リモートSIMリクエスト"</string>
+	<string name="simap_acceptance_dialog_title">"%1$sがSIMにアクセスしようとしています。%2$sへアクセスを許可しますか？"</string>
+	<string name="simap_acceptance_timeout_message">"%1$sとのアクセス許可がタイムアウトしました"</string>
+	<string name="simap_disconnected_message">"%1$sとの接続が外れます。"</string>
+	<string name="simap_defaultname">"車載キット"</string>
+	<string name="simap_request_notif_message">"%1$sからのリモートSIMリクエストを許可します"</string>
+	<string name="simap_incoming_conn_confirm_cancel">データ転送レートは低下します。</string>
+	<string name="simap_incoming_conn_confirm_ok">自動プッシュサービスを受け入れますか？</string>
+	<string name="simap_connected_notify_ticker">"リモートSIMが接続されました"</string>
+	<string name="simap_connected_notify_title">"%1$sがSIMに接続されています"</string>
+	<string name="simap_connected_notify_message">"選択して接続を外す"</string>
+	<string name="simap_disconnect_title">"リモートSIMの接続を外す"</string>
+	<string name="simap_disconnect_message">"%1$sとの接続を外しますか？"</string>
+	<string name="simap_disconnect_yes">"はい"</string>
+	<string name="simap_disconnect_no">連絡先を印刷できるアプリが見つかりません。</string>
+    <string name="bluetooth_simap_server_settings">リモートSIM設定</string>
+    <string name="bluetooth_simap_server_enable_title">リモートSIMモード</string>
+    <string name="bluetooth_simap_server_enable_summary">"ONにする"</string>
+    <string name="bluetooth_simap_server_sim_index_title">SIMカードを選択</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim1">SIM1</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim2">SIM2</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim3">SIM3</string>
+    <string name="bluetooth_simap_server_sim_index_summary_sim4">SIM4</string>
+    <string-array name="bluetooth_simap_server_sim_index_entries">
+        <item>SIM1</item>
+        <item>SIM2</item>
+        <item>SIM3</item>
+        <item>SIM4</item>
+    </string-array>
+    <string-array name="bluetooth_simap_server_sim_index_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

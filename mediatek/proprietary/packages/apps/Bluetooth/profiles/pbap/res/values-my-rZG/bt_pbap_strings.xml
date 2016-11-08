@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"ဘလူးတု(သ္) ဖုန္းစာအုပ္ဝင္ခြင့္"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"ဘလူးတု(သ္) PBAP တရားဝင္ ဝင္ခြင့္ေတာင္းဆိုမႈ"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"ဘလူးတု(သ္) PBAP တရားဝင္ ဝင္ခြင့္ေတာင္းဆိုမႈ"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"PBAP ခ်ိတ္ဆက္မႈခြင့္ျပဳရန္ ေရြးခ်ယ္ပါ"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"ဘလူးတု(သ္) PBAP တရားဝင္ဝင္ခြင့္"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"စကားဝွက္"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">SMS ဆားဗစ္စင္တာထားရွိျခင္း ေအာင္ျမင္</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"ေဒါင္းလုဒ္လုပ္ျခင္းကို တကယ္ ရပ္ဆိုင္းမလား။\nေဒါင္းလုဒ္ဆက္လုပ္ရန္ ဆက္လုပ္မည္ကို ႏွိပ္ပါ\nေဒါင္းလုဒ္ လုပ္ျခင္းအား ျဖဳတ္ခ်ၿပီး ေဒါင္းလုဒ္ လုပ္ထားေသာဖိုင္အား ဖယ္ရွားရန္ ျဖဳတ္ခ်မည္ကို ႏွိပ္ပါ"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">ခြင့္ျပဳပါ</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"ဘလူးတု(သ္) PBAP တရားဝင္ ဝင္ခြင့္ေတာင္းဆိုမႈ"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"%1$s မွ PBAP ခ်ိတ္ဆက္မႈ ေတာင္းဆိုခ်က္ကို ခြင့္ျပဳမလား။"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"ဘလူးတု(သ္) PBAP တရားဝင္ ဝင္ခြင့္ေတာင္းဆိုမႈ"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message"> "%1$s မွ PBAP တရားဝင္ ခြင့္ျပဳခ်က္ေတာင္းဆိုမႈ"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">ေဒတာ လႊင့္ထုတ္ႏႈန္း က်ဆင္းသြားလိမ့္မည္။</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"အျမဲခြင့္ျပဳမလား။"</string>
+</resources>

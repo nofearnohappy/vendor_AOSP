@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbóletöltés</string>
+    <string name="hetcomm_intro">Nagyméretű fájlok (több mint 20 MB méretű) gyorsabb letöltése Wi-Fi és 4G/3G hálózat egyidejű használatával. A Turbó letöltés ikon az állapotsoron látható, ha fut. A Turbó letöltés használatához mind a Wi-Fi-nek, mind a Mobil adatszolgáltatásnak bekapcsolt állapotban kell lennie. Ha engedélyezett, a csak a Wi-Fi-n történő letöltésre kijelölt alkalmazási adatok letöltése ennek ellenére a WLAN és 4G/3G hálózaton megtörténik.</string>
+    <string name="enable_switch_on">be</string>
+    <string name="enable_switch_off">Ki</string>
+    <string name="notify_top_title">Letöltésgyorsító</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobiladatok"</string>
+    <string name="conn_notice_title">Vagy a Mobilhálózat, vagy Wi-Fi KI van kapcsolva</string>
+    <string name="conn_notice_detail">A Turbó letöltés engedélyezéséhez mind a Wi-Fi-nek, mind a Mobil adatszolgáltatásnak bekapcsolt állapotban kell lennie.</string>
+    <string name="conn_charging_warning">A mobilhálózaton történő letöltésért további díjat számolhatnak fel.</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> bekapcsolása</string>
+    <string name="turn_off_due_to_vpn">A Turbó letöltés KI van kapcsolva, mert a Vpn BE van kapcsolva</string>
+    <string name="turn_off_due_to_tether">A Turbó letöltés KI van kapcsolva, mert az internet-megosztás BE van kapcsolva</string>
+    <string name="turn_off_due_to_shutdown">A Turbó letöltés leállítás miatt KI van kapcsolva</string>
+    <string name="turn_off_due_to_roaming">A Turbó letöltés barangolás miatt KI van kapcsolva</string>
+    <string name="ratio_is_single">A Wi-Fi-/mobilkapcsolat adatátviteli sebessége lassú. A Turbo-letöltés kizárólag mobil adatforgalmat/Wi-Fi-kapcsolatot használ a fájlok letöltéséhez, hogy felgyorsítsa a letöltést.</string>
+    <string name="ratio_is_back">A Turbo-letöltés ismét felhasználja a Wi-Fi- és mobil adatforgalmat a fájlok letöltéséhez.</string>
+    <string name="action_help">Súgó</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbó Letöltés súgó</u>\
+    </h1><br>Nagyméretű fájlok letöltése csúcssebességen Wi-Fi és 4G/3G egyidejű használatával.\
+    <h4>1. Lépjen a Settings (Beállítások) elemre, majd érintse meg a Turbó Letöltés elemet.</h4>\
+    <h4>2. Érintse meg a kapcsolót a Turbó Letöltés bekapcsolásához. </h4>\
+    <p><b>[Tipp]</b> A letöltés gyorsításához, ha a letöltés kezdetén mind Wi-Fi-hez, mind 4G/3G-hez kapcsolódik. \
+    <p><b>[Tipp]</b> Ha a Wi-Fi vagy a 4G/3G kapcsolat túl lassú, a letöltéshez a gyorsabb hálózati kapcsolatot használhatja.\
+    <p><b>[Tipp]</b> A Turbó Letöltés sebességét és teljesítményét letöltés közben a hálózati környezet befolyásolhatja.\
+    <br>&nbsp;&nbsp;- Ha a jel labilis, befolyásolhatja a szolgáltatás sebességét és teljesítményét. \
+    <br>&nbsp;&nbsp;- Általában azonban a letöltési sebesség ""duplázódhat"" a Wi-Fi vagy 4G/3G különálló használatához képest.\
+    <p><b>[Tipp]</b> Ha a Wi-Fi és 4G/3G sebességbeli különbsége nagy (általában 2,5-szeres), a Turbó Letöltés leáll, vagy nem lesz támogatott, nehogy a teljesítmény a sebességhez képest gyenge legyen.\
+    <p><b>[Tipp]</b> A Turbó Letöltés letiltása automatikusan megtörténik, amint az Internet-megosztás/Vpn bekapcsolódik.\
+    </body></html>]]>"</string>
+</resources>

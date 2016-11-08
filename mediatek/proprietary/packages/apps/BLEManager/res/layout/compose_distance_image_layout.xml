@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/range_bg_image"
+        android:layout_width="177dp"
+        android:layout_height="177dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/in_range_bg"
+        android:layout_marginTop="12dp"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/distance_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:id="@+id/distance_near_image"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/distance_middle_image"
+            android:layout_width="89dp"
+            android:layout_height="89dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/distance_far_image"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/range_indicator_image"
+        android:layout_width="13dp"
+        android:layout_height="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/distance_layout"
+        android:src="@drawable/ic_range_arrow_r" />
+
+</RelativeLayout>

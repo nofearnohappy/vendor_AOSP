@@ -1,0 +1,15 @@
+WHAT IT DOES?
+=============
+Native deamon service, used to dispatch hotknot command from framework
+to hotknot vendor library
+
+HOW IT WAS BUILT?
+==================
+Pre-built "libhotknot.so" library is provided
+
+HOW TO USE IT?
+==============
+Hotknot framwrok invoke JNI APIs from libhotknot.so, and dispatch command
+or acquire data from vendor library(libhotknot_vendor.so).
+
+All the source code of this module were written by MediaTek co..

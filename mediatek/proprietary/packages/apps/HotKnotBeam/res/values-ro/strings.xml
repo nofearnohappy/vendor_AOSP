@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Începere primire...</string>
+    <string name="notification_group_title">Se primesc <xliff:g id="number">%d</xliff:g> (de) fişiere...</string> 
+    <string name="notification_download_done">Atingeţi pentru a vizualiza detalii</string>
+    <string name="notification_group_received">S-au primit <xliff:g id="number">%d</xliff:g> (de fişiere)</string>
+    <string name="notification_received">Primirea s-a finalizat cu succes</string> 
+    <string name="notification_download_failure">Primirea a eşuat din următorul motiv: <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Primire anulată</string>
+    <string name="notification_group_received_failed">Trimiterea a <xliff:g id="number">%d</xliff:g> (de) fişiere a eşuat</string>
+    <string name="notification_group_received_partial_failed">Primirea a <xliff:g id="number">%d</xliff:g> (de) fişiere a eşuat, <xliff:g id="number">%d</xliff:g> (de fişiere) au fost primite</string>
+    <string name="download_no_file">Fişierul nu există</string>
+    <string name="notification_sending">Începere trimitere...</string>
+    <string name="notification_group_upload_title">Se trimit <xliff:g id="number">%d</xliff:g> (de) fişiere...</string>
+    <string name="notification_group_sent">S-au trimis <xliff:g id="number">%d</xliff:g> (de fişiere)</string>
+    <string name="notification_sent">Trimiterea s-a finalizat cu succes</string>
+    <string name="notification_upload_failed">Trimiterea a eşuat din următorul motiv: <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Trimitere anulată</string>
+    <string name="notification_group_sent_failed">Trimiterea a <xliff:g id="number">%d</xliff:g> (de) fişiere a eşuat</string>
+    <string name="notification_group_sent_partial_failed">Trimiterea a <xliff:g id="number">%d</xliff:g> (de) fişiere a eşuat, <xliff:g id="number">%d</xliff:g> (de fişiere) au fost trimise</string>
+    <string name="low_storage">capacitate de stocare redusă</string>
+    <string name="connect_failure">"Problemă de conexiune"</string>
+    <string name="unknown_error">Eroare necunoscută</string>
+    <string name="share_label">Partajare HotKnot</string>
+    <string name="rx_ui_image_status">Se primeşte imaginea de la dispozitivul <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Se primesc <xliff:g id="number">%1$d</xliff:g> din <xliff:g id="total">%2$d</xliff:g> (de) imagini de la dispozitivul <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Se primesc conţinuturi video de la dispozitivul <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Se primesc <xliff:g id="number">%1$d</xliff:g> din <xliff:g id="total">%2$d</xliff:g> (de) conţinuturi video de la dispozitivul <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Se primeşte fişierul de la dispozitivul <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Se primesc <xliff:g id="number">%1$d</xliff:g> din <xliff:g id="total">%2$d</xliff:g> (de) fişiere de la dispozitivul <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Se primesc fişierele muzicale de la dispozitivul <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Se primesc <xliff:g id="number">%1$d</xliff:g> din <xliff:g id="total">%2$d</xliff:g> (de) fişiere muzicale de la dispozitivul <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Primirea nu s-a finalizat</string>
+</resources>

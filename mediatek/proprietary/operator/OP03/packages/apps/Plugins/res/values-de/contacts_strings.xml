@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done" msgid="796017761764190697">"Fertig"</string>  
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Löschen"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Alle auswählen"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Auswahl für alle aufheben"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Neu"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> ausgewählt</string>
+    <string name="multichoice_no_select_alert">"Kein Element ausgewählt."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">USIM-Kennzeichen für zusätzliche Nummern</string>  
+    <string name="aas_phone_type_none">-</string>  
+    <string name="aas_new_dialog_title">Neue Kennzeichnung hinzufügen</string>  
+    <string name="ass_rename_dialog_title">Kennzeichnung ändern</string>  
+    <string name="aas_delele_dialog_message">Das Löschen der Kennzeichnungen wirkt sich auf sämtliche zusätzliche Nummern aus, die mit den Kennzeichnungen verknüpft sind. Sind Sie sicher?</string>  
+    <string name="aas_name_invalid">Der Kennzeichnungsname ist ungültig. Bitte etwas anderes eingeben.</string>  
+    <string name="aas_name_exist">Die Kennzeichnung ist bereits vorhanden.</string>  
+    <string name="aas_usim_full">Kein Platz für neue Kennzeichnungen.</string>  
+    <string name="ass_edit_assert_message">Das Ändern der Kennzeichnungen wirkt sich auf sämtliche zusätzliche Nummern aus, die mit den Kennzeichnungen verknüpft sind. Sind Sie sicher?</string>  
+    <string name="aas_new_fail">Neue Kennzeichnung konnte nicht erstellt werden.</string>  
+    <string name="aas_edit_fail"> 
+        <xliff:g id="aas">%s</xliff:g> konnte nicht umbenannt werden.
+    </string>  
+    <string name="aas_delete_fail"> 
+        <xliff:g id="aas">%s</xliff:g> konnte nicht gelöscht werden.
+    </string>  
+    <string name="aas_phone_primary">Primäre Nummer</string>  
+    <string name="aas_phone_additional">Zusätzliche Nummer</string>  
+    <!-- aas strings end-->
+
+    <string name="nickname_too_long">"Nickname ist zu lang."</string>
+</resources>

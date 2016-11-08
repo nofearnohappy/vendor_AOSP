@@ -1,0 +1,16 @@
+WHAT IT DOES?
+=============
+The library of PQ Service, supports user to control PQ configuration.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libutils.so
+2.  libcutils.so
+3.  libdl
+4.  libbinder
+
+HOW TO USE IT?
+==============
+Will be linked with the pq executable and any other modules need to
+control PQ.

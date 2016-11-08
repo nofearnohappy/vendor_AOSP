@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Suchen</string>
+    <string name="search_widget">Suchen</string>
+    <string name="remove_from_history">Wollen Sie dieses Element aus dem Suchverlauf löschen?</string>
+    <string name="remove_from_history_failed">Element konnte nicht aus Suchverlauf gelöscht werden.</string>
+    <string name="corpus_selection_heading">Suchen</string>
+    <string name="corpus_label_global">Alles</string>
+    <string name="corpus_label_web">Web</string>
+    <string name="corpus_description_web">Web-Suche, Lesezeichen und Browser-Verlauf</string>
+    <string name="corpus_label_apps">Apps</string>
+    <string name="corpus_description_apps">Namen installierter Anwendungen</string>
+    <string name="corpus_hint_apps">Apps suchen</string>
+    <string name="menu_settings">Einstellungen suchen</string>
+    <string name="search_settings">Einstellungen suchen</string>
+    <string name="google_settings_category_title">Google-Suche</string>
+    <string name="device_settings_category_title">Verknüpfung löschen</string>
+    <string name="system_search_category_title">Telefon</string>
+    <string name="search_sources">Zu durchsuchende Elemente</string>
+    <string name="search_sources_summary">Auswählen was auf dem Telefon gesucht werden soll.</string>
+    <string name="clear_shortcuts">Verknüpfung löschen</string>
+    <string name="clear_shortcuts_summary">Verknüpfung für kürzlich ausgewählte Suchvorschläge löschen</string>
+    <string name="clear_shortcuts_prompt">"Wollen Sie alle Verknüpfungen zu kürzlich ausgewählten Suchvorschlägen löschen?"\n\n"Verwenden Sie die Browser-Einstellungen, um den Browser-Verlauf zu löschen."</string>
+    <string name="clear_shortcuts_agree">OK</string>
+    <string name="clear_shortcuts_disagree">Abbrechen</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="google_search_label">Google</string>
+    <string name="google_app_label">Google-Suche</string>
+    <string name="google_search_hint">Google-Suche</string>    
+    <string name="google_search_description">Google-Suchvorschläge</string>    
+    <string name="voice_search_hint_title">Versuchen Sie zu sagen:</string>
+    <string name="voice_search_hint_quotation_start">“</string>
+    <string name="voice_search_hint_quotation_end">”</string>
+</resources>

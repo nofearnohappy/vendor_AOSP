@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Starting to receive...</string>
+    <string name="notification_group_title">Receiving <xliff:g id="number">%d</xliff:g> files...</string> 
+    <string name="notification_download_done">Touch to view details</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> files received</string>
+    <string name="notification_received">Receive successful.</string> 
+    <string name="notification_download_failure">Failed to receive <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Receive cancelled</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> files failed</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> files failed, <xliff:g id="number">%d</xliff:g> files received</string>
+    <string name="download_no_file">File does not exist</string>
+    <string name="notification_sending">Starting to send...</string>
+    <string name="notification_group_upload_title">Sending <xliff:g id="number">%d</xliff:g> files...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> files sent</string>
+    <string name="notification_sent">Send successful.</string>
+    <string name="notification_upload_failed">Failed to send <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Sending cancelled.</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> files failed</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> files failed, <xliff:g id="number">%d</xliff:g> files sent</string>
+    <string name="low_storage">Storage space low</string>
+    <string name="connect_failure">"Connection problem"</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="share_label">HotKnot Share</string>
+    <string name="rx_ui_image_status">Receiving image from <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Receiving <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> images from <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Receiving video from <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Receiving <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> videos from <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Receiving file from <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Receiving <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> files from <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Receiving music from <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Receiving <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> music from <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Receive incomplete!</string>
+</resources>

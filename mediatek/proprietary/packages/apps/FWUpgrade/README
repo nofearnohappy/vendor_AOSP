@@ -1,0 +1,16 @@
+binder of Firmware Upgrade
+
+WHAT IT DOES?
+=============
+This binder provider a interface to check that whether the ROM is damaged.
+
+HOW IT WAS BUILT?
+==================
+1. The featureoption MTK_FW_UPGRADE should be true.
+
+It needs the following library from AOSP:
+1. framework.jar
+
+HOW TO USE IT?
+==============
+It's called by FWUpgrade.apk

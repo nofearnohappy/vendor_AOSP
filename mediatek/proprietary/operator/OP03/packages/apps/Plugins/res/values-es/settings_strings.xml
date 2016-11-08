@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Zona Wi-Fi portátil</string>
+    <string name="wifi_tether_introduction_text">Si conviertes tu dispositivo en una zona Wi-Fi portátil, podrás compartir su conexión a Internet con hasta ocho dispositivos simultáneamente.\n\nTen en cuenta que la función de tethering utiliza datos móviles, lo que puede incrementar considerablemente los costes de llamadas y reducir la duración de la batería.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Para utilizar la función de tethering o zona Wi-Fi portátil, inserta una tarjeta SIM y reinicia el dispositivo.</string>
+    <string name="wifi_tether_checkbox_show_once_more">No volver a mostrar este mensaje</string>
+    <string name="wifi_tether_turn_off_wifi">Para activar la zona Wi-Fi portátil, primero tendrás que desactivar la conexión Wi-Fi. ¿Deseas continuar?</string>
+    <string name="wifi_tether_settings_text">Configuración de la zona Wi-Fi portátil</string>
+    <string name="tether_apn_settings_text">APN de tethering</string>
+    <string name="tether_apn_settings_subtext">Establecer el APN predeterminado para tethering</string>
+    <string name="usb_tethering_accessory_active_subtext">La función de tethering no se puede activar cuando se está utilizando la conexión USB.</string>
+    <string name="operator_display">Mostrar operador de red</string>
+    <string name="operator_display_summary">Mostrar operador de red en la barra de estado</string>
+    <string name="by_orange">de Orange</string>
+    <string name="recommended_by_orange">Recomendado por Orange</string>
+    <string name="smsmms_app_name">Mensajes no está activa</string>
+    <string name="click_to_change_to_xms_app">Mensajes no es tu aplicación de SMS predeterminada.</string>
+    <string name="click_to_change_to_xms_app_line2">Toca aquí para más información.</string>
+    <string name="sms_change_default_dialog_text1">La aplicación Mensajes ha sido probada por Orange para funcionar en tu dispositivo.\n\n
+
+Usar otras aplicaciones de SMS podría causar problemas para enviar y recibir mensajes SMS y MMS.\n\n
+
+¿Usar <xliff:g id="new_app">%s</xliff:g> en lugar de <xliff:g id="current_app">%s</xliff:g> como tu aplicación de SMS?</string>
+    
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Device Test App.</string>
+    <string name="nfcUserLabel">Nfc</string>
+
+    <string name="pattern_number">Pattern Number</string>
+    <string name="test_type">Test Type</string>
+    <string name="start">Start Test</string>
+    <string name="stop">Stop Test</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="empty"> </string>
+    <string name="result">Test Result</string>
+    <string name="set_config">Set Configuration</string>
+    
+    <string name="platform_test">Platform Test</string>
+    <string name="operation_test">Operation Test</string>
+    <string name="p2p_test">P2P Test</string>
+    <string name="swp_test">SWP Conformance Test</string>
+    
+    <string name="mode">Mode</string>
+    <string name="polling">Polling</string>
+    <string name="listen">Listen</string>
+    
+    <string name="swio_1">SWIO 1</string>
+    <string name="swio_2">SWIO 2</string>
+    <string name="swio_3">SWIO 3</string>
+    <string name="uid_1">UID 1</string>
+    <string name="uid_2">UID 2</string>
+    <string name="uid_3">UID 3</string>
+    <string name="did_on">DID On</string>
+    <string name="did_off">DID Off</string>
+    <string name="fsci">FSCI</string>
+    <string name="test_type_1">Collis</string>
+    <string name="test_type_2">Comprion</string>
+
+    <string name="test_instrument_list">Test Instrument List</string>
+    <string name="instrument">Instrument</string>
+    
+    <string name="msr3110_listen_mode">MSR3110 Listen Mode</string>
+    <string name="listen_mode_type_a">Type A</string>
+    <string name="listen_mode_type_b">Type B</string>
+    <string name="listen_mode_type_a_and_b">Type A and B</string>
+    
+    <string name="quick_mode">Quick Mode</string>
+    <string name="normal_mode">Normal Mode</string>
+    
+    <!-- DTA Mode Switch-->
+    <string name="enable_dta_switch">DTA mode(Only for LLCP/SNEP Test)</string>
+    <string name="enable_dta_notify_message">Please reboot the phone after on/off DTA mode.</string>
+
+    <!-- DTA LLCP-->
+    <string name="llcp_test">LLCP Test</string>
+    <string name="snep_test">SNEP Test</string>
+    <string name="llcp_pattern_no">Pattern number</string>
+    <string name="llcp_extend_pattern_no">Extend pattern number</string>
+    <string name="llcp_protocol_type">Protocol Type</string>
+    <string name="llcp_protocol_typeA">TypeA</string>
+    <string name="llcp_protocol_typeF212">TypeF 212</string>
+    <string name="llcp_protocol_typeF424">TypeF 424</string>
+    <string name="test_send">Start Test</string>
+
+    <string name="test_role">Test Role</string>
+    <string name="request_name">Request Name</string>
+    <string name="test_data">Test Data</string>
+    <string name="request_put">Put</string>
+    <string name="request_get">Get</string>
+</resources>

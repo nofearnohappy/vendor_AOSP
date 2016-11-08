@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">渦輪下載</string>
+    <string name="hetcomm_intro">透過同時使用Wi-Fi及4G/3G下載較大的檔案(超過20 MB)。渦輪下載的圖案會於運行中顯示於狀態欄。要使用渦輪下載，Wi-Fi及流動數據都需要打開。 開啟後，任何你之前設定只允許透過Wi-Fi下載的應用程式都會透過WLAN及4G/3G網絡下載。 </string>
+    <string name="enable_switch_on">"開啟"</string>
+    <string name="enable_switch_off">"關閉"</string>
+    <string name="notify_top_title">渦輪下載</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">Wi-Fi</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"流動數據"</string>
+    <string name="conn_notice_title">流動數據或Wi-Fi已關閉。</string>
+    <string name="conn_notice_detail">要開啟渦輪下載，Wi-Fi及流動數據都需要開啟。</string>
+    <string name="conn_charging_warning">透過流動網絡下載可能導致額外的收費。</string>
+    <string name="turn_on">打開<xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">渦輪下載已關閉因為VPN已開啟</string>
+    <string name="turn_off_due_to_tether">渦輪下載已關閉因為數據分享已開啟</string>
+    <string name="turn_off_due_to_shutdown">渦輪下載已關閉因為關閉</string>
+    <string name="turn_off_due_to_roaming">渦輪下載已關閉因為漫遊</string>
+    <string name="ratio_is_single">Wi-Fi/流動數據速度慢。若要加快下載速度，渦輪下載將使流動數據或Wi-Fi來下載檔案。</string>
+    <string name="ratio_is_back">渦輪下載重新使用Wi-Fi和流動數據同時下載檔案。</string>
+    <string name="action_help">説明</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>渦輪下載說明</u>\
+    </h1><br>透過同時使用Wi-Fi及4G/3G以最高速度下載大型檔案。\
+    <h4>1. 去設定並點擊渦輪下載。</h4>\
+    <h4>2. 點擊按鈕以打渦輪下載</h4>\
+    <p><b>[Tip]</b>在你開始下載檔案前，你可以同時連接到Wi-Fi及4G/3G以提高下載速度。\
+    <p><b>[Tip]</b>如果你的Wi-Fi或4G/3G網絡太慢，你可以用你比較快的網絡下載。\
+    <p><b>[Tip]</b> 渦輪下載的速度和表現於下載時可能受到網絡環境影響。\
+    <br>&nbsp;&nbsp;- 如果信號不穩， 可能會影響到此功能的速度和表現。\
+    <br>&nbsp;&nbsp;- 但是，平均來說，和單獨使用Wi-Fi或4G/3G來比較還是會有兩倍的下載速度。\
+    <p><b>[Tip]</b> 當Wi-Fi和4G/3G的速度差距較大(一般為2.5倍)時，渦輪下載功能會停止或不再支援以防止不良的速度表現。\
+    <p><b>[Tip]</b> 當打開網絡共享或VPN時，渦輪下載會自動關閉。\
+    </body></html>]]>"</string>
+</resources>

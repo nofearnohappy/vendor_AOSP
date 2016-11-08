@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Solicitud de archivo entrante"</string>
+	<string name="bt_opp_notification_in_coming_title">"Solicitud de archivo entrante (desde: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Seleccionar para aceptar archivo entrante."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Permitir transferencias de archivos entrantes"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Recibiendo: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Archivo saliente"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Enviando: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Conectado a transferencia de archivo"</string>
+	<string name="bt_opp_cancel_task_message">"¿Cancelar esta transferencia?"</string>
+	<string name="bt_opp_cancel_task_yes">"Sí"</string>
+	<string name="bt_opp_cancel_task_no">No hay una aplicación disponible para imprimir el contacto.</string>
+	<string name="bt_opp_canceling_task_message">"Cancelar transferir, esperar…"</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - Objeto entrante"</string>
+	<string name="bt_opps_confirm_push_message">"Archivo entrante: %1$s (%2$s) desde %3$s. ¿Aceptar?"</string>
+	<string name="bt_opps_confirm_push_yes">¿Aceptar servicio de reenvío automático o no?</string>
+	<string name="bt_opps_confirm_push_no">Rechazar</string>
+	<string name="bt_oppc_push_action_label">"Reproduciendo a través de Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Enviando archivo a %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Enviando archivos a %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Contenido compartido no admitido: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Sin tarjeta SD o sin espacio de almacenamiento suficiente para archivo entrante."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Solicitud de compartir inválida desde dispositivo remoto."</string>
+</resources>

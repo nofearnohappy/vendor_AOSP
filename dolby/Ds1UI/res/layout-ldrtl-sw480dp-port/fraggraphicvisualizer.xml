@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0sp"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+		
+		<include
+			android:id="@+id/verticalAxis"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+			android:layout_marginBottom="8sp"
+			android:layout_marginRight="4sp"
+			android:layout_marginTop="8sp"
+			layout="@layout/vertical_axis" />
+		
+		<FrameLayout
+			android:id="@+id/spectralVis"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_alignParentTop="true"
+			android:layout_marginLeft="19sp"
+		    android:layout_toLeftOf="@+id/verticalAxis"
+			android:background="@drawable/spec_frame"
+			android:padding="12sp" >
+
+			<com.dolby.ds1appUI.GraphicVisualiser
+				android:id="@+id/graphic_vis"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:duplicateParentState="true" />
+		</FrameLayout>
+	
+	</RelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="100sp"
+	    android:layout_marginStart="18dp" >
+
+	    <TextView
+	        android:id="@+id/equalizerLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentStart="true"
+	        android:layout_marginBottom="8sp"
+	        android:layout_marginStart="10sp"
+	        android:layout_marginTop="16sp"
+	        android:text="@string/intelligent_equalizer"
+	        android:textAppearance="@style/TextAppearanceMedium" >
+	    </TextView>
+
+	    <ImageView
+	        android:id="@+id/qm_inteq"
+	        android:layout_width="19sp"
+	        android:layout_height="21sp"
+	        android:layout_marginStart="15sp"
+	        android:layout_alignBottom="@id/equalizerLabel"
+	        android:layout_toEndOf="@id/equalizerLabel"
+	        android:src="@drawable/sel_tooltip_qm" />
+
+	    <TextView
+	        android:id="@+id/equalizerName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentStart="true"
+	        android:layout_marginStart="10sp"
+	        android:layout_marginTop="50sp"
+	        android:textAppearance="@style/TextAppearanceLargeBlue" >
+	    </TextView>
+
+	    <ImageView
+	        android:id="@+id/eqResetButton"
+	        android:layout_width="45sp"
+	        android:layout_height="35sp"
+	        android:layout_below="@+id/equalizerLabel"
+	        android:layout_marginStart="20sp"
+	        android:layout_toEndOf="@+id/equalizerName"
+	        android:layout_alignBottom="@+id/equalizerName"
+	        android:src="@drawable/sel_revert" />
+
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:layout_width="720sp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginStart="25sp"
+	    android:layout_gravity="right" >
+			
+		<GridView
+			android:id="@+id/equalizerListView"
+			android:layout_width="508sp"
+			android:layout_height="77sp"
+			android:layout_alignStart="@+id/eqListFrame"
+			android:layout_alignTop="@+id/eqListFrame"
+			android:layout_marginStart="6sp"
+			android:layout_marginTop="9sp"
+			android:background="@drawable/eqlistbkg"
+			android:listSelector="@android:color/transparent"
+			android:numColumns="3" >
+		</GridView>
+	        
+		<ImageView
+		    android:id="@+id/equalizerCustom"
+		    style="@style/EqualizerCustomButton"
+		    android:layout_width="167sp"
+		    android:layout_height="77sp"
+		    android:layout_alignEnd="@+id/eqListFrame"
+		    android:layout_alignTop="@+id/eqListFrame"
+		    android:layout_marginEnd="11sp"
+		    android:layout_marginTop="9sp"
+		    android:scaleType="fitCenter" >
+		</ImageView>
+		    
+		<ImageView
+			android:id="@+id/eqListFrame"
+			android:layout_width="720sp"
+			android:layout_height="95sp"
+			android:layout_alignParentStart="true"
+			android:src="@drawable/eqlistframe_image_ldrtl" >
+		</ImageView>
+	        
+	    </RelativeLayout>
+
+</LinearLayout>

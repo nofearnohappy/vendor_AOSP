@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Atingeţi pentru a activa funcţia Bluetooth</string>
+    <string name="tap_to_add_device">Atingeţi pentru a adăuga un dispozitiv</string>
+    <string name="turning_on_bluetooth">Se activează funcţia Bluetooth...</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Se scanează dispozitivele</string>
+    <string name="delete_devices">Deconectaţi un dispozitiv pentru a-l putea conecta pe cel nou</string>
+    <string name="cancel">"Anulaţi"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Alertă"</string>
+    <string name="device_manager">Manager dispozitive</string>
+    <string name="out_of_range_alert_text">Alertă „în afara ariei de acoperire”</string>
+    <string name="in_range_alert_text">Alertă „în interiorul ariei de acoperire”</string>
+    <string name="range_alert_text">Aria mea de acoperire</string>
+    <string name="range_alert_summary">Se emite o alertă pe telefon şi pe dispozitiv atunci când dispozitivul se află în interiorul sau în afara ariei de acoperire</string>
+    <string name="range_near_text">Aproape</string>
+    <string name="range_middle_text">mediu</string>
+    <string name="range_far_text">"Departe"</string>
+    <string name="range_1_distance_text">Aproximativ 1 m</string>
+    <string name="range_10_distance_text">1 - 10 m</string>
+    <string name="range_20_distance_text">10 - 20 m</string>
+    <string name="phone_alert_settings">Setări alertă telefon</string>
+    <string name="ringtone_tye_text">"Ton de apel"</string>
+    <string name="volume_text">"Volum"</string>
+    <string name="vibration_text">Vibrare</string>
+    <string name="vibration_summary_on">activat</string>
+    <string name="vibration_summary_off">"Dezactivat"</string>
+    <string name="device_name">"Nume dispozitiv"</string>
+    <string name="push_notification_text">Notificări push pe dispozitiv</string>
+    <string name="incoming_call_notification_text">"Apel de intrare"</string>
+    <string name="missed_call_notificaiotn_text">"Apel nepreluat"</string>
+    <string name="new_message_notification_text">"Mesaj nou"</string>
+    <string name="new_email_notification_text">"E-mail nou"</string>
+    <string name="disconnection_text">Setări deconectare</string>
+    <string name="disconnection_waring_title">Alertă deconectare</string>
+    <string name="disconnection_waring_summary">Se emite o alertă pe telefon şi pe dispozitiv atunci când dispozitivul este deconectat</string>
+    <string name="device_name_change_dialog_title">"Redenumiţi"</string>
+    <string name="disconnect_text">"Deconectaţi"</string>
+    <string name="delete_text">"Ștergeți"</string>
+    <string name="connect_text">"Conectaţi"</string>
+    <string name="device_delete_dialog_message">Ştergeţi acest dispozitiv?</string>
+    <string name="device_disconnect_dialog_message">Deconectaţi dispozitivul?</string>
+    <string name="find_all_text">Găsire toate</string>
+    <string name="default_images">Imagini implicite</string>
+    <string name="range_information_text">Aria de acoperire depinde de puterea semnalului. În situaţii ideale, diametrul ariei de acoperire poate avea peste 30 de metri.  Anumite elemente, cum sunt corpul dvs., pereţi sau alte obstacole, pot reduce distanţa la 15 metri sau mai puţin.</string>
+    <string name="range_information_dialog_check_box_text">Nu se mai afişează</string>
+    <string-array name="device_image_chooser_items">
+        <item>Alegere din imaginile implicite</item>
+        <item>"Faceți o fotografie"</item>
+        <item>Alegere din galerie</item>
+    </string-array>
+    <string name="add_device">Adăugare dispozitiv</string>
+    <string name="yes">"Da"</string>
+    <string name="no">"Nu"</string>
+    <string name="connecting_text">"Se conectează..."</string>
+    <string name="enable_background_service">Activare mod fundal</string>
+    <string name="disable_background_service">Dezactivare mod fundal</string>
+    <string name="ble_manager_alert">Alertă Manager BLE</string>
+    <string name="check">Verificare</string>
+    <string name="dismiss">ignoră</string>
+    <string name="disconnected">"Deconectat"</string>
+    <string name="in_range">în interval</string>
+    <string name="out_of_range">în afara intervalului</string>
+    <string name="no_found">Nu a fost găsit niciun dispozitiv Bluetooth.</string>
+    <string name="bt_off">Funcţia Bluetooth este dezactivată. Activaţi-o.</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"완료"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"삭제"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"모두 선택"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"모두 선택취소"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"새 연락처"</string>
+    <string name="selected_item_count"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%d</xliff:g>개가 선택되었습니다
+    </string>
+    <string name="multichoice_no_select_alert">"선택한 항목이 없습니다."</string>
+
+    <string name="aas_custom_title">추가 번호를 위한 USIM 라벨</string>  
+    <string name="aas_phone_type_none">없음</string>  
+    <string name="aas_new_dialog_title">새 라벨 추가</string>  
+    <string name="ass_rename_dialog_title">라벨 수정</string>  
+    <string name="aas_delele_dialog_message">라벨을 삭제하면 라벨에 연결된 모든 추가 번호에 영향을 미칩니다. 삭제하시겠습니까?</string>  
+    <string name="aas_name_invalid">라벨 이름이 잘못되었습니다. 다른 이름을 입력하십시오.</string>  
+    <string name="aas_name_exist">라벨이 이미 존재합니다.</string>  
+    <string name="aas_usim_full">새 라벨을 만들 공간이 없습니다.</string>  
+    <string name="ass_edit_assert_message">라벨을 수정하면 라벨에 연결된 모든 추가 번호에 영향을 미칩니다. 수정하시겠습니까?</string>  
+    <string name="aas_new_fail">새 라벨을 만드는 데 실패했습니다.</string>  
+    <string name="aas_edit_fail"> 
+        <xliff:g id="aas">%s</xliff:g>의 이름을 바꾸는 데 실패했습니다.
+    </string>  
+    <string name="aas_delete_fail"> 
+        <xliff:g id="aas">%s</xliff:g>을(를) 삭제하는 데 실패했습니다.
+    </string>  
+    <string name="aas_phone_primary">1차 번호</string>  
+    <string name="aas_phone_additional">추가 번호</string> 
+
+    <string name="nickname_too_long">"별명이 너무 깁니다."</string>
+</resources>

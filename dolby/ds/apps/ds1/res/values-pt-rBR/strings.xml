@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+	<string name="remote_service_stopped">Remote service has stopped</string>
+	<string name="app_name">Dolby Audio service</string>
+	<string name="name_widget_extra_large">Dolby Audio</string>
+	<string name="name_widget_large">Dolby Audio</string>
+	<string name="name_widget_small">Dolby Audio</string>
+	<string name="movie">Filme</string>
+	<string name="music">Música</string>
+	<string name="game">Jogo</string>
+	<string name="voice">Voz</string>
+	<string name="preset_1">Personalizado 1</string>
+	<string name="preset_2">Personalizado 2</string>
+
+</resources>

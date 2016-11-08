@@ -1,0 +1,90 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="pref_group_setting_screen"
+                  >
+
+  <PreferenceCategory 
+       android:title="@string/pref_group_member"
+      >
+    <com.mediatek.rcs.message.ui.RcsGroupMember
+        android:id="@+id/rcsgroupmember"
+        android:key="rcsgroupmember"
+        android:title="@string/pref_group_member"
+        android:enabled="true"
+        android:visibility="visible"
+        />
+  </PreferenceCategory>
+  
+        <!-- <Preference -->
+        <!--     android:key="pref_key_group_name" -->
+        <!--     android:title="@string/pref_group_name" -->
+        <!--     android:layout="@layout/mypreference" -->
+        <!--     android:persistent="false" -->
+        <!--     android:summary="" /> -->
+ <PreferenceCategory
+        android:key="pref_group_info"
+        android:title="@string/pref_group_info" >
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="@string/pref_group_name"
+            android:inputType="text"
+            android:key="pref_key_group_name_settings"
+            android:layout="@layout/mypreference"
+            android:maxLength="30"
+            android:negativeButtonText="@string/pref_cancel"
+            android:positiveButtonText="@string/pref_ok"
+            android:singleLine="true"
+            android:persistent="false"
+            android:textColor="@color/black"
+            android:title="@string/pref_group_name" />
+        
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="@string/pref_group_notes"
+            android:inputType="text"
+            android:key="pref_key_group_notes"
+            android:layout="@layout/mypreference"
+            android:maxLength="30"
+            android:negativeButtonText="@string/pref_cancel"
+            android:positiveButtonText="@string/pref_ok"
+            android:singleLine="true"
+            android:persistent="false"
+            android:textColor="@color/black"
+            android:title="@string/pref_group_notes" />
+            
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="@string/pref_group_alias"
+            android:inputType="text"
+            android:key="pref_key_group_alias"
+            android:layout="@layout/mypreference"
+            android:maxLength="30"
+            android:negativeButtonText="@string/pref_cancel"
+            android:positiveButtonText="@string/pref_ok"
+            android:singleLine="true"
+            android:persistent="false"
+            android:textColor="@color/black"
+            android:title="@string/pref_group_alias" />
+
+        <ListPreference
+            android:defaultValue="Accepted and tips"
+            android:entries="@array/pref_msg_group_msg_notice_choices"
+            android:entryValues="@array/pref_msg_group_msg_notice_choices"
+            android:key="pref_key_group_msg_settings"
+            android:layout="@layout/mypreference"
+            android:summary="@string/pref_summary_msg_send_mode_auto"
+            android:title="@string/pref_group_msg_settings" />
+        
+    </PreferenceCategory>
+  
+    <PreferenceCategory android:title="@string/pref_group_manager" 
+       android:key="pref_group_manager_transfer_info">
+        <Preference
+            android:key="pref_key_group_manager_transfer"
+            android:persistent="false"
+            android:title="@string/pref_group_manager_transfer" />
+    </PreferenceCategory>
+    <PreferenceCategory 
+       android:key="pref_key_exit_button"/>
+</PreferenceScreen>
+

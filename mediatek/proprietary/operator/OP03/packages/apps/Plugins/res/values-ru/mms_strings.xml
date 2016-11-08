@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">Cообщения не используется по умолчанию для написания SMS</string>
+    <string name="banner_sms_promo_message1">Для того чтобы активировать, коснитесь здесь.</string>
+    <string name="roaming_warning">Подключение к Интернету в зоне роуминга может резко увеличить счета за телефон. Ваш оператор мобильной связи сообщит вам, если объем переданных данных за границей достигнет определенного лимита. Вы уверены, что хотите продолжить?</string>
+    
+</resources>

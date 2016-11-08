@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Чукнете за включване на блутут</string>
+    <string name="tap_to_add_device">Чукнете за добавяне на устройство</string>
+    <string name="turning_on_bluetooth">Включване на блутут…</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Сканиране на устройства</string>
+    <string name="delete_devices">Трябва да откачите едно устройство за включване на ново</string>
+    <string name="cancel">"Отказ"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Сигнал"</string>
+    <string name="device_manager">Мениджър на устройства</string>
+    <string name="out_of_range_alert_text">Аларма извън обхват</string>
+    <string name="in_range_alert_text">Аларма в обхват</string>
+    <string name="range_alert_text">Моят обхват</string>
+    <string name="range_alert_summary">Аларма и на телефона, и на устройството, ако устройството е извън обхват</string>
+    <string name="range_near_text">Близо</string>
+    <string name="range_middle_text">Средно</string>
+    <string name="range_far_text">"Далече"</string>
+    <string name="range_1_distance_text">Около 1 м</string>
+    <string name="range_10_distance_text">1-10 м</string>
+    <string name="range_20_distance_text">10-20 м</string>
+    <string name="phone_alert_settings">Настройки аларма телефон</string>
+    <string name="ringtone_tye_text">"Мелодия"</string>
+    <string name="volume_text">"Сила на звука"</string>
+    <string name="vibration_text">Вибриране</string>
+    <string name="vibration_summary_on">"Включено"</string>
+    <string name="vibration_summary_off">"Деактивирано"</string>
+    <string name="device_name">"Име на устройство"</string>
+    <string name="push_notification_text">Прокарване известието в устройството</string>
+    <string name="incoming_call_notification_text">"Входящо обаждане"</string>
+    <string name="missed_call_notificaiotn_text">"Пропуснато обаждане"</string>
+    <string name="new_message_notification_text">"Ново съобщение"</string>
+    <string name="new_email_notification_text">Нов е-мейл</string>
+    <string name="disconnection_text">Настройки откачане</string>
+    <string name="disconnection_waring_title">Аларма откачане</string>
+    <string name="disconnection_waring_summary">Аларма и на телефона, и на устройството, ако устройството е откачено</string>
+    <string name="device_name_change_dialog_title">"Преименуване"</string>
+    <string name="disconnect_text">"Изключване"</string>
+    <string name="delete_text">"Изтриване"</string>
+    <string name="connect_text">"Свързване"</string>
+    <string name="device_delete_dialog_message">Да изтрием ли това устройство?</string>
+    <string name="device_disconnect_dialog_message">Да откачим ли устройството?</string>
+    <string name="find_all_text">Намиране на всички</string>
+    <string name="default_images">Картини по подразбиране</string>
+    <string name="range_information_text">Обхватът зависи от силата на сигнала. В идеални условия обхватът може да е над 30 метра.  Някои елементи, като тялото Ви, стени и други препятствия могат да намалят обхвата до 15 метра или по-малко.</string>
+    <string name="range_information_dialog_check_box_text">Да не се показва повече</string>
+    <string-array name="device_image_chooser_items">
+        <item>Избиране от картини по подразбиране</item>
+        <item>"Правене на снимка"</item>
+        <item>Избиране от галерията</item>
+    </string-array>
+    <string name="add_device">Добавяне на у-во</string>
+    <string name="yes">"Да"</string>
+    <string name="no">"Не"</string>
+    <string name="connecting_text">"Установява се връзка..."</string>
+    <string name="enable_background_service">Разрешаване на фонов режим</string>
+    <string name="disable_background_service">Забрана на фонов режим</string>
+    <string name="ble_manager_alert">Аларма от BLE Manager</string>
+    <string name="check">Проверка</string>
+    <string name="dismiss">Прекрати</string>
+    <string name="disconnected">"Няма връзка"</string>
+    <string name="in_range">в обхват</string>
+    <string name="out_of_range">извън обхват</string>
+    <string name="no_found">Не е намерено блутут устройство.</string>
+    <string name="bt_off">Блутут е изключено, включете го.</string>
+</resources>

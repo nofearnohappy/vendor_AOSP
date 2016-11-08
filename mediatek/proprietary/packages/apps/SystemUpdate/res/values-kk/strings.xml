@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Жүйені жаңарту</string>
+    <string name="none_package">Жарамды жаңарту бумалары жоқ.</string>
+    <string name="new_version_query">Жаңартуды тексеру\u2026</string>
+    <string name="menu_stats_refresh">Жаңарту</string>
+    <string name="network_error">Желілік байланыс сәтсіз аяқталы</string>
+    <string name="server_version_error">Сервер қатесі: сервердің бастапқы қатесін жаңартыңыз.</string>    
+    <string name="no_new_version">Соңғы нұсқадағы жүйе қолданылады.</string>
+    <string name="not_support_version">Мақсатты құрылғы сымсыз қосылымға қолдау көрсетпейді.</string>
+    <string name="query_sd_insufficient_space"> <xliff:g id="path">%s</xliff:g> үшін бос орын жеткіліксіз</string>
+    <string name="ota_category_title">OTA</string>
+    <string name="sd_category_title">SD КАРТАСЫН ЖАҢАРТУ</string>
+    <string name="ota_preference_summary">Серверде жүйе жаңартуы табылды</string>
+    <string name="notes_summary">Орнатылған бағдарламаны жаңарту құрылғының тұрақтылығы мен ақаулықтарды түзетеді.</string>
+    <string name="ask_for_install_ota">Жүйе жаңартылуын қазір орнату қажет пе?</string>
+    <string name="warning_install_ota" product="tablet">Орнату кезінде планшетіңізді қолданып, төтенше жағдай қызметіне қоңырау шала алмайсыз. Батареяны,SD картаны алмаңыз немесе планшетті өшірмеңіз.</string>
+    <string name="warning_install_ota" product="default">Орнату кезінде телефоныңызды қолданып, төтенше жағдай қызметіне қоңырау шала алмайсыз. Батареяны, SD картаны алмаңыз немесе телефонды өшірмеңіз.</string>
+    <string name="ask_for_install_sd">SD картаңызда соңғы жүйе жаңарту бумасы табылды, орнату қажет пе?</string>
+    <string name="warning_install_sd" product="tablet">Орнату кезінде планшетіңізді қолданып, төтенше жағдай қызметіне қоңырау шала алмайсыз. Батареяны, SD картаны алмаңыз немесе планшетті өшірмеңіз. \nОрнатпас бұрын, буманың ресми сайттан жүктеп алынғандығын және бүлінбегендігіне көз жетізіңіз.</string>
+    <string name="warning_install_sd" product="default">Орнату кезінде телефонды қолданып, төтенше жағдай қызметіне қоңырау шала алмайсыз. Батареяны, SD картаны алмаңыз немесе телефонды өшірмеңіз. Орнатпас бұрын, буманың ресми сайттан жүктеп алынғанын және бүлінбегеніне көз жеткізіңіз.</string>
+    <string name="ask_for_download_ota">Жүйені оңтайландыру жаңартуын жүктеп алу қажет пе?</string>
+    <string name="warning_download_ota">Жаңарту үшін тегін Wi-Fi нүктесін немесе шектеусіз дерек жоспарын пайдалануды ұсынамыз. Бейстандарт дерек байланысы ақылы болуы мүмкін. \nЖаңартпас бұрын деректеріңіздің резервтік көшірмесін жасаңыз.</string>
+    <string name="notification_content_title">Жүйені жаңарту</string>
+    <string name="downloading_title">"Жүктеп алу\u2026"</string>   
+    <string name="wifi_only_check">"Тек Wi-Fi"</string>     
+    <string name="btn_install">Орнату</string>
+    <string name="btn_cancel">Жою</string>
+    <string name="btn_download">Жүктеп алу және орнату</string>
+    <string name="btn_resume">Жүктеу</string>
+    <string name="warn_data_cost_title">Жаңарту бумасын жүктеп алу</string>
+    <string name="warn_data_cost_content">Мобильдік желімен жүктеп алу қосымша ақы алуы мүмкін. Жалғастыру қажет пе?</string>
+    <string name="warn_data_cost_yes">Иә</string>
+    <string name="warn_data_cost_no">Жоқ</string>
+    <string name="notification_download_complete_title">Жүйенің жаңартылуы дайын</string>
+    <string name="notification_download_complete_context">Жүйені жаңарту үшін түртіңіз</string>
+    <string name="sdcard_crash_or_unmount">SD картасының қатесі. SD картаңызды тексеріп, қайта әрекеттеніп көріңіз.</string>
+    <string name="unmount_sdcard">SD картаны орнату қатесі, тексеріңіз.</string>
+    <string name="insufficient_space_content">Орнату процесі кемінде <xliff:g id="deltasize" example="3.5M">%s</xliff:g> орынның болуын талап етеді. Жалғастыру үшін орынды босатыңыз.</string>
+    <string name="install_sd_title">Жаңарту бумасын орнату</string>
+    <string name="install_sd_message">Буманың ресми сайттан жүктеп алынғандығын және оның бүлінбегендігіне көз жеткізіңіз. Әйтпесе, жүйе ақаулығына себеп болуы мүмкін.</string>
+    <string name="install_reminder_now">Қазір орнату</string>
+    <string name="install_reminder_not_now">Қазір емес</string>
+    <string name="notification_content_text_completed">Сәтті жүктеп алынды</string> 
+    <string name="unknown_per">Белгісіз</string>    
+    <string name="unknown_error">Белгісіз қате</string>
+    <string name="unknown_error_content">Белгісіз қате пайда болды. Бұл беттен шығып кетіп, қайта әрекеттеніп көріңіз.</string>
+    <string name="insufficient_space_title">Бос орын жеткіліксіз</string>
+    <string name="error_sdcard">SD картасы туралы ақпарат</string>
+    <string name="insufficient_space">SD картасында бос орын жоқ.</string>
+    <string name="package_deleted_error">Жетілдірудің дұрыс болмағандығынан, жүйе жаңарту процестері тоқтатылды. </string>
+    <string name="cancel_download_title">Жүктеп алуды болдырмау</string>
+    <string name="cancel_download_content">Бұл әрекет жүктелген файлды жояды.</string>
+    <string name="change_network_title">Жүктеу</string>
+    <string name="change_network_content">Ағымдағы APN жүктеп алуға қолдау көрсетпейді, басқа APN ауысу қажет пе немесе Wi-Fi желісін қосу қажет пе?</string>
+    <string name="change_network_wifi_btn">Wi-Fi пайдалану</string>
+    <string name="change_network_apn_btn">APN өзгерту</string>
+    <string name="change_network_discard_btn">Жою</string>    
+    <string name="package_error_title">Орнату сәтсіз аяқталды</string>
+    <string name="package_error_message_invalid">Бума қатесі. Жаңартуды тексеріңіз және қайта жүктеп алыңыз.</string>
+    <string name="package_error_message_insuff" product="tablet">Құрылғыда бос орын жоқ.</string>
+    <string name="package_error_message_insuff" product="default">Телефонда бос орын жоқ.</string>
+    <string name="package_error_message_crash">Пайдаланушы дерегін ашу мүмкін емес.</string>
+    <string name="package_error_message_full">Бөлімді өзгерту үшін толық бума қажет.</string>    
+    <string name="updateSuccess" product="tablet">Құттықтаймыз! Сіздің құрылғыңыз жаңартылды, қазіргі нұсқа: <xliff:g id="version" example="gb.p37">%s</xliff:g>.</string> 
+    <string name="updateSuccess" product="default">Құттықтаймыз! Сіздің телефоныңыз жаңартылды, қазіргі нұсқа: <xliff:g id="version" example="gb.p37">%s</xliff:g>.</string> 
+    <string name="updateFailed"><xliff:g id="version" example="gb.p37">%s</xliff:g> нұсқасына жаңарту сәтсіз аяқталды.</string>
+    <string name="package_unzip">Буманы мұрағаттан шығару\u2026</string>
+    <string name="package_unzip_error">Мұрағаттан шығару қатесі</string>
+    <string name="installing_message" product="tablet">Планшетіңіз өшіріледі\u2026</string>
+    <string name="installing_message" product="default">Телефоныңыз өшеді\u2026</string>
+    <string name="install_sd_info">Жетілдіру жұмысын жалғастыру үшін буманы телефон жадына көшіру қажет. \nТелефоныңызда бос орын жоқ.</string>
+    <string name="sdcard_crash_or_unmount_when_install">SD картасы шығарылғандықтан, жүйені жаңарту процесі тоқтатылды.</string>
+    <string name="sdcard_inserted">Басқа да жаңарту бумаларын табу үшін SD картаңызды сканерлеу қажет пе?</string>
+    <string name="new_version_detected">Жүйенің жаңартуы қолжетімді</string>
+    <string name="sdcard_unmount">SD карта шығарылды</string>
+    <string name="cta_warning">Жүйе микробағдарламаларды тек ресми веб-сайттан немесе серверден жаңартуға қолдау көрсетеді. Егер пайдаланушы микробағдарламаны жаңарту үшін 3-бөлік ROM кескінін және/немесе басқа кез келген түбірлік әдісті пайдаланса, телефонның тұрақсыздығына әкелуі мүмкін. Барлық әрекеттер үшін пайдаланушының жауапты екенін ескеріңіз.</string>
+    <string name="low_battery">Батарея деңгейі төмен</string>
+    <string name="low_battery_warning">Бұл жаңарту кем дегенде 15% болатын батарея деңгейін қажет етеді.</string>
+    <string name="notify_backup">Жаңарту процесі барысында деректердің жоғалуын болдырмау үшін, деректердің (контактілер, хабарлар, фотосуреттер, т.б. сияқты) сақтық көшірмесін жасаңыз.</string> 
+</resources>

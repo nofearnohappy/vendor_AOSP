@@ -1,0 +1,5 @@
+[
+	{ operationName : "Get", nodeUri : "./ANDSF/UE_Profile", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/UE_Profile/1/OSId", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/UE_Profile/DevCapability", objectValue : "", objectType : "", newNode : "" },
+]

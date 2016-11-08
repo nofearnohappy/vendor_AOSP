@@ -1,0 +1,25 @@
+This module creates the FM tramsmitter application
+
+This application is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+FM Tx app is used as one of output device, FM Transmitter feature can emit media sound 
+generated in the phone via wireless radio wave at a certain frequency. 
+Other receivers can receive the sound.
+
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from MediaTek:
+libfmjni.so mediatek-framework.so
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+When app just boot up,the FM Transmitter will not be on, users press on the power on/down 
+button at the top to activate it.Press it again will deactivate it.
+The frequency will always auto_set to the last frequency users have been used or 100Mhz as default.

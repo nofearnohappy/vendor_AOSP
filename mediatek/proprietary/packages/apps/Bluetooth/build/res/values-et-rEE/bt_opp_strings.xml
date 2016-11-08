@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Palve faili vastuvõtuks"</string>
+	<string name="bt_opp_notification_in_coming_title">"Palve faili vastuvõtuks (saatja: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Valige, et võtta vastu saabuv fail."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Luba sissetul. failiedastused"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Vastuvõtmine: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Väljuv fail"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Saatmine: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Ühendatud failiedastuseks"</string>
+	<string name="bt_opp_cancel_task_message">"Tühistada edastamine?"</string>
+	<string name="bt_opp_cancel_task_yes">"Jah"</string>
+	<string name="bt_opp_cancel_task_no">Kontakti printimiseks pole saadaval ühtki rakendust.</string>
+	<string name="bt_opp_canceling_task_message">"Edastamise tühistamine. Palun oodake..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - saabuv objekt"</string>
+	<string name="bt_opps_confirm_push_message">"Saabuv fail: %1$s (%2$s), mille saatis %3$s. Kas võtta vastu?"</string>
+	<string name="bt_opps_confirm_push_yes">Aktsepteerin Auto-push teenuse või mitte?</string>
+	<string name="bt_opps_confirm_push_no">Keeldu</string>
+	<string name="bt_oppc_push_action_label">"Esitatakse Bluetoothi kaudu"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Saadan %1$s-le faili"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Saadan %1$s-le faile"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Selle sisu jagamist ei toetata: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"SD-kaart puudub või faili vastuvõtmiseks pole piisavalt vaba ruumi."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Vigane jagamispalve kaugseadmest."</string>
+</resources>

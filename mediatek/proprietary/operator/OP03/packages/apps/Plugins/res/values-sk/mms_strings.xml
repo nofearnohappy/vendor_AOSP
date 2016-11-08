@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">Správy nie je prednastavená aplikácia pre SMS správy</string>
+    <string name="banner_sms_promo_message1">Aktivujte ťuknutím sem.</string>
+    <string name="roaming_warning">Pripojenie k internetu pri využívaní roamingu môže podstatne zvýšiť vaše telefónne poplatky. Váš operátor vás upozorní, keď vaša dátová spotreba v zahraničí dosiahne určité prahové hodnoty. Určite chcete pokračovať?</string>
+    
+</resources>

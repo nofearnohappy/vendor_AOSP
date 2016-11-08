@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Administrador de fitxers</string>
+    <string name="sort_by">"Ordena per"</string>
+    <string name="copy">"Copia"</string>
+    <string name="create_folder">"Crea una carpeta"</string>
+    <string name="cut">"Retalla"</string>
+    <string name="delete">"Suprimeix"</string>
+    <string name="details">"Detalls"</string>
+    <string name="paste">"Enganxa"</string>
+    <string name="rename">"Canvia el nom"</string>
+    <string name="new_folder">"Nova carpeta"</string>
+    <string name="confirm_rename">Confirma el canvi de nom</string>
+    <string name="pasting">S’està enganxant</string>
+    <string name="loading">"S\'està carregant…"</string>
+    <string name="deleting">S’està eliminant</string>
+    <string name="alert_delete_multiple">Aquests elements se suprimiran.</string>
+    <string name="alert_delete_single">Aquest element se suprimirà.</string>
+    <string-array name="sort_by">
+        <item>"Tipus"</item>
+        <item>Nom (A - Z)</item>
+        <item>Mida (gran / petit)</item>
+        <item>Hora (nova / anterior)</item>
+    </string-array>
+    <string name="name">"Nom"</string>
+    <string name="size">"Mida"</string>
+    <string name="modified_time">Modificat</string>
+    <string name="readable">Apte per a lectura</string>
+    <string name="executable">Executable</string>
+    <string name="writable">Apte per a escriptura</string>
+    <string name="msg_rename_ext">Si canvies l’extensió del fitxer, pot ser que el fitxer no es reconegui. Segur que vols fer-ho?</string>
+    <string name="wait">Espera\u2026</string>
+    <string name="done">"Fet"</string>
+    <string name="cancel">"Cancel·la"</string>
+    <string name="no">"No"</string>
+    <string name="ok">"D\'acord"</string>
+    <string name="yes">"Sí"</string>
+    <string name="deselect_all">"Anul·la la selecció de tot"</string>
+    <string name="select_all">"Selecciona-ho tot"</string>
+    <string name="share">"Comparteix"</string>
+    <string name="sort">Classifica</string>
+    <string name="more">"Més"</string>
+    <string name="search">"Cerca"</string>
+    <string name="show_file">Mostra els fitxers amagats</string>
+    <string name="hide_file">Oculta els fitxers amagats</string>
+    <string name="selected">seleccionats</string>
+    <string name="send_file">Envia el fitxer</string>
+    <string name="empty_msg">(Carpeta buida)</string>
+    <string name="default_search_text">Cerca fitxers</string>
+    <string name="free_space">"Disponible"</string>
+    <string name="total_space">"Espai total"</string>
+    <string name="search_files">Cerca fitxers</string>
+    <string name="copy_deny">No tens permís per copiar.</string>
+    <string name="cut_deny">No tens permís per retallar.</string>
+    <string name="delete_deny">No tens permís per eliminar.</string>
+    <string name="insufficient_memory">Espai insuficient.</string>
+    <string name="invalid_empty_name">El nom del fitxer o de la carpeta no pot estar buit.</string>
+    <string name="paste_same_folder">No es pot enganxar al mateix directori.</string>
+    <string name="invalid_char_prompt">Has introduït caràcters no vàlids.</string>
+    <string name="msg_unable_open_file">El format de fitxer no és compatible.</string>
+    <string name="search_text_empty">El contingut de la cerca no pot estar buit.</string>
+    <string name="paste_sub_folder">No es pot enganxar al subdirectori.</string>
+    <string name="operation_fail">Alguna operació ha fallat.</string>
+    <string name="search_result">%2$d resultat(s) per a \"%1$s\"</string>
+    <string name="already_exists">%1$s ja s’està utilitzant.</string>
+    <string name="path_not_exists">%1$s no existeix.</string>
+    <string name="unmounted">%1$s està desactivat.</string>
+    <string name="create_hidden_file">"El fitxer s’amagarà si el nom comença per '.'."</string>
+    <string name="modify_hidden_file">"El fitxer no s’amaga si el nom no comença per '.'."</string>
+    <string name="file_name_too_long">El nom de l’entrada és massa llarg.</string>
+    <string name="paste_fail">Error en enganxar.</string>
+    <string name="delete_fail">Error en eliminar.</string>
+    <string name="some_paste_fail">Alguna operació d’enganxar ha fallat.</string>
+    <string name="some_delete_fail">Alguna operació d’eliminar ha fallat.</string>
+    <string name="search_empty">El contingut de la cerca no pot estar buit.</string>
+    <string name="search_setting_description">Fitxers i carpetes locals</string>
+    <string name="change_mode">Selecciona el fitxer o la carpeta</string>
+    <string name="folder_beam_forbidden_title">No s’ha pogut difondre la carpeta</string>
+    <string name="folder_beam_forbidden_message">No s’admet la difusió de carpetes. Selecciona múltiples fitxers per difondre.</string>
+    <string name="drm_beam_forbidden_title">Difusió prohibida</string>
+    <string name="drm_beam_forbidden_message">Els fitxers protegits per DRM (Digital Right Management) no es poden difondre.</string>
+</resources>

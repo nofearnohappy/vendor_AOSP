@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">ဘလူးတုသ်ကို ဖွင့်ရန် ပုတ်ပါ</string>
+    <string name="tap_to_add_device">ကိရိယာကို ထပ်ထည့်ရန် ပုတ်ပါ</string>
+    <string name="turning_on_bluetooth">ဘလူးတုသ်ကို ဖွင့်နေသည်…</string>
+    <string name="launcher_activity_name">BLE မန်နေဂျာ</string>
+    <string name="scanning_devices">ကိရိယာများကို စကင်န်လုပ်နေသည်</string>
+    <string name="delete_devices">ကိရိယာအသစ်တစ်ခုကို ချိတ်ဆက်ရန် ကိရိယာတစ်ခုကို ချိတ်ဆက်မှု ဖြုတ်ပါ</string>
+    <string name="cancel">မလုပ်ပါ</string>
+    <string name="ok">အိုကေ</string>
+    <string name="alert_setting">"သတိပေးချက်"</string>
+    <string name="device_manager">ကိရိယာ မန်နေဂျာ</string>
+    <string name="out_of_range_alert_text">သတ်မှတ်နေရာ အပြင်ဘက် သတိပေးနှိုးဆော်ချက်</string>
+    <string name="in_range_alert_text">သတ်မှတ်နေရာအတွင်း သတိပေးနှိုးဆော်ချက်</string>
+    <string name="range_alert_text">ကျွန်ုပ်၏ သတ်မှတ်နေရာ</string>
+    <string name="range_alert_summary">ကိရိယာသည် သတ်မှတ်နေရာ အတွင်းသို့မဟုတ်  အပြင်ဘက်တွင် ရှိနေသောအခါ ဖုန်းနှင့်ကိရိယာ နှစ်ခုစလုံး သတိပေးနှိုးဆော်ပါ </string>
+    <string name="range_near_text">အနီး</string>
+    <string name="range_middle_text">အလယ်</string>
+    <string name="range_far_text">ဝေး</string>
+    <string name="range_1_distance_text">၁ မီတာခန့်</string>
+    <string name="range_10_distance_text">၁-၁၀ မီတာ</string>
+    <string name="range_20_distance_text">၁၀-၂၀ မီတာ</string>
+    <string name="phone_alert_settings">ဖုန်းသတိပေး နှိုးဆော်ချက် ဆက်တင်များ</string>
+    <string name="ringtone_tye_text">ဖုန်းခေါ်ဆိုမှုတီးလုံးရွေးချယ်ပါ</string>
+    <string name="volume_text">အသံ အတိုး၊အကျယ်</string>
+    <string name="vibration_text">တုန်ခါမှု</string>
+    <string name="vibration_summary_on">"ဖွင့်ရန်"</string>
+    <string name="vibration_summary_off">"ပိတ်"</string>
+    <string name="device_name">စက် အမည်</string>
+    <string name="push_notification_text">ကိရိယာသို့ သတိပေးချက်များ ထည့်ပါ</string>
+    <string name="incoming_call_notification_text">အဝင်ခေါ်ဆိုမှု</string>
+    <string name="missed_call_notificaiotn_text">လွတ်သွားသော ခေါ်ဆိုမှု</string>
+    <string name="new_message_notification_text">မက်ဆေ့အသစ်</string>
+    <string name="new_email_notification_text">အီးမေးလ်အသစ်</string>
+    <string name="disconnection_text">ချိတ်ဆက်မှု ဖြတ်တောက်ခြင်း ဆက်တင်များ</string>
+    <string name="disconnection_waring_title">ချိတ်ဆက်မှု ဖြတ်တောက်ခြင်း သတိပေးနှိုးဆော်ချက်</string>
+    <string name="disconnection_waring_summary">ကိရိယာသည် ချိတ်ဆက်မှု ဖြတ်တောက် သွားသောအခါ ဖုန်းနှင့်ကိရိယာ နှစ်ခုစလုံး သတိပေးနှိုးဆော်ပါ </string>
+    <string name="device_name_change_dialog_title">အမည်ပြောင်းရန်</string>
+    <string name="disconnect_text">ချိတ်ဆက်မှုဖြုတ်ရန်</string>
+    <string name="delete_text">ဖျက်ပါ</string>
+    <string name="connect_text">ချိတ်ဆက်ပါ</string>
+    <string name="device_delete_dialog_message">ဤကိရိယာကို ဖျက်မလား။</string>
+    <string name="device_disconnect_dialog_message">ကိရိယာကို ချိတ်ဆက်မှု ဖြတ်တောက်မလား။</string>
+    <string name="find_all_text">အားလုံးကို ရှာပါ</string>
+    <string name="default_images">ပုံသေ ရုပ်ပုံများ</string>
+    <string name="range_information_text">သတ်မှတ်နေရာသည် လိုင်းအားပေါ်တွင် မူတည်သည်။ စံပြအခြေအနေများတွင် သတ်မှတ်နေရာသည် ၃၀ မီတာအထက်တွင် ရှိနိုင်သည်။  သင့်ကိုယ်ခန္ဓာ၊ နံရံများနှင့် အခြား အတားအဆီးများသည် အကွာအဝေးကို ၁၅ မီတာနှင့် အောက်သို့ လျော့သွားစေနိုင်သည်။</string>
+    <string name="range_information_dialog_check_box_text">နောက်ထပ် မပြပါနှင့်</string>
+    <string-array name="device_image_chooser_items">
+        <item>ပုံသေ ရုပ်ပုံမှ ရွေးပါ</item>
+        <item>ဓာတ်ပုံ ရိုက်သည်</item>
+        <item>ဂယ်လာရီမှ ရွေးပါ</item>
+    </string-array>
+    <string name="add_device">ပစ္စည်းထည့်ပါ</string>
+    <string name="yes">မှန်</string>
+    <string name="no">မှား</string>
+    <string name="connecting_text">ချိတ်ဆက်ဆဲ…</string>
+    <string name="enable_background_service">နောက်ခံမုဒ်ကို ဖွင့်ပါ</string>
+    <string name="disable_background_service">နောက်ခံမုဒ်ကို ပိတ်ပါ</string>
+    <string name="ble_manager_alert">BLE မန်နေဂျာ သတိပေးချက်</string>
+    <string name="check">စစ်ဆေးပါ</string>
+    <string name="dismiss">ဖယ်ရန်</string>
+    <string name="disconnected">"အဆက် ပြတ်သွား"</string>
+    <string name="in_range">ကန့်သတ်ချက်အတွင်း</string>
+    <string name="out_of_range">ကန့်သတ်ချက်ပြင်ပ</string>
+    <string name="no_found">ဘလူးတုသ်ကိရိယာ မတွေ့ပါ</string>
+    <string name="bt_off">ဘလူးတုသ်ပိတ်ထားသည်၊ ၎င်းကို ဖွင့်ပါ။</string>
+</resources>

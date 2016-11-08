@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bookmark_preloads_for_op09">
+        <item>@raw/op09_icon_weibo</item>
+        <item>@raw/op09_bookmark_thumb_weibo</item>
+
+        <item>@raw/op09_icon_dianping</item>
+        <item>@raw/op09_bookmark_thumb_dianping</item>
+
+        <item>@raw/op09_icon_jqka</item>
+        <item>@raw/op09_bookmark_thumb_jqka</item>
+
+        <item>@raw/op09_icon_youdao</item>
+        <item>@raw/op09_bookmark_thumb_youdao</item>
+
+        <item>@raw/op09_icon_chacha</item>
+        <item>@raw/op09_bookmark_thumb_chacha</item>
+    </array>
+</resources>

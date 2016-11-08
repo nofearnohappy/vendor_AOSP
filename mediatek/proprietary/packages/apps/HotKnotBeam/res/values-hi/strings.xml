@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">प्राप्त करना आरंभ कर रहा है...</string>
+    <string name="notification_group_title"><xliff:g id="number">%d</xliff:g> फ़ाइलें प्राप्त कर रहा है...</string> 
+    <string name="notification_download_done">विवरण देखने के लिए टच करें</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> फ़ाइलें प्राप्त</string>
+    <string name="notification_received">सफलतापूर्वक प्राप्त</string> 
+    <string name="notification_download_failure"><xliff:g id="reason">%s</xliff:g> के कारण प्राप्त करने में विफल</string> 
+    <string name="notification_download_cancel">प्राप्त करना रद्द</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> फ़ाइलें विफल</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> फ़ाइलें विफल, <xliff:g id="number">%d</xliff:g> फ़ाइलें प्राप्त</string>
+    <string name="download_no_file">फ़ाइल मौजूद नहीं है</string>
+    <string name="notification_sending">भेजना आरंभ कर रहा है...</string>
+    <string name="notification_group_upload_title"><xliff:g id="number">%d</xliff:g> फ़ाइलें भेज रहा है...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> फ़ाइलें प्रेषित</string>
+    <string name="notification_sent">सफलतापूर्वक प्रेषित</string>
+    <string name="notification_upload_failed"><xliff:g id="reason">%s</xliff:g> के कारण भेजने में विफल</string>
+    <string name="notification_upload_cancel">भेजना रद्द</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> फ़ाइलें विफल</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> फ़ाइलें विफल, <xliff:g id="number">%d</xliff:g> फ़ाइलें प्रेषित</string>
+    <string name="low_storage">कम संग्रहण</string>
+    <string name="connect_failure">"कनेक्शन समस्या"</string>
+    <string name="unknown_error">अज्ञात त्रुटि</string>
+    <string name="share_label">HotKnot साझाकरण</string>
+    <string name="rx_ui_image_status">Receiving image from <xliff:g id="device">%s</xliff:g> से छवियाँ प्राप्त कर रहा है</string>
+    <string name="rx_group_ui_image_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> छवियाँ <xliff:g id="device">%3$s</xliff:g> से प्राप्त कर रहा है</string>
+    <string name="rx_ui_video_status"><xliff:g id="device">%s</xliff:g> से वीडियो प्राप्त कर रहा है</string>
+    <string name="rx_group_ui_video_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> वीडियो <xliff:g id="device">%3$s</xliff:g> से प्राप्त कर रहा है</string>
+    <string name="rx_ui_status"><xliff:g id="device">%s</xliff:g> से फ़ाइल प्राप्त कर रहा है</string>                
+    <string name="rx_group_ui_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> फ़ाइलें <xliff:g id="device">%3$s</xliff:g> से प्राप्त कर रहा है</string>
+    <string name="rx_ui_music_status"><xliff:g id="device">%s</xliff:g> से संगीत प्राप्त कर रहा है</string>
+    <string name="rx_group_ui_music_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> संगीत <xliff:g id="device">%3$s</xliff:g> से प्राप्त कर रहा है</string>
+    <string name="rx_ui_failed_status">प्राप्ति अपूर्ण</string>
+</resources>

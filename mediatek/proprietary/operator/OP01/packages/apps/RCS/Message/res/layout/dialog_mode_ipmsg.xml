@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2008 Esmertec AG.
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<LinearLayout android:id="@+id/dialog_ipview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="45dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <!-- burn message item -->
+    <ImageView android:id="@+id/rcs_burn_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ipbar_show_mail"
+        android:paddingLeft="4dip"
+        android:layout_gravity="left"
+        android:visibility="gone" />
+
+     <!-- Ip message for image or video -->
+    <FrameLayout
+        android:id="@+id/ip_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/image_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:minHeight="@dimen/img_minwidth"
+            android:minWidth="@dimen/img_minwidth" />
+        <ImageView
+            android:id="@+id/video_media_play"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/mms_play_btn" />
+    </FrameLayout>
+
+     <!-- Ip message for audio -->
+    <LinearLayout
+        android:id="@+id/ip_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="120dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+        <ImageView
+            android:id="@+id/ip_audio_icon"
+            android:layout_width="21dp"
+            android:src="@drawable/ipmsg_chat_sound"
+            android:layout_marginRight="4dip"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/audio_info"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:singleLine="true"
+            android:layout_marginRight="10dip"
+            android:textColor="#555555"
+            android:textSize="12sp" />
+          <TextView
+            android:id="@+id/audio_dur"
+            android:visibility="gone"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:singleLine="true"
+            android:layout_marginRight="10dip"
+            android:textColor="#555555"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+    <!-- IP message for vCard -->
+    <LinearLayout
+        android:id="@+id/ip_vcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="120dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+        <ImageView
+              android:id="@+id/ip_vcard_icon"
+            android:layout_width="32dp"
+            android:layout_marginRight="4dip"
+            android:layout_height="32dp" 
+            android:src="@drawable/ipmsg_chat_contact_vcard"/>
+        <TextView
+            android:id="@+id/vcard_info"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:layout_marginRight="10dip"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- IP message for geoloc -->
+    <LinearLayout
+        android:id="@+id/ip_geoloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="120dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="4dip"
+            android:src="@drawable/ipmsg_geolocation"/>
+    </LinearLayout>
+ </LinearLayout>
+
+

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Hotspot Wi-Fi portátil</string>
+    <string name="wifi_tether_introduction_text">Ao transformar o seu dispositivo num hotspot Wi-Fi portátil, pode partilhar a sua ligação à Internet com até oito outros dispositivos de uma só vez.\n\nPor favor, tome nota de que a partilha da ligação à Internet utilizará dados móveis. Isto poderá aumentar o valor das suas chamadas telefónicas de forma significativa e diminuir a duração da bateria.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Por favor, insira um cartão SIM e reinicie o dispositivo para usar o hotspot Wi-Fi portátil ou partilhar a ligação à Internet.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Não mostrar esta mensagem novamente</string>
+    <string name="wifi_tether_turn_off_wifi">Para ligar o hotspot Wi-Fi portátil, teremos primeiro de desligar a sua ligação Wi-Fi. Deseja continuar?</string>
+    <string name="wifi_tether_settings_text">Configurações do hotspot Wi-Fi portátil</string>
+    <string name="tether_apn_settings_text">Partilhar a ligação à Internet APN</string>
+    <string name="tether_apn_settings_subtext">Escolher a APN predefinida para partilhar a ligação à Internet</string>
+    <string name="usb_tethering_accessory_active_subtext">A partilha da ligação à Internet não pode ser ativada quando a USB estiver em uso.</string>
+    <string name="operator_display">Mostrar operador de rede</string>
+    <string name="operator_display_summary">Mostrar operador de rede na barra de estado</string>
+    <string name="by_orange">por Orange</string>
+    <string name="recommended_by_orange">Recomendado pela Orange</string>
+    <string name="smsmms_app_name">Mensagens não está ativa</string>
+    <string name="click_to_change_to_xms_app">Mensagens não é a sua aplicação de SMS predefinida.</string>
+    <string name="click_to_change_to_xms_app_line2">Toque aqui para mais informações.</string>
+    <string name="sms_change_default_dialog_text1">A aplicação Mensagens foi testada pela Orange para funcionar no seu dispositivo.\n\n
+
+Utilizar outra aplicação de SMS poderá causar problemas no envio e na receção de mensagens SMS e MMS.\n\n
+
+Utilizar <xliff:g id="new_app">%s</xliff:g> em vez de <xliff:g id="current_app">%s</xliff:g> como sua aplicação de SMS?</string>
+    
+</resources>

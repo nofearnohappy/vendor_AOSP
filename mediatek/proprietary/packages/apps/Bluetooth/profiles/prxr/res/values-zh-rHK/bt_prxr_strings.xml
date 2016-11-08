@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">鄰近範圍報告器設定</string>
+	<string name="bt_prxr_settings_enable_title">鄰近範圍報告器</string>
+	<string name="bt_prxr_settings_enable_summary">"開啟"</string>
+	<string name="bt_prxr_settings_busy_title">鄰近範圍報告器</string>
+	<string name="bt_prxr_settings_busy_message">正在載入。請稍候...</string>
+	<string name="bt_prxr_settings_enable_fail">啟用/停用鄰近範圍報告器錯誤</string>
+	<string name="bt_prxr_ll_notification_ticker">連結遺失</string>
+	<string name="bt_prxr_ll_notification_title">鄰近連結遺失</string>
+	<string name="bt_prxr_ll_notification_message">遙距裝置：%1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">路徑遺失</string>
+	<string name="bt_prxr_pl_notification_title">鄰近路徑遺失</string>
+	<string name="bt_prxr_pl_notification_message">遙距裝置：%1$s</string>
+</resources>

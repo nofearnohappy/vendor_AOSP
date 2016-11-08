@@ -1,0 +1,1734 @@
+package android.app {
+
+  public class AlarmManager {
+    method public void cancelPoweroffAlarm(java.lang.String);
+  }
+
+  public class DownloadManager {
+    field public static final java.lang.String COLUMN_MEDIA_SCANNED = "scanned";
+    field public static final int PAUSED_BY_APP = 5; // 0x5
+  }
+
+  public static class DownloadManager.Request {
+    method public android.app.DownloadManager.Request setUserAgent(java.lang.String);
+  }
+
+  public abstract interface IActivityManager implements android.os.IInterface {
+    method public abstract long[] getProcessPswap(int[]) throws android.os.RemoteException;
+  }
+
+  public class Notification implements android.os.Parcelable {
+    field public static final int FLAG_HIDE_NOTIFICATION = 268435456; // 0x10000000
+  }
+
+  public class StatusBarManager {
+    method public void hideDefaultAccountStatus();
+    method public void showDefaultAccountStatus(int);
+  }
+
+}
+
+package android.app.admin {
+
+  public class DevicePolicyManager {
+    field public static final int PASSWORD_QUALITY_VOICE_WEAK = 16384; // 0x4000
+  }
+
+}
+
+package android.bluetooth {
+
+  public final class BluetoothClass implements android.os.Parcelable {
+    field public static final int PROFILE_BPP = 6; // 0x6
+  }
+
+}
+
+package android.content {
+
+  public abstract class Context {
+    field public static final java.lang.String AUDIO_PROFILE_SERVICE = "audioprofile";
+    field public static final java.lang.String HDMI_SERVICE = "mtkhdmi";
+    field public static final java.lang.String MESSAGE_MONITOR_SERVICE = "msgmonitorservice";
+    field public static final java.lang.String MOBILE_SERVICE = "mobile";
+    field public static final java.lang.String SEARCH_ENGINE_SERVICE = "search_engine";
+    field public static final java.lang.String TELEPHONY_SERVICE_EX = "phoneEx";
+  }
+
+  public class Intent implements java.lang.Cloneable android.os.Parcelable {
+    field public static final java.lang.String ACTION_DATA_DEFAULT_SIM_CHANGED = "android.intent.action.DATA_DEFAULT_SIM";
+    field public static final java.lang.String ACTION_HDMI_PLUG = "android.intent.action.HDMI_PLUG";
+    field public static final java.lang.String ACTION_MSIM_MODE_CHANGED = "android.intent.action.MSIM_MODE";
+    field public static final java.lang.String ACTION_SETTINGS_PACKAGE_DATA_CLEARED = "com.mediatek.intent.action.SETTINGS_PACKAGE_DATA_CLEARED";
+    field public static final java.lang.String ACTION_SIM_SETTINGS_INFO_CHANGED = "android.intent.action.SIM_SETTING_INFO_CHANGED";
+    field public static final java.lang.String ACTION_SMS_DEFAULT_SIM_CHANGED = "android.intent.action.SMS_DEFAULT_SIM";
+    field public static final java.lang.String ACTION_UNREAD_CHANGED = "com.mediatek.action.UNREAD_CHANGED";
+    field public static final java.lang.String EXTRA_MSIM_MODE = "mode";
+    field public static final java.lang.String EXTRA_UNREAD_COMPONENT = "com.mediatek.intent.extra.UNREAD_COMPONENT";
+    field public static final java.lang.String EXTRA_UNREAD_NUMBER = "com.mediatek.intent.extra.UNREAD_NUMBER";
+  }
+
+}
+
+package android.database {
+
+  public class DatabaseUtils {
+    method public static java.util.Locale getCollatorLocale();
+    method public static void setCollatorLocale(java.util.Locale);
+  }
+
+}
+
+package android.graphics {
+
+  public static class BitmapFactory.Options {
+    field public boolean inPostProc;
+  }
+
+}
+
+package android.hardware {
+
+  public deprecated class Camera {
+    method public void cancelContinuousShot();
+    method public final void setAsdCallback(android.hardware.Camera.AsdCallback);
+    method public final void setAutoRamaCallback(android.hardware.Camera.AutoRamaCallback);
+    method public final void setAutoRamaMoveCallback(android.hardware.Camera.AutoRamaMoveCallback);
+    method public void setContinuousShotCallback(android.hardware.Camera.ContinuousShotCallback);
+    method public void setContinuousShotSpeed(int);
+    method public final void setGestureCallback(android.hardware.Camera.GestureCallback);
+    method public final void setHdrOriginalCallback(android.hardware.Camera.HdrOriginalCallback);
+    method public final void setObjectTrackingListener(android.hardware.Camera.ObjectTrackingListener);
+    method public void setPreviewDoneCallback(android.hardware.Camera.ZSDPreviewDone);
+    method public static void setProperty(java.lang.String, java.lang.String);
+    method public final void setSmileCallback(android.hardware.Camera.SmileCallback);
+    method public final void setStereoCameraJpsCallback(android.hardware.Camera.StereoCameraJpsCallback);
+    method public final void startAutoRama(int);
+    method public void startGestureDetection();
+    method public final void startObjectTracking(int, int);
+    method public void startSmileDetection();
+    method public void stopAutoRama(int);
+    method public void stopGestureDetection();
+    method public final void stopObjectTracking();
+    method public void stopSmileDetection();
+    field public static final int CAMERA_ERROR_NO_MEMORY = 1000; // 0x3e8
+    field public static final int CAMERA_ERROR_RESET = 1001; // 0x3e9
+  }
+
+  public static abstract interface Camera.AsdCallback {
+    method public abstract void onDetected(int);
+  }
+
+  public static abstract interface Camera.AutoRamaCallback {
+    method public abstract void onCapture(byte[]);
+  }
+
+  public static abstract interface Camera.AutoRamaMoveCallback {
+    method public abstract void onFrame(int, int);
+  }
+
+  public static abstract interface Camera.ContinuousShotCallback {
+    method public abstract void onConinuousShotDone(int);
+  }
+
+  public static abstract interface Camera.DistanceInfoCallback {
+    method public abstract void onInfo(java.lang.String);
+  }
+
+  public static abstract interface Camera.FbOriginalCallback {
+    method public abstract void onCapture(byte[]);
+  }
+
+  public static abstract interface Camera.GestureCallback {
+    method public abstract void onGesture();
+  }
+
+  public static abstract interface Camera.HdrOriginalCallback {
+    method public abstract void onCapture(byte[]);
+  }
+
+  public static abstract interface Camera.ObjectTrackingListener {
+    method public abstract void onObjectTracking(android.hardware.Camera.Face, android.hardware.Camera);
+  }
+
+  public static abstract interface Camera.SmileCallback {
+    method public abstract void onSmile();
+  }
+
+  public static abstract interface Camera.StereoCameraJpsCallback {
+    method public abstract void onCapture(byte[]);
+  }
+
+  public static abstract interface Camera.StereoCameraMaskCallback {
+    method public abstract void onCapture(byte[]);
+  }
+
+  public static abstract interface Camera.StereoCameraWarningCallback {
+    method public abstract void onWarning(int);
+  }
+
+}
+
+package android.hardware.usb {
+
+  public class UsbManager {
+    method public int getCurrentState();
+    field public static final java.lang.String USB_FUNCTION_ACM = "acm";
+    field public static final java.lang.String USB_FUNCTION_BICR = "bicr";
+    field public static final java.lang.String USB_FUNCTION_EEM = "eem";
+  }
+
+}
+
+package android.media {
+
+  public class MediaPlayer implements android.media.SubtitleController.Listener {
+    method public void setOnDurationUpdateListener(android.media.MediaPlayer.OnDurationUpdateListener);
+    field public static final int MEDIA_INFO_AUDIO_NOT_SUPPORTED = 862; // 0x35e
+    field public static final int MEDIA_INFO_PAUSE_COMPLETED = 858; // 0x35a
+    field public static final int MEDIA_INFO_PLAY_COMPLETED = 859; // 0x35b
+    field public static final int MEDIA_INFO_VIDEO_NOT_SUPPORTED = 860; // 0x35c
+  }
+
+  public class MediaRecorder {
+    method public void setOnCameraReleasedListener(android.media.MediaRecorder.OnInfoListener);
+    field public static final int MEDIA_RECORDER_INFO_CAMERA_RELEASE = 1999; // 0x7cf
+  }
+
+  public class MiniThumbFile {
+    method public static java.lang.String getMiniThumbFileDirectoryPath();
+  }
+
+  public class RingtoneManager {
+    method public static android.net.Uri getDefaultRingtoneUri(android.content.Context, int);
+    method public android.database.Cursor getNewCursor();
+    method public static boolean isRingtoneExist(android.content.Context, android.net.Uri);
+    field public static final java.lang.String EXTRA_RINGTONE_PICKED_POSITION = "android.intent.extra.ringtone.PICKED_POSITION";
+    field public static final java.lang.String EXTRA_RINGTONE_SHOW_MORE_RINGTONES = "android.intent.extra.ringtone.SHOW_MORE_RINGTONES";
+    field public static final java.lang.String KEY_DEFAULT_NOTIFICATION = "mtk_audioprofile_default_notification";
+    field public static final java.lang.String KEY_DEFAULT_RINGTONE = "mtk_audioprofile_default_ringtone";
+    field public static final java.lang.String KEY_DEFAULT_VIDEO_CALL = "mtk_audioprofile_default_video_call";
+    field public static final int TYPE_SIP_CALL = 16; // 0x10
+    field public static final int TYPE_VIDEO_CALL = 8; // 0x8
+  }
+
+}
+
+package android.mtp {
+
+  public class MtpServer implements java.lang.Runnable {
+    method public void endSession();
+    method public boolean getStatus();
+    method public void sendObjectInfoChanged(int);
+    method public void sendStorageInfoChanged(android.mtp.MtpStorage);
+    method public void updateStorage(android.mtp.MtpStorage);
+  }
+
+  public class MtpStorage {
+    method public void setDescription(java.lang.String);
+    method public void setRemovable(boolean);
+  }
+
+}
+
+package android.net {
+
+  public class ConnectivityManager {
+    method public boolean getTetheringIpv6Enable();
+    method public boolean isTetheringChangeDone();
+    method public void setTetheringIpv6Enable(boolean);
+    field public static final int TETHER_ERROR_IPV6_AVAIABLE = 32; // 0x20
+    field public static final int TETHER_ERROR_IPV6_NO_ERROR = 16; // 0x10
+    field public static final int TETHER_ERROR_IPV6_UNAVAIABLE = 48; // 0x30
+    field public static final int TYPE_MOBILE_DM = 34; // 0x22
+  }
+
+}
+
+package android.net.wifi {
+
+  public class HotspotClient implements android.os.Parcelable {
+    field public java.lang.String deviceAddress;
+    field public boolean isBlocked;
+  }
+
+  public class WifiConfiguration implements android.os.Parcelable {
+    field public int channel;
+    field public int channelWidth;
+    field public java.lang.String imsi;
+    field public java.lang.String pacFile;
+    field public java.lang.String pcsc;
+    field public java.lang.String phase1;
+    field public java.lang.String simSlot;
+  }
+
+  public static class WifiConfiguration.GroupCipher {
+    field public static final int SMS4 = 4; // 0x4
+  }
+
+  public static class WifiConfiguration.KeyMgmt {
+    field public static final int WAPI_CERT = 6; // 0x6
+    field public static final int WAPI_PSK = 5; // 0x5
+  }
+
+  public static class WifiConfiguration.PairwiseCipher {
+    field public static final int SMS4 = 3; // 0x3
+  }
+
+  public static class WifiConfiguration.Protocol {
+    field public static final int WAPI = 2; // 0x2
+  }
+
+  public class WifiEnterpriseConfig implements android.os.Parcelable {
+    method public java.lang.String getCaCertificateWapiAlias();
+    method public java.lang.String getClientCertificateWapiAlias();
+    method public void setCaCertificateWapiAlias(java.lang.String);
+    method public void setClientCertificateWapiAlias(java.lang.String);
+  }
+
+  public static final class WifiEnterpriseConfig.Eap {
+    field public static final int FAST = 7; // 0x7
+  }
+
+  public class WifiManager {
+    method public boolean blockClient(android.net.wifi.HotspotClient);
+    method public void connectWithWpsPin(int, android.net.wifi.WifiManager.WpsCallback);
+    method public java.lang.String getClientIp(java.lang.String);
+    method public java.util.List<android.net.wifi.HotspotClient> getHotspotClients();
+    method public boolean startApWps(android.net.wifi.WpsInfo);
+    method public void startWpsExternalRegistrar(android.net.wifi.WpsInfo, android.net.wifi.WifiManager.WpsCallback);
+    method public void startWpsRegistrar(android.net.wifi.WpsInfo, android.net.wifi.WifiManager.WpsCallback);
+    method public boolean stopReconnectAndScan(boolean, int);
+    method public boolean unblockClient(android.net.wifi.HotspotClient);
+    field public static final java.lang.String NEW_PAC_UPDATED_ACTION = "android.net.wifi.NEW_PAC_UPDATED";
+    field public static final java.lang.String NO_CERTIFICATION_ACTION = "android.net.wifi.NO_CERTIFICATION";
+    field public static final java.lang.String WIFI_CLEAR_NOTIFICATION_SHOW_FLAG_ACTION = "android.net.wifi.WIFI_CLEAR_NOTIFICATION_SHOW_FLAG_ACTION";
+    field public static final java.lang.String WIFI_HOTSPOT_CLIENTS_CHANGED_ACTION = "android.net.wifi.WIFI_HOTSPOT_CLIENTS_CHANGED";
+    field public static final java.lang.String WIFI_HOTSPOT_OVERLAP_ACTION = "android.net.wifi.WIFI_HOTSPOT_OVERLAP";
+    field public static final java.lang.String WIFI_WPS_CHECK_PIN_FAIL_ACTION = "android.net.wifi.WIFI_WPS_CHECK_PIN_FAIL";
+    field public static final int WPS_INVALID_PIN = 10; // 0xa
+  }
+
+  public class WpsInfo implements android.os.Parcelable {
+    field public java.lang.String authentication;
+    field public java.lang.String encryption;
+    field public java.lang.String key;
+    field public java.lang.String ssid;
+  }
+
+}
+
+package android.net.wifi.p2p {
+
+  public class WifiP2pDevice implements android.os.Parcelable {
+    field public static final int ROLE_DEVICE = 0; // 0x0
+    field public static final int ROLE_GC = 1; // 0x1
+    field public static final int ROLE_GO = 2; // 0x2
+    field public java.lang.String deviceIP;
+    field public java.lang.String goIface;
+    field public int oobRoleIndication;
+  }
+
+  public class WifiP2pGroup implements android.os.Parcelable {
+    method public int getFrequency();
+    method public void setFrequency(int);
+  }
+
+  public class WifiP2pManager {
+    method public void deinitialize(android.net.wifi.p2p.WifiP2pManager.Channel);
+    method public void fastConnectAsGc(android.net.wifi.p2p.WifiP2pManager.Channel, android.net.wifi.p2p.fastconnect.WifiP2pFastConnectInfo, android.net.wifi.p2p.WifiP2pManager.ActionListener);
+    method public android.net.wifi.p2p.fastconnect.WifiP2pFastConnectInfo fastConnectAsGo(android.net.wifi.p2p.fastconnect.WifiP2pFastConnectInfo);
+    method public void generateNfcToken(android.net.wifi.p2p.WifiP2pManager.Channel, int, android.net.wifi.p2p.WifiP2pManager.ActionListener);
+    method public byte[] getNfcSelectToken();
+    method public java.lang.String getPeerIpAddress(java.lang.String);
+    field public static final int GET_NFC_CONFIG_TOKEN = 139365; // 0x22065
+    field public static final int GET_NFC_REQUEST_TOKEN = 139359; // 0x2205f
+    field public static final int GET_NFC_SELECT_TOKEN = 139362; // 0x22062
+    field public static final int GET_NFC_WPS_CONFIG_TOKEN = 139368; // 0x22068
+  }
+
+}
+
+package android.net.wifi.p2p.fastconnect {
+
+  public class WifiP2pFastConnectInfo implements android.os.Parcelable {
+    field public java.lang.String authType;
+    field public java.lang.String deviceAddress;
+    field public java.lang.String encrType;
+    field public java.lang.String gcIpAddress;
+    field public java.lang.String goIpAddress;
+    field public int networkId;
+    field public java.lang.String psk;
+    field public java.lang.String ssid;
+  }
+
+}
+
+package android.net.wifi.p2p.link {
+
+  public class WifiP2pLinkInfo implements android.os.Parcelable {
+    method public java.lang.String toString();
+    field public java.lang.String interfaceAddress;
+    field public java.lang.String linkInfo;
+  }
+
+}
+
+package android.nfc {
+
+  public final class NfcAdapter {
+    method public int getModeFlag(int);
+    method public void setModeFlag(int, int);
+    method public void setMtkBeamPushUrisCallback(android.nfc.NfcAdapter.CreateBeamUrisCallback, android.app.Activity);
+    field public static final int FLAG_OFF = 0; // 0x0
+    field public static final int FLAG_ON = 1; // 0x1
+    field public static final int MODE_CARD = 2; // 0x2
+    field public static final int MODE_P2P = 4; // 0x4
+    field public static final int MODE_READER = 1; // 0x1
+  }
+
+}
+
+package android.os {
+
+  public class BatteryManager {
+    field public static final java.lang.String EXTRA_LEVEL_SMARTBOOK = "level_2nd";
+    field public static final java.lang.String EXTRA_PRESENT_SMARTBOOK = "present_2nd";
+    field public static final java.lang.String EXTRA_STATUS_SMARTBOOK = "status_2nd";
+  }
+
+  public class Environment {
+    method public static boolean isUsbotg(java.lang.String);
+    field public static final java.lang.String DIRECTORY_USBOTG;
+  }
+
+  public class MessageMonitorLogger {
+    method public static android.os.MessageMonitorLogger createMessageLogger(boolean, java.lang.String, android.os.MessageMonitorLogger.MessageLoggerCallbacks);
+  }
+
+  public final class MessageQueue {
+    method public final synchronized java.lang.String dumpMessageQueue();
+  }
+
+  public final class PowerManager {
+    method public void wakeUpByReason(long, int);
+    field public static final int GO_TO_SLEEP_REASON_SHUTDOWN = 7; // 0x7
+    field public static final int WAKE_UP_REASON_SHUTDOWN = 1; // 0x1
+  }
+
+  public class Process {
+    method public static final long getZramExtraAvailableSize();
+    method public static final long getZramExtraTotalSize();
+  }
+
+}
+
+package android.provider {
+
+  public static class CallLog.Calls implements android.provider.BaseColumns {
+    field public static final int AUTO_REJECT_TYPE = 5; // 0x5
+    field public static final java.lang.String DATA_ID = "data_id";
+    field public static final java.lang.String IP_PREFIX = "ip_prefix";
+    field public static final java.lang.String RAW_CONTACT_ID = "raw_contact_id";
+  }
+
+  public static final class ContactsContract.CommonDataKinds.ImsCall implements android.provider.ContactsContract.CommonDataKinds.CommonColumns android.provider.ContactsContract.DataColumnsWithJoins {
+    field public static final java.lang.String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/ims";
+    field public static final java.lang.String URL = "data1";
+  }
+
+  public static final class ContactsContract.CommonDataKinds.SipAddress implements android.provider.ContactsContract.CommonDataKinds.CommonColumns android.provider.ContactsContract.ContactCounts android.provider.ContactsContract.DataColumnsWithJoins {
+    field public static final java.lang.String SIP_ADDRESS = "data1";
+  }
+
+  public static final class ContactsContract.DialerSearch implements android.provider.BaseColumns android.provider.ContactsContract.ViewDialerSearchColumns {
+    field public static final java.lang.String MATCHED_DATA_OFFSET = "matched_data_offset";
+    field public static final java.lang.String MATCHED_NAME_OFFSET = "matched_name_offset";
+  }
+
+  public static final class ContactsContract.Intents.Insert {
+    field public static final java.lang.String SIP_ADDRESS = "sip_address";
+  }
+
+  public static final class ContactsContract.Preferences {
+    field public static final java.lang.String DISPLAY_ORDER = "android.contacts.DISPLAY_ORDER";
+    field public static final int DISPLAY_ORDER_ALTERNATIVE = 2; // 0x2
+    field public static final int DISPLAY_ORDER_PRIMARY = 1; // 0x1
+    field public static final java.lang.String SORT_ORDER = "android.contacts.SORT_ORDER";
+    field public static final int SORT_ORDER_ALTERNATIVE = 2; // 0x2
+    field public static final int SORT_ORDER_PRIMARY = 1; // 0x1
+  }
+
+  public static final class ContactsContract.RawContacts implements android.provider.BaseColumns android.provider.ContactsContract.ContactNameColumns android.provider.ContactsContract.ContactOptionsColumns android.provider.ContactsContract.RawContactsColumns android.provider.ContactsContract.SyncColumns {
+    field public static final int INDICATE_PHONE = -1; // 0xffffffff
+    field public static final java.lang.String TIMESTAMP = "timestamp";
+  }
+
+  public static final class Downloads.Impl implements android.provider.BaseColumns {
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_DD_FILE_INFO_DESCRIPTION = "OMA_Download_DDFileInfo_Description";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_DD_FILE_INFO_NAME = "OMA_Download_DDFileInfo_Name";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_DD_FILE_INFO_SIZE = "OMA_Download_DDFileInfo_Size";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_DD_FILE_INFO_TYPE = "OMA_Download_DDFileInfo_Type";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_DD_FILE_INFO_VENDOR = "OMA_Download_DDFileInfo_Vendor";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_FLAG = "OMA_Download";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_INSTALL_NOTIFY_URL = "OMA_Download_Install_Notify_Url";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_NEXT_URL = "OMA_Download_Next_Url";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_OBJECT_URL = "OMA_Download_Object_Url";
+    field public static final java.lang.String COLUMN_OMA_DOWNLOAD_STATUS = "OMA_Download_Status";
+    field public static final java.lang.String COLUMN_PASSWORD = "password";
+    field public static final java.lang.String COLUMN_USERNAME = "username";
+    field public static final java.lang.String OMADL_ERROR_NEED_NOTIFY = "OMADL_ERROR_NEED_NOTIFY";
+    field public static final int OMADL_STATUS_DOWNLOAD_COMPLETELY = 200; // 0xc8
+    field public static final int OMADL_STATUS_ERROR_ATTRIBUTE_MISMATCH = 512; // 0x200
+    field public static final int OMADL_STATUS_ERROR_INSTALL_FAILED = 400; // 0x190
+    field public static final int OMADL_STATUS_ERROR_INSUFFICIENT_MEMORY = 403; // 0x193
+    field public static final int OMADL_STATUS_ERROR_INVALID_DDVERSION = 515; // 0x203
+    field public static final int OMADL_STATUS_ERROR_INVALID_DESCRIPTOR = 404; // 0x194
+    field public static final int OMADL_STATUS_HAS_NEXT_URL = 203; // 0xcb
+    field public static final int OMADL_STATUS_PARSE_DDFILE_SUCCESS = 201; // 0xc9
+    field public static final boolean OMA_DOWNLOAD_SUPPORT = true;
+    field public static final int STATUS_NEED_HTTP_AUTH = 401; // 0x191
+  }
+
+  public final class MediaStore {
+    method public static android.net.Uri getMtpTransferFileUri();
+    field public static final java.lang.String EXTRA_LOOP_PLAYBACK = "android.intent.extra.loopPlayback";
+    field public static final java.lang.String EXTRA_URI_LIST = "android.intent.extra.uriList";
+    field public static final java.lang.String MTP_TRANSFER_FILE_PATH = "mtp_transfer_file_path";
+  }
+
+  public static abstract interface MediaStore.Audio.AlbumColumns {
+    field public static final java.lang.String ALBUM_PINYIN_KEY = "album_pinyin_key";
+  }
+
+  public static abstract interface MediaStore.Audio.ArtistColumns {
+    field public static final java.lang.String ARTIST_PINYIN_KEY = "artist_pinyin_key";
+  }
+
+  public static abstract interface MediaStore.Audio.AudioColumns implements android.provider.MediaStore.MediaColumns {
+    field public static final java.lang.String IS_RECORD = "is_record";
+    field public static final java.lang.String TITLE_PINYIN_KEY = "title_pinyin_key";
+  }
+
+  public static abstract interface MediaStore.Audio.PlaylistsColumns {
+    field public static final java.lang.String NAME_PINYIN_KEY = "name_pinyin_key";
+  }
+
+  public static abstract interface MediaStore.Files.FileColumns implements android.provider.MediaStore.MediaColumns {
+    field public static final java.lang.String FILE_NAME = "file_name";
+    field public static final java.lang.String FILE_TYPE = "file_type";
+  }
+
+  public static abstract interface MediaStore.Images.ImageColumns implements android.provider.MediaStore.MediaColumns {
+    field public static final java.lang.String CAMERA_REFOCUS = "camera_refocus";
+    field public static final java.lang.String FOCUS_VALUE_HIGH = "focus_value_high";
+    field public static final java.lang.String FOCUS_VALUE_LOW = "focus_value_low";
+    field public static final java.lang.String GROUP_COUNT = "group_count";
+    field public static final java.lang.String GROUP_ID = "group_id";
+    field public static final java.lang.String GROUP_INDEX = "group_index";
+    field public static final java.lang.String IS_BEST_SHOT = "is_best_shot";
+  }
+
+  public static abstract interface MediaStore.Video.VideoColumns implements android.provider.MediaStore.MediaColumns {
+    field public static final java.lang.String IS_LIVE_PHOTO = "is_live_photo";
+    field public static final java.lang.String ORIENTATION = "orientation";
+    field public static final java.lang.String SLOW_MOTION_SPEED = "slow_motion_speed";
+  }
+
+  public static final class Telephony.Carriers implements android.provider.BaseColumns {
+    field public static final android.net.Uri CONTENT_URI_DM;
+  }
+
+  public static final class Telephony.Mms.ScrapSpace {
+    field public static final android.net.Uri CONTENT_URI;
+  }
+
+  public static final class Telephony.MmsSms implements android.provider.BaseColumns {
+    field public static final android.net.Uri CONTENT_URI_QUICKTEXT;
+  }
+
+  public static final class Telephony.Mwi implements android.provider.BaseColumns {
+    field public static final android.net.Uri CONTENT_URI;
+    field public static final java.lang.String FROM = "from_account";
+    field public static final java.lang.String GOT_CONTENT = "got_content";
+    field public static final java.lang.String MSG_ACCOUNT = "msg_account";
+    field public static final java.lang.String MSG_CONTEXT = "msg_context";
+    field public static final java.lang.String MSG_DATE = "msg_date";
+    field public static final java.lang.String MSG_ID = "msg_id";
+    field public static final java.lang.String PRIORITY = "priority";
+    field public static final java.lang.String READ = "read";
+    field public static final java.lang.String SEEN = "seen";
+    field public static final java.lang.String SUBJECT = "subject";
+    field public static final java.lang.String TO = "to_account";
+  }
+
+  public static final class Telephony.Sms implements android.provider.BaseColumns android.provider.Telephony.TextBasedSmsColumns {
+    method public static android.net.Uri addMessageToUri(int, android.content.ContentResolver, android.net.Uri, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, boolean, boolean, long);
+    field public static final java.lang.String IPMSG_ID = "ipmsg_id";
+    field public static final java.lang.String UPLOAD_FLAG = "upload_flag";
+  }
+
+  public static final class Telephony.Sms.Inbox implements android.provider.BaseColumns android.provider.Telephony.TextBasedSmsColumns {
+    method public static android.net.Uri addMessage(int, android.content.ContentResolver, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Long, boolean);
+  }
+
+  public static final class Telephony.Sms.Sent implements android.provider.BaseColumns android.provider.Telephony.TextBasedSmsColumns {
+    method public static android.net.Uri addMessage(int, android.content.ContentResolver, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Long);
+  }
+
+  public static final class Telephony.SmsCb implements android.provider.BaseColumns android.provider.Telephony.TextBasedSmsCbColumns {
+    method public static android.net.Uri addMessageToUri(int, android.content.ContentResolver, android.net.Uri, int, long, boolean, java.lang.String);
+    method public static final android.database.Cursor query(android.content.ContentResolver, java.lang.String[]);
+    method public static final android.database.Cursor query(android.content.ContentResolver, java.lang.String[], java.lang.String, java.lang.String);
+    field public static final android.net.Uri ADDRESS_URI;
+    field public static final android.net.Uri CONTENT_URI;
+  }
+
+  public static final class Telephony.SmsCb.CbChannel implements android.provider.BaseColumns {
+    field public static final android.net.Uri CONTENT_URI;
+  }
+
+  public static final class Telephony.SmsCb.Conversations implements android.provider.BaseColumns android.provider.Telephony.TextBasedSmsCbColumns {
+    field public static final android.net.Uri CONTENT_URI;
+  }
+
+  public static final class Telephony.SmsCb.Intents {
+    method public static final android.telephony.SmsCbMessage[] getMessagesFromIntent(android.content.Intent);
+  }
+
+  public static final class Telephony.ThreadSettings implements android.provider.BaseColumns {
+    field public static final java.lang.String MUTE = "mute";
+    field public static final java.lang.String MUTE_START = "mute_start";
+    field public static final java.lang.String NOTIFICATION_ENABLE = "notification_enable";
+    field public static final java.lang.String RINGTONE = "ringtone";
+    field public static final java.lang.String SPAM = "spam";
+    field public static final java.lang.String THREAD_ID = "thread_id";
+    field public static final java.lang.String VIBRATE = "vibrate";
+    field public static final java.lang.String WALLPAPER = "_data";
+  }
+
+  public static final class Telephony.Threads implements android.provider.Telephony.ThreadsColumns {
+    field public static final int CELL_BROADCAST_THREAD = 3; // 0x3
+    field public static final java.lang.String DATE_SENT = "date_sent";
+    field public static final int IP_MESSAGE_GUIDE_THREAD = 10; // 0xa
+    field public static final java.lang.String STATUS = "status";
+    field public static final int WAPPUSH_THREAD = 2; // 0x2
+  }
+
+  public static abstract interface Telephony.ThreadsColumns implements android.provider.BaseColumns {
+    field public static final java.lang.String READ_COUNT = "readcount";
+  }
+
+  public static final class Telephony.WapPush implements android.provider.BaseColumns {
+    field public static final java.lang.String ACTION = "action";
+    field public static final java.lang.String ADDR = "address";
+    field public static final android.net.Uri CONTENT_URI;
+    field public static final android.net.Uri CONTENT_URI_SI;
+    field public static final android.net.Uri CONTENT_URI_SL;
+    field public static final android.net.Uri CONTENT_URI_THREAD;
+    field public static final java.lang.String CREATE = "created";
+    field public static final java.lang.String DATE = "date";
+    field public static final java.lang.String DEFAULT_SORT_ORDER = "date ASC";
+    field public static final java.lang.String ERROR = "error";
+    field public static final java.lang.String EXPIRATION = "expiration";
+    field public static final java.lang.String LOCKED = "locked";
+    field public static final java.lang.String READ = "read";
+    field public static final java.lang.String SEEN = "seen";
+    field public static final java.lang.String SERVICE_ADDR = "service_center";
+    field public static final java.lang.String SIID = "siid";
+    field public static final int STATUS_READ = 1; // 0x1
+    field public static final int STATUS_SEEN = 1; // 0x1
+    field public static final int STATUS_UNREAD = 0; // 0x0
+    field public static final int STATUS_UNSEEN = 0; // 0x0
+    field public static final java.lang.String SUBSCRIPTION_ID = "sub_id";
+    field public static final java.lang.String TEXT = "text";
+    field public static final java.lang.String THREAD_ID = "thread_id";
+    field public static final java.lang.String TYPE = "type";
+    field public static final int TYPE_SI = 0; // 0x0
+    field public static final int TYPE_SL = 1; // 0x1
+    field public static final java.lang.String URL = "url";
+  }
+
+}
+
+package android.security {
+
+  public class Credentials {
+    field public static final java.lang.String EXTRA_WAPI_SERVER_CERTIFICATE_DATA = "wapi_server_certificate_data";
+    field public static final java.lang.String EXTRA_WAPI_SERVER_CERTIFICATE_NAME = "wapi_server_certificate_name";
+    field public static final java.lang.String EXTRA_WAPI_USER_CERTIFICATE_DATA = "wapi_user_certificate_data";
+    field public static final java.lang.String EXTRA_WAPI_USER_CERTIFICATE_NAME = "wapi_user_certificate_name";
+    field public static final java.lang.String WAPI_SERVER_CERTIFICATE = "WAPISERVERCERT_";
+    field public static final java.lang.String WAPI_USER_CERTIFICATE = "WAPIUSERCERT_";
+  }
+
+}
+
+package android.telecom {
+
+  public static class Call.Details {
+    field public static final int CAPABILITY_ECT = 4194304; // 0x400000
+    field public static final int CAPABILITY_INVITE_PARTICIPANTS = 8388608; // 0x800000
+    field public static final int CAPABILITY_VOICE_RECORD = 2097152; // 0x200000
+    field public static final int PROPERTY_VOLTE = 32; // 0x20
+  }
+
+  public abstract class Connection {
+    field public static final int CAPABILITY_ECT = 8388608; // 0x800000
+    field public static final int CAPABILITY_INVITE_PARTICIPANTS = 33554432; // 0x2000000
+    field public static final int CAPABILITY_VOICE_RECORD = 4194304; // 0x400000
+    field public static final int CAPABILITY_VOLTE = 16777216; // 0x1000000
+  }
+
+  public final class PhoneAccount implements android.os.Parcelable {
+    field public static final int CAPABILITY_VOLTE_CALLING = 128; // 0x80
+  }
+
+}
+
+package android.telephony {
+
+  public class PhoneNumberUtils {
+    method public static java.lang.String extractCLIRPortion(java.lang.String);
+    method public static java.lang.String getInternationalPrefix(java.lang.String);
+    method public static boolean isEmergencyNumberExt(java.lang.String, int);
+    method public static boolean isSpecialEmergencyNumber(java.lang.String);
+  }
+
+  public class SignalStrength implements android.os.Parcelable {
+    method public int getGsmSignalStrengthDbm();
+  }
+
+  public final class SmsManager {
+    method public boolean activateCellBroadcastSms(boolean);
+    method public int copyTextMessageToIccCard(java.lang.String, java.lang.String, java.util.List<java.lang.String>, int, long);
+    method public java.util.ArrayList<java.lang.String> divideMessage(java.lang.String, int);
+    method public com.android.internal.telephony.gsm.SmsBroadcastConfigInfo[] getCellBroadcastSmsConfig();
+    method public com.mediatek.internal.telephony.IccSmsStorageStatus getSmsSimMemoryStatus();
+    method public boolean queryCellBroadcastSmsActivation();
+    method public void sendMultipartTextMessageWithEncodingType(java.lang.String, java.lang.String, java.util.ArrayList<java.lang.String>, int, java.util.ArrayList<android.app.PendingIntent>, java.util.ArrayList<android.app.PendingIntent>);
+    method public void sendMultipartTextMessageWithExtraParams(java.lang.String, java.lang.String, java.util.ArrayList<java.lang.String>, android.os.Bundle, java.util.ArrayList<android.app.PendingIntent>, java.util.ArrayList<android.app.PendingIntent>);
+    method public boolean setCellBroadcastSmsConfig(com.android.internal.telephony.gsm.SmsBroadcastConfigInfo[], com.android.internal.telephony.gsm.SmsBroadcastConfigInfo[]);
+    method public void setSmsMemoryStatus(boolean);
+    field public static final java.lang.String EXTRA_PARAMS_VALIDITY_PERIOD = "validity_period";
+    field public static final int RESULT_ERROR_SIM_MEM_FULL = 7; // 0x7
+    field public static final int RESULT_ERROR_SUCCESS = 0; // 0x0
+    field public static final int VALIDITY_PERIOD_MAX_DURATION = 255; // 0xff
+    field public static final int VALIDITY_PERIOD_NO_DURATION = -1; // 0xffffffff
+    field public static final int VALIDITY_PERIOD_ONE_DAY = 167; // 0xa7
+    field public static final int VALIDITY_PERIOD_ONE_HOUR = 11; // 0xb
+    field public static final int VALIDITY_PERIOD_SIX_HOURS = 71; // 0x47
+    field public static final int VALIDITY_PERIOD_TWELVE_HOURS = 143; // 0x8f
+  }
+
+  public class SmsMessage {
+    method public static int[] calculateLength(java.lang.CharSequence, boolean, int);
+    method public java.lang.String getDestinationAddress();
+    method public byte[] getSmsc();
+    method public byte[] getTpdu();
+    method public com.android.internal.telephony.SmsHeader getUserDataHeader();
+  }
+
+}
+
+package android.util {
+
+  public class Patterns {
+    field public static final java.util.regex.Pattern PHONE_EX;
+  }
+
+}
+
+package android.webkit {
+
+  public class SavePageClient {
+    method public void getSaveDir(android.webkit.ValueCallback<java.lang.String>, boolean);
+    method public void onSaveFinish(int, int);
+    method public void onSavePageStart(int, java.lang.String);
+    method public void onSaveProgressChange(int, int);
+  }
+
+  public abstract class WebSettings {
+    method public void setDoubleTapZoom(int);
+  }
+
+  public class WebView extends android.view.View implements android.view.ViewDebug.HierarchyHandler android.view.ViewGroup.OnHierarchyChangeListener android.view.ViewTreeObserver.OnGlobalFocusChangeListener {
+    method public boolean savePage();
+    method public void setSavePageClient(android.webkit.SavePageClient);
+  }
+
+  public static class WebView.HitTestResult {
+    method public java.lang.String getImageAnchorUrlExtra();
+    method public void setImageAnchorUrlExtra(java.lang.String);
+  }
+
+}
+
+package android.widget {
+
+  public class ListView extends android.view.ViewGroup {
+    method public void clearScrapViewsIfNeeded();
+  }
+
+  public class Spinner extends android.widget.AdapterView implements android.content.DialogInterface.OnClickListener {
+    method public void dismissPopup();
+    method public boolean isPopupShowing();
+  }
+
+}
+
+package com.android.internal.telephony {
+
+  public abstract interface IccCard {
+    method public abstract void exchangeSimIo(int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, android.os.Message);
+    method public abstract com.android.internal.telephony.uicc.IccCardApplicationStatus.PersoSubState getNetworkPersoType();
+    method public abstract void iccGetAtr(android.os.Message);
+    method public abstract void openLogicalChannelWithSw(java.lang.String, android.os.Message);
+    method public abstract void queryIccNetworkLock(int, android.os.Message);
+    method public abstract void setIccNetworkLockEnabled(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, android.os.Message);
+  }
+
+  public class IccCardConstants {
+    field public static final java.lang.String INTENT_VALUE_LOCKED_CORPORATE = "CORPORATE";
+    field public static final java.lang.String INTENT_VALUE_LOCKED_NETWORK_SUBSET = "NETWORK_SUBSET";
+    field public static final java.lang.String INTENT_VALUE_LOCKED_SERVICE_PROVIDER = "SERVICE_PROVIDER";
+    field public static final java.lang.String INTENT_VALUE_LOCKED_SIM = "SIM";
+  }
+
+  public class IccProvider {
+    field public static final int ERROR_ICC_PROVIDER_ADN_LIST_NOT_EXIST = -11; // 0xfffffff5
+    field public static final int ERROR_ICC_PROVIDER_ANR_TOO_LONG = -6; // 0xfffffffa
+    field public static final int ERROR_ICC_PROVIDER_GENERIC_FAILURE = -10; // 0xfffffff6
+    field public static final int ERROR_ICC_PROVIDER_NOT_READY = -4; // 0xfffffffc
+    field public static final int ERROR_ICC_PROVIDER_NUMBER_TOO_LONG = -1; // 0xffffffff
+    field public static final int ERROR_ICC_PROVIDER_PASSWORD_ERROR = -5; // 0xfffffffb
+    field public static final int ERROR_ICC_PROVIDER_STORAGE_FULL = -3; // 0xfffffffd
+    field public static final int ERROR_ICC_PROVIDER_TEXT_TOO_LONG = -2; // 0xfffffffe
+  }
+
+  public abstract interface Phone {
+    method public abstract void abortFemtoCellList(android.os.Message);
+    method public abstract void getFacilityLock(java.lang.String, java.lang.String, android.os.Message);
+    method public abstract void getFemtoCellList(java.lang.String, int, android.os.Message);
+    method public abstract java.lang.String getLocatedPlmn();
+    method public abstract int getNetworkHideState();
+    method public abstract void getPol(android.os.Message);
+    method public abstract void getPolCapability(android.os.Message);
+    method public abstract void hangupAll() throws com.android.internal.telephony.CallStateException;
+    method public abstract void refreshSpnDisplay();
+    method public abstract void registerForCrssSuppServiceNotification(android.os.Handler, int, java.lang.Object);
+    method public abstract void registerForRadioOffOrNotAvailable(android.os.Handler, int, java.lang.Object);
+    method public abstract void registerForVoiceCallIncomingIndication(android.os.Handler, int, java.lang.Object);
+    method public abstract void selectFemtoCell(com.mediatek.internal.telephony.FemtoCellInfo, android.os.Message);
+    method public abstract void sendBtSimProfile(int, int, java.lang.String, android.os.Message);
+    method public abstract void setFacilityLock(java.lang.String, boolean, java.lang.String, android.os.Message);
+    method public abstract void setPolEntry(com.mediatek.internal.telephony.NetworkInfoWithAcT, android.os.Message);
+    method public abstract void unregisterForCrssSuppServiceNotification(android.os.Handler);
+    method public abstract void unregisterForRadioOffOrNotAvailable(android.os.Handler);
+    method public abstract void unregisterForVoiceCallIncomingIndication(android.os.Handler);
+  }
+
+  public class PhoneConstants {
+    field public static final java.lang.String PROPERTY_CAPABILITY_SWITCH = "persist.radio.simswitch";
+    field public static final int UT_CSFB_ONCE = 1; // 0x1
+    field public static final int UT_CSFB_PS_PREFERRED = 0; // 0x0
+    field public static final int UT_CSFB_UNTIL_NEXT_BOOT = 2; // 0x2
+  }
+
+  public class TelephonyIntents {
+    field public static final java.lang.String ACTION_EF_CSP_CONTENT_NOTIFY = "android.intent.action.ACTION_EF_CSP_CONTENT_NOTIFY";
+    field public static final java.lang.String ACTION_EF_RAT_CONTENT_NOTIFY = "android.intent.action.ACTION_EF_RAT_CONTENT_NOTIFY";
+    field public static final java.lang.String ACTION_HIDE_NETWORK_STATE = "mediatek.intent.action.ACTION_HIDE_NETWORK_STATE";
+    field public static final java.lang.String ACTION_LOCATED_PLMN_CHANGED = "mediatek.intent.action.LOCATED_PLMN_CHANGED";
+    field public static final java.lang.String ACTION_MD_TYPE_CHANGE = "android.intent.action.ACTION_MD_TYPE_CHANGE";
+    field public static final java.lang.String ACTION_PHB_STATE_CHANGED = "android.intent.action.PHB_STATE_CHANGED";
+    field public static final java.lang.String ACTION_REMOVE_IDLE_TEXT = "android.intent.aciton.stk.REMOVE_IDLE_TEXT";
+    field public static final java.lang.String ACTION_SET_PHONE_RAT_FAMILY_DONE = "android.intent.action.ACTION_SET_PHONE_RAT_FAMILY_DONE";
+    field public static final java.lang.String ACTION_SET_PHONE_RAT_FAMILY_FAILED = "android.intent.action.ACTION_SET_PHONE_RAT_FAMILY_FAILED";
+    field public static final java.lang.String ACTION_UNLOCK_SIM_LOCK = "mediatek.intent.action.ACTION_UNLOCK_SIM_LOCK";
+    field public static final java.lang.String EXTRA_EF_RAT_CONTENT = "ef_rat_content";
+    field public static final java.lang.String EXTRA_EF_RAT_STATUS = "ef_rat_status";
+    field public static final java.lang.String EXTRA_MD_TYPE = "mdType";
+    field public static final java.lang.String EXTRA_PHONES_ID = "phoneId";
+    field public static final java.lang.String EXTRA_PHONES_RAT_FAMILY = "phonesRatFamily";
+  }
+
+}
+
+package com.android.internal.telephony.cat {
+
+  public abstract interface AppInterface {
+    method public abstract boolean isCallDisConnReceived();
+    method public abstract void onDBHandler(int);
+    method public abstract void onEventDownload(com.android.internal.telephony.cat.CatResponseMessage);
+    method public abstract void setAllCallDisConn(boolean);
+  }
+
+  public abstract class BearerDesc implements android.os.Parcelable {
+    field public int bearerType;
+  }
+
+  public class BipCmdMessage implements android.os.Parcelable {
+    method public com.android.internal.telephony.cat.BearerDesc getBearerDesc();
+    method public int getCmdQualifier();
+  }
+
+  public class CatCmdMessage implements android.os.Parcelable {
+    method public int getCmdQualifier();
+  }
+
+  public abstract class CatLog {
+    method public static void e(java.lang.Object, java.lang.String);
+  }
+
+  public class CatResponseMessage {
+    method public void setAdditionalInfo(byte[]);
+    method public void setDestinationId(int);
+    method public void setOneShot(boolean);
+    method public void setSourceId(int);
+  }
+
+  public class CatService implements com.android.internal.telephony.cat.AppInterface {
+    method public static com.android.internal.telephony.cat.AppInterface getInstance(int);
+    method public static boolean getSaveNewSetUpMenuFlag(int);
+  }
+
+  public class DefaultBearerDesc extends com.android.internal.telephony.cat.BearerDesc {
+    ctor public DefaultBearerDesc();
+  }
+
+  public class Input implements android.os.Parcelable {
+    field public boolean iconSelfExplanatory;
+  }
+
+  public class Menu implements android.os.Parcelable {
+    method public int getSetUpMenuFlag();
+    field public byte[] nextActionIndicator;
+  }
+
+}
+
+package com.android.internal.telephony.gsm {
+
+  public class GSMPhone extends android.os.Handler {
+    method public void refreshSpnDisplay();
+    method public void setIncomingCallIndicationResponse(boolean);
+  }
+
+  public class UsimPhoneBookManager implements com.android.internal.telephony.uicc.IccConstants {
+    field public static final int USIM_ERROR_GROUP_COUNT = -20; // 0xffffffec
+    field public static final int USIM_ERROR_NAME_LEN = -10; // 0xfffffff6
+  }
+
+}
+
+package com.android.internal.telephony.uicc {
+
+  public class UiccController {
+    method public int getBtConnectedSimId();
+    method public void setBtConnectedSimId(int);
+  }
+
+}
+
+package com.android.internal.widget {
+
+  public class LockPatternUtils {
+    method public boolean getVoiceUnlockFallbackSet();
+    method public void resetLockoutAttemptDeadline();
+    method public boolean usingVoiceWeak();
+    field public static final java.lang.String LOCKSCREEN_WEAK_FALLBACK = "lockscreen.weak_fallback";
+    field public static final java.lang.String LOCKSCREEN_WEAK_FALLBACK_FOR = "lockscreen.weak_fallback_for";
+    field public static final java.lang.String SETTINGS_COMMAND_KEY = "settings_command_key";
+    field public static final java.lang.String SETTINGS_COMMAND_VALUE = "settings_command_value";
+    field public static final java.lang.String TYPE_VOICE_UNLOCK = "voice_unlock";
+  }
+
+}
+
+package com.google.android.mms.pdu {
+
+  public class PduPersister {
+    method public android.net.Uri persistEx(com.google.android.mms.pdu.GenericPdu, android.net.Uri, java.util.HashMap<java.lang.String, java.lang.String>) throws com.google.android.mms.MmsException;
+    method public android.net.Uri persistEx(com.google.android.mms.pdu.GenericPdu, android.net.Uri, boolean, java.util.HashMap<java.lang.String, java.lang.String>) throws com.google.android.mms.MmsException;
+  }
+
+}
+
+package com.mediatek.audioprofile {
+
+  public class AudioProfileManager implements com.mediatek.common.audioprofile.IAudioProfileManager {
+    method public java.lang.String addProfile();
+    method public boolean deleteProfile(java.lang.String);
+    method public java.lang.String getActiveProfileKey();
+    method public java.util.List<java.lang.String> getAllProfileKeys();
+    method public java.util.List<java.lang.String> getPredefinedProfileKeys();
+    method public int getProfileCount();
+    method public static java.lang.String getProfileKey(com.mediatek.audioprofile.AudioProfileManager.Scenario);
+    method public java.lang.String getProfileName(java.lang.String);
+    method public android.net.Uri getRingtoneUri(java.lang.String, int, long);
+    method public android.net.Uri getRingtoneUri(java.lang.String, int);
+    method public static com.mediatek.audioprofile.AudioProfileManager.Scenario getScenario(java.lang.String);
+    method public int getStreamMaxVolume(int);
+    method public int getStreamVolume(java.lang.String, int);
+    method public static java.lang.String getVibrationKey(java.lang.String);
+    method public boolean isActiveProfile(java.lang.String);
+    method public boolean isDtmfToneEnabled(java.lang.String);
+    method public boolean isLockScreenEnabled(java.lang.String);
+    method public boolean isNameExist(java.lang.String);
+    method public boolean isSoundEffectEnabled(java.lang.String);
+    method public boolean isVibrateOnTouchEnabled(java.lang.String);
+    method public boolean isVibrationEnabled(java.lang.String);
+    method public void listenAudioProfie(com.mediatek.common.audioprofile.AudioProfileListener, int);
+    method public void resetProfiles();
+    method public void setActiveProfile(java.lang.String);
+    method public void setDtmfToneEnabled(java.lang.String, boolean);
+    method public void setLockScreenEnabled(java.lang.String, boolean);
+    method public void setProfileName(java.lang.String, java.lang.String);
+    method public void setRingtoneUri(java.lang.String, int, android.net.Uri);
+    method public void setSoundEffectEnabled(java.lang.String, boolean);
+    method public void setStreamVolume(java.lang.String, int, int);
+    method public void setVibrateOnTouchEnabled(java.lang.String, boolean);
+    method public void setVibrationEnabled(java.lang.String, boolean);
+    field public static final java.lang.String KEY_ACTIVE_PROFILE = "mtk_audioprofile_active";
+    field public static final java.lang.String KEY_DEFAULT_NOTIFICATION = "mtk_audioprofile_default_notification";
+    field public static final java.lang.String KEY_DEFAULT_RINGTONE = "mtk_audioprofile_default_ringtone";
+    field public static final java.lang.String KEY_DEFAULT_VIDEO_CALL = "mtk_audioprofile_default_video_call";
+    field public static final int MAX_PROFILES_COUNT = 10; // 0xa
+    field public static final int PREDEFINED_PROFILES_COUNT = 4; // 0x4
+    field public static final java.lang.String PROFILE_PREFIX = "mtk_audioprofile_";
+    field public static final int STREAM_ALARM = 4; // 0x4
+    field public static final int STREAM_NOTIFICATION = 5; // 0x5
+    field public static final int STREAM_RING = 2; // 0x2
+    field public static final int TYPE_NOTIFICATION = 2; // 0x2
+    field public static final int TYPE_RINGTONE = 1; // 0x1
+    field public static final int TYPE_SIP_CALL = 16; // 0x10
+    field public static final int TYPE_VIDEO_CALL = 8; // 0x8
+  }
+
+  public static final class AudioProfileManager.Scenario {
+    enum_constant public static final com.mediatek.audioprofile.AudioProfileManager.Scenario CUSTOM;
+    enum_constant public static final com.mediatek.audioprofile.AudioProfileManager.Scenario GENERAL;
+    enum_constant public static final com.mediatek.audioprofile.AudioProfileManager.Scenario MEETING;
+    enum_constant public static final com.mediatek.audioprofile.AudioProfileManager.Scenario OUTDOOR;
+    enum_constant public static final com.mediatek.audioprofile.AudioProfileManager.Scenario SILENT;
+  }
+
+}
+
+package com.mediatek.bluetooth {
+
+  public class BleAlertNotificationProfileService {
+    method public android.util.SparseIntArray getDeviceSettings(java.lang.String, java.util.ArrayList<java.lang.Integer>);
+    method public android.util.SparseIntArray getRemoteSettings(java.lang.String, java.util.ArrayList<java.lang.Integer>);
+    method public boolean updateDeviceSettings(java.lang.String, android.util.SparseIntArray);
+    field public static final java.lang.String ACTION_REMOTE_CHANGE = "com.mediatek.ble.ans.REMOTE_STATE_CHANGED";
+    field public static final int CATEGORY_ERROR_VALUE = -2147483648; // 0x80000000
+    field public static final int CATEGORY_ID_EMAIL = 1; // 0x1
+    field public static final int CATEGORY_ID_INCOMING_CALL = 3; // 0x3
+    field public static final int CATEGORY_ID_MISSED_CALL = 4; // 0x4
+    field public static final int CATEGORY_ID_SMS = 5; // 0x5
+    field public static final int CATEGORY_VALUE_ALL_ALERT_ENABLED = 3; // 0x3
+    field public static final int CATEGORY_VALUE_NEW_ALERT_ENABLED = 1; // 0x1
+    field public static final int CATEGORY_VALUE_UNREAD_ALERT_ENABLED = 2; // 0x2
+    field public static final int CATEGORY_VAULE_ALL_ALERT_DISABLED = 0; // 0x0
+  }
+
+  public class BleDeviceManager {
+    method public void addGattDevice(android.bluetooth.BluetoothDevice);
+    method public com.mediatek.bluetooth.BleGattDevice createGattDevice(android.content.Context, android.bluetooth.BluetoothDevice, com.mediatek.bluetooth.BleGattDevice.BleGattDeviceCallback);
+    method public void deleteGattDevice(android.bluetooth.BluetoothDevice);
+  }
+
+  public class BleFindMeProfile extends com.mediatek.bluetooth.BleProfile {
+    method public final boolean findTarget(int);
+    field public static final int ALERT_LEVEL_HIGH = 2; // 0x2
+    field public static final int ALERT_LEVEL_MILD = 1; // 0x1
+    field public static final int ALERT_LEVEL_NO = 0; // 0x0
+  }
+
+  public class BleGattDevice {
+    method public com.mediatek.bluetooth.BleProfile asProfileInterface(int);
+    method public void close();
+    method public boolean connect();
+    method public void disconnect();
+    method public boolean discoverServices();
+    method public android.bluetooth.BluetoothDevice getDevice();
+    method public android.bluetooth.BluetoothGattService getService(java.util.UUID);
+    method public java.util.List<android.bluetooth.BluetoothGattService> getServices();
+    method public int getState();
+    field public static final int GATT_FAILURE = 257; // 0x101
+    field public static final int GATT_SUCCESS = 0; // 0x0
+    field public static final int STATE_CONNECTED = 2; // 0x2
+    field public static final int STATE_CONNECTING = 1; // 0x1
+    field public static final int STATE_DISCONNECTED = 0; // 0x0
+    field public static final int STATE_DISCONNECTING = 3; // 0x3
+  }
+
+  public static final class BleGattUuid.Char {
+    field public static final java.util.UUID ALERT_LEVEL;
+    field public static final java.util.UUID CURRENT_TIME;
+    field public static final java.util.UUID LOCAL_TIME_INFO;
+    field public static final java.util.UUID REFERENCE_TIME_INFO;
+    field public static final java.util.UUID TIME_UPDATE_CTRL_POINT;
+    field public static final java.util.UUID TIME_UPDATE_STATE;
+    field public static final java.util.UUID TIME_WITH_DST;
+    field public static final java.util.UUID TX_POWER_LEVEL;
+  }
+
+  public static final class BleGattUuid.Desc {
+    field public static final java.util.UUID CLIENT_CHAR_CONFIG;
+  }
+
+  public static final class BleGattUuid.Service {
+    field public static final java.util.UUID CURRENT_TIME;
+    field public static final java.util.UUID IMMEDIATE_ALERT;
+    field public static final java.util.UUID LINK_LOST;
+    field public static final java.util.UUID NEXT_DST_CHANGE;
+    field public static final java.util.UUID REFERENCE_TIME_UPDATE;
+    field public static final java.util.UUID TX_POWER;
+  }
+
+  public class BleManager {
+    method public void closeDeviceManager(com.mediatek.bluetooth.BleDeviceManager);
+    method public void closeProfileServiceManager(com.mediatek.bluetooth.BleProfileServiceManager);
+    method public void closeProfileServiceProxy(int, com.mediatek.bluetooth.BleProfileService);
+    method public static com.mediatek.bluetooth.BleManager getDefaultBleProfileManager();
+    method public boolean getDeviceManager(android.content.Context, com.mediatek.bluetooth.BleDeviceManager.DeviceManagerListener);
+    method public boolean getProfileServiceManager(android.content.Context, com.mediatek.bluetooth.BleProfileServiceManager.ProfileServiceManagerListener);
+    method public boolean getProfileServiceProxy(android.content.Context, int, com.mediatek.bluetooth.BleProfileService.ProfileServiceListener);
+  }
+
+  public abstract class BleProfile {
+    field public static final int ANP = 3; // 0x3
+    field public static final int FMP = 0; // 0x0
+    field public static final int PASP = 4; // 0x4
+    field public static final int PXP = 1; // 0x1
+    field public static final int TIP = 2; // 0x2
+  }
+
+  public class BleProfileServiceManager {
+    method public int getBackgroundMode();
+    method public boolean launchServices();
+    method public boolean setBackgroundMode(boolean);
+    method public boolean shutdownServices();
+    field public static final java.lang.String ACTION_SERVER_STATE_CHANGED = "com.mediatek.bluetooth.bleprofileservermanager.state.changed";
+    field public static final java.lang.String EXTRA_PREVIOUS_STATE = "com.mediatek.bluetooth.bleprofileservermanager.extra.PREVIOUS_STATE";
+    field public static final java.lang.String EXTRA_PROFILE = "com.mediatek.bluetooth.bleprofileservermanager.extra.PROFILE";
+    field public static final java.lang.String EXTRA_STATE = "com.mediatek.bluetooth.bleprofileservermanager.extra.STATE";
+    field public static final int STATE_SERVER_IDLE = 0; // 0x0
+    field public static final int STATE_SERVER_REGISTERED = 2; // 0x2
+    field public static final int STATE_SERVER_REGISTERING = 1; // 0x1
+    field public static final int STATUS_DISABLED = 0; // 0x0
+    field public static final int STATUS_ENABLED = 1; // 0x1
+    field public static final int STATUS_UNKNOWN = -1; // 0xffffffff
+  }
+
+  public class BleProximityProfile extends com.mediatek.bluetooth.BleProfile {
+    method public boolean readRssi();
+    method public boolean readTxPower();
+    method public boolean registerProfileCallback(com.mediatek.bluetooth.BleProximityProfile.ProfileCallback);
+    method public boolean setLinkLostAlertLevel(int);
+    field public static final int ALERT_LEVEL_HIGH = 2; // 0x2
+    field public static final int ALERT_LEVEL_MILD = 1; // 0x1
+    field public static final int ALERT_LEVEL_NO = 0; // 0x0
+  }
+
+  public class BleProximityProfileService {
+    method public int getPathLoss(android.bluetooth.BluetoothDevice);
+    method public com.mediatek.bluetooth.BleProximityProfileService.DevicePxpParams getPxpParameters(android.bluetooth.BluetoothDevice);
+    method public static int getRangeAlertThreshold(int);
+    method public boolean isAlertOn(android.bluetooth.BluetoothDevice);
+    method public boolean setPxpParameters(android.bluetooth.BluetoothDevice, int, int, int, int, int);
+    method public boolean stopRemoteAlert(android.bluetooth.BluetoothDevice);
+    field public static final java.lang.String ACTION_ALERT_STATE_CHANGED = "com.mediatek.bluetooth.action.ALERT_STATE_CHANGED";
+    field public static final java.lang.String EXTRA_STATE = "state";
+    field public static final int RANGE_ALERT_RANGE_FAR = 2; // 0x2
+    field public static final int RANGE_ALERT_RANGE_MIDDLE = 1; // 0x1
+    field public static final int RANGE_ALERT_RANGE_NEAR = 0; // 0x0
+    field public static final int RANGE_ALERT_TYPE_IN = 0; // 0x0
+    field public static final int RANGE_ALERT_TYPE_OUT = 1; // 0x1
+    field public static final int STATE_DISCONNECTED_ALERT = 1; // 0x1
+    field public static final int STATE_IN_RANGE_ALERT = 2; // 0x2
+    field public static final int STATE_NO_ALERT = 0; // 0x0
+    field public static final int STATE_OUT_RANGE_ALERT = 3; // 0x3
+  }
+
+  public class BleProximityProfileService.DevicePxpParams {
+    method public int getAlertEnabler();
+    method public int getDisconnEnabler();
+    method public int getRangeAlertEnabler();
+    method public int getRangeType();
+    method public int getRangeValue();
+  }
+
+  public abstract interface BluetoothDevicePickerEx {
+    field public static final int FILTER_TYPE_BIP = 6; // 0x6
+    field public static final int FILTER_TYPE_PRINTER = 5; // 0x5
+    field public static final int FILTER_TYPE_PRX = 8; // 0x8
+  }
+
+  public class BluetoothUuidEx {
+    field public static final android.os.ParcelUuid BipResponder;
+    field public static final android.os.ParcelUuid BppReceiver;
+    field public static final android.os.ParcelUuid ObexFileTransfer;
+    field public static final android.os.ParcelUuid Proximity;
+  }
+
+}
+
+package com.mediatek.bluetooth.parcel {
+
+  public class ParcelBluetoothGattCharacteristic implements android.os.Parcelable {
+    method public static com.mediatek.bluetooth.parcel.ParcelBluetoothGattCharacteristic from(android.bluetooth.BluetoothGattCharacteristic, boolean);
+    method public int getInstanceId();
+    method public com.mediatek.bluetooth.parcel.ParcelBluetoothGattService getService();
+    method public android.os.ParcelUuid getUuid();
+    method public byte[] getValue();
+    method public int getWriteType();
+    method public java.lang.String toString();
+  }
+
+  public class ParcelBluetoothGattDescriptor implements android.os.Parcelable {
+    method public static com.mediatek.bluetooth.parcel.ParcelBluetoothGattDescriptor from(android.bluetooth.BluetoothGattDescriptor);
+    method public com.mediatek.bluetooth.parcel.ParcelBluetoothGattCharacteristic getCharacteristic();
+    method public int getInstanceId();
+    method public android.os.ParcelUuid getUuid();
+    method public byte[] getValue();
+    method public java.lang.String toString();
+  }
+
+  public class ParcelBluetoothGattService implements android.os.Parcelable {
+    method public static com.mediatek.bluetooth.parcel.ParcelBluetoothGattService from(android.bluetooth.BluetoothGattService, boolean);
+    method public int getInstanceId();
+    method public android.os.ParcelUuid getUuid();
+  }
+
+}
+
+package com.mediatek.camcorder {
+
+  public class CamcorderProfileEx {
+    field public static final int QUALITY_FINE = 111; // 0x6f
+    field public static final int QUALITY_FINE_4K2K = 123; // 0x7b
+    field public static final int QUALITY_HIGH = 110; // 0x6e
+    field public static final int QUALITY_LOW = 108; // 0x6c
+    field public static final int QUALITY_MEDIUM = 109; // 0x6d
+    field public static final int SLOW_MOTION_FHD_120FPS = 2251; // 0x8cb
+    field public static final int SLOW_MOTION_FHD_60FPS = 2250; // 0x8ca
+    field public static final int SLOW_MOTION_HD_120FPS = 2241; // 0x8c1
+    field public static final int SLOW_MOTION_HD_180FPS = 2242; // 0x8c2
+    field public static final int SLOW_MOTION_HD_60FPS = 2240; // 0x8c0
+    field public static final int SLOW_MOTION_VGA_120FPS = 2231; // 0x8b7
+  }
+
+}
+
+package com.mediatek.common.search {
+
+  public final class SearchEngine implements android.os.Parcelable {
+    method public java.lang.String getFaviconUri();
+    method public java.lang.String getKeyWord();
+    method public java.lang.String getLabel();
+    method public java.lang.String getName();
+    method public java.lang.String getSearchUriForQuery(java.lang.String);
+    method public java.lang.String getSuggestUriForQuery(java.lang.String);
+    method public boolean supportsSuggestions();
+    field public static final int FAVICON = 2; // 0x2
+    field public static final int NAME = -1; // 0xffffffff
+  }
+
+}
+
+package com.mediatek.common.sms {
+
+  public abstract interface IConcatenatedSmsFwkExt {
+    field public static final java.lang.String ACTION_CLEAR_OUT_SEGMENTS = "android.sms.ACTION_CLEAR_OUT_SEGMENTS";
+    field public static final int EVENT_DISPATCH_CONCATE_SMS_SEGMENTS = 3001; // 0xbb9
+    field public static final int OUT_OF_DATE_TIME = 43200000; // 0x2932e00
+    field public static final int UPLOAD_FLAG_NEW = 1; // 0x1
+    field public static final java.lang.String UPLOAD_FLAG_TAG = "upload_flag";
+    field public static final int UPLOAD_FLAG_UPDATE = 2; // 0x2
+  }
+
+  public class TimerRecord {
+    field public java.lang.String address;
+    field public int msgCount;
+    field public int refNumber;
+  }
+
+}
+
+package com.mediatek.common.telephony {
+
+  public class AlphaTag implements android.os.Parcelable {
+    method public java.lang.String getAlphaTag();
+    method public int getRecordIndex();
+  }
+
+  public abstract interface ITelephonyExt {
+    method public abstract boolean isRatMenuControlledBySIM();
+  }
+
+  public class UsimGroup implements android.os.Parcelable {
+    method public java.lang.String getAlphaTag();
+    method public int getRecordIndex();
+    method public void setAlphaTag(java.lang.String);
+  }
+
+}
+
+package com.mediatek.common.voicecommand {
+
+  public abstract class VoiceCommandListener {
+    field public static final java.lang.String ACTION_EXTRA_RESULT = "Result";
+    field public static final int ACTION_EXTRA_RESULT_ERROR = 10; // 0xa
+    field public static final java.lang.String ACTION_EXTRA_RESULT_INFO = "Result_Info";
+    field public static final java.lang.String ACTION_EXTRA_RESULT_INFO1 = "Reslut_Info1";
+    field public static final int ACTION_EXTRA_RESULT_SUCCESS = 1; // 0x1
+    field public static final java.lang.String ACTION_EXTRA_SEND = "Send";
+    field public static final java.lang.String ACTION_EXTRA_SEND_INFO = "Send_Info";
+    field public static final java.lang.String ACTION_EXTRA_SEND_INFO1 = "Send_Info1";
+    field public static final java.lang.String ACTION_EXTRA_SEND_INFO2 = "Send_Info2";
+    field public static final int ACTION_MAIN_VOICE_COMMON = 1; // 0x1
+    field public static final int ACTION_MAIN_VOICE_CONTACTS = 5; // 0x5
+    field public static final int ACTION_MAIN_VOICE_RECOGNITION = 4; // 0x4
+    field public static final int ACTION_MAIN_VOICE_TRAINING = 3; // 0x3
+    field public static final int ACTION_MAIN_VOICE_UI = 2; // 0x2
+    field public static final int ACTION_MAIN_VOICE_WAKEUP = 6; // 0x6
+    field public static final int ACTION_VOICE_COMMON_COMMAND_PATH = 2; // 0x2
+    field public static final int ACTION_VOICE_COMMON_KEYWORD = 1; // 0x1
+    field public static final int ACTION_VOICE_COMMON_PROCESS_STATE = 3; // 0x3
+    field public static final int ACTION_VOICE_CONTACTS_DISABLE = 4; // 0x4
+    field public static final int ACTION_VOICE_CONTACTS_ENABLE = 3; // 0x3
+    field public static final int ACTION_VOICE_CONTACTS_INTENSITY = 5; // 0x5
+    field public static final int ACTION_VOICE_CONTACTS_NAME = 8; // 0x8
+    field public static final int ACTION_VOICE_CONTACTS_NOTIFY = 7; // 0x7
+    field public static final int ACTION_VOICE_CONTACTS_ORIENTATION = 11; // 0xb
+    field public static final int ACTION_VOICE_CONTACTS_RECOGNITION_DISABLE = 13; // 0xd
+    field public static final int ACTION_VOICE_CONTACTS_RECOGNITION_ENABLE = 12; // 0xc
+    field public static final int ACTION_VOICE_CONTACTS_SEARCH_COUNT = 10; // 0xa
+    field public static final int ACTION_VOICE_CONTACTS_SELECTED = 6; // 0x6
+    field public static final int ACTION_VOICE_CONTACTS_SPEECH_DETECTED = 9; // 0x9
+    field public static final int ACTION_VOICE_CONTACTS_START = 1; // 0x1
+    field public static final int ACTION_VOICE_CONTACTS_STOP = 2; // 0x2
+    field public static final int ACTION_VOICE_RECOGNITION_INTENSITY = 2; // 0x2
+    field public static final int ACTION_VOICE_RECOGNITION_NOTIFY = 3; // 0x3
+    field public static final int ACTION_VOICE_RECOGNITION_START = 1; // 0x1
+    field public static final int ACTION_VOICE_TRAINING_FINISH = 8; // 0x8
+    field public static final int ACTION_VOICE_TRAINING_INTENSITY = 3; // 0x3
+    field public static final int ACTION_VOICE_TRAINING_MODIFY = 7; // 0x7
+    field public static final int ACTION_VOICE_TRAINING_NOTIFY = 5; // 0x5
+    field public static final int ACTION_VOICE_TRAINING_PASSWORD_FILE = 4; // 0x4
+    field public static final int ACTION_VOICE_TRAINING_RESET = 6; // 0x6
+    field public static final int ACTION_VOICE_TRAINING_START = 1; // 0x1
+    field public static final int ACTION_VOICE_TRAINING_STOP = 2; // 0x2
+    field public static final int ACTION_VOICE_UI_DISALBE = 4; // 0x4
+    field public static final int ACTION_VOICE_UI_ENABLE = 3; // 0x3
+    field public static final int ACTION_VOICE_UI_NOTIFY = 5; // 0x5
+    field public static final int ACTION_VOICE_UI_START = 1; // 0x1
+    field public static final int ACTION_VOICE_UI_STOP = 2; // 0x2
+    field public static final int ACTION_VOICE_WAKEUP_COMMAND_STATUS = 7; // 0x7
+    field public static final int ACTION_VOICE_WAKEUP_DISABLE = 3; // 0x3
+    field public static final int ACTION_VOICE_WAKEUP_ENABLE = 2; // 0x2
+    field public static final int ACTION_VOICE_WAKEUP_INIT = 5; // 0x5
+    field public static final int ACTION_VOICE_WAKEUP_IPO_SHUTDOWN_STATUS = 8; // 0x8
+    field public static final int ACTION_VOICE_WAKEUP_MODE = 6; // 0x6
+    field public static final int ACTION_VOICE_WAKEUP_NOTIFY = 4; // 0x4
+    field public static final int ACTION_VOICE_WAKEUP_START = 1; // 0x1
+    field public static final int VOICE_ERROR_COMMON_ILLEGAL_PROCESS = 1005; // 0x3ed
+    field public static final int VOICE_ERROR_COMMON_INVALID_ACTION = 1007; // 0x3ef
+    field public static final int VOICE_ERROR_COMMON_INVALID_DATA = 1008; // 0x3f0
+    field public static final int VOICE_ERROR_COMMON_NOTIFY_FAIL = 1009; // 0x3f1
+    field public static final int VOICE_ERROR_COMMON_NO_PERMISSION = 1002; // 0x3ea
+    field public static final int VOICE_ERROR_COMMON_PROCESS_OFF = 1001; // 0x3e9
+    field public static final int VOICE_ERROR_COMMON_REGISTERED = 1003; // 0x3eb
+    field public static final int VOICE_ERROR_COMMON_SERVICE = 1006; // 0x3ee
+    field public static final int VOICE_ERROR_COMMON_UNREGISTER = 1004; // 0x3ec
+    field public static final int VOICE_ERROR_CONTACTS_SEND_INVALID = 402; // 0x192
+    field public static final int VOICE_ERROR_CONTACTS_VOICE_INVALID = 401; // 0x191
+    field public static final int VOICE_NO_ERROR = 0; // 0x0
+    field public static final java.lang.String VOICE_SERVICE_ACTION = "com.mediatek.voicecommand";
+    field public static final java.lang.String VOICE_SERVICE_CATEGORY = "com.mediatek.nativeservice";
+    field public static final java.lang.String VOICE_SERVICE_PACKAGE_NAME = "com.mediatek.voicecommand";
+    field public static final int VOICE_WAKEUP_MODE_SPEAKER_DEPENDENT = 2; // 0x2
+    field public static final int VOICE_WAKEUP_MODE_SPEAKER_INDEPENDENT = 1; // 0x1
+    field public static final int VOICE_WAKEUP_MODE_UNLOCK = 0; // 0x0
+    field public static final int VOICE_WAKEUP_STATUS_COMMAND_CHECKED = 2; // 0x2
+    field public static final int VOICE_WAKEUP_STATUS_COMMAND_UNCHECKED = 1; // 0x1
+    field public static final int VOICE_WAKEUP_STATUS_NOCOMMAND_UNCHECKED = 0; // 0x0
+  }
+
+}
+
+package com.mediatek.custom {
+
+  public class CustomProperties {
+    method public static java.lang.String getString(java.lang.String);
+    method public static java.lang.String getString(java.lang.String, java.lang.String);
+    method public static java.lang.String getString(java.lang.String, java.lang.String, java.lang.String);
+    field public static final java.lang.String HOST_NAME = "HostName";
+    field public static final java.lang.String MANUFACTURER = "Manufacturer";
+    field public static final java.lang.String MODEL = "Model";
+    field public static final java.lang.String MODULE_BLUETOOTH = "bluetooth";
+    field public static final java.lang.String MODULE_BROWSER = "browser";
+    field public static final java.lang.String MODULE_CMMB = "cmmb";
+    field public static final java.lang.String MODULE_DM = "dm";
+    field public static final java.lang.String MODULE_FMTRANSMITTER = "fmtransmitter";
+    field public static final java.lang.String MODULE_HTTP_STREAMING = "http_streaming";
+    field public static final java.lang.String MODULE_MMS = "mms";
+    field public static final java.lang.String MODULE_RTSP_STREAMING = "rtsp_streaming";
+    field public static final java.lang.String MODULE_SYSTEM = "system";
+    field public static final java.lang.String MODULE_WLAN = "wlan";
+    field public static final java.lang.String RDS_VALUE = "RDSValue";
+    field public static final java.lang.String SSID = "SSID";
+    field public static final java.lang.String UAPROF_URL = "UAProfileURL";
+    field public static final java.lang.String USER_AGENT = "UserAgent";
+  }
+
+}
+
+package com.mediatek.dcfdecoder {
+
+  public class DcfDecoder {
+    method public byte[] forceDecryptFile(java.lang.String, boolean);
+  }
+
+}
+
+package com.mediatek.drm {
+
+  public class OmaDrmClient {
+    method public android.drm.DrmInfo acquireDrmInfo(android.drm.DrmInfoRequest);
+    method public boolean canHandle(java.lang.String, java.lang.String);
+    method public boolean canHandle(android.net.Uri, java.lang.String);
+    method public int checkRightsStatus(java.lang.String, int);
+    method public int checkRightsStatus(android.net.Uri, int);
+    method public int consumeRights(android.net.Uri, int);
+    method public int consumeRights(java.lang.String, int);
+    method public android.content.ContentValues getConstraints(java.lang.String, int);
+    method public android.content.ContentValues getConstraints(android.net.Uri, int);
+    method public int getDrmObjectType(java.lang.String, java.lang.String);
+    method public int getDrmObjectType(android.net.Uri, java.lang.String);
+    method public int getMethod(android.net.Uri);
+    method public java.lang.String getOriginalMimeType(java.lang.String);
+    method public java.lang.String getOriginalMimeType(android.net.Uri);
+    method public int installDrmMsg(java.lang.String);
+    method public int installDrmMsg(java.lang.String, boolean);
+    method public static boolean isOmaDrmEnabled();
+    method public void release();
+    method public int removeAllRights();
+    method public int rescanDrmMediaFiles(android.content.Context, android.drm.DrmRights, com.mediatek.drm.OmaDrmUtils.OnDrmScanCompletedListener);
+    method public int saveRights(android.drm.DrmRights, java.lang.String, java.lang.String) throws java.io.IOException;
+    field public static final int ERROR_NONE = 0; // 0x0
+    field public static final int ERROR_UNKNOWN = -2000; // 0xfffff830
+  }
+
+  public static class OmaDrmStore.DrmExtra {
+    field public static final java.lang.String EXTRA_DRM_LEVEL = "android.intent.extra.drm_level";
+    field public static final int LEVEL_ALL = 4; // 0x4
+    field public static final int LEVEL_FL = 1; // 0x1
+  }
+
+  public class OmaDrmUiUtils {
+    method public static android.graphics.Bitmap overlayBitmap(com.mediatek.drm.OmaDrmClient, android.graphics.Bitmap, android.graphics.drawable.Drawable);
+    method public static android.graphics.Bitmap overlayDrmIcon(com.mediatek.drm.OmaDrmClient, android.content.res.Resources, java.lang.String, int, android.graphics.Bitmap);
+    method public static android.graphics.Bitmap overlayDrmIcon(com.mediatek.drm.OmaDrmClient, android.content.res.Resources, java.lang.String, int, int);
+    method public static android.graphics.Bitmap overlayDrmIconSkew(com.mediatek.drm.OmaDrmClient, android.content.res.Resources, java.lang.String, int, android.graphics.Bitmap);
+    method public static android.graphics.Bitmap overlayDrmIconSkew(com.mediatek.drm.OmaDrmClient, android.content.res.Resources, java.lang.String, int, int);
+    method public static android.app.Dialog showConsumeDialog(android.content.Context, android.content.DialogInterface.OnClickListener, android.content.DialogInterface.OnDismissListener);
+    method public static android.app.Dialog showConsumeRightsDialogForVideoPlayer(com.mediatek.drm.OmaDrmClient, android.content.Context, com.mediatek.drm.OmaDrmUiUtils.DrmOperationListener);
+    method public static android.app.Dialog showProtectionInfoDialog(android.content.Context, android.net.Uri);
+    method public static android.app.Dialog showProtectionInfoDialog(android.content.Context, java.lang.String);
+    method public static android.app.Dialog showRefreshLicenseDialog(com.mediatek.drm.OmaDrmClient, android.content.Context, android.net.Uri, android.content.DialogInterface.OnDismissListener);
+    method public static android.app.Dialog showRefreshLicenseDialog(com.mediatek.drm.OmaDrmClient, android.content.Context, java.lang.String, android.content.DialogInterface.OnDismissListener);
+    method public static android.app.Dialog showRefreshLicenseDialog(com.mediatek.drm.OmaDrmClient, android.content.Context, android.net.Uri);
+    method public static android.app.Dialog showRefreshLicenseDialog(com.mediatek.drm.OmaDrmClient, android.content.Context, java.lang.String);
+    method public static android.app.Dialog showRefreshLicenseDialogForVideoPlayer(com.mediatek.drm.OmaDrmClient, android.content.Context, android.net.Uri, com.mediatek.drm.OmaDrmUiUtils.DrmOperationListener);
+    method public static android.app.Dialog showRefreshLicenseDialogForVideoPlayer(com.mediatek.drm.OmaDrmClient, android.content.Context, java.lang.String, com.mediatek.drm.OmaDrmUiUtils.DrmOperationListener);
+    method public static android.app.Dialog showSecureTimerInvalidDialog(android.content.Context, android.content.DialogInterface.OnClickListener, android.content.DialogInterface.OnDismissListener);
+    method public static android.app.Dialog showSecureTimerInvalidDialogForVideoPlayer(com.mediatek.drm.OmaDrmClient, android.content.Context, com.mediatek.drm.OmaDrmUiUtils.DrmOperationListener);
+  }
+
+  public static abstract interface OmaDrmUiUtils.DrmOperationListener {
+    field public static final int CONTINUE = 1; // 0x1
+    field public static final int STOP = 2; // 0x2
+  }
+
+  public class OmaDrmUtils {
+    method public static com.mediatek.drm.OmaDrmUtils.DrmProfile getDrmProfile(android.content.Context, android.net.Uri, com.mediatek.drm.OmaDrmClient);
+    method public static int getMediaActionType(java.lang.String);
+    method public static boolean isDrmRightsFile(java.lang.String, java.lang.String);
+  }
+
+  public static class OmaDrmUtils.DrmProfile {
+    method public int getMethod();
+    method public boolean isDrm();
+  }
+
+}
+
+package com.mediatek.geocoding {
+
+  public class GeoCodingQuery {
+    method public static com.mediatek.geocoding.GeoCodingQuery getInstance(android.content.Context);
+    method public java.lang.String queryByNumber(java.lang.String);
+  }
+
+}
+
+package com.mediatek.gifdecoder {
+
+  public class GifDecoder {
+    method public synchronized void close();
+    method public synchronized android.graphics.Bitmap getFrameBitmap(int);
+    method public synchronized int getFrameDuration(int);
+    method public synchronized int getHeight();
+    method public synchronized int getTotalFrameCount();
+    method public synchronized int getWidth();
+    field public static final int INVALID_VALUE = 0; // 0x0
+  }
+
+}
+
+package com.mediatek.hdmi {
+
+  public class HdmiDef {
+    field public static final int AUTO = 100; // 0x64
+    field public static final int CAPABILITY_MUTEX_CALL = 4; // 0x4
+    field public static final int CAPABILITY_RDMA_LIMIT = 2; // 0x2
+    field public static final int CAPABILITY_SCALE_ADJUST = 1; // 0x1
+    field public static final int DISPLAY_TYPE_HDMI = 0; // 0x0
+    field public static final int DISPLAY_TYPE_MHL = 2; // 0x2
+    field public static final int DISPLAY_TYPE_SMB = 1; // 0x1
+  }
+
+}
+
+package com.mediatek.hotknot {
+
+  public final class HotKnotAdapter {
+    method public boolean disable();
+    method public boolean enable();
+  }
+
+}
+
+package com.mediatek.internal.telephony {
+
+  public class BtSimapOperResponse implements android.os.Parcelable {
+    method public java.lang.String getApduString();
+    method public java.lang.String getAtrString();
+    method public int getCurType();
+    method public int getSupportType();
+    method public void setApduString(java.lang.String);
+    method public void setAtrString(java.lang.String);
+    method public void setCurType(int);
+    method public void setSupportType(int);
+  }
+
+  public class FemtoCellInfo implements android.os.Parcelable {
+    method public int getCsgIconType();
+    method public int getCsgId();
+    method public java.lang.String getHomeNodeBName();
+    method public java.lang.String getOperatorAlphaLong();
+  }
+
+  public class IccSmsStorageStatus implements android.os.Parcelable {
+    method public int getTotalCount();
+    method public int getUsedCount();
+  }
+
+  public class ModemSwitchHandler {
+    method public static int getActiveModemType();
+    field public static final int MD_TYPE_FDD = 100; // 0x64
+    field public static final int MD_TYPE_LTG = 6; // 0x6
+    field public static final int MD_TYPE_LWG = 5; // 0x5
+    field public static final int MD_TYPE_TDD = 101; // 0x65
+    field public static final int MD_TYPE_TG = 4; // 0x4
+    field public static final int MD_TYPE_UNKNOWN = 0; // 0x0
+    field public static final int MD_TYPE_WG = 3; // 0x3
+  }
+
+  public class NetworkInfoWithAcT implements android.os.Parcelable {
+    method public int getAccessTechnology();
+    method public java.lang.String getOperatorAlphaName();
+    method public java.lang.String getOperatorNumeric();
+    method public int getPriority();
+    method public void setAccessTechnology(int);
+    method public void setOperatorAlphaName(java.lang.String);
+    method public void setOperatorNumeric(java.lang.String);
+    method public void setPriority(int);
+  }
+
+  public class NetworkManager {
+    method public void getAvailableNetworks(long, android.os.Message);
+  }
+
+  public class RadioManager {
+    method public static com.mediatek.internal.telephony.RadioManager getInstance();
+    method public static boolean isPowerOnFeatureAllClosed();
+    method public void notifyAirplaneModeChange(boolean);
+    method public void notifyMSimModeChange(int);
+  }
+
+}
+
+package com.mediatek.internal.telephony.uicc {
+
+  public class AlphaTag implements android.os.Parcelable {
+    method public java.lang.String getAlphaTag();
+    method public int getRecordIndex();
+  }
+
+  public class UsimGroup implements android.os.Parcelable {
+    method public java.lang.String getAlphaTag();
+    method public int getRecordIndex();
+    method public void setAlphaTag(java.lang.String);
+  }
+
+}
+
+package com.mediatek.matrixeffect {
+
+  public class MatrixEffect {
+    method public static com.mediatek.matrixeffect.MatrixEffect getInstance();
+    method public void initialize(int, int, int, int);
+    method public void process(byte[], int[]);
+    method public void release();
+    method public void setBuffers(int, int, byte[][]);
+    method public void setCallback(com.mediatek.matrixeffect.MatrixEffect.EffectsCallback);
+    method public void setSurface(android.view.Surface, int);
+  }
+
+}
+
+package com.mediatek.media {
+
+  public class MediaRecorderEx {
+    method public static void setPreprocessEffect(android.media.MediaRecorder, int) throws java.lang.IllegalStateException;
+    method public static void setVideoBitOffSet(android.media.MediaRecorder, int, boolean);
+  }
+
+}
+
+package com.mediatek.pq {
+
+  public class PictureQuality {
+    field public static final int MODE_CAMERA = 1; // 0x1
+    field public static final int MODE_MASK = 1; // 0x1
+    field public static final int MODE_NORMAL = 0; // 0x0
+  }
+
+}
+
+package com.mediatek.search {
+
+  public class SearchEngineManager {
+    method public java.util.List<com.mediatek.common.search.SearchEngine> getAvailables();
+    method public com.mediatek.common.search.SearchEngine getBestMatch(java.lang.String, java.lang.String);
+    method public com.mediatek.common.search.SearchEngine getByFavicon(java.lang.String);
+    method public com.mediatek.common.search.SearchEngine getDefault();
+    method public com.mediatek.common.search.SearchEngine getSearchEngine(int, java.lang.String);
+    method public boolean setDefault(com.mediatek.common.search.SearchEngine);
+    field public static final java.lang.String ACTION_SEARCH_ENGINE_CHANGED = "com.mediatek.search.SEARCH_ENGINE_CHANGED";
+  }
+
+  public class SearchEngineManagerService extends android.os.Binder {
+    method public synchronized java.util.List<com.mediatek.common.search.SearchEngine> getAvailables();
+    method public com.mediatek.common.search.SearchEngine getBestMatch(java.lang.String, java.lang.String);
+    method public com.mediatek.common.search.SearchEngine getDefault();
+    method public com.mediatek.common.search.SearchEngine getSearchEngine(int, java.lang.String);
+    method public boolean setDefault(com.mediatek.common.search.SearchEngine);
+  }
+
+}
+
+package com.mediatek.storage {
+
+  public class StorageManagerEx {
+    method public static android.os.storage.VolumeInfo findPhoneStorage();
+    method public static java.lang.String getDefaultPath();
+    method public static java.io.File getExternalCacheDir(java.lang.String);
+    method public static java.lang.String getExternalStoragePath();
+    method public static deprecated java.lang.String getInternalStoragePath();
+    method public static deprecated java.lang.String getInternalStoragePathForLogger();
+    method public static deprecated boolean getSdSwapState();
+    method public static boolean isExternalSDCard(java.lang.String);
+    method public static boolean isUSBOTG(java.lang.String);
+    method public static void setDefaultPath(java.lang.String);
+  }
+
+}
+
+package com.mediatek.telephony {
+
+  public class TelephonyManagerEx {
+    method public int getCallState(int);
+    method public int getDataActivity(int);
+    method public int getDataState(int);
+    method public java.lang.String getIccCardType(int);
+    method public java.lang.String getScAddress(int);
+    method public android.os.Bundle getScAddressWithErroCode(int);
+    method public boolean setScAddress(int, java.lang.String);
+    field public static final byte ERROR_CODE_GENERIC_ERROR = 1; // 0x1
+    field public static final byte ERROR_CODE_NO_ERROR = 0; // 0x0
+    field public static final java.lang.String GET_SC_ADDRESS_KEY_ADDRESS = "scAddress";
+    field public static final java.lang.String GET_SC_ADDRESS_KEY_RESULT = "errorCode";
+  }
+
+}
+
+package com.mediatek.text.style {
+
+  public class BackgroundImageSpan extends android.text.style.MetricAffectingSpan implements android.text.ParcelableSpan {
+    ctor public BackgroundImageSpan(int, android.graphics.drawable.Drawable);
+    ctor public BackgroundImageSpan(android.os.Parcel);
+    method public static void convert(java.lang.CharSequence, android.content.Context);
+    method public void convertToDrawable(android.content.Context);
+    method public int describeContents();
+    method public void draw(android.graphics.Canvas, int, float, int, int, int, android.graphics.Paint);
+    method public void draw(android.graphics.Canvas, java.lang.CharSequence, int, int, float, int, int, int, android.graphics.Paint);
+    method public int getSize(android.graphics.Paint, java.lang.CharSequence, int, int, android.graphics.Paint.FontMetricsInt);
+    method public int getSpanTypeId();
+    method public void writeToParcel(android.os.Parcel, int);
+  }
+
+}
+
+package com.mediatek.widget {
+
+  public class AccountItemView extends android.view.View {
+    ctor public AccountItemView(android.content.Context);
+    ctor public AccountItemView(android.content.Context, android.util.AttributeSet);
+    method public void setAccountIcon(int);
+    method public void setAccountIcon(android.graphics.drawable.Drawable);
+    method public void setAccountName(java.lang.String);
+    method public void setAccountNumber(java.lang.String);
+    method public void setViewItem(com.mediatek.widget.AccountViewAdapter.AccountElements);
+  }
+
+  public class AccountViewAdapter {
+    method public void updateData(java.util.List<com.mediatek.widget.AccountViewAdapter.AccountElements>);
+  }
+
+  public static class AccountViewAdapter.AccountElements {
+    ctor public AccountViewAdapter.AccountElements(android.graphics.drawable.Drawable, java.lang.String, java.lang.String);
+  }
+
+  public class ImageViewEx {
+    method public void setImageBitmap(android.graphics.Bitmap);
+    method public void setImageURI(android.net.Uri);
+  }
+
+}
+
+package java.net {
+
+  public class Socket implements java.io.Closeable {
+    method public synchronized int getSoSndTimeout() throws java.net.SocketException;
+    method public synchronized void setSoSndTimeout(int) throws java.net.SocketException;
+  }
+
+}
+

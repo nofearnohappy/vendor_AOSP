@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">स्‍कैन करें</string>  
+    <!-- Search widget -->  
+    <string name="search_widget">स्‍कैन करें</string>  
+    <!-- Text in the dialog for confirming whether to remove an item from the search
+         history. [CHAR_LIMIT=40] -->  
+    <string name="remove_from_history">क्या आप इस आइटम को खोज इतिहास से निकालना चाहते हैं?</string>
+    <!-- Toast text shown when the app fails to remove an item from
+         the search history. [CHAR_LIMIT=60] -->  
+    <string name="remove_from_history_failed">आइटम को इतिहास से निकाल नहीं सके।</string>
+    <!-- Source selector -->  
+    <string name="corpus_selection_heading">स्‍कैन करें</string>  
+    <string name="corpus_label_global">"सभी"</string>  
+    <!-- Name of the combined Web source shown in QSB -->  
+    <string name="corpus_label_web">वेब</string>  
+    <!-- Description of the combined Web source shown in QSB -->  
+    <string name="corpus_description_web">वेब खोज, बुकमार्क्स और ब्राउज़र इतिहास</string>
+    <!-- Name of the Apps source shown in QSB -->  
+    <string name="corpus_label_apps">"एप्लिकेशन"</string>  
+    <!-- Settings description for the Apps source shown in QSB -->  
+    <string name="corpus_description_apps">स्थापित एप्लिकेशंस के नाम</string>  
+    <!-- Search hint for the Apps source shown in QSB -->  
+    <string name="corpus_hint_apps">एप्लिकेशंस खोजें</string>  
+    <!-- Search settings stuff -->  
+    <!-- Search settings menu item -->  
+    <string name="menu_settings">खोज सेटिंग्स</string>  
+    <!-- Search settings title -->  
+    <string name="search_settings">खोज सेटिंग्स</string>  
+    <!-- Title for Google Account category of search settings.
+         [CHAR LIMIT=20] -->  
+    <string name="google_settings_category_title">Google खोज</string>  
+    <!-- Title for 'device' category of search settings 
+        [CHAR LIMIT=20] -->  
+    <string name="device_settings_category_title">शॉर्टकट हटाएं</string>  
+    <!-- Title for 'system search' category of search settings -->  
+    <string name="system_search_category_title">फ़ोन</string>  
+    <!-- Title and summary for 'search sources' link for system search -->  
+    <string name="search_sources">खोजने योग्य आइटम</string> 
+    <string name="search_sources_summary">चुनें कि फोन पर क्‍या सर्च करना है</string>  
+    <!-- Title and summary used for the option to clear search shortcuts from the system
+         search history -->  
+    <string name="clear_shortcuts">शॉर्टकट हटाएं</string>  
+    <string name="clear_shortcuts_summary">हाल में चुने गए सर्च सुझावों के शोर्टकट हटाएं</string>  
+    <!--[CHAR LIMIT=200] Title used in the dialog shown after choosing the 'clear search shortcuts' setting. -->  
+    <string name="clear_shortcuts_prompt">"क्या आप हाल में चुने गए खोज सुझावों के सभी शॉर्टकट को हटाना चाहते हैं?"\n\n"ब्राउज़र इतिहास खाली करने के लिए, ब्राउज़र सेटिंग्स का उपयोग करें।"</string>
+    <!--[CHAR LIMIT=30] Text used on the button to clear shortcuts in the dialog shown after choosing the 'clear search shortcuts' setting. -->  
+    <string name="clear_shortcuts_agree">"ठीक"</string>  
+    <!--[CHAR LIMIT=30] Text used on the button to cancel in the dialog shown after choosing the 'clear search shortcuts' setting. -->  
+    <string name="clear_shortcuts_disagree">"रद्द करें"</string>  
+    <!-- Help menu item. Opens a web page with information about how to use Quick Search Box.
+         [CHAR LIMIT=20] -->  
+    <string name="menu_help">सहायता</string>  
+    <!-- Search source label for the Google search source. -->  
+    <string name="google_search_label">गूगल</string>  
+    <!-- The search activity label. -->  
+    <string name="google_app_label">Google खोज</string>  
+    <!-- This is the hint text shown in the search widget, before text is entered. -->  
+    <!-- This translation MUST MATCH the string "search_hint" which is found in
+         Home/res/values/strings.xml -->  
+    <string name="google_search_hint">Google खोज</string>  
+    <!-- Search settings description for the Google search source. [CHAR LIMIT=50] -->  
+    <string name="google_search_description">Google खोज सुझाव</string>  
+    <!-- Title for Voice Search hints bubble -->  
+    <string name="voice_search_hint_title">बोल कर प्रयास करें:</string>  
+    <!-- Starting quotation marks of the voice search hint -->  
+    <string name="voice_search_hint_quotation_start">"</string>  
+    <!-- Ending quotation marks of the voice search hint -->  
+    <string name="voice_search_hint_quotation_end">"</string>  
+    <!-- Search Engine Settings label -->  
+    <!-- Settings summary -->  
+    <!-- Settings category title for 'Search suggestion settings' settings activity -->  
+    <!-- Settings category title for 'Search engine setting' settings activity -->  
+</resources>

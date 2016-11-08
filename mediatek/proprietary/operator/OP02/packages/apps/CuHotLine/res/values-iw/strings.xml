@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">שירות לקוחות</string>  
+    <string name="hotLine">הקו החם ללקוחות China Unicom</string>
+    <string name="app_not_found">"לא נמצאה אפליקציה שיכולה לטפל בפעולה זו."</string>
+</resources>

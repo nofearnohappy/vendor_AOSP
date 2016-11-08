@@ -1,0 +1,20 @@
+WHAT IT DOES?
+=============
+libhwsensorhub.so is a MediaTek developed sensorhub related module.
+It takes charge of composing data from sensorhub service into messages 
+that md32 side can understand according to the protocol. It also parses 
+data from md32 side into messages that sensorhub service can understand 
+and dispatches them to sensorhub service. 
+
+
+HOW IT WAS BUILT?
+==================
+It is not built if the feature option 'MTK_SENSOR_HUB_SUPPORT' is not enabled.
+To enable it, add 'MTK_SENSOR_HUB_SUPPORT = yes' in corresponding project 
+configuration file ProjectConfig.mk.
+
+
+HOW TO USE IT?
+==============
+libsensorhubservice.so depends on this module and libsensorhubservice.so declares
+this module in its LOCAL_SHARED_LIBRARIES.

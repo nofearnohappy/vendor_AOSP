@@ -1,0 +1,20 @@
+This is a assistant APK for MOTA(Mediatek-OTA) app
+
+
+WHAT IT DOES?
+=============
+
+SystemUpdateAssistant.apk assistant of SystemUpdate.apk is use to write upgrade command to recovery and boot to recovery.
+
+
+HOW IT WAS BUILT?
+==================
+
+Build it only MTK_SYSTEM_UPDATE_SUPPORT is open.
+
+
+HOW TO USE IT?
+==============
+
+Setting->About Phone->System Updates
+

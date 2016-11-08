@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/push_notification_text"
+        android:key="alert_notification_preference_category" >
+        <CheckBoxPreference
+            android:icon="@drawable/ic_incoming_call"
+            android:key="incoming_call_notification_preference" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_missed_call"
+            android:key="missed_call_notification_preference" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_new_message"
+            android:key="new_message_notification_preference" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_new_email"
+            android:key="new_email_notification_preference" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

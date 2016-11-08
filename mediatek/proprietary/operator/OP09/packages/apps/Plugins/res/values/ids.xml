@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Id for dialpad fragment option menu -->
+    <item type="id" name="menu_ip_call_slot_1"/>
+    <item type="id" name="menu_ip_call_slot_2"/>
+    <item type="id" name="menu_view_call_log_detail"/>
+    <item type="id" name="menu_dial_number"/>
+    <item type="id" name="menu_send_message"/>
+    <item type="id" name="menu_delete_from_call_log_list"/>
+    <item type="id" name="menu_delete_all_calls_with_number"/>
+    <item type="id" name="menu_delete_all_calls_with_contact"/>
+    <item type="id" name="menu_ip_dial_number"/>
+    <item type="id" name="menu_view_contact_detail"/>
+    <item type="id" name="menu_copy_number"/>
+    <item type="id" name="menu_copy_number_to_dialer"/>
+    <item type="id" name="menu_save_number_to_contact"/>
+    <item type="id" name="dialButtonLeft"/>
+    <item type="id" name="dialButtonRight"/>
+    <item type="id" name="sendSMSButton"/>
+
+    <!-- Id for Settings Data usage mobile item's sim indicator view -->
+    <item type="id" name="data_usage_mobile_item_sim_indicator_view"/>
+    
+    <!-- Id for FactoryRest MasterClear fragment's ct encrypted container view -->
+    <item type="id" name="encrypted_erase"/>
+    
+    <!-- Id for FactoryRest MasterClear fragment's ct internal erase container view -->
+    <item type="id" name="erase_internal_field"/>
+    <!-- menu for eSurfing dialing -->
+    <item type="id" name="menu_eSufing_dialing"/>
+</resources>

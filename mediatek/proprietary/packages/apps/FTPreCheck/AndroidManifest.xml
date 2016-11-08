@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.ftprecheck"
+    android:sharedUserId="android.uid.phone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+    
+    <!-- for read and write external storage-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mediatek.ftprecheck.FTPreCheckActivity"
+            android:label="@string/ft_precheck_activity_label"
+            android:process="com.android.phone" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CheckResultActivity"
+            android:process="com.android.phone"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings_activity_label"
+            android:process="com.android.phone" >
+        </activity>
+        
+        <activity
+            android:name=".ConditionsSettingActivity"
+            android:label="@string/conditions_setting_activity_label"
+            android:process="com.android.phone" >
+        </activity>
+        
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_activity_label"
+            android:process="com.android.phone" >
+        </activity>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">အရန္အျဖစ္ သိမ္းဆည္းရန္ ႏွင့္ ျပန္လည္သိမ္းဆည္းရန္</string>
+    <string name="backup">အရန္အျဖစ္ သိမ္းဆည္းရန္</string>
+    <string name="restore">ျပန္လည္သိမ္းဆည္းရန္</string>
+    <string name="backuptosd">SD ကတ္ထဲသို႔ အရန္အျဖစ္ သိမ္းဆည္းရန္</string>
+    <string name="selectall">အားလံုးကို ေရြးခ်ယ္ပါ</string>
+    <string name="unselectall">"အားလံုးကို မေရြးခ်ယ္ပါ"</string>
+    <string name="contact_module">အဆက္အသြယ္</string>
+    <string name="message_module">မက္ေဆ့(ခ်္)ေပးပို႔ျခင္း</string>
+    <string name="picture_module">႐ုပ္ပံု</string>
+    <string name="calendar_module">ျပကၡဒိန္</string>
+    <string name="calllog_module">ေခၚဆိုမႈမွတ္တမ္း</string>
+    <string name="app_module">လုပ္ငန္းသံုး ပ႐ိုဂရမ္</string>
+    <string name="music_module">ဂီတ</string>
+    <string name="notebook_module">ႏုတ္ဘြတ္(ခ္)</string>
+    <string name="bookmark_module">စာညႇပ္</string>
+    <string name="backuping">အရန္အျဖစ္ သိမ္းဆည္းေနသည္</string>
+    <string name="restoring">ျပန္လည္ သိမ္းဆည္းေနသည္</string>
+    <string name="warning">သတိေပးခ်က္</string>
+    <string name="cancel_backup_confirm">အရန္အျဖစ္ သိမ္းဆည္းမႈကို ပယ္ဖ်က္မွာလား။</string>
+    <string name="cancelling">ျပန္လည္ဖ်က္သိမ္း ေနဆဲ</string>
+    <string name="btn_ok">အိုေက</string>
+    <string name="bt_yes">ဟုတ္ပါသည္</string>
+    <string name="bt_no">မဟုတ္ပါ</string>
+    <string name="menu_delete">ဖ်က္ပါ</string>
+    <string name="unknown">မသိေသာ</string>
+    <string name="backup_data">အရန္အျဖစ္သိမ္းဆည္းထားေသာ ေဒတာ</string>
+    <string name="less_1K">1K ထက္နည္း</string>
+    <string name="notice">အေၾကာင္းၾကားစာ</string>
+    <string name="nosdcard_notice">သင္၏ SD ကတ္ကို ေက်းဇူးျပဳ၍ ထည့္သြင္းပါ။</string>
+    <string name="restore_confirm_notice">ျပန္လည္သိမ္းဆည္းရန္ ေသခ်ာပါသလား။</string>
+    <string name="contitue">ဆက္လုပ္ရန္</string>
+    <string name="sdcard_removed">SD ကတ္ကို ဖယ္ရွားထားသည္။</string>
+    <string name="sdcard_is_full">SD ကတ္ ျပည့္ေနသည္။</string>
+    <string name="backup_result">အရန္အျဖစ္ သိမ္းဆည္းမႈ ရလဒ္</string>
+    <string name="restore_result">ျပန္လည္သိမ္းဆည္းမႈ ရလဒ္</string>
+    <string name="result_success">ေအာင္ျမင္သည္</string>
+    <string name="result_fail">မေအာင္ျမင္ပါ</string>
+    <string name="result_no_content">အေၾကာင္းအရာမရွိပါ</string>
+    <string name="error">အမွား</string>
+    <string name="sdcard_swap_remove">SDကဒ္ စမ္းသပ္ေတြ႕ရွိျခင္း မရွိပါ။</string>
+    <string name="sdcard_swap_insert">SDကဒ္ စမ္းသပ္ေတြ႕ရွိ။</string>
+    <string name="backup_personal_data">ကိုယ္ေရးကိုယ္တာ ေဒတာမ်ား</string>
+    <string name="backup_app">လုပ္ငန္းသံုး ပ႐ိုဂရမ္</string>
+    <string name="backup_personal_data_history">ကိုယ္ေရးကိုယ္တာ အခ်က္အလက္ အရန္ထားရွိခ်က္ မွတ္တမ္း</string>
+    <string name="backup_app_data_history">ပ႐ိုဂရမ္ အရန္ထားရွိခ်က္ </string>
+    <string name="backup_app_data_preference_title">ပ႐ိုဂရမ္မ်ား</string>
+    <string name="contact_all">အားလံုး</string>
+    <string name="contact_phone" product="tablet">တက္ဘလက္</string>
+    <string name="contact_phone" product="default">ဖုန္း</string>
+    <string name="selected">​ေရြးခ်ယ္ထားေသာ</string>
+    <string name="delete_please_wait">ဖ်က္ေနဆဲ၊ ေစာင့္ပါ။</string>
+    <string name="loading_please_wait">အပ္ဒိတ္လုပ္ေနစဥ္ ေစာင့္ပါ…</string>
+    <string name="edit_folder_name">ဖိုဒါအမည္တည္းျဖတ္ပါ</string>
+    <string name="file_no_exist_and_update">ဖိုင္အား ဖ်က္ၿပီးျဖစ္သည္၊ ျပန္ဖြင့္လိမ့္မည္။</string>
+    <string name="no_item_selected">မည္သည့္အေၾကာင္း အရာမွ ေရြးထားျခင္းမရွိပါ</string>
+    <string name="updating">အပ္ဒိတ္လုပ္ေနဆဲ…</string>
+    <string name="create_folder_fail">ဖိုဒါဖန္တီးျခင္း မေအာင္ျမင္ပါ</string>
+    <string name="detect_new_data_title">ေဒတာအသစ္ စမ္းသပ္ေတြ႕ရွိ</string>
+    <string name="detect_new_data_text" product="tablet">တက္ဘလက္သို႔ ေဒတာကို ျပန္လည္သိမ္းဆည္းရန္ ေရြးပါ။</string>
+    <string name="detect_new_data_text" product="default">သင့္ေဒတာအား ဖုန္းသို႔ ျပန္လည္ သိမ္းဆည္းရန္ ေရြးပါ။</string>
+    <string name="notification_backup_title">အရန္အျဖစ္ သိမ္းဆည္းေနသည္</string>
+    <string name="notification_restore_title">ျပန္လည္ သိမ္းဆည္းေနသည္</string>
+    <string name="restored_flag">ျပန္လည္သိမ္းဆည္းၿပီး</string>
+    <string name="message_sms">စာသား မက္ေဆ့(ခ်္)</string>
+    <string name="message_mms">မာ(လ္)တီမီဒီယာ မက္ေဆ့(ခ်္)</string>
+    <string name="activity_loading">ဖြင့္ေနဆဲ\u2026</string>
+    <string name="sdcard_busy_message">သင့္ SD ကဒ္မအားပါ။</string>
+    <string name="backup_running_toast">အရန္ျပဳလုပ္ေနစဥ္ သင္၏ အခ်က္အလက္ကို ျပန္ယူမရႏိုင္။</string>
+    <string name="air_mode_dialog_title">SIM ပိတ္ထားသည္</string>
+    <string name="air_mode_dialog_message">SIM ကဒ္မ်ား၏ အဆက္အသြယ္မ်ားကို အရံသိမ္းဆည္းရန္ ဖလိုက္မုဒ္ကို ပိတ္ရမည္။</string>
+    <string name="sim_locked_dialog_title">SIM ေသာ့ခတ္</string>
+    <string name="sim_locked_dialog_message">အဆက္အသြယ္မ်ားကို အရံ သိမ္းဆည္းထားရန္ SIM ကဒ္ကို ေသာ့ဖြင့္ရမည္။</string>
+    <string name="sim_locked_dialog_unlock">ေသာ့ဖြင့္ရန္</string>
+    <string name="no_data">အခ်က္အလက္ မရွိပါ။</string>
+    <string name="app_slot1">Slot1</string>
+    <string name="app_slot2">Slot2</string>
+    <string name="app_slot3">Slot3</string>
+    <string name="app_slot4">Slot4</string>
+    <string name="notification_backup_ok">အရံသိမ္းဆည္းျခင္း ေအာင္ျမင္သည္။</string>
+    <string name="notification_backup_failed">အရံသိမ္းဆည္းျခင္း မေအာင္ျမင္ပါ။</string>
+    <string name="notification_restore_ok">ျပန္လည္ သိမ္းဆည္းျခင္း ေအာင္ျမင္သည္။</string>
+    <string name="notification_restore_failed">ျပန္လည္ သိမ္းဆည္းျခင္း မေအာင္ျမင္ပါ။</string>
+    <string name="backup_confirm_overwrite_notice">ဖိုဒါ ရွိၿပီးျဖစ္သည္။ အေပၚမွထပ္ေရးမလား။</string>
+</resources>

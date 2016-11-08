@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">কাস্টমার সার্ভিস</string>  
+    <string name="hotLine">China Unicom কাস্টমার হটলাইন</string>
+    <string name="app_not_found">এই পদক্ষেপটি সামলানোর জন্য কোন অ্যাপ্লিকেশন নেই</string>
+</resources>

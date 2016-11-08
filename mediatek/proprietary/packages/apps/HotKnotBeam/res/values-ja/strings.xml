@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">受信を開始しています...</string>
+    <string name="notification_group_title"><xliff:g id="number">%d</xliff:g>のファイルを受信しています...</string> 
+    <string name="notification_download_done">タッチして詳細を表示する</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g>のファイルを受信しました</string>
+    <string name="notification_received">正常に受信しました</string> 
+    <string name="notification_download_failure"><xliff:g id="reason">%s</xliff:g>のため、受信に失敗しました</string> 
+    <string name="notification_download_cancel">受信がキャンセルされました</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g>のファイルが失敗しました</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g>のファイルが失敗し、<xliff:g id="number">%d</xliff:g>のファイルを受信しました</string>
+    <string name="download_no_file">ファイルが存在しません</string>
+    <string name="notification_sending">送信を開始しています...</string>
+    <string name="notification_group_upload_title"><xliff:g id="number">%d</xliff:g>のファイルを送信しています...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g>のファイルが送信されました</string>
+    <string name="notification_sent">正常に送信されました</string>
+    <string name="notification_upload_failed"><xliff:g id="reason">%s</xliff:g>のため、送信に失敗しました</string>
+    <string name="notification_upload_cancel">送信がキャンセルされました</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g>のファイルが失敗しました</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g>のファイルが失敗し、<xliff:g id="number">%d</xliff:g>のファイルを送信しました</string>
+    <string name="low_storage">容量が少なくなっています</string>
+    <string name="connect_failure">"接続エラー"</string>
+    <string name="unknown_error">不明なエラー</string>
+    <string name="share_label">HotKnot共有</string>
+    <string name="rx_ui_image_status"><xliff:g id="device">%s</xliff:g>から画像を受信しています</string>
+    <string name="rx_group_ui_image_status"><xliff:g id="device">%3$s</xliff:g>から<xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g>の画像を受信しています</string>
+    <string name="rx_ui_video_status"><xliff:g id="device">%s</xliff:g>から動画を受信しています</string>
+    <string name="rx_group_ui_video_status"><xliff:g id="device">%3$s</xliff:g>から<xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g>の動画を受信しています</string>
+    <string name="rx_ui_status"><xliff:g id="device">%s</xliff:g>からファイルを受信しています</string>                
+    <string name="rx_group_ui_status"><xliff:g id="device">%3$s</xliff:g>から<xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g>のファイルを受信しています</string>
+    <string name="rx_ui_music_status"><xliff:g id="device">%s</xliff:g>から音楽を受信しています</string>
+    <string name="rx_group_ui_music_status"><xliff:g id="device">%3$s</xliff:g>から<xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g>の音楽を受信しています</string>
+    <string name="rx_ui_failed_status">受信が完了しませんでした</string>
+</resources>

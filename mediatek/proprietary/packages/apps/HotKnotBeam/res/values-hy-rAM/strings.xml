@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Սկսում է ստանալ...</string>
+    <string name="notification_group_title">Ստանում է <xliff:g id="number">%d</xliff:g> ֆայլեր...</string> 
+    <string name="notification_download_done">Հպեք` մանրամասները դիտելու համար</string>
+    <string name="notification_group_received">Ստացվեցին <xliff:g id="number">%d</xliff:g> ֆայլեր</string>
+    <string name="notification_received">Հաջողությամբ ստացվեց</string> 
+    <string name="notification_download_failure">Չհաջողվեց ստանալ <xliff:g id="reason">%s</xliff:g>-ի պատճառով</string> 
+    <string name="notification_download_cancel">Ստացումը չեղարկվեց</string>
+    <string name="notification_group_received_failed">Ձախողվեցին <xliff:g id="number">%d</xliff:g> ֆայլեր</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> ֆայլեր ձախողվեցին, <xliff:g id="number">%d</xliff:g> ֆայլեր ստացվեցին</string>
+    <string name="download_no_file">Ֆայլը գոյություն չունի</string>
+    <string name="notification_sending">Սկսում է ուղարկել...</string>
+    <string name="notification_group_upload_title">Ուղարկում է <xliff:g id="number">%d</xliff:g> ֆայլեր...</string>
+    <string name="notification_group_sent">Ուղարկվեցին <xliff:g id="number">%d</xliff:g> ֆայլեր</string>
+    <string name="notification_sent">Հաջողությամբ ուղարկվեց</string>
+    <string name="notification_upload_failed">Չհաջողվեց ուղարկել <xliff:g id="reason">%s</xliff:g>-ի պատճառով</string>
+    <string name="notification_upload_cancel">Ուղարկելը չեղարկվեց</string>
+    <string name="notification_group_sent_failed">Ձախողվեցին <xliff:g id="number">%d</xliff:g> ֆայլեր</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> ֆայլեր ձախողվեցին, <xliff:g id="number">%d</xliff:g> ֆայլեր ուղարկվեցին</string>
+    <string name="low_storage">պահոցի տարողությունը սպառվում է</string>
+    <string name="connect_failure">Կապակցման խնդիր</string>
+    <string name="unknown_error">Անհայտ սխալ</string>
+    <string name="share_label">HotKnot-ի համօգտագործում</string>
+    <string name="rx_ui_image_status">Ստացվում է պատկեր <xliff:g id="device">%s</xliff:g> -ից</string>
+    <string name="rx_group_ui_image_status">Ստացվում են <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> պատկերներ` <xliff:g id="device">%3$s</xliff:g>-ից</string>
+    <string name="rx_ui_video_status">Ստացվում է տեսանյութ <xliff:g id="device">%s</xliff:g> -ից</string>
+    <string name="rx_group_ui_video_status">Ստացվում են <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> տեսանյութեր` <xliff:g id="device">%3$s</xliff:g>-ից</string>
+    <string name="rx_ui_status">Ստացվում է ֆայլ <xliff:g id="device">%s</xliff:g> -ից</string>                
+    <string name="rx_group_ui_status">Ստացվում են <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ֆայլեր` <xliff:g id="device">%3$s</xliff:g>-ից</string>
+    <string name="rx_ui_music_status">Ստացվում է երաժշտություն <xliff:g id="device">%s</xliff:g> -ից</string>
+    <string name="rx_group_ui_music_status">Ստացվում է <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> երաժշտություն` <xliff:g id="device">%3$s</xliff:g>-ից</string>
+    <string name="rx_ui_failed_status">Ստացումը չավարտվեց</string>
+</resources>

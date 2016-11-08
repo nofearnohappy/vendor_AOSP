@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@android:color/transparent" >
+
+        <TextView android:id="@+id/time_display_conent"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"
+	        android:paddingLeft="18dip"
+	        android:layout_marginTop="12sp"
+	        android:paddingRight="?android:attr/scrollbarSize"
+		android:ellipsize="middle"  
+		android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/time_display_content"/>
+
+        <!-- Line1 -->
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:minHeight="?android:attr/listPreferredItemHeight"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="18dip"
+	    android:id="@+id/beijing_line"
+	    android:paddingRight="?android:attr/scrollbarSize"> 
+
+	    <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"
+		android:gravity="center_vertical|left"
+		android:singleLine="true"
+		android:ellipsize="middle"  
+		android:scrollHorizontally="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/beijing_time"/>
+
+	
+	    <RadioButton 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical|right"
+		android:id="@+id/beijing_radio"
+		android:focusable="false"
+		android:clickable="true"
+		android:layout_centerVertical="true"/>
+
+	</LinearLayout>
+
+        <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dip"
+	    android:background="?android:attr/listDivider"/> 
+
+        <!-- Line2 -->
+        <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:minHeight="?android:attr/listPreferredItemHeight"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="18dip"
+	    android:id="@+id/local_line"
+	    android:paddingRight="?android:attr/scrollbarSize">
+	    
+	    <TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="3"
+		android:gravity="center_vertical|left"
+		android:singleLine="true"
+		android:ellipsize="middle"  
+		android:scrollHorizontally="true"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/local_time"/>
+		
+	
+	    <RadioButton 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	        android:gravity="center_vertical|right"
+	    	android:id="@+id/local_radio"
+	    	android:focusable="false"
+	    	android:clickable="true"
+	    	android:layout_centerVertical="true"/>
+
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_timec_label">Bluetoothi aja sünkroonimine</string>
+	<string name="bt_timec_main_title">Ajaklient</string>
+	<string name="bt_timec_choose_server_title">Vali serveriseade</string>
+	<string name="bt_timec_choose_server_summary">Valige server kuupäeva ja kellaaja sünkroonimiseks</string>
+	<string name="bt_timec_sync_settings_title">Kellaaja sünkroonimise sätted</string>
+	<string name="bt_timec_service_disconnected">Ühendus ajateenusega katkenud.</string>
+	<string name="bt_timec_sync_title">Kuupäeva ja kellaaja sünkroonimine</string>
+	<string name="bt_timec_sync_summary">Lae aj rakenda kuupäeva ja kellaaja info ajaserverist</string>
+	<string name="bt_timec_auto_title">Automaatne sünkroonimine</string>
+	<string name="bt_timec_auto_summary">Sünkrooni kuupäev ja kellaaeg automaatselt ajaserveriga</string>
+	<string name="bt_timec_repeat_title">"Kordamine"</string>
+	<string name="bt_timec_sync_confirm_title">Kinnita sünkroonimine</string>
+	<string name="bt_timec_sync_confirm_msg">Sünkroonitakse ajaserveriga. Automaatne sünkroonimine mobiilvõrguga keelatakse.Kas soovite jätkata?</string>
+	<string name="bt_timec_synchronizing_title">Sünkroonimine</string>
+	<string name="bt_timec_synchronizing_msg">Kuupäeva ja kellaaja sünkroonimine ajaserveriga...</string>
+	<string name="bt_timec_sync_completed">Sünkroonimine lõppenud</string>
+	<string name="bt_timec_sync_failed">Kuupäeva ja kellaaja sünkroonimine ajaserveriga nurjus</string>
+	<string name="bt_timec_auto_disabled_ticker">Automaatne kellaaja sünkroonimine on keelatud</string>
+	<string name="bt_timec_auto_disabled_title">Kellaaja automaatne sünkroonimine üle Bluetoothi on keelatud</string>
+	<string name="bt_timec_auto_disabled_msg">Kellaaja automaatne sünkroonimine ei toimi, kui Bluetooth on välja lülitatud.</string>
+	<string name="bt_timec_eng_connect_title">"Ühenda"</string>
+	<string name="bt_timec_eng_connect_summary">Ühenda serveriga</string>
+	<string name="bt_timec_eng_disconnect_summary">Katkesta ühendus serveriga</string>
+	<string name="bt_timec_eng_settings_group_title">"Seaded"</string>
+	<string name="bt_timec_eng_automatic_title">"Automaatne"</string>
+	<string name="bt_timec_eng_automatic_summary">Sünkrooni automaatselt ajaserveriga</string>
+	<string name="bt_timec_eng_sync_title">Sünkrooni ajaserveriga</string>
+	<string name="bt_timec_eng_sync_summary">Laadi kuupäev ja kellaaeg ajaserverist ning rakenda</string>
+	<string name="bt_timec_eng_update_server_title">Uuenda serveriaega</string>
+	<string name="bt_timec_eng_update_server_summary">Palu ajaserveril uuendada oma kuupäeva ja kellaaega </string>
+	<string name="bt_timec_eng_dst_title">Järgmine DST vahetus</string>
+	<string name="bt_timec_eng_connecting_title">"Ühendamine"</string>
+	<string name="bt_timec_eng_connecting_msg">Ühendamine ajaserveriga...</string>
+	<string name="bt_timec_eng_connection_failed">Ühendamine nurjus</string>
+	<string name="bt_timec_eng_connection_lost">Ühendus katkes</string>
+	<string name="bt_timec_eng_disconnecting_title">"Ühenduse katkestamine"</string>
+	<string name="bt_timec_eng_disconnecting_msg">Serveriühenduse katkestamine</string>
+	<string name="bt_timec_eng_processing_title">Töötlemine</string>
+	<string name="bt_timec_eng_processing_msg">Sätte rakendamine ajaserverile...</string>
+	<string name="bt_timec_eng_processing_failed">Sätte rakendamine ajaserverile nurjus</string>
+	<string name="bt_timec_eng_server_updating_title">Serveri uuendamine</string>
+	<string name="bt_timec_eng_server_updating_msg">Vajutage TAGASI-klahvi, et tühistada ajaserveri uuendamine</string>
+	<string name="bt_timec_eng_server_update_completed">Serveri uuendamine lõppenud</string>
+	<string name="bt_timec_eng_server_update_failed">Serveri uuendamine nurjus</string>
+</resources>

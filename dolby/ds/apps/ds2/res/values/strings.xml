@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+	<string name="remote_service_stopped">Remote service has stopped</string>
+	<string name="app_name">Dolby</string>
+	<string name="name_widget_extra_large">Dolby Digital Plus</string>
+	<string name="name_widget_large">Dolby Digital Plus</string>
+	<string name="name_widget_small">Dolby Digital Plus</string>
+	<string name="movie">Movie</string>
+	<string name="music">Music</string>
+	<string name="game">Game</string>
+	<string name="voice">Voice</string>
+	<string name="preset_1">Custom 1</string>
+	<string name="preset_2">Custom 2</string>
+    <!-- Todo: modify the follow string's description -->
+    <string name="permission_lable_tuning">Dolby Tuning permission lable</string>
+    <string name="permission_description_tuning">Dolby Tuning permission description</string>
+
+</resources>

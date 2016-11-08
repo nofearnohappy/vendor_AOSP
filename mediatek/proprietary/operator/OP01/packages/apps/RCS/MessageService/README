@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+It is a remote service to support the major App, it is mainly to get the write sms database permission to restore sms and mms.
+
+HOW IT WAS BUILT?
+==================
+It is depended on Op01RCSMessagePlugin.apk
+When MTK_RCS_SUPPORT is yes, it will be auto build out and packaged into image;
+
+HOW TO USE IT?
+==============
+It is used to support Op01RCSMessagePlugin.apk, you will use it when Restore message from cloud.
+It means it works OK when when you can Restore cloud message correctly.

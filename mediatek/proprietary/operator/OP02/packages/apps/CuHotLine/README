@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+It is CUHotline feature for OP02 requirement.
+
+HOW IT WAS BUILT?
+==================
+mmm vendor/mediatek/proprietary/operator/OP02/packages/apps/CuHotLine
+
+HOW TO USE IT?
+==============
+It is a android application for hot line dial number.

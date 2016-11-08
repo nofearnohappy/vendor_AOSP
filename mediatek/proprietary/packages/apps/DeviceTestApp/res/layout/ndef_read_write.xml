@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView 
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        >      
+        <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@drawable/corners_bg_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> 
+        
+        <!-- Pattern Number -->    
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"    
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/pattern_number"/>
+        <LinearLayout 
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+            <TextView android:id="@+id/pattern_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/empty"/>
+        </LinearLayout>     
+        </LinearLayout>     
+           
+        <Button android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:textSize="20dip"/>
+
+        <!-- Result-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FF00FF"
+            android:text="@string/result"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="@drawable/corners_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/corners_bg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- ////// -->
+            <TextView android:id="@+id/test_result"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/empty"/>
+        </LinearLayout>
+        </LinearLayout>
+                
+    </LinearLayout>    
+    </ScrollView>
+</LinearLayout>
+
+
+

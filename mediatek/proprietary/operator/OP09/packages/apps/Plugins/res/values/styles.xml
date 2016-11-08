@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+    <style name="Theme.WallpaperPicker">
+        <item name="android:screenOrientation">nosensor</item>
+    </style>
+
+    <style name="Theme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
+    </style>
+
+    <style name="LivePickerTheme" parent="android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- CT Settings start -->
+    <style name="DataUsageTabSim" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textSize">8sp</item>
+    </style>
+    <!-- CT Settings end -->
+    <style name="ContactListSeparatorTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- See comments for @dimen/list_section_divider_min_height -->
+        <item name="android:minHeight">@dimen/list_section_divider_min_height</item>
+        <item name="android:background">@drawable/list_section_divider_holo_custom</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/people_app_theme_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- OP09 SystemUI QuickSettings style -->
+    <style name="TextAppearance" />
+    <style name="TextAppearance.QuickSettings" />
+    <style name="TextAppearance.QuickSettings.TileView">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#CCCCCC</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+         <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- Call Settings style, sync with Phone setting -->
+    <style name="DialtactsActionBarStyle"
+           parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/phone_settings_actionbar_color</item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+    <style name="SettingsLight" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/phone_settings_background_color</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+    </style>
+
+    <!-- For Ct SystemUI spec start-->
+    <style name="TextAppearance.StatusBar.Expanded" parent="@*android:style/TextAppearance.StatusBar" />
+    <style name="TextAppearance.StatusBar.Expanded.Date">
+        <item name="android:textSize">@dimen/qs_date_collapsed_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#b2ffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Network" parent="@style/TextAppearance.StatusBar.Expanded.Date">
+        <item name="android:textColor">#999999</item>
+    </style>
+    <!-- For Ct SystemUI spec end-->
+    <!-- Settings OP09 data mobile -->
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Material.Medium">
+    </style>
+
+    <!-- Mms OP09 begin -->
+    <style name="MmsTheme" parent="@android:style/Theme.Material.Light">
+       <item name="android:colorPrimary">@color/primary</item>
+       <item name="android:colorPrimaryDark">@color/primary_dark</item>
+
+       <item name="android:textColor">@*android:color/primary_text_light</item>
+       <item name="android:actionBarWidgetTheme">@style/HoloLightSelectMode</item>
+       <item name="android:actionModeStyle">@style/MmsActionMode</item>
+       <item name="android:colorAccent">@color/primary</item>
+       <item name="android:actionBarSize">@dimen/atcionbar_size</item>
+       <item name="android:actionBarStyle">@style/AdvancedSearchActionBarStyle</item>
+    </style>
+
+    <style name="AdvancedSearchActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/AdvancedSearchTextAppearance</item>
+        <item name="android:background">@color/primary</item>
+
+    </style>
+    <style name="AdvancedSearchTextAppearance"
+           parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MmsActionMode" parent="@android:style/Widget.Material.Light.ActionMode">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:actionModeBackground">@color/primary</item>
+    </style>
+
+       <style name="MmsHoloThemeWhite" parent="@style/MmsTheme">
+        <item name="android:actionBarWidgetTheme">@style/HoloLightSelectMode</item>
+    </style>
+    <style name="HoloLightSelectMode" parent="android:style/Widget.Material.Light.ListPopupWindow">
+        <item name="android:popupBackground">@null</item>
+    </style>
+
+    <style name="MmsActionBarTheme" parent="@android:style/Theme.Material.Light">
+           <item name="android:colorPrimary">@color/primary</item>   
+           <item name="android:colorPrimaryDark">@color/primary_dark</item>
+           <item name="android:textColorPrimary">@color/white</item>
+           <item name="android:textColor">@*android:color/primary_text_light</item>
+           <item name="android:actionBarSize">@dimen/atcionbar_size</item>
+    </style>
+    <!-- Mms OP09 end -->
+
+</resources>

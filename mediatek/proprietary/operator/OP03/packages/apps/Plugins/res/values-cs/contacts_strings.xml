@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done" msgid="796017761764190697">"Hotovo"</string>  
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Smazat"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Vybrat vše"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Zrušit výběr všech"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Nový"</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> vybráno
+    </string>
+    <string name="multichoice_no_select_alert">"Není vybrána žádná položka."</string> 
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Popisky USIM pro dodatečná čísla</string>  
+    <string name="aas_phone_type_none">ŽÁDNÉ</string>  
+    <string name="aas_new_dialog_title">Přidat nový popisek</string>  
+    <string name="ass_rename_dialog_title">Upravit popisek</string>  
+    <string name="aas_delele_dialog_message">Odstranění popisků bude mít vliv na všechna dodatečná čísla, která jsou propojena s popisky. Jste si jisti?</string>  
+    <string name="aas_name_invalid">Název popisku je neplatný. Zadejte jiný.</string>  
+    <string name="aas_name_exist">Tento popisek již existuje.</string>  
+    <string name="aas_usim_full">Není místo pro nové popisky.</string>  
+    <string name="ass_edit_assert_message">Úprava popisku bude mít vliv na všechna dodatečná čísla, která jsou propojena s popiskem. Jste si jisti?</string>  
+    <string name="aas_new_fail">Vytvoření nového popisku se nezdařilo.</string>  
+    <string name="aas_edit_fail">Přejmenování 
+        <xliff:g id="aas">%s</xliff:g> se nezdařilo.
+    </string>  
+    <string name="aas_delete_fail">Odstranění 
+        <xliff:g id="aas">%s</xliff:g> se nezdařilo.
+    </string>  
+    <string name="aas_phone_primary">Primární číslo</string>  
+    <string name="aas_phone_additional">Doplňkové číslo</string>  
+    <!-- aas strings end-->
+
+    <string name="nickname_too_long">"Přezdívka je příliš dlouhá."</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlpEM2</string>
+    <string name="application_version_value">1.0</string>
+    <!-- 1.0 official release -->
+
+
+    <!-- FlpDiagnostic -->
+    <string name="wifi_rtt">WIFI RTT enable/disable</string>
+    <string name="test_mode">Test Mode</string>
+    <string name="reset_daemon">Reset FLPD</string>
+    <string name="sudo_loc">Pseudo Location - FLPD will output a fused fix per second</string>
+
+    <!-- FlpStatus -->
+    <string name="diag_gnss">GNSS (GNSS_NTF)</string>
+    <string name="diag_wifi">Wi-Fi (RTT_NTF)</string>
+    <string name="diag_wifi_ap">Wi-Fi AP (WIFI_AP_NTF)</string>
+    <string name="diag_sensors">Sensors (SENS_NTF)</string>
+    <string name="diag_bt">Bluetooth (BT_NTF)</string>
+    <string name="diag_bt_ap">Bluetooth AP (BT_AP_NTF)</string>
+    <string name="diag_flp">Fused Location (FLP_NTF)</string>
+    <string name="diag_log">Log</string>
+    <string name="diag_clear">Clear Log</string>
+    <string name="diag_loop_back">Loop Back Test</string>
+    <string name="diag_flp_capabilites">FLP Capabilites</string>
+    <string name="diag_flp_status">FLP Status</string>
+
+    <!-- FlpFusedLocation -->
+    <string name="common_info">Common Info</string>
+    <string name="application_version">Application Version:</string>
+    <string name="supports_fused_location">Supports Fused Location:</string>
+    <string name="supported_batch_size">Supported Batch Size:</string>
+    <string name="supports_device_context_injection">Supports Device Context Injection:</string>
+    <string name="supports_diagnostic_data_injection">Supports Diagnostic Data Injection:</string>
+    <string name="session_info">Session Information</string>
+    <string name="session">Session</string>
+    <string name="fused_session_id">Session Id:</string>
+    <string name="max_power_allocation_in_mw">Max Power Allocation (mW): </string>
+    <string name="smallest_displacement_meters">Smallest Displacement (meters): </string>
+    <string name="period">Period (s):</string>
+    <string name="source">Source:</string>
+    <string name="batch_flag">Batch Flag:</string>
+    <string name="edit">Edit</string>
+    <string name="fused_on">Fused (ON)</string>
+    <string name="fused_off">Fused (OFF)</string>
+    <string name="started_id">Started Sessions:</string>
+    <string name="stop_all_sessions">Stop All</string>
+    <string name="clear_info">Clear Info</string>
+    <string name="get_batched_location">Get Location</string>
+    <string name="info">Runtime Information</string>
+    <string name="location_callback">Location Callback</string>
+    <string name="diagnostic_callback">Diagnostic Callback</string>
+    <string name="flush_batched_locations">Flush Locations</string>
+
+    <!-- FlpFusedLocation Edit -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="gnss">GNSS</string>
+    <string name="wifi">WiFi</string>
+    <string name="sensors">Sensors</string>
+    <string name="cell">Cell</string>
+    <string name="bt">Bluetooth</string>
+    <string name="none">None</string>
+    <string name="callback_on_location_fix">callback on location fix</string>
+    <string name="wakeup_on_fifo_full">wakeup on fifo full</string>
+
+    <!-- FlpGeofence -->
+    <string name="supports_geofence">Supports Geofence:</string>
+    <string name="supports_geofence_system">Supports System:</string>
+    <string name="quick_configure">Quick Configuration</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="geofence_id_select">Id</string>
+    <string name="geofence_info">Geofence Information</string>
+    <string name="geofence_on">Geofence (ON)</string>
+    <string name="geofence_off">Geofence (OFF)</string>
+    <string name="geofence_pause">State (Pause)</string>
+    <string name="geofence_resume">State (Resume)</string>
+    <string name="geofence_id">Geofence Id:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="radius">Radius (m):</string>
+    <string name="last_transition">Last Transition:</string>
+    <string name="unknown_timer">Unknown Timer (ms):</string>
+    <string name="monitor_transitions">Monitor Transitions:</string>
+    <string name="notifiction_responsiveness">Notification Responsiveness (ms):</string>
+    <string name="session_status">Session Status:</string>
+    <string name="geofene_transition">Geofence Transition</string>
+    <string name="geofene_hardware_monitor_callback">Hardware Monitor Callback</string>
+    <string name="enter">Enter</string>
+    <string name="exit">Exit</string>
+    <string name="uncertain">Uncertain</string>
+
+    <!-- FlpMap -->
+    <string name="menu">Menu</string>
+
+    <!-- FlpHeading -->
+    <string name="heading_on">Heading (ON)</string>
+    <string name="heading_off">Heading (OFF)</string>
+    <string name="get_point_B">Get Point B</string>
+    <string name="heading_error">Heading Error</string>
+
+</resources>

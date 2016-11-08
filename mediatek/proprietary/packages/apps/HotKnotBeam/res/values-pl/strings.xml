@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Trwa rozpoczynanie odbierania...</string>
+    <string name="notification_group_title">Trwa odbieranie <xliff:g id="number">%d</xliff:g> plików...</string> 
+    <string name="notification_download_done">Dotknij, aby wyświetlić szczegóły</string>
+    <string name="notification_group_received">Liczba odebranych plików: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_received">Odebrano pomyślnie</string> 
+    <string name="notification_download_failure">Nie można odebrać z powodu <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Odbieranie zostało anulowane</string>
+    <string name="notification_group_received_failed">Liczba niepowodzeń dot. plików: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_group_received_partial_failed">Liczba niepowodzeń dot. plików: <xliff:g id="number">%d</xliff:g>, liczba odebranych plików: <xliff:g id="number">%d</xliff:g></string>
+    <string name="download_no_file">Plik nie istnieje</string>
+    <string name="notification_sending">Trwa rozpoczynanie wysyłania...</string>
+    <string name="notification_group_upload_title">Trwa wysyłanie <xliff:g id="number">%d</xliff:g> plików...</string>
+    <string name="notification_group_sent">Liczba wysłanych plików: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_sent">Wysłano pomyślnie</string>
+    <string name="notification_upload_failed">Nie można wysłać z powodu <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Wysyłanie zostało anulowane</string>
+    <string name="notification_group_sent_failed">Liczba niepowodzeń dot. plików: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_group_sent_partial_failed">Liczba niepowodzeń dot. plików: <xliff:g id="number">%d</xliff:g>, liczba wysłanych plików: <xliff:g id="number">%d</xliff:g></string>
+    <string name="low_storage">mało pamięci</string>
+    <string name="connect_failure">"Problem z połączeniem"</string>
+    <string name="unknown_error">Nieznany błąd</string>
+    <string name="share_label">Udostępnianie HotKnot</string>
+    <string name="rx_ui_image_status">Odbieranie obrazu z <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Odbieranie <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> obrazów z <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Odbieranie wideo z <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Odbieranie <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> plików wideo z <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Odbieranie pliku z <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Odbieranie <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> plików z <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Odbieranie muzyki z <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Odbieranie <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> plików muzycznych z <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Odbieranie nie zostało ukończone</string>
+</resources>

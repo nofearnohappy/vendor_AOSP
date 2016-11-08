@@ -1,0 +1,7 @@
+This is a shut animaiton resource file for CMCC.
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+shutanimation.zip contains the pictures of showing shut animation;
+In the absence of shutanimation.zip, it will show the progress dialog at power off phone.

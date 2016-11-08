@@ -1,0 +1,39 @@
+# Calendar plugin @{
+-keep class com.mediatek.calendar.plugin.** { *; }
+# @}
+# FileManager plugin @{
+-keep class com.mediatek.filemanager.plugin.** { *; }
+# @}
+
+# Gallery2 plugin @{
+-keep class com.mediatek.gallery3d.plugin.** { *; }
+# @}
+# Browser plugin @{
+-keep class com.mediatek.browser.plugin.** { *; }
+# @}
+# Phone setting plugin @{
+-keep class com.mediatek.phone.plugin.** { *; }
+# @}
+# Mms plugin @{
+-keep class com.mediatek.mms.plugin.** { *; }
+# @}
+# DownloadManager plugin @{
+-keep class com.mediatek.downloadmanager.plugin.** { *; }
+# @}
+# Settings plugin @{
+-keep class com.mediatek.settings.plugin.** { *; }
+-keep class com.mediatek.settings.ext.** { *; }
+-keep class com.mediatek.settingslib.ext.** { *; }
+# @}
+
+# settingsprovider plugin @{
+-keep class com.mediatek.settingsprovider.plugin.** { *; }
+-keep class com.mediatek.providers.settings.ext.** { *; }
+# @}
+
+# Keyguard plugin @{
+-keep class com.mediatek.keyguard.plugin.** { *; }
+# @}
+# SystemUI plugin @{
+-keep class com.mediatek.systemui.plugin.** { *; }
+# @}

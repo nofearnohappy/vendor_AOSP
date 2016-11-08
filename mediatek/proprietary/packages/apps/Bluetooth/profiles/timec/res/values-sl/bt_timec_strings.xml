@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_timec_label">Sinhronizacija časa Bluetooth</string>
+	<string name="bt_timec_main_title">Časovni odjemalec</string>
+	<string name="bt_timec_choose_server_title">Izberite strežniško napravo</string>
+	<string name="bt_timec_choose_server_summary">Izberite strežniško napravo za sinhronizacijo datuma in časa s/z</string>
+	<string name="bt_timec_sync_settings_title">Nastavitve sinhronizacije časa</string>
+	<string name="bt_timec_service_disconnected">Povezava s časovno storitvijo je izgubljena.</string>
+	<string name="bt_timec_sync_title">Sinhroniziraj datum in čas</string>
+	<string name="bt_timec_sync_summary">Pridobi in uporabi podatke o datumu in času s časovnega strežnika</string>
+	<string name="bt_timec_auto_title">Samodejna sinhronizacija</string>
+	<string name="bt_timec_auto_summary">Samodejno sinhroniziraj datum in čas s časovnim strežnikom</string>
+	<string name="bt_timec_repeat_title">"Ponovi"</string>
+	<string name="bt_timec_sync_confirm_title">Potrdite sinhronizacijo</string>
+	<string name="bt_timec_sync_confirm_msg">S tem boste sprožili sinhronizacijo s časovnim strežnikom. Samodejna sinhronizacija z mobilnim omrežjem bo onemogočena. Ali želite nadaljevati?</string>
+	<string name="bt_timec_synchronizing_title">Sinhroniziram</string>
+	<string name="bt_timec_synchronizing_msg">Poteka sinhronizacija datuma in časa s časovnim strežnikom...</string>
+	<string name="bt_timec_sync_completed">Sinhronizacija je končana</string>
+	<string name="bt_timec_sync_failed">Sinhronizacija datuma in časa s časovnim strežnikom ni uspela</string>
+	<string name="bt_timec_auto_disabled_ticker">Samodejna sinhronizacija časa je onemogočena</string>
+	<string name="bt_timec_auto_disabled_title">Samodejna sinhronizacija časa preko Bluetooth je onemogočena</string>
+	<string name="bt_timec_auto_disabled_msg">Samodejna sinhronizacija časa ne deluje, ko je Bluetooth izključen.</string>
+	<string name="bt_timec_eng_connect_title">"Vzpostavi povezavo"</string>
+	<string name="bt_timec_eng_connect_summary">Vzpostavi povezavo s strežnikom</string>
+	<string name="bt_timec_eng_disconnect_summary">Prekini povezavo s strežnikom</string>
+	<string name="bt_timec_eng_settings_group_title">"Nastavitve"</string>
+	<string name="bt_timec_eng_automatic_title">"Samodejno"</string>
+	<string name="bt_timec_eng_automatic_summary">Samodejno sinhroniziraj s časovnim strežnikom</string>
+	<string name="bt_timec_eng_sync_title">Sinhroniziraj s časovnim strežnikom</string>
+	<string name="bt_timec_eng_sync_summary">Pridobi in uporabi datum in čas s časovnega strežnika</string>
+	<string name="bt_timec_eng_update_server_title">Posodobi čas na strežniku</string>
+	<string name="bt_timec_eng_update_server_summary">Zahtevaj posodobitev datuma in časa na časovnem strežniku s časovnim virom</string>
+	<string name="bt_timec_eng_dst_title">Naslednja zamenjava DST</string>
+	<string name="bt_timec_eng_connecting_title">"Vzpostavljanje povezave"</string>
+	<string name="bt_timec_eng_connecting_msg">Vzpostavljam povezavo s časovnim strežnikom…</string>
+	<string name="bt_timec_eng_connection_failed">Povezovanje ni uspelo</string>
+	<string name="bt_timec_eng_connection_lost">Povezava je bila prekinjena</string>
+	<string name="bt_timec_eng_disconnecting_title">"Prekinjanje povezave"</string>
+	<string name="bt_timec_eng_disconnecting_msg">Prekinjam povezavo s strežnikom...</string>
+	<string name="bt_timec_eng_processing_title">Obdelujem</string>
+	<string name="bt_timec_eng_processing_msg">Uveljavljam nastavitve na časovnem strežniku...</string>
+	<string name="bt_timec_eng_processing_failed">Uveljavljanje nastavitev na časovnem strežniku ni uspelo</string>
+	<string name="bt_timec_eng_server_updating_title">Strežnik se posodablja</string>
+	<string name="bt_timec_eng_server_updating_msg">Pritisnite tipko NAZAJ, da bi preklicali čas posodabljanja strežnika</string>
+	<string name="bt_timec_eng_server_update_completed">Posodabljanje strežnika je končano</string>
+	<string name="bt_timec_eng_server_update_failed">Strežnik se ni posodobil</string>
+</resources>

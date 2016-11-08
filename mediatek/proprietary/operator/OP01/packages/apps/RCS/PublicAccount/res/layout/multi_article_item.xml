@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/multi_mix_body"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal" 
+        android:background="@drawable/multi_mix_item_selector">
+
+        <TextView
+            android:id="@+id/multi_mix_body_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:singleLine="false"
+            android:gravity="center_vertical"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/multi_mix_body_thumb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

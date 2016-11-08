@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Greitasisatisiuntimas</string>
+    <string name="hetcomm_intro">Atsiųskite didelius (didesnius nei 20 MB) failus greičiau, tuo pat metu naudodami „Wi-Fi“ ir 4G/3G tinklus. Veikiant greitojo atsisiuntimo funkcijai, būsenos juostoje bus rodoma greitojo atsisiuntimo piktograma. Norint naudoti greitojo atsisiuntimo funkciją, turi būti įjungtas ir „Wi-Fi“, ir mobilieji duomenys. Jai veikiant, bet kokių programėlių duomenys, kuriuos Jūs pasirinkote atsisiųsti tik per „Wi-Fi“, vis tiek bus siunčiami naudojant WLAN ir 4G/3G tinklus.</string>
+    <string name="enable_switch_on">"Įjungta"</string>
+    <string name="enable_switch_off">Išjungti</string>
+    <string name="notify_top_title">Atsisiuntimo greitintuvas</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Duomenys mobiliesiems"</string>
+    <string name="conn_notice_title">Kažkas IŠJUNGTA – arba mobilieji duomenys, arba „Wi-Fi“.</string>
+    <string name="conn_notice_detail">Norint įjungti greitojo atsisiuntimo funkciją, turi būti įjungtas ir „Wi-Fi“, ir mobilieji duomenys.</string>
+    <string name="conn_charging_warning">Atsisiuntimui naudojant mobiliuosius tinklus gali būti taikomi atitinkami papildomi mokesčiai.</string>
+    <string name="turn_on">Įjungti <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Greitojo atsisiuntimo funkcija yra IŠJUNGTA, nes ĮJUNGTAS Vpn</string>
+    <string name="turn_off_due_to_tether">Greitojo atsisiuntimo funkcija yra IŠJUNGTA, nes ĮJUNGTAS pririšimas</string>
+    <string name="turn_off_due_to_shutdown">Greitojo atsisiuntimo funkcija yra IŠJUNGTA dėl išjungimo</string>
+    <string name="turn_off_due_to_roaming">Greitojo atsisiuntimo funkcija yra IŠJUNGTA, nes veikia tarptinklinis ryšys</string>
+    <string name="ratio_is_single">Lėtas „Wi-Fi“ ryšys / mobiliųjų duomenų siuntimo greitis. Siekiant pagreitinti atsisiuntimą, Turbo atsisiuntimo funkcija naudos tik mobiliuosius duomenis / „Wi-Fi“ ryšį failams parsiųsti.</string>
+    <string name="ratio_is_back">Turbo atsisiuntimo funkcija pakartotinai naudos ir „Wi-Fi“ ryšį, ir mobiliuosius duomenis failams parsiųsti.</string>
+    <string name="action_help">"Pagalba"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Greitojo atsisiuntimo pagalba</u>\
+    </h1><br>Atsisiųskite didelius failus didžiausiu greičiu, vienu metu naudodami „Wi-Fi“ ir 4G / 3G.\
+    <h4>1. Atidarykite nustatymus ir spustelėkite „Greitasis atisiuntimas“.</h4>\
+    <h4>2. Spustelėkite jungiklį, kad įjungtumėte „Greitąjį atisiuntimą“.</h4>\
+    <p><b>[Patarimas]</b> Atsisiuntimo greičiui padidinti, jeigu pradedant atsisiuntimą prisijungta ir prie „Wi-Fi“, ir prie 4G / 3G.\
+    <p><b>[Patarimas]</b> Jeigu „Wi-Fi“ arba 4G / 3G ryšys yra per lėtas, atsisiuntimui galite naudoti didesnės spartos tinklo ryšį.\
+    <p><b>[Patarimas]</b> Atsisiuntimo metu funkcija „Greitasis atisiuntimas“ gali turėti įtakos tinklo aplinkai.\
+    <br>&nbsp;&nbsp;- Jeigu signalai bus nepastovūs, šios funkcijos greitis ir veikimas gali suprastėti.\
+    <br>&nbsp;&nbsp;- Visgi atsisiuntimo greitis bus maždaug „dvigubai didesnis“ lyginant su tuo, kuirs būtų naudojant vien „Wi-Fi“ arba 4G / 3G.\
+    <p><b>[Patarimas]</b> Jeigu „Wi-Fi“ ir 4G / 3G sparta labai skirsis (paprastai 2,5 karto), funkcija „Greitasis atisiuntimas“ išsijungs arba neveiks, kad dėl greičio neveiktų netinkamai.\
+    <p><b>[Patarimas]</b> Funkcija „Greitasis atisiuntimas“ bus automatiškai išjungta įjungus „Pririšimą / Vpn“.\
+    </body></html>]]>"</string>
+</resources>

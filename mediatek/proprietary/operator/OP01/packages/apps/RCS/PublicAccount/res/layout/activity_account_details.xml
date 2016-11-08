@@ -1,0 +1,325 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+	android:theme="@android:style/Theme.Material.Light"
+    tools:context="com.mediatek.rcs.pam.ui.AccountDetailsActivity" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="6dip"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/account_name"
+        android:layout_width="fill_parent"
+        android:layout_height="23dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/logo"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/logo"
+        android:gravity="bottom"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/uuid"
+        android:layout_width="fill_parent"
+        android:layout_height="23dip"
+        android:layout_alignLeft="@id/account_name"
+        android:layout_alignRight="@id/account_name"
+        android:layout_below="@+id/account_name"
+        android:layout_marginTop="2dip"
+        android:gravity="top"
+        android:textSize="10dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/enter_chat_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_above="@+id/view_history_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:text="@string/button_chat" />
+    
+    <Button
+        android:id="@+id/view_history_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_above="@+id/button_container"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:text="@string/button_view_history" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/subscribe_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00B050"
+            android:backgroundTintMode="src_in"
+            android:elevation="0dip"
+            android:text="@string/button_subscribe" />
+
+        <Button
+            android:id="@+id/unsubscribe_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/button_unsubscribe"
+            android:backgroundTint="#D20000"
+            android:textColor="#FFFFFF"
+            android:backgroundTintMode="src_in"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/clear_history_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/button_clear_history"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/description_scroll_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/separator5"
+        android:layout_alignLeft="@+id/logo"
+        android:layout_alignRight="@+id/account_name"
+        android:layout_below="@+id/logo"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip" >
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </ScrollView>
+
+    <Switch
+        android:id="@+id/notification_switch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/enter_chat_button"
+        android:layout_alignLeft="@+id/enter_chat_button"
+        android:layout_alignRight="@+id/enter_chat_button"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="2dip"
+        android:text="@string/switch_notification"
+        android:textColor="@color/black"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_above="@+id/notification_switch"
+        android:background="#E0E0E0" >
+    </View>
+
+    <View
+        android:id="@+id/separator5"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_above="@+id/telephone"
+        android:background="#E0E0E0" >
+    </View>
+
+    <ImageView
+        android:id="@+id/telephone"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_above="@+id/separator4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/ic_phone_24dp" />
+
+    <TextView
+        android:id="@+id/telephone_title"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/telephone"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/telephone"
+        android:gravity="bottom"
+        android:text="@string/title_telephone"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/telephone_text"
+        android:layout_width="fill_parent"
+        android:layout_height="18dip"
+        android:layout_alignLeft="@id/telephone_title"
+        android:layout_alignRight="@id/telephone_title"
+        android:layout_below="@+id/telephone_title"
+        android:layout_marginTop="0dip"
+        android:gravity="top"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/separator4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_above="@+id/email"
+        android:layout_alignLeft="@+id/email_title"
+        android:background="#E0E0E0" >
+    </View>
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_above="@+id/separator3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/ic_email_24dp" />
+
+    <TextView
+        android:id="@+id/email_title"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/email"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/email"
+        android:gravity="bottom"
+        android:text="@string/title_email"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="fill_parent"
+        android:layout_height="18dip"
+        android:layout_alignLeft="@id/email_title"
+        android:layout_alignRight="@id/email_title"
+        android:layout_below="@+id/email_title"
+        android:layout_marginTop="0dip"
+        android:gravity="top"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/separator3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_above="@+id/address"
+        android:layout_alignLeft="@+id/address_title"
+        android:background="#E0E0E0" >
+    </View>
+
+    <ImageView
+        android:id="@+id/address"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_above="@+id/separator2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/ic_place_24dp" />
+
+    <TextView
+        android:id="@+id/address_title"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/address"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/address"
+        android:gravity="bottom"
+        android:text="@string/title_address"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="fill_parent"
+        android:layout_height="18dip"
+        android:layout_alignLeft="@id/address_title"
+        android:layout_alignRight="@id/address_title"
+        android:layout_below="@+id/address_title"
+        android:layout_marginTop="0dip"
+        android:gravity="top"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_above="@+id/field"
+        android:layout_alignLeft="@+id/field_title"
+        android:background="#E0E0E0" >
+    </View>
+
+    <ImageView
+        android:id="@+id/field"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_above="@+id/separator1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/ic_field_24dp" />
+
+    <TextView
+        android:id="@+id/field_title"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/field"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/field"
+        android:gravity="bottom"
+        android:text="@string/title_field"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/field_text"
+        android:layout_width="fill_parent"
+        android:layout_height="18dip"
+        android:layout_alignLeft="@id/field_title"
+        android:layout_alignRight="@id/field_title"
+        android:layout_below="@+id/field_title"
+        android:layout_marginTop="0dip"
+        android:gravity="top"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

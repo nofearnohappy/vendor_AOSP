@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">VendorEmail</string>
+
+    <!-- Provider UI Name Strings -->
+    <string name="email_choose_provider_189" translatable="false">189 Mailbox</string>
+    <string name="email_choose_provider_ms_exchange" translatable="false">Microsoft Exchange</string>
+    <string name="email_choose_provider_gmail" translatable="false">Gmail</string>
+    <string name="email_choose_provider_sina" translatable="false">Sina</string>
+    <string name="email_choose_provider_163" translatable="false">163</string>
+    <string name="email_choose_provider_yandex" translatable="false">Yandex</string>
+    <string name="email_choose_provider_mail_ru" translatable="false">Mail.ru</string>
+    <string name="email_choose_provider_others">Others</string>
+
+    <!-- Provider Domain Strings -->
+    <string name="provider_domain_exchange" translatable="false">exchange</string>
+    <string name="provider_domain_others" translatable="false">others</string>
+
+    <!-- Provider Protocol Strings -->
+    <string name="provider_protocol_exchange" translatable="false">eas</string>
+    <string name="provider_protocol_imap" translatable="false">imap</string>
+    <string name="provider_protocol_pop3" translatable="false">pop3</string>
+    <string name="provider_protocol_others" translatable="false"></string>
+</resources>

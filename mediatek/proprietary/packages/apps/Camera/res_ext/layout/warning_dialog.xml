@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+<FrameLayout 
+    android:id="@+id/rotate_dialog_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA000000"
+    android:clickable="true"
+    android:gravity="center" >
+
+    <com.mediatek.camera.ui.UIRotateLayout
+        android:id="@+id/alert_dialog_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FF282828"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/alert_dialog_title_name_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:dividerPadding="0dip"
+                    android:gravity="center"
+                    android:minHeight="48dp"
+                    android:orientation="horizontal"
+                    android:showDividers="middle" >
+
+                    <ImageView
+                        android:id="@+id/alert_dialog_title_icon"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dip"
+                        android:layout_marginRight="6dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:minHeight="48dp" />
+
+                    <TextView
+                        android:id="@+id/alert_dialog_title_name"
+                        style="@android:style/TextAppearance.Holo.DialogWindowTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dip"
+                        android:layout_marginRight="6dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:minHeight="48dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/alert_dialog_time"
+                        style="@android:style/TextAppearance.Holo.Medium"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="56dip"
+                        android:layout_marginRight="16dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/alert_dialog_title_divider"
+                    style="@style/PopupTitleSeparator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/alert_dialog_title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:orientation="vertical" >
+
+                <View
+                    android:id="@+id/alert_dialog_title_divider"
+                    style="@style/PopupTitleSeparator" />
+
+                <TextView
+                    android:id="@+id/alert_dialog_title"
+                    style="@android:style/TextAppearance.Holo.DialogWindowTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dip"
+                    android:layout_marginRight="16dip"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:minHeight="86dp" />
+
+                <View
+                    android:id="@+id/alert_dialog_title_divider"
+                    style="@style/PopupTitleSeparator" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_divider" />
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:background="@color/popup_background"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="9dp" >
+
+                <TextView
+                    android:id="@+id/alert_dialog_text"
+                    style="@android:style/TextAppearance.Holo.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_divider" />
+
+            <LinearLayout
+                android:id="@+id/alert_dialog_button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/list_divider"
+                android:dividerPadding="0dip"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:orientation="horizontal"
+                android:showDividers="middle" >
+
+                <Button
+                    android:id="@+id/alert_dialog_button1"
+                    style="@android:style/Widget.Holo.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:minHeight="48dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.mediatek.camera.ui.UIRotateLayout>
+
+</FrameLayout>
+</RelativeLayout>

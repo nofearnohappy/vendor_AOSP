@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.dataprotection"
+    coreApp="true"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- TODO Google set WRITE_EXTERNAL_STORAGE as runtime permission
+    only some default app and provider have been grant this permission
+    default, we mark sdk version with L MR1, so that default get this
+    permission, and then we need discuss with PMS whether need add this
+    app to default grant app lists. -->
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".DataProtectionApplication"
+        android:icon="@mipmap/ic_launcher_settings"
+        android:label="@string/app_name"
+        android:allowClearUserData="false"
+        android:theme="@style/Theme.DataProtection"
+        android:supportsRtl="true">
+        <activity
+            android:name=".ViewLockedFilesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+            android:label="@string/app_name"
+            android:taskAffinity="com.mediatek.dataprotection"
+            android:launchMode="singleTask"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="com.mediatek.dataprotection.ACTION_START_MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mediatek.dataprotection.ACTION_START_MAIN_PATTERN_INPUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddFileToLockActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+
+            <intent-filter>
+                <action android:name="com.mediatek.dataprotection.ACTION_START_ADD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UnlockHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+
+            <intent-filter>
+                <action android:name="com.mediatek.dataprotection.ACTION_START_UNLOCKHISTORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DecryptFailHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name=".DataProtectionStarter"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="unspecified"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Material.Translucent.NoActionBar" >
+        </activity>
+
+        <service android:name="DataProtectionService" >
+        </service>
+    </application>
+
+</manifest>

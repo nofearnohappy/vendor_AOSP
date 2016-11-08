@@ -1,0 +1,15 @@
+
+WHAT IT DOES?
+=============
+camera framework jni related effects files.
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libjni_effects.so
+
+
+HOW TO USE IT?
+==============
+Provide related api for camera framework jni effects.

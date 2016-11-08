@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_x="0dp"
+        android:layout_y="8dp"    
+        android:layout_width="176dp"
+        android:layout_height="194dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        >
+    
+        <ImageView
+            android:id="@+id/tag_device_shadow"
+            android:src="@drawable/image_shadow"
+            android:layout_width="176dp"
+            android:layout_height="194dp"
+            android:layout_centerInParent="true"
+            />
+        
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="188dp"
+            android:layout_centerInParent="true"
+            >
+        
+            <ImageView
+                android:id="@+id/tag_device_image"
+                android:layout_width="170dp"
+                android:layout_height="188dp"
+                android:layout_centerInParent="true"
+                />        
+
+            <ImageView
+                android:id="@+id/tag_device_bt_icon"
+                android:src="@drawable/bt_bar_disconnected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                />
+
+            <RelativeLayout
+                android:layout_width="170dp"
+                android:layout_height="28dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                >
+                
+                <ImageView
+                    android:id="@+id/tag_device_textbg"
+                    android:src="@drawable/text_bg"
+                    android:layout_width="170dp"
+                    android:layout_height="28dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    />
+                    
+                <ProgressBar
+                    android:id="@+id/tag_device_loading_icon"
+                    style="?android:attr/progressBarStyleSmallTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:layout_marginLeft="8dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    />
+                    
+                <TextView
+                    android:id="@+id/tag_device_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/tag_device_frame"
+            android:src="@drawable/image_alerting"
+            android:layout_width="176dp"
+            android:layout_height="194dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+        
+    <ImageView
+        android:id="@+id/tag_device_alert"
+        android:src="@drawable/ic_alerting"
+        android:layout_x="162dp"
+        android:layout_y="0dp"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:visibility="invisible"
+        />
+        
+</AbsoluteLayout>

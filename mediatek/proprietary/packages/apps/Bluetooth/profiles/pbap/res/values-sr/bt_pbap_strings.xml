@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"Bluetooth приступ телефонском именику"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"Захтев за ауторизовање Bluetooth PBAP"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"Захтев за аутентизацију Bluetooth PBAP"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"Одаберите да дозволите PBAP везу"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"Bluetooth PBAP ауторизација"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"Код за лозинку"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">подешавање SMS сервисног центра је успешно</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"Желите ли сигурно да откажете преузимање?\nПритисните дугме Настави да бисте наставили преузимање\n Притисните дугме Одбаци да бисте одбацили преузимање и обрисали преузету датотеку"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">"Дозволи"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"Захтев за ауторизовање Bluetooth PBAP"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"Дозволи захтев за PBAP конекцију са %1$s?"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"Захтев за аутентизацију Bluetooth PBAP"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message">"Захтев за аутентизацију Bluetooth PBAP са %1$s"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">Брзина преноса података ће опадати.</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"Увек дозволи?"</string>
+</resources>

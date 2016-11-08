@@ -1,0 +1,9 @@
+[
+	{ operationName : "Get", nodeUri : "./ANDSF/ISRP", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/ISRP/1/ForFlowBased", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/ISRP/1/ForServiceBased", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/ISRP/1/ForNonSeamlessOffload", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/ISRP/1/Roaming", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/ISRP/1/PLMN", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF/ISRP/1/UpdatePolicy", objectValue : "", objectType : "", newNode : "" },
+]

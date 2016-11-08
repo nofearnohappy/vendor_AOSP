@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Ջերմային կառավարիչ</string>
+    <string name="coolers">Հովացուցիչներ</string>
+    <string name="thermal_sensors">Ջերմային սենսորներ</string>
+    <string name="thermal_protection">Ջերմային պաշտպանություն</string>
+    <string name="thermal_policy_file_colon">Ջերմային կանոնների ֆայլ."</string>
+    <string name="apply_new_thermal_policy">Կիրառել նոր Ջերմային կանոններ</string>
+    <string name="tz_device_info">TZ Սարքի տեղեկություն</string>
+    <string name="thermal_logger">Ջերմային գրանցիչ</string>
+    <string name="alert_dialog_two_buttons_title">Ջերմային զգուշացում:</string>
+    <string name="alert_dialog_two_buttons_message">Հեռախոսը հարկավոր է հնարավորինս շուտ սառեցնել:</string>
+    <string name="alert_dialog_ok">"Լավ"</string>
+    <string name="alert_dialog_cancel">"Չեղարկել"</string>
+</resources>

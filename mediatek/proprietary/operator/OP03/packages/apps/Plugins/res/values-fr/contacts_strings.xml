@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"OK"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Supprimer"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Tout sélectionner"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Tout désélectionner"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Nouveau"</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> sélectionné
+    </string>
+    <string name="multichoice_no_select_alert">"Aucun élément sélectionné."</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Etiquettes USIM pour numéros supplémentaires</string>  
+    <string name="aas_phone_type_none">AUCUNE</string>  
+    <string name="aas_new_dialog_title">Ajouter nouvelle étiquette</string>  
+    <string name="ass_rename_dialog_title">"Modifier l'étiquette"</string>  
+    <string name="aas_delele_dialog_message">La suppression de la/des étiquette(s) affectera tous les numéros supplémentaires liés à cette/ces étiquette(s). Continuer?</string>  
+    <string name="aas_name_invalid">"Le nom de l'étiquette n'est pas valide. Veuillez recommencer."</string>  
+    <string name="aas_name_exist">Cette étiquette existe déjà.</string>  
+    <string name="aas_usim_full">"Plus d'espace pour de nouvelles étiquettes."</string>  
+    <string name="ass_edit_assert_message">"La modification de l'étiquette affectera tous les numéros supplémentaires liés à cette étiquette. Continuer?"</string>  
+    <string name="aas_new_fail">"Echec de création d'une nouvelle étiquette."</string>  
+    <string name="aas_edit_fail">Impossible de renommer 
+        <xliff:g id="aas">%s</xliff:g>.
+    </string>  
+    <string name="aas_delete_fail">Suppression de 
+        <xliff:g id="aas">%s</xliff:g> failed.
+    </string>  
+    <string name="aas_phone_primary">Numéro principal</string>  
+    <string name="aas_phone_additional">Numéro supplémentaire</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"Pseudo trop long."</string>
+</resources>

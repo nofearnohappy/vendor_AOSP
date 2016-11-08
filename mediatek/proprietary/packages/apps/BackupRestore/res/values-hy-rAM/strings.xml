@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Պահուստային պատճենում և վերականգնում</string>
+    <string name="backup">Պահուստային պատճենում</string>
+    <string name="restore">Վերականգնում</string>
+    <string name="backuptosd">Պահուստավորել SD քարտում</string>
+    <string name="selectall">Ընտրել բոլորը</string>
+    <string name="unselectall">"Ապանշել բոլորը"</string>
+    <string name="contact_module">Կոնտակտ</string>
+    <string name="message_module">"Հաղորդակցում"</string>
+    <string name="picture_module">"Լուսանկար"</string>
+    <string name="calendar_module">"Օրացույց"</string>
+    <string name="calllog_module">"Զանգերի գրանցամատյան"</string>
+    <string name="app_module">Աշխատածրագիր</string>
+    <string name="music_module">"Երաժշտություն"</string>
+    <string name="notebook_module">Գրառումների տետր</string>
+    <string name="bookmark_module">Էջանիշ</string>
+    <string name="backuping">Պահուստավորում է</string>
+    <string name="restoring">Վերականգնում է</string>
+    <string name="warning">Զգուշացում</string>
+    <string name="cancel_backup_confirm">Չեղարկե՞լ պահուստավորումը:</string>
+    <string name="cancelling">Չեղարկվում է</string>
+    <string name="btn_ok">"Լավ"</string>
+    <string name="bt_yes">"Այո"</string>
+    <string name="bt_no">"Ոչ"</string>
+    <string name="menu_delete">"Ջնջել"</string>
+    <string name="unknown">Անհայտ</string>
+    <string name="backup_data">Տվյալների պահուստային պատճենում</string>
+    <string name="less_1K">1K-ից պակաս</string>
+    <string name="notice">Ծանուցում</string>
+    <string name="nosdcard_notice">Խնդրում ենք զետեղել ձեր SD քարտ:</string>
+    <string name="restore_confirm_notice">Համոզվա՞ծ եք, որ ցանկանում եք վերականգնել:</string>
+    <string name="contitue">"Շարունակել"</string>
+    <string name="sdcard_removed">SD քարտը հեռացված է:</string>
+    <string name="sdcard_is_full">SD քարտը լիքն է:</string>
+    <string name="backup_result">Պահուստավորման արդյունք</string>
+    <string name="restore_result">Վերականգնման արդյունք</string>
+    <string name="result_success">"Հաջողվել է"</string>
+    <string name="result_fail">ձախողվեց</string>
+    <string name="result_no_content">բովանդակություն չկա</string>
+    <string name="error">"Սխալ"</string>
+    <string name="sdcard_swap_remove">SD քարտ չի գտնվել:</string>
+    <string name="sdcard_swap_insert">SD քարտը գտնվել է:</string>
+    <string name="backup_personal_data">"Անձնական տվյալներ"</string>
+    <string name="backup_app">Աշխատածրագիր</string>
+    <string name="backup_personal_data_history">Անձնական տվյալների պահուստավորման պատմություն</string>
+    <string name="backup_app_data_history">Աշխատածրագրերի պահուստավորում</string>
+    <string name="backup_app_data_preference_title">Աշխատածրագրեր</string>
+    <string name="contact_all">"Բոլորը"</string>
+    <string name="contact_phone" product="tablet">"Գրասալիկ"</string>
+    <string name="contact_phone" product="default">"Հեռախոս"</string>
+    <string name="selected">Ընտրված է</string>
+    <string name="delete_please_wait">Ջնջվում է, խնդրում ենք սպասել:</string>
+    <string name="loading_please_wait">խնդրում ենք սպասել, երբ արդիականացվում է...</string>
+    <string name="edit_folder_name">Խմբագրել պանակի անվանումը</string>
+    <string name="file_no_exist_and_update">Ֆայլը ջնջվել է, այն կվերաբեռնվի:</string>
+    <string name="no_item_selected">Չի ընտրվել ոչ մի միավոր</string>
+    <string name="updating">արդիականացնում է...</string>
+    <string name="create_folder_fail">պանակի ստեղծումը ձախողվեց</string>
+    <string name="detect_new_data_title">Գտնվել են նոր տվյալներ</string>
+    <string name="detect_new_data_text" product="tablet">Ընտրեք` ձեր տվյալները պլանշետում վերականգնելու համար:</string>
+    <string name="detect_new_data_text" product="default">Ընտրել` ձեր տվյալները հեռախոսում վերականգնելու համար:</string>
+    <string name="notification_backup_title">Պահուստավորում է</string>
+    <string name="notification_restore_title">Վերականգնում է</string>
+    <string name="restored_flag">Վերականգնված է</string>
+    <string name="message_sms">"Տեքստային հաղորդագրություն"</string>
+    <string name="message_mms">"Մուլտիմեդիա հաղորդագրություն"</string>
+    <string name="activity_loading">Բեռնվում է\u2026</string>
+    <string name="sdcard_busy_message">Ձեր SD քարտն զբաղված է:</string>
+    <string name="backup_running_toast">Հնարավոր չէ վերականգնել ձեր տվյալները պահուստավորման ժամանակ:</string>
+    <string name="air_mode_dialog_title">SIM-ն անջատված է</string>
+    <string name="air_mode_dialog_message">Պետք է անջատեք թռիչքի ռեժիմը` SIM քարտերի կոնտակտները պահուստավորելու համար:</string>
+    <string name="sim_locked_dialog_title">SIM կողպում</string>
+    <string name="sim_locked_dialog_message">Պետք է ապակողպեք SIM քարտը` կոնտակտները պահուստավորելու համար:</string>
+    <string name="sim_locked_dialog_unlock">"Ապակողպել"</string>
+    <string name="no_data">"Տվյալներ չկան:"</string>
+    <string name="app_slot1">Փորակ1</string>
+    <string name="app_slot2">Փորակ2</string>
+    <string name="app_slot3">Փորակ3</string>
+    <string name="app_slot4">Փորակ4</string>
+    <string name="notification_backup_ok">Պահուստավորումը հաջողությամբ կատարվեց:</string>
+    <string name="notification_backup_failed">Պահուստավորումը ձախողվեց:</string>
+    <string name="notification_restore_ok">Վերականգնումը հաջողությամբ կատարվեց:</string>
+    <string name="notification_restore_failed">Վերականգնումը ձախողվեց:</string>
+    <string name="backup_confirm_overwrite_notice">Պանակն արդեն գոյություն ունի, վրագրե՞լ:</string>
+</resources>

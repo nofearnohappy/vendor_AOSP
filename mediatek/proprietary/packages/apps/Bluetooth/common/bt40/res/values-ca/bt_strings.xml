@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">"S\'està reproduint a través de Bluetooth"</string>
+	<string name="app_description">"Paquet de perfil Bluetooth"</string>
+	<string name="bt_base_activity_busy_message">Carregant, espereu...</string>
+	<string name="bt_base_activity_service_disconnected">"Servei desconnectat""</string>
+	<string name="bt_base_profile_feature_disabled">"No es pot desactivar el Bluetooth"</string>
+	<string name="bt_share_mgmt_tab_in_title">"S\'està baixant"</string>
+	<string name="bt_share_mgmt_tab_out_title">"Pujades instantànies"</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"Esborra totes les notificacions."</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"Connectat a la transferència de fitxers"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">L’operació d’escriptura d’etiqueta no ha finalitzat correctament.\n\n %1$s\n\n Vols tornar-ho a provar?</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"Esborra les dreceres als suggeriments de cerca seleccionats recentment"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"No s'ha rebut el fitxer %1$s des de %2$s"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"El fitxer %1$s no s'ha enviat des de %2$s"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"El fitxer %1$s s'ha enviat des de %2$s"</string>
+	<string name="bt_share_mgmt_notification_ticker">"Historial d'ús compartit de Bluetooth"</string>
+	<string name="bt_share_mgmt_notification_title">"Historial d'ús compartit de Bluetooth"</string>
+	<string name="bt_share_mgmt_notification_message">"Seleccioneu per veure l'historial d'ús compartit de Bluetooth"</string>
+	<string name="bt_share_openfile_title">No s’ha pogut obrir el fitxer.</string>
+	<string name="bt_share_openfile_message_invalid_param">"Fitxer no vàlid: %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"Tipus de fitxer no admès: %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"Fitxer no trobat: %1$s"</string>
+	<string name="bt_share_openfile_confirm">Centre de Servei SMS establert</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Share</string>
+    <string name="hint1">Veenduge, et vastuvõttev seade on rakenduse HotKnot sisse lülitanud ja hoiab oma ekraani lukustamata.</string>
+    <string name="hint2">Pange oma seadme ekraan vastuvõtva seadme ekraanile.</string>
+    <string name="hint3">Võtke oma seade vastuvõtvalt seadmelt ära, kui olete kuulnud hääljuhist.</string>
+    <string name="use_hotknot">See rakendus peab kasutama HotKnot tehnoloogiat teie seadmes.</string>
+    <string name="allow">"Luba"</string>
+    <string name="deny">"Keela"</string>
+    <string name="fail_to_share">Jagamine ebaõnnestus</string>
+    <string name="fail_to_share_conn_error">Jagamine ebaõnnestus ühendusprobleemide tõttu.</string>
+    <string name="fail_to_share_unknown_error">Jagamine ebaõnnestus tundmatu tõrke tõttu.</string>
+    <string name="try_again">"Proovige uuesti"</string>
+    <string name="usb_warning">USB laadimine võib mõjutada funktsiooni HotKnot.</string>
+</resources>

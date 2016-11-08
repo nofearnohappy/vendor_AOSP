@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mediatek.rcs.message"
+      android:sharedUserId="android.uid.mms"
+       >
+    
+    <original-package android:name="com.android.mms" />
+    
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+
+    <!-- cloud backup -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_MMS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_MMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- cloud backup -->
+
+    <permission
+        android:protectionLevel="normal"
+        android:name="com.cmcc.ccs.READ_GROUP_CHAT"/>
+    <permission
+        android:protectionLevel="normal"
+        android:name="com.cmcc.ccs.WRITE_GROUP_CHAT"/>
+ 
+    <application android:label="@string/app_name"
+        android:name = "Op01RcsMessagePluginApp"
+        android:process="com.android.mms"
+        >
+
+        <activity android:name="com.mediatek.rcs.message.ui.ProxyActivity"
+            android:process="com.android.mms"
+            android:taskAffinity="android.task.mms"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:theme="@style/SmsAlertDialog">
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.message.ui.ProxyActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.groupchat.START"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+<!--              android:theme="@android:style/Theme.Translucent"-->
+
+      <activity android:name=".ui.RcsIpMsgContentShowActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MmsTheme"
+            android:configChanges="orientation|screenSize|keyboardHidden|mcc|mnc"
+            >
+        <intent-filter >
+            <action android:name="com.mediatek.rcs.message.ui.RcsIpMsgContentShowActivity"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+        </activity>
+
+    <activity android:name=".ui.CreateGroupActivity"
+        android:theme="@style/SmsAlertDialog"
+        android:configChanges="orientation|screenSize|keyboardHidden"
+        android:excludeFromRecents="true">
+        <intent-filter>
+            <action android:name="android.intent.action.rcs.CREATE_GROUP"/>
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    <activity android:name="com.mediatek.rcs.message.ui.ForwardActivity"
+              android:label="@string/rcs_message"
+              android:icon="@drawable/ic_launcher_smsmms"
+              android:theme="@style/MmsTheme"
+              android:configChanges="orientation|keyboardHidden|screenSize"
+              android:launchMode="singleTask"
+              >
+        <intent-filter>
+            <action android:name="android.intent.action.ACTION_RCS_MESSAGING_SEND" />
+            <category android:name="android.intent.category.DEFAULT"/>
+            <data android:mimeType="text/plain" />
+            <data android:mimeType="text/vemoticon" />
+            <data android:mimeType="image/jpeg"/>
+            <data android:mimeType="image/*"/>
+            <data android:mimeType="video/mp4"/>
+            <data android:mimeType="video/*"/>
+            <data android:mimeType="text/x-vcard"/>
+            <data android:mimeType="mms/pdu"/>
+            <data android:mimeType="favorite/pdu"/>
+            <data android:mimeType="multisend/*"/>
+            <data android:mimeType="geo/*"/>
+            <data android:mimeType="audio/*"/>
+        </intent-filter>
+      
+        <intent-filter>
+             <action android:name="android.intent.action.SEND" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="image/*" />
+        </intent-filter>
+         <intent-filter>
+             <action android:name="android.intent.action.SEND" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="video/*" />
+         </intent-filter>
+         <intent-filter>
+             <action android:name="android.intent.action.SEND" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="audio/*" />
+         </intent-filter>
+         <intent-filter>
+             <action android:name="android.intent.action.SEND" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="text/plain" />
+         </intent-filter>
+         <intent-filter>
+             <action android:name="android.intent.action.SEND" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="text/vemoticon" />
+         </intent-filter>
+         <intent-filter>
+             <action android:name="android.intent.action.SEND" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="text/x-vcard" />
+         </intent-filter>
+
+         <intent-filter>
+             <action android:name="android.intent.action.SEND_MULTIPLE" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="image/*" />
+         </intent-filter>
+         <intent-filter>
+             <action android:name="android.intent.action.SEND_MULTIPLE" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="video/*" />
+         </intent-filter>
+         <intent-filter>
+             <action android:name="android.intent.action.SEND_MULTIPLE" />
+             <category android:name="android.intent.category.DEFAULT" />
+             <data android:mimeType="audio/*" />
+         </intent-filter>
+    </activity>
+    <activity
+        android:name="com.mediatek.rcs.message.ui.RcsGroupManagementSetting"
+        android:icon="@drawable/ic_launcher_smsmms"
+        android:label="@string/group_management"
+        android:theme="@style/MmsTheme"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        >
+      <intent-filter>
+            <action android:name="com.mediatek.rcs.message.ui.RcsGroupManagementSetting"/>
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <provider android:name="com.mediatek.rcs.message.provider.DAPIChatProvider"
+              android:exported="true"
+              android:authorities="com.cmcc.ccs.group_chat"
+              android:multiprocess="true"
+              android:readPermission="com.cmcc.ccs.READ_GROUP_CHAT"
+              android:writePermission="com.cmcc.ccs.WRITE_GROUP_CHAT" />
+
+    <provider android:name="com.mediatek.rcs.message.provider.GroupChatProvider"
+              android:exported="true"
+              android:authorities="rcs-groupchat"
+              android:multiprocess="true" />
+
+    <provider android:name="com.mediatek.rcs.message.provider.GroupMemberProvider"
+              android:exported="true"
+              android:authorities="rcs-groupmember;com.cmcc.ccs.group_member"
+              android:multiprocess="true" />
+
+    <provider android:name="com.mediatek.rcs.message.provider.SpamMsgProvider"
+              android:exported="true"
+              android:authorities="rcs-spam"
+              android:multiprocess="true" />
+
+    <provider android:name="com.mediatek.rcs.message.provider.FavoriteMsgProvider"
+              android:exported="true"
+              android:authorities="com.cmcc.ccs.favor_message"
+              android:multiprocess="true" />
+
+        <activity
+            android:name="com.mediatek.rcs.message.ui.FavoritesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.message.ui.FavoritesActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mediatek.rcs.message.ui.SpamMsgActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.message.ui.SpamMsgActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.mediatek.rcs.message.ui.RcsSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/MmsTheme" >
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.message.ui.RcsSettingsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.mediatek.rcs.message.receiver.RcsConfigStatusReceiver" >
+          <intent-filter>
+            <action android:name="com.mediatek.rcs.message.SERVICE_STATE" />
+          </intent-filter>
+          <!--  
+          <intent-filter>
+            <action android:name="com.orangelabs.rcs.CONFIGURATION_STATUS_TO_APP" />
+          </intent-filter>
+          -->
+        </receiver>
+
+        <service android:name="com.mediatek.rcs.message.cloudbackup.BackupService" >
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.message.cloudbackup.intent.BackupService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.mediatek.rcs.message.cloudbackup.RestoreService" >
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.message.cloudbackup.intent.RestoreService" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.mediatek.rcs.message.SendModeChangedNotifyService">
+            <intent-filter>
+            <action android:name="com.mediatek.rcs.message.SendModeChangedNotifyService" />
+          </intent-filter>
+        </service>
+
+    </application>
+</manifest>

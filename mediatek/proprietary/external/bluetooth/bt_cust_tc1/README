@@ -1,0 +1,12 @@
+WHAT IT DOES?
+=============
+Provide an open library used by blueangel to access tc1_interface.
+
+HOW IT WAS BUILT?
+==================
+Built with libtc1part and MTK_TC1_FEATURE enabled.
+
+HOW TO USE IT?
+==============
+Set customer value "TC1FeatureSupport" to 1.
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot koplietošana</string>
+    <string name="hint1">Nodrošiniet, lai uztveršanas ierīcē būtu ieslēgts HotKnot, un nebloķējiet ekrānu.</string>
+    <string name="hint2">Novietojiet ierīci uz uztveršanas ierīces ekrānu pret ekrānu.</string>
+    <string name="hint3">Attāliniet savu ierīci no uztveršanas ierīces pēc balss uzvednes atskaņošanas.</string>
+    <string name="use_hotknot">Šai lietojumprogrammai ir jāizmanto HotKnot tehnoloģija jūsu ierīcē.</string>
+    <string name="allow">"Atļaut"</string>
+    <string name="deny">"Noraidīt"</string>
+    <string name="fail_to_share">Neizdevās koplietot</string>
+    <string name="fail_to_share_conn_error">Neizdevās koplietot savienojuma problēmu dēļ.</string>
+    <string name="fail_to_share_unknown_error">Neizdevās koplietot nezināmas kļūdas dēļ.</string>
+    <string name="try_again">"Mēģināt vēlreiz"</string>
+    <string name="usb_warning">HotKnot funkcija var būt ietekmēta USB uzlādes laikā.</string>
+</resources>

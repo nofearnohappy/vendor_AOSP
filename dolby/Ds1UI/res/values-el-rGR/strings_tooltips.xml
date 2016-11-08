@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Έξυπνος ισοσταθμιστής/Γραφικός Iσοσταθμιστής</string>
+	<string name="tooltip_eq_text">Ο Έξυπνος Ισοσταθμιστής αναλύει και ρυθμίζει δυναμικά τον ήχο για να ανταποκρίνεται στον επιθυμητό τόνο. Επιλέξτε από τις τέσσερις προεπιλογές παρακάτω και αγγίξτε τον Aπεικονιστή Φάσματος για εξατομικευμένες τροποποιήσεις στον Γραφικό Ισοσταθμιστή.</string>
+	<string name="tooltip_sv_title">Εικονικό Surround</string>
+	<string name="tooltip_sv_text">Ο Εικονικός Ήχος Surround δημιουργεί ρεαλιστικό περιβάλλοντα ήχο από οποιοδήποτε σετ ακουστικών ή στερεοφωνικών ενσωματωμένων ηχείων.  Ανοίξτε ή κλείστε το διακόπτη για να ελέγξετε την επίδραση του ήχου surround.</string>
+	<string name="tooltip_de_title">Ενισχυτής Διαλόγου</string>
+	<string name="tooltip_de_text">Ο Ενισχυτής Διαλόγου βελτιώνει την καθαρότητα του λόγου σε οποιουδήποτε τύπου μέσο. Ανοίξτε ή κλείστε το διακόπτη για να ελέγξετε την ενίσχυση διαλόγων.</string>
+	<string name="tooltip_vl_title">Σταθμιστής Έντασης</string>
+	<string name="tooltip_vl_text">Ο Σταθμιστής Έντασης παρέχει την ίδια ένταση ήχου σε όλο το περιεχόμενο και τις εφαρμογές που βασίζονται στην κύρια ένταση ήχου της συσκευής. Ανοίξτε ή κλείστε το διακόπτη για να ελέγξετε την αυτόματη στάθμιση έντασης.</string>
+</resources>

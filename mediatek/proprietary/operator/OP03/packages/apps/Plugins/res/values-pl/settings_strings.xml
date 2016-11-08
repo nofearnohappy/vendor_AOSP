@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Przenośny punkt dostępu do sieci Wi-Fi</string>
+    <string name="wifi_tether_introduction_text">Włączając w swoim urządzeniu funkcję przenośnego punktu dostępu do sieci Wi-Fi, możesz dzielić swoje połączenie internetowe z maksymalnie ośmioma innymi urządzeniami naraz.\n\nPamiętaj, że tethering używa połączenia transmisji danych. Może to skutkować znacznym wzrostem opłat za połączenia i skróconym czasem pracy baterii.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Włóż kartę SIM i ponownie uruchom urządzenie, aby korzystać z przenośnego punktu dostępu do sieci Wi-Fi lub tetheringu.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Nie pokazuj więcej tego komunikatu</string>
+    <string name="wifi_tether_turn_off_wifi">Aby włączyć przenośny punkt dostępu Wi-Fi, najpierw wyłącz połączenie Wi-Fi. Czy chcesz kontynuować?</string>
+    <string name="wifi_tether_settings_text">Ustawienia przenośnego punktu dostępu do sieci Wi-Fi</string>
+    <string name="tether_apn_settings_text">APN dla tetheringu</string>
+    <string name="tether_apn_settings_subtext">Ustaw domyślny APN dla tetheringu</string>
+    <string name="usb_tethering_accessory_active_subtext">Nie można włączyć funkcji tetheringu podczas korzystania z USB.</string>
+    <string name="operator_display">Pokaż operatora sieci</string>
+    <string name="operator_display_summary">Pokaż operatora sieci na pasku stanu</string>
+    <string name="by_orange">od Orange</string>
+    <string name="recommended_by_orange">Polecana przez Orange</string>
+    <string name="smsmms_app_name">Aplikacja Wiadomości nie jest aktywna</string>
+    <string name="click_to_change_to_xms_app">Wiadomości nie jest Twoją domyślną aplikacją SMS.</string>
+    <string name="click_to_change_to_xms_app_line2">Dotknij tutaj, aby uzyskać więcej informacji.</string>
+    <string name="sms_change_default_dialog_text1">Aplikacja Wiadomości została przetestowana przez Orange do działania na Twoim urządzeniu.\n\n
+
+Korzystanie z innych aplikacji SMS może spowodować problemy podczas wysyłania i odbierania wiadomości SMS i MMS.\n\n
+
+Użyć <xliff:g id="new_app">%s</xliff:g> zamiast <xliff:g id="current_app">%s</xliff:g> jako aplikacji SMS?</string>
+    
+</resources>

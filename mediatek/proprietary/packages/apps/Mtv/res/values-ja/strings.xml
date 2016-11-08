@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hw_init_failed">ハードウェアを初期化できません。</string>
+    <string name="stop_record_first">先に録音を停止してください。</string>
+    <string name="location_changed">場所は%1$sへ変更されました。</string>
+    <string name="saved_to_gallery">ギャラリーへ保存しました。</string>
+    <string name="channel">チャンネル</string>
+    <string name="scan_confirm">現在のチャンネルは削除されます。</string>
+    <string name="turning_on_tv">Turning on TV…</string>
+    <string name="please_wait">お待ちください\u2026</string>
+    <string name="no_storage">SDカードを挿入してください。</string>
+    <string name="preparing_sd">"SDカードの準備中..."</string>
+    <string name="multiselect">"複数選択"</string>    
+    <string name="confirm_delete_message">チャンネルは削除されます。</string>
+    <string name="confirm_delete_multiple_message">以下のチャンネルは削除されます：</string>
+<string name="scanning_channels">チャンネルをスキャン中</string>
+<string name="stop">"停止"</string>
+<string name="choose_sound_mode">音声モードを選択する</string>
+<string name="brightness">"画面の明るさ"</string>
+<string name="contrast">"コントラスト"</string>
+<string name="saturation">"彩度"</string>
+<string name="gallery">"ギャラリー"</string>
+<string name="record">録音</string>
+<string name="video_setting">動画設定</string>
+<string name="previous_channel">前回のチャンネル</string>
+<string name="sound_setting">音声設定</string>
+<string name="rename">"名前を変更"</string>
+<string name="fail_to_select_location">場所を選択できません。</string>
+<string name="no_channels_hint">チャンネル一覧が空欄です。</string>
+<string name="select_location">場所を選択する</string>
+<string name="channel_list">チャンネル一覧</string>
+<string name="no_channels_found">チャンネルが見つかりません。</string>
+<string name="scan_again">再度スキャンを行う</string>
+<string name="scan">"スキャン"</string>
+<string name="delete">"削除"</string>
+<string name="watch_now">今すぐ見る</string>
+<string name="select_all">"すべて選択"</string>
+<string name="new_channel_name">新チャンネル名：</string>
+<string name="spaceIsLow_content">SDカードの保存空間が一杯になりつつあります。</string>
+<string name="vt_in_use_warning">通話中はテレビは利用できません。</string>
+<string name="analog_tv">"アナログテレビ"</string>
+<string name="selected">%dが選択されました</string>   
+</resources>

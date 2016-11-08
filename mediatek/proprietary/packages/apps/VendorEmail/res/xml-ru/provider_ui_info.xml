@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<provideruiinfos xmlns:provider="http://schemas.android.com/apk/res/com.android.email.policy">
+    <provideruiinfo
+        provider:name="@string/email_choose_provider_yandex"
+        provider:serverdomain="yandex.ru"
+        provider:defaultprotocol="@string/provider_protocol_imap"
+        provider:hint="example@yandex.ru"
+        provider:icon="mail_yandex"
+        />
+    <provideruiinfo
+        provider:name="@string/email_choose_provider_mail_ru"
+        provider:serverdomain="mail.ru"
+        provider:defaultprotocol="@string/provider_protocol_imap"
+        provider:hint="example@mail.ru"
+        provider:icon="mail_mail_ru"
+        />
+    <provideruiinfo
+        provider:name="@string/email_choose_provider_ms_exchange"
+        provider:serverdomain="@string/provider_domain_exchange"
+        provider:defaultprotocol="@string/provider_protocol_exchange"
+        provider:hint="example@company.com"
+        provider:icon="mail_exchange"
+        />
+    <provideruiinfo
+        provider:name="@string/email_choose_provider_others"
+        provider:serverdomain="@string/provider_domain_others"
+        provider:defaultprotocol="@string/provider_protocol_others"
+        provider:hint="example@others.com"
+        provider:icon="mail_others"
+        />
+</provideruiinfos>

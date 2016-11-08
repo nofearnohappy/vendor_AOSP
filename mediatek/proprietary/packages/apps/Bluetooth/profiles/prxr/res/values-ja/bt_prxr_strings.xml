@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">近接レポーター設定</string>
+	<string name="bt_prxr_settings_enable_title">近接レポーター</string>
+	<string name="bt_prxr_settings_enable_summary">"ONにする"</string>
+	<string name="bt_prxr_settings_busy_title">近接レポーター</string>
+	<string name="bt_prxr_settings_busy_message">読み込み中です。お待ちください...</string>
+	<string name="bt_prxr_settings_enable_fail">近接レポーターエラーを有効／無効にする</string>
+	<string name="bt_prxr_ll_notification_ticker">リンク喪失</string>
+	<string name="bt_prxr_ll_notification_title">近接リンク喪失</string>
+	<string name="bt_prxr_ll_notification_message">リモートデバイス：" %1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">パス喪失</string>
+	<string name="bt_prxr_pl_notification_title">近接パス喪失</string>
+	<string name="bt_prxr_pl_notification_message">リモートデバイス：" %1$s</string>
+</resources>

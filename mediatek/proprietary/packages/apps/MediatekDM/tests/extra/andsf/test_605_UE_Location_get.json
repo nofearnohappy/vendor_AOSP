@@ -1,0 +1,14 @@
+[
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/RPLMN", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/Geo_Location/Latitude", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/Geo_Location/Longitude", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/PLMN", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/TAC", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/LAC", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/GERAN_CI", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/UTRAN_CI", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/3GPP_Location/1/EUTRA_CI", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/WLAN_Location/1/HESSID", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/WLAN_Location/1/SSID", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/UE_Location/WLAN_Location/1/BSSID", objectValue : "", objectType : "", newNode : "false" }
+]

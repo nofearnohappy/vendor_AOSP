@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">UIM 工具箱</string>
+    <string name="menu_end_session">"結束工作時段"</string>
+    <string name="help">説明</string>
+    <string name="menu_back">"返回"</string>
+    <string name="service_name">"服務名稱"</string>
+    <string name="utk_no_service">沒有服務可供使用</string>
+    <string name="button_ok">"確定"</string>
+    <string name="button_cancel">"取消"</string>
+    <string name="button_yes">"是"</string>
+    <string name="button_no">"否"</string>
+    <string name="alphabet">"字母"</string>
+    <string name="digits">數位 (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">"正在通話..."</string>
+    <string name="utk_app_state">"應用程式狀態"</string>
+    <string name="enable_app">"已啟用"</string>
+    <string name="disable_app">已禁用</string>
+    <string name="activity_not_found" product="default">"您的手機未安裝應用程式。"</string>
+    <string name="lable_busy_on_call">手機正在通話中，請先結束通話</string>
+    <string name="lable_on_flight_mode">此應用程式不可以在飛航模式中使用</string>
+    <string name="utk_dialog_title">UIM 工具箱</string>
+    <string name="default_open_channel_msg">"開啟頻道？"</string>
+    <string name="default_send_data_msg">"傳送資料"</string>
+    <string name="default_receive_data_msg">"接收資料"</string>
+    <string name="default_close_channel_msg">"頻道已關閉"</string>
+    <string name="utk_dialog_accept">"是"</string>
+    <string name="utk_dialog_reject">"否"</string>
+    <string name="utk_send_sms">傳送信息中…</string>
+</resources>

@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView        
+        android:id="@+id/share_label"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="74dp"        
+        android:textSize="24sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:text="@string/share_label" />   
+
+    <ImageView
+        android:id="@+id/rx_image"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/share_label"
+        android:src="@drawable/hotknot_recv_banner" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rx_image"/>
+
+    <TextView        
+        android:id="@+id/share_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/progress_bar"
+        android:paddingTop="20dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        />         
+
+    <LinearLayout
+        android:layout_below="@id/share_info"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="bottom"
+        android:layout_marginBottom="34dp" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+
+    <Button
+        android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:text="@android:string/cancel"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+</RelativeLayout> 

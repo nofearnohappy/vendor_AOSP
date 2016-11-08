@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Condivisione HotKnot</string>
+    <string name="hint1">Assicurarsi che il dispositivo di ricezione sia passato a HotKnot, e mantenere il suo schermo sbloccato.</string>
+    <string name="hint2">Collocare il dispositivo sul dispositivo di ricezione schermo a schermo.</string>
+    <string name="hint3">Allontanare il dispositivo dal dispositivo di ricezione dopo avere sentito un comando vocale.</string>
+    <string name="use_hotknot">Questa applicazione necessita l’utilizzo della tecnologia HotKnot sul dispositivo.</string>
+    <string name="allow">"Consenti"</string>
+    <string name="deny">"Rifiuta"</string>
+    <string name="fail_to_share">Condivisione riuscita</string>
+    <string name="fail_to_share_conn_error">Condivisione non riuscita a causa di problemi di connessione.</string>
+    <string name="fail_to_share_unknown_error">Condivisione non riuscita a causa di un errore sconosciuto.</string>
+    <string name="try_again">"Riprova"</string>
+    <string name="usb_warning">La funzione HotKnot può essere influenzata durante la ricarica via USB.</string>
+</resources>

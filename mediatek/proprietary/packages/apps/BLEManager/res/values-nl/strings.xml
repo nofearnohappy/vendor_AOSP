@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Tik om Bluetooth in te schakelen</string>
+    <string name="tap_to_add_device">Tik om apparaat toe te voegen</string>
+    <string name="turning_on_bluetooth">Bluetooth inschakelen…</string>
+    <string name="launcher_activity_name">BLE-manager</string>
+    <string name="scanning_devices">Naar apparaten zoeken</string>
+    <string name="delete_devices">Verbreek de verbinding met een apparaat om een ander toe te voegen</string>
+    <string name="cancel">"Annuleren"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Waarschuwing"</string>
+    <string name="device_manager">Apparaatmanager</string>
+    <string name="out_of_range_alert_text">Waarschuwing Buiten bereik</string>
+    <string name="in_range_alert_text">Waarschuwing Binnen bereik</string>
+    <string name="range_alert_text">Mijn bereik</string>
+    <string name="range_alert_summary">Waarschuwing voor telefoon en apparaat als het apparaat binnen of buiten bereik is</string>
+    <string name="range_near_text">Nabij</string>
+    <string name="range_middle_text">midden</string>
+    <string name="range_far_text">"Veraf"</string>
+    <string name="range_1_distance_text">Ongeveer 1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">Instellingen telefoonwaarschuwingen</string>
+    <string name="ringtone_tye_text">"Beltoon"</string>
+    <string name="volume_text">"Volume"</string>
+    <string name="vibration_text">Trilling</string>
+    <string name="vibration_summary_on">aan</string>
+    <string name="vibration_summary_off">"Uitgeschakeld"</string>
+    <string name="device_name">"Apparaatnaam"</string>
+    <string name="push_notification_text">Meldingen naar apparaat sturen</string>
+    <string name="incoming_call_notification_text">"Inkomende oproep"</string>
+    <string name="missed_call_notificaiotn_text">"Gemiste oproep"</string>
+    <string name="new_message_notification_text">"Nieuw bericht"</string>
+    <string name="new_email_notification_text">"Nieuwe e-mail"</string>
+    <string name="disconnection_text">Instellingen verbinding verbreken</string>
+    <string name="disconnection_waring_title">Waarschuwing verbinding verbreken</string>
+    <string name="disconnection_waring_summary">Waarschuwing voor telefoon en apparaat als verbinding met apparaat verbroken is</string>
+    <string name="device_name_change_dialog_title">"Naam wijzigen"</string>
+    <string name="disconnect_text">"Verbinding verbreken"</string>
+    <string name="delete_text">"Verwijderen"</string>
+    <string name="connect_text">"Verbinding maken"</string>
+    <string name="device_delete_dialog_message">Dit apparaat verwijderen?</string>
+    <string name="device_disconnect_dialog_message">Verbinding met apparaat verbreken?</string>
+    <string name="find_all_text">Alles zoeken</string>
+    <string name="default_images">Standaardafbeeldingen</string>
+    <string name="range_information_text">Het bereik is afhankelijk van de signaalsterkte. In ideale omstandigheden kan het bereik meer dan 30 meter zijn.  Bepaalde elementen kunnen de afstand tot 15 meter of minder beperken zoals uw lichaam, muren en andere hindernissen.</string>
+    <string name="range_information_dialog_check_box_text">Niet opnieuw tonen</string>
+    <string-array name="device_image_chooser_items">
+        <item>Uit standaardafbeeldingen kiezen</item>
+        <item>"Foto maken"</item>
+        <item>Uit galerij kiezen</item>
+    </string-array>
+    <string name="add_device">"Apparaat toevoegen"</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nee"</string>
+    <string name="connecting_text">"Verbinden..."</string>
+    <string name="enable_background_service">Achtergrondmodus inschakelen</string>
+    <string name="disable_background_service">Achtergrondmodus uitschakelen</string>
+    <string name="ble_manager_alert">BLE Manager-waarschuwing</string>
+    <string name="check">Controle</string>
+    <string name="dismiss">Negeren</string>
+    <string name="disconnected">"Ontkoppeld"</string>
+    <string name="in_range">binnen bereik</string>
+    <string name="out_of_range">buiten bereik</string>
+    <string name="no_found">Geen bluetooth-apparaat gevonden.</string>
+    <string name="bt_off">Bluetooth is uitgeschakeld, schakel het in.</string>
+</resources>

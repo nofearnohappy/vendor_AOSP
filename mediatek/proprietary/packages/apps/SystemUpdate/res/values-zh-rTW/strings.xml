@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"系統更新"</string>
+
+
+    <string name="none_package">無有效的更新套件。</string>
+    <string name="new_version_query">檢查更新\u2026</string>
+    <string name="menu_stats_refresh">更新</string>
+    <string name="network_error">網路連線失敗</string>
+    <string name="no_new_version">您的系統已是最新版本。</string>
+    <string name="not_support_version">您的手機不支持無線升級功能。</string>
+    <string name="query_sd_insufficient_space"><xliff:g id="path">%s</xliff:g> 所需的空間不足</string>
+    <string name="ota_category_title">無線傳送</string>
+    <string name="sd_category_title">SD記憶卡更新</string>
+    <string name="ota_preference_summary">伺服器上發現系統更新</string>
+
+
+    <string name="notes_summary">軔體更新能夠加強機器穩定度並且修補漏洞。</string>
+    <string name="ask_for_install_ota">您是否要立刻安裝系統更新？</string>
+    <string name="warning_install_ota" product="tablet">您在安裝期間將不能使用您的平板電腦或進行緊急通話。請不要移除電池與您的SD記憶卡或關閉平板電腦。</string>
+    <string name="warning_install_ota" product="default">您在安裝期間將不能使用您的手機進行緊急通話。請不要移除電池與您的SD記憶卡或關閉手機。</string>
+    <string name="ask_for_install_sd">已在您的SD記憶卡內發現最新的系統更新套件，您是否要安裝？</string>
+    <string name="warning_install_sd" product="tablet">您在安裝期間將不能使用您的平板電腦或進行緊急通話。請不要移除電池與您的SD記憶卡或關閉平板電腦。\n開始安裝之前，請確定套件已下載自官方網站且未損毀。</string>
+    <string name="warning_install_sd" product="default">您在安裝期間將不能使用您的手機進行緊急通話。請不要移除電池與您的SD記憶卡或關閉手機。\n開始安裝之前，請確定套件已下載自官方網站且未損毀。</string>
+    <string name="ask_for_download_ota">是否要下載系統更新？</string>
+    <string name="warning_download_ota">我們建議使用免費Wi-Fi熱點或無限制行動數據方案以套用此項更新。若非標準數據連線，則會產生費用。\n請在升級之前備份資料。</string>
+        
+    <string name="notification_content_title">系統更新</string>
+    <string name="downloading_title">"下載中…"</string>   
+    <string name="wifi_only_check">僅使用 Wi-Fi</string>     
+    
+    
+    
+    
+    
+    <string name="btn_install">"安裝"</string>
+    <string name="btn_cancel">捨棄</string>
+    <string name="btn_download">下載並且安裝</string>
+    <string name="btn_resume">"下載"</string>
+    
+    <string name="warn_data_cost_title">下載更新</string>
+    <string name="warn_data_cost_content">經由行動網路下載會產生額外費用。您是否要繼續？</string>
+    <string name="warn_data_cost_yes">是</string>
+    <string name="warn_data_cost_no">否</string>
+
+    <string name="notification_download_complete_title">系統更新就緒</string>
+    <string name="notification_download_complete_context">點選以安裝系統更新</string>
+        
+    <string name="sdcard_crash_or_unmount">SD記憶卡錯誤。請檢查您的SD記憶卡並且再試一次。</string>
+    <string name="unmount_sdcard">SD記憶卡掛接錯誤，請予以檢查。</string>
+    <string name="insufficient_space_content">本安裝需要至少<xliff:g id="deltasize" example="3.5M">%s</xliff:g>位元組的儲存空間。請釋放空間再繼續。</string>
+
+    
+    
+    
+    
+    <string name="install_sd_title">安裝更新</string>
+    <string name="install_sd_message">請先自官方網站下載整組程式，並確保檔案無毀損，否則可能導致系統問題。</string>
+    <string name="install_reminder_now">立刻安裝</string>
+    <string name="install_reminder_not_now">不要現在</string>
+    
+    
+
+    <string name="notification_content_text_completed">下載成功</string> 
+    
+    <string name="unknown_error">不明錯誤</string>
+    <string name="unknown_error_content">出現一個不明錯誤。請離開這個頁面並且再試一次。</string>
+    <string name="insufficient_space_title">空間不足</string>
+    <string name="error_sdcard">SD記憶卡資訊</string>
+    <string name="insufficient_space">SD記憶卡空間不足</string>
+    <string name="package_deleted_error">系統更新已中止，原因是升級無效。</string>
+    
+    <string name="cancel_download_title">取消下載</string>
+    <string name="cancel_download_content">本操作將捨棄已下載的檔案。</string>
+
+    
+    <string name="change_network_title">"下載"</string>
+    <string name="change_network_content">目前的APN不支援這個下載，您是否要改用另一個APN或啟動Wi-Fi？</string>
+    <string name="change_network_wifi_btn">使用 Wi-Fi</string>
+    <string name="change_network_apn_btn">變更APN</string>
+    <string name="change_network_discard_btn">捨棄</string>    
+    <string name="package_error_title">安裝失敗</string>
+    <string name="package_error_message_invalid">封包錯誤，請檢查更新並再次下載。</string>
+    <string name="package_error_message_insuff" product="tablet">裝置上空間不足 。</string>
+    <string name="package_error_message_insuff" product="default">手機上空間不足</string>
+    <string name="package_error_message_crash">無法存取使用者資料</string>
+    <string name="package_error_message_full">分割變更的狀況需要完整封包。</string>    
+    <string name="updateSuccess" product="tablet">恭禧！您的裝置已成功更新到<xliff:g id="version" example="gb.p37">%s</xliff:g>版。</string> 
+    <string name="updateSuccess" product="default">恭禧！您的手機已成功更新到<xliff:g id="version" example="gb.p37">%s</xliff:g>版。</string> 
+    <string name="updateFailed">無法更新到<xliff:g id="version" example="gb.p37">%s</xliff:g>版。</string>
+    <string name="package_unzip">套件正在解壓縮\u2026</string>
+    <string name="package_unzip_error">解壓縮失敗</string>
+    
+    <string name="installing_message" product="tablet">平板電腦將關機\u2026</string>
+    <string name="installing_message" product="default">手機將關機\u2026</string>
+    <string name="install_sd_info">必需將套件複製到手機儲存系統才能繼續升級。\n您的手機上沒有足夠空間。</string>
+    <string name="sdcard_crash_or_unmount_when_install">系統更新已中止，原因是未掛接SD記憶卡。</string>
+    <string name="sdcard_inserted">您是否要掃描您的SD記憶卡以找出更多更新套件？</string>
+    
+      <string name="new_version_detected">系統更新可用</string>
+      <string name="sdcard_unmount">SD記憶卡未掛接</string>
+      <string name="unknown_per">"不明"</string>
+      <string name="server_version_error">伺服器錯誤：請更新伺服器原始碼。</string>
+    <string name="cta_warning">操作系統支援官方系統更新，若用戶刷第三方ROM系統或採用任何破解方式修改系統軟件，可能會導致系統不穩定，用戶需為此類行為承擔責任。</string>
+    <string name="low_battery">"低電量"</string>
+    <string name="low_battery_warning">此一更新需要至少 15% 電池電力。</string>
+    <string name="notify_backup">為防更新過程中資料毀損，請先備份您的資料(如聯絡人、訊息、照片等)。</string> 
+</resources>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff" >   
+	<!-- Title bar -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="12dip"
+		android:paddingTop="10dip"
+		android:paddingBottom="10dip"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		>
+        <ImageView
+            android:adjustViewBounds="true"
+            android:maxWidth="48dp"
+            android:maxHeight="48dp"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_smsmms" />
+        <com.android.mtkex.chips.CircularImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/contact_img"
+            android:adjustViewBounds="true"
+            android:maxWidth="48dp"
+            android:maxHeight="48dp"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_default_contact" />
+            
+	    <LinearLayout
+            android:id="@+id/recepient_bar_relative"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+	        android:orientation="horizontal"
+	        android:weightSum="1.0"
+        >
+		<TextView
+            android:id="@+id/recepient_name"
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:paddingLeft="10dip"
+	        android:textSize="18sp"
+	        android:textColor="@color/dlg_divider_color"
+		    android:singleLine="true"
+		    android:ellipsize="none"
+		    android:requiresFadingEdge="horizontal"
+		    android:layout_weight=".90"
+		    android:gravity="center_vertical"
+	        />
+
+        <TextView
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:singleLine="true"
+            android:id="@+id/msg_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            />
+	    <!-- ImageButton
+	        android:id="@+id/close_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:paddingRight="5dip"
+	        android:adjustViewBounds="false"
+	        android:src="@drawable/ic_close_btn"
+	        android:background="#00000000"
+		        android:layout_weight=".10"
+	        /-->
+	    </LinearLayout> 
+	</LinearLayout>
+	
+    <View android:background="@color/dlg_divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="3px" />
+    
+    <!-- Content area -->
+    <!--ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/content_scroll_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="70dp"
+        android:layout_width="match_parent" >
+    <ImageButton
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/previous"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:src="@drawable/ic_message_previous" />
+            
+    <com.android.mms.ui.MsgContentSlideView
+        android:layout_weight="1"
+        android:id="@+id/content_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    <LinearLayout
+        android:id="@+id/content_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+		<!-- ImageView
+	        android:id="@+id/contact_img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/ic_contact_picture"/-->
+                
+	    <LinearLayout
+	        android:id="@+id/detail_content_linear"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="@dimen/avatar_width_height"
+	        android:background="@drawable/listitem_background"
+	        android:layout_alignParentRight="true"
+	        android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/group_sender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/message_item_text_padding_left_right"
+                android:paddingRight="@dimen/message_item_text_padding_left_right"
+                android:paddingTop="@dimen/message_item_text_padding_top"
+                android:linksClickable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dlg_sim_via_color"
+                android:textSize="14sp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/group_mms_sender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/message_item_text_padding_left_right"
+                android:paddingRight="@dimen/message_item_text_padding_left_right"
+                android:paddingTop="@dimen/message_item_text_padding_top"
+                android:linksClickable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/dlg_sim_via_color"
+                android:textSize="14sp"
+                android:visibility="gone"
+                />
+
+			<TextView
+	            android:id="@+id/msg_content"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:autoLink="all"
+                android:paddingLeft="@dimen/message_item_text_padding_left_right"
+                android:paddingRight="@dimen/message_item_text_padding_left_right"
+                android:paddingTop="@dimen/message_item_text_padding_top"
+                android:linksClickable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+		        />
+
+            <View android:background="@drawable/listitem_background"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                />
+
+		    <!--ViewStub android:id="@+id/mms_thumbnail_stub"
+                android:layout="@layout/mms_layout_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/-->
+            
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/msg_dlg_mms_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/msg_dlg_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxWidth="178dip"
+                    android:maxHeight="178dip"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/attachment_selector"
+                    android:visibility="gone"
+                    />
+
+                <ImageButton
+                    android:id="@+id/msg_dlg_play_slideshow_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mms_play_btn"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/vca_dlg_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dip"
+                android:paddingBottom="7dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="5dip"
+                android:gravity="center_horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/vca_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_toRightOf="@id/vca_image_view"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/file_attachment_name_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="clip_horizontal"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/file_attachment_size_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#7b7b7b"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- Ip message for image or video -->
+            <RelativeLayout
+                android:id="@+id/ip_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="7dip"
+                android:visibility="gone" >
+            	<FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" >
+                	<ImageView
+                    	android:id="@+id/image_content"
+                    	android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+                    	android:layout_centerHorizontal="true"
+                    	android:minHeight="@dimen/img_minwidth"
+                    	android:minWidth="@dimen/img_minwidth" />
+                	<ImageView
+                    	android:id="@+id/video_media_play"
+                    	android:layout_width="32dp"
+                    	android:layout_height="32dp"
+                    	android:layout_gravity="center"
+                    	android:visibility="gone"
+                    	android:src="@drawable/media_play" />
+           		</FrameLayout>
+                <LinearLayout
+                    android:id="@+id/image_size_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dip"
+                    android:layout_alignParentBottom="true"
+                    android:background="#88000000"
+                    android:gravity="center_vertical"
+                    android:minWidth="@dimen/img_minwidth"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:id="@+id/action_btn"
+                        android:layout_width="16dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dip"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginTop="4dip"
+                        android:src="@drawable/stop" />
+                    <TextView
+                        android:id="@+id/content_size"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dip"
+                        android:layout_weight="1.0"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10sp"
+                        android:singleLine="true"
+                        android:visibility="gone" />
+                    <ProgressBar
+                        android:id="@+id/image_downLoad_progress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dip"
+                        android:layout_weight="1.0"
+                        android:progress="100"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- Ip message for audio -->
+            <LinearLayout
+                android:id="@+id/ip_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dip"
+                android:layout_marginBottom="7dip"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+                <ImageView
+                    android:id="@+id/ip_audio_icon"
+                    android:layout_width="21dp"
+                    android:src="@drawable/ipmsg_chat_sound"
+                    android:layout_marginRight="4dip"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/audio_info"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:singleLine="true"
+                    android:layout_marginRight="10dip"
+                    android:textColor="#555555"
+                    android:textSize="12sp" />
+                <ProgressBar
+                    android:id="@+id/audio_downLoad_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1.0"
+                    android:progress="100"
+                    android:visibility="gone" />
+            </LinearLayout>
+            <View
+                android:id="@+id/caption_separator"
+                style="@style/bubble_name_separator_style"
+                android:visibility="gone" />
+            <TextView android:id="@+id/text_caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:visibility="gone" />
+            <!-- IP message for vCard -->
+            <LinearLayout
+                android:id="@+id/ip_vcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dip"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+                <ImageView
+                    android:id="@+id/ip_vcard_icon"
+                    android:layout_width="32dp"
+                    android:layout_marginRight="4dip"
+                    android:layout_height="wrap_content" 
+                    android:src="@drawable/ipmsg_chat_contact_vcard"/>
+                <TextView
+                    android:id="@+id/vcard_info"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true"
+                    android:textColor="#222222"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <!-- IP message for vCalendar -->
+            <LinearLayout
+                android:id="@+id/ip_vcalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dip"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/ipmsg_chat_contact_calendar"/>
+                <TextView
+                    android:id="@+id/vcalendar_info"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true"
+                    android:textColor="#222222"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+			    android:paddingLeft="@dimen/message_item_text_padding_left_right" >
+				<LinearLayout
+			        android:id="@+id/sim_info_linear"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:orientation="horizontal"
+			        android:visibility="gone" >
+                    <TextView
+                        android:id="@+id/sub_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="66dip"
+                        android:ellipsize="middle"
+                        android:singleLine="true"
+                        android:textColor="#555555"
+                        android:textSize="10sp"
+                        android:linksClickable="false"
+                        android:paddingLeft="2dip"
+                        android:layout_gravity="left"  />
+                    <!-- for OP09 to show SubIcon -->
+                    <ImageView
+                        android:id="@+id/sub_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dip"
+                        android:visibility="gone" />
+                    <!-- For show dual date  @{-->
+                    <TextView android:id="@+id/send_time_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#555555"
+                        android:textSize="10sp"
+                        android:paddingLeft="4dip"
+                        android:paddingRight="2dip"
+                        android:paddingTop="5dip"
+                        android:layout_gravity="left"
+                        android:visibility="gone"
+                        />
+                    <!-- @} -->
+			    <TextView
+			        android:id="@+id/msg_recv_timer"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="left"
+		            android:textSize="10sp"
+		            android:paddingLeft="2dip"
+		            android:textColor="@color/dlg_datetime_color" />
+                    <!-- For show dual date  @{-->
+                    <LinearLayout
+                        android:id="@+id/double_time_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dip"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        >
+                        <TextView android:id="@+id/recv_time_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#555555"
+                            android:textSize="10sp"
+                            android:paddingLeft="10dip"
+                            android:layout_gravity="left"
+                            />
+                        <TextView android:id="@+id/recv_date_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#555555"
+                            android:textSize="10sp"
+                            android:paddingLeft="4dip"
+                            android:layout_gravity="left"
+                             />
+                        <TextView android:id="@+id/time_zone_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#555555"
+                            android:textSize="10sp"
+                            android:paddingLeft="20dip"
+                            android:layout_gravity="left"
+                             />
+                    </LinearLayout>
+                    <!-- @} -->
+	         </LinearLayout>
+	    </LinearLayout> 
+        </LinearLayout>
+	    
+    </LinearLayout> 
+	</com.android.mms.ui.MsgContentSlideView>
+	<ImageButton
+	    style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/next"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:src="@drawable/ic_message_next" />
+    </LinearLayout>
+
+	<View android:layout_width="match_parent"
+	    android:layout_marginTop="12dp"
+        android:layout_height="1px"
+        android:background="@color/dlg_border_color"
+        />
+        
+    <!-- Reply area -->
+    <LinearLayout
+        android:id="@+id/reply_linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingBottom="4dip" >
+
+        <!-- Editor -->
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/embedded_reply_text_editor"
+            android:layout_width="0dip"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="8dip"
+            android:autoText="true"
+            android:textSize="16sp"
+            android:capitalize="sentences"
+            android:nextFocusRight="@+id/reply_send_button"
+            android:hint="@string/ipmsg_sms_hint"
+            android:minHeight="@dimen/input_text_height"
+            android:maxLines="3"
+            android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+            android:imeOptions="actionDone|flagNoEnterAction"
+            style="?android:attr/textViewStyle"
+        />
+
+        <LinearLayout
+            android:id="@+id/button_and_counter"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/text_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dlg_text_counter_color"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingLeft="3dip"
+                android:paddingRight="3dip"
+                android:paddingBottom="5dip"
+            />
+            <!--android:text="@string/txt_count_test"-->
+            <!--TextView
+                android:id="@+id/reply_send_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableBottom="@drawable/ic_send_holo_light"
+                android:drawablePadding="0dip"
+                android:layout_width="wrap_content"
+                android:textSize="11sp"
+                android:layout_height="0dip"
+                android:layout_weight="1.0"
+                android:layout_marginTop="0dip"
+                android:layout_marginLeft="4dip"
+                android:editable="false"
+                android:text="@string/mms"
+                android:contentDescription="@string/send"
+                android:nextFocusLeft="@+id/embedded_text_editor" /-->
+
+            <ImageButton
+                android:id="@+id/reply_send_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:src="@drawable/ic_send_holo_light"
+                android:drawablePadding="0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="4dip"
+                android:contentDescription="@string/reply_send"
+                android:nextFocusLeft="@+id/embedded_reply_text_editor" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+	<View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/dlg_border_color"
+        />
+    <!--View android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="9dp" /-->
+
+    <!-- Buttons area -->
+    <LinearLayout
+        android:id="@+id/buttons_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button android:id="@+id/mark_as_read_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="@string/close"
+            android:textSize="18dp"
+            android:layout_weight="1" />
+
+        <View android:layout_width="1px"
+            android:layout_height="48dp"
+            android:background="@color/dlg_border_color"
+            />
+        
+        <Button android:id="@+id/delete_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="@string/view"
+            android:textSize="18dp"
+            android:layout_weight="1" />
+            
+    </LinearLayout>
+</LinearLayout> 

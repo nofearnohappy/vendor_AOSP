@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="14dp">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:text="@string/search_label_certain_time"
+                />
+            <View
+                android:layout_height="2px"
+                android:background="#999999"
+                android:layout_width="fill_parent"
+                />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dip" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false" />
+                    <EditText android:id="@+id/certain_time_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:editable="false"
+                        android:textColor="@color/black"
+                        android:background="@drawable/listitem_background_blue"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/certain_time_search_button"
+                android:text="@string/search_button_text"
+                android:layout_width="68dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="10dip"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dp" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:text="@string/search_time_period_label"
+            ></TextView>
+            <View
+                android:layout_height="2px"
+                android:background="#999999"
+                android:layout_width="fill_parent"
+                />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             >
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dip" >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="#aaaaaa"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="@string/search_label_from"
+                    android:layout_marginTop="14dp" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false" />
+                    <EditText android:id="@+id/from_date_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:editable="false"
+                        android:textColor="@color/black"
+                        android:background="@drawable/listitem_background_blue"/>
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="#aaaaaa"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="@string/search_label_to"
+                    android:layout_marginTop="14dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false" />
+                    <EditText android:id="@+id/to_date_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:editable="false"
+                        android:textColor="@color/black"
+                        android:background="@drawable/listitem_background_blue"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/search_button"
+                android:text="@string/search_button_text"
+                android:layout_width="68dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="10dip"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

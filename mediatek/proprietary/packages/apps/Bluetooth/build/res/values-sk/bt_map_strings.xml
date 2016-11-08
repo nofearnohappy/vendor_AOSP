@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Požiadavka na oprávnenie vzdialeného prístupu k správe"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Požiadavka na oprávnenie vzdialeného prístupu k správe"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Vyberte, ak chcete povoliť pripojenie prístupu k správam"</string>
+	<string name="bluetooth_map_server_authorize_title">"Požiadavka na oprávnenie vzdialeného prístupu k správe"</string>
+	<string name="bluetooth_map_server_authorize_message">"Povoliť požiadavku na vzdialený prístup k správe z %1$s"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Povoliť"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Odmietnuť</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Režim vzdialeného prístupu k správe je zapojený"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s vstupuje do vašich správ"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"Vyberte, ak chcete zrušiť spojenie s %1$s"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Odpojiť vzdialený prístup k správam"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Zrušiť spojenie s %1$s?"</string>
+  <string name="bluetooth_map_server_yes">"Áno"</string>
+	<string name="bluetooth_map_server_no">Pre tlač kontaktu nie je k dispozícii žiadna aplikácia.</string>
+	<string name="bluetooth_map_server_settings">"Vzdialený prístup k správam nastavenie"</string>
+	<string name="bluetooth_map_server_enable_title">"Požiadavka na oprávnenie vzdialeného prístupu k správe"</string>
+	<string name="bluetooth_map_server_enable_summary">"Zapnúť režim kompatibility s načúvacou pomôckou"</string>
+	<string name="bluetooth_map_server_sim_index_title">Vybrať SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Vyberte e-mailové konto"</string>
+	<string name="bluetooth_map_server_no_account">"E-mailové konto nie je k dispozícii"</string>
+	<string name="bluetooth_map_server_OK">Servisné stredisko SMS nastaviť na OK</string>
+	<string name="bluetooth_map_server_cancel">"Naozaj sa má zrušiť preberanie?\nAk chcete pokračovať v preberaní, stlačte tlačidlo Pokračovať.\nAk chcete preberanie zrušiť a prevzatý súbor vymazať, stlačte tlačidlo Zrušiť."</string>
+</resources>

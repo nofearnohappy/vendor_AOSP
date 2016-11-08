@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/select_all"
+          android:icon="@drawable/ic_menu_select_all"
+          android:showAsAction="always"
+          android:title="@string/selectall" />
+
+    <item android:id="@+id/cancel_select"
+          android:icon="@drawable/ic_menu_clear_select"
+          android:showAsAction="always"
+          android:title="@string/unselectall" />
+
+    <item android:id="@+id/spam_restore"
+          android:icon="@drawable/ic_menu_restore"
+          android:title="@string/spam_restore"
+          android:showAsAction="always"/>
+
+    <item android:id="@+id/spam_delete"
+          android:icon="@drawable/ic_menu_trash_holo_dark"
+          android:title="@string/spam_delete"
+          android:showAsAction="always" />
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"पूर्ण"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"हटाएं"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"सभी का चयन करें"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"सभी का चयन रद्द करें"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"नया"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> चयनित</string>
+    <string name="multichoice_no_select_alert">"कोई आइटम चुना हुआ नहीं है।"</string>
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">अतिरिक्त नंबरों के लिए USIM लेबल</string>  
+    <string name="aas_phone_type_none">कोई नहीं</string>  
+    <string name="aas_new_dialog_title">नया लेबल जोड़ें</string>  
+    <string name="ass_rename_dialog_title">लेबल संशोधित करें</string>  
+    <string name="aas_delele_dialog_message">लेबल(लेबलों) को हटाना उन सभी अतिरिक्त नंबरों को प्रभावित करेगा जो लेबल(लेबलों) से जुड़े हुए हैं। क्या आप वाकई चाहते हैं?</string>  
+    <string name="aas_name_invalid">लेबल नाम अमान्य है। कृपया कोई अन्य प्रविष्ट करें।</string>  
+    <string name="aas_name_exist">लेबल पहले से मौजूद है।</string>  
+    <string name="aas_usim_full">नए लेबलों के लिए स्थान नहीं है।</string>  
+    <string name="ass_edit_assert_message">लेबल को संशोधित करना उन सभी अतिरिक्त नंबर को प्रभावित करेगा जो लेबल से जुड़े हैं। क्या आप वाकई चाहते हैं?</string>  
+    <string name="aas_new_fail">नया लेबल बनाना असफल।</string>  
+    <string name="aas_edit_fail"> 
+        <xliff:g id="aas">%s</xliff:g> का नाम बदलना असफल।
+    </string>  
+    <string name="aas_delete_fail"> 
+        <xliff:g id="aas">%s</xliff:g> को हटाना असफल।
+    </string>  
+    <string name="aas_phone_primary">प्राथमिक नंबर</string>  
+    <string name="aas_phone_additional">अतिरिक्त नंबर</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"उपनाम काफी लंबा है।"</string>
+</resources>

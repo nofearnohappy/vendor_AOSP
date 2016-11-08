@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">檔案管理</string>
+    <string name="sort_by">"排序方式"</string>
+    <string name="copy">"複製"</string>
+    <string name="create_folder">"建立資料夾"</string>
+    <string name="cut">"剪下"</string>
+    <string name="delete">"刪除"</string>
+    <string name="details">"詳細資料"</string>
+    <string name="paste">"貼上"</string>
+    <string name="rename">"重新命名"</string>
+    <string name="new_folder">"新資料夾"</string>
+    <string name="confirm_rename">確認文件重新命名</string>
+    <string name="pasting">貼上</string>
+    <string name="loading">下載中\u2026</string>
+    <string name="deleting">刪除中</string>
+    <string name="alert_delete_multiple">此項目將會被刪除。</string>
+    <string name="alert_delete_single">此項目將會被刪除。</string>
+    <string-array name="sort_by">
+        <item>"類型"</item>
+        <item>名字（A到Z）</item>
+        <item>尺寸（大-小）</item>
+        <item>時間（新-舊）</item>
+    </string-array>
+    <string name="name">名稱</string>
+    <string name="size">"大小"</string>
+    <string name="modified_time">修改的</string>
+    <string name="readable">可讀的</string>
+    <string name="executable">可執行的</string>
+    <string name="writable">可寫的</string>
+    <string name="msg_rename_ext">你正在改變文件的擴展，這將可能導致文件無法被辨識，你確定要這麼做嗎？</string>
+    <string name="wait">請等待\u2026</string>
+    <string name="done">"完成"</string>
+    <string name="cancel">"取消"</string>
+    <string name="no">"否"</string>
+    <string name="ok">"確定"</string>
+    <string name="yes">"是"</string>
+    <string name="deselect_all">"全部不選"</string>
+    <string name="select_all">選擇全部</string>
+    <string name="share">"分享"</string>
+    <string name="sort">排序</string>
+    <string name="more">"更多"</string>
+    <string name="search">"搜尋"</string>
+    <string name="show_file">顯示隱藏中的文件</string>
+    <string name="hide_file">隱藏隱藏中的文件</string>
+    <string name="selected">已選</string>
+    <string name="send_file">寄送文件</string>
+    <string name="empty_msg">（空白文件）</string>
+    <string name="default_search_text">搜尋文件</string>
+    <string name="free_space">"可用"</string>
+    <string name="total_space">"空間總量"</string>
+    <string name="search_files">搜尋文件</string>
+    <string name="copy_deny">不允許複製。</string>
+    <string name="cut_deny">不允許剪下。</string>
+    <string name="delete_deny">不允許刪除。</string>
+    <string name="insufficient_memory">空間不足。</string>
+    <string name="invalid_empty_name">文件或檔案名稱不可空白。</string>
+    <string name="paste_same_folder">不能貼在相同目錄上。</string>
+    <string name="invalid_char_prompt">你輸入了無效的字元。</string>
+    <string name="msg_unable_open_file">檔案格式不被支援。</string>
+    <string name="search_text_empty">搜尋內容不應空白。</string>
+    <string name="paste_sub_folder">不可貼於子文件。</string>
+    <string name="operation_fail">有些文件的運作失敗。</string>
+    <string name="search_result">%2$d個 \"%1$s\"的結果"</string>
+    <string name="already_exists">%1$s 已在使用中就緒。</string>
+    <string name="path_not_exists">%1$s 不存在。</string>
+    <string name="unmounted">%1$s未架設。</string>
+    <string name="create_hidden_file">"若文件名稱以'.'開始，將會被隱藏。"</string>
+    <string name="modify_hidden_file">"檔案名稱如果未以'.'開始，將無法隱藏。"</string>
+    <string name="file_name_too_long">輸入名稱過長。</string>
+    <string name="paste_fail">貼上失敗。</string>
+    <string name="delete_fail">刪除失敗。</string>
+    <string name="some_paste_fail">部分貼上的過程失敗。</string>
+    <string name="some_delete_fail">部分刪除的過程失敗。</string>
+    <string name="search_empty">搜尋內容不應空白。</string>
+    <string name="search_setting_description">本機檔案與資料夾</string>
+    <string name="change_mode">選擇文件或文件夾</string>
+    <string name="folder_beam_forbidden_title">無法發送文件夾</string>
+    <string name="folder_beam_forbidden_message">不支援文件夾發送。請選擇多種檔案發送。</string>
+    <string name="drm_beam_forbidden_title">禁止發送</string>
+    <string name="drm_beam_forbidden_message">數碼版權管理(DRM)可保護文件不被發送。</string>
+</resources>

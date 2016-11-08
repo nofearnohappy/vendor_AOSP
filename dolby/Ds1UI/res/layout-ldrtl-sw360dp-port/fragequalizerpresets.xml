@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="40sp"
+	    android:layout_marginBottom="20sp"
+	    android:layout_marginStart="20sp"
+	    android:layout_marginEnd="20sp" >
+
+		<TextView
+		    android:id="@+id/equalizerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:text="@string/intelligent_equalizer"
+		    android:textSize="16sp" />
+
+		<TextView
+			android:id="@+id/equalizerName"
+            style="@style/TextAppearanceLargeBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5sp"
+            android:layout_toEndOf="@+id/equalizerLabel"
+			android:text="@string/bright" />
+
+		<ImageView
+		    android:id="@+id/eqResetButton"
+            android:layout_width="22sp"
+            android:layout_height="22sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/equalizerLabel"
+            android:paddingStart="8sp"
+		    android:src="@drawable/revert_profile" />
+
+	</RelativeLayout>
+
+	<GridView
+		android:id="@+id/equalizerListView"
+		android:layout_width="match_parent"
+		android:layout_height="100sp"
+		android:layout_marginBottom="30sp"
+		android:layout_marginStart="20sp"
+		android:layout_marginEnd="20sp"
+		android:choiceMode="singleChoice"
+		android:clickable="true"
+		android:horizontalSpacing="10sp"
+		android:listSelector="@android:color/transparent"
+		android:numColumns="2"
+		android:scrollbars="none"
+		android:soundEffectsEnabled="false"
+		android:verticalSpacing="10sp" >
+	</GridView>
+
+</LinearLayout>

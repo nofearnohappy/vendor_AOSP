@@ -1,0 +1,14 @@
+WHAT IT DOES?
+=============
+Prebuild module for DM. It contains the config files.
+
+HOW IT WAS BUILT?
+==================
+It needs the following feature options opened:
+MTK_DM_APP
+
+After build, these files will be copied to system/etc/dm folder. 
+
+HOW TO USE IT?
+==============
+None.

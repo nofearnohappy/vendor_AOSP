@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"Dostop do telefonskega imenika preko Bluetooth"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"Zahtevek za dovoljenje PBAP preko Bluetooth"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"Zahtevek za preverjanje pristnosti PBAP preko Bluetooth"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"To možnost izberite, da bi dovolili povezavo za PBAP"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"Dovoljenje za PBAP preko Bluetooth"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"Geslo"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">Nastavitev središča za storitve SMS je pravilna</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"Ali res želite preklicati prenos?\nPritisnite Naprej za nadaljevanje prenosa\n Pritisnite Zavrzi za opustitev prenosa in izbris prenesene datoteke"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">"Dovoli"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"Zahtevek za dovoljenje PBAP preko Bluetooth"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"Ali dovolim zahtevke za povezavo PBAP od %1$s?"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"Zahtevek za preverjanje pristnosti PBAP preko Bluetooth"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message">"Zahtevek za povezavo PBAP od %1$s"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">Hitrost prenosa podatkov se bo zmanjšala.</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"Vedno dovoljeno?"</string>
+</resources>

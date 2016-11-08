@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"Bluetooth経由で画像を転送"</string>
+	<string name="bt_bipi_push_confirmation">"画像プッシュ確認"</string>
+	<string name="bt_bipi_unsupported_format">"文字コードは受信者側でサポートされていません。\n送信を続行しますか？"</string>
+	<string name="bt_bipi_push_confirmation_ok">SMSサービスセンターをOKに設定する</string>
+	<string name="bt_bipi_push_confirmation_cancel">"ダウンロードをキャンセルしますか？\n続行を押すとダウンロードを継続します。\n破棄を押すとダウンロードを破棄し、ダウンロード済みのファイルを消去します"</string>
+	<string name="bt_bip_transmitting_dialog_hide">ローカル動画を隠す</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"ダウンロードをキャンセルしますか？\n続行を押すとダウンロードを継続します。\n破棄を押すとダウンロードを破棄し、ダウンロード済みのファイルを消去します"</string>
+	<string name="bt_bip_transmitting_dialog_ok">SMSサービスセンターをOKに設定する</string>
+	<string name="bt_bip_transmitting_dialog_yes">"はい"</string>
+	<string name="bt_bip_transmitting_dialog_no">連絡先を印刷できるアプリが見つかりません。</string>
+	<string name="bt_bip_transmitting">"画像を送信中、 %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"画像 %1$s は送信されました"</string>
+	<string name="bt_bip_transmitting_fail">"画像 %1$s を送信できません"</string>
+	<string name="bt_bip_cancel_pending_job">"この保留転送をキャンセルしますか？"</string>
+	<string name="bt_bip_pending_job">"%1$s を送信（保留中）"</string>
+	<string name="bt_bipr_incoming_request">"画像着信要求"</string>
+	<string name="bt_bipr_incoming_request_description">"選択して %1$sを受信"</string>
+	<string name="bt_bipr_accept_title">"画像着信要求"</string>
+	<string name="bt_bipr_accept_content">"%3$s"からの"%1$s (%2$sKB)" を受け取りますか?"</string>
+	<string name="bt_bipr_accept_always">"常に受け取りますか？"</string>
+	<string name="bt_bipr_accept_yes">"はい"</string>
+	<string name="bt_bipr_accept_no">連絡先を印刷できるアプリが見つかりません。</string>
+	<string name="bt_bip_receiving">"画像を受信中、%1$s"</string>
+	<string name="bt_bip_receiving_successful">"画像 %1$sを受信しました。画像を閲覧しますか?"</string>
+	<string name="bt_bip_receiving_fail">"画像 %1$s を受信できません"</string>
+	<string name="bt_bip_toast_connect_fail">"データ接続に失敗したか、もしくはネットワークが現在ビジーです。"</string>
+	<string name="bt_bip_toast_storage_unmounted">FTPクライアントを有効にする前に、SDカードが準備完了かどうかチェックしてください。</string>
+	<string name="bt_bip_toast_sending_object">"画像を送信中、 %1$s"</string>
+	<string name="bt_bip_auth_password">パスワード:\u0020</string>
+	<string name="bt_bip_auth_userid">サーバーID:\u0020</string>
+	<string name="bt_bip_auth_ok">SMSサービスセンターをOKに設定する</string>
+	<string name="bt_bip_auth_cancel">"ダウンロードをキャンセルしますか？\n続行を押すとダウンロードを継続します。\n破棄を押すとダウンロードを破棄し、ダウンロード済みのファイルを消去します"</string>
+</resources>

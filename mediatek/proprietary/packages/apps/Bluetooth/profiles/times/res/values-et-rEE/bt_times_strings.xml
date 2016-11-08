@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_times_settings_title">Ajaserveri sätted</string>
+	<string name="bt_times_settings_enable_title">Ajaserver</string>
+	<string name="bt_times_settings_enable_summary">"Lülita sisse"</string>
+</resources>

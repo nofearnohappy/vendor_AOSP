@@ -1,0 +1,19 @@
+Tool to resize ext4 partition
+
+WHAT IT DOES?
+=============
+resize_ext4 can resize ext4 partition from the built size in image to physical emmc size
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. libcutils.so
+2. liblog.so
+3. libext2fs.so
+4. libext2_com_err.so
+5. libext2_e2p.so
+6. liblogwrap.so
+
+HOW TO USE IT?
+==============
+resize_ext4 /dev/block/platform/mtk-msdc.0/by-name/userdata

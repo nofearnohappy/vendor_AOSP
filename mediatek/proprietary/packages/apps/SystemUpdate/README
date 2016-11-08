@@ -1,0 +1,20 @@
+This is a APK for MOTA(Mediatek-OTA) app
+
+
+WHAT IT DOES?
+=============
+
+SystemUpdate.apk providers MOTA UI to query and download upgrade package from server.And trigger recovery mode to do upgrade.
+
+
+HOW IT WAS BUILT?
+==================
+
+Build it only MTK_SYSTEM_UPDATE_SUPPORT is open.
+
+
+HOW TO USE IT?
+==============
+
+Setting->About Phone->System Updates
+

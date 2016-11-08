@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot Share</string>
+    <string name="hint1">Se till att mottagarenheten har aktiverat HotKnot, och att dess skärm hålls upplåst.</string>
+    <string name="hint2">Placera din enhet mot mottagarenheten, skärm mot skärm.</string>
+    <string name="hint3">Ta bort din enhet från mottagarenheten när du hör ett röstmeddelande.</string>
+    <string name="use_hotknot">Det här programmet måste använda HotKnot-teknologin på din enhet.</string>
+    <string name="allow">"Tillåt"</string>
+    <string name="deny">"Avvisa"</string>
+    <string name="fail_to_share">Delning misslyckades</string>
+    <string name="fail_to_share_conn_error">Delning misslyckades på grund av anslutningsproblem.</string>
+    <string name="fail_to_share_unknown_error">Delning misslyckades på grund av ett okänt fel.</string>
+    <string name="try_again">"Försök igen"</string>
+    <string name="usb_warning">HotKnot-funktionen kan påverkas under USB-laddning.</string>
+</resources>

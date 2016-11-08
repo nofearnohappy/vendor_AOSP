@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ChatItemBg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/list_item_bottom_padding"
+    android:paddingLeft="12dp"
+    android:paddingTop="@dimen/list_item_top_padding" >
+
+    <TextView
+        android:id="@+id/chat_time"
+        style="@style/chat_time_style"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:id="@+id/ChatPhoto"
+        android:layout_width="@dimen/list_avatar_width"
+        android:layout_height="@dimen/list_avatar_width"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/chat_time"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="6dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/avatar_shadow" />
+
+        <com.hesine.nmsg.ui.CircularImage
+            android:id="@+id/avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ChatContentSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_time"
+        android:layout_marginRight="60dp"
+        android:layout_toRightOf="@id/ChatPhoto"
+        android:gravity="center_vertical"
+        android:paddingTop="6dp" >
+
+        <TextView
+            android:id="@+id/chat_msgcont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_bg_from"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="12dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/conversation_text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Споделяне на HotKnot</string>
+    <string name="hint1">Проверете дали приемащото у-во е включено към HotKnot - екранът трябва да е отключен.</string>
+    <string name="hint2">Поставете Вашето у-во екран към екран с приемащото у-во.</string>
+    <string name="hint3">Отдалечете Вашето у-во от приемащото у-во, след като чуете гласово напомняне.</string>
+    <string name="use_hotknot">Това приложение трябва да ползва технология HotKnot на Вашето у-во.</string>
+    <string name="allow">"Разрешаване"</string>
+    <string name="deny">"Отказ"</string>
+    <string name="fail_to_share">Неуспешно споделяне</string>
+    <string name="fail_to_share_conn_error">Неуспешно споделяне поради проблем с връзката.</string>
+    <string name="fail_to_share_unknown_error">Неуспешно споделяне поради непозната грешка.</string>
+    <string name="try_again">"Опитайте отново"</string>
+    <string name="usb_warning">Функцията HotKnot function може да се повлияе при зареждането от USB.</string>
+</resources>

@@ -1,0 +1,15 @@
+iSMS Integration with MMS,Enrich the function of the MMS. iSMS currently provides users with the following message types(text,image,video,audio,single graphic,multipe graphic).
+
+WHAT IT DOES?
+=============
+Library Used by iSMS
+
+HOW IT WAS BUILT?
+==================
+No need
+
+HOW TO USE IT?
+==============
+When receive message form background,the data will be inserted into the iSMS and MMS database,When click the ConversationList item , Jumps to the iSMS Interface.
+
+All the source code of iSMS were written by Hesine.

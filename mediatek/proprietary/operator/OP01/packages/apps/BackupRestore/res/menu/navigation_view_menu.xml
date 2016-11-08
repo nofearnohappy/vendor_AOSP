@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/scanner"
+        android:showAsAction="always"
+        android:title="@string/scanner_all" />
+    
+        <item
+        android:id="@+id/settings"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+</menu>

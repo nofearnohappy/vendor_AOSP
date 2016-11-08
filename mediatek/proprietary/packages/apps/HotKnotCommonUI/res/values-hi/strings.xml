@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="allow">"अनुमति दें"</string>
+    <string name="deny">"अस्वीकार करें"</string>
+    <string name="fail_to_share">साझा करने में विफल </string>
+    <string name="try_again">"पुन: प्रयास करें"</string>
+    <string name="hotknot_share">HotKnot साझाकरण</string>
+    <string name="hint1">सुनिश्चित करें कि प्राप्तकर्ता उपकरण में HotKnot चालू हो, और उसके स्क्रीन को अनलॉक रखें।</string>
+    <string name="hint2">अपने उपकरण के स्क्रीन को प्राप्तकर्ता उपकरण के स्क्रीन पर रखें।</string>
+    <string name="hint3">ध्वनि संकेत सुनने के बाद अपने उपकरण को प्राप्तकर्ता उपकरण से हटा लें।</string>
+    <string name="use_hotknot">इस एप्लिकेशन को आपके उपकरण पर HotKnot तकनीक का उपयोग की जरूरत है।</string>
+    <string name="fail_to_share_conn_error">कनेक्शन की समस्या के कारण साझा करने में विफल।</string>
+    <string name="fail_to_share_unknown_error">अज्ञात त्रुटि के कारण साझा करने में विफल।</string>
+    <string name="usb_warning">HotKnot फ़ंक्शन USB चार्जिंग के दौरान प्रभावित हो सकता है।</string>
+</resources>

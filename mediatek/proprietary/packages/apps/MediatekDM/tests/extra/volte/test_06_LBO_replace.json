@@ -1,0 +1,4 @@
+[
+	{ operationName : "Replace", nodeUri : "./IMSMO/LBO_P-CSCF_Address/1/Address", objectValue : "pcscf.operator.com", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/LBO_P-CSCF_Address/1/AddressType", objectValue : "FQDN", objectType : "chr", newNode : "" },
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_path_string"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/mergeLogBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/roundbtn"
+        android:drawableTop="@android:drawable/ic_menu_today"
+        android:text="@string/merge_string" />
+
+    <EditText
+        android:id="@+id/zipPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_toLeftOf="@+id/mergeLogBtn"
+        android:text="@string/logpath_input" >
+
+        <requestFocus />
+    </EditText>
+
+ 	<View
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="1dp"
+ 	    android:layout_alignParentLeft="true"
+ 	    android:layout_below="@+id/mergeLogBtn"
+ 	    android:layout_marginTop="12dp"
+ 	    android:background="@android:color/darker_gray" />
+
+</RelativeLayout>

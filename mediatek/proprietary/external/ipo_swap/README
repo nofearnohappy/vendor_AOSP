@@ -1,0 +1,14 @@
+Tool to init swap mtdblock for IPOH
+
+WHAT IT DOES?
+=============
+ipo_swap can init/remap LEB/PEB for IPOH@NAND
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. liblog.so
+
+HOW TO USE IT?
+==============
+ipo_swap

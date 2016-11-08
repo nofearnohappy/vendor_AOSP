@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">"Նվագարկում է Bluetooth-ի միջոցով"</string>
+	<string name="app_description">"Bluetooth պրոֆիլի փաթեթ"</string>
+	<string name="bt_base_activity_busy_message">Բեռնում է: Խնդրում ենք սպասել...</string>
+	<string name="bt_base_activity_service_disconnected">Ծառայությունն անջատված է:</string>
+	<string name="bt_base_profile_feature_disabled">"Հնարավոր չէ օգտագործել անջատված Bluetooth-ի հատկություն:"</string>
+	<string name="bt_share_mgmt_tab_in_title">"Ներբեռնում"</string>
+	<string name="bt_share_mgmt_tab_out_title">Ակնթարթային վերբեռնում</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"Մաքրել բոլոր ծանուցումները:"</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"Կապակցված է ֆայլի փոխանցման համար"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">Հատկորոշիչի գրանցման գործողությունը հաջողությամբ չի ավարտվել:\n\n %1$s\n\n Ցանկանո՞ւմ եք փորձել կրկին:</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"Մաքրել դյուրանցումները վերջերս ընտրված որոնման առաջարկներից"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"Ֆայլ %1$s %2$s-ից չի ստացվել:"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"Ֆայլ %1$s չի ուղարկվել %2$s-ին:"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"Ֆայլ %1$s ուղարկվել է %2$s-ին:"</string>
+	<string name="bt_share_mgmt_notification_ticker">"Bluetooth-ի համօգտագործման պատմություն"</string>
+	<string name="bt_share_mgmt_notification_title">"Bluetooth-ի համօգտագործման պատմություն"</string>
+	<string name="bt_share_mgmt_notification_message">"Ընտրել` դիտելու համար Bluetooth-ի համօգտագործման պատմությունը:"</string>
+	<string name="bt_share_openfile_title">Ներողություն, ֆայլի բացումը ձախողվեց:</string>
+	<string name="bt_share_openfile_message_invalid_param">"Անվավեր ֆայլ` %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"Չաջակցվող ֆայլի տեսակ` %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"Ֆայլը չի գտնվել` %1$s"</string>
+	<string name="bt_share_openfile_confirm">SMS ծառայության կենտրոնը հաջողությամբ նախադրվեց</string>
+</resources>

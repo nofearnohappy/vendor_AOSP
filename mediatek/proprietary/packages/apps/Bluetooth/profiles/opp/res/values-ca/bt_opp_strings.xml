@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Sol·licitud de fitxer entrant"</string>
+	<string name="bt_opp_notification_in_coming_title">"Sol·licitud de fitxer entrant (des de: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Seleccioneu-lo per acceptar el fitxer entrant"</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Permet transf. fitxers entrants"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Rebent: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Fitxer sortint"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Enviant:%1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Connectat a la transferència de fitxers"</string>
+	<string name="bt_opp_cancel_task_message">"Voleu cancel·lar aquesta transferència?"</string>
+	<string name="bt_opp_cancel_task_yes">"Sí"</string>
+	<string name="bt_opp_cancel_task_no">No hi ha cap aplicació disponible per imprimir el contacte.</string>
+	<string name="bt_opp_canceling_task_message">"Cancel·lant transferència, espereu..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth – Element entrant"</string>
+	<string name="bt_opps_confirm_push_message">"Fitxer entrant: %1$s (%2$s) des e %3$s. Voleu acceptar-lo?"</string>
+	<string name="bt_opps_confirm_push_yes">Vols acceptar el servei de tramesa automàtica o no?</string>
+	<string name="bt_opps_confirm_push_no">Rebutja</string>
+	<string name="bt_oppc_push_action_label">"S\'està reproduint a través de Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Enviant fitxer a %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Enviant fitxers a %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Contingut compartit no compatible: %1$s"</string>
+	<string name="bt_oppc_push_toast_unknown_device">"dispositiu desconegut"</string>
+	<string name="bt_opps_toast_storage_unavailable">"No hi ha targeta SD o no hi ha prou espai d'emmagatzematge per al fitxer entrant."</string>
+	<string name="bt_oppc_toast_disk_full">"No hi ha prou espai al disc per desar la informació rebuda."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Sol·licitud per compartir no vàlida des del dispositiu remot."</string>
+	<string name="permlab_bluetoothWhitelist">"Accés al dispositiu Bluetooth en llista blanca."</string>
+	<string name="permdesc_bluetoothWhitelist">"Permet a l'aplicació afegir temporalment un dispositiu de Bluetooth a la llista d'admesos, el que permet a aquest dispositiu enviar fitxers a aquest sense la confirmació de l'usuari."</string>
+	<string name="permlab_handoverStatus">"Rep emissions de transferència d\'entrega de BT."</string>
+	<string name="permdesc_handoverStatus">"Permet rebre informació de l'estat de les transferències fetes amb Bluetooth."</string>
+</resources>

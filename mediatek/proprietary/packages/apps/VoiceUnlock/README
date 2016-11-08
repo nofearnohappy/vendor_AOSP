@@ -1,0 +1,22 @@
+WHAT IT DOES?
+=============
+VoiceUnlock: a new unlock style added by MTK. User can record her/his command to unlock.
+
+VoiceWakeup: it's similar to "VoiceUnlock", but more stronger. User can record her/his command
+ to unlock and launch some apps.Besides, it have two types of mode :NoSpeak(launch the) 
+ & WithSpeak(the apps list can be configured). 
+
+
+
+HOW IT WAS BUILT?
+==================
+It's dependent on the VoiceCommand.apk and the lib libvoicerecognition_jni.so
+
+HOW TO USE IT?
+==============
+VoiceUnlock : 1) enter Settings --- > Security --- > Screen lock --- > Voice Unlock
+
+VoiceWakeup:  2) enter Settings --- > Language & input --- > Voice Control
+
+
+All the source code of this module were written by MediaTek co..

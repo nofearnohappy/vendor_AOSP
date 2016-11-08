@@ -1,0 +1,24 @@
+The SmartCard API is a reference implementation of the SIMalliance Open Mobile API specification 
+that will enable Android applications to communicate with Secure Elements, e.g. SIM card, embedded Secure Elements, Mobile Security Card or others.
+
+The interface of the library is kept platform independent whereas the SmartcardService implementation is Android specific.
+
+The current version from seek for android is V3.1.0.
+
+org.simalliance.openmobileapi.jar and SmartcardService.apk are pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+org.simalliance.openmobileapi.jar contains
+ - SEService 
+ - Reader
+ - Session
+ - Channel
+
+HOW IT WAS BUILT?
+==================
+org.simalliance.openmobileapi.jar has been built. Therefore, you don't need build it.
+
+HOW TO USE IT?
+==============
+Follow SIMalliance Open Mobile API specification and all APIs are available.

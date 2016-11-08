@@ -1,0 +1,31 @@
+Service of Mediatek HotKnot features, icluding message transmission, file transmission through the HotKnot technology.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+HotKnot.apk contains MediaTek developed HotKnot service
+Without them, HotKnot functionalities will not work
+
+HOW IT WAS BUILT?
+==================
+1. The featureoption MTK_HOTKNOT_SUPPORT should be true.
+
+
+
+[Build Method]
+
+make HotKnot
+or
+mmm vendor/mediatek/proprietary/packages/apps/HotKnot
+
+
+
+HOW TO USE IT?
+==============
+
+1) enter Settings page and press HotKnot On/Off
+
+2) if enable it , will show the HotKnot icon on the status bar to tell user HotKnot is on
+All the source code of this module were written by MediaTek co..

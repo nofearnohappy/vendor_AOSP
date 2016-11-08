@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Έξυπνος ισοσταθμιστής</string>
+	<string name="surround_virtualizer">Εικονικό Surround</string>
+	<string name="dialogue_enhancer">Ενισχυτής Διαλόγου</string>
+	<string name="volume_leveler">Σταθμιστής Έντασης</string>
+	<string name="copyright">Η ονομασία Dolby και το σύμβολο με το διπλό D αποτελούν εμπορικά σήματα κατατεθέντα της Dolby Laboratories. \u00a9 2013 Dolby Laboratories Inc. Με την επιφύλαξη παντός δικαιώματος.</string>
+	<string name="movie">Ταινία</string>
+	<string name="music">Μουσική</string>
+	<string name="game">Παιχνίδι</string>
+	<string name="voice">Φωνή</string>
+	<string name="preset_1">Προσαρμογή 1</string>
+	<string name="preset_2">Προσαρμογή 2</string>
+	<string name="open">Ανοικτός</string>
+	<string name="rich">Πλούσιος</string>
+	<string name="focused">Εστιασμένος</string>
+	<string name="off">OFF</string>
+	<string name="custom">Με το χέρι</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Γραφικός Iσοσταθμιστής</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Δείτε Επίδειξη</string>
+</resources>

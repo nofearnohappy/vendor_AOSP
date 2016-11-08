@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Zum Einschalten von Bluetooth antippen</string>
+    <string name="tap_to_add_device">Zum Hinzufügen eines Gerätes antippen</string>
+    <string name="turning_on_bluetooth">Bluetooth wird eingeschaltet…</string>
+    <string name="launcher_activity_name">BLE-Manager</string>
+    <string name="scanning_devices">Geräte werden gesucht</string>
+    <string name="delete_devices">Bitte ein Gerät zum Verbinden des neuen Gerätes trennen</string>
+    <string name="cancel">"Abbrechen"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Warnung"</string>
+    <string name="device_manager">Gerätemanager</string>
+    <string name="out_of_range_alert_text">Außer-Reichweite-Alarm</string>
+    <string name="in_range_alert_text">In-Reichweite-Alarm</string>
+    <string name="range_alert_text">Meine Reichweite</string>
+    <string name="range_alert_summary">Telefon und Gerät warnen, wenn sich das Gerät in oder außerhalb der Reichweite befindet</string>
+    <string name="range_near_text">Nah</string>
+    <string name="range_middle_text">Mittel</string>
+    <string name="range_far_text">"Entfernt"</string>
+    <string name="range_1_distance_text">Etwa 1 m</string>
+    <string name="range_10_distance_text">1 bis 10 m</string>
+    <string name="range_20_distance_text">10 bis 20 m</string>
+    <string name="phone_alert_settings">Telefonalarmeinstellungen</string>
+    <string name="ringtone_tye_text">"Klingelton"</string>
+    <string name="volume_text">"Lautstärke"</string>
+    <string name="vibration_text">Vibration</string>
+    <string name="vibration_summary_on">Ein</string>
+    <string name="vibration_summary_off">"Aus"</string>
+    <string name="device_name">"Gerätename"</string>
+    <string name="push_notification_text">Push-Benachrichtigungen an Gerät</string>
+    <string name="incoming_call_notification_text">"Eingehender Anruf"</string>
+    <string name="missed_call_notificaiotn_text">"Entgangener Anruf"</string>
+    <string name="new_message_notification_text">"Neue Nachricht"</string>
+    <string name="new_email_notification_text">"Neue E-Mail"</string>
+    <string name="disconnection_text">Trenneinstellungen</string>
+    <string name="disconnection_waring_title">Trennalarm</string>
+    <string name="disconnection_waring_summary">Telefon und Gerät warnen, wenn das Gerät getrennt ist</string>
+    <string name="device_name_change_dialog_title">"Umbenennen"</string>
+    <string name="disconnect_text">"Verbindung trennen"</string>
+    <string name="delete_text">"Löschen"</string>
+    <string name="connect_text">"Verbinden"</string>
+    <string name="device_delete_dialog_message">Dieses Gerät löschen?</string>
+    <string name="device_disconnect_dialog_message">Das Gerät trennen?</string>
+    <string name="find_all_text">Alles finden</string>
+    <string name="default_images">Standardbilder</string>
+    <string name="range_information_text">Die Reichweite ist von der Signalstärke abhängig. In idealen Situationen kann die Reichweite mehr als 30 Meter betragen.  Bestimmte Dinge können die Reichweite auf 15 Meter oder weniger verringern, wie z. B. Ihr Körper, Wände und andere Hindernisse.</string>
+    <string name="range_information_dialog_check_box_text">Nicht mehr anzeigen</string>
+    <string-array name="device_image_chooser_items">
+        <item>Aus Standardbild wählen</item>
+        <item>"Foto aufnehmen"</item>
+        <item>Aus Galerie wählen</item>
+    </string-array>
+    <string name="add_device">"Gerät hinzufügen"</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nein"</string>
+    <string name="connecting_text">"Verbindung wird hergestellt..."</string>
+    <string name="enable_background_service">Hintergrundmodus aktivieren</string>
+    <string name="disable_background_service">Hintergrundmodus deaktivieren</string>
+    <string name="ble_manager_alert">BLE-Manager-Alarm</string>
+    <string name="check">Prüfen</string>
+    <string name="dismiss">Ablehnen</string>
+    <string name="disconnected">"Nicht verbunden"</string>
+    <string name="in_range">im Bereich</string>
+    <string name="out_of_range">außerhalb des Bereichs</string>
+    <string name="no_found">Kein Bluetooth-Gerät gefunden.</string>
+    <string name="bt_off">Bluetooth ist ausgeschaltet, bitte einschalten.</string>
+</resources>

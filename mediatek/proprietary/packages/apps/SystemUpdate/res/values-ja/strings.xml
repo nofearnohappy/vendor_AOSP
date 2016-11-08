@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"システムアップデート"</string>
+    <string name="none_package">利用可能な更新パッケージは存在しません。</string>
+    <string name="new_version_query">更新内容をチェックしています\u2026</string>
+    <string name="menu_stats_refresh">"更新"</string>
+    <string name="network_error">ネットワーク接続に失敗しました</string>
+    <string name="server_version_error">サーバーエラー：サーバーのソースコードを更新してください。</string>    
+    <string name="no_new_version">システムは最新の状態です。</string>
+    <string name="not_support_version">対象は無線をサポートしていません。</string>
+    <string name="query_sd_insufficient_space"> <xliff:g id="path">%s</xliff:g>用の容量が足りません</string>
+    <string name="ota_category_title">OTA</string>
+    <string name="sd_category_title">SDカード更新</string>
+    <string name="ota_preference_summary">サーバー上でシステム更新があります</string>
+    <string name="notes_summary">ファームウェアを更新すると機器の安定性が増し、バグを解決できます。</string>
+    <string name="ask_for_install_ota">システム更新を今すぐインストールしますか？</string>
+    <string name="warning_install_ota" product="tablet">インストールの最中はタブレットを使用したり、緊急通話を行うことはできません。バッテリーやSDカードを外したり、タブレットの電源を切ったりしないでください。</string>
+    <string name="warning_install_ota" product="default">インストールの最中は通話したり、緊急通話を行うことはできません。バッテリーやSDカードを外したり、電話の電源を切ったりしないでください。</string>
+    <string name="ask_for_install_sd">SDカード内に最新のシステム更新パッケージが存在します。インストールしますか？</string>
+    <string name="warning_install_sd" product="tablet">インストールの最中はタブレットを使用したり、緊急通話を行うことはできません。バッテリーやSDカードを外したり、タブレットの電源を切ったりしないでください。\nインストールの開始前に、公式ウェブサイトからパッケージをダウンロードしてください。パッケージに破損がないことを確認してください。</string>
+    <string name="warning_install_sd" product="default">インストールの最中は通話したり、緊急通話を行うことはできません。バッテリーやSDカードを外したり、電話の電源を切ったりしないでください。\nインストールの開始前に、公式ウェブサイトからパッケージをダウンロードしてください。パッケージに破損がないことを確認してください。</string>
+    <string name="ask_for_download_ota">システム最適化の更新を今すぐインストールしますか？</string>
+    <string name="warning_download_ota">この更新内容を適用する場合は、無料のWi-Fiアクセスポイントや無制限のデータプランを利用することをお勧めします。さもなければ、一般的なデータ接続費用が加算される可能性があります。\nアップデートの前に、データのバックアップをとってください。</string>
+    <string name="notification_content_title">システムアップデート</string>
+    <string name="downloading_title">ダウンロード中\u2026</string>   
+    <string name="wifi_only_check">Wi-Fiのみ</string>     
+    <string name="btn_install">"インストール"</string>
+    <string name="btn_cancel">"破棄"</string>
+    <string name="btn_download">ダウンロードしてインストール</string>
+    <string name="btn_resume">"ダウンロード"</string>
+    <string name="warn_data_cost_title">アップデート内容をダウンロード</string>
+    <string name="warn_data_cost_content">モバイルネットワーク経由でダウンロードすると、追加費用が発生する可能性があります。続行しますか？</string>
+    <string name="warn_data_cost_yes">"はい"</string>
+    <string name="warn_data_cost_no">"いいえ"</string>
+    <string name="notification_download_complete_title">システムアップデートが利用可能です</string>
+    <string name="notification_download_complete_context">タップしてシステムアップデートをインストールできます</string>
+    <string name="sdcard_crash_or_unmount">SDカードエラーが発生しました。SDカードをチェックして再度お試しください。</string>
+    <string name="unmount_sdcard">SDカードのマウントエラーです。チェックしてください。</string>
+    <string name="insufficient_space_content">インストールするには最低 <xliff:g id="deltasize" example="3.5M">%s</xliff:g> バイトの保存空間が必要です。続行する前に、空間を確保してください。</string>
+    <string name="install_sd_title">アップデートをインストールする</string>
+    <string name="install_sd_message">インストールの開始前に、公式ウェブサイトからパッケージをダウンロードしてください。パッケージに破損がないことを確認してください。さもなければ、システムに支障が発生する可能性があります。</string>
+    <string name="install_reminder_now">今すぐインストールする</string>
+    <string name="install_reminder_not_now">"後で行う"</string>
+    <string name="notification_content_text_completed">ダウンロードしました</string> 
+    <string name="unknown_per">"不明"</string>    
+    <string name="unknown_error">不明なエラー</string>
+    <string name="unknown_error_content">不明なエラーが発生しました。このページを終了し、再度お試しください。</string>
+    <string name="insufficient_space_title">空き容量が足りません</string>
+    <string name="error_sdcard">SDカード情報</string>
+    <string name="insufficient_space">SIMカードの空き容量が不足しています。</string>
+    <string name="package_deleted_error">アップデート内容が無効のため、システムアップデートを中断しました。</string>
+    <string name="cancel_download_title">ダウンロードをキャンセルする</string>
+    <string name="cancel_download_content">この操作を行うと、ダウンロードされたファイルは破棄されます。</string>
+    <string name="change_network_title">"ダウンロード"</string>
+    <string name="change_network_content">現在のAPNはダウンロードをサポートしていません。別のAPNに切り替えるか、Wi-FiをONにしますか？</string>
+    <string name="change_network_wifi_btn">Wi-Fiを使用する</string>
+    <string name="change_network_apn_btn">APNを切り替える</string>
+    <string name="change_network_discard_btn">"破棄"</string>    
+    <string name="package_error_title">インストールできません</string>
+    <string name="package_error_message_invalid">パッケージエラーです。アップデート内容をチェックして、再度ダウンロードしてください。</string>
+    <string name="package_error_message_insuff" product="tablet">デバイスの空き容量が不足しています。</string>
+    <string name="package_error_message_insuff" product="default">電話の空き容量が不足しています。</string>
+    <string name="package_error_message_crash">データパーティションにアクセスできません。</string>
+    <string name="package_error_message_full">パーティションを変更した場合は、フルパッケージが必要です。</string>    
+    <string name="updateSuccess" product="tablet">おめでとうございます！デバイスはバージョン <xliff:g id="version" example="gb.p37">%s</xliff:g>にアップデートされました。</string> 
+    <string name="updateSuccess" product="default">おめでとうございます！携帯電話はバージョン <xliff:g id="version" example="gb.p37">%s</xliff:g>にアップデートされました。</string> 
+    <string name="updateFailed">バージョン <xliff:g id="version" example="gb.p37">%s</xliff:g>にアップデートできません。</string>
+    <string name="package_unzip">パッケージを解凍中です\u2026</string>
+    <string name="package_unzip_error">解凍エラー</string>
+    <string name="installing_message" product="tablet">お使いのタブレットはシャットダウンします。\u2026</string>
+    <string name="installing_message" product="default">携帯端末はシャットダウンされます\u2026</string>
+    <string name="install_sd_info">アップデートを継続する場合は、パッケージを携帯電話のメモリへコピーする必要があります。\n携帯電話内の空き容量が不足しています。</string>
+    <string name="sdcard_crash_or_unmount_when_install">SDカードがマウントされていないため、システムアップデートを中断しました。</string>
+    <string name="sdcard_inserted">SDカードをスキャンして、さらに多くのアップデートパッケージを検索しますか？</string>
+    <string name="new_version_detected">システム更新が利用可能です</string>
+    <string name="sdcard_unmount">SDカードが取外されています</string>
+    <string name="cta_warning">システムは公式ウェブサイトまたはサーバーからのみ、ファームウェアのアップグレードをサポートしています。ユーザーがサードパーティ製のROMイメージおよび/またはその他ファームウェアをアップグレードするためにroot化している場合には、電話が不安定になります。これらを行った場合には、すべてがユーザーの責任となります。</string>
+    <string name="low_battery">バッテリー低下</string>
+    <string name="low_battery_warning">このアップデートは、少なくとも15%のバッテリーを消費します。</string>
+    <string name="notify_backup">アップグレード中にデータ（電話帳、メッセージ、写真など）が消失した場合に備えて、データのバックアップをお願いします。</string> 
+</resources>

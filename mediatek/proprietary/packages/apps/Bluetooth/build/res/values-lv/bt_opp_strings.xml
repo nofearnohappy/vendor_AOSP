@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Ienākoša faila pieprasījums"</string>
+	<string name="bt_opp_notification_in_coming_title">"Ienākoša faila pieprasījums (no: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Atlasīt, lai apstiprinātu ienākošo failu."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Atļaut ien. failu pārsūtīšanu"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Saņem: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Izejošais fails"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Sūta: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Pievienots failu pārsūtīšanai"</string>
+	<string name="bt_opp_cancel_task_message">"Vai atcelt šo pārsūtīšanu?"</string>
+	<string name="bt_opp_cancel_task_yes">"Jā"</string>
+	<string name="bt_opp_cancel_task_no">Nav pieejama neviena lietojumprogramma, kas varētu drukāt kontaktu.</string>
+	<string name="bt_opp_canceling_task_message">"Atceļ pārsūtīšanu, lūdzu, uzgaidiet..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - ienākošais objekts"</string>
+	<string name="bt_opps_confirm_push_message">"Ienākošais fails: %1$s (%2$s) no %3$s. Vai apstiprināt?"</string>
+	<string name="bt_opps_confirm_push_yes">Vai akceptēt/neakceptēt automātiskās pārsūtīšanas pakalpojumu?</string>
+	<string name="bt_opps_confirm_push_no">Noraidīt</string>
+	<string name="bt_oppc_push_action_label">"Atskaņošana, izmantojot Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Sūta failu uz %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Sūta failus uz %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Neatbalstīts koplietošanas saturs: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Nav SD kartes, vai diskā nepietiek vietas ienākošajam failam."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Nederīgs koplietošanas pieprasījums no attālās ierīces."</string>
+</resources>

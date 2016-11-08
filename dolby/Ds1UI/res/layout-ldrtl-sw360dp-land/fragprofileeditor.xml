@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0sp"
+		android:layout_weight="1"
+		android:paddingBottom="12sp"
+		android:paddingTop="20sp" >
+
+		<TextView
+			android:id="@+id/presetName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginStart="20sp"
+			android:singleLine="true"
+            android:maxWidth="230sp"
+			android:text="@string/off"
+			android:textAppearance="@style/TextAppearanceLarge"
+			android:textSize="32sp" />
+
+		<ImageView
+			android:id="@+id/revertButtonMain"
+			android:layout_width="21.5sp"
+			android:layout_height="21.5sp"
+			android:layout_alignBottom="@+id/presetName"
+			android:layout_marginBottom="6sp"
+			android:layout_marginStart="10sp"
+			android:layout_toEndOf="@+id/presetName"
+			android:soundEffectsEnabled="false"
+			android:src="@drawable/revert_profile" />
+
+		<EditText
+			android:id="@+id/presetNameEdit"
+			android:layout_width="fill_parent"
+			android:layout_height="42sp"
+			android:layout_marginStart="18sp"
+			android:layout_marginEnd="18sp"
+			android:layout_marginTop="3sp"
+			android:background="@drawable/blueframe"
+			android:inputType="textCapCharacters|textNoSuggestions"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@color/white"
+			android:textSize="32sp"
+			android:textStyle="normal"
+			android:visibility="gone" />
+	</RelativeLayout>
+
+</LinearLayout>

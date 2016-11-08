@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_times_settings_title">タイムサーバーの設定</string>
+	<string name="bt_times_settings_enable_title">タイムサーバー</string>
+	<string name="bt_times_settings_enable_summary">"ONにする"</string>
+</resources>

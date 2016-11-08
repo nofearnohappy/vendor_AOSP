@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bookmark_preloads_for_op03">
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+    </array>
+</resources>

@@ -1,0 +1,10 @@
+[
+	{ operationName : "Replace", nodeUri : "./XDMMO/NAME", objectValue : "XDM Settings", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./XDMMO/ProviderID", objectValue : "XDM MO", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./XDMMO/URI", objectValue : "URI", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./XDMMO/AAUTHNAME", objectValue : "AAUTHNAME", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./XDMMO/AAUTHSECRET", objectValue : "AAUTHSECRET", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./XDMMO/CONF-URI-TMPLT", objectValue : "CONF-URI-TMPLT", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./XDMMO/AAUTHTYPE", objectValue : "AAUTHTYPE", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./XDMMO/Ext/RCS/RevokeTimer", objectValue : "120", objectType : "int", newNode : "" },
+]

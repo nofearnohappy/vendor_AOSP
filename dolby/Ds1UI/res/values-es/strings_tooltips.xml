@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <string name="tooltip_eq_title">Ecualizador inteligente/Ecualizador gráfico</string>
+    <string name="tooltip_eq_text">El Ecualizador inteligente analiza y regula el audio de forma dinámica para que coincida con el tono deseado. Elija entre los cuatro ajustes predefinidos y luego toque en el Visualizador espectral para realizar cambios personalizados en el Ecualizador gráfico.</string>
+    <string name="tooltip_sv_title">Virtualizador surround</string>
+    <string name="tooltip_sv_text">El Virtualizador surround genera un sonido envolvente realista para cualquier tipo de auriculares o altavoces estéreo. Encienda o apague este botón para controlar el efecto de sonido envolvente.</string>
+    <string name="tooltip_de_title">Mejorador de diálogo</string>
+    <string name="tooltip_de_text">La función Mejorador de diálogo potencia la claridad de la voz en cualquier tipo de soporte multimedia. Encienda o apague este botón para controlar la mejora del diálogo.</string>
+    <string name="tooltip_vl_title">Nivelador de volumen</string>
+    <string name="tooltip_vl_text">El Nivelador de volumen proporciona un nivel de volumen constante para todos los contenidos y aplicaciones en función del nivel del control de volumen del dispositivo. Encienda o apague este botón para controlar el nivelado automático del volumen. </string>
+
+</resources>

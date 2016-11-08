@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">ႀကိဳးမဲ့အသြင္းပစၥည္း</string>
+  <string name="bluetooth_hid_connect">ခ်ိတ္ဆက္ပါ</string>
+    <string name="bluetooth_hid_disconnect">ခ်ိတ္ဆက္မႈျဖဳတ္ရန္</string>
+	<string name="bluetooth_hid_unplug">ပလပ္ႀကိဳးျဖဳတ္ပါ</string>
+	<string name="bluetooth_hid_addnewdevice">ပစၥည္းအသစ္ထည့္ပါ</string>
+  <string name="bluetooth_hid_paireddevices">တြဲထားေသာ ႀကိဳးမဲ့အသြင္းပစၥည္း</string>
+	<string name="bluetooth_hid_bt_ok">ဘလူးတု(သ္)ဖြင့္ျခင္း ေအာင္ျမင္။</string> 
+	<string name="bluetooth_hid_bt_fail">ဘလူးတု(သ္)ဖြင့္ျခင္း မေအာင္ျမင္။</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">ႀကိဳးမဲ့အသြင္းပစၥည္း ခ်ိတ္ဆက္မႈကို ျဖဳတ္ပါ</string>
+  <string name="bluetooth_hid_unplug_confirm_title">ႀကိဳးမဲ့အသြင္းပစၥည္းကို ပလပ္ျဖဳတ္ပါ</string>
+  <string name="bluetooth_hid_auth_confirm_title">ႀကိဳးမဲ့အသြင္းပစၥည္း ေတာင္းဆိုမႈကို လက္ခံပါ</string>
+  <string name="bluetooth_hid_summary_connected">ခ်ိတ္ဆက္ၿပီး</string> 
+	<string name="bluetooth_hid_summary_connecting">ခ်ိတ္ဆက္ဆဲ…</string>
+	<string name="bluetooth_hid_summary_not_connected">တြဲထားသည္ သို႔ေသာ္ မခ်ိတ္ဆက္ထားပါ</string>
+	<string name="bluetooth_hid_yes">ဟုတ္ပါသည္</string> 
+	<string name="bluetooth_hid_no">မဟုတ္ပါ</string>
+  <string name="bluetooth_hid_connected_notify_ticker">ႀကိဳးမဲ့အသြင္းပစၥည္း ခ်ိတ္ဆက္ၿပီး</string>
+  <string name="bluetooth_hid_connected_notify_title">ႀကိဳးမဲ့အသြင္းပစၥည္း ခ်ိတ္ဆက္ၿပီး</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">ႀကိဳးမဲ့အသြင္းပစၥည္း ခ်ိတ္ဆက္ျခင္း ေတာင္းဆိုခ်က္</string>
+  <string name="bluetooth_hid_connect_request_notify_title">ႀကိဳးမဲ့အသြင္းပစၥည္း ခ်ိတ္ဆက္ျခင္း ေတာင္းဆိုခ်က္</string>
+    <string name="bluetooth_hid_connected_notify_message">%1$s ႏွင့္ ခ်ိတ္ဆက္မႈကို ျဖဳတ္ရန္ေရြးခ်ယ္ပါ</string>
+    <string name="bluetooth_hid_connect_request_notify_message">%1$s ႏွင့္ခ်ိတ္ဆက္မႈ ေတာင္းဆိုခ်က္ကို လက္ခံမည္ သို႔မဟုတ္ ျငင္းပယ္မည္ ကိုေရြးခ်ယ္ပါ</string>
+  <string name="bluetooth_hid_connect_ok">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s ေအာင္ျမင္စြာ ခ်ိတ္ဆက္ၿပီး။</string>
+  <string name="bluetooth_hid_connect_fail">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s ခ်ိတ္ဆက္မႈ မေအာင္ျမင္ပါ။</string>
+  <string name="bluetooth_hid_disconnect_ok">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s ခ်ိတ္ဆက္မႈအား ေအာင္ျမင္စြာ ျဖဳတ္ၿပီး။</string>
+  <string name="bluetooth_hid_disconnect_fail">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s ခ်ိတ္ဆက္မႈ ျဖဳတ္ျခင္း မေအာင္ျမင္။</string>
+  <string name="bluetooth_hid_unplug_ok">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s ေအာင္ျမင္စြာ ပလပ္ျဖဳတ္ၿပီး။</string>
+  <string name="bluetooth_hid_unplug_fail">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s ပလပ္ျဖဳတ္ျခင္း မေအာင္ျမင္။</string>
+  <string name="bluetooth_hid_disconnect_confirm">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s ခ်ိတ္ဆက္မႈအား ျဖဳတ္မလား။</string>
+  <string name="bluetooth_hid_unplug_confirm">ႀကိဳးမဲ့အသြင္းပစၥည္း %1$s အား ပလပ္ျဖဳတ္မလား။</string>
+  <string name="bluetooth_hid_auth_confirm">%1$s မွ ႀကိဳးမဲ့အသြင္း ပစၥည္းေတာင္းဆိုခ်က္ ကို လက္ခံမလား။</string>
+  <string name="bluetooth_hid_summary_disconnecting">ျဖဳတ္ေနဆဲ…</string>
+</resources>

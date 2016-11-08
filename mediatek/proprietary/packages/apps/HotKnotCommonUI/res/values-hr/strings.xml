@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot dijeljenje</string>
+    <string name="hint1">Pazite da na prijemnom uređaju bude uključen HotKnot i da mu zaslon ostane otključan.</string>
+    <string name="hint2">Postavite vaš uređaj na prijemni uređaj tako da je zaslon okrenut prema zaslonu.</string>
+    <string name="hint3">Skinite vaš uređaj s prijemnog uređaja kada začujete govornu naredbu.</string>
+    <string name="use_hotknot">Ova aplikacija koristi HotKnot tehnologiju na vašem uređaju.</string>
+    <string name="allow">"Dopusti"</string>
+    <string name="deny">"Odbij"</string>
+    <string name="fail_to_share">Dijeljenje nije uspjelo</string>
+    <string name="fail_to_share_conn_error">Dijeljenje nije uspjelo zbog problema sa vezom.</string>
+    <string name="fail_to_share_unknown_error">Dijeljenje nije uspjelo zbog nepoznate greške.</string>
+    <string name="try_again">"Pokušajte ponovo"</string>
+    <string name="usb_warning">HotKnot funkcija može biti zahvaćena tijekom USB punjenja.</string>
+</resources>

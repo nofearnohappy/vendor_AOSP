@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbo-Download</string>
+    <string name="hetcomm_intro">Laden Sie große Dateien (über 20 MB) durch gemeinsame Verwendung von WLAN- und 4G/3G-Netzwerk schneller herunter. Das Symbol Turbo-Download wird bei Aktivierung in der Statusleiste angezeigt. Zur Nutzung von Turbo-Download müssen WLAN und Mobildaten eingeschaltet sein. Bei Aktivierung werden jegliche Applikationsdaten, die Sie zum reinen Herunterladen per WLAN ausgewählt haben, dennoch über WLAN- und 4G/3G-Netzwerk heruntergeladen.</string>
+    <string name="enable_switch_on">Ein</string>
+    <string name="enable_switch_off">Aus</string>
+    <string name="notify_top_title">Download-Beschleuniger</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"WLAN"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobilfunk"</string>
+    <string name="conn_notice_title">Mobildaten oder WLAN ist ausgeschaltet.</string>
+    <string name="conn_notice_detail">Zur Aktivierung von Turbo-Download müssen WLAN und Mobildaten eingeschaltet sein.</string>
+    <string name="conn_charging_warning">Beim Herunterladen über Mobilnetzwerke können zusätzliche Gebühren anfallen.</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> einschalten</string>
+    <string name="turn_off_due_to_vpn">Turbo-Download ist ausgeschaltet, da VPN aktiv ist</string>
+    <string name="turn_off_due_to_tether">Turbo-Download ist ausgeschaltet, da Tethering aktiv ist</string>
+    <string name="turn_off_due_to_shutdown">Turbo-Download ist aufgrund von Abschaltung ausgeschaltet</string>
+    <string name="turn_off_due_to_roaming">Turbo-Download ist aufgrund von Roaming ausgeschaltet</string>
+    <string name="ratio_is_single">WLAN-/Mobildatengeschwindigkeit ist langsam. Zum Beschleunigen des Downloads nutzt der Turbo-Download nur Mobildaten/WLAN zum Herunterladen von Dateien.</string>
+    <string name="ratio_is_back">Turbo-Download nutzt WLAN und Mobildaten zum Herunterladen von Dateien erneut gemeinsam.</string>
+    <string name="action_help">Hilfe</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Hilfe zu Turbo-Download</u>\
+    </h1><br>Laden Sie große Dateien bei Spitzengeschwindigkeiten durch gleichzeitige Nutzung von WLAN und 4G/3G  herunter.\
+    <h4>1. Rufen Sie die Einstellungen auf und tippen Sie auf Herunterladen.</h4>\
+    <h4>2. Tippen Sie zum Einschalten von Turbo-Download auf den Schalter.</h4>\
+    <p><b>[Tipp]</b> Zur Beschleunigung des Downloads, wenn zu Beginn Ihres Downloads eine WLAN- und 4G/3G-Verbindung besteht.\
+    <p><b>[Tipp]</b> Falls Ihre WLAN- oder 4G/3G-Verbindung zu langsam ist, können Sie zum Herunterladen Ihre schnellere Netzwerkverbindung nutzen.\
+    <p><b>[Tipp]</b> Geschwindigkeit und Leistung von Turbo-Download können während des Downloads durch die Netzwerkumgebung beeinträchtigt werden.\
+    <br>&nbsp;&nbsp;- Falls die Signale instabil sind, sind möglicherweise Geschwindigkeit und Leistung dieser Funktion beeinträchtigt.\
+    <br>&nbsp;&nbsp;- im Durchschnitt ist die Download-Geschwindigkeit jedoch doppelt so hoch wie bei der alleinigen Nutzung von WLAN oder 4G/3G.\
+    <p><b>[Tipp]</b> Bei einem großen Geschwindigkeitsunterschied zwischen WLAN und 4G/3G (normalerweise 2,5-fach), stoppt Turbo-Download bzw. wird nicht unterstützt, damit die Geschwindigkeit nicht negativ beeinflusst wird.\
+    <p><b>[Tipp]</b> Die Funktion Turbo-Download wird automatisch deaktiviert, sobald Tethering/VPN eingeschaltet wird.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,27 @@
+This module creates the CMCC RCS Device API jar
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+Device API is a set of API for CMCC RCS.
+Use this API, developers could create application that compatible to CMCC 
+RCS specification.
+CMCC RCS Device API is made by CMCC, base on Joyn Device API v0.9, and extends
+CMCC defined APIs.
+
+HOW IT WAS BUILT?
+==================
+It needs the following librarys:
+telephony-common.jar, ims-common.jar
+
+Build it by below command:
+mmm vendor/mediatek/proprietary/operator/OP01/packages/apps/RCS/DeviceAPI
+
+HOW TO USE IT?
+==============
+Please write your code follow the CMCC RCS Device API specification.
+Then you can install your apk to MediaTek Android phone, it will work.
+
+The source code for this library were written by MediaTek.

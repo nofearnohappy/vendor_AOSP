@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Zákaznická služba</string>  
+    <string name="hotLine">Telefonická zákaznická linka China Unicom</string>
+    <string name="app_not_found">"Aplikace potřebná k provedení této akce nebyla nalezena."</string>
+</resources>

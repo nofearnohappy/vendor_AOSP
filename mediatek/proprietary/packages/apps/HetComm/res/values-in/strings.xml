@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">DonwloadCepat</string>
+    <string name="hetcomm_intro">Download file besar (lebih dari 20 MB) lebih cepat menggunakan jaringan Wi-Fi dan 4G/3G secara bersamaan. Ikon Download Cepat akan ditampilkan pada panel status saat aktif. Untuk menggunakan Download Cepat, data Wi-Fi dan Seluler harus diaktifkan. Setelah diaktifkan, setiap data aplikasi yang telah dipilih untuk di-download hanya melalui Wi-Fi hanya akan di-download melalui jaringan WLAN dan 4G/3G.</string>
+    <string name="enable_switch_on">aktif</string>
+    <string name="enable_switch_off">Nonaktif</string>
+    <string name="notify_top_title">Akselerator Download</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Data Seluler"</string>
+    <string name="conn_notice_title">Seluler atau Wi-Fi TIDAK AKTIF.</string>
+    <string name="conn_notice_detail">Untuk mengaktifkan Download Cepat, data Wi-Fi dan Seluler harus diaktifkan.</string>
+    <string name="conn_charging_warning">Men-download melalui jaringan seluler dapat mengakibatkan tagihan biaya tambahan.</string>
+    <string name="turn_on">Aktifkan <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Download Cepat TIDAK AKTIF karena Vpn AKTIF</string>
+    <string name="turn_off_due_to_tether">Download Cepat TIDAK AKTIF karena Tethering AKTIF</string>
+    <string name="turn_off_due_to_shutdown">Download Cepat TIDAK AKTIF karena perangkat dimatikan</string>
+    <string name="turn_off_due_to_roaming">Donwload Cepat TIDAK AKTIF karena Roaming</string>
+    <string name="ratio_is_single">Kecepatan Wi-Fi/Data seluler lambat. Untuk mempercepat download, download Turbo hanya akan menggunakan Data seluler/Wi-Fi untuk men-download file.</string>
+    <string name="ratio_is_back">Download Turbo akan menggunakan kembali Wi-Fi dan Data seluler secara bersamaan untuk men-download file.</string>
+    <string name="action_help">Bantuan</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Bantuan Download Cepat</u>\
+    </h1><br>Download file besar dengan kecepatan tinggi menggunakan Wi-Fi dan 4G/3G secara bersamaan.\
+    <h4>1. Buka Pengaturan, lalu ketuk Download Cepat.</h4>\
+    <h4>2. Ketuk tombol untuk mengaktifkan Download Cepat.</h4>\
+    <p><b>[Tip]</b> Untuk mempercepat download jika tersambung ke Wi-Fi dan 4G/3G saat mulai men-download.\
+    <p><b>[Tip]</b> Jika sambungan Wi-Fi atau 4G/3G terlalu lambat, Anda dapat menggunakan sambungan jaringan yang lebih cepat untuk men-download.\
+    <p><b>[Tip]</b> Kecepatan dan performa Download Cepat dapat dipengaruhi lingkungan jaringan saat men-download.\
+    <br>&nbsp;&nbsp;- Jika sinyal tidak stabil, kecepatan dan performa fitur ini dapat terpengaruh.\
+    <br>&nbsp;&nbsp;- Namun demikian, secara rata-rata, kecepatan download akan ""berlipat ganda"" bila dibandingkan dengan hanya menggunakan Wi-Fi atau 4G/3G.\
+    <p><b>[Tip]</b> Bila perbedaan kecepatan Wi-Fi dan 4G/3G terlalu besar(normalnya 2,5 kali), Download Cepat akan terhenti atau tidak akan memberi dukungan untuk menghindari terjadinya performa yang buruk karena kecepatan tersebut.\
+    <p><b>[Tip]</b> Download Cepat akan dinonaktifkan secara otomatis setelah Tethering/Vpn diaktifkan.\
+    </body></html>]]>"</string>
+</resources>

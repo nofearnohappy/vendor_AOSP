@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK温度マネージャー</string>
+    <string name="coolers">クーラー</string>
+    <string name="thermal_sensors">温度センサー</string>
+    <string name="thermal_protection">熱保護</string>
+    <string name="thermal_policy_file_colon">"熱ポリシーファイル： "</string>
+    <string name="apply_new_thermal_policy">新しい熱ポリシーを適用</string>
+    <string name="tz_device_info">TZデバイス情報</string>
+    <string name="thermal_logger">熱ロガー</string>
+    <string name="alert_dialog_two_buttons_title">温度超過警告。</string>
+    <string name="alert_dialog_two_buttons_message">携帯端末を冷ましてください。</string>
+    <string name="alert_dialog_ok">"OK"</string>
+    <string name="alert_dialog_cancel">"キャンセル"</string>
+</resources>

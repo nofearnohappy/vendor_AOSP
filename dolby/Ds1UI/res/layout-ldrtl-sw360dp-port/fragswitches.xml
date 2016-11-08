@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="70sp"
+		android:layout_marginStart="20sp"
+		android:layout_marginEnd="20sp" >
+
+		<TextView
+			android:id="@+id/vlText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:text="@string/volume_leveler"
+			android:textColor="@color/white"
+			android:textSize="16sp" />
+
+		<ToggleButton
+			android:id="@+id/vlButton"
+			style="@style/SwitchButton_ldrtl"
+			android:layout_width="128sp"
+			android:layout_height="30sp"
+			android:layout_alignParentEnd="true"
+			android:layout_marginBottom="20sp"
+			android:layout_marginTop="20sp" />
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="3sp"
+			android:layout_alignParentBottom="true"
+			android:background="#ff0e527a" />
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="70sp"
+		android:layout_marginStart="20sp"
+		android:layout_marginEnd="20sp" >
+
+		<TextView
+			android:id="@+id/deText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:text="@string/dialogue_enhancer"
+			android:textColor="@color/white"
+			android:textSize="16sp" />
+
+		<ToggleButton
+			android:id="@+id/deButton"
+			style="@style/SwitchButton_ldrtl"
+			android:layout_width="128sp"
+			android:layout_height="30sp"
+			android:layout_alignParentEnd="true"
+			android:layout_marginBottom="20sp"
+			android:layout_marginTop="20sp" />
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="3sp"
+			android:layout_alignParentBottom="true"
+			android:background="#ff0e527a" />
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="70sp"
+		android:layout_marginStart="20sp"
+		android:layout_marginEnd="20sp" >
+
+		<TextView
+			android:id="@+id/svText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:text="@string/surround_virtualizer"
+			android:textColor="@color/text_color"
+			android:textSize="16sp" />
+
+		<ToggleButton
+			android:id="@+id/svButton"
+			style="@style/SwitchButton_ldrtl"
+			android:layout_width="128sp"
+			android:layout_height="30sp"
+			android:layout_alignParentEnd="true"
+			android:layout_marginBottom="20sp"
+			android:layout_marginTop="20sp" />
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="3sp"
+			android:layout_alignParentBottom="true"
+			android:background="#ff0e527a" />
+	</RelativeLayout>
+
+</LinearLayout>

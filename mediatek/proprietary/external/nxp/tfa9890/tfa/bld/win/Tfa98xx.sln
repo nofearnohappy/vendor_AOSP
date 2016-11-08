@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tfa", "tfa9890.vcxproj", "{E81737BE-6BFA-4551-B9C3-D20041C32D07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tfa98xx_hal", "..\..\..\hal\bld\win\Tfa98xx_hal.vcxproj", "{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Debug|Win32.Build.0 = Debug|Win32
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Debug|x64.ActiveCfg = Debug|x64
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Debug|x64.Build.0 = Debug|x64
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Release|Win32.ActiveCfg = Release|Win32
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Release|Win32.Build.0 = Release|Win32
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Release|x64.ActiveCfg = Release|x64
+		{E81737BE-6BFA-4551-B9C3-D20041C32D07}.Release|x64.Build.0 = Release|x64
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Debug|Win32.Build.0 = Debug|Win32
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Debug|x64.ActiveCfg = Debug|x64
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Debug|x64.Build.0 = Debug|x64
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Release|Win32.ActiveCfg = Release|Win32
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Release|Win32.Build.0 = Release|Win32
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Release|x64.ActiveCfg = Release|x64
+		{21CFDF30-5A1C-4FE8-BC8B-3822C63951D3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">"Bluetooth経由で再生中です"</string>
+	<string name="app_description">"Bluetoothプロフィールパッケージ"</string>
+	<string name="bt_base_activity_busy_message">読み込み中です。お待ちください...</string>
+	<string name="bt_base_activity_service_disconnected">サービスが切断されました。</string>
+	<string name="bt_base_profile_feature_disabled">"無効になっているBluetooth機能は使用できません。"</string>
+	<string name="bt_share_mgmt_tab_in_title">"ダウンロード中"</string>
+	<string name="bt_share_mgmt_tab_out_title">"インスタントアップロード"</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"通知をすべて消去。"</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"ファイル転送サーバーに接続しました"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">タグの書込み作業は正しく終了しませんでした。\n\n %1$s\n\n再度試しますか？</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"最近選択した検索候補へのショートカットを消去する"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"%2$sから送信されたファイル %1$sはまだ受信していません。"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"ファイル %1$s は %2$sへ送られていません。"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"ファイル %1$s は %2$sへ送られました。"</string>
+	<string name="bt_share_mgmt_notification_ticker">"Bluetooth共有履歴"</string>
+	<string name="bt_share_mgmt_notification_title">"Bluetooth共有履歴"</string>
+	<string name="bt_share_mgmt_notification_message">"選択してBluetooth共有履歴を見れます。"</string>
+	<string name="bt_share_openfile_title">申し訳有りません、ファイルを開けません。</string>
+	<string name="bt_share_openfile_message_invalid_param">"無効ファイル： %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"このタイプのファイルはサポートされていません： %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"ファイルが見つかりません： %1$s"</string>
+	<string name="bt_share_openfile_confirm">SMSサービスセンターをOKに設定する</string>
+</resources>

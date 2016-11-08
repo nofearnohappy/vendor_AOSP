@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hw_init_failed">Ha fallat la inicialització del maquinari.</string>
+    <string name="stop_record_first">"Abans, atura l'enregistrament."</string>
+    <string name="location_changed">"La ubicació s'ha canviat a %1$s."</string>
+    <string name="saved_to_gallery">"S'ha desat a la galeria."</string>
+    <string name="channel">canal</string>
+    <string name="scan_confirm">"S'eliminarà la llista de canals actual."</string>
+    <string name="turning_on_tv">Turning on TV…</string>
+    <string name="please_wait">Espera\u2026</string>
+    <string name="no_storage">Insereix una targeta SD.</string>
+    <string name="preparing_sd">"S\'està preparant la targeta SD…"</string>
+    <string name="multiselect">"Selecció múltiple"</string>    
+    <string name="confirm_delete_message">"El canal s'eliminarà."</string>
+    <string name="confirm_delete_multiple_message">"Aquests canals s'eliminaran."</string>
+<string name="scanning_channels">"S'estan cercant canals"</string>
+<string name="stop">"Atura"</string>
+<string name="choose_sound_mode">Tria el mode de so</string>
+<string name="brightness">"Brillantor"</string>
+<string name="contrast">"Contrast"</string>
+<string name="saturation">"Saturació"</string>
+<string name="gallery">"Galeria"</string>
+<string name="record">Enregistrament</string>
+<string name="video_setting">Ajustos de vídeo</string>
+<string name="previous_channel">Canal anterior</string>
+<string name="sound_setting">Ajustos de so</string>
+<string name="rename">"Canvia el nom"</string>
+<string name="fail_to_select_location">"No s'ha pogut seleccionar la ubicació."</string>
+<string name="no_channels_hint">La llista de canals és buida.</string>
+<string name="select_location">Selecciona la ubicació</string>
+<string name="channel_list">Llista de canals</string>
+<string name="no_channels_found">"No s'ha trobat cap canal."</string>
+<string name="scan_again">Repeteix la cerca</string>
+<string name="scan">"Cerca"</string>
+<string name="delete">"Suprimeix"</string>
+<string name="watch_now">Veure-ho ara</string>
+<string name="select_all">"Selecciona-ho tot"</string>
+<string name="new_channel_name">Nom de canal nou:</string>
+<string name="spaceIsLow_content">"La targeta SD s'està quedant sense espai."</string>
+<string name="vt_in_use_warning">La TV no està disponible durant la trucada.</string>
+<string name="analog_tv">"TV analògica"</string>
+<string name="selected">%d seleccionats</string>   
+</resources>

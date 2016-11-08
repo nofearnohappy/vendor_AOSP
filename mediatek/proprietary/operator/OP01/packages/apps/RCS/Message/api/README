@@ -1,0 +1,25 @@
+It is rcsmessage-common.jar for op01 operator's RCS(Rich Communication System) requirement.
+
+
+WHAT IT DOES?
+=============
+The jar Contains serveral base function for user, such as:
+1. RcsServiceManager: use this manager to get RCS state and some provisioning data.
+2. RcsMessageManager: use this manager to send and manager RCS messages.
+3. GroupManager: create and manager RCS groups.
+4. RCSGroup: manage one RCS Group, like add/remove participients.
+
+HOW IT WAS BUILT?
+==================
+Only and awalys built in OP01 project.
+
+RCS feature option must open for project.
+
+
+HOW TO USE IT?
+==============
+
+It contain some apis, UI can use these apis to communication with remote service.
+
+The majority of source code were written by MediaTek.
+Various open source libraries are also used and contained in this folder.

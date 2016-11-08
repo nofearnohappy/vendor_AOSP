@@ -1,0 +1,22 @@
+WHAT IT DOES?
+==================
+This is the Plugin interfaces for RegionalPhone.
+1. Configure APN settings interface
+2. Configure SMS/MMS related settings interface
+3. Configure WIFI & NITZ settings interface
+
+
+HOW IT WAS BUILD?
+===================
+1. The featureoption MTK_REGIONALPHONE_SUPPORT should be true.
+
+[Build Method]
+make RegionalPhoneManager
+or
+mmm vend/mediatek/proprietary/packages/apps/RegionalPhoneManager
+
+HOW TO USE IT?
+====================
+Insert valid SIM card and first boot up the device will start it.
+All api interface are at (vendor/mediatek/proprietary/packages/apps/RegionalPhoneManager/ext)
+All the source code of this library were written by MediaTek co..

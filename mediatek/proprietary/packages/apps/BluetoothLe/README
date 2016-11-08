@@ -1,0 +1,14 @@
+This is the test APK for BluetoothLe
+
+
+WHAT IT DOES?
+=============
+The package contains various test suites for services in BluetoothLe
+
+HOW TO USE IT?
+==============
+
+Use the following ADB command to start the test:
+
+adb shell am instrument -w -e package com com.mediatek.bluetoothle.tests/android.test.InstrumentationTestRunner
+

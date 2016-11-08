@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Draagbare wifi-hotspot</string>
+    <string name="wifi_tether_introduction_text">Door je toestel in te schakelen als wifi-hotspot, kun je de internetverbinding met maximaal acht andere toestellen tegelijk delen.\n\nLet op dat tethering mobiele gegevens gebruikt. Dit kan je telefoonkosten aanzienlijk doen oplopen en de batterijduur verminderen.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Steek een SIM-kaart in en herstart het toestel om de draagbare wifi-hotspot of tethering te gebruiken.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Dit bericht niet nogmaals tonen</string>
+    <string name="wifi_tether_turn_off_wifi">Om de draagbare wifi-hotspot in te schakelen moeten we eerst je wifi-verbinding uitschakelen. Wil je doorgaan?</string>
+    <string name="wifi_tether_settings_text">Instellingen draagbare wifi-hotspot</string>
+    <string name="tether_apn_settings_text">Tethering APN</string>
+    <string name="tether_apn_settings_subtext">Stel de standaard APN in voor tethering</string>
+    <string name="usb_tethering_accessory_active_subtext">Tethering kan niet ingeschakeld worden als de USB in gebruik is.</string>
+    <string name="operator_display">Toon netwerkoperator</string>
+    <string name="operator_display_summary">Toon netwerkoperator in de statusbalk</string>
+    <string name="by_orange">door Orange</string>
+    <string name="recommended_by_orange">Aanbevolen door Orange</string>
+    <string name="smsmms_app_name">Messaging is niet actief</string>
+    <string name="click_to_change_to_xms_app">Messaging is niet je standaard SMS-app.</string>
+    <string name="click_to_change_to_xms_app_line2">Tik hier voor meer informatie.</string>
+    <string name="sms_change_default_dialog_text1">De Messaging-app is door Orange getest om op je toestel te functioneren.\n\n
+
+Het gebruik van andere SMS-apps kan problemen veroorzaken met het verzenden en ontvangen van SMS- en MMS-berichten.\n\n
+
+<xliff:g id="new_app">%s</xliff:g> in plaats van <xliff:g id="current_app">%s</xliff:g> als je SMS-app gebruiken?</string>
+    
+</resources>

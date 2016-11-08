@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.filemanager.tests"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <instrumentation
+        android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
+        android:label="Tests for FileManager"
+        android:targetPackage="com.mediatek.filemanager" />
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.mediatek.filemanager" />
+    <!-- UT cases -->
+    <instrumentation
+        android:name="com.mediatek.filemanager.tests.FileManagerBasicTestRunner"
+        android:targetPackage="com.mediatek.filemanager" />
+    <!-- Multi-Module cases -->
+    <instrumentation
+        android:name="com.mediatek.filemanager.tests.FileManagerModuleInteractTestRunner"
+        android:targetPackage="com.mediatek.filemanager" />
+    <!-- CMCC cases -->
+    <instrumentation
+        android:name="com.mediatek.filemanager.tests.FileManagerCMCCTestRunner"
+        android:targetPackage="com.mediatek.filemanager" />
+    <!-- performance test runner -->
+    <instrumentation
+        android:name="com.mediatek.filemanager.tests.FileManagerPerformanceTestRunner"
+        android:targetPackage="com.mediatek.filemanager" />
+    <!-- Launch Performance for AT performance test use-->
+    <instrumentation
+        android:name="com.mediatek.filemanager.tests.FileManagerLaunchPerformance"
+        android:label="File Manager Launch Performance"
+        android:targetPackage="com.mediatek.filemanager" >
+    </instrumentation>
+        <!-- UT cases -->
+    <instrumentation
+        android:name="com.mediatek.filemanager.tests.FileManagerByAnnotationTestRunner"
+        android:targetPackage="com.mediatek.filemanager" />
+    <instrumentation
+        android:name="com.mediatek.filemanager.tests.FileManagerRegressionTestRunner"
+        android:targetPackage="com.mediatek.filemanager" />
+    <!-- Search/selectPath/SelectFile activity launch test, not needed right now -->
+    <!-- <instrumentation -->
+    <!-- android:name="com.mediatek.filemanager.tests.FileManagerSearchLaunchPerformance" -->
+    <!-- android:label="File Manager  Search Launch Performance" -->
+    <!-- android:targetPackage="com.mediatek.filemanager" > -->
+    <!-- </instrumentation> -->
+    <!-- <instrumentation -->
+    <!-- android:name="com.mediatek.filemanager.tests.FileManagerSelectPathLaunchPerformance" -->
+    <!-- android:label="File Manager SelectPath Launch Performance" -->
+    <!-- android:targetPackage="com.mediatek.filemanager" > -->
+    <!-- </instrumentation> -->
+    <!-- <instrumentation -->
+    <!-- android:name="com.mediatek.filemanager.tests.FileManagerSelectFileLaunchPerformance" -->
+    <!-- android:label="File Manager SelectFile Launch Performance" -->
+    <!-- android:targetPackage="com.mediatek.filemanager" > -->
+    <!-- </instrumentation> -->
+
+</manifest>

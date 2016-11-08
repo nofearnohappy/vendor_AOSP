@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>ေဒါင္လိုက္ပံုစံ</item>
+		<item>ျမင္ကြင္းက်ယ္ ဖြင့္မႈ</item>
+		<item>"ေဒါင္လိုက္ေဇာက္ထိုး"</item>
+		<item>"အလ်ားလိုက္ ေဇာက္ထိုး"</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"တစ္-ဖက္"</item>
+		<item>"ႏွစ္-ဖက္-အစြန္း-အရွည္"</item>
+		<item>"ႏွစ္-ဖက္-အစြန္း-အတို"</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>ပံုမွန္</item>
+		<item>ပံုၾကမ္းစာပံုး</item>
+		<item>ျမင့္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+		<item>မသိေသာ အဆိုေတာ္အမည္</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"အမွားမရွိ"</item>
+		<item>"v-ကဒ္ဖိုင္ျပဳလုပ္ျခင္း မေအာင္ျမင္"</item>
+		<item>"႐ုပ္ပံုပံုစံအေထာက္အပံ့မေပးပါ"</item>
+	</string-array>
+</resources>

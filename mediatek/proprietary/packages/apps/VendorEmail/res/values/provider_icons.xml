@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="email_provider_icon_list">
+        <item >@drawable/account_provider_189</item>
+        <item >@drawable/account_provider_exchange</item>
+        <item >@drawable/account_provider_gmail</item>
+        <item >@drawable/account_provider_sina</item>
+        <item >@drawable/account_provider_qq</item>
+        <item >@drawable/account_provider_163</item>
+        <item >@drawable/account_provider_yandex</item>
+        <item >@drawable/account_provider_mailru</item>
+        <item >@drawable/account_provider_other</item>
+    </array>
+</resources>

@@ -1,0 +1,21 @@
+This module creates AudioTimeStrech libraries.
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+AudioTime Stretch is used to modify Audio playback duration while remaining its pitch.
+
+
+HOW IT WAS BUILT?
+==================
+It is a pre-built module.
+
+HOW TO USE IT?
+==============
+
+The AudioTimeStretch libraries should not be used directly by an application developer.  It is used by AudioFlinger.
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

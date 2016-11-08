@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">"Predvajanje prek sistema Bluetooth"</string>
+	<string name="app_description">"Paket profila Bluetooth"</string>
+	<string name="bt_base_activity_busy_message">Nalagam. Prosimo počakajte...</string>
+	<string name="bt_base_activity_service_disconnected">Povezava storitve je prekinjena!</string>
+	<string name="bt_base_profile_feature_disabled">"Ni mogoče uporabiti onemogočene funkcije Bluetooth."</string>
+	<string name="bt_share_mgmt_tab_in_title">"Prenos"</string>
+	<string name="bt_share_mgmt_tab_out_title">"Takojšnji prenosi"</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"Izbriši vsa obvestila."</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"Povezava s prenosom datotek je vzpostavljena"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">Operacija zapisovanja oznake se ni uspešno zaključila.\n\n %1$s\n\n Ali želite poskusiti znova?</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"Počisti bližnjice do nazadnje izbranih predlogov iskanja"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"Datoteka %1$s iz %2$s ni prejeta."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"Datoteka %1$s ni bila poslana v/na %2$s."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"Datoteka %1$s je poslana v/na %2$s."</string>
+	<string name="bt_share_mgmt_notification_ticker">"Zgodovina souporabe Bluetooth"</string>
+	<string name="bt_share_mgmt_notification_title">"Zgodovina souporabe Bluetooth"</string>
+	<string name="bt_share_mgmt_notification_message">"Izberite za ogled zgodovine souporabe Bluetooth."</string>
+	<string name="bt_share_openfile_title">Oprostite, datoteke ni bilo mogoče odpreti.</string>
+	<string name="bt_share_openfile_message_invalid_param">"Neveljavna datoteka: %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"Nepodprte vrste datotek: %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"Datoteke ni mogoče najti: %1$s"</string>
+	<string name="bt_share_openfile_confirm">Nastavitev središča za storitve SMS je pravilna</string>
+</resources>

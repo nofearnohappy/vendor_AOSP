@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="alert_delete_multiple">將刪除這些檔案</string>
+    <string name="alert_delete_single">將刪除此檔案</string>
+    <string name="already_exists">%1$s 已存在。</string>
+    <string name="app_name">檔案管理</string>
+    <string name="cancel">取消</string>
+    <string name="copy">"複製"</string>
+    <string name="copy_deny">無複製權限。</string>
+    <string name="create_folder">新增資料夾</string>
+    <string name="cut">"剪下"</string>
+    <string name="cut_deny">無剪下權限。</string>
+    <string name="delete">刪除</string>
+    <string name="delete_deny">無刪除權限。</string>
+    <string name="delete_fail">刪除失敗。</string>
+    <string name="deleting">正在刪除</string>
+    <string name="deselect_all">取消全選</string>
+    <string name="details">明細</string>
+    <string name="done">"完成"</string>
+    <string name="empty_msg">（空資料夾）</string>
+    <string name="executable">可執行</string>
+    <string name="insufficient_memory">空間不足。</string>
+    <string name="invalid_empty_name">檔案或資料夾名稱不可空白。</string>
+    <string name="loading">正在載入\u2026</string>
+    <string name="modified_time">修改日期</string>
+    <string name="name">名稱</string>
+    <string name="new_folder">新資料夾</string>
+    <string name="no">"否"</string>
+    <string name="ok">確定</string>
+    <string name="paste">"貼上"</string>
+    <string name="pasting">正在貼上</string>
+    <string name="paste_fail">貼上失敗。</string>
+    <string name="paste_same_folder">目標資料夾與原資料夾相同，不可以貼上。</string>
+    <string name="readable">可讀</string>
+    <string name="rename">重新命名</string>
+    <string name="select_all">全選</string>
+    <string name="send_file">傳送檔案</string>
+    <string name="share">共用</string>
+    <string name="size">大小</string>
+    <string name="sort_by">排序方式</string>
+    <string name="wait">請稍後\u2026</string>
+    <string name="writable">可寫</string>
+    <string name="yes">是</string>
+    <string name="confirm_rename">確認重新命名</string>
+    <string name="msg_rename_ext">您正在變更副檔名，這會造成無法辨識檔案。您是否確定要進行？</string>
+    <string name="msg_unable_open_file">不支援這個檔案格式。</string>
+
+    <string-array name="sort_by">
+        <item>類型</item>
+        <item>名稱 (A - Z)</item>
+        <item>大小 (大 - 小)</item>
+        <item>日期 (新 - 舊)</item>
+    </string-array>
+
+    <string name="more">詳細說明</string>
+    <string name="selected">已選取</string>
+    <string name="invalid_char_prompt">您所輸入的字元有誤。</string>
+    <string name="search">搜尋</string>
+    <string name="sort">排序</string>
+    <string name="show_file">顯示隱藏檔案</string>
+    <string name="hide_file">將隱藏檔隱藏</string>
+    <string name="default_search_text">搜尋檔案</string>
+    <string name="search_text_empty">搜尋內容不可空白。</string>
+    <string name="free_space">可用空間</string>
+    <string name="total_space">總容量</string>
+    <string name="paste_sub_folder">無法貼到子資料夾。</string>
+    <string name="operation_fail">某些檔案操作失敗。</string>
+    <string name="search_files">搜尋檔案</string>
+    <string name="search_result">共搜尋到%2$d個\"%1$s\"</string>
+    <string name="unmounted">取消%1$s的掛接。</string>
+    <string name="create_hidden_file">檔案的名稱開頭若是\'.\'，則將予以隱藏。</string>
+    <string name="modify_hidden_file">檔案的名稱開頭若不是\'.\'，則不予以隱藏。</string>
+    <string name="file_name_too_long">輸入的名稱過長。</string>
+    <string name="some_paste_fail">某些貼上操作失敗。</string>
+    <string name="some_delete_fail">某些刪除操作失敗。</string>
+    <string name="search_empty">搜尋內容不應該空白。</string>
+    <string name="search_setting_description">本機檔案與資料夾</string>
+    <string name="path_not_exists">%1$s 不存在。</string>
+    <string name="change_mode">選取檔案或資料夾</string>
+    <string name="folder_beam_forbidden_title">無法進行資料夾的資料交換</string>
+    <string name="folder_beam_forbidden_message">不支援資料夾的資料交換。請選取多重檔案才能發送。</string>
+    <string name="drm_beam_forbidden_title">資料交換已禁止</string>
+    <string name="drm_beam_forbidden_message">受DRM（數位版權管理）保護的檔案無法進行資料交換。</string>
+
+</resources>

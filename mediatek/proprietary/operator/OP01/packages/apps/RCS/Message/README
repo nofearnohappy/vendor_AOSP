@@ -1,0 +1,24 @@
+It is Op01RCSMessagePlugin.apk for op01 operator's RCS(Rich Communication System) requirement.
+
+
+WHAT IT DOES?
+=============
+The apk Contains serveral base function for user, such as:
+1. Remote service: Run in independent process, communiction with MTK RCS Stack.
+2. Service API: UI can use this API to communication with remote service.
+3. UI part: ConversationList/MessageList extends, Favorite Message, Spam Message, Group Management and so on.
+
+HOW IT WAS BUILT?
+==================
+Only and awalys built in OP01 project.
+
+RCS feature option must open for project.
+
+
+HOW TO USE IT?
+==============
+
+It is a plugin of Mms application, it does not have independent UI entry from launcher, must entry from mms.
+
+The majority of source code were written by MediaTek.
+Various open source libraries are also used and contained in this folder.

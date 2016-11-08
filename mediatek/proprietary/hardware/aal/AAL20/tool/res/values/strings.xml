@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AALTool</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_als_calibration">AAL ALS Calibration</string>
+    <string name="title_activity_tuning">AAL Tuning</string>
+    <string name="power">PowerSaving</string>
+    <string name="lux">Lux</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="brightness">Brightness</string>
+    <string name="darkening_speed">Darkening Speed</string>
+    <string name="brightening_speed">Brightening Speed</string>
+    <string name="smartblstrength">Smart BL Strength</string>
+    <string name="smartblrange">Smart BL Range</string>
+    <string name="readability">Sunlight Readability</string>
+    <string name="lowbl_readability">Low BL Readability</string>
+    <string name="saved">Saved to file</string>
+</resources>

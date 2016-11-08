@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/topbackground"
+	android:orientation="horizontal" >
+
+	<fragment
+		android:id="@+id/fragpower"
+		android:name="com.dolby.ds1appUI.FragPower"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		tools:layout="@layout/fragpower" />
+
+	<ImageView
+		android:id="@+id/dsLogo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:layout_gravity="center_vertical|center_horizontal|center"
+		android:contentDescription="@string/dolbyDigitalPlus"
+		android:scaleType="centerInside"
+		android:src="@drawable/dslogo" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.mediatekdm.test"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <instrumentation
+        android:name="MediatekDMTestRunner"
+        android:targetPackage="com.mediatek.mediatekdm" >
+    </instrumentation>
+
+    <application android:label="MediatekDMTest" >
+        <uses-library android:name="android.test.runner" />
+        <service android:name=".server.MockServerService"
+            android:process=".server.MockServerService">
+            <intent-filter>
+                <action android:name="PAIRING_INFO_RETRIEVAL"/>
+                <action android:name="DM_ACCOUNT_RETRIEVAL"/>
+                <action android:name="PARAMETERS_RETRIEVAL"/>
+                <action android:name="PARAMETERS_RETRIEVAL_RETRY"/>
+                <action android:name="PARAMETERS_PROVISION"/>
+                <action android:name="PARAMETERS_PROVISION_RETRY"/>
+                <action android:name="FIRMWARE_UPDATE"/>
+                <action android:name="FIRMWARE_QUERY"/>
+                <action android:name="SOFTWARE_INSTALL"/>
+                <action android:name="SOFTWARE_LIST_RETRIEVAL"/>
+                <action android:name="LOCK_PHONE"/>
+                <action android:name="UNLOCK_PHONE"/>
+                <action android:name="WIPE_PHONE"/>
+                <action android:name="PROBE_PHONE"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

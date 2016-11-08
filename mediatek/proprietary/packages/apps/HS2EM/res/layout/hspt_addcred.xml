@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    >
+
+<!--sadfasdf-->
+<!--View			android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/-->
+<LinearLayout	android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="left">
+</LinearLayout>
+
+<View			android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/>
+
+<LinearLayout	android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="left">
+
+<TextView
+    android:layout_width="42dp"
+    android:layout_height="wrap_content"
+    android:text="@string/type"
+    android:textColor="#00ff00"
+    android:textSize="15dp"
+    android:width="80dp" />
+
+<RadioGroup		android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+<RadioButton	android:id="@+id/RadioButton_UName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unamepwd" android:textSize="15dp"/>
+<RadioButton	android:id="@+id/RadioButton_Sim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim" android:textSize="15dp"/>
+<RadioButton	android:id="@+id/RadioButton_Cert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cert" android:textSize="15dp"/>
+</RadioGroup>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_UserName"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/username"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+
+<EditText
+    android:id="@+id/EditText_UserName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_Password"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/password"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_Password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+<View		  android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_IMSI"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/imsi"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_IMSI"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+    
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_MNC"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/mnc"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_MNC"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_MCC"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/mcc"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_MCC"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_Realm"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/realm"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_Realm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>  
+    
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_FQDN"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/fqdn"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_FQDN"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_Simslot"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/simslot"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_SimSlot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<TextView
+    android:id="@+id/TextView_Priority"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/priority"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_Priority"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<TextView
+    android:id="@+id/TextView_RC"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/roamingconsortium"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_RC"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<TextView
+    android:id="@+id/TextView_Milenage"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/milenage"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_Milenage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<View		  android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_RootCA"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/rootca"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_RootCA"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<TextView
+    android:id="@+id/TextView_ClientCA"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:text="@string/clientca"
+    android:textSize="15dp"
+    android:width="220dp" />
+
+
+<EditText
+    android:id="@+id/EditText_ClientCA"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:width="500dp" />
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<Button       	android:id="@+id/Button_AddCred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/addcred" android:textSize="15dp"/>
+<Button       	android:id="@+id/Button_ClrScr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clearscr" android:textSize="15dp"/>
+</LinearLayout>
+
+<View			android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/>
+
+<TextView
+    android:id="@+id/TextView_Cmd"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/quickadddesc"
+    android:textSize="15dp" />
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<Button       	android:id="@+id/Button_QaddSimCred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qaddsimcred" android:textSize="15dp"/>
+<Button       	android:id="@+id/Button_QaddTtlsCred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qaddttlscred" android:textSize="15dp"/>
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

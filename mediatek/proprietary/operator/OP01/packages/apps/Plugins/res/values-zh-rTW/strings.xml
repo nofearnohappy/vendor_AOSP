@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- MMS String Start-->
+    <string name="exceed_subject_length_limitation">已達到最大長帿</string>
+    <string name="select_text">選取部分文字</string>
+    <string name="changeview">"切換模式"</string>
+    <string name="menu_sim_sms">"SIM卡簡訊"</string>
+    <string name="download_failed_due_to_full_memory">"記憶體已滿，訊息下載失敗。"</string>
+    <string name="multi_files">多個檔案</string>
+    <string name="menu_add_to_bookmark">添加至書籤</string>
+    <string name="sms_validity_period">簡訊有效期</string>
+    <string name="sms_validity_period_nosetting">不設定</string>
+    <string name="sms_validity_period_1hour">1小時</string>
+    <string name="sms_validity_period_6hours">6小時</string>
+    <string name="sms_validity_period_12hours">12小時</string>
+    <string name="sms_validity_period_1day">1天</string>
+    <string name="sms_validity_period_max">最大</string>
+    <string name="forward_from">轉發自：</string>
+    <string name="forward_byself">我</string>
+    <string name="sms_forward_setting">簡訊轉發設置</string>
+    <string name="sms_forward_setting_summary">轉發已接收簡訊時附帶附加寄件者訊息</string>
+
+    <!-- Title of storage status in settings -->
+    <string name="pref_title_storage_status">當前所占空間</string>
+    <string name="storage_dialog_mms">多媒體訊息：\u0020<xliff:g id="number">%s</xliff:g>條</string>
+    <string name="storage_dialog_sms">簡訊：\u0020<xliff:g id="number">%s</xliff:g>條</string>
+    <string name="storage_dialog_attachments">彩信附件：\u0020</string>
+    <string name="storage_dialog_database">資料庫：\u0020</string>
+    <string name="storage_dialog_available_space">可用空間：\u0020</string>
+
+    <!-- MMS enable to send delivery report -->
+    <string name="pref_title_mms_enable_to_send_delivery_reports">允許返回發送報告</string>
+    <string name="pref_summary_mms_enable_to_send_delivery_reports">每次收到訊息後，允許自動返回發送報告</string>
+    <string name="mms_sim_select_auto">自動</string>
+
+    <string name="add_top_slide">"新增投影片(頂部)"</string>
+    <string name="add_bottom_slide">"新增投影片(底部)"</string>
+
+    <string name="attach_image">圖片</string>
+    <string name="attach_take_photo">擷取圖片</string>
+    <string name="attach_video">影片</string>
+    <string name="attach_record_video">擷取影片</string>
+    <string name="attach_sound">音訊</string>
+    <string name="attach_record_sound">錄製音訊</string>
+    <string name="attach_slideshow">投影片</string>
+    <string name="attach_vcard">聯絡人</string>
+    <string name="attach_vcalendar">Google 日曆</string>
+    <!-- MMS String End-->
+
+    <!-- Browser String Start-->
+    <string name="add_new_bookmark">"新增書籤"</string>
+    <string name="new_folder">"新資料夾"</string>
+    <string name="clear_history">"清除記錄"</string>
+    <string name="make_primary">以後不再提示</string>
+    <string name="dialog_title">更改數據連接</string>
+    <string name="wifi_failover_gprs_content">WLAN不可用，是否使用移動網？</string>
+    <string name="download_pending">"正在開始下載…"</string>
+    <string name="download_pending_with_file_size">"正在開始下載，文件大小："</string>
+    <string name="max_input_browser_search">您的輸入已經達到最大上限。</string>  
+    <string name="max_input_browser_search_title">輸入字元上限</string>  
+    <string name="max_input_browser_search_button">確定</string>  
+    <string name="site_navigation">"網站導覽"</string>  
+    <string name="clear_history_dlg">"刪除瀏覽器的瀏覽記錄？"</string>
+    <string name="pref_default_font_family">"字體"</string>  
+    <string name="pref_default_font_family_dialogtitle">"字體"</string>  
+    <string name="pref_extras_set_download_directory_title">設定下載路徑</string>  
+    <string name="pref_content_landscape_only">"僅以水平模式顯示"</string>
+    <string name="pref_content_landscape_only_summary">"僅以橫向寬螢幕瀏覽模式顯示網頁"</string>
+    <!-- Browser String End-->
+  <!-- DownloadManager String Start-->
+  <string name="notification_download_complete" msgid="5443563299253103667">"下載完成。"</string>
+  <string name="notification_download_complete_op01">文件已下載至：</string>
+  <!-- DownloadManager String Start-->
+
+    <!--Wifi Settings String start-->
+    <string name="wifi_security_cmcc">加密方式</string>  
+    <string name="proxy_exclusionlist_label_cmcc">繞行代理</string>  
+    <string name="wifi_priority_label">優先順序</string>  
+    <string name="status_unavailable">無法使用</string>  
+    <string name="wifi_gateway">閘道</string>
+    <string name="wifi_network_netmask">"網路遮罩"</string>
+    <string name="wifi_connect_ap_title">網絡自動連線</string>
+    <string name="wifi_connect_ap_summary">開啟 Wi-Fi 時自動連線到最近使用過的 AP</string>
+    <string name="wifi_connect_type_title">設置網絡連接方法</string>
+    <string name="wifi_signal_found_msg">當前 Wi-Fi 連線信號較弱,是否切換到其他 Wi-Fi 網絡?</string>
+    <string name="wifi_priority_type_title">手動設定 AP 優先順序</string>  
+    <string name="wifi_priority_type_summary">可手動設定各 AP 的優先順序</string>  
+    <string name="wifi_priority_settings_title">AP 優先順序設定</string>  
+    <string name="wifi_priority_settings_summary">按一下即可設定各 AP 的優先順序</string>  
+    <string name="wifi_priority_changed">原優先级= 
+        <xliff:g id="old_value">%s</xliff:g>,新設定= 
+        <xliff:g id="new_value">%s</xliff:g> 
+    </string>  
+    <string name="wifi_priority_settings_label">優先順序設定</string>  
+    <string name="wifi_priority_missing_app">"找不到可以處理這個動作的應用程式。"</string>
+    <string name="wifi_configured_ap_list">已記憶的 AP 清單</string>  
+
+    <string name="confirm_title">確認</string>  
+    <string name="msg_wlan_signal_found">發现 WLAN 信号 %s, 您是否要使用该 WLAN 網路？ 使用该网络将部分中断目前的数据連線。</string> 
+    <string name="msg_wlan_signal_found_manul">發现 WLAN 信号, 是否要使用 WLAN 網路？</string>
+    <string name="gemini_default_sim_auto">自動</string>
+    <string name="wifi_settings" msgid="29722149822540994">"Wi‑Fi"</string>
+    <string name="wifi_menu_disconnect">中斷網路連線</string>
+    <string name="flight_mode_title">啟用飛航模式</string>
+    <string name="msg_flight_mode_notify">若要在飛航模式下使用WLAN等連接性功能，請在設置或通知面板中將其開啟。</string>
+    <string name="mark_no_remind">下次不再提醒</string>
+    <string name="setting_remind_title">提示</string>
+    <string name="msg_wifi_hotspot_notify">資料連結暫未開啟。開啟后可讓便攜式WLAN熱點有效的工作。</string>
+    <string name="wifi_disconnect">中斷連線</string>
+    <string name="wifi_reminder_frequency_title">提示對話框彈出頻次</string>
+    <string name="wifi_cmcc_costs_title">WLAN費用</string>
+    <string name="wifi_cmcc_costs_msg">已連接中國移動WLAN，繼續使用有可能產生WLAN流量費用。</string>
+    <string name="wifi_count_down_sec">(<xliff:g id="time_sec">%1$s</xliff:g>秒后對話框自動消失。)</string>
+    <!--Wifi Settings String End-->
+
+    <!-- Contact String Start -->
+    <string name="look_simstorage">查看SIM卡容量</string>
+    <string name="dlg_simstorage_content">電話號碼本存儲容量<xliff:g id="items">%d</xliff:g>條，已用電話本<xliff:g id="items">%d</xliff:g>條。</string>
+    <string name="multichoice_contacts_limit">可選取的聯絡人在<xliff:g id="count">%s</xliff:g>名以內</string>
+    <string name="menu_blacklist">黑名單</string>
+    <string name="groupsLabel">"群組"</string>
+    <!-- Contact String End -->
+
+	<!-- Camera white balance start -->
+	<string name="pref_camera_whitebalance_entry_auto" msgid="6580665476983469293">"自動"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="8856667786449549938">"白熾燈"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="2534757270149561027">"晴天"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="2435332872847454032">"日光燈"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3531996716997959326">"陰天"</string>
+    <string name="pref_camera_whitebalance_entry_twilight" msgid="2257942426397244556">"微光"</string>
+    <string name="pref_camera_whitebalance_entry_shade" msgid="4685730287406277702">"陰影"</string>
+    <string name="pref_camera_whitebalance_entry_warm_fluorescent" msgid="2827098617308870248">"暖色螢光燈"</string>
+    <string name="pref_camera_whitebalance_entry_tungsten">"鎢絲燈"</string>
+	<string name="pref_camera_scene_entry_normal">"適中"</string>
+	<!-- Camera white balance end -->
+
+    <!--SystemUI String start-->
+    <string name="accessibility_no_phone" msgid="4894708937052611281">"沒有電話訊號。"</string>
+    <string name="accessibility_phone_one_bar" msgid="687699278132664115">"電話訊號強度一格。"</string>
+    <string name="accessibility_phone_two_bars" msgid="8384905382804815201">"電話訊號強度兩格。"</string>
+    <string name="accessibility_phone_three_bars" msgid="8521904843919971885">"電話訊號強度三格。"</string>
+    <string name="accessibility_phone_four_bars">"電話訊號強度四格。"</string>
+    <string name="accessibility_phone_signal_full" msgid="6471834868580757898">"電話訊號滿格。"</string>
+    <string name="zen_no_interruptions_with_warning">零打擾（不包括鬧鐘提醒）</string>
+    <!--SystemUI String end-->
+
+    <!--Music String start-->
+    <string name="add_file">"加入文檔"</string>
+    <string name="non_audio_file">"添加失敗，所選為非音頻文件。"</string>
+    <string name="clear_playlist">"清除播放清單"</string>    
+    <!--Music String End-->
+    <!--Storage Settings String start-->
+    <string name="SD_ready_title">"SD卡已準備好"</string>
+    <string name="default_storage_path_change_msg">"是否需要修改默認存儲器?"</string>
+    <!--Storage String End-->
+    
+    <!-- Phone String start -->
+    <string name="call_video_call">視訊通話</string>
+    <string name="vt_start_time_from">從</string>
+    <!-- Phone String end -->
+
+    <!--CMCC DM setting String begin-->
+    <string name="cmcc_dm_settings_title">"增強售後服務權限"</string>
+    <string name="cmcc_dm_settings_enable_summary">"允許開機自啓動"</string>
+    <string name="cmcc_dm_settings_disable_summary">"禁止開機自啓動"</string>
+    <!--CMCC DM setting String End-->
+
+    <!-- Change data connection -->
+    <string name="change_data_conn_title">切換行動網路</string>
+    <string name="change_data_conn_message">行動網路無法使用，是否切換到</string>
+    <string name="change_data_conn_progress_message">"請稍候…"</string>
+    <string name="change_data_conn_alert_volte">"包括VoLTE在內的4G業務將不可用。是否繼續？"</string>
+    <string name="change_data_conn_alert_rcs">"包括RCS在內的4G業務將不可用。是否繼續？"</string>
+    <string name="change_data_conn_alert">"包括VoLTE和RCS在內的4G業務將不可用。是否繼續？"</string>
+    <string name="data_switch_started">"正在切換行動數據連線 SIM 卡，這可能需要一點時間..."</string>
+
+    <string name="privacy_settings">重設</string>
+    <string name="configed_access_points">信任接入點</string>
+    <string name="new_access_points">未知接入點</string>
+    <!-- call reject -->
+    <string name="menu_select_all">"全選"</string>
+    <string name="menu_select_none">"全部取消選取"</string>
+    <string name="call_reject_title">拒絕來電</string>
+    <string name="call_reject_sum">管理直接拒絕來電模式与清單</string>
+    <string name="call_reject_mode_title">來電直接拒絕模式</string>
+    <string name="call_all_numbers">來電直接拒絕模式: 拒絕所有來電</string>
+    <string name="reject_list_full">自動拒絕個數已達上限。</string>
+    <string-array name="call_reject_mode_entries">
+        <item>關閉拒絕來電</item>
+        <item>拒絕所有來電</item>
+        <item>使用直接拒絕清單</item>
+    </string-array>
+    <string-array name="call_reject_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="call_reject_list_title">通話直接拒絕列表</string>
+    <string name="call_reject_list_sum">設定通話直接拒絕列表</string>
+    <string name="call_reject_list_delete">删除</string>
+    <string name="call_reject_list_add">新增</string>
+    <string name="add_call_reject_number">新增號碼</string>
+    <string name="select_from">選取</string>
+    <string name="select_all">全選</string>
+    <string name="select_clear">全部取消選取</string>
+    <string name="select_trash">確定</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> 已選取</string>
+    <string-array name="call_reject_dialog_array">
+        <item>匯入聯絡人</item>
+        <item>匯入通話記錄</item>
+    </string-array>
+    <string name="call_reject_please_wait">請等待\u2026</string>
+    <string name="call_reject_no_name">無姓名</string>
+    <string name="save">"儲存"</string>
+    <string name="cancel">"取消"</string>
+    <!--call reject String End--> 
+    
+    <!-- Agps Settings --> 
+    <string name="agps_settings_title">A-GPS 設定</string>  
+    <string name="gps_settings_title">GPS 設定</string>
+    <string name="location_settings_title">"位置資訊存取"</string> 
+    <string name="location_network_based">"Wi-Fi 和行動網路位置"</string>
+    <string name="location_neighborhood_level">"允許應用程式使用 Google 的定位服務加速判斷您的約略位置。系統會收集匿名的位置資料並傳送給 Google。"</string>
+    <string name="location_access_title">"存取我的位置資訊"</string>
+    <string name="location_access_summary">"允許獲得您許可的應用程式使用您的位置資訊"</string>
+    <string name="location_sources_heading">"位置資訊來源"</string>
+  	<string name="location_gps">"GPS 衛星定位"</string>
+    <string name="Network_Roaming_dialog_title">注意</string>  
+
+    <string name="agps_OK">確定</string>  
+    <string name="agps_enable_confirm_title">A-GPS 開啟確認</string>  
+    <string name="agps_enable_confirm">使用 A-GPS 將產生數據流量, 您確定要打開 A-GPS 功能嗎?</string>  
+    <string name="agps_enable_confirm_allow">繼續</string>  
+    <string name="agps_enable_confirm_deny">取消</string>  
+    <string name="agps_settings_enable_on">GPS可以透過無線網路取得輔助資料以加速定位時間</string>  
+    <string name="agps_settings_enable_off">使用輔助資料來加速GPS定位時間</string>  
+    <string name="agps_settings_eng_enable">A-GPS 設定</string>  
+    <string name="agps_settings_eng_summary">修改A-GPS設定</string>
+    <string name="Network_Initiate">網路定位請求</string>  
+    <string name="Network_Initiate_Summary_on">允許網路請求所在位置</string>  
+    <string name="Network_Initiate_Summary_off">拒絕網路請求所在位置</string>  
+    <string name="Network_Used">使用網路</string>
+    <string name="MobileNetwork_Category">行動網路</string>  
+    <string name="AgpsHelp_Category">小幫手</string>  
+    <string name="about_agps_title">關於 A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (輔助 GPS) 乃是改善啟動效能和 GPS 衛星首次定位時間 (TTFF) 的系統。\n\t 具備 A-GPS 功能的裝置可透過行動網路資料連線來連接位置伺服器，並取得輔助資料。 \n\t 請注意，網路漫遊時，資料流量的費用較為昂貴。請聯絡您的通訊業者瞭解詳情。</string>  
+    <string name="Network_Local_and_Roaming_Summary">在主網路及漫遊網路中都使用 A-GPS</string>  
+    <string name="Network_Only_Local_Summary">僅在主網路中使用 A-GPS</string>  
+    <string name="Network_Roaming_dialog_content">在漫遊網路下使用 A-GPS 可能會產生額外的通信費用.</string>
+     <!-- Add for LTE TDD LTE Begin-->
+    <string-array name="lte_network_mode_choices">
+        <item>4G/3G/2G(自動)</item>
+        <item>3G/2G(自動)</item>
+    </string-array>
+    <!-- Add for LTE TDD LTE End-->
+
+    <!--Sound Recorder String Start-->
+    <string name="recording_format_high">高</string>  
+    <string name="recording_format_mid">中</string>  
+    <string name="recording_format_low">低</string>
+    <!--Sound Recorder String End-->
+
+    <string name="call_log_auto_rejected_label">直接阻擋來電</string>
+    
+    <!--Video Player String Start-->
+    <string name="bookmark_add">"添加書簽"</string>
+    <string name="bookmark_display">"顯示書簽"</string>
+    <string name="media_detail">"媒體詳情"</string>
+    <string name="input_url">"輸入 URL"</string>
+    <string name="streaming_settings">"串流設定"</string>
+    <string name="stereo">"立體聲"</string>
+    <string name="single_track">"單聲道"</string>
+    <string name="stop">"停止"</string>
+    <string name="loop">"循環"</string>
+    <string name="single">"單次"</string>
+    <string name="server_timeout_title">"伺服器逾時"</string>
+    <string name="server_timeout_message">"是否重新連線伺服器並播放視訊？"</string>
+    <string name="resume_playing_resume">"繼續播放"</string>
+    <string name="proxy_host">主機</string>
+    <string name="proxy_port">"通訊埠"</string>
+    <string name="apn_settings">"存取點名稱"</string>
+    <string name="rtsp_proxy_settings">"設定及管理 RTSP 代理設定"</string>
+    <string name="rtsp_proxy_settings_summary">"設定及管理 RTSP 代理設定"</string>
+    <string name="enable_rtsp_proxy">"啟用 RTSP Proxy"</string>
+    <string name="enable_rtsp_proxy_summary">"啟用/停用 RTSP proxy"</string>
+    <string name="http_proxy_settings">"HTTP Proxy 設定"</string>
+    <string name="http_proxy_settings_summary">"設定及管理 HTTP 代理設定"</string>
+    <string name="enable_http_proxy">"啟用 HTTP Proxy"</string>
+    <string name="enable_http_proxy_summary">"啟用/停用 HTTP 代理"</string>
+    <string name="apn_settings_summary">"目前的 SIM 卡：%1$s\n目前的 APN：%2$s"</string>
+    <string name="apn_settings_not_valid">"SIM 卡數據連接已關閉，無法設定 APN。"</string>
+    <string name="udp_port_settings">"RTP/RTCP 連接埠範圍"</string>
+    <string name="udp_port_settings_summary">"設定連接埠數量上限和下限"</string>
+    <string name="max_udp_port">"連接埠數量上限"</string>
+    <string name="min_udp_port">"設定連接埠數量上限和下限"</string>
+    <string name="http_buffer_size">"HTTP緩衝大小"</string>
+    <string name="http_buffer_size_summary">"設定 HTTP 串流暫存區大小"</string>
+    <string name="http_buffer_size_text">"目前的 HTTP 暫存大小：%1$d(s)"</string>
+    <string name="rtsp_buffer_size">"RTSP緩衝大小"</string>
+    <string name="rtsp_buffer_size_summary">"設定 RTSP 串流暫存區大小"</string>
+    <string name="rtsp_buffer_size_text">"目前的 RTSP 暫存大小：%1$d(s)"</string>
+    <string name="buffer_size_tip">"有效的範圍：%1$d - %2$d 秒"</string>
+    <string name="settings" msgid="1534847740615665736">"設定"</string>
+    <string name="wifi_network_no_need_apn">WIFI網路，無需設置存取點</string>
+    <string name="apn_settings_no_default_apn">無</string>
+    <!--Video Player String End-->
+
+    <!-- Speed Dial String -->
+    <string name="sd_add">新增</string>
+    <string name="voicemail">"語音留言"</string>
+    <string name="reselect_number">"此號碼已指定速撥鍵，請選擇其他號碼。"</string>
+    <string name="call_speed_dial">"此號碼格式不支持，請選擇其他號碼。"</string>
+    <string name="call_speed_dial">數字快速鍵</string>
+    <string name="dialog_no_speed_dial_number_message">無快速撥號條目，是否現在設置？</string>
+    <string name="add_speed_dial">輕觸即可新增快速撥號</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) 已新增為快速撥號 <xliff:g id="key">%3$s</xliff:g></string>
+    <string name="speed_dial_added2"><xliff:g id="contact_name">%1$s</xliff:g> 已新增為快速撥號 <xliff:g id="key">%2$s</xliff:g></string>
+    <string name="remove_speed_dial">移除</string>
+    <string name="remove_sd_confirm_1">您確定要將 <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) 從快速撥號 <xliff:g id="key">%3$s</xliff:g> 中移除?</string>
+    <string name="remove_sd_confirm_2">您確定要將 <xliff:g id="contact_name">%1$s</xliff:g> 從快速撥號 <xliff:g id="key">%2$s</xliff:g> 中移除?</string>
+    <string name="contact_list_loading">"載入中…"</string>
+
+    <string name="time_from">從 </string>
+    <string name="time_to">至</string>
+    <string name="time_slot">時間轉接</string>
+    <string name="time_slot_hint">時間不能相同</string>
+
+    <!--Gallery String Start-->
+    <string name="reach_max_select_num_hint">"最多只能選擇%1$d項"</string>
+    <string name="select_ok">確定</string>
+    <!--Gallery String End-->
+
+	<!--add or remove black list menu Start-->
+    <string name="add_black_list">添加到黑名單</string>
+    <string name="remove_black_list">從黑名單移除</string>
+    <!--add or remove black list menu End-->
+    
+    <!--add default_data_switch_err_msg1 Start-->
+    <string name="default_data_switch_err_msg1">通話中無法切換到喜好的 SIM 卡進行數據通訊。</string>
+    <!--add default_data_switch_err_msg1 End-->
+
+    <!--Application Settings String Start-->
+    <string name="launch_main_label">啟動應用程式</string>
+    <string name="launch_main">用主活動啟動應用程式</string>
+    <!--Application Settings String End-->
+
+</resources>

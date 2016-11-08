@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.rcs.contacts">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+    <application
+        android:icon="@drawable/icon_profile_default"
+        android:label="@string/app_name">
+
+        <activity
+            android:name="cmcc.barcode.lib.iot.barcode.decode.CaptureActivity"
+            android:label="@string/qrcode_card"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+            <intent-filter>
+                <action android:name="android.intent.action.rcs.contacts.qrcode.SCAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:launchMode="singleTop"
+            android:label="@string/group_list_title"
+            android:name="com.mediatek.rcs.contacts.list.GroupListActivity"
+            android:theme="@style/ContactPickerTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.rcs.contacts.GroupListActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.rcs.contacts.GroupMemberActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:launchMode="singleTop"
+            android:label="@string/group_chat_title"
+            android:name="com.mediatek.rcs.contacts.list.GroupChatActivity"
+            android:theme="@style/ContactPickerTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.rcs.contacts.GroupChatActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:configChanges="mcc|mnc|locale|orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:label="@string/card_preview"
+            android:name="com.mediatek.rcs.contacts.vcard.VCardViewActivity"
+            android:theme="@style/ContactPickerTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.rcs.contacts.VCardViewActivity" />
+                <data android:mimeType="text/directory" />
+                <data android:mimeType="text/vcard" />
+                <data android:mimeType="text/x-vcard" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".util.RequestPermissionsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ContactPickerTheme"
+            android:exported="false"/>
+
+        <activity
+            android:name=".profileapp.ProfileActivity"
+            android:configChanges="mcc|mnc|locale|orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.view.profile"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".profileapp.ProfileDetailActivity"
+            android:configChanges="mcc|mnc|locale|orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_profile_detail"
+            android:windowSoftInputMode="stateUnspecified"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".profileapp.ProfileQRCodeActivity"
+            android:label="@string/profile_info_qr_code"
+            android:windowSoftInputMode="stateUnspecified"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <receiver android:name=".ContactsReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="org.gsma.joyn.Intents.Client.SERVICE_UP"/>
+                <action android:name="android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <provider android:name = "android.support.v4.content.FileProvider"
+            android:authorities="com.mediatek.profileapp"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>
+
+        <service android:name="com.mediatek.rcs.contacts.profileservice.ProfileServiceManager"
+    	      android:process=":remote"
+    	      android:exported="true">
+    	      <intent-filter>
+                <action android:name="com.mediatek.rcs.contacts.ACTION_BIND_PROFILESERVICE"/>
+            </intent-filter>
+    	  </service>
+        <provider android:name=".provider.ProfileProvider"
+    	      android:authorities="com.cmcc.ccs.profile"
+    	      android:exported="true"/>
+
+    	<!-- network contacts backup restore start -->
+    	<activity
+            android:name=".networkcontacts.ui.HomeActivity"
+            android:label="@string/backup_restore_lable"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.networkbackuprestore" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".networkcontacts.ui.SettingsActicity"
+            android:label="@string/backup_restore_lable"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".networkcontacts.ui.AutoRestoreActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:label="@string/backup_restore_lable" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.mediatek.rcs.firstrestore" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".networkcontacts.SyncService">
+        </service>
+        <receiver android:name=".networkcontacts.AutoSyncReceiver">
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.autobackup" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="com.mediatek.intent.rcs.stack.LaunchService" />
+                <action android:name="com.mediatek.intent.rcs.stack.StopService" />
+            </intent-filter>
+        </receiver>
+        <!-- network contacts backup restore end -->
+    	<receiver android:name=".profileservice.ProfileServiceReceiver">
+            <intent-filter>
+                <action android:name="com.mediatek.rcs.contacts.INTENT_RCS_LOGIN" />
+                <action android:name="org.gsma.joyn.action.VIEW_SETTINGS" />
+                <action android:name="com.mediatek.intent.rcs.stack.StopService" />
+                <action android:name="com.orangelabs.rcs.CONFIGURATION_STATUS_TO_APP" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/compose_device_image"
+        android:layout_width="144dp"
+        android:layout_height="158dp"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/compose_background_image"
+        android:layout_width="149dp"
+        android:layout_height="164dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:src="@drawable/image_alerting"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/compose_state_image"
+        android:layout_width="49dp"
+        android:layout_height="23dp"
+        android:layout_alignLeft="@id/compose_device_image"
+        android:layout_alignTop="@id/compose_device_image"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/compose_background_image" >
+
+        <ImageView
+            android:id="@+id/device_name_image_bk"
+            android:layout_width="140dp"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/text_bg" />
+
+        <TextView
+            android:id="@+id/device_name_text_view"
+            android:layout_width="140dp"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

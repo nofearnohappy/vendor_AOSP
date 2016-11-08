@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_background"
+    android:orientation="vertical" >
+
+    <com.hesine.nmsg.ui.HeaderView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.hesine.nmsg.ui.HeaderView>
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+           
+                <LinearLayout
+                    android:id="@+id/account_list_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/top_divider"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3dip"
+                        android:background="@color/light_grey" />
+
+                    <ListView
+                        android:id="@+id/accountList"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:divider="@color/light_grey"
+                        android:layout_weight="1"
+                        android:dividerHeight="0.3dip" />
+
+                    <TextView
+                        android:id="@+id/account_list_layout_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3dip"
+                        android:background="@color/light_grey" />
+
+                    <TextView
+                        android:id="@+id/nmsg_setting_intro"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="24dip"
+                        android:paddingRight="24dip"
+                        android:paddingTop="12dip"
+                        android:paddingBottom="12dip"
+                        android:text="@string/nmsg_setting_intro"
+                        android:textColor="#999999"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/nmsg_setting_noaccount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="180dip"
+                        android:gravity="center"
+                        android:text="@string/nmsg_setting_noaccount"
+                        android:textColor="#cccccc"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/network_setting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/top_divider"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3dip"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/light_grey" />
+
+                    <TextView
+                        android:id="@+id/setting_switch_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/setting_list_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/top_divider"
+                        android:layout_marginLeft="@dimen/setting_padding_left_right"
+                        android:gravity="center_vertical"
+                        android:text="@string/nmsg_receive_wifi_only"
+                        android:textColor="@color/setting_color"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <CheckBox
+                        android:id="@+id/setting_account_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/setting_padding_left_right"
+                        android:button="@drawable/button_checkbox" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.3dip"
+                        android:layout_below="@+id/setting_switch_text"
+                        android:background="@color/light_grey" />
+                </RelativeLayout>
+                
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+[
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/AuthType", objectValue : "Digest", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/Realm", objectValue : "authenticatorY.operatorX.com", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/UserName", objectValue : "Alice", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/UserPwd", objectValue : "secretxyz", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/NatUrlFmt", objectValue : "aaa", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/IntUrlFmt", objectValue : "aaa", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/QValue", objectValue : "0.5", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/MaxSizeImageShare", objectValue : "123", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/MaxTimeVideoShare", objectValue : "123", objectType : "int", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/VoiceCalls", objectValue : "aaa", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/Chat", objectValue : "aaa", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/SendSms", objectValue : "aaa", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/FileTransfer", objectValue : "aaa", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/VideoShare", objectValue : "aaa", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/Ext/RCS/SecondaryDevicePar/ImageShare", objectValue : "aaa", objectType : "chr", newNode : "" },
+]

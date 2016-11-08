@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Dịch vụ khách hàng</string>  
+    <string name="hotLine">Đường dây nóng khách hàng China Unicom</string>
+    <string name="app_not_found">"Không tìm thấy ứng dụng nào để xử lý tác vụ này."</string>
+</resources>

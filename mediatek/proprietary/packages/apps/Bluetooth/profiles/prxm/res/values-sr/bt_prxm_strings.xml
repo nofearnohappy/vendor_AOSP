@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">Без аларма</string>
+	<string name="bt_prxm_alert_level_mild">Благ аларм</string>
+	<string name="bt_prxm_alert_level_high">Јак аларм</string>
+	<string name="bt_prxm_device_mgmt_label">Близина Bluetooth-а</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">Не може да ради без Bluetooth подршке</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">Не може да ради ако Bluetooth није укључен</string>
+	<string name="bt_prxm_device_mgmt_title">Надзор за близину Bluetooth-а</string>
+	<string name="bt_prxm_device_mgmt_add_device">Додај уређај</string>
+	<string name="bt_prxm_device_mgmt_remove_device">Уклони уређај</string>
+	<string name="bt_prxm_device_mgmt_device_list">Уређаји у близини</string>
+	<string name="bt_prxm_device_pref_device_setting">Губитак везе: %1$s / Губитак путање: %2$s</string>
+	<string name="bt_prxm_devs_title">Подешавања за близину</string>
+	<string name="bt_prxm_devs_connect_title">"Повежи"</string>
+	<string name="bt_prxm_devs_connect_summary">Повежи за уређај у близини</string>
+	<string name="bt_prxm_devs_connect_failed">Повезивање неуспешно</string>
+	<string name="bt_prxm_devs_disconnect_failed">Искључивање неуспешно</string>
+	<string name="bt_prxm_find_device_title">Пронађи уређај</string>
+	<string name="bt_prxm_find_device_summary">Пронађи уређај покретањем његовог упозорења</string>
+	<string name="bt_prxm_find_device_cancel_summary">Кликните да бисте отказали упозорење на циљном уређају</string>
+	<string name="bt_prxm_devs_link_loss_group_title">Губитак везе</string>
+	<string name="bt_prxm_devs_link_loss_level_title">Ниво аларма за губитак везе</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">Подесите ниво за аларм</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">Подешавање нивоа аларма за губитак везе неуспешно</string>
+	<string name="bt_prxm_devs_path_loss_group_title">Губитак путање</string>
+	<string name="bt_prxm_devs_path_loss_level_title">Ниво аларма за губитак путање</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">Подесите ниво за аларм</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">Праг за губитак путање</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">Подесите праг јачине сигнала</string>
+	<string name="bt_prxm_plt_current_rssi">Тренутна процена удаљености</string>
+	<string name="bt_prxm_plt_using_current_rssi">Користите тренутну процену удаљености за праг аларма за губитак путање</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">Праг за губитак путање</string>
+</resources>

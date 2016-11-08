@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">Sense alerta</string>
+	<string name="bt_prxm_alert_level_mild">Alerta mitjana</string>
+	<string name="bt_prxm_alert_level_high">Alerta elevada</string>
+	<string name="bt_prxm_device_mgmt_label">Proximitat Bluetooth</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">No es pot treballar sense compatibilitat Bluetooth</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">No es pot treballar sense el Bluetooth activat</string>
+	<string name="bt_prxm_device_mgmt_title">Monitor de proximitat Bluetooth</string>
+	<string name="bt_prxm_device_mgmt_add_device">Afegeix dispositiu</string>
+	<string name="bt_prxm_device_mgmt_remove_device">Lleva el dispositiu</string>
+	<string name="bt_prxm_device_mgmt_device_list">Dispositius de proximitat</string>
+	<string name="bt_prxm_device_pref_device_setting">"Pèrdua d'enllaç: %1$s / Pèrdua de ruta: %2$s"</string>
+	<string name="bt_prxm_devs_title">Configuració de proximitat</string>
+	<string name="bt_prxm_devs_connect_title">"Connecta"</string>
+	<string name="bt_prxm_devs_connect_summary">Connecta a dispositiu de proximitat</string>
+	<string name="bt_prxm_devs_connect_failed">Connexió fallada</string>
+	<string name="bt_prxm_devs_disconnect_failed">Desconnexió fallada</string>
+	<string name="bt_prxm_find_device_title">Cerca dispositiu</string>
+	<string name="bt_prxm_find_device_summary">Cerca aquest dispositiu activant-ne l’alerta</string>
+	<string name="bt_prxm_find_device_cancel_summary">Fes clic per cancel·lar l’alerta al dispositiu de destí</string>
+	<string name="bt_prxm_devs_link_loss_group_title">"Pèrdua d'enllaç"</string>
+	<string name="bt_prxm_devs_link_loss_level_title">"Nivell d'alerta de pèrdua d'enllaç"</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">"Estableix nivell d'alerta"</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">"Errada en establir el nivell d'alerta de pèrdua d'enllaç"</string>
+	<string name="bt_prxm_devs_path_loss_group_title">Pèrdua de ruta</string>
+	<string name="bt_prxm_devs_path_loss_level_title">"Nivell d'alerta de pèrdua de ruta"</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">"Estableix nivell d'alerta"</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">Llindar de pèrdua de ruta</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">Estableix llindar de força de senyal</string>
+	<string name="bt_prxm_plt_current_rssi">Càlcul actual de distància</string>
+	<string name="bt_prxm_plt_using_current_rssi">"Fes servir el càlcul actual de distància per al llindar d'alerta de la pèrdua de ruta"</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">Llindar de pèrdua de ruta</string>
+</resources>

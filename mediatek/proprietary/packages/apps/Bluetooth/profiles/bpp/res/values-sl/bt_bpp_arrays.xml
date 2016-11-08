@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Navpično"</item>
+		<item>Zaganjalnik ležečega prikaza</item>
+		<item>"vzvratni portret"</item>
+		<item>"vzvratna pokrajina"</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Enostransko"</item>
+		<item>"Dvostransko z dolgim robom"</item>
+		<item>"Dvostransko s kratkim robom"</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Običajna"</item>
+		<item>Osnutki</item>
+		<item>"Visoka"</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+		<item>Neznano ime izvajalca</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"brez napak"</item>
+		<item>"Ustvarjanje datoteke vCard ni uspelo"</item>
+		<item>"Nepodprta oblika zapisa slike"</item>
+	</string-array>
+</resources>

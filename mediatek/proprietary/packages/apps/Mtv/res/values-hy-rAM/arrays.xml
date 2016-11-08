@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<resources>    
+    <string-array name="supported_locations">
+		<item>Ինքնաշխատ ընտրություն</item>  
+        <item>Մայրցամաքային Չինաստան</item>
+        <item>Թայվան</item>
+        <item>Չինական Շենժեն</item>
+        <item>Չինական Հոնկոնգ</item>
+        <item>Աֆղանստան</item>
+        <item>Արգենտինա</item>
+        <item>"Ավստրալիա"</item>
+        <item>Բրազիլիա</item>
+        <item>Մյանմա</item>
+        <item>Կամբոջա</item>
+        <item>Կանադա</item>
+        <item>Չիլի</item>
+        <item>Արևելյան Եվրոպա</item>
+        <item>Արևմտյան Եվրոպա</item>
+        <item>Ֆրանսիա</item>
+        <item>Ֆրանսիական գաղութներ</item>
+        <item>Հնդկաստան</item>
+        <item>Ինդոնեզիա</item>
+        <item>Իրան</item>
+        <item>Իտալիա</item>
+        <item>Ճապոնիա</item>
+        <item>Կորեա</item>
+        <item>Լաոս</item>
+        <item>Մալայզիա</item>
+        <item>Մեքսիկա</item>
+        <item>Նոր Զելանդիա</item>
+        <item>Պակիստան</item>
+        <item>Պարագվայ</item>
+        <item>Ֆիլիպիններ</item>
+        <item>Պորտուգալիա</item>
+        <item>Ռուսաստան</item>
+        <item>"Սինգապուր"</item>
+        <item>Հարավային Աֆրիկա</item>
+        <item>Իսպանիա</item>
+        <item>Թաիլանդ</item>
+        <item>Թուրքիա</item>
+        <item>Արաբական Միացյալ Էմիրություններ</item>
+        <item>Միացյալ Թագավորություն</item>
+        <item>ԱՄՆ</item>
+        <item>Ուրուգվայ</item>
+        <item>Վենեսուելա</item>
+        <item>Վիետնամ</item>
+        <item>Իռլանդիա</item>
+        <item>Մարոկկո</item>      
+</string-array>
+<string-array name="AudioFormats">
+<item>Մոնո</item>
+<item>Ստերեո</item>
+<item>SAP</item>
+<item>Երկրորդական</item>
+<item>Հիմնական երկրորդական</item>
+<item>"Հիմնական"</item>
+<item>Երկակի1</item>
+<item>Երկակի2</item>
+<item>NICAM մոնո</item>
+<item>NICAM ստերեո</item>
+<item>NICAM երկակի1</item>
+<item>NICAM երկակի1</item>
+</string-array>
+</resources>

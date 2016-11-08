@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESP"T:/WS_yao.zhou_linux/ALPS_SW/MP/ALPS.JB.MP/alps/mediatek/operator/OP01/packages/apps/Plugins/res/values/strings.xml"ONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Browser String Start -->
+    <string name="add_new_bookmark">"添加书签"</string>
+    <string name="new_folder">"新建文件夹"</string>
+    <string name="low_storage_dialog_title_on_external">﻿注意</string>
+    <string name="low_storage_dialog_msg_on_external">﻿内置存储器空间不足，无法立即下载</string>
+    <string name="low_storage_dialog_title_on_extra">﻿注意</string>
+    <string name="low_storage_dialog_msg_on_extra">外置存储器空间不足，无法立即下载</string>
+    <string name="clear_history">"清除历史记录"</string>
+    <string name="clear_history_dlg">"要删除浏览器导航历史记录吗？"</string>
+    <string name="pref_extras_set_download_directory_title">设置下载路径</string>
+    <!-- Browser String End -->
+
+    <!--Music String start-->
+    <string name="none_audio_file">不支持的文件格式。</string>
+    <string name="select_folder_empty">所选的文件夹中没有音乐文件。</string>
+    <string name="add_folder_to_play">播放文件夹</string>
+    <string name="add_folder_as_playlist">添加文件夹播放列表</string>
+    <string name="add_song_to_play">播放文件</string>    
+    <!--Music String End-->
+
+
+
+  <!-- International Roaming Strings -->
+    <string name="international_roaming_label">国际漫游设置</string>
+    <string name="network_select_title">网络选择和设置</string>
+    <string name="prl_title">CDMA漫游列表（PRL）更新</string>
+    <string name="roaming_hotline_title">国际漫游免费服务热线</string>
+    <string name="summary_free_service">+86 18918910000</string>
+    <string name="reset_to_default_title">恢复默认设置</string>
+    <string name="time_zone_recommend_title">时区推荐</string>
+    <string name="time_settings_title">时间显示方案设置</string>
+    <string name="time_zone_recommend_notify_summary">触摸以查看推荐的时区</string>
+    <string name="notes_title">说明:</string>
+    <string name="notes_summary">此菜单适用于中国电信用户卡，如有问题，请联系中国电信客服。</string>
+
+    <string name="main_sim_title">设为主卡</string>
+    <string name="sim_selection_title">UIM/SIM卡选择</string>
+    <string name="general_settings_title">通用设置</string>
+    <string name="cdma_network_selection_title">CDMA网络选择</string>
+    <string name="gsm_network_selection_title">GSM网络选择</string>
+    <string name="current_network_info_title">当前网络信息</string>
+    <string name="data_roaming_title">开启国际数据漫游</string>
+    <string name="prefer_network_setting">优先网络设置</string>
+    <string name="networks">Operator selection</string>
+
+    <string name="mms_roaming_title">国际漫游自动接收 MMS</string>
+    <string name="mms_roaming_auto_receive">漫游自动接收MMS</string>
+    <string name="mdialog_message">请注意，允许移动数据网络漫游可能会产生高额漫游费！</string>
+
+    <string name="select_automatically">自动选网</string>
+    <string name="manual_select_title">手动选网</string>
+    <string name="manual_select_dialog_msg">点击“确定”后开始使用手动选网模式，一旦手动选择并注册到您选择的网络运营商，手机将不会再为您自动选择其它运营商。当在某些情况下您失去网络服务后，您需要再次手动选择并注册运营商。我们建议您使用“自动选网模式”，是否确定要进入手动选网模式？</string>
+    <!-- Prefer network setting: -->
+    <string name="prefer_network">优先网络:</string>
+    <string name="global_mode">全球模式</string>
+    <string name="gsm_only">仅GSM/UMTS</string>
+    <string name="cdma_only">仅CDMA</string>
+
+
+    <string name="prl_sending">PRL更新请求已发送，请等待...</string>
+    <string name="reset_content">即将恢复国际漫游各项菜单项为出厂设置，是否确定？</string>
+    <string name="time_display_content">设置通话、信息、日历的默认时间显示</string>
+    <string name="beijing_time">北京时间</string>
+    <string name="local_time">当地时间</string>
+
+    <string name="time_zone_title">时区推荐</string>
+    <string name="time_zone_hint">查找城市</string>
+
+    <string name="reset_success">恢复默认设置成功!</string>
+    
+    <!-- Dual sim settings activate progress message string -->
+    <string name="gemini_sim_mode_progress_activating_message">正在启用\u2026</string>
+    <!-- Dual sim settings deactivate progress message string -->
+    <string name="gemini_sim_mode_progress_deactivating_message">正在停用\u2026</string>
+
+    <string name="main_sim">主卡</string>
+    <string name="data_conn_msg">请先关闭数据连接再设置主卡！</string>
+
+    <!-- For 2013 new spec start-->
+    <string name="manual_network_selection_title">手动选网</string>
+    <string name="manual_network_selection_title_with_sim"><xliff:g id="sim_slot">%1$s</xliff:g>手动选网</string>
+    <string name="enable_sim_radio">开启</string>
+    <string name="enable_data_roaming">国际漫游数据</string>
+    <string name="ir_slot1_notes_summary">将优先使用本用户卡的移动业务</string>
+    <string name="register_automatically">自动注册\u2026</string>
+    <string name="not_allowed">"您的 SIM 卡不允许连接到此网络。"</string>
+    <!-- Available networks screen, toast when unable to connect to a network temporarily -->
+    <string name="connect_later">"目前无法连接到此网络，请稍后重试。"</string>
+    <!-- Available networks screen, toast when registered on a specific network -->
+    <string name="registration_done">"已在网络上注册。"</string>
+
+    <!-- Network Selcection start -->
+    <string name="switch_network_manually" translatable="false">手工切换到下一网络</string>
+    <!-- Network selection end -->
+    
+    <!-- Current network information start-->
+    <!-- ct requirement for prl version -->
+    <string name="status_ct_prl_version" translatable="false">PRL版本</string>
+    <!-- 2013 ct requirement for pnl version -->
+    <string name="status_slot1_cdma_pnl_version" translatable="false">GSM(WCDMA)网络优选列表版本</string>
+    <!-- 2013 ct requirement for pnl version -->
+    <string name="status_slot1_gsm_pnl_version" translatable="false">网络优选列表版本</string>
+     <!-- ct requirement for unknown -->
+    <string name="status_ct_unknown" translatable="false">未知</string>
+    <string name="status_ct_network_type">网络类型</string>
+    <!-- ct requirement for sms center -->
+    <string name="ct_sms_center" translatable="false">短信中心号码</string>
+    <string name="status_current_operators" translatable="false">运营商名称</string>
+    <string name="current_operators_mccmnc" translatable="false">MCC、MNC</string>
+    <!-- About phone, status item title. The  current cell tower signal strength -->
+    <string name="status_signal_strength">信号强度</string>
+    <string name="evdo_signal_strength_info">Evdo</string>
+    <!-- About phone screen, show when a value of some status item is unavailable. -->
+    <string name="device_info_not_available">不可用</string>
+    <!-- Device Info screen. Used for a status item's value when the proper value is not known -->
+    <string name="device_info_default">未知</string>
+    <!-- Current network information end-->
+    
+    <!-- For 2013 new spec ManualNetworkSelection start -->
+    <string name="manual_network_cdma_searching">正在搜索CDMA网络</string>
+    <string name="manual_network_cdma_switch">手工切换到下一网络</string>
+    <string name="manual_network_cdma_description">说明: 
+        \nCDMA系统默认为自动选网，无需手工干预， 但如果当前网络无法进行业务，可尝试操作上述“手工切换到下一网络”菜单。</string>
+    <string name="manual_network_gsm_available_network">可选网络</string>
+    <string name="manual_network_notes_title">说明:</string>
+    <string name="manual_network_notes_summary">本操作仅对当次有效。</string>
+    
+    <string name="manual_network_register_hint_ok">您已成功接入“<xliff:g id="network_current">%s</xliff:g>”网络，此后如遇网络不佳，系统将自动为您选择其它漫游网络接入。</string>
+    <string name="manual_network_register_hint_fail_null">您选择的网络不可用，系统将自动为您选择其它漫游网络接入。</string>
+    <string name="manual_network_register_hint_fail">您选择的“<xliff:g id="network_failed">%s</xliff:g>”网络不可用，系统将自动为您选择其它漫游网络接入。</string>
+    <string name="manual_network_switching_phone">请等待...</string>
+    <string name="manual_network_switch_phone_fail">切换网络模式失败，请稍后再试。</string>
+    <string name="manual_network_get_cdmaphone_fail">切换网络失败，请稍后再试。</string>
+    <string name="manual_network_switch_cdma_fail_data_connect">当前网络已开启数据连接，请关闭数据连接后再选择规避网络。</string>
+
+    <!-- the network is forbidden -->
+    <string name="network_forbidden">禁用</string>
+    <!-- Available networks screen, toast when an error is encountered when searching for networks -->
+    <string name="network_query_error">搜索网络时出错。</string>
+    <!-- Available networks screen, toast when registering on a specific network -->
+    <string name="register_on_network" msgid="9055203954040805084">"正在<xliff:g id="NETWORK">%s</xliff:g>上注册..."</string>
+    <!-- For 2013 new spec ManualNetworkSelection end -->
+    <string name="network_setting_all_forbidden_dialog">没有可用的网络。请尝试切换3G卡槽，或点击某个禁用网络进行手动注册。</string>
+    <!-- Mobile network settings screen, toast when searching for available networks -->
+    <string name="load_networks_progress" msgid="5230707536168902952">"正在搜索GSM网络..."</string>
+
+    <string name="data_connection_summary_title">移动数据</string>
+    <string name="data_connection_sim_slot_1">使用卡1数据</string>
+    <string name="data_connection_sim_slot_2">使用卡2数据</string>
+    <string name="crbt_settings_title">彩铃设置</string>
+    <string name="crbt_send_ok">发送成功</string>
+    <string name="crbt_send_fail">发送失败</string>
+    <string name="crbt_sending">"正在发送"</string>
+    <string name="crbt_to">" 到 "</string>
+    <string name="crbt_wait">请等待</string>
+    <!-- For 2013 new spec end-->
+
+    
+    <string name="apn_name" msgid="4115580098369824123">"参数组显示名称"</string>
+    <string name="apn_apn" msgid="2479425126733513353">"接入点名称"</string>
+    <string name="apn_http_proxy" msgid="1826885957243696354">"代理"</string>
+    <string name="apn_http_port" msgid="3763259523984976226">"端口"</string>
+    <string name="apn_user" msgid="455637547356117761">"PPP用户名"</string>
+    <string name="apn_password" msgid="5412301994998250968">"PPP密码"</string>
+    <string name="apn_server" msgid="2436185314756372858">"服务器"</string>
+    <string name="apn_mmsc" msgid="3670124402105585737">"MMSC"</string>
+    <string name="apn_mms_proxy" msgid="5374082621073999275">"彩信代理"</string>
+    <string name="apn_mms_port" msgid="4074188088199243040">"彩信端口"</string>
+    <string name="apn_mcc" msgid="4258628382260674636">"MCC"</string>
+    <string name="apn_mnc" msgid="8629374076888809874">"MNC"</string>
+    <string name="apn_auth_type" msgid="6167205395676037015">"PPP鉴权方式"</string>
+    <string name="apn_auth_type_none" msgid="5069592676845549926">"无"</string>
+    <string name="apn_auth_type_pap" msgid="1666934536996033383">"PAP"</string>
+    <string name="apn_auth_type_chap" msgid="3369626283789068360">"CHAP"</string>
+    <string name="apn_auth_type_pap_chap" msgid="9102343063036134541">"PAP 或 CHAP"</string>
+    <string name="apn_type" msgid="469613123902220544">"APN 类型"</string>
+    <string name="apn_protocol" msgid="3272222921649348640">"APN 协议"</string>
+    <string name="apn_roaming_protocol" msgid="3386954381510788422">"APN 漫游协议"</string>
+    <string name="carrier_enabled" msgid="407655861175280806">"APN 启用/停用"</string>
+    <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"APN 已启用"</string>
+    <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"APN 已停用"</string>
+    <string name="bearer" msgid="594270280031923558">"承载系统"</string>
+    <!-- APN manual selection mode feature -->
+    <string name="manual_selection_mode">手动模式</string>
+    
+  <!-- International Roaming Strings End -->
+
+
+
+
+
+    <!-- Email String start -->
+
+    <!-- Sending mail notification strings -->
+    <string name="sending_mail_title">正在发送邮件...</string>
+    <string name="sent_success_title">发送成功。</string>
+    <plurals name="sent_success_text">
+        <item quantity="one"><xliff:g id="sent_emails" example="1">%d</xliff:g> 封邮件已发送。</item>
+        <item quantity="other"><xliff:g id="sent_emails" example="5">%d</xliff:g> 封邮件已发送。</item>
+    </plurals>
+    <string name="sent_failed_title">发送失败。</string>
+    <plurals name="sent_failed_text">
+        <item quantity="one"><xliff:g id="unsent_emails">%d</xliff:g> 封邮件未发送。</item>
+        <item quantity="other"><xliff:g id="unsent_emails">%d</xliff:g> 封邮件未发送。</item>
+    </plurals>
+
+    <!-- Provider list strings -->
+    <string name="CT_provider_email_account_signature">\n\n此邮件发送自189邮箱</string>
+    <string name="CT_provider_email_account_name_description">189邮箱</string>
+    <string name="email_choose_provider_189">189邮箱</string>
+    <string name="email_choose_provider_sina">新浪</string>
+    <string name="email_choose_provider_others">其他</string>
+
+    <!-- Email String end -->
+
+    
+    <!-- MMS String Start-->
+    <string name="failed_data_occupied">数据连接被占用，暂时无法传输。</string>
+    <string name="failed_connection_failed">建立数据连接失败！</string>
+    <string name="failed_gateway_no_response">MMS网关无响应。</string>
+    <string name="failed_abnormal">传输过程中异常终止。</string>
+    <string name="mms_cancel_download">下载已取消。</string>
+    <string name="disable_delivery_report">国际漫游状态下，此设置无效。</string>
+    <string name="msg_status_sending">正在发送</string>
+    <string name="msg_status_failed">发送失败</string>
+    <string name="msg_status_success">已发送</string>
+    <string name="msg_status">状态：</string>
+    <string name="message_type_label" >"类型："</string>
+    <string name="text_message">"短信"</string>
+    <string name="to_address_label">"接收者："</string>
+    <string name="sent_label">"发送时间： "</string>
+    <string name="saved_label">"保存时间："</string>
+    <string name="error_code_label">"错误代码： "</string>
+    <string name="str_today">今天</string>
+    <string name="str_yesterday">昨天</string>
+    <string name="time_now">"刚刚"</string>
+    <string name="btn_resend_str">"重新发送失败的信息"</string>
+    <string name="send">"发送"</string>
+    <string name="memory_full_cannot_save">"存储空间已满，无法保存草稿。"</string>
+    <string name="memory_full_cannot_send">"存储空间已满，无法发送信息。"</string>
+    <string name="memory_full_cannot_attach">"存储空间已满，无法编辑彩信。"</string>
+    <string name="memory_full_cannot_download_mms">"存储空间已满，无法下载彩信。"</string>
+    <string name="save_message_to_sim_unsuccessful">保存失败</string>
+    <string name="sim_full_title">"SIM卡已满"</string>
+    <string name="storage_low_title">"信息存储空间即将满"</string>
+    <string name="storage_low_body">"信息存储空间即将满，可能无法接收传入的信息，请删除旧信息。"</string>
+    <string name="split_message_apart">拆分群组消息</string>
+    <string name="split_thread_apart">拆分群组会话</string>
+    <string name="save_msg_to_card">保存信息到UIM/SIM卡</string>
+    <string name="select_card">选择UIM/SIM卡</string>
+    <string name="manage_card_msg_title">管理 UIM/SIM 卡中的信息</string>
+    <string name="manage_card_msg_summary">管理 UIM/SIM 卡中存储的信息</string>
+    <string name="manage_uim_messages_title">UIM 卡上的短信</string>
+    <string name="uim_empty">"UIM 卡中未存短信。"</string>
+    <string name="get_uim_capacity_failed">获取UIM卡容量失败。</string>
+    <string name="confirm_delete_uim_msg">"UIM 卡上的这条信息会被删除。"</string>
+    <string name="uim_full_title">"UIM 卡已满"</string>
+    <string name="roaming_dlg_title">注意</string>
+    <string name="romaing_dlg_content">如果要使用彩信的漫游时自动获取功能，必须先允许移动数据网络漫游。</string>
+    <string name="message_cannot_be_operated">受到当前网络限制，短信仅支持阅读。</string>
+    <string name="confirm_delete_selected_messages">注册到当前网络的短信将被删除。</string>
+    <string name="capacity_sim_card_due_mode">当前容量会根据UIM注册的网络而改变。</string>
+    <string name="str_dlg_msg">国际漫游状态下，无法请求短信发送报告。</string>
+    <string name="str_dlg_never_shown">不再提醒</string>
+    <string name="change_mms_to_sms">信息会拆分为多条短信发出。</string>
+    <string name="local_time_msg">本地时间</string>
+    <string name="time_receive">接收</string>
+    <string name="time_send">发送</string>
+    <string name="mms">"彩信"</string>
+    <string name="message_details_title">"消息详情"</string>
+    <string name="download">"下载"</string>
+    <string name="mms_cancel">取消</string>
+    <string name="unsupported_files">文件格式不支持</string>
+    <string name="search_by_time_period">按时间段搜索</string>
+    <string name="search_label_certain_time">固定时间段</string>
+    <string name="search_certain_time_dialog_title">固定时间段</string>
+    <string name="search_time_period_label">时间段</string>
+    <string name="search_within_one_day">今天之内</string>
+    <string name="search_within_seven_days">7天之内</string>
+    <string name="search_within_thirty_days">30天之内</string>
+    <string name="search_label_from">从：</string>
+    <string name="search_label_to">到：</string>
+    <string name="search_button_text">搜索</string>
+    <string name="search_error_wrong_date">起始时间不能晚于终止时间。</string>
+    <string name="add_mms_cc">添加抄送联系人</string>
+    <string name="max_cc_message">彩信只允许添加 <xliff:g id="maxLimit">%s</xliff:g>个抄送。多余的抄送将被删除，是否继续？</string>
+    <string name="has_invalid_cc">"无效抄送：&lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <string name="inline_cc">"&lt;抄送：<xliff:g id="mms_cc">%s</xliff:g>&gt;"</string>
+    <string name="try_to_send">"尝试发送"</string>
+    <string name="invalid_recipient_message">"请更正接收者，否则他们将无法收到信息。"</string>
+    <!-- Advance Search results title -->
+    <plurals name="advance_search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> 条符合的搜索结果</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> 条符合的搜索结果</item>
+    </plurals>
+    <!-- MMS String End-->
+
+  <!-- Phone & Contacts String Start -->
+    <string name="sim_manage_call_via">呼叫</string>
+    <string name="yi_dialing_dialog_title">翼拨号</string>
+    <string name="dial_to_home_country">拨回国</string>
+    <string name="international_call">国际漫游呼叫</string>
+    <string name="ct_callback">**133回拨</string>
+    <string name="dial_to_another_country">拨打其他国家地区</string>
+    <string name="local_call">拨打本地</string>
+    <string name="yi_dialing_dialing_call_button">拨打</string>
+    <string name="call_ip_call_slot_1">通过卡1进行IP拨号</string>
+    <string name="call_ip_call_slot_2">通过卡2进行IP拨号</string>
+
+    <string name="view_call_log_detail">查看通话记录详情</string>
+    <string name="dial_number">拨打该号码</string>
+    <string name="send_message">发送信息</string>
+    <string name="delete_from_call_log_list">从通话记录中删除</string>
+    <string name="delete_all_calls_with_number">删除该号码的所有通话</string>
+    <string name="delete_all_calls_with_contact">删除该联系人的所有通话</string>
+    <string name="ip_dial_number">IP拨号</string>
+    <string name="view_contact_detail">查看联系人详情</string>
+    <string name="copy_number">拷贝号码到剪切板</string>
+    <string name="copy_number_to_dialer">拷贝号码到拨号盘</string>
+    <string name="save_number_to_contact">添加到“联系人”</string>
+    <string name="delete_all_calls_with_number_dialog_title">删除该号码的所有通话</string>
+    <string name="delete_all_calls_with_number_dialog_message">是否要删除该号码的所有通话？</string>
+    <string name="delete_all_calls_with_contact_dialog_title">删除该联系人的所有通话</string>
+    <string name="delete_all_calls_with_contact_dialog_message">是否要删除该联系人的所有通话？</string>
+
+    <string name="all_calls_with_number">该号码的所有通话</string>
+    <string name="all_calls_with_contact">该联系人的所有通话</string>
+
+    <string name="gsm_network">GSM网络</string>
+    <string name="cdma_network">CDMA网络</string>
+    <string name="no_sim_card">无SIM卡</string>
+    <string name="no_sim_card_cdma">无UIM卡</string>
+
+    <string name="no_search_result">无搜索结果</string>
+    <string name="contact_detail_detail">"联系人详情"</string>
+    <string name="contact_detail_update">"联系人更新信息"</string>
+    <string name="contact_detail_history">"历史通信记录"</string>
+    <string name="contact_detail_history_mms_received_time">"接收时间 %1$s"</string>
+    <string name="contact_detail_history_mms_received_from">"接收自 %1$s"</string>
+    <string name="contact_detail_history_mms_sent_time">"发送时间  %1$s"</string>
+    <string name="contact_detail_history_mms_sent_to">"发送至  %1$s"</string>
+    <string name="contact_detail_history_calllog">"通话记录"</string>
+    <string name="contact_detail_history_mms">"短消息记录"</string>
+    <string name="contact_detail_history_duration">"持续时间: "</string>
+    <string name="contact_detail_history_ismms">"多媒体信息"</string>
+    <string name="contact_detail_history_empty_calllog">"无通话记录"</string>
+    <string name="contact_detail_history_empty_message">"无短消息记录"</string>
+    <string name="contact_detail_history_empty">"没有通话记录和短信记录。"</string>
+    <string name="look_simstorage">查看SIM 卡容量</string>
+    <string name="dlg_simstorage_content">电话号码本存储容量<xliff:g id="items">%d</xliff:g>条，已用电话本<xliff:g id="items">%d</xliff:g>条。</string>
+
+  <!-- Phone & Contacts String End -->
+
+    <!-- Call Settings Start -->
+    <!-- Mobile network settings screen, setting option name -->
+    <string name="apn_settings">接入点名称 (APN)</string>
+    <string name="call_settings">通话设置</string>
+    <string name="general_setting_title">一般设置</string>
+    <string name="sum_general_setting">一般电话设置</string>
+    <string name="cdma_setting_title">CDMA通话设置</string>
+    <string name="sum_cdma_setting">CDMA电话设置</string>
+    <string name="gsm_setting_title">GSM通话设置</string>
+    <string name="sum_gsm_setting">GSM电话设置</string>
+
+    <string name="call_setting_tab_general">通用</string>
+    <string name="call_setting_tab_SIM">卡<xliff:g id="slot_id">%1$d</xliff:g>: <xliff:g id="sim_name">%2$s</xliff:g></string>
+
+  <!--CallGeneralSettings start-->
+    <!-- Minute Reminder strings -->
+    <string name="minutereminder_title">通话提醒</string>
+    <string name="minutereminder_turnon">开启通话50秒提醒功能</string>
+    <string name="minutereminder_turnoff">关闭通话提醒功能</string> 
+    <!-- Dual mic setting -->
+    <string name="dual_mic_title">双麦克风降噪</string>
+    <string name="dual_mic_turnoff">关闭双麦克风</string>
+    <string name="dual_mic_turnon">打开双麦克风</string> 
+    <!-- Respond via SMS -->
+    <string name="respond_via_sms_setting_title">快速回复</string>
+    <string name="respond_via_sms_setting_summary"></string> 
+    <!-- TTY Settings -->
+    <string name="tty_mode_option_title">TTY 模式</string>
+    <string name="tty_mode_option_summary">设置 TTY 模式</string>
+    <!-- eSurfing -->
+    <string name="esurfing_dialing">翼拨号</string>
+    <string name="esurfing_dialing_summary">国际漫游拨号时显示翼拨号菜单</string>
+    <string name="esurfing_dialing_guide">翼拨号向导</string>
+    <!-- Internation dial assist -->
+    <string name="esurfing_dialing_assist">国际漫游辅助拨号</string>
+  <!--CallGeneralSettings end-->
+
+    <!-- Voicemail -->
+    <string name="voice_mail">语音信箱</string>
+    <string name="sum_voice_mail">语音信箱服务和号码</string>
+    <!-- ip dial -->
+    <string name="ip_prefix_setting">IP号码前缀</string>
+    <string name="ip_prefix_setting_sum">IP号码前缀设置</string>
+    <!-- call forward -->
+    <string name="labelCF">来电转接</string>
+    <string name="call_forwarding_settings">来电转接设置</string>
+    <string name="ct_labelCFU">"无条件呼叫转移"</string>
+    <string name="ct_labelCFB">"遇忙呼叫转移"</string>
+    <string name="ct_labelCFNRy">"无应答呼叫转移"</string>
+    <string name="ct_labelCFNRc">"隐含呼叫转移"</string>
+    <string name="ct_labelCFC">取消所有呼叫转移</string>
+    <!-- call barring -->
+    <string name="lable_call_barring">呼叫限制</string>
+    <string name="call_barring_sum">呼叫限制设置</string>
+    <!-- FDN -->
+    <string name="fdn">固定拨号</string>
+    <string name="sum_fdn">管理固定拨号</string>
+    <!-- call waiting -->
+    <string name="additional_gsm_call_settings">其他设置</string>
+    <string name="call_additional_sum">电话号码和呼叫等待设置</string>
+    <string name="multiple_call_settings">设置</string>   
+    <string name="general_settings">通话设置</string> 
+    <string name="cdma_settings">CDMA通话设置</string>   
+    <string name="gsm_settings">GSM通话设置</string> 
+  <!-- Call Settings End -->
+
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">设置壁纸</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">天翼壁纸库</string>
+  
+    <!-- CT plugin factory-->
+    <string name="ct_master_clear_desc">"这将重置设置并清除您手机的数据，包括："\n\n<li>"您的 Google 帐户"</li>\n<li>"系统及应用数据和设置"</li></string>
+    <string name="personal_data_title">"个人数据"</string>
+    <string name="personal_data_description">"包括账户，联系人，通话记录，信息和其他数据"</string>
+    <string name="install_app_title">"安装的应用程序"</string>
+    <string name="ct_erase_external_storage">用户文件</string>
+    <string name="ct_encrypt_personal_data_title">"<li>个人数据</li>"</string>
+    <string name="ct_encrypt_install_app_title">"<li>安装的应用程序</li>"</string>
+    <string name="ct_encrypt_media_data_title"><li>用户文件</li></string>
+    <string name="ct_erase_external_storage_description">音乐，视频，照片和其他文件</string>
+    <string name="factory_failed">恢复出厂设置失败，请重试。</string>
+    <string name="sim_slot_1">卡槽一</string> 
+    <string name="sim_slot_2">卡槽二</string>
+    <string name="roaming_settings_time_category_title">国际漫游时间设置</string>
+
+
+    <!-- For CT Call Settings start -->
+    <string name="cdma_cfu_dialog_sum">始终使用这个号码</string>
+    <string name="enable">"启用"</string>
+    <string name="disable">"禁用"</string>
+    <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
+    <string name="selectContact">"选择联系人"</string>
+    <!-- Label for "cancel" button on the MMI dialog -->
+    <string name="cancel">"取消"</string>
+    <!-- "Edit FDN Contact" screen: Button label for "save" action -->
+    <string name="save">"保存"</string>
+    <!-- Additional call settings screen, setting check box name -->
+    <string name="labelCW">"来电等待"</string>
+    <!-- For CT Call Settings start -->
+
+    <!-- Power saving mode -->
+    <!-- Sound & display settings screen, setting option name to change whether the screen adjusts automatically based on lighting conditions -->
+    <string name="automatic_brightness" msgid="5014143533884135461">"自动调整亮度"</string>
+    <!-- Sound & display settings screen, setting option summary to change screen timeout -->
+    <string name="screen_timeout_summary" msgid="327761329263064327">"无操作 <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g>后"</string>
+    <!-- Sound & display settings screen, setting option name to change brightness -->
+    <string name="brightness">Brightness</string>
+    <string name="power_saving_mode">节电模式</string>
+    <string name="power_saving_mode_title">节电策略</string>
+    <string name="power_saving_cpu_title">CPU</string>
+    <string name="power_saving_bright_title">亮度</string>
+    <string name="power_saving_wifi_title">关闭WLAN</string>
+    <string name="power_saving_bt_title">关闭蓝牙</string>
+    <string name="power_saving_gps_title">关闭GPS</string>
+    <string name="power_saving_sync_title">关闭自动同步</string>
+    <string name="power_saving_sleep_title">休眠</string>
+    <string name="power_saving_tactile_title">关闭触觉反馈</string>
+    <string name="power_saving_cpu_summary">限制 CPU 最大性能以节省电量并降低温度。</string>
+    <string name="power_saving_bright_summary">10%</string>
+    <string name="power_saving_sleep_summary">无操作15秒后</string>        
+    <string name="power_saving_bright_auto">自动调整亮度</string>
+    <string name="power_saving_settings_button">设置</string>
+    <!-- Power saving mode End -->
+    <!-- CT E push-->
+    <string name="cdma_e_push_title">中国电信翼推送</string>
+    <string name="cdma_e_push_summary">中国电信免费推送服务</string>
+
+    <!-- China Telecom PPP Dialing -->
+    <string name="ppp_dialing" translatable="false">PPP拨叫号码</string>
+    <string name="apn_not_set">"未设置"</string>
+
+    <!-- CT International Roaming Strings -->
+    <string name="international_roaming_summary_title" translatable="false">国际漫游设置</string>
+    <!-- OP09 QuickSettings res -->
+    <string name="apn">接入点</string>
+    <string name="network_selection_settings">网络选择</string>
+    <string name="quick_settings_roam_data">数据漫游</string>
+    <string name="dual_sim_settings">双卡设置</string>
+
+    <!-- For CDMA -->
+    <string name="product_model">型号</string>
+    <string name="hardware_version">﻿硬件版本</string>
+    <string name="software_version">软件版本</string>
+    <string name="prl_version">PRL版本</string>
+
+    <!-- CT eSurfing dialing -->
+    <string name="menu_eSurfing_dialing">翼拨号</string>
+
+    <!-- For CT 2013 sec start-->
+    <string name="dial_to_china_mainland">拨回中国大陆</string>
+    <string name="dial_to_macau">拨回澳门</string>
+    <string name="dial_to_hongkong">拨回香港</string>
+    <string name="dial_to_taiwan">拨回台湾</string>
+    <string name="skip_button_string">跳过</string>
+    <string name="esurfing_dialing_step1">步骤一：输入电话号码（无需添加国际接入码和国家码），点击拨号键，自动弹出“翼拨号菜单”。</string>
+    <string name="esurfing_dialing_step2_china_mainland">步骤二：拨打中国大陆地区电话，选择“拨回中国大陆”中的“国际漫游呼叫”方式，点击拨号，自动加拨“+86”前缀。</string>
+    <string name="esurfing_dialing_step2_china_macau">步骤二：拨打澳门电话，选择“拨回澳门”中的“国际漫游呼叫”方式，点击拨号，自动加拨“+853”前缀。</string>
+    <string name="esurfing_dialing_step2_china_hongkong">步骤二：拨打澳门电话，选择“拨回香港”中的“国际漫游呼叫”方式，点击拨号，自动加拨“+852”前缀。</string>
+    <string name="esurfing_dialing_step2_china_taiwan">步骤二：拨打澳门电话，选择“拨回台湾”中的“国际漫游呼叫”方式，点击拨号，自动加拨“+886”前缀。</string>
+    <string name="esurfing_dialing_step2_china_other">步骤二：拨打SIM卡本国电话，选择“拨回国”中的“国际漫游呼叫”方式，点击拨号，自动加拨国际漫游拨号前缀。</string>
+    <string name="esurfing_dialing_step2_china_callback">步骤二：如果SIM卡是中国大陆的SIM卡，拨打中国大陆地区电话，还可以选择“拨回中国大陆”中的“**133回拨”方式，点击拨号，自动加拨“**133”前缀。</string>
+    <string name="esurfing_dialing_step2_china_dial_other">步骤二：拨打其他国家地区，选择“拨打其他国家地区”，弹出国家地区列表，选择目标国家地区，返回翼拨号界面，点击拨号按钮，自动加拨国际漫游拨号前缀。</string>
+    <string name="esurfing_dialing_step2_china_dial_local">步骤二：拨打本地电话，选择“拨打本地”，点击拨号按钮，对输入号码不做处理，直接拨打。</string>
+    <string name="country_search">搜索</string>
+    <string name="country_start">启动</string>
+    <string name="country_exit">退出</string>
+    <string name="country_select_americas">美洲</string>
+    <string name="country_select_oceania">大洋洲</string>
+    <string name="country_select_europe">欧洲</string>
+    <string name="country_select_asia">亚洲</string>
+    <string name="country_select_africa">非洲</string>
+    <string name="country_select_egypt">埃及</string>
+    <string name="country_select_south_Africa">南非</string>
+    <string name="country_select_gambia">冈比亚</string>
+    <string name="esurfing_dialing_guide_title">翼拨号帮助</string>
+    <string name="esurfing_dialing_guide_cancel">取消</string>
+    <!-- For CT 2013 sec end-->
+    <!-- keyguard start -->
+    <string name="keyguard_domestic_zone_name">"北京"</string>
+    <!-- keyguard end -->
+    
+    <!-- For CT 2014 svlte op09 sec start-->
+    <string name="enable_lte_data">启用4G</string>
+    <string name="enable_lte_data_summary">4G可提供更快更好的上网服务</string>
+    <string name="only_use_LTE_data">启用4G单数据</string>
+    <string name="only_use_LTE_data_summary">启用4G单数据时，语音和短信功能将不能使用。</string>
+    <string name="lte_data_only_prompt">当前您处于4G单数据模式，无法提供该功能，是否退出4G单数据模式？</string>
+    <string name="lte_data_only_timeout">当前您所在的位置未检测到可用4G单数据网络，是否退出4G单数据模式并搜索其它网络？</string>
+    <string name="lte_only_dialog_button_yes">是</string>
+    <string name="lte_only_dialog_button_no">否</string>
+    <string name="lte_only_dialog_title_prompt">提示</string>
+    <string name="lte_sim_dialog_message">检测到您插入的用户卡与终端不匹配，请及时更换中国电信4G用户卡</string>
+    <string name="no_sim_dialog_message">请插入中国电信UIM卡</string>
+    <string name="gemini_data_connection_progress_message">"请等待..."</string>
+    <!-- For CT 2014 svlte op09 sec end-->
+    
+    
+    <!-- Launcher Text for Edit Apps button for op09 -->
+    <string name="edit_app_button_text">编辑应用</string>
+    <!-- Launcher Text for Hide Apps button for op09 -->
+    <string name="hide_app_button_text">隐藏应用</string>
+
+    <!-- For CT SystemUI start -->
+    <string name="lockscreen_carrier_default">无服务</string>
+    <string name="lockscreen_missing_sim_message_short">没有卡</string>
+    <!-- For CT SystemUI end -->
+
+    <!-- For CT Incall -->
+    <string name="callFailed_simError_ct">没有电话卡/电话卡错误</string>
+
+    <string name="simContacts_emptyLoading">正在从UIM/SIM卡中加载...</string>
+    <string name="simContacts_title">UIM/SIM卡联系人</string>
+    <string name="ctAPN_name_ctwap">中国电信WAP设置CTWAP</string>
+    <string name="ctAPN_name_ctnet">中国电信互联网设置CTNET</string>
+    <string name="whether_enable_4G">您即将启用4G功能，是否中断当前业务并立即搜索和接入LTE网络？</string>
+</resources>

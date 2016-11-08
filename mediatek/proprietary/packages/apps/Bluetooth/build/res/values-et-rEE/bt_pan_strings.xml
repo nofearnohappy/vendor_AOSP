@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"Võta vastu palveid grupi ad hoc-võrgust"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"Võta vastu palveid võrgupääsupunktidest"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"Kas soovite võtta vastu %1$s loapalve grupi ad hoc-võrgu kohta?"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"Kas soovite võtta vastu %1$s loapalve võrgupääsupunktide kohta?"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">%1$s ühenduse katkestus grupi ad hoc-võrguga õnnestus.</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">%1$s ühenduse katkestus võrgu pääsupunktidega õnnestus.</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"Kas soovite katkestada ühenduse %1$s-ga grupi ad hoc-võrgus?"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"Kas soovite katkestada ühenduse %1$s-ga võrgu pääsupunktides?"</string>
+	<string name="bluetooth_pan_yes">"Luba"</string>
+	<string name="bluetooth_pan_no">Andmeedastuse kiirus langeb.</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"Bluetoothi grupi ad hoc-võrgu loapalve"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"Bluetoothi grupi ad hoc-võrgu loapalve"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"Valige, et võtta vastu %1$s loapalve grupi ad hoc-võrgu kohta?"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"Bluetoothi võrgupääsupunktide loapalve"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"Bluetoothi võrgupääsupunktide loapalve"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"Valige, et võtta vastu %1$s loapalve võrgu pääsupunktide kohta?"</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"Ühendus Bluetoothi grupi ad hoc-võrguga katkestatud"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"Ühendus Bluetoothi grupi ad hoc-võrguga katkestatud"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"Valige, et katkestada %1$s ühendus ad hoc-võrguga?"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"Bluetoothi võrgu pääsupunktid ühendatud"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"Bluetoothi võrgu pääsupunktid ühendatud"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"Valige, et katkestada %1$s ühendus võrgu pääsupunktidega"</string>
+	<string name="bluetooth_pan_GN_connect_ok">%1$s ühendamine grupi ad hoc-võrguga õnnestus.</string>
+    <string name="bluetooth_pan_GN_connect_fail">%1$s ühendamine grupi ad hoc-võrguga nurjus.</string>
+    <string name="bluetooth_pan_NAP_connect_ok">%1$s ühendamine võrgu pääsupunktidega õnnestus.</string>
+    <string name="bluetooth_pan_NAP_connect_fail">%1$s ühendamine võrgu pääsupunktidega nurjus.</string>
+    <string name="bluetooth_pan_NAP_unavailable">%1$s võrgu pääsupunktide teenus ei ole kasutatav</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">%1$s ühenduse katkestus grupi ad hoc-võrguga õnnestus.</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">%1$s ühenduse katkestus grupi ad hoc-võrguga nurjus.</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">%1$s ühenduse katkestus võrgu pääsupunktidega õnnestus.</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">%1$s ühenduse katkestus võrgu pääsupunktidega nurjus.</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">%1$s ühendus grupi ad hoc-võrguga katkestatud.</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">%1$s ühendus võrgu pääsupunktidega katkestatud.</string>
+    <string name="bluetooth_pan_server_settings">Bluetooth PAN-teenuse valimine</string>
+    <string name="bluetooth_pan_nap_enable_title">Võrgupääsupunktid</string>
+    <string name="bluetooth_pan_nap_enable_summary">Valige, et NAP-teenus käivitada või välja lülitada</string>
+    <string name="bluetooth_pan_gn_enable_title">Grupi ad hoc-võrk</string>
+    <string name="bluetooth_pan_gn_enable_summary">Valige, et GN-teenus käivitada või välja lülitada</string>
+</resources>

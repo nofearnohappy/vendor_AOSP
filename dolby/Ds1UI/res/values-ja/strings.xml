@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <string name="intelligent_equalizer">インテリジェントイコライザー</string>
+
+    <string name="surround_virtualizer">サラウンドバーチャライザ</string>
+    <string name="dialogue_enhancer">ダイアログエンハンサー</string>
+    <string name="volume_leveler">ボリュームレベラー</string>
+    <string name="copyright">Dolby、ドルビー及びダブルD記号はドルビーラボラトリーズの登録商標です。\u00a92012年 ドルビーラボラトリーズ。不許複製。</string>
+    <string name="movie">映画</string>
+    <string name="music">音楽</string>
+    <string name="game">ゲーム</string>
+    <string name="voice">ボイス</string>
+    <string name="preset_1">カスタム 1</string>
+    <string name="preset_2">カスタム 2</string>
+    <string name="open">オープン</string>
+    <string name="rich">リッチ</string>
+    <string name="focused">フォーカス</string>
+    <string name="off">オフ</string>
+    <string name="custom">マニュアル</string>
+    <string name="db36">36dB</string>
+    <string name="db24">24dB</string>
+    <string name="db12">12dB</string>
+    <string name="db0">0dB</string>
+    <string name="dbn12">-12dB</string>
+    <string name="graphical_equalizer">グラフィックイコライザー </string> 
+    <string name="app_name">Dolby Audio</string>
+    <string name="instore_menu_text">デモを再生</string>
+
+</resources>

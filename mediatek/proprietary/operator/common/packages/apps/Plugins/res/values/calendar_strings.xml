@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="lunar_fest_chunjie">春节</string>
+    <string name="lunar_fest_duanwu">端午节</string>
+    <string name="lunar_fest_zhongqiu">中秋节</string>
+    <string name="lunar_fest_yuandan">元旦</string>
+    <string name="lunar_fest_laodong">劳动节</string>
+    <string name="lunar_fest_guoqing">国庆节</string>
+    <string name="lunar_fest_yuanxiao">元宵节</string>
+    <string name="lunar_fest_qixi">七夕</string>
+    <string name="lunar_fest_chongyang">重阳节</string>
+    <string name="lunar_fest_qingnian">青年节</string>
+    <string name="lunar_fest_qingren">情人节</string>
+    <string name="lunar_fest_funv">妇女节</string>
+    <string name="lunar_fest_zhishu">植树节</string>
+    <string name="lunar_fest_yuren">愚人节</string>
+    <string name="lunar_fest_ertong">儿童节</string>
+    <string name="lunar_fest_jiandang">建党节</string>
+    <string name="lunar_fest_jianjun">建军节</string>
+    <string name="lunar_fest_jiaoshi">教师节</string>
+    <string name="lunar_fest_shengdan">圣诞节</string>
+
+    <string name="tc_lunar_fest_chunjie">春節</string>
+    <string name="tc_lunar_fest_duanwu">端午節</string>
+    <string name="tc_lunar_fest_zhongqiu">中秋節</string>
+
+    <string name="lunar_leap" translatable="false">闰</string>
+    <string name="tc_lunar_leap" translatable="false">閏</string>
+
+    <string name="lunar_tenth_day" translatable="false">初十</string>
+    <string name="lunar_twentieth_day" tanslatable="false">二十</string>
+    <string name="lunar_thirtieth_day" translatable="false">三十</string>
+    <string name="lunar_year" translatable="false">年</string>
+    <string name="lunar_month" translatable="false">月</string>
+    <string name="lunar_day" translatable="false">日</string>
+    <string name="lunar_info_fmt" translatable="false">"，%s"</string>
+    <string name="lunar_detail_info_fmt1" translatable="false">"，农历%s"</string>
+    <string name="lunar_detail_info_fmt2" formatted="false" translatable="false">"，﻿农历%s – %s"</string>
+
+    <string name="tc_lunar_detail_info_fmt1" translatable="false">"，農曆%s"</string>
+    <string name="tc_lunar_detail_info_fmt2" formatted="false" translatable="false">"，﻿農曆%s – %s"</string>
+
+</resources>

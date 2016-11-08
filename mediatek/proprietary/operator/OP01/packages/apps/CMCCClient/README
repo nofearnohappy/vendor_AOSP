@@ -1,0 +1,15 @@
+CustomerService is required by specific operator. It has to be preinstalled on the operator project.
+This apk including some infomation, such as customer service's phone number, web address etc.
+
+
+WHAT IT DOES?
+=============
+This apk including some infomation, such as customer service's phone number, web address etc.
+
+HOW IT WAS BUILT?
+==================
+It will be preinstalled on the operator project.
+
+HOW TO USE IT?
+==============
+End user can find some infomation of customer service

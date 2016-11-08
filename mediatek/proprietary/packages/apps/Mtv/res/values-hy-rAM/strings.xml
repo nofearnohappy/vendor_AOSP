@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hw_init_failed">Սարքաշարի սկզբնավորումը ձախողվեց:</string>
+    <string name="stop_record_first">Նախ՝ ընդհատեք ձայնագրումը:</string>
+    <string name="location_changed">Տեղադրությունը փոխվել է %1$s-ի:</string>
+    <string name="saved_to_gallery">Պահվել է սրահում:</string>
+    <string name="channel">կապուղի</string>
+    <string name="scan_confirm">Կապուղիների ընթացիկ ցուցակը ջնջվելու է:</string>
+    <string name="turning_on_tv">Turning on TV…</string>
+    <string name="please_wait">Խնդրում ենք սպասել\u2026</string>
+    <string name="no_storage">Խնդրում ենք տեղադրել SD քարտ:</string>
+    <string name="preparing_sd">"Պատրաստվում է SD քարտը..."</string>
+    <string name="multiselect">"Բազմակի ընտրում"</string>    
+    <string name="confirm_delete_message">Այս կապուղին ջնջվելու է:</string>
+    <string name="confirm_delete_multiple_message">Այս կապուղիները ջնջվելու են:</string>
+<string name="scanning_channels">Կապուղիների զննում</string>
+<string name="stop">"Դադարեցնել"</string>
+<string name="choose_sound_mode">Ընտրել ձայնային ռեժիմը</string>
+<string name="brightness">"Պայծառություն"</string>
+<string name="contrast">"Ցայտունություն"</string>
+<string name="saturation">"Հագեցում"</string>
+<string name="gallery">"Պատկերասրահ"</string>
+<string name="record">Ձայնագրել</string>
+<string name="video_setting">Տեսանյութի կարգավորում</string>
+<string name="previous_channel">Նախորդ կապուղին</string>
+<string name="sound_setting">Ձայնի կարգավորում</string>
+<string name="rename">"Վերանվանել"</string>
+<string name="fail_to_select_location">Չհաջողվեց ընտրել տեղադրությունը:</string>
+<string name="no_channels_hint">Ալիքների ցուցակը դատարկ է:</string>
+<string name="select_location">Ընտրել տեղադրությունը</string>
+<string name="channel_list">Կապուղիների ցուցակ</string>
+<string name="no_channels_found">Կապուղիներ չեն գտնվել:</string>
+<string name="scan_again">Զննել կրկին</string>
+<string name="scan">"Սկանավորում"</string>
+<string name="delete">"Ջնջել"</string>
+<string name="watch_now">Դիտել հիմա</string>
+<string name="select_all">Ընտրել բոլորը</string>
+<string name="new_channel_name">Նոր կապուղու անունը՝</string>
+<string name="spaceIsLow_content">Ձեր SD քարտի տարածքը սպառվում է:</string>
+<string name="vt_in_use_warning">Կանչի ժամանակ հեռուստատեսությունն անհասանելի է:</string>
+<string name="analog_tv">"Անալոգային ՀՏ"</string>
+<string name="selected">%d-ը ընտրված է</string>   
+</resources>

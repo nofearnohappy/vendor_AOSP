@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTPreCheck</string>
+    <string name="ft_precheck_activity_label">FT环境检查</string>
+    <string name="settings_activity_label">设置</string>
+    <string name="conditions_setting_activity_label">环境指标设置</string>
+    <string name="about_activity_label">关于</string>
+    <string name="only_support_cmcc">只支持CMCC FT使用！\n当前加载的不是TDD modem!</string>
+    
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="select_check_type">请选择检查类型：</string>
+    <string name="static_check_type">定点测试环境</string>
+    <string name="dynamic_check_type">移动测试环境</string>
+    <string name="start_check">开始检查</string>
+    <string name="toast_select_type">请先选择一种检查类型！</string>
+    
+    <string name="report_path_succeed">报告已导出至：%s</string>
+    <string name="report_path_failed">报告导出失败!</string>
+    <string name="exec_cases">可执行case</string>
+    <string name="unexec_cases">不可执行case</string>
+    <string name="expandlist_cond_desc">[%s]: </string>
+    <string name="value_needless_check">无需检查</string>
+    <string name="export_dir">%1$s/FTPreCheck</string>
+    <string name="export_file_name">%1$s_%2$s.csv</string>
+    <string name="check_type">检查类型：</string>
+    <string name="start_check_time">开始时间：</string>
+    <string name="timer">Timer(s)：</string>
+    <string name="test_location">测试地点：</string>
+    <string name="report_exec_cases">可执行case:</string>
+    <string name="report_unexec_cases">不可执行case:</string>
+    <string name="report_unexec_reason">不可执行原因:</string>
+    <string name="log_path_not_exist">The storage path %s is not exist!</string>
+    <string name="report_wifi_chan_info">WiFi channel info:</string>
+    <string name="channel">Channel</string>
+    <string name="AP_count">AP count</string>
+    
+    <string name="timer_setting_title">环境检查Timer</string>
+    <string name="static_timer_title">定点检查(秒)</string>
+    <string name="static_timer_hint">默认60</string>
+    <string name="dynamic_timer_title">移动检查(秒)</string>
+    <string name="dynamic_timer_hint">默认180</string>
+    <string name="report_setting_title">报告</string>
+    <string name="location_title">测试地点</string>
+    <string name="condition_setting_title">环境指标</string>
+    <string name="confirm">确定</string>
+    <string name="toast_invalid_timer">Timer不能小于%1$d秒且不能大于%2$d秒！</string>
+    <string name="setting_success">设置成功！</string>
+    <string name="toast_invalid_edit">数值型指标设置不能为空！</string>
+    
+    <string name="send_at_fail">发送AT命令失败！</string>
+    <string name="value_error">error</string>
+    <string name="value_yes">yes</string>
+    <string name="value_no">no</string>
+    <string name="value_enable">enable</string>
+    <string name="value_disable">disable</string>
+    <string name="value_stable">稳定度%1$.2f%%</string>
+    <string name="value_ref_report">channel状态见导出报告</string>
+    
+    <string name="version">CMCC FT Pre-Check\nV%s\n</string>
+    <string name="support_spec_version">Support CMCC FT Spec V1.5.0</string>
+    <string name="instruction">用途说明：
+    \n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020在CMCC外场测试前，自动检查当前测试点环境是否适合测试，从而能快速定位问题，提高外场测试效率。
+    \n\n检查类型包括：
+    \n1 定点测试环境检查
+    \n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020在给定时间间隔内侦测环境，ex.RSRP/RSRQ强度，根据搜集到的网络信息，给出哪些case可以测试，哪些case不能测试及其原因是哪些conditions不满足。
+    \n2 移动测试环境检查
+    \n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020在给定时间间隔内侦测环境，ex.4G->3G复位向发生，在此时间内，测试人员做一次测项，ex.从2/3/4G环境,移动到2/3G环境，根据搜集到的网络信息，给出哪些case可以测试，哪些case不能测试及其原因是哪些conditions不满足。
+    </string>
+    
+    <!-- check item names-->
+    <string name="SINR">SINR</string>
+    <string name="RSRP">RSRP</string>
+    <string name="subframe_ratio">子帧配比</string>
+    <string name="ssp">SSP</string>
+    <string name="freq_band">频段</string>
+    <string name="neighbor_cell_4g">4g_neighbor_cell</string>
+    <string name="neighbor_cell_3g">3g_neighbor_cell</string>
+    <string name="neighbor_cell_2g">2g_neighbor_cell</string>
+    <string name="redirection_4g">4g_redirection</string>
+    <string name="redirection_3g">3g_redirection</string>
+    <string name="measure_cell_3g">3g_measure_cell</string>
+    <string name="measure_cell_4g">4g_measure_cell</string>
+    <string name="la">LA</string>
+    <string name="lte_rat_change">lte_rat_change</string>
+    <string name="rat_change">rat_change</string>
+    <string name="IPO">IPO</string>
+    <string name="battery">battery</string>
+    <string name="unlock_screen">unlock screen</string>
+    <string name="hang_up_by_power">hang up by power</string>
+    <string name="regi_network">register network</string>
+    <string name="wifi_ap">WIFI_AP</string>
+    <string name="rat_mode">rat_mode</string>
+    
+</resources>

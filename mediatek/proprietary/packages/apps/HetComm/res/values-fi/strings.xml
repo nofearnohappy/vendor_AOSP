@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbo-lataus</string>
+    <string name="hetcomm_intro">Lataa suuria tiedostoja (yli 20 Mt) nopeammin käyttämällä Wi-Fi- ja 4G/3G-verkkoja samanaikaisesti.  Turbo-lataus-kuvake näkyy tilapalkissa, kun toimino on käynnissä. Turbo-lataus-toiminnon käyttämiseksi sekä Wi-Fi- että mobiilidatayhteyden on oltava kytkettynä päälle. Kun yhteys on käytössä, kaikki sovellustiedot, jotka olet valinnut ladattavasksi vain Wi-Fillä, ladataan silti WLAN- ja 4G/3G-verkoilla.</string>
+    <string name="enable_switch_on">"Käytössä"</string>
+    <string name="enable_switch_off">Pois</string>
+    <string name="notify_top_title">Latuksen kiihdytin</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wifi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Tiedonsiirto"</string>
+    <string name="conn_notice_title">Joko Mobiili- tai Wi-Fi-yhteys on POIS päältä.</string>
+    <string name="conn_notice_detail">Turbo-lataus-soelluksen ottamiseksi käyttöön sekä Wi-Fi- että mobiilidatan on oltava kytkettynä päälle.</string>
+    <string name="conn_charging_warning">Lataaminen matkapuhelinverkkojen kautta voi johtaa lisäveloitukseen sopimuksen mukaan.</string>
+    <string name="turn_on">Käynnistä <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Turbo-lataus on POIS, koska VPN on PÄÄLLÄ</string>
+    <string name="turn_off_due_to_tether">Turbo-lataus on POIS, koska jakaminen on PÄÄLLÄ</string>
+    <string name="turn_off_due_to_shutdown">Turbo-lataus on POIS sammutuksen vuoksi</string>
+    <string name="turn_off_due_to_roaming">Turbo-lataus on POIS verkkovierailun vuoksi</string>
+    <string name="ratio_is_single">Wi-Fi-/Mobiilidatanopeus on hidas. Lataamisen nopeuttamiseksi, Turbo-lataaminen käyttää tiedostojen lataamiseen ainoastaan Mobiilidata-/Wi-Fi-yhteyttä.</string>
+    <string name="ratio_is_back">Turbo-lataaminen käyttää Wi-Fi- ja Mobiilidatayhteyttä yhdessä tiedostojen jakamiseen.</string>
+    <string name="action_help">"Ohje"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbo.latausohje</u>\
+    </h1><br>Lataa suuret tiedostot huippunopeudella käyttämällä Wi-Fi- ja 4G/3G-yhteyttä samanaikaisesti.\
+    <h4>1. Siirry kohtaan Asetukset ja napauta Turbo-lataus.</h4>\
+    <h4>2. Napauta kytkintä käynnistääksesi Turbo-lataus-sovelluksen.</h4>\
+    <p><b>[Vinkki]</b> Nopeuttaa lataamista, jos yhdistetty sekä Wi-Fi- että 4G/3G-yhteydellä lataamisen alussa.\
+    <p><b>[Vinkki]</b> Jos Wi-Fi- tai 4G/3G-yhteytesi on liian hidas, voit käyttää lataamiseen nopeinta verkkoyhteyttäsi.\
+    <p><b>[Vinkki]</b> Verkkoympäristö voi vaikuttaa heikentävästi Turbo-lataus-sovelluksen nopeuteen ja suorituskykyyn ladattaessa.\
+    <br>&nbsp;&nbsp;- Tämän ominaisuuden nopeus ja suorituskyky voivat heikentyä, jos signaalit ovat epävakaita.\
+    <br>&nbsp;&nbsp;- Latausnopeus kuitenkin keskimäärin ""kaksinkertaistuu"" verrattuna pelkkään Wi-Fi- tai 4G/3G-yhteyteen.\
+    <p><b>[Vinkki]</b> Kun nopeusero Wi-Fi- ja 4G/3G-yhteyden välillä on suuri (Normaalisti 2,5-keertainen), Turbo-lataus pysähtyy tai ei tue latausta välttäkseen hitaasta nopeudesta johtuvan heikon suorituskyvyn.\
+    <p><b>[Vinkki]</b> Turbo-lataus kytkeytyy automaattisesti pois käytöstä, kun Jakaminen/Vpn on kytketty päälle.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.mediatek.blemanager.ui.BleStage2DView 
+        android:id="@+id/ble_stage_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <ImageButton
+        android:id="@+id/btn_find_me"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ble_stage_view"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bt_find_disable"
+        android:scaleType="centerCrop" />
+    
+    <ImageButton
+        android:id="@+id/btn_connect"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/ble_stage_view"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bt_connect_disable"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/pd_preference_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

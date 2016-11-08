@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Vertical"</item>
+		<item>Eina d’inici de la pantalla horitzontal</item>
+		<item>"Retrat invertit"</item>
+		<item>"Paisatge invertit"</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Una cara"</item>
+		<item>"Dues cares horitzontal"</item>
+		<item>"Dues cares vertical"</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Normal"</item>
+		<item>Esborranys</item>
+		<item>"Alta"</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+		<item>Nom d’intèrpret desconegut</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"sense errades"</item>
+		<item>"Errada en crear el fitxer v-Card"</item>
+		<item>"Format d'imatge no compatible"</item>
+	</string-array>
+</resources>

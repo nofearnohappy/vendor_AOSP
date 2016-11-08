@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">بدء الاستقبال...</string>
+    <string name="notification_group_title">جار استقبال <xliff:g id="number">%d</xliff:g> ملف...</string> 
+    <string name="notification_download_done">المس لعرض التفاصيل</string>
+    <string name="notification_group_received">تم استلام <xliff:g id="number">%d</xliff:g> ملف</string>
+    <string name="notification_received">تم الاستلام بنجاح</string> 
+    <string name="notification_download_failure">فشل الاستلام بسبب <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">تم إلغاء الاستلام</string>
+    <string name="notification_group_received_failed">فشل <xliff:g id="number">%d</xliff:g> ملف</string>
+    <string name="notification_group_received_partial_failed">فشل <xliff:g id="number">%d</xliff:g> ملف، نجاح <xliff:g id="number">%d</xliff:g> ملف</string>
+    <string name="download_no_file">الملف غير موجود</string>
+    <string name="notification_sending">بدء الإرسال...</string>
+    <string name="notification_group_upload_title">حار إرسال <xliff:g id="number">%d</xliff:g> ملف...</string>
+    <string name="notification_group_sent">تم ارسال <xliff:g id="number">%d</xliff:g> ملف</string>
+    <string name="notification_sent">تم الارسال بنجاح</string>
+    <string name="notification_upload_failed">فشل الارسال بسبب <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">تم إلغاء الإرسال</string>
+    <string name="notification_group_sent_failed">فشل <xliff:g id="number">%d</xliff:g> ملف</string>
+    <string name="notification_group_sent_partial_failed">فشل <xliff:g id="number">%d</xliff:g> ملف، تم إرسال <xliff:g id="number">%d</xliff:g> ملف</string>
+    <string name="low_storage">مساحة تخزين منخفضة</string>
+    <string name="connect_failure">"مشكلة في الاتصال"</string>
+    <string name="unknown_error">خطأ غير معروف</string>
+    <string name="share_label">مشاركة HotKnot</string>
+    <string name="rx_ui_image_status">جار استلام الصور من <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">جار استلام <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> صور من <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">جار استلام فيديو من <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">جار استلام <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> فيديو من <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">جار استلام الملف من <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">جار استلام <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ملف من <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">جار استلام موسيقى من <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">جار استلام <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> موسيقى من <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">لم تنتهِ عملية الاستلام بعد</string>
+</resources>

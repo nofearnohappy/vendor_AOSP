@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left">
+
+    <TextView android:text="@string/diag_gnss" style="@style/title" />
+ <TextView android:id="@+id/diag_gnss" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_wifi" style="@style/title" />
+ <TextView android:id="@+id/diag_wifi" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_wifi_ap" style="@style/title" />
+ <TextView android:id="@+id/diag_wifi_ap" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_sensors" style="@style/title" />
+ <TextView android:id="@+id/diag_sensors" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_bt" style="@style/title" />
+ <TextView android:id="@+id/diag_bt" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_bt_ap" style="@style/title" />
+ <TextView android:id="@+id/diag_bt_ap" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_flp" style="@style/title" />
+ <TextView android:id="@+id/diag_flp" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_flp_capabilites" style="@style/title" />
+ <TextView android:id="@+id/diag_flp_capabilites" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_flp_status" style="@style/title" />
+ <TextView android:id="@+id/diag_flp_status" style="@style/debug_info"/>
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/diag_log" style="@style/title" />
+
+ <LinearLayout style="@style/entry_layout">
+     <Button android:id="@+id/diag_clear" android:text="@string/diag_clear" style="@style/base"/>
+     <Button android:id="@+id/diag_loop_back" android:text="@string/diag_loop_back" style="@style/base"/>
+ </LinearLayout>
+
+ <TextView android:id="@+id/diag_log_count" style="@style/debug_info"/>
+ <TextView android:id="@+id/diag_log" style="@style/small_debug_info"/>
+
+</LinearLayout>
+</ScrollView>

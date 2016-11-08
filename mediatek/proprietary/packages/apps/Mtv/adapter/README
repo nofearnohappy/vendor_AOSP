@@ -1,0 +1,23 @@
+jar library for MTV player.
+
+This jar library is built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+com.mediatek.atv.adapter.jar is used to wrap the native method and provide the APIs to MtvPlayer.apk
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. framework.jar
+2. telephony-common.jar
+
+and the following libs from MediaTek:
+1. mediatek-framework.jar
+
+All source/dependency modules of this module are already put in
+'system/framework' folder.
+
+HOW TO USE IT?
+==============
+Ensure the device has relative chip and the MTV feature is enabled.

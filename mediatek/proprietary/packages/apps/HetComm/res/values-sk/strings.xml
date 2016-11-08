@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">SťahovanieTurbo</string>
+    <string name="hetcomm_intro">Pomocou Wi-Fi a 4G/3G súčasne preberajte veľké súbory (viac ako 20 MB), Počas preberania bude na stavovom riadku zobrazená ikona Sťahovanie Turbo. Ak chcete používať funkciu Sťahovanie Turbo, musí byť zapnutá sieť Wi-Fi aj aplikácia Mobile Data. Ak sú povolené, všetky údaje aplikácie, ktoré ste vybrali  na prevzatie iba cez sieť Wi-Fi, budú prevzaté cez WLAN a v každom prípade cez siete 4G/3G.</string>
+    <string name="enable_switch_on">"Zapnuté"</string>
+    <string name="enable_switch_off">Vyp.</string>
+    <string name="notify_top_title">Aplikácia Download Accelerator</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobilné dáta"</string>
+    <string name="conn_notice_title">Vypnutá je buď sieť Wi-Fi, alebo aplikácia Mobile Data.</string>
+    <string name="conn_notice_detail">Ak chcete povoliť funkciu Sťahovanie Turbo, musí byť zapnutá aj sieť Wi-Fi aj funkcia Mobilné </string>
+    <string name="conn_charging_warning">Za preberanie cez mobilné siete môžu byť účtované dodatočné poplatky. </string>
+    <string name="turn_on">Zapnite <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Sťahovanie Turbo je vypnuté, pretože VPN je zapnutá.</string>
+    <string name="turn_off_due_to_tether">Sťahovanie Turbo je vypnuté, pretože zdieľanie pripojenia je zapnuté.</string>
+    <string name="turn_off_due_to_shutdown">Sťahovanie Turbo je vypnuté vzhľadom k vypnutiu.</string>
+    <string name="turn_off_due_to_roaming">Sťahovanie Turbo je vypnuté vzhľadom k roamingu.</string>
+    <string name="ratio_is_single">Wi-Fi/Rýchlosť prenosu mobilných dát je pomalá. Ak chcete urýchliť preberanie, funkcia Turbo download použije na preberanie súborov iba mobilné dáta/Wi-Fi.</string>
+    <string name="ratio_is_back">Funkcia Turbo download znova použije na preberanie súborov spolu Wi-Fi a mobilné dáta.</string>
+    <string name="action_help">"Pomocník"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Pomocník Sťahovanie Turbo</u>\
+    </h1><br>Pomocou sietí Wi-Fi a 4G/3G môžete súčasne preberať veľké súbory pri vysokej rýchlosti.\
+    <h4>1. Prejdite do ponuky Nastavenia a ťuknite na položku Sťahovanie Turbo.</h4>\
+    <h4>2. Funkciu Sťahovanie Turbo zapnite ťuknutím na prepínač.</h4>\
+    <p><b>[Tip]</b> Ak ste pripojení k sieti Wi-Fi a 4G/3G, urýchlite preberanie pri spustení.\
+    <p><b>[Tip]</b> Ak je vaše pripojenie k sieti Wi-Fi alebo 4G/3G príliš pomalé, na preberanie môžete použiť rýchlejšie sieťové pripojenie.\
+    <p><b>[Tip]</b> Na rýchlosť a výkon funkcie Sťahovanie Turbo môže pri preberaní vplývať prostredie siete.\
+    <br>&nbsp;&nbsp;- Ak sú signály nestabilné, môže byť ovplyvnená rýchlosť a výkon tejto funkcie.\
+    <br>&nbsp;&nbsp;- v porovnaní s používaním iba samotnej siete Wi-Fi alebo 4G/3G bude však rýchlosť preberania v priemere „dvojnásobná“.\
+    <p><b>[Tip]</b> Ak je rýchlosť siete Wi-Fi a 4G/3G veľká (zvyčajne 2,5-nádobná), funkcia Sťahovanie Turbo sa zastaví alebo nebude podporovaná, aby s zabránilo slabému výkonu s ohľadom na rýchlosť.\
+    <p><b>[Tip]</b> Funkcia Sťahovanie Turbo by sa mala po zapnutí funkcie Tethering/Vpn automaticky vypnúť.\
+    </body></html>]]>"</string>
+</resources>

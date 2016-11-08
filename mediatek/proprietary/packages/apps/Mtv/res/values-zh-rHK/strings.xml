@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hw_init_failed">硬體初始化失敗。</string>
+    <string name="stop_record_first">請停止錄製。</string>
+    <string name="location_changed">位置已改變至%1$s。</string>
+    <string name="saved_to_gallery">存至圖庫。</string>
+    <string name="channel">頻道</string>
+    <string name="scan_confirm">目前節目表將刪除。</string>
+    <string name="turning_on_tv">Turning on TV…</string>
+    <string name="please_wait">請等待\u2026</string>
+    <string name="no_storage">請插入SD卡。</string>
+    <string name="preparing_sd">"正在準備 SD 卡..."</string>
+    <string name="multiselect">"複選"</string>    
+    <string name="confirm_delete_message">將刪除此頻道。</string>
+    <string name="confirm_delete_multiple_message">將刪除這些頻道。</string>
+<string name="scanning_channels">頻道掃描</string>
+<string name="stop">"停止"</string>
+<string name="choose_sound_mode">選擇生音模式</string>
+<string name="brightness">"亮度"</string>
+<string name="contrast">"對比"</string>
+<string name="saturation">"飽和度"</string>
+<string name="gallery">"圖片庫"</string>
+<string name="record">錄音</string>
+<string name="video_setting">影片設定</string>
+<string name="previous_channel">先前節目</string>
+<string name="sound_setting">聲音設定</string>
+<string name="rename">"重新命名"</string>
+<string name="fail_to_select_location">選擇位置失敗。</string>
+<string name="no_channels_hint">頻道清單是空的。</string>
+<string name="select_location">選擇位置</string>
+<string name="channel_list">頻道清單</string>
+<string name="no_channels_found">無訊號</string>
+<string name="scan_again">再次掃描</string>
+<string name="scan">"掃描"</string>
+<string name="delete">"刪除"</string>
+<string name="watch_now">現在觀看</string>
+<string name="select_all">選擇全部</string>
+<string name="new_channel_name">新頻道名稱：</string>
+<string name="spaceIsLow_content">您的SD卡已無使用空間。</string>
+<string name="vt_in_use_warning">撥號時電視無法使用。</string>
+<string name="analog_tv">"類比電視"</string>
+<string name="selected">%d 已選擇</string>   
+</resources>

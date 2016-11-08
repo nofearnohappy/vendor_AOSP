@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingRight="?android:attr/scrollbarSize"
+    android:gravity="center_vertical"
+    android:id="@+id/power_saving_layout">
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" />   
+    <LinearLayout
+        android:layout_width="0dip"
+	    android:layout_alignParentLeft="true" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2sp"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip"
+    	android:gravity="center_vertical"
+    	android:layout_centerVertical="true"
+        android:layout_weight="1">
+    <RelativeLayout
+        android:id="@+id/text_layout_sim_enabler"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="2dip"
+        android:layout_weight="1"
+        android:layout_centerVertical="true">    
+            <TextView 
+                android:id="@+android:id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="middle"  
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?android:attr/textColorPrimary"
+                android:text="@string/power_saving_mode"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <Switch 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/power_saving_switch"
+    	android:focusable="false" 
+    	android:clickable="true"  
+    	android:layout_height="wrap_content" 
+    	android:gravity="center_vertical|center" 
+    	android:layout_centerVertical="true"/>
+<!--    android:background="@drawable/list_selector_holo_dark" !-->
+</LinearLayout>

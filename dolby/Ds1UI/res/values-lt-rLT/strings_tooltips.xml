@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Išmanusis glodintuvas/Grafinis glodintuvas</string>
+	<string name="tooltip_eq_text">Išmanusis glodintuvas analizuoja ir dinamiškai pritaiko garsą pagal pageidaujamą dažninę charakteristiką. Pasirinkite iš keturių nurodytų iš anksto nustatytų parinkčių, palieskite spektro vizualizatorių ir atlikite pasirinktinius grafinio glodintuvo pakeitimus.</string>
+	<string name="tooltip_sv_title">Erdv. garso virtualiz.</string>
+	<string name="tooltip_sv_text">Erdvinio garso virtualizatorius sukuria tikrovišką erdvinį garsą bet kokiose ausinėse arba erdvinio garso garsiakalbiuose. Valdykite erdvinio garso efektą įjungdami arba išjungdami valdiklį.</string>
+	<string name="tooltip_de_title">Dialogų stiprintuvas</string>
+	<string name="tooltip_de_text">Dialogų stiprintuvas gerina kalbos aiškumą bet kokios rūšies medijoje. Valdykite dialogų stiprintuvą įjungdami arba išjungdami valdiklį.</string>
+	<string name="tooltip_vl_title">Gars. vienodintuvas</string>
+	<string name="tooltip_vl_text">Garsumo suvienodinimo priemonė palaiko vienodą viso turinio ir programų garsumo lygį pagal įrenginio pagrindinio garsumo lygį. Valdykite garsumo suvienodinimo priemonę įjungdami arba išjungdami valdiklį.</string>
+</resources>

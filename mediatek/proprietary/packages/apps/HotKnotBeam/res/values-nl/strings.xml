@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Ontvangen starten…</string>
+    <string name="notification_group_title">Ontvangt <xliff:g id="number">%d</xliff:g> bestanden….</string> 
+    <string name="notification_download_done">Raak aan om details weer te geven</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> bestanden ontvangen</string>
+    <string name="notification_received">Ontvangen geslaagd</string> 
+    <string name="notification_download_failure">Ontvangen mislukt wegens <xliff:g id="reason">%s</xliff:g> </string> 
+    <string name="notification_download_cancel">Ontvangen geannuleerd</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> bestanden niet verzonden</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> bestanden niet ontvangen, <xliff:g id="number">%d</xliff:g> bestanden ontvangen</string>
+    <string name="download_no_file">"Bestand bestaat niet"</string>
+    <string name="notification_sending">Verzenden starten…</string>
+    <string name="notification_group_upload_title">Verzendt <xliff:g id="number">%d</xliff:g> bestanden….</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> bestanden verzonden</string>
+    <string name="notification_sent">Verzenden geslaagd</string>
+    <string name="notification_upload_failed">Verzenden mislukt wegens <xliff:g id="reason">%s</xliff:g> </string>
+    <string name="notification_upload_cancel">Verzenden geannuleerd</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> bestanden niet verzonden</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> bestanden niet verzonden, <xliff:g id="number">%d</xliff:g> bestanden verzonden</string>
+    <string name="low_storage">Weinig opslagruimte</string>
+    <string name="connect_failure">"Verbindingsprobleem"</string>
+    <string name="unknown_error">Onbekende fout</string>
+    <string name="share_label">HotKnot delen</string>
+    <string name="rx_ui_image_status">Ontvangt afbeelding van <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Ontvangt <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> afbeeldingen van <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Ontvangt video van <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">"Ontvangt <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> video's van <xliff:g id="device">%3$s</xliff:g>"</string>
+    <string name="rx_ui_status">Ontvangt bestand van <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Ontvangt <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> bestanden van <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Ontvangt muziek van <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Ontvangt <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> muziek van <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Ontvangen niet voltooid</string>
+</resources>

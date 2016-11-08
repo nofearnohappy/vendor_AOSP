@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbolejupielāde</string>
+    <string name="hetcomm_intro">Lejupielādējiet lielus failus (lielākus par 20 MB) ātrāk, vienlaicīgi izmantojot Wi-Fi un 4G/3G tīklu. Ikona Turbo lejupielāde tiks rādīta statusa joslā, kad tas darbosies. Lai lietotu funkciju Turbo lejupielāde, jābūt ieslēgtam Wi-Fi un mobilajiem datiem. Kad tie ir iespējoti, jebkuri lietotņu dati, kuri ir atlasīti lejupielādei, izmantojot tikai Wi-Fi, tiks lejupielādēti, vienlaicīgi izmantojot WLAN un 4G/3G tīklus.</string>
+    <string name="enable_switch_on">"Ieslēgts"</string>
+    <string name="enable_switch_off">Izsl.</string>
+    <string name="notify_top_title">Lejupielāžu paātrinātājs</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobilo ierīču dati"</string>
+    <string name="conn_notice_title">Pat tad, ja mobilais tīkls vai Wi-Fi ir IZSLĒGTS.</string>
+    <string name="conn_notice_detail">Lai iespējotu funkciju Turbo lejupielāde, jābūt ieslēgtam Wi-Fi un mobilajiem datiem.</string>
+    <string name="conn_charging_warning">Lejupielāde, izmantojot mobilos tīklus, var radīt papildu izmaksas.</string>
+    <string name="turn_on">Ieslēdziet <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Turbo lejupielāde ir izslēgta, jo Vpn ir ieslēgts</string>
+    <string name="turn_off_due_to_tether">Turbo lejupielāde ir izslēgta, jo piesaiste ir ieslēgta</string>
+    <string name="turn_off_due_to_shutdown">Turbo lejupielāde ir izslēgta, jo tālrunis tiek izslēgts</string>
+    <string name="turn_off_due_to_roaming">Turbo lejupielāde ir izslēgta, jo notiek viesabonēšana</string>
+    <string name="ratio_is_single">Wi-Fi/mobilo datu ātrums ir lēns. Lai paātrinātu lejupielādi, Turbo lejupielāde izmanto tikai mobilos datus/Wi-Fi failu lejupielādei.</string>
+    <string name="ratio_is_back">Turbo lejupielāde izmanto atkārtoti Wi-Fi un mobilos datus kopā, lai lejupielādētu failus.</string>
+    <string name="action_help">"Palīdzība"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Programmas Turbo lejupielāde palīdzība</u>\
+    </h1><br>Lielus failus lejupielādējiet ar lielāku ātrumu, vienlaicīgi izmantojot Wi-Fi un 4G/3G.\
+    <h4>1. Atveriet Iestatījumi un pieskarieties programmai Turbo lejupielāde.</h4>\
+    <h4>2. Pieskarieties slēdzim, lai ieslēgtu programmu Turbo lejupielāde.</h4>\
+    <p><b>[padomo]</b> Uzsākot lejupielādi, palieliniet ātrumu, ja izveidots savienojums ar Wi-Fi un 4G/3G.\
+    <p><b>[padomo]</b> Ja Wi-Fi vai 4G/3G savienojums ir pārāk lēns, lejupielādei varat lietot ātrāko tīklu.\
+    <p><b>[padomo]</b> Lejupielādes laikā programmas Turbo lejupielāde ātrums un veiktspēja var ietekmēt tīkla vidi.\
+    <br>&nbsp;&nbsp;- Ja signāls ir nestabils, var būt ietekmēts šīs funkcijas ātrums un veiktspēja.\
+    <br>&nbsp;&nbsp;- Tomēr ātrums var tikt dubultots salīdzinājumā, ja tiek lietots tikai Wi-Fi vai 4G/3G.\
+    <p><b>[padomo]</b> Kad Wi-Fi un 4G/3G ātruma atšķirība ir liela (parasti 2,5 reizes), programmas Turbo lejupielāde darbība tiek apturēta vai netiek atbalstīta, lai izvairītos no sliktas veiktspējas, saglabājot ātrumu.\
+    <p><b>[padomo]</b> Programma Turbo lejupielāde tiek automātiski atspējota, līdzko tiek ieslēgta piesaiste/Vpn.\
+    </body></html>]]>"</string>
+</resources>

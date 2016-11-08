@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Customer Service</string>
+    <string name="hotLine">China Unicom Customer Hotline</string>
+    <string name="app_not_found">No app was found to handle this action.</string>
+</resources>

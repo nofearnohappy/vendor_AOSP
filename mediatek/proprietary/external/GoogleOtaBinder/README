@@ -1,0 +1,29 @@
+The bin file GoogleOtaBinder is a daemon service.
+This bin is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+
+GoogleOtaBinder is native service to process MOTA.
+It reads upgrade result from recovery.
+
+
+HOW IT WAS BUILT?
+==================
+
+Build it only MTK_SYSTEM_UPDATE_SUPPORT is open.
+It needs the following library from AOSP:
+1.  libutils.so
+2.  libcutils.so
+3.  libbinder.so
+4.  libfile_op.so
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+Do MOTA upgrade.
+

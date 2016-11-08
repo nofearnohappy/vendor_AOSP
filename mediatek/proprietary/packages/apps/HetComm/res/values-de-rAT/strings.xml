@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbo-Download</string>
+    <string name="hetcomm_intro">Laden Sie groe Dateien (über 20 MB) schneller herunter, indem Sie Wi-Fi und 4G/3G parallel verwenden. Das Symbol von Turbo-Download erscheint, wenn es gestartet ist, in der Statuszeile. Um Turbo-Download zu verwenden, muss sowohl Wi-Fi als auch Mobile Daten aktiviert sein. Sind sie aktiviert, werden auch Daten, bei denen ein Download über Wi-Fi spezifiziert wurde, über W-LAN und 4G/3G-Netzwerke heruntergeladen.</string>
+    <string name="enable_switch_on">Ein</string>
+    <string name="enable_switch_off">Off</string>
+    <string name="notify_top_title">Download-Beschleuniger</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">Wi-Fi</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">Mobile Daten</string>
+    <string name="conn_notice_title">Entweder Mobile Daten oder Wi-Fi ist deaktiviert</string>
+    <string name="conn_notice_detail">Für Turbo-Download muss sowohl Wi-Fi als auch Mobile Daten aktivert sein.</string>
+    <string name="conn_charging_warning">Herunterladen über mobile Netzwerke kann zu zusätzlichen Kosten führen.</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> einschalten</string>
+    <string name="turn_off_due_to_vpn">Turbo-Download ist AUS, da VPN EIN ist</string>
+    <string name="turn_off_due_to_tether">Turbo-Download ist AUS, da Tethering EIN ist</string>
+    <string name="turn_off_due_to_shutdown">Turbo-Download ist AUS, da es heruntergefahren wurde</string>
+    <string name="turn_off_due_to_roaming">Turbo-Download ist wegen Roaming AUS</string>
+    <string name="ratio_is_single">Die Übertragungsrate von Wi-Fi/Mobile Daten ist niedrig. Um den Download der Dateien zu beschleunigen, verwendet Turbo-Download nur Mobile Daten/Wi-Fi.</string>
+    <string name="ratio_is_back">Turbo-Download verwendet wieder Wi-Fi und Mobile Daten gleichzeitig, um die Dateien herunter zu laden.</string>
+    <string name="action_help">Hilfe</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbo-Download-Hilfe</u>\
+    </h1><br>Laden Sie große Dateien schnell herunter, indem Sie gleichzeitig Wi-Fi und 4G/3G verwenden.\
+    <h4>1. Gehen Sie zu Einstellungen und tippen Sie auf Turbo-Download.</h4>\
+    <h4>2. Tippen Sie auf den Schalter, um Turbo-Download einzuschalten,</h4>\
+    <p><b>[Tipp]</b> um so den Download zu beschleunigen, wenn Sie beim Start des Downloads sowohl mit Wi-Fi als auch mit 4G/3G verbunden sind.\
+    <p><b>[Tipp]</b> Ist Wi-Fi oder 4G/3G zu langsam, können Sie so für den Download die schnellere Verbindung nutzen.\
+    <p><b>[Tipp]</b> Geschwindigkeit und Leistung von Turbo-Download kann durch die Netzwerkumgebung beeinflusst werden.\
+    <br>&nbsp;&nbsp;- Ist das Signal nicht stabil, kann dies Geschwindigkeit und Leistung der Funktion beeinflussen.\
+    <br>&nbsp;&nbsp;- Die durchschnittliche Download-Geschwindigkeit kann sich aber im Vergleich zu Wi-Fi oder 4G/3G allein ""verdoppeln"".\
+    <p><b>[Tipp]</b> Ist der Geschwindigkeitsunterschied zwischen Wi-Fi und 4G/3G sehr groß (normal 2,5-fach), stoppt Turbo-Download oder wird nicht unterstützt, um eine schlechte Übertragungsleistung zu vermeiden.\
+    <p><b>[Tipp]</b> Turbo-Download wird automatisch deaktiviert, wenn Tethering/Vpn eingeschaltet wird.\
+    </body></html>]]>"</string>
+</resources>

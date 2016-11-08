@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbo-download</string>
+    <string name="hetcomm_intro">Hent store filer (over 20 MB) hurtigere vha. samtidig Wi-Fi og 4G/3G-netværk. Turbo-download-ikonet vises i statuslinjen, når programmet kører. For at bruge Turbo-download skal både Wi-Fi og mobildata være slået til. Når programmet er aktiveret, vil programdata, du har valgt at hente via Wi-Fi, alligevel kun blive hentet via WLAN og 4G/3G-netværk.</string>
+    <string name="enable_switch_on">"Til"</string>
+    <string name="enable_switch_off">Fra</string>
+    <string name="notify_top_title">Download-accelerator</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobildata"</string>
+    <string name="conn_notice_title">Enten mobildata eller Wi-Fi er slået fra.</string>
+    <string name="conn_notice_detail">For at aktivere Turbo-download skal både Wi-Fi og mobildata være slået til.</string>
+    <string name="conn_charging_warning">Download via mobilnetværk vil muligvis indebære et ekstra gebyr.</string>
+    <string name="turn_on">Slå <xliff:g id="conn">%1$s</xliff:g> til</string>
+    <string name="turn_off_due_to_vpn">Turbo-download er slået FRA pga. at Vpn er slået TIL</string>
+    <string name="turn_off_due_to_tether">Turbo-download er slået FRA pga. at Tethering er slået TIL</string>
+    <string name="turn_off_due_to_shutdown">Turbo-download er slået FRA pga. nedlukning</string>
+    <string name="turn_off_due_to_roaming">Turbo-download er slået FRA pga. roaming</string>
+    <string name="ratio_is_single">Wi-Fi mobildateforbindelse er langsom. For at gøre download hurtigere, vil Turbo-download kun bruge mobildata/Wi-Fi til at downloade filer.</string>
+    <string name="ratio_is_back">Turbo-download bruger Wi-Fi- og mobildateforbindelse samtidigt til download af filer.</string>
+    <string name="action_help">"Hjælp"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Hjælp til Turbo Download</u>\
+    </h1><br>Download store filer ved høj hastighed vha. Wi-Fi og 4G/3G på samme tid.\
+    <h4>1. Gå til Indstillinger og tryk på Turbo Download.</h4>\
+    <h4>2. Tryk på kontakten for at aktivere Turbo Download.</h4>\
+    <p><b>[Tip]</b> Få højere downloadhastighed, hvis du er tilsluttet både Wi-Fi og 4G/3G, når du starter din download.\
+    <p><b>[Tip]</b> Hvis din Wi-Fi- eller 4G/3G-forbindelse er for langsom, kan du bruge din hurtigere netværksforbindelse til at downloade.\
+    <p><b>[Tip]</b> Turbo Downloads hastighed og ydeevne kan være påvirket af netværket under download.\
+    <br>&nbsp;&nbsp;- Hvis signalerne er ustabile, kan det påvirke hastigheden for denne funktion.\
+    <br>&nbsp;&nbsp;- gennemsnitligt vil downloadhastigheden dog blive fordoblet sammenlignet med brug af kun Wi-Fi eller 4G/3G alene.\
+    <p><b>[Tip]</b> Hvis hastighedsforskellen mellem Wi-Fi og 4G/3G er stor (normalt 2,5 gange), vil Turbo Download stoppe for at undgå dårlig ydeevne mht. hastighed.\
+    <p><b>[Tip]</b> Turbo Download afbrydes automatisk, når du slår Tethering/Vpn til.\
+    </body></html>]]>"</string>
+</resources>

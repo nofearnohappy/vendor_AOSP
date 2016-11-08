@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+
+    <string name="intelligent_equalizer">인텔리전트 이퀄라이저 </string>
+
+    <string name="surround_virtualizer">서라운드 버추얼라이저</string>
+
+    <string name="dialogue_enhancer">다이얼로그 인핸서</string>
+
+    <string name="volume_leveler">볼륨 레벨러</string>
+
+    <string name="copyright">돌비 및 더블 D 심볼은 돌비 래버러토리스의 등록 상표입니다. \u00a92012 돌비 래버러토리스. 모든 소유권 보유.</string>
+
+    <string name="movie">영화</string>
+
+    <string name="music">음악</string>
+
+    <string name="game">게임</string>
+
+    <string name="voice">음성</string>
+
+    <string name="preset_1">사용자 지정 1</string>
+
+    <string name="preset_2">사용자 지정 2</string>
+
+    <string name="open">개방</string>
+
+    <string name="rich">풍부함</string>
+
+    <string name="focused">집중</string>
+
+    <string name="off">꺼짐</string>
+
+    <string name="custom">수동</string>
+
+    <string name="db36">36dB</string>
+
+    <string name="db24">24dB</string>
+
+    <string name="db12">12dB</string>
+
+    <string name="db0">0dB</string>
+
+    <string name="dbn12">-12dB</string>
+
+    <string name="graphical_equalizer">그래픽 이퀄라이저  </string>
+
+    <string name="app_name">Dolby Audio</string>
+
+
+    <string name="instore_menu_text">데모 재생</string>
+
+
+
+</resources>
+ 
+

@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioParamParser", ".\AudioParamParser.vcproj", "{A8178A09-85BA-475F-BA34-2476D57B08CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioParamTest", ".\AudioParamTest.vcproj", "{829DBF7A-9A0C-49DA-A348-EAC815690178}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8178A09-85BA-475F-BA34-2476D57B08CB} = {A8178A09-85BA-475F-BA34-2476D57B08CB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8178A09-85BA-475F-BA34-2476D57B08CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8178A09-85BA-475F-BA34-2476D57B08CB}.Debug|Win32.Build.0 = Debug|Win32
+		{A8178A09-85BA-475F-BA34-2476D57B08CB}.Release|Win32.ActiveCfg = Release|Win32
+		{A8178A09-85BA-475F-BA34-2476D57B08CB}.Release|Win32.Build.0 = Release|Win32
+		{829DBF7A-9A0C-49DA-A348-EAC815690178}.Debug|Win32.ActiveCfg = Debug|Win32
+		{829DBF7A-9A0C-49DA-A348-EAC815690178}.Debug|Win32.Build.0 = Debug|Win32
+		{829DBF7A-9A0C-49DA-A348-EAC815690178}.Release|Win32.ActiveCfg = Release|Win32
+		{829DBF7A-9A0C-49DA-A348-EAC815690178}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

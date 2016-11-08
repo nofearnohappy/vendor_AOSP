@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <string name="tooltip_eq_title">Equalizzatore Intelligente/Equalizzatore Grafico</string>
+    <string name="tooltip_eq_text">L’equalizzatore intelligente analizza l’audio e lo regola in modo dinamico affinché produca il suono desiderato. Scegliere una delle quattro preimpostazioni indicate e quindi toccare il visualizzatore dello spettro audio per apportare modifiche personalizzate all’equalizzatore grafico.</string>
+    <string name="tooltip_sv_title">Surround Virtuale</string>
+    <string name="tooltip_sv_text">Surround virtuale crea un effetto surround sound realistico utilizzando un qualsiasi paio di cuffie o altoparlanti stereo. Per attivare o disattivare l’effetto surround sound, portare l’interruttore su On o su Off.</string>
+    <string name="tooltip_de_title">Ottimizzazione Voce</string>
+    <string name="tooltip_de_text">Ottimizzazione voce rende più chiara la voce all’interno di qualsiasi tipo di contenuto multimediale. Per attivare o disattivare l’ottimizzazione, portare l’interruttore su On o su Off.</string>
+    <string name="tooltip_vl_title">Normalizzatore Volume</string>
+    <string name="tooltip_vl_text">Il normalizzatore del volume uniforma il livello del volume indipendentemente dal contenuto o dall’applicazione in base al volume principale del dispositivo. Per attivare o disattivare il normalizzatore del volume, portare l’interruttore su On o su Off. </string>
+
+</resources>

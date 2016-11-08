@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Partage HotKnot</string>
+    <string name="hint1">"Assurez-vous que l'appareil récepteur a bien activé HotKnot et gardez son écran verrouillé."</string>
+    <string name="hint2">"Placez votre appareil écran à écran sur l'appareil récepteur."</string>
+    <string name="hint3">"Dès que vous entendez un message vocal, éloignez votre appareil de l'appareil récepteur."</string>
+    <string name="use_hotknot">"Cet application requiert l'utilisation de la technologie HotKnot sur votre appareil."</string>
+    <string name="allow">"Autoriser"</string>
+    <string name="deny">"Refuser"</string>
+    <string name="fail_to_share">Echec du partage</string>
+    <string name="fail_to_share_conn_error">Echec du partage dû à un problème de connexion.</string>
+    <string name="fail_to_share_unknown_error">Echec de partage dû à une erreur inconnue.</string>
+    <string name="try_again">"Réessayer"</string>
+    <string name="usb_warning">La fonction HotKnot peut être affectée durant le chargement USB.</string>
+</resources>

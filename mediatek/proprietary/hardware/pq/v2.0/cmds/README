@@ -1,0 +1,16 @@
+WHAT IT DOES?
+=============
+Will be built as /system/bin/pq to perform MediaTek PQ work.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libcutils.so
+2.  libutils.so
+	
+and the following libs from MediaTek:
+1.  libpq_cust.so
+
+HOW TO USE IT?
+==============
+run pq in init.rc to register PQ related feature parameters.

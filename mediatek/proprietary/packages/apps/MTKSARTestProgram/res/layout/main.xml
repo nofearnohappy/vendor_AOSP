@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10px" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/command_text" />
+
+            <TextView
+                android:id="@+id/command_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/result_text" />
+
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10px" >
+
+                <EditText
+                    android:id="@+id/command_edit"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10px" />
+
+                <Button
+                    android:id="@+id/command"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10px"
+                    android:text="@string/command" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10px" >
+
+                <Button
+                    android:id="@+id/reset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reset" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10px" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/reductionRat_edit_2g"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="2g db  0~31"
+                        android:padding="10px"
+                        android:phoneNumber="true" />
+
+                    <EditText
+                        android:id="@+id/reductionRat_edit_3g"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="3g db  0~31"
+                        android:padding="10px"
+                        android:phoneNumber="true" />
+
+                    <EditText
+                        android:id="@+id/reductionRat_edit_4g"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="4g db  0~31"
+                        android:padding="10px"
+                        android:phoneNumber="true" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/reductionRat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10px"
+                    android:text="@string/reductionRat" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10px" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Spinner
+                        android:id="@+id/modem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/band"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/reductionRat_edit_band"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="2g value  0~31"
+                        android:padding="10px"
+                        android:phoneNumber="true" />
+
+                    <Button
+                        android:id="@+id/reductionRatByband"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10px"
+                        android:text="@string/reductionRatByBand" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10px" >
+
+                <Button
+                    android:id="@+id/open_wifi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/open_wifi" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10px" >
+
+                <Button
+                    android:id="@+id/close_wifi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/close_wifi" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10px" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/setwifi_edit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="wifi value -60~20"
+                        android:padding="10px"
+                        android:phoneNumber="true" />
+
+                    <Button
+                        android:id="@+id/set_wifi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10px"
+                        android:text="@string/set_wifi" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

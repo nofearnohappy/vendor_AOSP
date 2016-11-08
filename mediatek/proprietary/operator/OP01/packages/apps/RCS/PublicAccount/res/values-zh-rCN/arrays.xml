@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recommend_type">
+        <item>热门帐号</item>
+        <item>资讯阅读</item>
+        <item>明星名人</item>
+        <item>餐饮购物</item>
+        <item>企业机构</item>
+        <item>交友社区</item>
+        <item>游戏娱乐</item>
+        <item>音乐视频</item>
+        <item>教育培训</item>
+        <item>其他类</item>
+    </string-array>
+
+</resources>

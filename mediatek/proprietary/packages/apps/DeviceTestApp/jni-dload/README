@@ -1,0 +1,23 @@
+Library of MTK NFC features
+
+
+WHAT IT DOES?
+=============
+libdta_dynamic_load_jni.so contains MediaTek developed NFC dynamic load modules.  
+Without them, NFC functionalities will not work.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libutils.so
+2.  libcutils.so
+3.  libnativehelper.so
+
+
+HOW TO USE IT?
+==============
+
+Provide api for DTA-JNI to control the dynamic load features.
+
+All the source code of this library were written by MediaTek co..
+

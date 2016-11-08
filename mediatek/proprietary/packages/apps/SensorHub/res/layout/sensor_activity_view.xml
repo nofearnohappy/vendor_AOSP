@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingStart="8dip"
+    android:paddingEnd="?android:attr/scrollbarSize">
+
+    <TextView
+            android:id="@+id/info0"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/info1"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/info2"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/info3"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/info4"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/info5"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <CheckBox
+            android:id="@+id/enable_notify"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/enable_notify_sound"
+            android:visibility="gone" />
+
+    <CheckBox
+            android:id="@+id/enable_log"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/enable_log" />
+
+    <Button
+            android:id="@+id/request_sensor"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/request_sensor"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/inital_steps"
+            android:text="@string/inital_step_string"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/total_steps"
+            android:text="@string/total_step_string"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+    <TextView
+            android:id="@+id/inital_distance"
+            android:text="@string/inital_distance_string"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+    <TextView
+            android:id="@+id/total_distance"
+            android:text="@string/total_distance_string"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:paddingStart="8dip"
+            android:textSize="15dp"
+            android:visibility="gone" />
+    <Button
+            android:id="@+id/clear_step"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/clear_step"
+            android:visibility="gone" />
+</LinearLayout>

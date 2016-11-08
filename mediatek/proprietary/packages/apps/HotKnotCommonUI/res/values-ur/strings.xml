@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot اشتراک</string>
+    <string name="hint1">یقینی بنائیں کہ وصول کنندہ آلے میں HotKnot آن ہو، اور اس کی اسکرین کو ان لاک رکھیں۔</string>
+    <string name="hint2">اپنے آلے کے اسکرین کو وصول کنندہ آلے کے اسکرین پر رکھیں۔</string>
+    <string name="hint3">صوتی انتباہ سننے کے بعد اپنے آلے کو وصول کنندہ آلے سے دور لے جائیں۔</string>
+    <string name="use_hotknot">اس اپلیکیشن کے لیے آپ کے آلے پرHotKnot ٹکنالوجی استعمال کرنے کی ضرورت ہے۔</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="deny">مسترد</string>
+    <string name="fail_to_share">تقسیم کرنا ناکام</string>
+    <string name="fail_to_share_conn_error">کنکشن کے مسئلے کی وجہ سے اشتراک کرنے میں ناکام۔</string>
+    <string name="fail_to_share_unknown_error">نامعلوم خرابی کی وجہ سے اشتراک کرنے میں ناکام۔</string>
+    <string name="try_again">دوبارہ کوشش کریں</string>
+    <string name="usb_warning">USB چارجنگ کے دوران HotKnot فنکشن متاثر ہوسکتا ہے۔</string>
+</resources>

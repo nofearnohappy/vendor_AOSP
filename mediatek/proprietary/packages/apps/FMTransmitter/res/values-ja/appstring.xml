@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">FM送信機</string>
+    <string name="dlg_seek_title">"検索中"</string>
+    <string name="dlg_search_text">未使用のチャンネルを検索しています。お待ちください...</string>
+    <string name="advanced_title">周波数の手動設定</string>
+    <string name="text_input_frequency">希望する周波数を入力してください。87.5-97.5と99.5-108の間が使用できます</string>
+    <string name="text_ok">"OK"</string>
+    <string name="text_auto_search">未使用のチャンネルを自動検索</string>
+    <string name="text_search">"検索"</string>
+    <string name="toast_plugout_earphone">先にイヤホンの接続を外してください。</string>
+    <string name="toast_input_error">前回の入力は無効です。有効な値は0または5です。</string>
+    <string name="toast_input_valid">87.5-97.5または99.5-108の範囲の数値を入力してください</string>
+</resources>

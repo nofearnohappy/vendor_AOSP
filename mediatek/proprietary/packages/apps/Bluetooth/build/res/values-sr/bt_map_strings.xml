@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Удаљен захтев за ауторизацију приступа поруке"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Удаљен захтев за ауторизацију приступа поруке"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Одаберите да дозволите приступно повезивање поруке" </string>
+	<string name="bluetooth_map_server_authorize_title">"Удаљен захтев за ауторизацију приступа поруке"</string>
+	<string name="bluetooth_map_server_authorize_message">"Дозволите удаљени захтев за приступ од %1$s"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Дозволи"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Одбиј</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Режим за приступ удаљене поруке је повезан"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s приступа вашим порукама"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"Одаберите да искључите са %1$s"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Искључите удаљени приступ поруке"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Искључити са %1$s?"</string>
+  <string name="bluetooth_map_server_yes">"Да"</string>
+	<string name="bluetooth_map_server_no">Нема доступне апликације за штампање контакта.</string>
+	<string name="bluetooth_map_server_settings">"Подешавања удаљеног приступа поруке"</string>
+	<string name="bluetooth_map_server_enable_title">"Удаљен захтев за ауторизацију приступа поруке"</string>
+	<string name="bluetooth_map_server_enable_summary">"Укључи компатибилност са слушним апаратом"</string>
+	<string name="bluetooth_map_server_sim_index_title">Одабери SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Одабери налог е-поште"</string>
+	<string name="bluetooth_map_server_no_account">"Нема доступног налога е-поште"</string>
+	<string name="bluetooth_map_server_OK">подешавање SMS сервисног центра је успешно</string>
+	<string name="bluetooth_map_server_cancel">"Желите ли сигурно да откажете преузимање?\nПритисните дугме Настави да бисте наставили преузимање\n Притисните дугме Одбаци да бисте одбацили преузимање и обрисали преузету датотеку"</string>
+</resources>

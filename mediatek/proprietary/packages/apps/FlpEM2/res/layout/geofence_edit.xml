@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left">
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/geofence_id" style="@style/info_label" />
+     <TextView android:id="@+id/edit_geofence_id" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/latitude" style="@style/info_label" />
+     <EditText android:id="@+id/edit_geofence_latitude" style="@style/full_edit" android:maxLength="15" android:inputType="numberDecimal|numberSigned"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/longitude" style="@style/info_label" />
+     <EditText android:id="@+id/edit_geofence_longitude" style="@style/full_edit" android:maxLength="15" android:inputType="numberDecimal|numberSigned"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/radius" style="@style/info_label" />
+     <EditText android:id="@+id/edit_geofence_radius" style="@style/full_edit" android:maxLength="10" android:inputType="numberDecimal"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/last_transition" style="@style/info_label" />
+     <RadioGroup style="@style/vertical_layout">
+  <RadioButton android:id="@+id/edit_geofence_last_transition_enter" android:text="@string/enter" style="@style/base"/>
+  <RadioButton android:id="@+id/edit_geofence_last_transition_exit" android:text="@string/exit" style="@style/base"/>
+  <RadioButton android:id="@+id/edit_geofence_last_transition_uncertain" android:text="@string/uncertain" style="@style/base"/>
+  </RadioGroup>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/unknown_timer" style="@style/info_label" />
+     <EditText android:id="@+id/edit_geofence_unknown_timer" style="@style/full_edit" android:maxLength="9" android:inputType="number"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/monitor_transitions" style="@style/info_label" />
+  <LinearLayout style="@style/vertical_layout">
+      <CheckBox android:id="@+id/edit_geofence_monitor_enter" android:text="@string/enter" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_geofence_monitor_exit" android:text="@string/exit" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_geofence_monitor_uncertain" android:text="@string/uncertain" style="@style/base"/>
+  </LinearLayout>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/notifiction_responsiveness" style="@style/info_label" />
+     <EditText android:id="@+id/edit_geofence_responsiveness" style="@style/full_edit" android:maxLength="9" android:inputType="number"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/source" style="@style/info_label" />
+  <LinearLayout style="@style/vertical_layout">
+      <CheckBox android:id="@+id/edit_geofence_gnss" android:text="@string/gnss" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_geofence_wifi" android:text="@string/wifi" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_geofence_sensors" android:text="@string/sensors" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_geofence_cell" android:text="@string/cell" style="@style/base"/>
+      <CheckBox android:id="@+id/edit_geofence_bt" android:text="@string/bt" style="@style/base"/>
+  </LinearLayout>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/edit_geofence_ok" android:text="@string/ok" style="@style/base"/>
+  <Button android:id="@+id/edit_geofence_cancel" android:text="@string/cancel" style="@style/base"/>
+ </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

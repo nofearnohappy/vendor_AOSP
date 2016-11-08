@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">Сымсыз енгізу құрылғысы</string>
+  <string name="bluetooth_hid_connect">Қосылу</string>
+    <string name="bluetooth_hid_disconnect">Ажырату</string>
+	<string name="bluetooth_hid_unplug">Ажырату</string>
+	<string name="bluetooth_hid_addnewdevice">Жаңа құрылғыны қосу</string>
+  <string name="bluetooth_hid_paireddevices">Қос сымсыз енгізу құрылғысы</string>
+	<string name="bluetooth_hid_bt_ok">Bluetooth сәтті қосылды!</string> 
+	<string name="bluetooth_hid_bt_fail">Bluetooth қосу орындалмады!</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">Сымсыз енгізу құрылғысын өшіріңіз</string>
+  <string name="bluetooth_hid_unplug_confirm_title">Сымсыз енгізу құрылғысын ажыратыңыз</string>
+  <string name="bluetooth_hid_auth_confirm_title">Сымсыз енгізу құрылғысының сауалын қабылдау</string>
+  <string name="bluetooth_hid_summary_connected">Қосылды</string> 
+	<string name="bluetooth_hid_summary_connecting">Байланысу...</string>
+	<string name="bluetooth_hid_summary_not_connected">Жалғанды, бірақ байланыспады</string>
+	<string name="bluetooth_hid_yes">Иә</string> 
+	<string name="bluetooth_hid_no">Жоқ</string>
+  <string name="bluetooth_hid_connected_notify_ticker">Сымсыз енгізу құрылғысы қосылды</string>
+  <string name="bluetooth_hid_connected_notify_title">Сымсыз енгізу құрылғысы қосылды</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">Сымсыз енгізу құрылғысын қосу сұрауы</string>
+  <string name="bluetooth_hid_connect_request_notify_title">Сымсыз енгізу құрылғысын қосу сұрауы</string>
+    <string name="bluetooth_hid_connected_notify_message">%1$s арқылы байланысты ажырату үшін таңдаңыз</string>
+    <string name="bluetooth_hid_connect_request_notify_message">%1$s арқылы байланыс сауалын қабылдау немесе қабылдамау үшін таңдаңыз</string>
+  <string name="bluetooth_hid_connect_ok">%1$s сымсыз енгізу құрылғысы сәтті қосылды!</string>
+  <string name="bluetooth_hid_connect_fail">%1$s сымсыз енгізу құрылғысы қосылмады!</string>
+  <string name="bluetooth_hid_disconnect_ok">%1$s сымсыз енгізу құрылғысы сәтті өшірілді!</string>
+  <string name="bluetooth_hid_disconnect_fail">%1$s сымсыз енгізу құрылғысы өшірілмеді!</string>
+  <string name="bluetooth_hid_unplug_ok">%1$s сымсыз енгізу құрылғысы сәтті ажыратылды!</string>
+  <string name="bluetooth_hid_unplug_fail">%1$s сымсыз енгізу құрылғысы ажыратылмады!</string>
+  <string name="bluetooth_hid_disconnect_confirm">%1$s сымсыз енгізу құрылғысын өшіресіз бе?</string>
+  <string name="bluetooth_hid_unplug_confirm">%1$s сымсыз енгізу құрылғысын ажыратасыз ба?</string>
+  <string name="bluetooth_hid_auth_confirm">%1$s арқылы сымсыз енгізу құрылғысының сауалын қабылдайсыз ба?</string>
+  <string name="bluetooth_hid_summary_disconnecting">Өшіру...</string>
+</resources>

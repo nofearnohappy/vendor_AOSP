@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+ANT native layer driver for MT6630.
+
+HOW IT WAS BUILT?
+==================
+alps/hardware/mediatek/ANT/src/Android.mk
+
+HOW TO USE IT?
+==============
+Build in Android system.It will be loaded when launch ANT+ Demo app.

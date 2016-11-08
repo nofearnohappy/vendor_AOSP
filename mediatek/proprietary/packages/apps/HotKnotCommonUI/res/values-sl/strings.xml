@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Skupna raba HotKnot</string>
+    <string name="hint1">Zagotovite, da ima sprejemna naprava vključen HotKnot in da je njen zaslon odklenjen.</string>
+    <string name="hint2">Dajte skupaj zaslona obeh naprav.</string>
+    <string name="hint3">Vzemite svojo napravo stran od sprejemne naprave, potem ko slišite poziv.</string>
+    <string name="use_hotknot">Program mora uporabljati tehnologijo HotKnot na vaši napravi.</string>
+    <string name="allow">"Dovoli"</string>
+    <string name="deny">"Zavrni"</string>
+    <string name="fail_to_share">Skupna raba ni uspela</string>
+    <string name="fail_to_share_conn_error">Skupna raba ni uspela zaradi težav s povezavo.</string>
+    <string name="fail_to_share_unknown_error">Skupna raba ni uspela zaradi neznane napake.</string>
+    <string name="try_again">"Poskusite znova"</string>
+    <string name="usb_warning">Funkcija HotKnot med polnjenjem prek USB-ja morda ne bo delovala.</string>
+</resources>

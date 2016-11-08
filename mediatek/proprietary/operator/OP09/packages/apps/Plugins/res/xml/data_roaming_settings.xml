@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+	<CheckBoxPreference
+         android:key="data_roaming"
+         android:title="@string/data_roaming_title"
+         android:persistent="true" />    
+	<CheckBoxPreference 
+	    android:key="mms_roaming"
+		android:title="@string/mms_roaming_title" 
+		android:summary="@string/mms_roaming_auto_receive"
+		android:persistent="true"
+		android:dependency="data_roaming"/>
+
+</PreferenceScreen>

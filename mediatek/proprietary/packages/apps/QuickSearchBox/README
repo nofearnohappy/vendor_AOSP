@@ -1,0 +1,27 @@
+This module is a Mediatek customised Search app based on Google's default.
+
+WHAT IT DOES?
+==================
+MtkQuickSearchBox is a Search app based on Google Search. 
+MTK implemented QSB has some new and modified features and the behavior will be a little different from Google's default.
+1. This is similar to Android QuickSearchBox and is used for searching in Web, Apps, Calendar, Call history, Contacts, Email, File Manager, Messaging, Music.
+2. User can launch search via the QuickSearchBox app or via Search Widget
+
+HOW IT WAS BUILD?
+===================
+1. MtkQuickSearchBox.apk will get built for all projects except for specific operator.
+2. It uses the following library from MediaTek: com.mediatek.qsb.ext.
+
+[Build Method]
+make MtkQuickSearchBox
+or
+mmm vendor/mediatek/proprietary/packages/apps/QuickSearchBox
+
+HOW TO USE IT?
+====================
+QSB works as a global search framework where:
+1. Own app can be modified to be included in global search
+2. Give some suggestions QSB wants
+
+Usage of Quick Search Box widget placed in WIDGETS list:
+1. User can create an instance by long-pressing widget icon and dragging to home screen.

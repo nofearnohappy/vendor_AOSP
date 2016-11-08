@@ -1,0 +1,223 @@
+package com.mediatek.wifi.hotspot.em;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.net.wifi.WifiManager;
+import android.content.Context;
+//UNMARK:import android.net.wifi.passpoint.PasspointProvisionManager;
+import android.os.ServiceManager;
+//UNMARK:import android.net.wifi.passpoint.IPasspointProvisionManager;
+import android.os.RemoteException;
+import android.view.MotionEvent;
+import android.graphics.PorterDuff;
+
+public class HSPT_DelCred extends Activity {
+
+    private Button		mButtonDelCred;
+    private Button		mButtonClrAllCred;
+    private EditText	mEditTextDelCred;
+    private Button		mButtonDumpCred;
+    private TextView	mTextViewDumpCred;
+    private TextView	mTextViewCmd;
+    private Button		mButtonClrProfile;
+    private Button		mButtonSpExList;
+    private EditText	mEditTextSpExList;
+    private Button      mButtonClrPolicies;
+
+    private WifiManager mWifiMgr = null;
+    //UNMARK:private IPasspointProvisionManager mPpm = null;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.hspt_delcred);
+
+        mWifiMgr = (WifiManager)getSystemService(WIFI_SERVICE);
+        if(mWifiMgr == null) {
+            MtkLog.log("ERR: getSystemService WIFI_SERVICE failed");
+            return;
+        }
+
+        /*UNMARK:mPpm = IPasspointProvisionManager.Stub.asInterface(ServiceManager.getService(Context.MTK_PASSPOINT_PROVISION_SERVICE));
+        if(mPpm == null) {
+            MtkLog.log("ERR: getSystemService MTK_PASSPOINT_PROVISION_SERVICE failed");
+            return;
+        }*/
+        initWidget();
+
+    }
+
+    //=================== initWidget ========================\\
+    private void initWidget() {
+        mButtonDelCred = (Button)findViewById(R.id.Button_DelCred);
+        mEditTextDelCred = (EditText)findViewById(R.id.EditText_DelCred);
+        mButtonDumpCred = (Button)findViewById(R.id.Button_DumpCred);
+        mTextViewDumpCred = (TextView)findViewById(R.id.TextView_DumpCred);
+        mTextViewCmd = (TextView)findViewById(R.id.TextView_DelCmd);
+        mButtonClrProfile = (Button)findViewById(R.id.Button_ClrProfile);
+        mButtonClrPolicies = (Button)findViewById(R.id.Button_ClrPolicies);
+        mButtonClrAllCred = (Button)findViewById(R.id.Button_ClrCred);
+        mButtonSpExList = (Button)findViewById(R.id.Button_SpExList);
+        mEditTextSpExList = (EditText)findViewById(R.id.EditText_SpExList);
+
+        mButtonDelCred.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                handleDelCred();
+            }
+        });
+
+        mButtonClrAllCred.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                System.out.println("mButtonClrAllCred");
+                handleClrAllCred();
+            }
+        });
+
+        mButtonDumpCred.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                handleDumpCred();
+            }
+        });
+
+        mButtonClrProfile.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                handleClrProfile();
+            }
+        });
+
+        mButtonClrPolicies.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                handleClrPolicies();
+            }
+        });
+
+        mButtonSpExList.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                handleSetSpExList();
+            }
+        });
+
+        
+    }
+
+    //=================== main functions ========================\\
+    private void handleDelCred() {
+        int iDelIndex	= 0;
+        boolean result = false;
+
+        String sDelCred = mEditTextDelCred.getText().toString();
+        String sResult = "";
+        if( sDelCred.length()!= 0) {
+            iDelIndex = Integer.valueOf(sDelCred);
+        }
+
+        MtkLog.log( "handleDelCred "+iDelIndex);
+        result = DelCredential( iDelIndex );
+        sResult = result ? "fail" : "success" ;
+        MtkLog.log( "handleDelCred" + sResult );
+        mTextViewDumpCred.setText("DeleteCredAt(" + iDelIndex + "): " + sResult);
+    }
+
+    private void handleSetSpExList() {
+        String sSpExList = mEditTextSpExList.getText().toString();
+
+        /*UNMARK:if( mPpm != null ) {
+            MtkLog.log( "handleSetSpExList: " + sSpExList);
+            try {
+                mPpm.setSpExLis(sSpExList);
+            } catch (RemoteException e) {}
+            mTextViewDumpCred.setText("SetSpExList: " + sSpExList);
+        } else {
+            MtkLog.log( "handleSetSpExList fail, mPpm == null");
+        }*/
+    }
+
+    private void handleClrAllCred() {
+        /*UNMARK:if( mPpm != null ) {
+            try {
+                mPpm.delAllCredential();
+            } catch (RemoteException e) {}
+            mTextViewDumpCred.setText("ClearAllCred, OK!");
+        } else {
+            MtkLog.log( "DelCredential fail, mPpm == null");
+        }*/
+    }
+
+    boolean DelCredential(int index) {
+        /*if( mWifiMgr != null ) {
+           MtkLog.log( "DelCredential " + index);
+            try {
+                mWifiMgr.delHsCredential(index);
+            } catch (RemoteException e) {}
+            handleDumpCred();
+            return true;
+        } else {
+            MtkLog.log( "DelCredential fail, mPpm == null");
+            return false;
+        }*/
+        return false;
+    }
+    private void handleClrPolicies() {
+        /*UNMARK:if( mPpm != null ) {
+            MtkLog.log( "clearPolicies");
+            try {
+                mPpm.clearPolicies();
+            } catch (RemoteException e) {
+                MtkLog.log("clearPolicies fail:"+e);
+            }
+            mTextViewDumpCred.setText("ClearPolicies, OK!");
+        } else {
+            MtkLog.log("clearPolicies fail, mPpm == null");
+        }*/
+    }
+
+    private void handleClrProfile() {
+        boolean result = false;
+        String sResult = "";
+        MtkLog.log( "handleClrProfile");
+        result = ClearProfile();
+        sResult = result ? "fail" : "success" ;
+        MtkLog.log( "handleDelCred" + sResult );
+        mTextViewDumpCred.setText("ClearAllProfile, OK!");
+    }
+
+    boolean ClearProfile() {
+        /*UNMARK:if( mWifiMgr != null ) {
+            MtkLog.log( "ClearProfile");
+            return mWifiMgr.staClearProfile();
+        } else {
+            MtkLog.log( "ClearProfile fail, mWifiMgr == null");
+            return false;
+        }*/
+        return false;
+    }
+
+    private void handleDumpCred() {
+        String sResult = "";
+
+        MtkLog.log( "handleDumpCred");
+        sResult = DumpCredential();
+        mTextViewDumpCred.setText(sResult);
+
+    }
+
+    private String DumpCredential() {
+        /*UNMARK:if( mWifiMgr != null ) {
+            MtkLog.log( "DumpCredential");
+            try {
+                return mWifiMgr.getHsCredential();
+            } catch (RemoteException e) {
+                return "DumpCredential fail:"+e;
+            }
+        } else {
+            MtkLog.log( "DumpCredential fail, mPpm == null");
+            return "DumpCredential fail, mPpm == null";
+        }*/
+        return "migrating";
+    }
+}

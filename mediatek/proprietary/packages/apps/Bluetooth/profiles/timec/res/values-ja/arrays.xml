@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_timec_repeat_entries">
+		<item>"15分"</item>
+		<item>"30分"</item>
+		<item>"1時間"</item>
+		<item>"3時間"</item>
+		<item>6時間</item>
+		<item>12時間</item>
+		<item>"1日"</item>
+	</string-array>
+</resources>

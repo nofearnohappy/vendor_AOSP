@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">UIM tööriistakomplekt</string>
+    <string name="menu_end_session">"Seansi lõpp"</string>
+    <string name="help">Spikker</string>
+    <string name="menu_back">"Tagasi"</string>
+    <string name="service_name">"Teenuse nimi"</string>
+    <string name="utk_no_service">Teenused pole kasutatavad</string>
+    <string name="button_ok">"OK"</string>
+    <string name="button_cancel">"Tühista"</string>
+    <string name="button_yes">"Jah"</string>
+    <string name="button_no">"Ei"</string>
+    <string name="alphabet">"Tähestikud"</string>
+    <string name="digits">Numbrid (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">"Kõne on pooleli ..."</string>
+    <string name="utk_app_state">"Rakenduse olek"</string>
+    <string name="enable_app">"Lubatud"</string>
+    <string name="disable_app">Keelatud</string>
+    <string name="activity_not_found" product="default">"Rakendus pole teie telefoni installitud."</string>
+    <string name="lable_busy_on_call">Telefon on kõnega hõivatud. Lõpetage esimene kõne.</string>
+    <string name="lable_on_flight_mode">Seda rakendust ei saa kasutada lennurežiimis</string>
+    <string name="utk_dialog_title">UIM tööriistakomplekt</string>
+    <string name="default_open_channel_msg">"Kas avada kanal?"</string>
+    <string name="default_send_data_msg">"Andmete saatmine"</string>
+    <string name="default_receive_data_msg">"Andmete vastuvõtmine"</string>
+    <string name="default_close_channel_msg">"Kanal suletud"</string>
+    <string name="utk_dialog_accept">"Jah"</string>
+    <string name="utk_dialog_reject">"Ei"</string>
+    <string name="utk_send_sms">Sõnumi saatmine...</string>
+</resources>

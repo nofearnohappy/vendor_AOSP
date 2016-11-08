@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/dm_top_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/dm_device_rename_image"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_edit" />
+
+            <TextView
+                android:id="@+id/dm_device_name_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/dm_device_rename_image"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+		android:textDirection="locale"
+                android:singleLine="true"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/catogrey_divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/dm_device_name_text_view"
+                android:layout_marginTop="5dp"
+                android:background="#C7C7C7" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/device_image_layout12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/dm_top_device_bg_pic"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/image_shadow" />
+
+            <ImageView
+                android:id="@+id/dm_top_device_pic"
+                android:layout_width="185dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/dm_preference_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/dm_top_relative_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarStyle="insideInset" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Sol·licitud d'autorització per accés remot a missatges"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Sol·licitud d'autorització per accés remot a missatges"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Seleccioneu-lo per permetre la connexió d'accés a missatges"</string>
+	<string name="bluetooth_map_server_authorize_title">"Sol·licitud d'autorització per accés remot a missatges"</string>
+	<string name="bluetooth_map_server_authorize_message">"Sol·licitud per permetre l'accés remot a missatges de %1$s"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Permet"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Rebutja</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"El mode d'accés remot a missatges està connectat"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s està accedint als vostres missatges"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"Seleccioneu-lo per desconnectar amb %1$s"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Desconnecta l'accés remot a missatges"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Voleu desconnectar %1$s?"</string>
+  <string name="bluetooth_map_server_yes">"Sí"</string>
+	<string name="bluetooth_map_server_no">No hi ha cap aplicació disponible per imprimir el contacte.</string>
+	<string name="bluetooth_map_server_settings">"Configuració d'accés remot a missatges"</string>
+	<string name="bluetooth_map_server_enable_title">"Sol·licitud d'autorització per accés remot a missatges"</string>
+	<string name="bluetooth_map_server_enable_summary">"Activa la compatibilitat amb audiòfons"</string>
+	<string name="bluetooth_map_server_sim_index_title">Selecciona SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Selecciona compte de correu electrònic"</string>
+	<string name="bluetooth_map_server_no_account">"Compte de correu electrònic no disponible"</string>
+	<string name="bluetooth_map_server_OK">Centre de Servei SMS establert</string>
+	<string name="bluetooth_map_server_cancel">"Realment vols cancel·lar la descàrrega?\nPrem Continua per seguir descarregant\nPrem Descarta per descartar la descàrrega i esborrar el fitxer descarregat"</string>
+</resources>

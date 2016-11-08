@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">客户服务</string>
+    <string name="hotLine">中国联通客服热线</string>
+    <string name="app_not_found">"未找到可处理此操作的应用。"</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">FM трансмиттері</string>
+    <string name="dlg_seek_title">Іздеу</string>
+    <string name="dlg_search_text">Бос арналарды іздеу, күте тұрыңыз...</string>
+    <string name="advanced_title">Жиілікті қолмен орнату</string>
+    <string name="text_input_frequency">Қажет жиілікті енгізіңіз, 87,5-97,5 және 99,5-108 ауқымын пайдалана аласыз</string>
+    <string name="text_ok">OK</string>
+    <string name="text_auto_search">Бос арналарды автоматты түрде іздеу</string>
+    <string name="text_search">Іздеу</string>
+    <string name="toast_plugout_earphone">Алдымен құлаққапты шешіңіз. </string>
+    <string name="toast_input_error">Соңғы жарамсыз енгізілім, жарамды мән 0 немесе 5.</string>
+    <string name="toast_input_valid">87,5-97,5 немесе 99,5-108 ауқымындағы санды енгізіңіз</string>
+</resources>

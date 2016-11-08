@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/im_list_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <com.hesine.nmsg.ui.HeaderView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.hesine.nmsg.ui.HeaderView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ececec" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:stackFromBottom="true" >
+        </ListView>
+    </LinearLayout>
+	<View 
+	    android:layout_height="0.5dp"
+	    android:layout_width="fill_parent"
+	    android:background="#cccccc"/>
+    <com.hesine.nmsg.ui.BottomView
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.hesine.nmsg.ui.BottomView>
+
+    <com.hesine.nmsg.ui.BottomMoreView
+        android:id="@+id/bottom_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.hesine.nmsg.ui.BottomMoreView>
+
+    <com.hesine.nmsg.ui.BottomAudioView
+        android:id="@+id/bottom_audio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.hesine.nmsg.ui.BottomAudioView>
+
+</LinearLayout>

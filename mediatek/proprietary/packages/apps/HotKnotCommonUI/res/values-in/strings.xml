@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Berbagi HotKnot</string>
+    <string name="hint1">Pastikan perangkat penerima telah mengaktifkan HotKnot, dan jaga agar layarnya tetap terbuka.</string>
+    <string name="hint2">Alihkan perangkat ke layar-ke-layar perangkat penerima.</string>
+    <string name="hint3">Jauhkan perangkat dari perangkat penerima setelah Anda mendengar perintah suara.</string>
+    <string name="use_hotknot">Aplikasi ini harus menggunakan teknologi HotKnot di perangkat Anda.</string>
+    <string name="allow">"Izinkan"</string>
+    <string name="deny">"Tolak"</string>
+    <string name="fail_to_share">Gagal dibagikan</string>
+    <string name="fail_to_share_conn_error">Gagal dibagikan karena masalah sambungan.</string>
+    <string name="fail_to_share_unknown_error">Gagal dibagikan karena kesalahan tidak dikenal.</string>
+    <string name="try_again">"Coba lagi"</string>
+    <string name="usb_warning">Fungsi HotKnot dapat terpengaruh selama pengisian daya melalui USB.</string>
+</resources>

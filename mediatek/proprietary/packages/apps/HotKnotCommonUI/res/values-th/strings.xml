@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot แชร์</string>
+    <string name="hint1">ให้แน่ใจว่าอุปกรณ์รับได้เปิด HotKnot และหน้าจอของอุปกรณ์ไม่ได้ล็อคอยู่</string>
+    <string name="hint2">วางอุปกรณ์ของคุณลงบนอุปกรณ์รับ หน้าจอ-ต่อ-หน้าจอ</string>
+    <string name="hint3">นำอุปกรณ์ของคุณออกจากอุปกรณ์รับหลังจากที่คุณได้ยินเสียงแจ้งให้ทราบ</string>
+    <string name="use_hotknot">แอพพลิเคชั่นนี้จำเป็นต้องใช้เทคโนโลยี HotKnot บนอุปกรณ์ของคุณ</string>
+    <string name="allow">"อนุญาต"</string>
+    <string name="deny">"ปฏิเสธ"</string>
+    <string name="fail_to_share">ไม่สามารถแบ่งปัน</string>
+    <string name="fail_to_share_conn_error">ไม่สามารถแบ่งปันเนื่องจากปัญหาในการเชื่อมต่อ</string>
+    <string name="fail_to_share_unknown_error">ไม่สามารถแบ่งปันเนื่องจากข้อผิดพลาดที่ไม่รู้จัก</string>
+    <string name="try_again">"ลองใหม่อีกครั้ง"</string>
+    <string name="usb_warning">ฟังก์ชั่น HotKnot อาจได้รับผลกระทบระหว่างการชาร์จ USB</string>
+</resources>

@@ -1,0 +1,72 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.configurecheck"
+    android:sharedUserId="android.uid.phone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <!-- for write sd card-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- for IMEI -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <!-- for WIFI sleep policy -->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!---for read phone state and network state-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!---for oritation-->
+    <uses-permission android:name="android.permission.SET_ORIENTATION" />
+
+    <!-- for Write APN -->
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name=".ManSelfTestActivity"
+            android:process="com.android.phone"
+            android:label="@string/activity_title_self_test" >
+        </activity>
+
+        <activity
+            android:label="@string/activity_title_category"
+            android:process="com.android.phone"
+            android:name=".CategoryListActivity" >
+        </activity>
+
+        <activity
+            android:label="@string/activity_title_category"
+            android:process="com.android.phone"
+            android:name=".SubCategoryListActivity" >
+        </activity>
+
+        <activity
+            android:label="@string/activity_title_check_result"
+            android:name=".CheckResultActivity"
+            android:process="com.android.phone"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+
+        <activity
+            android:label="@string/activity_title_check_report"
+            android:process="com.android.phone"
+            android:name=".CheckReportActivity" >
+        </activity>
+
+        <activity
+            android:label="@string/activity_title_help"
+            android:name=".HelpActivity" >
+        </activity>
+
+    </application>
+
+</manifest>

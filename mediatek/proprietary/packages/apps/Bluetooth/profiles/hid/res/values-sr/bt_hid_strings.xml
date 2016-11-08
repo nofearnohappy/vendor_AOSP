@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">Уређај са бежичним уносом</string>
+  <string name="bluetooth_hid_connect">"Повежи"</string>
+    <string name="bluetooth_hid_disconnect">"Прекини везу"</string>
+	<string name="bluetooth_hid_unplug">Извуци</string>
+	<string name="bluetooth_hid_addnewdevice">Додај нови уређај</string>
+  <string name="bluetooth_hid_paireddevices">Упарен уређај за бежични унос</string>
+	<string name="bluetooth_hid_bt_ok">Укључивање Bluetooth-а је успешно!</string> 
+	<string name="bluetooth_hid_bt_fail">Укључивање Bluetooth-а је неуспешно!</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">Искључи уређај са бежичним уносом</string>
+  <string name="bluetooth_hid_unplug_confirm_title">Извуци уређај са бежичним уносом</string>
+  <string name="bluetooth_hid_auth_confirm_title">Прихвати захтев уређаја са бежичним уносом</string>
+  <string name="bluetooth_hid_summary_connected">"Повезано"</string> 
+	<string name="bluetooth_hid_summary_connecting">"Повезивање..."</string>
+	<string name="bluetooth_hid_summary_not_connected">Упарено али није повезано</string>
+	<string name="bluetooth_hid_yes">"Да"</string> 
+	<string name="bluetooth_hid_no">"Не"</string>
+  <string name="bluetooth_hid_connected_notify_ticker">Уређај са бежичним уносом је повезан</string>
+  <string name="bluetooth_hid_connected_notify_title">Уређај са бежичним уносом је повезан</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">Захтев за повезивање уређаја са бежичним уносом</string>
+  <string name="bluetooth_hid_connect_request_notify_title">Захтев за повезивање уређаја са бежичним уносом</string>
+    <string name="bluetooth_hid_connected_notify_message">Одаберите да прекинете везу са %1$s</string>
+    <string name="bluetooth_hid_connect_request_notify_message">Одаберите да ли желите и не желите да прихватите захтев за успостављање везе са %1$s </string>
+  <string name="bluetooth_hid_connect_ok">Уређај са бежичним уносом %1$s је успешно повезан!</string>
+  <string name="bluetooth_hid_connect_fail">Уређај са бежичним уносом %1$s није успешно повезан!</string>
+  <string name="bluetooth_hid_disconnect_ok">Уређај са бежичним уносом %1$s је успешно искључен!</string>
+  <string name="bluetooth_hid_disconnect_fail">Уређај са бежичним уносом %1$s није успешно искључен!</string>
+  <string name="bluetooth_hid_unplug_ok">Уређај са бежичним уносом %1$s је успешно извучен!</string>
+  <string name="bluetooth_hid_unplug_fail">Уређај са бежичним уносом %1$s није успешно извучен!</string>
+  <string name="bluetooth_hid_disconnect_confirm">Да ли желите да искључите уређај са бежичним уносом %1$s?</string>
+  <string name="bluetooth_hid_unplug_confirm">Да ли желите да извучете уређај са бежичним уносом %1$s?</string>
+  <string name="bluetooth_hid_auth_confirm">Да ли желите да прихватите захтев уређаја са бежичним уносом од %1$s?</string>
+  <string name="bluetooth_hid_summary_disconnecting">Искључивање...</string>
+</resources>

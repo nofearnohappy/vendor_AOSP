@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Հաղորդագրության հեռակա մատչման թույլտվության հայցում"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Հաղորդագրության հեռակա մատչման թույլտվության հայցում"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Ընտրել` թույլատրելու համար հաղորդագրության մատչման կապակցում"</string>
+	<string name="bluetooth_map_server_authorize_title">"Հաղորդագրության հեռակա մատչման թույլտվության հայցում"</string>
+	<string name="bluetooth_map_server_authorize_message">"Թույլատրել հաղորդագրության հեռակա մատչման հայցում %1$s-ից"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Թույլատրել"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Մերժել</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Հաղորդագրության հեռակա մատչման ռեժիմը միացված է"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s-ը մատչում է ձեր հաղորդագրություններին"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"Ընտրել` %1$s-ից ապակցվելու համար"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Ապակցել հաղորդագրության հեռակա մատչումը"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Ապակցվե՞լ %1$s-ից:"</string>
+  <string name="bluetooth_map_server_yes">"Այո"</string>
+	<string name="bluetooth_map_server_no">Կոնտակտը տպելու համար որևէ ծրագիր մատչելի չէ:</string>
+	<string name="bluetooth_map_server_settings">"Հաղորդագրության հեռակա մատչման կարգավորումներ"</string>
+	<string name="bluetooth_map_server_enable_title">"Հաղորդագրության հեռակա մատչման թույլտվության հայցում"</string>
+	<string name="bluetooth_map_server_enable_summary">"Միացնել լսողական օգնականի համատեղելիությունը"</string>
+	<string name="bluetooth_map_server_sim_index_title">Ընտրել SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Ընտրել էլ. փոստի հաշիվ"</string>
+	<string name="bluetooth_map_server_no_account">"Չկա առկա էլ. փոստի հաշիվ"</string>
+	<string name="bluetooth_map_server_OK">SMS ծառայության կենտրոնը հաջողությամբ նախադրվեց</string>
+	<string name="bluetooth_map_server_cancel">"Իսկապե՞ս չեղարկել ներբեռնումը:\nՍեղմեք "Շարունակել", որպեսզի շարունակեք ներբեռնումը\n Սեղմեք "Հրաժարվել", որպեսզի հրաժարվեք ներբեռնումից և վերացնեք ֆայլի ներբեռնումը"</string>
+</resources>

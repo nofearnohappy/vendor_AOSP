@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Intelligentne ekvalaiser/Graafiline ekvalaiser</string>
+	<string name="tooltip_eq_text">Reaalajaline Intelligentne ekvalaiser analüüsib pidevalt heli ja reguleerib seda dünaamiliselt, et see vastaks soovitud toonile. Valige nelja kuvatud eelseadistuse hulgast ja puudutage seejärel spektraalset virtualiseerijat, et reguleerida käsitsi graafilist ekvalaiserit.</string>
+	<string name="tooltip_sv_title">Ruumilise heli virtualiseerija</string>
+	<string name="tooltip_sv_text">Ruumilise heli virtualiseerija loob realistliku ruumilise heli mis tahes kõrvaklappides või stereokõlarites. Lülitage ruumilise heli efekt sisse või välja.</string>
+	<string name="tooltip_de_title">Dialoogi täiustaja</string>
+	<string name="tooltip_de_text">Dialoogi täiustaja parandab heli selgust mis tahes tüüpi meediumi puhul. Lülitage dialoogi täiustamine sisse või välja.</string>
+	<string name="tooltip_vl_title">Helitugevuse nivellija</string>
+	<string name="tooltip_vl_text">Helitugevuse nivellija tagab samalaadse helitugevuse taseme kogu sisu ja kõigi rakenduste jaoks, sõltuvalt seadme põhihelitugevusest. Lülitage helitugevuse nivelleerimine sisse või välja.</string>
+</resources>

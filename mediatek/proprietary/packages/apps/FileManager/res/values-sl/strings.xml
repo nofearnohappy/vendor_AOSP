@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Upravitelj datotek</string>
+    <string name="sort_by">"Razvrsti glede na"</string>
+    <string name="copy">"Kopiraj"</string>
+    <string name="create_folder">"Ustvarjanje mape"</string>
+    <string name="cut">"Izreži"</string>
+    <string name="delete">"Izbriši"</string>
+    <string name="details">"Podrobnosti"</string>
+    <string name="paste">"Prilepi"</string>
+    <string name="rename">"Preimenuj"</string>
+    <string name="new_folder">"Nova mapa"</string>
+    <string name="confirm_rename">Potrdi preimenovanje</string>
+    <string name="pasting">Lepljenje</string>
+    <string name="loading">"Nalaganje …"</string>
+    <string name="deleting">Brisanje</string>
+    <string name="alert_delete_multiple">Ti elementi bodo izbrisani.</string>
+    <string name="alert_delete_single">Ta element bo izbrisan.</string>
+    <string-array name="sort_by">
+        <item>"Vrsta"</item>
+        <item>Ime (A–Z)</item>
+        <item>Velikost (veliko–majhno)</item>
+        <item>Čas (novo–staro)</item>
+    </string-array>
+    <string name="name">"Ime"</string>
+    <string name="size">"Velikost"</string>
+    <string name="modified_time">Spremenjeno</string>
+    <string name="readable">Berljivo</string>
+    <string name="executable">Izvršljivo</string>
+    <string name="writable">Zapisljivo</string>
+    <string name="msg_rename_ext">Spremenili boste datotečno pripono, zaradi česar datoteke morda ne bo več mogoče prepoznati. Ali ste prepričani, da želite to storiti?</string>
+    <string name="wait">Počakajte \u2026</string>
+    <string name="done">"Končano"</string>
+    <string name="cancel">"Prekliči"</string>
+    <string name="no">"Ne"</string>
+    <string name="ok">"V redu"</string>
+    <string name="yes">"Da"</string>
+    <string name="deselect_all">"Prekliči celoten izbor"</string>
+    <string name="select_all">"Izberi vse"</string>
+    <string name="share">"Skupna raba"</string>
+    <string name="sort">Razvrsti</string>
+    <string name="more">"Več"</string>
+    <string name="search">"Išči"</string>
+    <string name="show_file">Prikaži skrite datoteke</string>
+    <string name="hide_file">Skrij skrite datoteke</string>
+    <string name="selected">izbrano</string>
+    <string name="send_file">Pošlji datoteko</string>
+    <string name="empty_msg">(Prazna mapa)</string>
+    <string name="default_search_text">Iskanje datotek</string>
+    <string name="free_space">"Na voljo"</string>
+    <string name="total_space">"Skupno prostora"</string>
+    <string name="search_files">Iskanje datotek</string>
+    <string name="copy_deny">Ni dovoljenja za kopiranje.</string>
+    <string name="cut_deny">Ni dovoljenja za rezanje.</string>
+    <string name="delete_deny">Ni dovoljenja za brisanje.</string>
+    <string name="insufficient_memory">Ni dovolj prostora.</string>
+    <string name="invalid_empty_name">Ime datoteke ali mape ne sme biti prazno.</string>
+    <string name="paste_same_folder">Lepljenje v isti imenik ni mogoče.</string>
+    <string name="invalid_char_prompt">Vnesli ste neveljavne znake.</string>
+    <string name="msg_unable_open_file">Oblika zapisa datoteke ni podprta.</string>
+    <string name="search_text_empty">Vsebina iskanja ne sme biti prazna.</string>
+    <string name="paste_sub_folder">Lepljenje v podmapo ni mogoče.</string>
+    <string name="operation_fail">Nekatere datotečne operacije niso uspele.</string>
+    <string name="search_result">%2$d rezultat(ov) za \"%1$s\"</string>
+    <string name="already_exists">%1$s je že v uporabi.</string>
+    <string name="path_not_exists">%1$s ne obstaja.</string>
+    <string name="unmounted">%1$s ni vpeto.</string>
+    <string name="create_hidden_file">"Datoteka bo skrita, če se njeno ime začne z '.'."</string>
+    <string name="modify_hidden_file">"Datoteka ne bo skrita, če se njeno ime ne začne z '.'."</string>
+    <string name="file_name_too_long">Vneseno ime je predolgo.</string>
+    <string name="paste_fail">Lepljenje ni uspelo.</string>
+    <string name="delete_fail">Brisanje ni uspelo.</string>
+    <string name="some_paste_fail">Nekateri postopki lepljenja niso uspeli.</string>
+    <string name="some_delete_fail">Nekateri postopki brisanja niso uspeli.</string>
+    <string name="search_empty">Vsebina iskanja ne sme biti prazna.</string>
+    <string name="search_setting_description">Lokalne datoteke in mape</string>
+    <string name="change_mode">Izberite datoteko ali mapo</string>
+    <string name="folder_beam_forbidden_title">Mape ni mogoče prežarčiti</string>
+    <string name="folder_beam_forbidden_message">Prežarčenje mape ni podprto. Izberite več datotek za prežarčenje.</string>
+    <string name="drm_beam_forbidden_title">Prežarčenje prepovedano</string>
+    <string name="drm_beam_forbidden_message">Datotek z zaščito DRM (Digital Right Management – upravljanje digitalnih pravic) ni mogoče prežarčiti.</string>
+</resources>

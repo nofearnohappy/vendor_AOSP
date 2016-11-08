@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Intelligent equalizer/Grafisk equalizer</string>
+	<string name="tooltip_eq_text">Den intelligente equalizeren analyserer lyden og justerer den dynamisk for å gi en tilsvarende ønsket tone. Velg blant de fire viste forhåndsinnstillingene, og trykk deretter på spektralvisualisereren for å foreta tilpassede modifikasjoner med den grafiske equalizeren.</string>
+	<string name="tooltip_sv_title">Surround-virtualiserer</string>
+	<string name="tooltip_sv_text">Surround-virtualisereren skaper realistisk surround-lyd fra alle typer hodetelefoner eller stereohøyttalere. Angi bryteren til av eller på for å kontrollere surround-lydeffekten.</string>
+	<string name="tooltip_de_title">Dialogforbedrer</string>
+	<string name="tooltip_de_text">Dialogforbedreren forbedrer taleklarhet i alle typer media. Angi bryteren til av eller på for å kontrollere dialogforbedring.</string>
+	<string name="tooltip_vl_title">Volumutjevner</string>
+	<string name="tooltip_vl_text">Volumutjevneren gir et jevnt volumnivå for alt innhold og alle programmer, basert på enhetens mastervolumnivå. Angi bryteren til av eller på for å kontrollere automatisk volumutjevning.</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/power_saving_mode" >
+    <PreferenceCategory
+        android:key="pow_sav_category"
+        android:title="@string/power_saving_mode_title" >        
+        <com.mediatek.settings.plugin.PowerSavingCheckBoxPref
+            android:id="@+id/power_saving_cpu"
+            android:key="power_saving_cpu"
+            android:title="@string/power_saving_cpu_title"
+            android:summary="@string/power_saving_cpu_summary"
+            android:defaultValue="true" />                
+        <com.mediatek.settings.plugin.PowerSavingSettingPref
+            android:id="@+id/power_saving_bright"
+            android:key="power_saving_brightness"
+            android:summary="@string/power_saving_bright_summary"
+            android:title="@string/power_saving_bright_title"
+            android:defaultValue="true" />
+        <com.mediatek.settings.plugin.PowerSavingSettingPref
+            android:id="@+id/power_saving_sleep"
+            android:key="power_saving_sleep"
+            android:summary="@string/power_saving_sleep_summary"
+            android:title="@string/power_saving_sleep_title"
+            android:defaultValue="true" />
+        <com.mediatek.settings.plugin.PowerSavingCheckBoxPref
+            android:id="@+id/power_saving_wifi"
+            android:key="power_saving_wlan"
+            android:title="@string/power_saving_wifi_title"
+            android:defaultValue="true" />
+        <com.mediatek.settings.plugin.PowerSavingCheckBoxPref
+            android:id="@+id/power_saving_bt"
+            android:key="power_saving_bluetooth"
+            android:title="@string/power_saving_bt_title"
+            android:defaultValue="true" />
+        <com.mediatek.settings.plugin.PowerSavingCheckBoxPref
+            android:id="@+id/power_saving_gps"
+            android:key="power_saving_gps"
+            android:title="@string/power_saving_gps_title"
+            android:defaultValue="true" />
+        <com.mediatek.settings.plugin.PowerSavingCheckBoxPref
+            android:id="@+id/power_saving_sync"
+            android:key="power_saving_sync"
+            android:title="@string/power_saving_sync_title"
+            android:defaultValue="true" />
+        <com.mediatek.settings.plugin.PowerSavingCheckBoxPref
+            android:id="@+id/power_saving_tactile"
+            android:key="power_saving_tactile"
+            android:title="@string/power_saving_tactile_title"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

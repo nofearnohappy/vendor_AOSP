@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">ចាប់ផ្ដើម​ការទទួល...</string>
+    <string name="notification_group_title">កំពុង​ទទួល <xliff:g id="number">%d</xliff:g> ឯកសារ...</string> 
+    <string name="notification_download_done">ចុច​មើល​លម្អិត</string>
+    <string name="notification_group_received">បាន​ទទួល​ <xliff:g id="number">%d</xliff:g> ឯកសារ</string>
+    <string name="notification_received">បាន​ទទួល​ជា​ស្ថាពរ</string> 
+    <string name="notification_download_failure">ការទទួល​មិន​បាន​សម្រេច​ដោយសារ <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">បាន​បោះបង់ ឬ​លុបចោល​ការទទួល</string>
+    <string name="notification_group_received_failed">ឯកសារ​ចំនួន​<xliff:g id="number">%d</xliff:g> មិន​បាន​សម្រេច</string>
+    <string name="notification_group_received_partial_failed">ឯកសារ​ចំនួន​ <xliff:g id="number">%d</xliff:g> មិន​បាន​សម្រេច, ឯកសារ​ចំនួន​ <xliff:g id="number">%d</xliff:g> មិន​បាន​សម្រេច</string>
+    <string name="download_no_file">គ្មាន​ឯកសារ</string>
+    <string name="notification_sending">ចាប់ផ្ដើម​ការផ្ញើចេញ...</string>
+    <string name="notification_group_upload_title">កំពុង​ផ្ញើចេញ <xliff:g id="number">%d</xliff:g> ឯកសារ...</string>
+    <string name="notification_group_sent">បាន​ផ្ញើចេញ <xliff:g id="number">%d</xliff:g> ឯកសារ</string>
+    <string name="notification_sent">បាន​ផ្ញើចេញ​ជាស្ថាពរ</string>
+    <string name="notification_upload_failed">ការផ្ញើចេញ​មិន​បាន​សម្រេច​ដោយសារ <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">បាន​បោះបង់ ឬ​លុបចោល​ការផ្ញើចេញ</string>
+    <string name="notification_group_sent_failed">ឯកសារ​ចំនួន​<xliff:g id="number">%d</xliff:g> មិន​បាន​សម្រេច</string>
+    <string name="notification_group_sent_partial_failed">ឯកសារ​ចំនួន​ <xliff:g id="number">%d</xliff:g> មិន​បាន​សម្រេច, ឯកសារ​ចំនួន <xliff:g id="number">%d</xliff:g> មិន​បាន​សម្រេច</string>
+    <string name="low_storage">ឧបករណ៍​ផ្ទុក​មាន​កម្រិត​ទាប</string>
+    <string name="connect_failure">បញ្ហាការតភ្ជាប់</string>
+    <string name="unknown_error">បញ្ហាមិនត្រូវបានស្គាល់</string>
+    <string name="share_label">ការចែករំលែក HotKnot</string>
+    <string name="rx_ui_image_status">កំពុង​ទទួល​រូបភាព​ពី <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">កំពុង​ទទួល <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> រូបភាព​ពី <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">កំពុង​ទទួល​វីដេអូ​ពី <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">កំពុង​ទទួល <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> វីដេអូ​ពី <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">កំពុង​ទទួល​ឯកសារ​ពី <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">កំពុង​ទទួល <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> ឯកសារ​ពី <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">កំពុង​ទទួល​តន្ត្រី​ពី <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">កំពុង​ទទួល​តន្ត្រី <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> បទ​ពី <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">ការទទួល​មិន​បាន​បញ្ចប់</string>
+</resources>

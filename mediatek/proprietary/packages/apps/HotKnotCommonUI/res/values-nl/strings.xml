@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot delen</string>
+    <string name="hint1">Controleer of op het ontvangende apparaat HotKnot is ingeschakeld, en houd het scherm daarvan ontgrendeld.</string>
+    <string name="hint2">&lt;li&gt;Plaats uw apparaat met het scherm op het scherm van het ontvangende apparaat.&lt;li&gt;</string>
+    <string name="hint3">Verwijder uw apparaat van het ontvangende apparaat als daarnaar gevraagd wordt.</string>
+    <string name="use_hotknot">Voor deze toepassing dient uw apparaat over de HotKnot-technologie te beschikken.</string>
+    <string name="allow">"Toestaan"</string>
+    <string name="deny">"Afwijzen"</string>
+    <string name="fail_to_share">Delen mislukt</string>
+    <string name="fail_to_share_conn_error">Delen mislukt als gevolg van een probleem met de verbinding.</string>
+    <string name="fail_to_share_unknown_error">Delen mislukt als gevolg van een onbekende fout.</string>
+    <string name="try_again">"Opnieuw proberen"</string>
+    <string name="usb_warning">De functie HotKnot kan beïnvloed zijn tijdens het USB-laden.</string>
+</resources>

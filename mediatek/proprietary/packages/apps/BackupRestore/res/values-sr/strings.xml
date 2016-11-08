@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Резервна копија и враћање</string>
+    <string name="backup">Резервна копија </string>
+    <string name="restore">Вратите</string>
+    <string name="backuptosd">Направите резервну копију на SD картици</string>
+    <string name="selectall">"Изабери све"</string>
+    <string name="unselectall">"Опозови све изборе"</string>
+    <string name="contact_module">"Контакт"</string>
+    <string name="message_module">"Размена порука"</string>
+    <string name="picture_module">"Слика"</string>
+    <string name="calendar_module">"Календар"</string>
+    <string name="calllog_module">"Евиденција позива"</string>
+    <string name="app_module">"Апликација"</string>
+    <string name="music_module">"Музика"</string>
+    <string name="notebook_module">Бележница</string>
+    <string name="bookmark_module">"Обележивач"</string>
+    <string name="backuping">Прављење резервне копије</string>
+    <string name="restoring">Враћање</string>
+    <string name="warning">Упозорење</string>
+    <string name="cancel_backup_confirm">Отказати прављење резервне копије?</string>
+    <string name="cancelling">Отказивање</string>
+    <string name="btn_ok">"Потврди"</string>
+    <string name="bt_yes">"Да"</string>
+    <string name="bt_no">"Не"</string>
+    <string name="menu_delete">"Избриши"</string>
+    <string name="unknown">"Непознато"</string>
+    <string name="backup_data">Подаци резервне копије</string>
+    <string name="less_1K">Мање од 1К</string>
+    <string name="notice">Обавештење</string>
+    <string name="nosdcard_notice">Молимо убаците своју SD картицу!</string>
+    <string name="restore_confirm_notice">Да ли сигурно желите да обавите враћање?</string>
+    <string name="contitue">"Настави"</string>
+    <string name="sdcard_removed">SD картица уклоњена! </string>
+    <string name="sdcard_is_full">SD картица је пуна!</string>
+    <string name="backup_result">Резултат прављења резервне копије</string>
+    <string name="restore_result">Резултат враћања</string>
+    <string name="result_success">"Успешно"</string>
+    <string name="result_fail">неуспешно</string>
+    <string name="result_no_content">нема садржаја</string>
+    <string name="error">"Грешка"</string>
+    <string name="sdcard_swap_remove">SD картица није детектована.</string>
+    <string name="sdcard_swap_insert">SD је детектована.</string>
+    <string name="backup_personal_data">"Лични подаци"</string>
+    <string name="backup_app">"Апликација"</string>
+    <string name="backup_personal_data_history">Историја прављења резервних копија личних података</string>
+    <string name="backup_app_data_history">Резервна копија апликација</string>
+    <string name="backup_app_data_preference_title">Апликације</string>
+    <string name="contact_all">"Све"</string>
+    <string name="contact_phone" product="tablet">"Таблет"</string>
+    <string name="contact_phone" product="default">"Телефон"</string>
+    <string name="selected">изабрано</string>
+    <string name="delete_please_wait">Брише се, молимо сачекајте!</string>
+    <string name="loading_please_wait">молимо сачекајте када се ажурира...</string>
+    <string name="edit_folder_name">Уреди име фасцикле</string>
+    <string name="file_no_exist_and_update">Документ је обрисан, биће поново учитан.</string>
+    <string name="no_item_selected">Ниједна ставка није одабрана</string>
+    <string name="updating">ажурирање...</string>
+    <string name="create_folder_fail">креирање фасцикле неуспешно</string>
+    <string name="detect_new_data_title">Нови подаци су детектовани</string>
+    <string name="detect_new_data_text" product="tablet">Изаберите да вратите ваше податке у претходно стање на таблет.</string>
+    <string name="detect_new_data_text" product="default">Одаберите да вратите своје податке на телефон.</string>
+    <string name="notification_backup_title">Прављење резервне копије</string>
+    <string name="notification_restore_title">Враћање</string>
+    <string name="restored_flag">Враћено</string>
+    <string name="message_sms">"Текстуална порука"</string>
+    <string name="message_mms">"Мултимедијална порука"</string>
+    <string name="activity_loading">"Учитавање…"</string>
+    <string name="sdcard_busy_message">"SD картица је заузета."</string>
+    <string name="backup_running_toast">Ваши подаци не могу да се врате током процеса прављења резервне копије.</string>
+    <string name="air_mode_dialog_title">SIM картица је искључена</string>
+    <string name="air_mode_dialog_message">Да бисте направили резервну копију контаката са SIM картице морате да искључите режим рада у авиону.</string>
+    <string name="sim_locked_dialog_title">SIM блокада</string>
+    <string name="sim_locked_dialog_message">Да бисте направили резервну копију контаката морате откључати SIM картицу.</string>
+    <string name="sim_locked_dialog_unlock">"Откључај"</string>
+    <string name="no_data">"Нема података."</string>
+    <string name="app_slot1">Прорез1</string>
+    <string name="app_slot2">Прорез2</string>
+    <string name="app_slot3">Прорез3</string>
+    <string name="app_slot4">Прорез4</string>
+    <string name="notification_backup_ok">Прављење резервне копије успешно.</string>
+    <string name="notification_backup_failed">Прављење резервне копије неуспешно.</string>
+    <string name="notification_restore_ok">Враћање успешно.</string>
+    <string name="notification_restore_failed">Враћање неуспешно.</string>
+    <string name="backup_confirm_overwrite_notice">Фасцикла већ постоји, заменити је?</string>
+</resources>

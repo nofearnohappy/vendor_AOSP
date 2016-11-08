@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/send_caption"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:paddingTop="28dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold" android:textSize="24sp"
+		android:textDirection="locale"
+        android:text="@string/hotknot_share" />
+
+    <ImageView android:id="@+id/send_banner"
+        android:layout_below="@+id/send_caption"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent" android:layout_height="162dp"
+        android:scaleType="center"
+        android:src="@drawable/hotknot_send_banner" />
+
+    <TableLayout 
+        android:layout_below="@+id/send_banner"
+        android:layout_width="fill_parent" android:layout_height="fill_parent" 
+        android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+        android:shrinkColumns="2"
+        android:stretchColumns="2"
+        >
+        <TableRow>    
+            <TextView
+                android:layout_column="1"
+                android:layout_width="16dp" android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+				android:textDirection="locale"
+                android:fontFamily="sans-serif" android:textSize="16sp" android:textStyle="bold"
+                android:text="@string/bullet"></TextView>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:fontFamily="sans-serif" android:textSize="16sp" android:textStyle="bold"
+                android:paddingBottom="20dp"
+				android:textDirection="locale"
+                android:text="@string/hint1"></TextView>
+        </TableRow>
+        <TableRow>    
+            <TextView
+                android:layout_column="1"
+                android:layout_width="16dp" android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+				android:textDirection="locale"
+                android:fontFamily="sans-serif" android:textSize="16sp" android:textStyle="bold"
+                android:text="@string/bullet"></TextView>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:paddingBottom="20dp"
+				android:textDirection="locale"
+                android:fontFamily="sans-serif" android:textSize="16sp" android:textStyle="bold"
+                android:text="@string/hint2"></TextView>
+        </TableRow>
+        <TableRow>    
+            <TextView
+                android:layout_column="1"
+                android:layout_width="16dp" android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+				android:textDirection="locale"
+                android:fontFamily="sans-serif" android:textSize="16sp" android:textStyle="bold"
+                android:text="@string/bullet"></TextView>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:paddingBottom="20dp"
+				android:textDirection="locale"
+                android:fontFamily="sans-serif" android:textSize="16sp" android:textStyle="bold"
+                android:text="@string/hint3"></TextView>
+        </TableRow>
+    </TableLayout>
+         
+</RelativeLayout>

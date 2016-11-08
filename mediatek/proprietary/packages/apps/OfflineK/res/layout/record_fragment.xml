@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView
+        android:id="@+id/outputOrder_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<View
+	    android:id="@+id/sep_view"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/outputOrder_string"
+        android:background="@android:color/black" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="429dp"
+        android:layout_below="@+id/sep_view"
+        android:choiceMode="none"
+        android:clickable="false"
+        android:dividerHeight="0.5dip"
+        android:drawSelectorOnTop="false"
+        android:fadingEdge="none"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollingCache="false" />
+
+    <Button
+        android:id="@+id/batchRunButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/roundbtn"
+        android:drawableTop="@android:drawable/btn_star"
+        android:text="@string/batch_string" />
+    
+    </RelativeLayout>
+
+    

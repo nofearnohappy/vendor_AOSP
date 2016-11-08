@@ -1,0 +1,27 @@
+JAR for filemanager plugin 
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+com.mediatek.filemanager.ext.jar defines interface for plugin.
+1. create system folder
+2. judge whether one folder is system folder
+3. get system folder icon
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. framework.jar
+
+and the following libs from MediaTek:
+1. mediatek-framework.jar
+2. mediatek-common.jar
+
+All source/dependency modules of this module are already put in
+'/system/framework' folder.
+
+HOW TO USE IT?
+==============
+use this com.mediatek.filemanager.ext.jar to build FileManager.apk
+in mediatek platform.

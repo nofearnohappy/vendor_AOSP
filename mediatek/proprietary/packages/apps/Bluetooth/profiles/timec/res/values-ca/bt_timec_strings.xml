@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_timec_label">"Sincronització d'hora per Bluetooth"</string>
+	<string name="bt_timec_main_title">"Client d'hora"</string>
+	<string name="bt_timec_choose_server_title">Tria dispositiu servidor</string>
+	<string name="bt_timec_choose_server_summary">Trieu un dispositiu servidor per sincronitzar la data y la hora</string>
+	<string name="bt_timec_sync_settings_title">"Configuració de sincronització d'hora"</string>
+	<string name="bt_timec_service_disconnected">"S'ha perdut la connexió al servei d'hora"</string>
+	<string name="bt_timec_sync_title">Sincronització de data i hora</string>
+	<string name="bt_timec_sync_summary">"Recupera i aplica la informació de data i hora del servidor d'hora"</string>
+	<string name="bt_timec_auto_title">Sincronització auto.</string>
+	<string name="bt_timec_auto_summary">"Sincronitza automàticament la data i la hora amb el servidor d'hora"</string>
+	<string name="bt_timec_repeat_title">"Repeteix"</string>
+	<string name="bt_timec_sync_confirm_title">Confirma per sincronitzar</string>
+	<string name="bt_timec_sync_confirm_msg">"Se sincronitzarà amb el servidor d'hora. La sincronització automàtica amb la xarxa mòbil es desactivarà. Voleu continuar?"</string>
+	<string name="bt_timec_synchronizing_title">Sincronitzant</string>
+	<string name="bt_timec_synchronizing_msg">"Sincronitzant data i hora amb el servidor d'hora..."</string>
+	<string name="bt_timec_sync_completed">Sincronització completada</string>
+	<string name="bt_timec_sync_failed">"No s'ha pogut sincronitzar la data i la hora amb el servidor d'hora"</string>
+	<string name="bt_timec_auto_disabled_ticker">"Sincronització automàtica d'hora desactivada"</string>
+	<string name="bt_timec_auto_disabled_title">"Sincronització auto. d'hora per Bluetooth desactivada"</string>
+	<string name="bt_timec_auto_disabled_msg">"La sincronització auto. D'hora no pot funcionar amb el Bluetooth desactivat."</string>
+	<string name="bt_timec_eng_connect_title">"Connecta"</string>
+	<string name="bt_timec_eng_connect_summary">Connecta amb el servidor</string>
+	<string name="bt_timec_eng_disconnect_summary">Desconnecta del servidor</string>
+	<string name="bt_timec_eng_settings_group_title">"Configuració"</string>
+	<string name="bt_timec_eng_automatic_title">"Automàtic"</string>
+	<string name="bt_timec_eng_automatic_summary">"Sincronització automàtica amb el servidor d'hora"</string>
+	<string name="bt_timec_eng_sync_title">"Sincronització amb el servidor d'hora"</string>
+	<string name="bt_timec_eng_sync_summary">"Recupera i aplica la data i hora del servidor d'hora"</string>
+	<string name="bt_timec_eng_update_server_title">"Actualitza el servidor d'hora"</string>
+	<string name="bt_timec_eng_update_server_summary">"Sol·licita al servidor d'hora l'actualització de data i hora des de la seva font"</string>
+	<string name="bt_timec_eng_dst_title">"Següent canvi d'hora"</string>
+	<string name="bt_timec_eng_connecting_title">"S\'està connectant"</string>
+	<string name="bt_timec_eng_connecting_msg">"Connectant-se amb el servidor d'hora..."</string>
+	<string name="bt_timec_eng_connection_failed">Connexió fallada</string>
+	<string name="bt_timec_eng_connection_lost">Connexió perduda</string>
+	<string name="bt_timec_eng_disconnecting_title">"S\'està desconnectant"</string>
+	<string name="bt_timec_eng_disconnecting_msg">"Desconnectant-se del servidor d'hora…"</string>
+	<string name="bt_timec_eng_processing_title">Processant</string>
+	<string name="bt_timec_eng_processing_msg">"Aplicant la configuració al servidor d'hora..."</string>
+	<string name="bt_timec_eng_processing_failed">Aplicació de la configuració al servidor no feta</string>
+	<string name="bt_timec_eng_server_updating_title">"El servei s'està actualitzant"</string>
+	<string name="bt_timec_eng_server_updating_msg">"Premeu ENRERE per cancel·lar l'actualització del servidor d'hora"</string>
+	<string name="bt_timec_eng_server_update_completed">Actualització del servidor completada</string>
+	<string name="bt_timec_eng_server_update_failed">"El servidor no s'ha pogut actualitzar"</string>
+</resources>

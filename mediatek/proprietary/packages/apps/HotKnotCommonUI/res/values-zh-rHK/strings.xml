@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name" translatable="false">HotKnot 分享</string>
+
+
+    <string name="hotknot_share">HotKnot 分享</string>
+    <string name="hint1">請確保接收的裝置打開了HotKnot，並且將熒幕保持解鎖。</string>
+    <string name="hint2">將你的裝置以熒幕對熒幕方式，連接到接收檔案的裝置上。</string>
+    <string name="hint3">聽到聲音提示之後將裝置拿離接收檔案的裝置。</string>
+    <string name="use_hotknot">這個應用程式需要再你的裝置上使用HotKnot技術。</string>
+    <string name="allow">"允許"</string>
+    <string name="deny">"拒絕"</string>
+    <string name="fail_to_share">分享失敗</string>
+    <string name="fail_to_share_conn_error">因為連線問題分享失敗。</string>
+    <string name="fail_to_share_unknown_error">因為未知的問題分享失敗。</string>
+    <string name="try_again">"重試"</string>
+    <string name="usb_warning">HotKnot功能於USB充電時可能受影響。</string>
+</resources>

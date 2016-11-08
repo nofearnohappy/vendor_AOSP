@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="93sp"
+    android:soundEffectsEnabled="false" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_gravity="center"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/icon" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="93sp"
+        android:background="@drawable/blackframe"
+        android:soundEffectsEnabled="false" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/instore_menu_text"
+        android:textSize="20sp" />
+
+</FrameLayout>

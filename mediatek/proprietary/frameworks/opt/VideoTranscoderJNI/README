@@ -1,0 +1,16 @@
+WHAT IT DOES?
+=============
+VideoTrancoderJNI is the JNI layer of the VideoTranscoder module.
+It provides a simple fuction for JAVA applciations to transcode video files into different 
+resoltuion or formats.
+
+HOW IT WAS BUILT?
+==================
+Same as other module.
+ 
+
+HOW TO USE IT?
+==============
+Use with VideoTranscoder.
+For Java applications you can implement a Java object to invoke these JNI functions
+or use the basic Java wrapper com.mediatek.transcode.VideoTranscode.

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Щелкните для подключения Bluetooth</string>
+    <string name="tap_to_add_device">Щелкните для добавления устройства</string>
+    <string name="turning_on_bluetooth">Включение режима Bluetooth…</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Поиск устройств</string>
+    <string name="delete_devices">Для подключения нового устройства отключите одно из устройств</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="ok">"ОК"</string>
+    <string name="alert_setting">"Оповещения"</string>
+    <string name="device_manager">Менеджер устройств</string>
+    <string name="out_of_range_alert_text">Вне зоны действия сигналов предупреждения</string>
+    <string name="in_range_alert_text">В зоне действия сигналов предупреждения</string>
+    <string name="range_alert_text">Моя зона действия</string>
+    <string name="range_alert_summary">Сигналы телефона и устройства при входе или выходе из зоны действия</string>
+    <string name="range_near_text">Рядом</string>
+    <string name="range_middle_text">середина</string>
+    <string name="range_far_text">"Мелкий"</string>
+    <string name="range_1_distance_text">Около 1 м</string>
+    <string name="range_10_distance_text">1-10 м</string>
+    <string name="range_20_distance_text">10-20 м</string>
+    <string name="phone_alert_settings">Настройка сигналов предупреждения телефона</string>
+    <string name="ringtone_tye_text">"Мелодия"</string>
+    <string name="volume_text">"Громкость"</string>
+    <string name="vibration_text">Вибрация</string>
+    <string name="vibration_summary_on">вкл</string>
+    <string name="vibration_summary_off">"Выкл"</string>
+    <string name="device_name">"Имя устройства"</string>
+    <string name="push_notification_text">Передача уведомлений на устройство</string>
+    <string name="incoming_call_notification_text">"Входящий вызов"</string>
+    <string name="missed_call_notificaiotn_text">"Пропущенный вызов"</string>
+    <string name="new_message_notification_text">"Новое сообщение"</string>
+    <string name="new_email_notification_text">"Новое письмо"</string>
+    <string name="disconnection_text">Настройка отключения</string>
+    <string name="disconnection_waring_title">Сигнал отключения</string>
+    <string name="disconnection_waring_summary">Сигналы телефона и устройства при отключении устройства</string>
+    <string name="device_name_change_dialog_title">"Переименовать"</string>
+    <string name="disconnect_text">"Отключить"</string>
+    <string name="delete_text">"Удалить"</string>
+    <string name="connect_text">"Подключиться"</string>
+    <string name="device_delete_dialog_message">Удалить устройство?</string>
+    <string name="device_disconnect_dialog_message">Отключить устройство?</string>
+    <string name="find_all_text">Найти все</string>
+    <string name="default_images">Изображения по умолчанию</string>
+    <string name="range_information_text">Зона действия зависит от уровня сигнала. В идеальных условиях радиус действия может превышать 30 метров.  При некоторых условиях радиус действия может сократиться до 15 метров и менее из-за препятствий в виде вашего тела, стен и прочих предметов.</string>
+    <string name="range_information_dialog_check_box_text">Не показывать снова</string>
+    <string-array name="device_image_chooser_items">
+        <item>Выбрать изображение по умолчанию</item>
+        <item>"Сделать снимок"</item>
+        <item>Выбрать из галереи</item>
+    </string-array>
+    <string name="add_device">"Добавить устройство"</string>
+    <string name="yes">"Да"</string>
+    <string name="no">"Нет"</string>
+    <string name="connecting_text">"Подключение..."</string>
+    <string name="enable_background_service">Включить фоновый режим</string>
+    <string name="disable_background_service">Отключить фоновый режим</string>
+    <string name="ble_manager_alert">Оповещение менеджера BLE</string>
+    <string name="check">Проверка</string>
+    <string name="dismiss">Отбой</string>
+    <string name="disconnected">"Отключен"</string>
+    <string name="in_range">в пределах диапазона</string>
+    <string name="out_of_range">за пределами диапазона</string>
+    <string name="no_found">Устройство Bluetouth не обнаружено.</string>
+    <string name="bt_off">Bluetooth выключен, включите.</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">渦輪下載</string>
+    <string name="hetcomm_intro">同時使用 Wi-Fi 及 4G/3G 網路可快速下載（超過 20MB）的大型檔案。渦輪下載執行中時，狀態列會顯示渦輪下載圖示。使用渦輪下載前，請先開啟 Wi-Fi 及行動數據服務。渦輪下載啟用後，任何先前已選擇僅用 Wi-Fi 下載的應用程式數據，都會同時使用 Wi-Fi 及 4G/3G 網路進行下載。</string>
+    <string name="enable_switch_on">開啟</string>
+    <string name="enable_switch_off">關閉</string>
+    <string name="notify_top_title">渦輪下載</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"WiFi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"行動數據"</string>
+    <string name="conn_notice_title">手機 或 Wi-Fi 已關閉。</string>
+    <string name="conn_notice_detail">使用渦輪下載前，請先開啟 Wi-Fi 及行動數據服務。</string>
+    <string name="conn_charging_warning">用行動網路下載資料可能導致額外費用。</string>
+    <string name="turn_on">開啟 <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">渦輪下載因 Vpn 已開啟而關閉。</string>
+    <string name="turn_off_due_to_tether">渦輪下載因 Tethering 已開啟而關閉。</string>
+    <string name="turn_off_due_to_shutdown">渦輪下載因關機而關閉。</string>
+    <string name="turn_off_due_to_roaming">渦輪下載因漫遊而關閉。</string>
+    <string name="ratio_is_single">Wi-Fi/行動數據速度慢。若要加快下載速度，渦輪下載將使行動數據或Wi-Fi來下載檔案。</string>
+    <string name="ratio_is_back">渦輪下載重新使用Wi-Fi和行動數據同時下載檔案。</string>
+    <string name="action_help">小幫手</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>""渦輪下載""說明</u>\
+    </h1><br>同時用 Wi-Fi 及 4G/3G 高速下載大型檔案。\
+    <h4>1. 進入「設定」功能表後觸點""渦輪下載""。</h4>\
+    <h4>2. 觸點開啟""渦輪下載""的開關。</h4>\
+    <p><b>[提示]</b> 在開始下載前，先連上Wi-Fi 及 4G/3G 以便""渦輪下載""。\
+    <p><b>[提示]</b> Wi-Fi 或 4G/3G 連線速率太慢時，可改用其他高速網路進行下載。\
+    <p><b>[提示]</b>""渦輪下載""的下載速率及效能可能受網路環境影響。\
+    <br>&nbsp;&nbsp;- 訊號如不穩定，""渦輪下載""的下載速率及效能可能不如預期。\
+    <br>&nbsp;&nbsp;- 但平均來看，下載速率會比只用Wi-Fi 或 4G/3G 連線時快一倍。\
+    <p><b>[提示]</b> Wi-Fi 及 4G/3G 間速率差過大（一般以 2.5 倍為準）時，""渦輪下載""會停止或不支援以免效能受到拖累。\
+    <p><b>[提示]</b> Tethering/Vpn 開啟時，""渦輪下載""會自動停用。\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_timec_label">Bluetooth синхрондау</string>
+	<string name="bt_timec_main_title">Уақыт клиенті</string>
+	<string name="bt_timec_choose_server_title">Сервер құрылғысын таңдау</string>
+	<string name="bt_timec_choose_server_summary">Күн мен уақытты келесімен синхрондау үшін сервер құрылғысын таңдаңыз</string>
+	<string name="bt_timec_sync_settings_title">Уақытты синхрондау параметрлері</string>
+	<string name="bt_timec_service_disconnected">Уақыт қызметінің байланысы жоғалды.</string>
+	<string name="bt_timec_sync_title">Синхрондау күні мен уақыты</string>
+	<string name="bt_timec_sync_summary">Уақыт серверінен күн мен уақыт туралы ақпарат алу және қолдану</string>
+	<string name="bt_timec_auto_title">Автосинхрондау</string>
+	<string name="bt_timec_auto_summary">Күн мен уақытты автоматты түрде уақыт серверімен синхрондау</string>
+	<string name="bt_timec_repeat_title">Қайталау</string>
+	<string name="bt_timec_sync_confirm_title">Синхрондауды растау</string>
+	<string name="bt_timec_sync_confirm_msg">Ол уақыт серверімен синхрондалады. Мобильдік желімен автосинхрондау тоқтатылады. Жалғастыру қажет пе?</string>
+	<string name="bt_timec_synchronizing_title">Синхрондау</string>
+	<string name="bt_timec_synchronizing_msg">Күн мен уақытты уақыт серверімен синхрондау...</string>
+	<string name="bt_timec_sync_completed">Синхрондау аяқталды</string>
+	<string name="bt_timec_sync_failed">Күн мен уақытты уақыт серверімен синхрондау сәтсіз аяқталды</string>
+	<string name="bt_timec_auto_disabled_ticker">Автоматты уақыт синхрондау өшірілді</string>
+	<string name="bt_timec_auto_disabled_title">Bluetooth арқылы автоматты уақыт синхрондау өшірілді</string>
+	<string name="bt_timec_auto_disabled_msg">Bluetooth өшіп тұрғанда, автоматты уақыт синхрондау жұмыс істемейді.</string>
+	<string name="bt_timec_eng_connect_title">Қосылу</string>
+	<string name="bt_timec_eng_connect_summary">Серверге қосылу</string>
+	<string name="bt_timec_eng_disconnect_summary">Серверден ажырату</string>
+	<string name="bt_timec_eng_settings_group_title">Параметрлер</string>
+	<string name="bt_timec_eng_automatic_title">Автоматты</string>
+	<string name="bt_timec_eng_automatic_summary">Уақыт серверімен автоматты түрде синхрондау</string>
+	<string name="bt_timec_eng_sync_title">Уақыт серверімен синхрондау</string>
+	<string name="bt_timec_eng_sync_summary">Уақыт серверінен күн мен уақытты алу және қолдану</string>
+	<string name="bt_timec_eng_update_server_title">Сервер уақытын жаңарту</string>
+	<string name="bt_timec_eng_update_server_summary">Уақыт көзінен күн мен уаықтты жаңарту үшін уақыт серверін сұрау</string>
+	<string name="bt_timec_eng_dst_title">Келесі DST (жазғы уақыт) өзгерісі </string>
+	<string name="bt_timec_eng_connecting_title">Қосылуда</string>
+	<string name="bt_timec_eng_connecting_msg">Уақыт серверіне қосылуда...</string>
+	<string name="bt_timec_eng_connection_failed">Қосылу сәтсіз аяқталды</string>
+	<string name="bt_timec_eng_connection_lost">Байланыс жоғалды</string>
+	<string name="bt_timec_eng_disconnecting_title">Өшірілуде</string>
+	<string name="bt_timec_eng_disconnecting_msg">Серверден ажыратылуда...</string>
+	<string name="bt_timec_eng_processing_title">Өңдеу</string>
+	<string name="bt_timec_eng_processing_msg">Параметрді уақыт серверіне қолдану...</string>
+	<string name="bt_timec_eng_processing_failed">Параметрді серверге пайдалану сәтсіз аяқталды</string>
+	<string name="bt_timec_eng_server_updating_title">Сервер жаңартылуда</string>
+	<string name="bt_timec_eng_server_updating_msg">Сервер уақытын жаңарту процесін болдырмау үшін BACK пернесін басыңыз</string>
+	<string name="bt_timec_eng_server_update_completed">Серверді жаңарту процесі аяқталды</string>
+	<string name="bt_timec_eng_server_update_failed">Серверді жаңарту сәтсіз аяқталды</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"Топтық арнайы желіге рұқсат алу сауалын қабылдау"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"Желінің қатынас орындарына рұқсат алу сауалын қабылдау"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"Топтық арнайы желіге рұқсат алу сауалын %1$s арқылы қабылдайсыз ба?"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"Желінің қатынас орындарына рұқсат алу сауалын %1$s арқылы қабылдайсыз ба?"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">%1$s арқылы топтық арнайы желі сәтті өшірілді!</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">%1$s арқылы желінің қатынас нүктелері сәтті өшірілді!</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"Топтық арнайы желіні %1$s арқылы өшіресіз бе?"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"Желінің қатынас орындарын %1$s арқылы өшіресіз бе?"</string>
+	<string name="bluetooth_pan_yes">Рұқсат ету</string>
+	<string name="bluetooth_pan_no">Деректерді беру жылдамдығы төмендейді.</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"Bluetooth топтық арнайы желіге рұқсат алу сауалы"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"Bluetooth топтық арнайы желіге рұқсат алу сауалы"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"%1$s арқылы топтық арнайы желіге рұқсат алу сауалын қабылдау үшін таңдаңыз"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"Bluetooth арқылы желінің қатынас орындарына рұқсат алу сауалы"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"Bluetooth арқылы желінің қатынас орындарына рұқсат алу сауалы"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"%1$s арқылы желінің қатынас орындарына рұқсат алу сауалын қабылдау үшін таңдаңыз"</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"Bluetooth арқылы топтық арнайы желі қосылды"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"Bluetooth арқылы топтық арнайы желі қосылды"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"%1$s арқылы топтық арнайы желіні өшіру үшін таңдаңыз"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"Bluetooth арқылы желінің қатынас орындары қосылды"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"Bluetooth арқылы желінің қатынас орындары қосылды"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"%1$s арқылы желінің қатынас орындарын өшіру үшін таңдаңыз"</string>
+	<string name="bluetooth_pan_GN_connect_ok">%1$s арқылы топтық арнайы желі сәтті қосылды!</string>
+    <string name="bluetooth_pan_GN_connect_fail">%1$s арқылы арнайы желі қосылмады!</string>
+    <string name="bluetooth_pan_NAP_connect_ok">%1$s арқылы желінің қатынас орындары сәтті қосылды!</string>
+    <string name="bluetooth_pan_NAP_connect_fail">%1$s арқылы желінің қатынас орындары қосылмады!</string>
+    <string name="bluetooth_pan_NAP_unavailable">%1$s желінің қатынас орындары қызметі қолжетімді емес</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">%1$s арқылы топтық арнайы желі сәтті өшірілді!</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">%1$s арқылы топтық арнайы желі өшірілмеді!</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">%1$s арқылы желінің қатынас нүктелері сәтті өшірілді!</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">%1$s арқылы желінің қатынас нүктелері өшірілмеді!</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">%1$s арқылы топтық арнайы желі өшірілді!</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">%1$s арқылы желінің қатынас орындары өшірілді!</string>
+    <string name="bluetooth_pan_server_settings">Bluetooth PAN қызметін таңдау</string>
+    <string name="bluetooth_pan_nap_enable_title">Желінің қатынас орындары</string>
+    <string name="bluetooth_pan_nap_enable_summary">NAP қызметін қосу немесе өшіру үшін таңдаңыз</string>
+    <string name="bluetooth_pan_gn_enable_title">Топтық арнайы желі</string>
+    <string name="bluetooth_pan_gn_enable_summary">GN қызметін қосу немесе өшіру үшін таңдаңыз</string>
+</resources>

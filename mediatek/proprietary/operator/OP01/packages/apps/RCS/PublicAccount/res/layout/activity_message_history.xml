@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mediatek.rcs.pam.ui.messagehistory.MessageHistoryActivity" >
+    
+	    <TextView
+	        android:id="@+id/search_description"
+	        android:layout_gravity="center"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="20dip"
+	        android:text="@string/search_description"
+	        android:visibility="gone"/>
+	    
+        <TextView
+	        android:id="@+id/empty_history_description"
+	        android:layout_gravity="center"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="20dip"
+	        android:text="@string/empty_history_description"
+	        android:visibility="gone"/>
+
+        	    
+        <TextView
+	        android:id="@+id/empty_search_description"
+	        android:layout_gravity="center"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="20dip"
+	        android:text="@string/empty_search_description"
+	        android:visibility="gone"/>
+        	    
+	    <ListView
+	        android:id="@+id/search_result_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:visibility="gone"/>
+        
+	    <ListView
+	        android:id="@+id/message_history_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>
+
+</LinearLayout>

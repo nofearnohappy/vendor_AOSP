@@ -1,0 +1,24 @@
+
+Binary of MediaTek-NFC Stack.
+
+WHAT IT DOES?
+=============
+nfcstackp contains MediaTek developed NFC stack.  
+Without them, MediaTek-NFC will not work.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libc.so
+2.  libcutils.so
+
+and the following libs from MediaTek:
+1.  libmtknfc.so
+
+HOW TO USE IT?
+==============
+
+Provide nfc stack for NFC Framework to control the NFC features.
+
+All the source code of this library were written by MediaTek co..
+

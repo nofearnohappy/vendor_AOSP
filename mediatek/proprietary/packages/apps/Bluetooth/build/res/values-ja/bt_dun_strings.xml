@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_dun_authorize_title">"Bluetoothダイヤルアップ許可中"</string>
+	<string name="bluetooth_dun_authorize_message">"%1$sからのダイヤルアップ接続を許可しますか？"</string>
+	<string name="bluetooth_dun_authorize_allow">"許可する"</string>
+	<string name="bluetooth_dun_authorize_decline">データ転送レートは低下します。</string>
+	<string name="bluetooth_dun_notification_connect_request_ticker">"Bluetoothダイヤルアップ許可要求"</string>
+	<string name="bluetooth_dun_notification_connect_request_title">"Bluetoothダイヤルアップ許可要求"</string>
+	<string name="bluetooth_dun_notification_connect_request_message">"選択して%1$sからの要求を許可できます"</string>
+</resources>

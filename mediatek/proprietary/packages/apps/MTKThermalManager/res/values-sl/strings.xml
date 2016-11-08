@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Thermal Manager</string>
+    <string name="coolers">Coolers</string>
+    <string name="thermal_sensors">Toplotna tipala</string>
+    <string name="thermal_protection">Toplotna zaščita</string>
+    <string name="thermal_policy_file_colon">"Datoteka toplotnega pravilnika:"</string>
+    <string name="apply_new_thermal_policy">Uporabi nov toplotni pravilnik</string>
+    <string name="tz_device_info">Informacije o napravi TZ</string>
+    <string name="thermal_logger">Toplotni dnevnik</string>
+    <string name="alert_dialog_two_buttons_title">Toplotno opozorilo!</string>
+    <string name="alert_dialog_two_buttons_message">Telefon se mora kmalu ohladiti!</string>
+    <string name="alert_dialog_ok">"V redu"</string>
+    <string name="alert_dialog_cancel">"Prekliči"</string>
+</resources>

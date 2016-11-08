@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">新联系</string>
+    
+    <!-- group string start -->
+    <string name="no_group">没有任何群组。</string>
+    <string name="no_group_chat">没有任何群聊。</string>
+    <string name="group_chat_title">"选择群聊"</string> 
+    <string name="contact_list_loading">"正在加载..."</string>
+    <string name="group_list_title">"选择群组"</string> 
+    <string name="account_phone_only" product="default">手机联系人</string> 
+    <string name="please_wait">"请稍候..."</string>
+    <string name="group_chat">"群聊"</string>
+    <string name="group_label">"群组"</string>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="one">"<xliff:g id="COUNT">%1$d</xliff:g> 个人"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> 个人"</item>
+    </plurals>
+    <!-- group string end -->
+
+    <!-- vcard string start -->
+    <string name="phone_number">"电话"</string>
+    <string name="phone_email">"电子邮件"</string>
+    <string name="card_preview">"预览"</string>
+    <string name="fail_reason_not_supported">"不支持此格式。"</string>
+    <string name="fail_reason_io_error">"I/O 错误"</string>
+    <string name="fail_reason_no_vcard_file">"未找到 vCard 文件。"</string>
+    <string name="contact_saved">"此联系人已保存。"</string>
+    <string name="contact_saved_error">"无法保存联系人。"</string>
+    <string name="name_tag">"姓名 "</string>
+    <string name="company_tag">"公司 "</string>
+    <string name="title_tag">"职务 "</string>
+    <!-- vcard string end -->
+    
+    <!-- rich screen string start -->
+    <string name="rich_screen">"增强屏显"</string>
+    <string name="activity_no_found">"未找到可处理此操作的应用。"</string>
+    <string name="group_member_no_number">"没有联系人拥有电话号码。"</string>
+    <string name="contact_no_number">"该联系人没有电话号码。"</string>    
+    <!-- rich screen string end -->
+
+    <string name="rcs_entry_card_title">融合通信</string>
+
+    <!-- qrcode string start -->
+    <string name="qrcode_card">二维码扫描器</string>
+    <string name="menu_gallery">相册</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="msg_default_status">请将二维码置于取景框内扫描。</string>
+    <string name="result_address_book">找到联系人信息</string>
+    <string name="result_no_contact">"没有发现联系人，请点击屏幕继续扫描。"</string>
+    <!-- qrcode string end -->
+
+    <!-- profile app string start -->
+    <string name="photo_action_choose_photo">选择照片</string>
+    <string name="photo_action_take_photo">拍摄照片</string>
+    <string name="photo_action_delete">删除照片</string>
+    <string name="photo_action_choose_new_photo">选择新照片</string>
+    <string name="photo_action_take_new_photo">拍摄新照片</string>
+
+    <string name="profile_info_phone_number">电话号码</string>
+    <string name="profile_info_name">姓名</string>
+    <string name="profile_info_family_name">姓氏</string>
+    <string name="profile_info_given_name">名字</string>
+    <string name="profile_info_portrait">头像</string>
+    <string name="profile_info_address">地址</string>
+    <string name="profile_info_email">邮件</string>
+    <string name="profile_info_birthday">生日</string>
+    <string name="profile_info_company">公司名称</string>
+    <string name="profile_info_company_tel">公司电话</string>
+    <string name="profile_info_title">公司职务</string>
+    <string name="profile_info_company_addr">公司地址</string>
+    <string name="profile_info_company_fax">公司传真</string>
+    <string name="profile_info_home_number">家庭电话</string>
+    <string name="profile_info_work_number">工作电话</string>
+    <string name="profile_info_fixed_number">固定电话</string>
+    <string name="profile_info_other_number">其它电话</string>
+    <string name="profile_info_qr_code">我的二维码</string>
+    <string name="profile_business_info">商务信息</string>
+    <string name="profile_please_add_business_info">请在个人中心中添加商务信息.</string> 
+    <string name="title_activity_profile_detail">个人信息</string>
+    <string name="title_activity_profile_center">个人中心</string>
+    <string name="subtitle_phone_number">"手机号："</string>
+
+    <string name="edit">"编辑"</string>
+    <string name="plugin_center">应用中心</string>
+    <string name="circles">圈子</string>
+    <string name="nethall">营业厅</string>
+    <string name="please_download_it_android_market">请到软件商店自行下载!</string>
+    <string name="please_download_it_plugin_center">请到\"通讯录->我->应用中心\"下载!</string>
+    <string name="other_number_add_new">添加号码</string>    
+    
+    <string name="share_profile">分享</string>
+    <string name="share_via">个人信息分享</string>
+    <string name="share_error">个人信息不能分享。</string>    
+    <string name="profile_get_sucess">下载个人信息成功!</string>
+    <string name="profile_get_portrait_sucess">下载个人头像成功!</string>
+    <string name="profile_set_sucess">上传个人信息成功!</string>
+    <string name="profile_set_portrait_sucess">上传个人头像成功!</string>
+    <string name="profile_get_fail">下载个人信息失败!</string>
+    <string name="profile_get_portrait_fail">下载个人头像失败!</string>
+    <string name="profile_set_fail">上传个人信息失败!</string>
+    <string name="profile_set_portrait_fail">上传个人头像失败!</string>
+    <string name="profile_loading">正在加载...</string>
+    <string name="profile_set_qr_mode_fail">更新二维码设置失败!</string>
+    <string name="profile_set_qr_mode_sucess">更新二维码设置成功!</string>
+    <!-- profile app string end -->
+    
+    <!-- network contact backup restore string start -->
+    <!-- common -->
+    <string name="backup_restore_lable">备份/恢复联系人</string>
+    <string name="backup_restore">备份/恢复</string>
+    <string name="backup">备份</string>
+    <string name="restore">恢复</string>
+    <string name="restore_success">联系人恢复成功！</string>
+    <string name="restore_success_donoting">云端联系人为空，不需要恢复</string>
+    <string name="restore_fail">联系人恢复失败，请重新恢复。</string>
+    <string name="restoring">正在恢复，请稍候&#8230;</string>
+    <string name="backup_success">联系人备份成功！</string>
+    <string name="backup_fail">联系人备份失败，请重新备份。</string>
+    <string name="backuping">正在备份，请稍候&#8230;</string>
+    <string name="no_contacts">手机联系人为空，不需要备份。</string>
+    <string name="confirm_backup">云端联系人将被本地手机联系人覆盖。是否继续？</string>
+    <string name="confirm_restore">本地手机联系人将被云端联系人覆盖。是否继续？</string>
+    <string name="rcs_unavailable">无法连接到融合通信平台，请检查。</string>
+        
+    <!-- setting -->
+    <string name="setting_title">设置</string>
+    <string name="wlan_switch_title">仅在WIFI环境下使用</string>
+    <string name="wlan_switch_note">开启后，通讯录备份和恢复功能仅在WIFI网络环境下使用，能够节省数据流量</string>
+    <string name="backup_switch_title">自动备份</string>
+    <string name="backup_time_title">自动备份时间</string>
+    <string name="dialog_backup_time">自动备份时间选择</string>
+    <string name="backup_type_title">自动备份频率</string>
+    <string name="dialog_backup_type">自动备份周期选择</string>
+    <string-array name="backup_type_list_entries">
+        <item>即时备份</item>
+        <item>每日备份</item>
+        <item>每周备份</item>
+        <item>每月备份</item>
+    </string-array>
+    <string-array name="backup_type_list_entries_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- first boot activity -->
+
+    <!-- home activity -->
+    <string name="open_wifi_tips">WLAN没有打开．</string>
+    <string name="set_wlan">设置WLAN</string>
+    <string name="open_wifi_propose">Wifi不可用，如继续备份/恢复可能花费大量移动数据，是否继续？</string>
+    <string name="btcontinue">继续</string>
+    
+    <!-- auto backup notification -->
+    <string name="auto_backup_success">联系人自动备份成功！</string>
+    <string name="auto_backup_fail">联系人自动备份失败，请重新备份。</string>
+    <string name="auto_backuping">正在自动备份，请稍候&#8230;</string>    
+    <!-- network contact backup restore string end -->
+
+    <string name="title_public_account">公共账号</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">TéléchargementTurbo</string>
+    <string name="hetcomm_intro">"Téléchargez des fichiers volumineux (plus de 20Mo) plus rapidement en utilisant simultanément les réseaux Wi-Fi et 3G/4G. L'icône Téléchargement Turbo s'affichera dans la barre d'état lorsque cette fonction est utilisée. Pour utiliser le Téléchargement Turbo, le Wi-Fi et les données mobiles doivent être activés. Une fois chose faite, les données sélectionnées pour un téléchargement uniquement via Wi-Fi le seront également par les réseaux WLAN et 3G/4G."</string>
+    <string name="enable_switch_on">activé</string>
+    <string name="enable_switch_off">Arrêt</string>
+    <string name="notify_top_title">Accélérateur de téléchargement</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Données mobiles"</string>
+    <string name="conn_notice_title">Le mode données mobiles ou Wi-Fi est DESACTIVE.</string>
+    <string name="conn_notice_detail">Pour activer la fonction Téléchargement Turbo, le Wi-Fi et les données mobiles doivent être activés.</string>
+    <string name="conn_charging_warning">Le téléchargement via les réseaux mobiles peut entraîner des coûts supplémentaires.</string>
+    <string name="turn_on">Activer <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Téléchargement Turbo DESACTIVE car Vpn ACTIVE</string>
+    <string name="turn_off_due_to_tether">Téléchargement Turbo DESACTIVE car Tethering ACTIVE</string>
+    <string name="turn_off_due_to_shutdown">Téléchargement Turbo DESACTIVE car mise hors tension</string>
+    <string name="turn_off_due_to_roaming">Téléchargement Turbo DESACTIVE car en itinérance</string>
+    <string name="ratio_is_single">La vitesse des données Wi-Fi/mobiles est lente. Pour accélérer le téléchargement, Turbo download utilisera uniquement les données mobiles/Wi-Fi pour télécharger les fichiers.</string>
+    <string name="ratio_is_back">Turbo download utilise les données Wi-Fi et mobiles ensemble pour télécharger les fichiers.</string>
+    <string name="action_help">Aide</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Aide Téléchargement Turbo</u>\
+    </h1><br>Téléchargez des fichiers volumineux à vitesse éclair en utilisant simultanément le Wi-Fi et la 4G/3G.\
+    <h4>1. Sélectionnez réglages, puis touchez Téléchargement Turbo.</h4>\
+    <h4>2. Touchez le commutateur pour activer la fonction Téléchargement Turbo.</h4>\
+    <p><b>[Astuce]</b> Pour accélérer le téléchargement en cas de connexion simultanée au Wi-Fi et à la 4G/3G au début de votre téléchargement.\
+    <p><b>[Astuce]</b> Si votre connexion Wi-Fi ou 4G/3G est trop lente, vous pouvez utiliser votre connexion réseau plus rapide pour télécharger.\
+    <p><b>[Astuce]</b> La vitesse et les performances de la fonction Téléchargement Turbo peuvent affecter l'environnement réseau durant le téléchargement.\
+    <br>&nbsp;&nbsp;- Si les signaux ne sont pas stables, la vitesse et les performances de cette fonction peuvent être affectées.\
+    <br>&nbsp;&nbsp;- néanmoins, en moyenne, la vitesse de téléchargement sera ""doublée"" comparée à l'utilisation du Wi-Fi ou de la 4G/3G en autonome.\
+    <p><b>[Astuce]</b> S'il existe une grande différence de vitesse entre le Wi-Fi et la 4G/3G (généralement 2,5 fois), la fonction Téléchargement Turbo s'arrêtera ou ne sera pas prise en charge afin d'éviter de mauvaises performances en termes de vitesse.\
+    <p><b>[Astuce]</b> La fonction Téléchargement Turbo est automatiquement désactivée lorsque le mode Tethering/Vpn est activé.\
+    </body></html>]]>"</string>
+</resources>

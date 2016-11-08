@@ -1,0 +1,29 @@
+[
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/RulePriority", objectValue : "123", objectType : "int", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/Roaming", objectValue : "1", objectType : "bool", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PLMN", objectValue : "460000", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/UpdatePolicy", objectValue : "1", objectType : "bool", newNode : "" },
+
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/AccessTechnology", objectValue : "3", objectType : "int", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/AccessId", objectValue : "AccessId", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/SecondaryAccessId", objectValue : "SecondaryAccessId", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/AccessNetworkPriority", objectValue : "4", objectType : "0", newNode : "" },
+
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/PLMN", objectValue : "46000", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/TAC", objectValue : "TAC", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/LAC", objectValue : "LAC", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/GERAN_CI", objectValue : "AG==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/UTRAN_CI", objectValue : "AW==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/EUTRA_CI", objectValue : "AT==", objectType : "bin", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/WLAN_Location/1/HESSID", objectValue : "HESSID", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/WLAN_Location/1/SSID", objectValue : "SSID", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/WLAN_Location/1/BSSID", objectValue : "BSSID", objectType : "chr", newNode : "" },
+    { operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular/1/AnchorLatitude", objectValue : "AG==", objectType : "bin", newNode : "" },
+ 	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular/1/AnchorLongitude", objectValue : "AW==", objectType : "bin", newNode : "" },
+ 	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular/1/Radius", objectValue : "1234", objectType : "int", newNode : "" },
+
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/TimeStart", objectValue : "08:00:00", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/TimeStop", objectValue : "18:00:00", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/DateStart", objectValue : "2011.7.18", objectType : "chr", newNode : "" },
+	{ operationName : "Replace",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/DateStop", objectValue : "2014.4.1", objectType : "chr", newNode : "" }
+]

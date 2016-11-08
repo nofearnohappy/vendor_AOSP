@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <array name="bookmark_preloads_for_op03">
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_accueil</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_actu</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_blackberrytouch</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_businesslounge</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_meteo</item>
+
+   <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_jeux</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_myfriends</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_orangeworld</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_sport</item>
+
+    <item>@raw/op03_icon_orange</item>
+    <item>@raw/op03_bookmark_thumb_trafic</item>
+  </array>
+  </resources> 

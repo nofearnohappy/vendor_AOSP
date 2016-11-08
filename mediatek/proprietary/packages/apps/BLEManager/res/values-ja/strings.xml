@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">タップして、Bluetoothをオンにする</string>
+    <string name="tap_to_add_device">タップしてデバイスを追加する</string>
+    <string name="turning_on_bluetooth">Bluetoothを起動中...</string>
+    <string name="launcher_activity_name">BLEマネージャー</string>
+    <string name="scanning_devices">デバイスのスキャン</string>
+    <string name="delete_devices">新しいデバイスを接続するために、デバイスを1つ切断してください</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"アラート"</string>
+    <string name="device_manager">デバイスマネージャー</string>
+    <string name="out_of_range_alert_text">範囲外アラート</string>
+    <string name="in_range_alert_text">範囲内アラート</string>
+    <string name="range_alert_text">マイレンジ</string>
+    <string name="range_alert_summary">デバイスが範囲内または範囲外のとき、電話とデバイスの両方がアラートします</string>
+    <string name="range_near_text">近く</string>
+    <string name="range_middle_text">中間</string>
+    <string name="range_far_text">"低"</string>
+    <string name="range_1_distance_text">約1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">電話のアラーム設定</string>
+    <string name="ringtone_tye_text">"着信音"</string>
+    <string name="volume_text">"音量"</string>
+    <string name="vibration_text">振動</string>
+    <string name="vibration_summary_on">オン</string>
+    <string name="vibration_summary_off">"無効"</string>
+    <string name="device_name">"端末名"</string>
+    <string name="push_notification_text">デバイスに通知をプッシュ</string>
+    <string name="incoming_call_notification_text">"着信"</string>
+    <string name="missed_call_notificaiotn_text">"不在着信"</string>
+    <string name="new_message_notification_text">"新規作成"</string>
+    <string name="new_email_notification_text">新規メール</string>
+    <string name="disconnection_text">切断設定</string>
+    <string name="disconnection_waring_title">切断アラート</string>
+    <string name="disconnection_waring_summary">デバイスが切断されると、電話とデバイスの両方がアラートします</string>
+    <string name="device_name_change_dialog_title">"名前を変更"</string>
+    <string name="disconnect_text">"接続を解除"</string>
+    <string name="delete_text">"削除"</string>
+    <string name="connect_text">"接続"</string>
+    <string name="device_delete_dialog_message">このデバイスを削除しますか？</string>
+    <string name="device_disconnect_dialog_message">デバイスを切断しますか？</string>
+    <string name="find_all_text">すべてを検索</string>
+    <string name="default_images">デフォルトの画像</string>
+    <string name="range_information_text">範囲は信号強度に依存します。 理想的な状態では、範囲は30m以上に達します。  身体、壁、その他障害物など、特定の要素によっては距離が15m以下になります。</string>
+    <string name="range_information_dialog_check_box_text">再度表示しない</string>
+    <string-array name="device_image_chooser_items">
+        <item>デフォルトの画像から選択する</item>
+        <item>"写真を撮影"</item>
+        <item>ギャラリーから選択する</item>
+    </string-array>
+    <string name="add_device">デバイスを追加する</string>
+    <string name="yes">"はい"</string>
+    <string name="no">"いいえ"</string>
+    <string name="connecting_text">"接続中..."</string>
+    <string name="enable_background_service">バックグラウンドモードを有効にする</string>
+    <string name="disable_background_service">バックグラウンドモードを無効にする</string>
+    <string name="ble_manager_alert">BLEマネージャーアラート</string>
+    <string name="check">確認</string>
+    <string name="dismiss">解除</string>
+    <string name="disconnected">"切断済み"</string>
+    <string name="in_range">範囲内</string>
+    <string name="out_of_range">範囲外</string>
+    <string name="no_found">Bluetoothデバイスが見つかりませんでした。</string>
+    <string name="bt_off">Bluetoothがオフです。オンにしてください。</string>
+</resources>

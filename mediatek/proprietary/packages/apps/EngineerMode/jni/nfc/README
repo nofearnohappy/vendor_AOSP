@@ -1,0 +1,31 @@
+JNI Library of engineermode nfc, which contain the interfaces
+to communicate with nfc driver
+
+This library is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+libem_nfc_jni.so provide jni interface to EngineerMode application to 
+access native interface of nfc
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. liblog
+2. libutils
+3. libc
+4. libcutils
+
+and the following libs from MediaTek:
+None
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+provide jni interface to EngineerMode to access native interface of nfc
+all api interface are at (vendor/mediatek/proprietary/packages/apps/EngineerMode/jni/nfc)
+
+All the source code of this library were written by MediaTek co..

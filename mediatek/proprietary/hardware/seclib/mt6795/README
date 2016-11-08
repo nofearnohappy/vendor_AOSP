@@ -1,0 +1,22 @@
+Provide utilities for secure image parsing and image authentication.
+
+WHAT IT DOES?
+=============
+libsecdl.so is a shared library which provides service for secure image parsing/image authentication 
+with assumption that image is already loaded into DRAM.
+1. get public key buffer in preloader GFH.
+2. get real image offset and image size in secure image.
+3. image authentication.
+
+HOW IT WAS BUILT?
+==================
+Most of the files are in binary release format.
+Some are in platform independent folder and some are in platform dependent folder.
+Platform independent part: vendor/mediatek/proprietary/external/seclib.
+Platform dependent part: vendor/mediatek/proprietary/platform/mtxxxx/seclib.
+
+HOW TO USE IT?
+==============
+
+This is part of Mediatek security solution.
+Please read related documents to know how to use it.

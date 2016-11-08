@@ -1,0 +1,23 @@
+This apk is for OP02Plugin test cases
+
+WHAT IT DOES?
+=============
+It is a test case apk which is used to test OP02 customization features(Setitngs, FileManager and so on)
+
+HOW IT WAS BUILT?
+==================
+It nees the following library from Mediate:
+1. mediatek-common.jar
+2. Host App api interface, for example: com.mediatek.settings.ext com.mediatek.filemanager.ext
+
+All OP02 plug-in customization features's test cases will be built in OP02PluginTests.apk
+
+HOW TO USE IT?
+==============
+
+Install the OP02PluginTests.apk to device and then run test cases using android intrumentation.
+
+For example:
+
+Run test case for OP02 Settings plug-in:
+adb shell am instrument -w com.mediatek.op02.tests/com.mediatek.settings.plugin.OP02SettingsTestRunner

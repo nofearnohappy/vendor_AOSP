@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<service uuid="00001802-0000-1000-8000-00805f9b34fb" service_type="Primary" extra_info="Immediate Alert Service">
+    <characteristic uuid="00002a06-0000-1000-8000-00805f9b34fb" extra_info="Alert Level">
+        <property>
+            <broadcast>no</broadcast>
+            <read>no</read>
+            <write_no_response>yes</write_no_response>
+            <write>no</write>
+            <notify>no</notify>
+            <indicate>no</indicate>
+            <signed_write>no</signed_write>
+            <extended_props>no</extended_props>
+        </property>
+        <permission>
+            <read>no</read>
+            <read_encrypted>no</read_encrypted>
+            <read_encrypted_mitm>no</read_encrypted_mitm>
+            <write>yes</write>
+            <write_encrypted>no</write_encrypted>
+            <write_encrypted_mitm>no</write_encrypted_mitm>
+            <write_signed>no</write_signed>
+            <write_signed_mitm>no</write_signed_mitm>
+        </permission>
+    </characteristic>
+</service>

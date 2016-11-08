@@ -1,0 +1,15 @@
+
+WHAT IT DOES?
+=============
+camera framework jni image transform related files.
+
+
+HOW IT WAS BUILT?
+==================
+It can build the following shared library:
+libjni_imagetransform.so
+
+
+HOW TO USE IT?
+==============
+Provide image transform related api for camera framework jni.

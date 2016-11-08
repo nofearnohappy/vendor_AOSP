@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">设备管理</string>
+    <string name="no_activity">无可用更新</string>
+    <string name="cancel">取消</string>
+    <string name="wait">升级查询</string>
+    <string name="download">下载</string>
+    <string name="update">确定</string>
+    <string name="rate">0%</string>
+    <string name="suspend">暂停</string>
+    <string name="resume">继续</string>
+    <string name="retry">重试</string>
+    <string name="ok">确定</string>
+    <string name="appmanager">应用管理程序</string>
+    <string name="networkerror">网络连接失败！</string>
+    <string name="nonewversion">当前版本已是最新</string>
+    <string name="noenoughspace">空间不足</string>
+    <string name="canceldownload">丢弃已下载升级包？</string>
+    <string name="description">升级说明</string>
+    <string name="dscrpContent">固件升级将提高设备稳定性和修正程序缺陷。\n升级到版本</string>
+    <string name="newfeatures">新加特性</string>
+    <string name="featureNotes">*版本：<xliff:g>%s</xliff:g>\n*大小：<xliff:g>%s</xliff:g></string>
+    <string name="updateNotes">软件更新大约需要10分钟。在此期间，所有手机功能将无法使用，包括紧急呼叫。</string>
+    <string name="updatenow">立即更新</string>
+    <string name="hour1later">1小时后</string>
+    <string name="neverask">不再提醒</string>
+    <string name="status_bar_notifications_new_version">发现新版本</string>
+    <string name="status_bar_notifications_downloading">下载新版本</string>
+    <string name="status_bar_notifications_download_completed">下载成功</string>
+    <string name="status_bar_notifications_title">固件升级</string>   
+    <string name="updateSuccessTitle">升级成功</string>
+    <string name="updateSuccess">固件升级成功</string>
+    <string name="updateFailTitle">升级失败 </string>
+    <string name="updateFail">固件升级失败 </string>
+    <string name="dm_entry_title">系统软件服务</string>
+    <string name="current_version">当前版本</string>
+    <string name="release_date">发布日期：</string>
+    <string name="system_update">系统升级</string>
+    <string name="download_status">下载版本</string>
+    <string name="update_install">进行升级</string>
+    <string name="install_version">安装升级包</string>
+    <string name="start_new_session">继续</string>
+    <string name="discard">丢弃已下载内容</string>
+    <string name="old_pkg_exists">已下载部分升级包，请选择继续或丢弃？</string>
+
+    <string name="gprs_download">更新将使用移动网络连接，这会产生费用，继续？</string>
+    <string name="roaming_download">更新将使用移动网络连接，在当前漫游状态下会产生费用，继续？</string>
+    <string name="gprs_download_title">更新提示</string>
+    <string name="nia_info">增强售后服务消息</string>
+    <string name="network_detect">连接服务器需要使用internet，正在检查网络</string>
+    <string name="usermode_visible_cmcc">增强售后服务</string>
+    <string name="usermode_interact_cmcc">是否接受增强售后服务？</string>
+    <string name="usermode_visible_cu">来自中国联通的增强售后服务</string>
+    <string name="usermode_interact_cu">是否接受来自中国联通的增强售后服务？</string>
+    <string name="usermode_visible">增强售后服务</string>
+    <string name="usermode_interact">是否接受增强售后服务？</string>
+    <string name="sim_not_register">sim卡没有注册更新服务器，请重新开机注册</string>
+
+ <!-- for scomo -->
+    <string name="scomo_replace_exist">该应用已存在，是否更换？</string>
+    <string name="scomo_install_ok">软件安装完成</string>
+    <string name="scomo_downloading_paused">软件下载暂停</string>
+    <string name="scomo_failed">软件安装失败</string>
+    <string name="connecting">正在连接</string>
+    <string name="name">软件名:</string>
+    <string name="size">大小:</string>
+    <string name="version">版本:</string>
+    <string name="installing">正在安装 <xliff:g>%s</xliff:g></string>
+    <string name="new_scomo_available">软件更新可用</string>
+    <string name="downloading_scomo">正在下载软件</string>
+    <string name="pause">暂停</string>
+    <string name="scomo_install_failed">软件安装失败</string>
+    <string name="download_restart">正在下载, 本操作将删掉已下载的软件包</string>
+    <string name="confirm_update_scomo">确认更新软件</string>
+    <string name="installing_scomo">正在安装软件</string>
+    <string name="click_for_detail">点击查看详细信息</string>
+    <string name="program_crash">下载过程异常终止,点击继续以重新下载</string>
+    <string name="downloading">正在下载 <xliff:g>%s</xliff:g></string>
+    <string name="cmcc_task_running">已有增强售后服务正在运行</string>
+
+    <string name="software_update">软件更新</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="download_complete">下载完成</string>
+    <string name="download_failed">下载失败</string>
+    <string name="install_complete">安装成功</string>
+    <string name="install_failed">安装失败</string>
+    <string name="upgrade">升级</string>
+    <string name="install">安装</string>
+    <string name="confirm_upgrade_msg">检测到旧版本,点击升级以更新到新版本</string>
+    <string name="confirm_install_msg">点击安装以安装新软件</string>
+    <string name="confirm_download_msg">软件更新可用</string>
+    <string name="package_format_error">软件包格式错误</string>
+    <string name="insufficent_storage">空间不足,无法安装软件</string>
+
+    <string name="scomo_activity_title">软件更新</string>
+    <string name="scomo_cancel_download_message">"确认取消下载？\n点击“继续”以继续下载\n
+点击“取消”以取消下载并删除已经下载的软件包"</string>
+    <string name="scomo_discard">取消</string>
+    <string name="scomo_continue">继续</string>
+    <string name="upgrading">正在升级</string>
+    <string name="paused">已暂停</string>
+    <string name="default_scomo_description">无描述信息</string>
+    <string name="unknown">未知</string>
+    <string name="loading">正在载入...</string>
+    <string name="resuming_download">正在恢复下载</string>
+    
+    <!-- for CollectSetPermissionDialog UI Start -->
+    <string name="manage_permission_app_label">增强售后服务权限</string>
+    <!-- Send message First alert UI  -->
+    <string name="collect_set_permission_dlg_title">增强售后服务</string>
+    <string name="collect_set_permission_dlg_check_hint">始终按此方式操作</string>
+    <string name="collect_set_permission_dlg_mgs">中国移动提示：中国移动增强售后服务申请访问和配置您的设备设置信息，并使用您的蜂窝移动数据网络，设置信息不涉及您的隐私，该业务使用过程中产生的所有数据流量均免费（在港澳台及国际漫游情况下不启用本业务），如选择确认，视为您同意本业务访问您的设备信息并使用您的移动数据网络；如选择取消，视为您不同意，中国移动将不启动该服务。</string>
+    <!-- Send message double confirm alert UI  -->
+    <string name="confirm_dlg_title">增强售后服务</string>
+    <string name="confirm_dlg__msg">中国移动提示：您取消后，中国移动将无法为您进行正确的终端参数设置，您确定要取消该服务？</string>
+    <!-- common alert UI  -->
+    <string name="alert_dlg_ok_button">确定</string>
+    <string name="alert_dlg_cancel_button">取消</string>
+    <!-- Send message Notification UI  -->
+    <string name="collect_set_permission_notification_tickerText">增强售后服务权限请求</string>
+    <string name="collect_set_permission_notification_title">增强售后服务</string>
+    <string name="collect_set_permission_notification_msg">增强售后服务请求使用蜂窝移动数据网络权限</string>
+</resources>

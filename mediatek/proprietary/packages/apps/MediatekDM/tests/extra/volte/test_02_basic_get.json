@@ -1,0 +1,17 @@
+[
+	{ operationName : "Get", nodeUri : "./IMSMO/PDP_ContextOperPref", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/P-CSCF_Address", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Timer_T1", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Timer_T2", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Timer_T4", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Private_user_identity", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Home_network_domain_name", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Resource_Allocation_Mode", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Voice_Domain_Preference_E_UTRAN", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Voice_Domain_Preference_UTRAN", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/SMS_Over_IP_Networks_Indication", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Keep_Alive_Enabled", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Mobility_Management_IMS_Voice_Termination", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/RegRetryBaseTime", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/RegRetryMaxTime", objectValue : "", objectType : "", newNode : "" },
+]

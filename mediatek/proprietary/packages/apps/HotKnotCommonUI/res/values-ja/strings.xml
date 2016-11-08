@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name" translatable="false">HotKnot 共有</string>
+    <string name="hotknot_share">HotKnot 共有</string>
+    <string name="hint1">受信装置がHotKnotをオンにしたことを確認し、その画面はロック解除したままにします。</string>
+    <string name="hint2">デバイス画面を受信装置の画面の上に置きます。</string>
+    <string name="hint3">音声案内が聞こえたら、受信装置からデバイスを取ります。</string>
+    <string name="use_hotknot">このアプリケーションは、デバイス上でHotKnot技術を使用する必要があります。</string>
+    <string name="allow">"許可する"</string>
+    <string name="deny">"許可しない"</string>
+    <string name="fail_to_share">共有に失敗しました</string>
+    <string name="fail_to_share_conn_error">接続の問題のため、共有に失敗しました。</string>
+    <string name="fail_to_share_unknown_error">不明なエラーのため、共有に失敗しました。</string>
+    <string name="try_again">"再試行"</string>
+    <string name="usb_warning">HotKnot機能は、USB充電中に影響を受けることがあります。</string>
+</resources>

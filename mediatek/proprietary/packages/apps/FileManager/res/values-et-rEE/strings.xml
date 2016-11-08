@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Failihaldur</string>
+    <string name="sort_by">"Sortimisalus:"</string>
+    <string name="copy">"Kopeeri"</string>
+    <string name="create_folder">"Loo kaust"</string>
+    <string name="cut">"Lõika"</string>
+    <string name="delete">"Kustuta"</string>
+    <string name="details">"Üksikasjad"</string>
+    <string name="paste">"Kleebi"</string>
+    <string name="rename">"Nimeta ümber"</string>
+    <string name="new_folder">"Uus kaust"</string>
+    <string name="confirm_rename">Kinnita ümbernimetamist</string>
+    <string name="pasting">Kleepimine</string>
+    <string name="loading">Laadimine\u2026</string>
+    <string name="deleting">Kustutamine</string>
+    <string name="alert_delete_multiple">Need üksused kustutatakse.</string>
+    <string name="alert_delete_single">See üksus kustutatakse.</string>
+    <string-array name="sort_by">
+        <item>"Tüüp"</item>
+        <item>Nimi (A - Z)</item>
+        <item>Suurus (suur - väike)</item>
+        <item>Kellaaeg (uutest - vanemateni)</item>
+    </string-array>
+    <string name="name">Nimi</string>
+    <string name="size">"Suurus"</string>
+    <string name="modified_time">Muudetud</string>
+    <string name="readable">Loetav</string>
+    <string name="executable">Täidetav</string>
+    <string name="writable">Kirjutatav</string>
+    <string name="msg_rename_ext">Oled muutmas faililaiendit, mis võib muuta faili tuvastamise võimatuks. Kas oled kindel, et tahad seda teha?</string>
+    <string name="wait">Palun oota\u2026</string>
+    <string name="done">"Valmis"</string>
+    <string name="cancel">"Tühista"</string>
+    <string name="no">"Ei"</string>
+    <string name="ok">"OK"</string>
+    <string name="yes">"Jah"</string>
+    <string name="deselect_all">"Tühista kõik valikud"</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="share">"Jaga"</string>
+    <string name="sort">Sordi</string>
+    <string name="more">"Rohkem"</string>
+    <string name="search">"Otsing ..."</string>
+    <string name="show_file">Kuva peidetud failid</string>
+    <string name="hide_file">Peida peidetud failid</string>
+    <string name="selected">valitud</string>
+    <string name="send_file">Saada fail</string>
+    <string name="empty_msg">(Tühi kaust)</string>
+    <string name="default_search_text">Otsi faile</string>
+    <string name="free_space">"Saadaval"</string>
+    <string name="total_space">"Kogu ruum"</string>
+    <string name="search_files">Otsi faile</string>
+    <string name="copy_deny">Kopeerimiseks ei ole luba.</string>
+    <string name="cut_deny">Lõikamiseks ei ole luba.</string>
+    <string name="delete_deny">Kustutamiseks ei ole luba.</string>
+    <string name="insufficient_memory">Ei ole piisavalt ruumi.</string>
+    <string name="invalid_empty_name">Faili või kausta nimi ei saa olla tühi.</string>
+    <string name="paste_same_folder">Ei saa kleepida samasse kataloogi.</string>
+    <string name="invalid_char_prompt">Oled sisestanud sobimatu(d) märgi(d).</string>
+    <string name="msg_unable_open_file">Failivormingut ei toetata.</string>
+    <string name="search_text_empty">Otsingu sisu ei tohi olla tühi.</string>
+    <string name="paste_sub_folder">Ei saa kopeerida alamkausta.</string>
+    <string name="operation_fail">Mõned failitoimingud ebaõnnestusid.</string>
+    <string name="search_result">%2$d tulemus(t) üksuse \"%1$s\" jaoks</string>
+    <string name="already_exists">%1$s on juba kasutusel.</string>
+    <string name="path_not_exists">Üksust %1$s pole.</string>
+    <string name="unmounted">%1$s on paigaldamata.</string>
+    <string name="create_hidden_file">"Faili ei peideta, kui selle nimi algab sümboliga '.'."</string>
+    <string name="modify_hidden_file">"Faili ei peideta, kui selle nimi ei alga sümboliga '.'."</string>
+    <string name="file_name_too_long">Sisestatud nimi on liiga pikk.</string>
+    <string name="paste_fail">Kleepimine ebaõnnestus.</string>
+    <string name="delete_fail">Kustutamine ebaõnnestus.</string>
+    <string name="some_paste_fail">Mõned kleepimistoimingud ebaõnnestusid.</string>
+    <string name="some_delete_fail">Mõned kustutamistoimingud ebaõnnestusid.</string>
+    <string name="search_empty">Otsingu sisu ei tohi olla tühi.</string>
+    <string name="search_setting_description">Kohalikud failid ja kaustad</string>
+    <string name="change_mode">Vali fail või kaust</string>
+    <string name="folder_beam_forbidden_title">Kausta ei saa saata</string>
+    <string name="folder_beam_forbidden_message">Kausta saatmine ei ole toetatud. Vali saatmiseks mitu faili.</string>
+    <string name="drm_beam_forbidden_title">Edastamine keelatud</string>
+    <string name="drm_beam_forbidden_message">DRM (digitaalõiguste haldus) faile ei saa saata.</string>
+</resources>

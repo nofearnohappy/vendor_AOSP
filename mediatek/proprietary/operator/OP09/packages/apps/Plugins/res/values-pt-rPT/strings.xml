@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">APK Plugin da Operadora</string>
+    <string name="sending_mail_title">E enviar e-mail…</string>
+    <string name="sent_success_title">Enviado com sucesso.</string>
+    <plurals name="sent_success_text">
+        <item quantity="one"><xliff:g id="sent_emails" example="1">%d</xliff:g> e-mail foi enviado com êxito.</item>
+        <item quantity="other"><xliff:g id="sent_emails" example="5">%d</xliff:g> e-mails foram enviados com êxito.</item>
+    </plurals>
+    <string name="sent_failed_title">O envio do e-mail falhou</string>
+    <plurals name="sent_failed_text">
+        <item quantity="one"><xliff:g id="unsent_emails">%d</xliff:g> e-mail não enviado.</item>
+        <item quantity="other"><xliff:g id="unsent_emails">%d</xliff:g> e-mails não enviados.</item>
+    </plurals>
+    <string name="CT_provider_email_account_signature">\n\nDe 189 mail</string>
+    <string name="CT_provider_email_account_name_description">189mail</string>
+    <string name="email_choose_provider_189">189mail</string>
+    <string name="email_choose_provider_sina">Sina</string>
+    <string name="email_choose_provider_others">Outro</string>
+    <string name="add_new_bookmark">"Adicionar marcador"</string>
+    <string name="new_folder">"Nova pasta"</string>
+    <string name="low_storage_dialog_title_on_external">"Atenção"</string>
+    <string name="low_storage_dialog_msg_on_external">O armazenamento do telefone não tem espaço suficiente. Não é possível transferir agora.</string> 
+    <string name="low_storage_dialog_title_on_extra">"Atenção"</string>
+    <string name="low_storage_dialog_msg_on_extra">O armazenamento extra não tem espaço suficiente. Não é possível transferir agora.</string> 
+    <string name="clear_history">"Limpar histórico"</string>
+    <string name="clear_history_dlg">"Eliminar o histórico de navegação do navegador?"</string>
+    <string name="none_audio_file">Formato de ficheiro não suportado.</string>
+    <string name="select_folder_empty">A pasta selecionada não contém músicas.</string>
+    <string name="add_folder_to_play">Pasta de reprodução</string>
+    <string name="add_folder_as_playlist">Adicionar pasta como lista de reprodução</string>
+    <string name="add_song_to_play">Reproduzir ficheiro</string>
+    <string name="international_roaming_label">Definições de roaming</string>
+    <string name="network_select_title">Seleção e definições de rede</string>
+    <string name="prl_title">Atualização CDMA PRL</string>
+    <string name="roaming_hotline_title">Serviço gratuito</string>
+    <string name="reset_to_default_title">"Repor predefinição"</string>
+    <string name="time_zone_recommend_title">Recomendação de fuso horário</string>
+    <string name="time_settings_title">Modo de exibição da hora</string>
+    <string name="time_zone_recommend_notify_summary">Toque para ver o fuso horário recomendado</string>
+    <string name="notes_title">Descrição:</string>
+    <string name="notes_summary">Este menu destina-se a utilizadores de cartões da China Telecom, se tiver dúvidas contacte o serviço de apoio ao cliente da China Telecom.</string>
+    <string name="main_sim_title">Definir como cartão principal</string>
+    <string name="sim_selection_title">Seleção de UIM/SIM</string>
+    <string name="general_settings_title">"Definições gerais"</string>
+    <string name="data_roaming_title">Ativar roaming de dados</string>
+    <string name="prefer_network_setting">Rede preferida</string>
+    <string name="networks">"Selecção da operadora"</string>
+    <string name="mms_roaming_title">Receber MMS automaticamente em roaming</string>
+    <string name="mms_roaming_auto_receive">Receber MMS automaticamente</string>
+    <string name="mdialog_message">Tenha em atenção que a ativação do roaming da rede de dados móveis poderá originar custos elevados</string>
+    <string name="select_automatically">"Selecionar automaticamente"</string>
+    <string name="manual_select_title">Seleccionar manualmente</string> 
+    <string name="manual_select_dialog_msg">Selecione a rede manualmente tocando em \"OK\". As redes deixarão de ser escolhidas automaticamente se selecionar e registar manualmente as operadoras de rede móvel. Se perder o sinal da rede deverá voltar a selecionar e registar manualmente. Recomendamos que utilize o "modo de seleção de rede automático". Deseja realmente aceder ao modo de seleção de rede manual?</string>
+    <string name="prefer_network">Rede preferida:</string>
+    <string name="global_mode">Modo Global</string>
+    <string name="gsm_only">Apenas GSM/UMTS</string>
+    <string name="cdma_only">"Apenas CDMA"</string>
+    <string name="prl_sending">Pedido de atualização PRL enviado, aguarde…</string>
+    <string name="reset_content">As predefinições dos menus internacionais serão repostas. Deseja realmente continuar?</string>
+    <string name="time_display_content">Definir hora predefinida para Chamadas, SMS e Calendário</string>
+    <string name="beijing_time">Hora de Pequim</string>
+    <string name="local_time">Hora local</string>
+    <string name="time_zone_title">"Fuso horário"</string>
+    <string name="time_zone_hint">A procurar cidades</string>
+    <string name="reset_success">Predefinições repostas com êxito!</string>
+    <string name="gemini_sim_mode_progress_activating_message">A activar\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">A desactivar\u2026</string>
+    <string name="main_sim">Cartão principal</string>
+    <string name="data_conn_msg">Desative a ligação de dados e defina o cartão principal.</string>
+    <string name="manual_network_selection_title">Seleção de rede manual</string>
+    <string name="manual_network_selection_title_with_sim">Seleção de rede manual do <xliff:g id="sim_slot">%1$s</xliff:g></string>
+    <string name="enable_sim_radio">"Ativar"</string>
+    <string name="enable_data_roaming">Roaming de dados internacional</string>
+    <string name="ir_slot1_notes_summary">A rede móvel deste cartão UIM/SIM é a rede preferida</string>
+    <string name="register_automatically">"Registo automático..."</string>
+    <string name="not_allowed">"O cartão SIM não permite uma ligação a esta rede."</string>
+    <string name="connect_later">Não é possível ligar a esta rede neste momento. Tente mais tarde.</string>
+    <string name="registration_done">"Registado na rede."</string>
+    <string name="cdma_network_selection_title">Seleção de rede CDMA</string>
+    <string name="gsm_network_selection_title">Seleção de rede GSM</string>
+    <string name="current_network_info_title">Informações sobre a rede atual</string>
+    <string name="switch_network_manually">Mudar para rede seguinte manualmente</string>
+    <string name="status_current_sid">SID atual</string>
+    <string name="status_current_nid">NID atual</string>
+    <string name="status_current_cellid">ID de Célula</string>
+    <string name="status_ct_network_type">Tipo de rede</string>
+    <string name="status_signal_strength">"Intensidade do sinal"</string>
+    <string name="evdo_signal_strength_info">Evdo</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="device_info_not_available">"Não disponível"</string>
+    <string name="device_info_default">Desconhecido</string>
+    <string name="manual_network_selection">Seleção de rede manual</string>
+    <string name="manual_network_cdma_searching">A procurar rede CDMA......</string>
+    <string name="manual_network_cdma_switch">Mudar para rede seguinte manualmente</string>
+    <string name="manual_network_cdma_description">Notas:  \nO sistema CDMA utiliza a seleção automática da rede e não precisa de interferência manual. Contudo, se a rede não funcionar, pode experimentar o botão \"Mudar manualmente para a rede seguinte\".</string>
+    <string name="manual_network_gsm_available_network">"Redes disponíveis"</string>
+    <string name="manual_network_notes_title">Notas:</string>
+    <string name="manual_network_notes_summary">Tem efeito apenas para a operação atual.</string>
+    <string name="manual_network_register_hint_ok">Ligou com êxito à rede \"<xliff:g id="network_current">%s</xliff:g>\", se o sinal da rede for fraco, o sistema ligará automaticamente a outra rede de roaming.</string>
+    <string name="manual_network_register_hint_fail_null">A rede não está disponível. O sistema ligará automaticamente a outra rede de roaming.</string>
+    <string name="manual_network_register_hint_fail">A rede \"<xliff:g id="network_failed">%s</xliff:g>\" não está disponível. O sistema ligará automaticamente a outra rede de roaming.</string>
+    <string name="manual_network_switching_phone">Aguarde…</string>
+    <string name="manual_network_switch_phone_fail">A mudança do modo de rede falhou. Tente mais tarde.</string>
+    <string name="manual_network_get_cdmaphone_fail">A mudança de rede falhou. Tente mais tarde.</string>
+    <string name="manual_network_switch_cdma_fail_data_connect">Desligue a ligação de dados antes de mudar manualmente para outra rede.</string>
+    <string name="network_forbidden">Desabilitar</string>
+    <string name="network_query_error">"Erro ao procurar redes."</string>
+    <string name="register_on_network">"A registar em <xliff:g id="NETWORK">%s</xliff:g>..."</string>
+    <string name="network_setting_all_forbidden_dialog">Nenhuma rede disponível. tente mudar de rede 3G ou clique numa rede proibida para registar manualmente. </string>
+    <string name="load_networks_progress">A procurar rede GSM\u2026</string>
+    <string name="data_connection_summary_title">"Dados móveis"</string>
+    <string name="data_connection_sim_slot_1">Utilizar dados móveis do UIM 1</string>
+    <string name="data_connection_sim_slot_2">Utilizar dados móveis do SIM 2</string>
+    <string name="crbt_settings_title">Definir tom de marcação de chamada</string>
+    <string name="crbt_send_ok">Enviado com êxito</string>
+    <string name="crbt_send_fail">Falha ao enviar a mensagem</string>
+    <string name="crbt_sending">A enviar</string>
+    <string name="crbt_to">"Para"</string>
+    <string name="crbt_wait">"Aguarde"</string>
+    <string name="gemini_3g_disable_warning_case0">Deverá primeiro ativar o roaming de dados para este cartão, o que poderá originar custos de roaming significativos! Deseja realmente ativar o roaming de dados e selecionar este cartão?</string>
+    <string name="gemini_3g_disable_warning_case1">O serviço 3G não está disponível com o cartão selecionado. Isto pode tornar o carregamento de dados mais lento. Pode alterar a definição do serviço 3G em Definições &gt; Sem fios e redes &gt; Redes móveis. Deseja realmente selecionar este cartão?</string>
+    <string name="gemini_3g_disable_warning_case2">O serviço 3G não está disponível com o cartão selecionado. Isto pode tornar o carregamento de dados mais lento. Pode alterar a definição do serviço 3G em Definições &gt; Gestão do UIM/SIM. Deseja realmente selecionar este cartão?</string>
+    <string name="gemini_3g_disable_warning_case3">Deverá primeiro ativar o roaming de dados para este cartão, o que poderá originar custos de roaming significativos! Além disso, o serviço 3G não está disponível com este cartão. Isto pode tornar o carregamento de dados mais lento. Pode alterar em Definições &gt; Sem fios e redes &gt; Redes móveis. Deseja realmente ativar o roaming de dados e selecionar este cartão?</string>
+    <string name="gemini_3g_disable_warning_case4">Deverá primeiro ativar o roaming de dados para este cartão, o que poderá originar custos de roaming significativos! Além disso, o serviço 3G não está disponível com este cartão. Isto pode tornar o carregamento de dados mais lento. Pode alterar em Definições &gt; Gestão do UIM/SIM. Deseja realmente ativar o roaming de dados e selecionar este cartão?</string>
+    <string name="gemini_data_connection_progress_message">Aguarde…</string>
+    <string name="apn_name">Nome da ligação</string>
+    <string name="apn_apn">Nome de Ponto de Acesso</string>
+    <string name="apn_http_proxy">"Proxy"</string>
+    <string name="apn_http_port">"PORTA"</string>
+    <string name="apn_user">User name (Nome de usuário)</string>
+    <string name="apn_password">"PALAVRA-PASSE"</string>
+    <string name="apn_server">"SERVIDOR"</string>
+    <string name="apn_mmsc">"MMSC"</string>
+    <string name="apn_mms_proxy">"Proxy de MMS"</string>
+    <string name="apn_mms_port">"Porta MMS"</string>
+    <string name="apn_mcc">"MCC"</string>
+    <string name="apn_mnc">"MNC"</string>
+    <string name="apn_auth_type">"Tipo de autenticação"</string>
+    <string name="apn_auth_type_none">"Nenhum"</string>
+    <string name="apn_auth_type_pap">"PAP"</string>
+    <string name="apn_auth_type_chap">"CHAP"</string>
+    <string name="apn_auth_type_pap_chap">"PAP ou CHAP"</string>
+    <string name="apn_type">"Tipo APN"</string>
+    <string name="apn_protocol">"Protocolo APN"</string>
+    <string name="apn_roaming_protocol">"Protocolo APN quando em roaming"</string>
+    <string name="carrier_enabled">"Ativar/desativar APN"</string>
+    <string name="carrier_enabled_summaryOn">"APN ativado"</string>
+    <string name="carrier_enabled_summaryOff">"APN desativado"</string>
+    <string name="bearer">"Portador"</string>
+    <string name="manual_selection_mode">Modo de seleção manual</string>
+    <string name="apn_settings">Nomes de ponto de acesso</string>
+    <string name="call_settings">"Definições de chamadas"</string>
+    <string name="general_setting_title">"Definições gerais"</string>
+    <string name="sum_general_setting">Definições gerais de telefone para o dispositivo</string>
+    <string name="cdma_setting_title">"Definições de chamada CDMA"</string>
+    <string name="sum_cdma_setting">"Definições adicionais de chamadas apenas CDMA"</string>
+    <string name="gsm_setting_title">"Definições de chamadas GSM"</string>
+    <string name="sum_gsm_setting">"Definições adicionais de chamadas apenas GSM"</string>
+    <string name="call_setting_tab_general">"Geral"</string>
+    <string name="call_setting_tab_SIM">SIM<xliff:g id="slot_id">%1$d</xliff:g>: <xliff:g id="sim_name">%2$s</xliff:g></string>
+    <string name="esurfing_dialing">Marcação eSurfing</string>
+    <string name="esurfing_dialing_summary">Mostrar diálogo de marcação eSurfing ao marcar em roaming internacional</string>
+    <string name="esurfing_dialing_guide">Guia de marcação eSurfing</string>
+    <string name="esurfing_dialing_assist">ASSISTÊNCIA DE MARCAÇÃO INTERNACIONAL</string>
+    <string name="minutereminder_title">Lembrete de minuto</string>
+    <string name="minutereminder_turnon">Ligar lembrete de minuto em 50s de cada minuto</string>
+    <string name="minutereminder_turnoff">Desligar lembrete de minuto</string>
+    <string name="dual_mic_title">Redução de ruído</string>
+    <string name="dual_mic_turnoff">Mic dplo desl</string>
+    <string name="dual_mic_turnon">Mic dplo lig</string>
+    <string name="respond_via_sms_setting_title">"Respostas rápidas"</string>
+    <string name="tty_mode_option_title">"Modo TTY"</string>
+    <string name="tty_mode_option_summary">"Definir modo TTY"</string> 
+    <string name="voice_mail">"Correio de voz"</string>
+    <string name="sum_voice_mail">Serviço de número de correio de voz</string>
+    <string name="ip_prefix_setting">Número de prefixo IP</string>
+    <string name="ip_prefix_setting_sum">Definições de número de prefixo IP</string>
+    <string name="labelCF">"Encaminhamento de chamadas"</string>
+    <string name="call_forwarding_settings">"Definições do reencaminhamento de chamadas"</string>
+    <string name="ct_labelCFU">"Reencaminhar sempre"</string>
+    <string name="ct_labelCFB">"Reencaminhar quando ocupado"</string>
+    <string name="ct_labelCFNRy">"Reencaminhar quando não atende"</string>
+    <string name="ct_labelCFNRc">"Reencaminhar quando está inacessível"</string>
+    <string name="ct_labelCFC">Cancelar todos os reencaminhamentos</string>
+    <string name="lable_call_barring">"Barramento de chamadas"</string>
+    <string name="call_barring_sum">Configurações de baramento de chamada de voz</string>
+    <string name="fdn">"Números de marcação fixa (FDN)"</string>
+    <string name="sum_fdn">"Gerir os números de marcação fixa"</string>
+    <string name="additional_gsm_call_settings">"Definições adicionais"</string>
+    <string name="call_additional_sum">Outro</string>
+     <string name="multiple_call_settings">Configuração</string>   
+     <string name="general_settings">Configuração geral</string> 
+     <string name="cdma_settings">Configuração CDMA</string>   
+     <string name="gsm_settings">Configuração GSM</string>  
+    <string name="failed_data_occupied">A ligação de dados está ocupada, não é possível transmitir temporariamente.</string>
+    <string name="failed_connection_failed">A ligação de dados falhou!</string>
+    <string name="failed_gateway_no_response">O Gateway de MMS não responde.</string>
+    <string name="failed_abnormal">Interrupção anormal durante a transmissão de MMS.</string>
+    <string name="mms_cancel_download">"Transferência cancelada."</string>
+    <string name="disable_delivery_report">Não é possível ativar em roaming.</string>
+    <string name="msg_status_sending">A enviar</string>
+    <string name="msg_status_failed">"Falhou"</string>
+    <string name="msg_status_success">"Enviados"</string>
+    <string name="msg_status">"Estado: "</string>
+    <string name="message_type_label">"Tipo: "</string>
+    <string name="text_message">"mensagem de texto"</string>
+    <string name="to_address_label">"Para: "</string>
+    <string name="sent_label">"Enviadas: "</string>
+    <string name="saved_label">"Guardada: "</string>
+    <string name="error_code_label">"Código de erro: "</string>
+    <string name="str_today">Hoje</string>
+    <string name="str_yesterday">"ontem"</string>
+    <string name="time_now">AGORA</string>
+    <string name="btn_resend_str">Tentar reenviar mensagens falhadas</string>
+    <string name="send">"Env."</string>
+    <string name="memory_full_cannot_save">Não é possível guardar o rascunho da mensagem porque a memória está cheia.</string>
+    <string name="memory_full_cannot_send">Não é possível enviar a mensagem porque a memória está cheia.</string>
+    <string name="memory_full_cannot_attach">Não é possível anexar o anexo porque a memória está cheia.</string>
+    <string name="memory_full_cannot_download_mms">Não é possível transferir a mensagem MMS porque a memória está cheia.</string>
+    <string name="storage_low_title">Memória de mensagens insuficiente</string>
+    <string name="storage_low_body">A memória de mensagens está quase cheia. Elimine mensagens antigas.</string>
+    <string name="split_message_apart">Dividir mensagem</string>
+    <string name="split_thread_apart">Dividir conversa</string>
+    <string name="save_msg_to_card">Guardar mensagem no cartão UIM/SIM</string>
+    <string name="select_card">Selecionar UIM/SIM</string>
+    <string name="manage_card_msg_title">Gerir mensagens do cartão UIM/SIM</string>
+    <string name="manage_card_msg_summary">Gerir mensagens armazenadas no cartão UIM/SIM</string>
+    <string name="manage_uim_messages_title">Mensagens de texto no cartão UIM</string>
+    <string name="uim_empty">Sem mensagens no cartão UIM.</string>
+    <string name="get_uim_capacity_failed">Falha ao obter capacidade do UIM.</string>
+    <string name="confirm_delete_uim_msg">Esta mensagem será eliminada do UIM.</string>
+    <string name="uim_full_title">Cartão UIM cheio</string>
+    <string name="roaming_dlg_title">"Atenção"</string>
+    <string name="romaing_dlg_content">Para ativar a obtenção automática de MMS em roaming, deverá ativar o roaming de dados.</string>
+    <string name="message_cannot_be_operated">Permite apenas a leitura devido a imitações do tipo de rede móvel atual.</string>
+    <string name="confirm_delete_selected_messages">As mensagens SMS da rede atual serão eliminadas.</string>
+    <string name="capacity_sim_card_due_mode">A capacidade atual muda de acordo com a rede à qual o UIM está ligado.</string>
+    <string name="str_dlg_msg">O pedido de relatório de entrega não é permitido para mensagens de texto em roaming.</string>
+    <string name="str_dlg_never_shown">Não voltar a lembrar.</string>
+    <string name="change_mms_to_sms">A mensagem será dividida em várias mensagens de texto.</string>
+    <string name="local_time_msg">Hora local</string>
+    <string name="time_receive">"Recebido"</string>
+    <string name="time_send">"Enviados"</string>
+    <string name="mms">"MMS"</string>
+    <string name="message_details_title">"Detalhes da mensagem"</string>
+    <string name="download">"Transferidas"</string>
+    <string name="mms_cancel">"Cancelar"</string>
+    <string name="unsupported_files">O formato do ficheiro não é suportado</string>
+    <string name="sim_manage_call_via">Chamada via</string>
+    <string name="yi_dialing_dialog_title">Marcação eSurfing</string>
+    <string name="dial_to_home_country">Marcar para país de origem</string>
+    <string name="international_call">Chamada internacional</string>
+    <string name="ct_callback">**133 chamada de retorno</string>
+    <string name="dial_to_another_country">Marcar para outro país</string>
+    <string name="local_call">Chamada local</string>
+    <string name="yi_dialing_dialing_call_button">"Chamada"</string>
+    <string name="call_ip_call_slot_1">Marcação IP através do cartão 1</string>
+    <string name="call_ip_call_slot_2">Marcação IP através do cartão 2</string>
+    <string name="view_call_log_detail">Ver detalhes do registo chamadas</string>
+    <string name="dial_number">Marcar o número</string>
+    <string name="send_message">Enviar uma mensagem</string>
+    <string name="delete_from_call_log_list">Eliminar da lista de registo de chamadas</string>
+    <string name="delete_all_calls_with_number">Eliminar todas as chamadas do número</string>
+    <string name="delete_all_calls_with_contact">Eliminar todas as chamadas do contacto</string>
+    <string name="ip_dial_number">Marcação por IP</string>
+    <string name="view_contact_detail">Ver detalhes do contacto</string>
+    <string name="copy_number">"Copiar"</string>
+    <string name="copy_number_to_dialer">Copiar o número para o marcador</string>
+    <string name="save_number_to_contact">"Adicionar aos contactos"</string>
+    <string name="delete_all_calls_with_number_dialog_title">Eliminar todas as chamadas do número</string>
+    <string name="delete_all_calls_with_number_dialog_message">Deseja realmente eliminar todas as chamadas do número?</string>
+    <string name="delete_all_calls_with_contact_dialog_title">Eliminar todas as chamadas do contacto</string>
+    <string name="delete_all_calls_with_contact_dialog_message">Deseja realmente eliminar todas as chamadas do contacto?</string>
+    <string name="contact_detail_detail">Detalhe</string>
+    <string name="contact_detail_history">"Histórico"</string>
+    <string name="contact_detail_update">"Atualizar"</string>
+    <string name="contact_detail_history_mms_received_time">Hora de receção %1$s</string>
+    <string name="contact_detail_history_mms_received_from">Recebido de %1$s</string>
+    <string name="contact_detail_history_mms_sent_time">Hora de envio %1$s</string>
+    <string name="contact_detail_history_mms_sent_to">Enviado para  %1$s</string>
+    <string name="contact_detail_history_calllog">Histórico de chamadas</string>
+    <string name="contact_detail_history_mms">Mensagens</string>
+    <string name="contact_detail_history_duration">"Duração:"</string>
+    <string name="contact_detail_history_ismms">"Mensagem multimédia"</string>
+    <string name="contact_detail_history_empty_calllog">O registo de chamadas está vazio</string>
+    <string name="contact_detail_history_empty_message">Sem mensagens</string>
+    <string name="contact_detail_history_empty">Não existem registos para chamadas, mensagens</string>
+    <string name="all_calls_with_number">Todas as chamadas do número</string>
+    <string name="all_calls_with_contact">Todas as chamadas do contacto</string>
+    <string name="gsm_network">Rede GSM</string>
+    <string name="cdma_network">Rede CDMA</string>
+    <string name="no_sim_card">"Nenhum cartão SIM"</string>
+    <string name="no_sim_card_cdma">Nenhum cartão UIM</string>
+    <string name="no_search_result">Nenhum resultado da procura</string>
+    <string name="look_simstorage">Ver capacidade do cartão SIM</string>
+    <string name="dlg_simstorage_content">número de telefone livro Capacidade de armazenamento de <xliff:g id="items">%d</xliff:g>, foi usado <xliff:g id="items">%d</xliff:g>. </string>
+    <string name="wallpaper_instructions">"Definir imagem fundo"</string>
+    <string name="pick_wallpaper">Imagens de fundo eSurfing</string>
+    <string name="ct_master_clear_desc">Esta ação irá repor as definições e apagar os dados do seu telefone, incluindo:\n\n<li>A sua conta Google</li>\n<li>Dados e definições do sistema e aplicações</li></string>
+    <string name="personal_data_title">"Dados pessoais"</string>
+    <string name="personal_data_description">Incluir contas, contactos, registos de chamadas, mensagens e outros</string>
+    <string name="install_app_title">"Aplicações instaladas"</string>
+    <string name="ct_erase_external_storage">Ficheiros do utilizador</string>
+    <string name="ct_encrypt_personal_data_title">"Permite à aplicação informar o sistema acerca das miniaplicações que podem ser utilizadas com cada aplicação. Com esta autorização, algumas aplicações podem conceder acesso a dados pessoais a outras aplicações. Não se destina a utilização por aplicações normais."</string>
+    <string name="ct_encrypt_install_app_title"><li>Aplicações instaladas</li></string>
+    <string name="ct_encrypt_media_data_title"><li>Ficheiros do utilizador</li></string>
+    <string name="ct_erase_external_storage_description">Músicas, vídeos, fotografias e outros</string>
+    <string name="factory_failed">A reposição dos dados de fábrica falhou, tente novamente.</string>
+    <string name="sim_slot_1">ranhura 1</string>
+    <string name="sim_slot_2">ranhura 2</string>
+    <string name="roaming_settings_time_category_title">Definições de hora para roaming</string>
+    <string name="cdma_cfu_dialog_sum">"Utilizar sempre este número"</string>
+    <string name="enable">"Ativar"</string>
+    <string name="disable">"Desativar"</string>
+    <string name="selectContact">"seleccionar contacto"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="save">"Guardar"</string>
+    <string name="labelCW">"Chamada em espera"</string>
+    <string name="screen_timeout_summary">"Depois de <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> de inatividade"</string>
+    <string name="brightness">"Brilho"</string>
+    <string name="apn_not_set">"Não definido"</string>
+    <string name="network_selection_settings">Seleção de rede</string>
+    <string name="quick_settings_roam_data">Roaming de dados</string>
+    <string name="apn">PONTO DE ACESSO</string>
+    <string name="dual_sim_settings">DEFINIÇÕES DE DUPLO SIM</string>
+    <string name="product_model">"Modelo"</string>
+    <string name="hardware_version">Versão de hardware</string>
+    <string name="software_version">Versão de software</string>
+    <string name="prl_version">"Versão de PRL"</string>
+    <string name="current_sid">SID</string>
+    <string name="current_nid">NID</string>
+    <string name="current_meid">"MEID"</string>
+    <string name="current_uim_id">ID do UIM</string>
+    <string name="current_esn">ESN</string>
+    <string name="unknown">desconhecido</string>
+    <string name="menu_eSurfing_dialing">Marcação eSurfing</string>
+    <string name="dial_to_china_mainland">Marcar para China continental</string>
+    <string name="dial_to_macau">Marcar para Macau</string>
+    <string name="dial_to_hongkong">Marcar para Hong Kong</string>
+    <string name="dial_to_taiwan">Marcar para Taiwan</string>
+    <string name="skip_button_string">"Ignorar"</string>
+    <string name="esurfing_dialing_step1">Passo 1: Introduza um número de telefone (não é necessário adicionar o código de acesso internacional e o indicativo do país), clique no botão de chamada e o diálogo de marcação eSurfing será exibido automaticamente.</string>
+    <string name="esurfing_dialing_step2_china_mainland">"Passo 2: Quando a discagem de um telefone na China continental, selecione 'chamada Internacional' em 'Dial para a China continental', o '+86' prefixo será adicionado automaticamente."</string>
+    <string name="esurfing_dialing_step2_china_macau">"Passo 2: Quando a discagem de um telefone em Macau, selecione 'chamada Internacional' em 'Dial para Macau', o '+853'prefixo será adicionado automaticamente."</string>
+    <string name="esurfing_dialing_step2_china_hongkong">"Passo 2: Quando a discagem de um telefone em Hong Kong, selecione 'chamada Internacional' em 'Dial para Hong Kong', o '+852' prefixo será adicionado automaticamente."</string>
+    <string name="esurfing_dialing_step2_china_taiwan">"Passo 2: Quando a discagem de um telefone em Taiwan, selecione 'chamada Internacional' em 'Dial para Taiwan', o '+886' prefixo será adicionado automaticamente."</string>
+    <string name="esurfing_dialing_step2_china_other">"Passo 2: Quando a discagem de um telefone no país de origem, selecione 'chamada Internacional' em 'Dial para país de origem', o prefixo de discagem internacional será adicionado automaticamente."</string>
+    <string name="esurfing_dialing_step2_china_callback">"Passo 2: Quando o cartão SIM é um cartão SIM mainland China, e quando a discagem de um telefone na China continental, você também pode selecionar '**133 call back' em 'Dial para a China continental', o '**133' prefix serão adicionados automaticamente."</string>
+    <string name="esurfing_dialing_step2_china_dial_other">"Passo 2: Quando a discagem de um telefone em outros países ou territórios, selecione 'Dial para outro país' e a lista dos países e territórios irá aparecer. Selecione o seu país de destino ou território e voltar para eSurfing diálogo marcação. O prefixo de roaming internacional será adicionado automaticamente."</string>
+    <string name="esurfing_dialing_step2_china_dial_local">"Passo 2: Quando a discagem de um telefone local, selecione 'chamada Local'. O número inserido será discado diretamente sem alterações."</string>
+    <string name="country_search">"Pesquisar"</string>
+    <string name="country_start">"INICIAR"</string>
+    <string name="country_exit">"Sair"</string>
+    <string name="country_select_americas">Américas</string>
+    <string name="country_select_oceania">Oceânia</string>
+    <string name="country_select_europe">"Europa"</string>
+    <string name="country_select_asia">"Ásia"</string>
+    <string name="country_select_africa">"África"</string>
+    <string name="country_select_egypt">Egito</string>
+    <string name="country_select_south_Africa">South Africa</string>
+    <string name="country_select_gambia">Gâmbia</string>
+    <string name="esurfing_dialing_guide_title">Guia de marcação eSurfing</string>
+    <string name="esurfing_dialing_guide_cancel">"Cancelar"</string>
+    <string name="private_num">"Número particular"</string>
+    <string name="payphone">Cabina telefónica</string>
+    <string name="keyguard_domestic_zone_name">"Pequim"</string>
+    <string name="switch_on_text">"ATIVADA"</string>
+    <string name="switch_off_text">"Desativado"</string>
+    <string name="search_menu">"Pesquisar"</string>
+    <string name="lte_use_summary">utilizar rede LTE</string>
+    <string name="enable_lte_data">ativar dados 4G</string>
+    <string name="enable_lte_data_summary">A rede 4G oferece um acesso melhor e mais rápido à Internet</string>
+    <string name="only_use_LTE_data">Utilizar apenas dados LTE</string>
+    <string name="only_use_LTE_data_summary">Se ativar apenas um tipo de dados, a função não será capaz de utilizar chamadas telefónicas e mensagens de texto.</string>
+    <string name="lte_data_only_prompt">Não é possível utilizar esta função porque o modo de apenas dados 4G está ativado. Deseja sair do modo de apenas dados 4G?</string>
+    <string name="lte_data_only_timeout">Não existe nenhuma rede de apenas dados 4G na sua localização atual. Deseja sair e procurar outras redes?</string>
+    <string name="lte_only_dialog_button_yes">"Sim"</string>
+    <string name="lte_only_dialog_button_no">Não</string>
+    <string name="lte_only_dialog_title_prompt">Aviso</string>
+    <string name="no_sim_dialog_message">Insira um cartão UIM da China Telecom</string>
+    <string name="edit_app_button_text">Editar aplicações</string>
+    <string name="hide_app_button_text">Ocultar aplicações</string>
+    <string name="lockscreen_carrier_default">"Nenhum serviço"</string>
+    <string name="lockscreen_missing_sim_message_short">Nenhum cartão</string>
+
+    <!-- For CT Incall -->
+    <string name="callFailed_simError_ct">Nenhum UIM/SIM, ou erro do UIM/SIM</string>
+    <string name="whether_enable_4G">Está prestes a ativar o 4G.O serviço de rede atual será interrompido durante a procura por uma rede LTE.Deseja continuar?</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">FM အသံလႊင့္စက္</string>
+    <string name="dlg_seek_title">ရွာေနသည္</string>
+    <string name="dlg_search_text">လြတ္ေနေသာ ခ်န္နယ္မ်ားကို ရွာေနသည္၊ ေက်းဇူးျပဳ၍ ေစာင့္ပါ…</string>
+    <string name="advanced_title">ႀကိမ္ႏႈန္းကို ကိုယ္တိုင္ သတ္မွတ္ပါ</string>
+    <string name="text_input_frequency">သင္လိုခ်င္ေသာ အဝင္ဖရီကြင္စီမွ   87.5-97.5 ႏွင့္ 99.5-108 ကို သုံးႏုိင္သည္</string>
+    <string name="text_ok">အိုေက</string>
+    <string name="text_auto_search">လြတ္ေနေသာ ခ်န္နယ္မ်ားကို အလိုအေလ်ာက္ ရွာရန္</string>
+    <string name="text_search">ရွာေဖြပါ</string>
+    <string name="toast_plugout_earphone">ေက်းဇူးျပဳ၍ နားၾကပ္ကို ဦးစြာ ျဖဳတ္ပါ။</string>
+    <string name="toast_input_error">ထည့္သြင္းမႈ မမွန္ကန္ပါ၊ မွန္ကန္ေသာ တန္ဖိုးမွာ ဝ သို႔မဟုတ္ ၅။</string>
+    <string name="toast_input_valid">နံပါတ္ကို 87.5-97.5 သို႔မဟုတ္ 99.5-108 အတြင္း ထည့္သြင္းပါ</string>
+</resources>

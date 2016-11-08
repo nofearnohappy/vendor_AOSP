@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Bluetooth қосу үшін түртіңіз</string>
+    <string name="tap_to_add_device">Құрылғыны қосу үшін түртіңіз</string>
+    <string name="turning_on_bluetooth">Bluetooth қосылуда...</string>
+    <string name="launcher_activity_name">BLE реттеуші</string>
+    <string name="scanning_devices">Құрылғыларды сканерлеу</string>
+    <string name="delete_devices">Жаңа құрылғыны қосу үшін бір құрылғыны ажыратыңыз</string>
+    <string name="cancel">Болдырмау</string>
+    <string name="ok">OK</string>
+    <string name="alert_setting">"Дабыл"</string>
+    <string name="device_manager">Құрылғылар реттеушісі</string>
+    <string name="out_of_range_alert_text">Ауқымнан тыс ескертуі</string>
+    <string name="in_range_alert_text">Ауқым шеңберінде ескертуі</string>
+    <string name="range_alert_text">Менің ауқымым</string>
+    <string name="range_alert_summary">Құрылғы ауқым шеңберінде не одан тыс болғанда телефон мен құрылғы ескертеді</string>
+    <string name="range_near_text">Жақын</string>
+    <string name="range_middle_text">Орташа</string>
+    <string name="range_far_text">Ұсақ</string>
+    <string name="range_1_distance_text">Шамамен 1 м</string>
+    <string name="range_10_distance_text">1-10 м</string>
+    <string name="range_20_distance_text">10-20 м</string>
+    <string name="phone_alert_settings">Телефон ескертуінің параметрлері</string>
+    <string name="ringtone_tye_text">Рингтон</string>
+    <string name="volume_text">Дыбыс деңгейі</string>
+    <string name="vibration_text">Діріл</string>
+    <string name="vibration_summary_on">"Қосулы"</string>
+    <string name="vibration_summary_off">Өшіру</string>
+    <string name="device_name">Құрылғы аты</string>
+    <string name="push_notification_text">Құрылғыға Push хабарландырулары</string>
+    <string name="incoming_call_notification_text">Кіріс қоңырау</string>
+    <string name="missed_call_notificaiotn_text">Қабылданбаған қоңырау</string>
+    <string name="new_message_notification_text">Жаңа хабар</string>
+    <string name="new_email_notification_text">Жаңа электрондық пошта хабары</string>
+    <string name="disconnection_text">Ажырату параметрлері</string>
+    <string name="disconnection_waring_title">Ажырату туралы ескерту</string>
+    <string name="disconnection_waring_summary">Құрылғы ажыратылғанда телефон мен құрылғы ескертеді</string>
+    <string name="device_name_change_dialog_title">Атын өзгерту</string>
+    <string name="disconnect_text">Ажырату</string>
+    <string name="delete_text">Жою</string>
+    <string name="connect_text">Қосылу</string>
+    <string name="device_delete_dialog_message">Осы құрылғыны жою керек пе?</string>
+    <string name="device_disconnect_dialog_message">Құрылғыны ажырату керек пе?</string>
+    <string name="find_all_text">Барлығын табу</string>
+    <string name="default_images">Әдепкі кескіндер</string>
+    <string name="range_information_text">Ауқым сигнал күшіне байланысты болады. Ең қалыпты жағдайларда ауқым 30 метрден жоғары болуы мүмкін. Кейбір элементтер, мысалы, денеңіз, қабырғалар мен басқа бөгеттер қашықтықты 15 метрге немесе одан кем қысқартуы мүмкін.</string>
+    <string name="range_information_dialog_check_box_text">Қайта көрсетпеу</string>
+    <string-array name="device_image_chooser_items">
+        <item>Әдепкі кескіннен таңдау</item>
+        <item>Суретке түсіру</item>
+        <item>Галереядан таңдау</item>
+    </string-array>
+    <string name="add_device">Құрылғы қосу</string>
+    <string name="yes">Иә</string>
+    <string name="no">Жоқ</string>
+    <string name="connecting_text">Байланысу...</string>
+    <string name="enable_background_service">Фондық режимді қосу</string>
+    <string name="disable_background_service">Фондық режимді өшіру</string>
+    <string name="ble_manager_alert">BLE басқару құралының дабылы</string>
+    <string name="check">Тексеру</string>
+    <string name="dismiss">Қабылдамау</string>
+    <string name="disconnected">"Ажыратылған"</string>
+    <string name="in_range">ауқым шегінде</string>
+    <string name="out_of_range">ауқымнан тыс</string>
+    <string name="no_found">Bluetooth құрылғылары табылмады.</string>
+    <string name="bt_off">Bluetooth функциясы өшірулі, оны қосыңыз.</string>
+</resources>

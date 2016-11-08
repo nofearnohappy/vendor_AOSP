@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">黑名单</string>
+    <string name="blacklist">黑名单</string>
+    <string name="add">添加</string>
+    <string name="delete">删除</string>
+    <string name="add_number">添加号码</string>
+    <string name="delete_ask">是否从黑名单中移除所选号码？</string>
+    <string name="select_all">全选</string>
+    <string name="deselect_all">取消全选</string>
+    <string name="select_count"><xliff:g id="count">%d</xliff:g> 已选择</string>
+    <string name="please_wait">请等待\u2026</string>
+    <string name="list_empty">没有阻止的号码</string>
+
+</resources>

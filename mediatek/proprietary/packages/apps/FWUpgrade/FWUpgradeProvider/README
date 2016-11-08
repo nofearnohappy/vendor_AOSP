@@ -1,0 +1,16 @@
+APK of Firmware Upgrade
+
+WHAT IT DOES?
+=============
+This APK provider a interface to reboot into recovery mode.
+
+HOW IT WAS BUILT?
+==================
+1. The featureoption MTK_FW_UPGRADE should be true.
+
+It needs the following library from AOSP:
+1. framework.jar
+
+HOW TO USE IT?
+==============
+It's called by FWUpgrade.apk

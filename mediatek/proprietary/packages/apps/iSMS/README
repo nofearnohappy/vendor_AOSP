@@ -1,0 +1,20 @@
+iSMS Integration with MMS,Enrich the function of the MMS. iSMS currently provides users with the following message types(text,image,video,audio,single graphic,multipe graphic).
+
+WHAT IT DOES?
+=============
+iSMS Enrich the function of the MMS
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from OSS:
+1.  fastjson-1.1.27.jar
+
+and the following libs from MMS:
+1.  com.mediatek.mms.ext.jar
+
+
+HOW TO USE IT?
+==============
+When receive message form background,the data will be inserted into the iSMS and MMS database,When click the ConversationList item , Jumps to the iSMS Interface.
+
+All the source code of iSMS were written by Hesine.

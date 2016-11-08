@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="perm_status_entry">
+        <item>总是允许</item>
+        <item>总是询问</item>
+        <item>总是拒绝</item>
+    </string-array>
+    <string-array name="permission_label">
+        <item>拨打电话</item>
+        <item>﻿发起多方通话</item>
+	    <item>发送短信</item>
+	    <item>发送彩信</item>
+	    <item>发送邮件</item>
+	    <item>启动录音</item>
+	    <item>读取短信记录</item>
+	    <item>写/删短信记录</item>
+	    <item>读取彩信记录</item>
+	    <item>写/删彩信记录</item>
+	    <item>读取联系人</item>
+	    <item>写/删联系人</item>
+	    <item>读取通话记录</item>
+        <item>写/删通话记录</item>
+	    <item>获取当前位置</item>
+	    <item>使用﻿摄像头</item>
+	    <item>开启数据连接</item>
+	    <item>开启 WLAN</item>
+	    <item>开启蓝牙</item>
+	    <item>启动HotKnot</item>
+	    <item>设置融合通信个人信息</item>
+	    <item>设置融合通信群聊管理员</item>
+	    <item>修改融合通信群聊主题</item>
+	    <item>接受融合通信群聊邀请</item>
+	    <item>移除融合通信群聊成员</item>
+	    <item>修改融合通信個人昵称</item>
+	    <item>退出融合通信群聊</item>
+	    <item>解散融合通信群聊</item>
+	    <item>举报融合通信公众账号</item>
+	    <item>关注融合通信公众账号</item>
+	    <item>取消关注融合通信公众账号</item>
+    </string-array>
+    <string-array name = "confirm_msg_body">
+        <item>拨打电话</item>
+        <item>﻿发起多方通话</item>
+        <item>发送短信</item>
+	    <item>发送彩信</item>
+	    <item>发送邮件</item>
+        <item>启动录音</item>
+        <item>读取短信记录</item>
+        <item>写/删短信记录</item>
+        <item>读取彩信记录</item>
+        <item>写/删彩信记录</item>
+	    <item>读取联系人</item>
+	    <item>写/删联系人</item>
+	    <item>读取通话记录</item>
+        <item>写/删通话记录</item>
+        <item>获取当前位置</item>
+        <item>﻿使用﻿摄像头</item>
+        <item>开启数据连接</item>
+        <item>开启 WLAN</item>
+        <item>开启蓝牙</item>
+        <item>启动HotKnot</item>
+        <item>设置融合通信个人信息</item>
+        <item>设置融合通信群聊管理员</item>
+        <item>修改融合通信群聊主题</item>
+        <item>接受融合通信群聊邀请</item>
+        <item>移除融合通信群聊成员</item>
+        <item>修改融合通信個人昵称</item>
+        <item>退出融合通信群聊</item>
+        <item>解散融合通信群聊</item>
+        <item>举报融合通信公众账号</item>
+        <item>关注融合通信公众账号</item>
+        <item>取消关注融合通信公众账号</item>
+    </string-array>
+</resources>

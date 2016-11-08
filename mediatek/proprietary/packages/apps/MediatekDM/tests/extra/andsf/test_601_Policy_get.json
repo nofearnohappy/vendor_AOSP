@@ -1,0 +1,37 @@
+[
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/RulePriority", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/Roaming", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PLMN", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/UpdatePolicy", objectValue : "", objectType : "", newNode : "false" },
+    
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/AccessTechnology", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/AccessId", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/SecondaryAccessId", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/PrioritizedAccess/1/AccessNetworkPriority", objectValue : "", objectType : "", newNode : "false" },
+
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/PLMN", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/TAC", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/LAC", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/GERAN_CI", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/UTRAN_CI", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/3GPP_Location/1/EUTRA_CI", objectValue : "", objectType : "", newNode : "false" },
+
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular/1", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular/1/AnchorLatitude", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular/1/AnchorLongitude", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/ValidityArea/Geo_Location/Circular/1/Radius", objectValue : "", objectType : "", newNode : "false" },
+
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/TimeStart", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/TimeStop", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/DateStart", objectValue : "", objectType : "", newNode : "false" },
+	{ operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/Policy/1/TimeOfDay/1/DateStop", objectValue : "", objectType : "", newNode : "false" }
+]

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ファイルマネージャー</string>
+    <string name="sort_by">"並べ替え"</string>
+    <string name="copy">"コピー"</string>
+    <string name="create_folder">"フォルダを作成"</string>
+    <string name="cut">"切り取り"</string>
+    <string name="delete">"削除"</string>
+    <string name="details">"詳細情報"</string>
+    <string name="paste">"貼り付け"</string>
+    <string name="rename">"名前を変更"</string>
+    <string name="new_folder">"新しいフォルダ"</string>
+    <string name="confirm_rename">名前変更を確認</string>
+    <string name="pasting">貼り付けています</string>
+    <string name="loading">"読み込み中..."</string>
+    <string name="deleting">削除しています</string>
+    <string name="alert_delete_multiple">これらのアイテムは削除されます。</string>
+    <string name="alert_delete_single">このアイテムは削除されます。</string>
+    <string-array name="sort_by">
+        <item>"タイプ"</item>
+        <item>名前（A-Z）</item>
+        <item>サイズ（大ー小）</item>
+        <item>時間（旧ー新）</item>
+    </string-array>
+    <string name="name">"名前"</string>
+    <string name="size">"サイズ"</string>
+    <string name="modified_time">変更済み</string>
+    <string name="readable">読み取り可能</string>
+    <string name="executable">実行可能</string>
+    <string name="writable">書込み可能</string>
+    <string name="msg_rename_ext">ファイルの拡張子を変更しています。ファイルが認識されなくなる可能性があります。続行しますか？</string>
+    <string name="wait">お待ちください\u2026</string>
+    <string name="done">"完了"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="no">"いいえ"</string>
+    <string name="ok">"OK"</string>
+    <string name="yes">"はい"</string>
+    <string name="deselect_all">"選択をすべて解除"</string>
+    <string name="select_all">"すべて選択"</string>
+    <string name="share">"共有"</string>
+    <string name="sort">並べ替え</string>
+    <string name="more">"その他"</string>
+    <string name="search">"検索"</string>
+    <string name="show_file">隠しファイルを表示</string>
+    <string name="hide_file">隠しファイルを隠す</string>
+    <string name="selected">選択済み</string>
+    <string name="send_file">ファイル送信</string>
+    <string name="empty_msg">（空フォルダ）</string>
+    <string name="default_search_text">ファイル検索</string>
+    <string name="free_space">"利用できます"</string>
+    <string name="total_space">"合計容量"</string>
+    <string name="search_files">ファイル検索</string>
+    <string name="copy_deny">コピー権限がありません。</string>
+    <string name="cut_deny">切り取り権限がありません。</string>
+    <string name="delete_deny">削除権限がありません。</string>
+    <string name="insufficient_memory">容量不足です。</string>
+    <string name="invalid_empty_name">ファイル名またはフォルダ名は空にできません。</string>
+    <string name="paste_same_folder">同じディレクトリには貼り付けできません。</string>
+    <string name="invalid_char_prompt">無効な文字が入力されています。</string>
+    <string name="msg_unable_open_file">ファイル形式はサポートされていません。</string>
+    <string name="search_text_empty">検索内容は空にできません。</string>
+    <string name="paste_sub_folder">サブフォルダには貼り付けできません。</string>
+    <string name="operation_fail">ファイル操作に失敗しました。</string>
+    <string name="search_result">\"%1$s\"に対して%2$d件の結果 </string>
+    <string name="already_exists">%1$sは既に使用されています。</string>
+    <string name="path_not_exists">%1$sは存在しません。</string>
+    <string name="unmounted">%1$sはマウントされていません。</string>
+    <string name="create_hidden_file">"ファイル名が'.'.で始まる場合は隠されます"</string>
+    <string name="modify_hidden_file">"ファイル名が'.'.で始まらない場合は隠されません"</string>
+    <string name="file_name_too_long">入力名が長すぎます。</string>
+    <string name="paste_fail">貼り付けできません。</string>
+    <string name="delete_fail">削除できません。</string>
+    <string name="some_paste_fail">貼り付け操作に失敗しました。</string>
+    <string name="some_delete_fail">削除操作に失敗しました。</string>
+    <string name="search_empty">検索内容は空にできません。</string>
+    <string name="search_setting_description">ローカルファイルとフォルダー</string>
+    <string name="change_mode">ファイルやフォルダーを選択する</string>
+    <string name="folder_beam_forbidden_title">フォルダを配信できません\</string>
+    <string name="folder_beam_forbidden_message">フォルダ配信はサポートされていません。複数のファイルを代わりに選択してください。</string>
+    <string name="drm_beam_forbidden_title">配信禁止</string>
+    <string name="drm_beam_forbidden_message">DRM（デジタル著作権管理）によって保護されたファイルは配信できません。</string>
+</resources>

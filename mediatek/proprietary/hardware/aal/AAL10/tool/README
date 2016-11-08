@@ -1,0 +1,20 @@
+WHAT IT DOES?
+=============
+GUI calibration/tuning tool of AAL.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+None
+
+and the following libs from MediaTek:
+1.  libaaltool_jni.so
+
+HOW TO USE IT?
+==============
+Install the APK to phone and launch from the main menu.
+ALS calibration is used to calibrate the ambient light sensor, please fill
+the calibration result to cust_alsps.c.
+AAL Tuning is used to tune the parameters of AAL, you can fill your
+preference to cust_aal.cpp.
+Contact MediaTek if need any support.

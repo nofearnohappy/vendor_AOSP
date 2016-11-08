@@ -1,0 +1,21 @@
+The apk is a Stk test apk to do unit test for Stk function.
+
+This apk is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+
+The apk is a Stk test apk to do unit test for Stk function.
+The test cases are based on EMMA solution. It implements the
+test cases for the Stk function to verify the basic Stk functions.
+
+HOW IT WAS BUILT?
+==================
+
+It will pre-built automatically by build process.
+
+
+HOW TO USE IT?
+==============
+
+adb shell am instrument -w com.mediatek.stk.tests/com.mediatek.stk.tests. StkAppServiceFunctionRunner

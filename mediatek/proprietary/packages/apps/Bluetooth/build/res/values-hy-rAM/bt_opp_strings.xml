@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Մտից ֆայլի հայցում"</string>
+	<string name="bt_opp_notification_in_coming_title">"Մտից ֆայլի հայցում (%1$s-ից)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Ընտրել` ընդունելու համար մտից ֆայլը:"</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Թույլատրել մուտքային ֆայլերի տեղափոխումը"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Ստացվում է` %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Ելից ֆայլ"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Ուղարկում է` %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Կապակցված է ֆայլի փոխանցման համար"</string>
+	<string name="bt_opp_cancel_task_message">"Չեղարկե՞լ այս փոխանցումը:"</string>
+	<string name="bt_opp_cancel_task_yes">"Այո"</string>
+	<string name="bt_opp_cancel_task_no">Կոնտակտը տպելու համար որևէ ծրագիր մատչելի չէ:</string>
+	<string name="bt_opp_canceling_task_message">"Փոխանցումը չեղարկվում է, խնդրում ենք սպասել..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - Մտից օբյեկտ"</string>
+	<string name="bt_opps_confirm_push_message">"Մտից ֆայլ %1$s (%2$s) %3$s-ից: Ընդունե՞լ:"</string>
+	<string name="bt_opps_confirm_push_yes">Ընդունե՞լ Auto-push ծառայությունը, թե ոչ:</string>
+	<string name="bt_opps_confirm_push_no">Մերժել</string>
+	<string name="bt_oppc_push_action_label">"Նվագարկում է Bluetooth-ի միջոցով"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Ուղարկվում է ֆայլ %1$s-ին"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Ուղարկվում են ֆայլեր %1$s-ին"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Չաջակցվող համօգտագործման օբյեկտ` %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Չկա SD քարտ կամ պահոցի անբավարար տարածք մտից ֆայլի համար:"</string>
+	<string name="bt_opps_push_toast_invalid_request">"Համօգտագործման անվավեր հայցում հեռակա սարքի կողմից:"</string>
+</resources>

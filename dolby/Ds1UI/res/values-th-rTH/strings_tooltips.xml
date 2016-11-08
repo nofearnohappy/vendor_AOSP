@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">ตัวปรับแต่งเสียงอัจฉริยะ/ตัวปรับแต่งเสียงกราฟิก</string>
+	<string name="tooltip_eq_text">ตัวปรับแต่งเสียงอัจฉริยะจะวิเคราะห์และปรับแต่งเสียงแบบไดนามิกเพื่อให้ตรงกับโทนเสียงที่ต้องการ เลือกจากการกำหนดล่วงหน้าสี่แบบที่แสดงอยู่ จากนั้นสัมผัสตัวแสดงแถบคลื่นเสียงเพื่อทำการปรับแต่งด้วยตัวเองกับตัวปรับแต่งเสียงกราฟิก</string>
+	<string name="tooltip_sv_title">ตัวจำลองเสียงรอบทิศทาง</string>
+	<string name="tooltip_sv_text">ตัวจำลองเสียงรอบทิศทางจะสร้างเสียงรอบทิศทางที่สมจริงจากชุดหูฟังหรือลำโพงแบบสเตอริโอใดๆ เปิดหรือปิดสวิตช์เพื่อควบคุมเอฟเฟ็คเสียงรอบทิศทาง</string>
+	<string name="tooltip_de_title">ตัวเพิ่มความชัดเสียงสนทนา</string>
+	<string name="tooltip_de_text">ตัวเพิ่มความชัดเสียงสนทนาจะปรับปรุงความคมชัดของเสียงพูดในสื่อทุกประเภท เปิดหรือปิดสวิตช์เพื่อควบคุมการเพิ่มระดับเสียงสนทนา</string>
+	<string name="tooltip_vl_title">ตัวปรับระดับเสียง</string>
+	<string name="tooltip_vl_text">ตัวปรับระดับเสียงจะให้ระดับเสียงที่สม่ำเสมอตลอดเนื้อหาและแอปพลิเคชันตามระดับเสียงหลักของอุปกรณ์ เปิดหรือปิดสวิตช์เพื่อควบคุมการปรับระดับเสียงอัตโนมัติ</string>
+</resources>

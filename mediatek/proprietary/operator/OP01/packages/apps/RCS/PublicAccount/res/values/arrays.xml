@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recommend_type">
+        <item>Popular</item>
+        <item>News</item>
+        <item>Star</item>
+        <item>Shopping</item>
+        <item>Company</item>
+        <item>Dating community</item>
+        <item>Game entertainment</item>
+        <item>Music video</item>
+        <item>Education training</item>
+        <item>Others</item>
+    </string-array>
+
+    <integer-array name="ttttt" translatable="false">
+        <item>14</item>
+        <item>16</item>
+        <item>15</item>
+    </integer-array>
+    
+    <string-array name="share_string_array" translatable="false">
+        <item>@string/attach_take_photo</item>
+        <item>@string/attach_record_video</item>
+        <item>@string/attach_record_sound</item>
+        <item>@string/attach_vcard</item>
+        <item>@string/attach_image</item>
+        <item>@string/attach_video</item>
+        <item>@string/attach_sound</item>
+        <item>@string/attach_position</item>
+    </string-array>
+    
+    <integer-array name="share_column" translatable="false">
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
+    
+    <string-array name="complain_account_resson_string_array" translatable="true">
+        <item>@string/complain_account_reason_harassment</item>
+        <item>@string/complain_account_reason_fraud</item>
+        <item>@string/complain_account_reason_infringement</item>
+        <item>@string/complain_account_reason_porn</item>
+        <item>@string/complain_account_reason_irregularity</item>
+    </string-array>
+    
+    
+</resources>

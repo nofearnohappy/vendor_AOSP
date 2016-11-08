@@ -1,0 +1,32 @@
+This module creates the MAGE (MediaTek Android Graphics Environment) A3M 3D
+graphics engine libraries.
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+atvctrlservice is the native service which is used to handle atv command
+
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+libcutils, libutils, libbinder, libmedia, libhardware
+
+and the following libs from MediaTek:
+
+libaudiosetting, libmatv_cust
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+The atvservice libraries should not be used directly by an application developer.  The
+atv framework provides a more suitable API
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

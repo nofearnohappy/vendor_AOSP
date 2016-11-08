@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    >
+
+<!--sadfasdf-->
+<!--View			android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/-->
+<LinearLayout	android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="left">
+</LinearLayout>
+
+<View			android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+    <Button
+        android:id="@+id/Button_DumpCred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dumpcred"
+        android:textSize="15dp" />
+
+    <Button
+    	android:id="@+id/Button_ClrCred"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/clrallcred"
+    	android:textSize="15dp" />
+</LinearLayout>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<Button       	android:id="@+id/Button_DelCred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delcredindex" android:textSize="15dp"/>    
+    
+<EditText
+    android:id="@+id/EditText_DelCred"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number" 
+    android:maxLength="5" 
+    android:textSize="18dp"
+    android:width="500dp" />
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+<Button       	android:id="@+id/Button_DelNetwork" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delnwindex" android:textSize="15dp"/>    
+    
+<EditText
+    android:id="@+id/EditText_DelNetwork"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number" 
+    android:maxLength="5" 
+    android:textSize="18dp"
+    android:width="500dp" />
+</LinearLayout>
+
+<Button       	android:id="@+id/Button_GetHsStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gethsstatus" android:textSize="15dp"/>    
+<Button       	android:id="@+id/Button_GetHsNetwork" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gethsnetwork" android:textSize="15dp"/>    
+
+<View			android:layout_height="1dip" android:layout_width="fill_parent" android:background="#FF909090"/>
+<TextView     android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/TextView_DelCmd" android:textSize="15dp"/>
+<TextView     android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/TextView_DumpCred" android:textSize="15dp"/>
+
+</LinearLayout>
+</ScrollView>

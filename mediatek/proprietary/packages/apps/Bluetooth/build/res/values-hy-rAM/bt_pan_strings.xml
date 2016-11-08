@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"Ընդունել խմբերի հատուկ ցանցի թույլատրման հայցումը"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"Ընդունել ցանցային մուտքի կետերի թույլատրման հայցումը"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"Ցանկանու՞մ եք ընդունել խմբերի հատուկ ցանցի թույլատրման հայցումը %1$s-ից:"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"Ցանկանու՞մ եք ընդունել ցանցային մուտքի կետերի թույլատրման հայցումը %1$s-ից:"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">Խմբերի հատուկ ցանցը հաջողությամբ անջատվեց %1$s-ից:</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">Ցանցային մուտքի կետերը հաջողությամբ անջատվեց %1$s-ից:</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"Ցանկանու՞մ եք անջատել խմբերի հատուկ ցանցը %1$s-ի հետ"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"Ցանկանու՞մ եք անջատել ցանցային մուտքի կետերը %1$s-ի հետ:"</string>
+	<string name="bluetooth_pan_yes">"Թույլատրել"</string>
+	<string name="bluetooth_pan_no">Տվյալների փոխանցման արագությունը կմերժվի:</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"Bluetooth խմբերի հատուկ ցանցի թույլատրման հայցում"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"Bluetooth խմբերի հատուկ ցանցի թույլատրման հայցում"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"Ընտրել` ընդունելու համար խմբերի հատուկ ցանցի թույլատրման հայցումը %1$s-ից"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"Bluetooth ցանցային մուտքի կետերի թույլատրման հայցում"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"Bluetooth ցանցային մուտքի կետերի թույլատրման հայցում"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"Ընտրել` ընդունելու համար ցանցային մուտքի կետերի թույլատրման հայցումը %1$s-ից"</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"Bluetooth խմբերի հատուկ ցանցը կապակցված է"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"Bluetooth խմբերի հատուկ ցանցը կապակցված է"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"Ընտրել` անջատելու համար խմբերի հատուկ ցանցը %1$s-ից"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"Bluetooth ցանցային մուտքի կետերը կապակցված է"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"Bluetooth ցանցային մուտքի կետերը կապակցված է"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"Ընտրել` անջատելու համար ցանցային մուտքի կետերը %1$s-ից"</string>
+	<string name="bluetooth_pan_GN_connect_ok">Խմբերի հատուկ ցանցը հաջողությամբ կապակցվեց %1$s-ի հետ:</string>
+    <string name="bluetooth_pan_GN_connect_fail">Խմբերի հատուկ ցանցի` %1$s-ի հետ կապակցումը ձախողվեց:</string>
+    <string name="bluetooth_pan_NAP_connect_ok">Ցանցային մուտքի կետերը հաջողությամբ կապակցվեց %1$s-ի հետ:</string>
+    <string name="bluetooth_pan_NAP_connect_fail">Ցանցային մուտքի կետերի` %1$s-ի հետ կապակցումը ձախողվեց:</string>
+    <string name="bluetooth_pan_NAP_unavailable">Ցանցային մուտքի կետերի %1$s ծառայությունը մատչելի չէ</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">Խմբերի հատուկ ցանցը հաջողությամբ անջատվեց %1$s-ից:</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">Խմբերի հատուկ ցանցի անջատումը %1$s-ից ձախողվեց:</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">Ցանցային մուտքի կետերը հաջողությամբ անջատվեց %1$s-ից:</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">Ցանցային մուտքի կետերի անջատումը %1$s-ից ձախողվեց:</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">Խմբերի հատուկ ցանցը անջատված է %1$s-ից:</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">Ցանցային մուտքի կետերը անջատված է %1$s-ից:</string>
+    <string name="bluetooth_pan_server_settings">Bluetooth PAN ծառայության ընտրում</string>
+    <string name="bluetooth_pan_nap_enable_title">Ցանցային մուտքի կետեր (NAP)</string>
+    <string name="bluetooth_pan_nap_enable_summary">Ընտրել` միացնելու կամ անջատելու համար NAP ծառայությունը</string>
+    <string name="bluetooth_pan_gn_enable_title">Խմբերի հատուկ ցանց (GN)</string>
+    <string name="bluetooth_pan_gn_enable_summary">Ընտրել` միացնելու կամ անջատելու համար GN ծառայությունը</string>
+</resources>

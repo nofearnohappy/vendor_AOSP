@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">ワイヤレス入力デバイス</string>
+  <string name="bluetooth_hid_connect">"接続"</string>
+    <string name="bluetooth_hid_disconnect">"接続を解除"</string>
+	<string name="bluetooth_hid_unplug">電源を外す</string>
+	<string name="bluetooth_hid_addnewdevice">新しいデバイスを追加</string>
+  <string name="bluetooth_hid_paireddevices">ペアリングされたワイヤレス入力デバイス</string>
+	<string name="bluetooth_hid_bt_ok">Bluetoothを有効にしました。</string> 
+	<string name="bluetooth_hid_bt_fail">Bluetoothを有効にできません。</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">ワイヤレス入力デバイスの接続を外す</string>
+  <string name="bluetooth_hid_unplug_confirm_title">ワイヤレス入力デバイスの電源を外す</string>
+  <string name="bluetooth_hid_auth_confirm_title">ワイヤレス入力デバイスのリクエストを受け入れる</string>
+  <string name="bluetooth_hid_summary_connected">"接続されました"</string> 
+	<string name="bluetooth_hid_summary_connecting">"接続中..."</string>
+	<string name="bluetooth_hid_summary_not_connected">ペアリングされましたが、接続されていません</string>
+	<string name="bluetooth_hid_yes">"はい"</string> 
+	<string name="bluetooth_hid_no">"いいえ"</string>
+  <string name="bluetooth_hid_connected_notify_ticker">ワイヤレス入力デバイスが接続されました</string>
+  <string name="bluetooth_hid_connected_notify_title">ワイヤレス入力デバイスが接続されました</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">ワイヤレス入力デバイス接続リクエスト</string>
+  <string name="bluetooth_hid_connect_request_notify_title">ワイヤレス入力デバイス接続リクエスト</string>
+    <string name="bluetooth_hid_connected_notify_message">選択して %1$sとの接続を外せます</string>
+    <string name="bluetooth_hid_connect_request_notify_message">選択して%1$sからの接続リクエストに応えられます</string>
+  <string name="bluetooth_hid_connect_ok">ワイヤレス入力デバイス%1$sが接続されました</string>
+  <string name="bluetooth_hid_connect_fail">ワイヤレス入力デバイス%1$sを接続できません</string>
+  <string name="bluetooth_hid_disconnect_ok">ワイヤレス入力デバイス%1$sの接続を外しました</string>
+  <string name="bluetooth_hid_disconnect_fail">ワイヤレス入力デバイス%1$sの接続を外せません</string>
+  <string name="bluetooth_hid_unplug_ok">ワイヤレス入力デバイス%1$sの電源を外しました</string>
+  <string name="bluetooth_hid_unplug_fail">ワイヤレス入力デバイス%1$sの電源を外せません</string>
+  <string name="bluetooth_hid_disconnect_confirm">ワイヤレス入力デバイス%1$sの接続を外しますか？</string>
+  <string name="bluetooth_hid_unplug_confirm">ワイヤレス入力デバイス%1$sの電源を外しますか？</string>
+  <string name="bluetooth_hid_auth_confirm">ワイヤレス入力デバイス%1$sからの要求を受け入れますか？</string>
+  <string name="bluetooth_hid_summary_disconnecting">切断中…</string>
+</resources>

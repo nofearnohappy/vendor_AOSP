@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Менаџер датотека</string>
+    <string name="sort_by">"Сортирај према"</string>
+    <string name="copy">"Копирај"</string>
+    <string name="create_folder">"Направи директоријум"</string>
+    <string name="cut">"Исеци"</string>
+    <string name="delete">"Избриши"</string>
+    <string name="details">"Детаљи"</string>
+    <string name="paste">"Налепи"</string>
+    <string name="rename">"Преименуј"</string>
+    <string name="new_folder">"Нов директоријум"</string>
+    <string name="confirm_rename">Потврди преименовање</string>
+    <string name="pasting">Лепљење</string>
+    <string name="loading">"Учитавање…"</string>
+    <string name="deleting">Брисање</string>
+    <string name="alert_delete_multiple">Ове ставке ће бити избрисане.</string>
+    <string name="alert_delete_single">Ова ставка ће бити избрисана.</string>
+    <string-array name="sort_by">
+        <item>"Тип"</item>
+        <item>Име (A - Z)</item>
+        <item>Величина (велико - мало)</item>
+        <item>Време (ново - старо)</item>
+    </string-array>
+    <string name="name">"Назив"</string>
+    <string name="size">"Величина"</string>
+    <string name="modified_time">Измењено</string>
+    <string name="readable">Може се читати</string>
+    <string name="executable">Може се извршити</string>
+    <string name="writable">Може се писати</string>
+    <string name="msg_rename_ext">Мењате ознаку типа датотеке, што може довести до тога да датотека не буде препозната. Желите ли сигурно то да урадите?</string>
+    <string name="wait">Сачекајте\u2026</string>
+    <string name="done">"Готово"</string>
+    <string name="cancel">"Откажи"</string>
+    <string name="no">"Не"</string>
+    <string name="ok">"Потврди"</string>
+    <string name="yes">"Да"</string>
+    <string name="deselect_all">"Опозови све изборе"</string>
+    <string name="select_all">"Изабери све"</string>
+    <string name="share">"Дели"</string>
+    <string name="sort">Сортирај</string>
+    <string name="more">"Још"</string>
+    <string name="search">"Претражи"</string>
+    <string name="show_file">Прикажи скривене датотеке</string>
+    <string name="hide_file">Сакриј скривене датотеке</string>
+    <string name="selected">изабрано</string>
+    <string name="send_file">Пошаљи датотеку</string>
+    <string name="empty_msg">(Празан директоријум)</string>
+    <string name="default_search_text">Тражи датотеке</string>
+    <string name="free_space">"Доступна"</string>
+    <string name="total_space">"Укупан простор"</string>
+    <string name="search_files">Тражи датотеке</string>
+    <string name="copy_deny">Нема дозволе за копирање.</string>
+    <string name="cut_deny">Нема дозволе за исецање.</string>
+    <string name="delete_deny">Нема дозволе за брисање.</string>
+    <string name="insufficient_memory">Недовољан простор.</string>
+    <string name="invalid_empty_name">Име датотеке или директоријума не може бити празно.</string>
+    <string name="paste_same_folder">Није могуће налепити у исти директоријум.</string>
+    <string name="invalid_char_prompt">Унели сте неважеће знакове.</string>
+    <string name="msg_unable_open_file">Формат датотеке није подржан.</string>
+    <string name="search_text_empty">Садржај тражења не треба да буде празан.</string>
+    <string name="paste_sub_folder">Није могуће налепити у поддиректоријум.</string>
+    <string name="operation_fail">Неке операције датотеке нису успеле.</string>
+    <string name="search_result">%2$d резултата за \"%1$s\"</string>
+    <string name="already_exists">%1$s је већ у употреби.</string>
+    <string name="path_not_exists">%1$s не постоји.</string>
+    <string name="unmounted">%1$s је искључено.</string>
+    <string name="create_hidden_file">"Датотека ће бити сакривена ако њено име не почиње са '.'."</string>
+    <string name="modify_hidden_file">"Датотека неће бити сакривена ако њено име не почиње са '.'."</string>
+    <string name="file_name_too_long">Унето име је предуго.</string>
+    <string name="paste_fail">Лепљење није успело.</string>
+    <string name="delete_fail">Брисање није успело.</string>
+    <string name="some_paste_fail">Неке операције лепљења нису успеле.</string>
+    <string name="some_delete_fail">Неке операције брисања нису успеле.</string>
+    <string name="search_empty">Садржај тражења не треба да буде празан.</string>
+    <string name="search_setting_description">Локалне датотеке и директоријуми</string>
+    <string name="change_mode">Изабери датотеку или директоријум</string>
+    <string name="folder_beam_forbidden_title">Директоријум није могуће послати</string>
+    <string name="folder_beam_forbidden_message">Слање директоријума није подржано. Изаберите више датотека за слање.</string>
+    <string name="drm_beam_forbidden_title">Слање забрањено</string>
+    <string name="drm_beam_forbidden_message">Датотеке заштићене DRM-ом (Digital Right Management) није могуће послати.</string>
+</resources>

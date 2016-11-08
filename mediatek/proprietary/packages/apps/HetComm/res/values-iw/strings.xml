@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">הורדתטורבו</string>
+    <string name="hetcomm_intro">הורד קבצים גדולים (מעל 20MB) מהר יותר באמצעות רשתות Wi-Fi ו-4G/3G בה-בעת. סמל הורדת הטורבו יוצג בסרגל הסטטוס כשהיא פועלת. לשימוש בהורדת הטורבו, יש להפעיל את ה-Wi-Fi ואת חיבור הנתונים הסלולרי. כשהיא מופעלת, כל נתוני היישומים שבחרת להוריד באמצעות Wi-Fi בלבד יורדו בכל מקרה באמצעות רשתות WLAN ו-4G/3G.</string>
+    <string name="enable_switch_on">"מופעל"</string>
+    <string name="enable_switch_off">כבוי</string>
+    <string name="notify_top_title">מאיץ הורדה</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"נתוני נייד"</string>
+    <string name="conn_notice_title">הרשת הסלולרית או ה-Wi-Fi כבויים.</string>
+    <string name="conn_notice_detail">"להפעלת 'הורדת טורבו', יש להפעיל את ה-Wi-Fi ואת חיבור הנתונים הסלולרי."</string>
+    <string name="conn_charging_warning">הורדה באמצעות רשתות סלולריות עשויים לגרור חיבורים נוספים.</string>
+    <string name="turn_on">הפעל את <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">הורדת טורבו כבויה מכיוון שה-VPN פועלת</string>
+    <string name="turn_off_due_to_tether">הורדת טורבו כבויה מכיוון ששיתוף האינטרנט פועל</string>
+    <string name="turn_off_due_to_shutdown">הורדת טורבו כבויה בשל כיבוי המכשיר</string>
+    <string name="turn_off_due_to_roaming">הורדת טורבו כבויה בשל נדידה</string>
+    <string name="ratio_is_single">הרשת האלחוטית/סלולרית אטית. להאצת ההורדה, הורדת טורבו תשתמש רק ברשת האלחוטית/סלולרית להורדת הקבצים.</string>
+    <string name="ratio_is_back">הורדת טורבו משתמשת מחדש ברשת האלחוטית והסלולרית ביחד להורדת הקבצים.</string>
+    <string name="action_help">"עזרה"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>עזרה של 'הורדת טורבו'</u>\
+    </h1><br>הורד קבצים גדולים במהירות הגבוהה ביותר באמצעות Wi-Fi ו-4G/3G בו-זמנית.\
+    <h4>1. עבור ל'הגדרות' והקש על 'הורדת טורבו'.</h4>\
+    <h4>2. הקש על המתג כדי להפעיל את 'הורדת טורבו'.</h4>\
+    <p><b>[עצה]</b> להאצת ההורדה בעת חיבור ל- Wi-Fi ו-4G/3G בו-זמנית בעת תחילת ההורדה.\
+    <p><b>[עצה]</b> אם חיבור ה-Wi-Fi או 4G/3G אטי מדי, תוכל להשתמש בחיבור רשת מהיר יותר להורדה.\
+    <p><b>[עצה]</b> סביבת הרשת עלולה לפגוע במהירות ובביצועים של 'הורדת טורבו' בעת ההורדה.\
+    <br>&nbsp;&nbsp;- אם האותות אינם יציבים, הדבר עלול לפגוע במהירות ובביצועים של מאפיין זה.\
+    <br>&nbsp;&nbsp;- עם זאת, בממוצע, מהירות ההורדה תוכפל בהשוואה לשימוש רק ב-Wi-Fi או ב-4G/3G לבד.\
+    <p><b>[עצה]</b> אם ההבדל במהירות בין ה-Wi-Fi וה-4G/3G גדול מדי (בדרך כלל פי 2.5), 'הורדת טורבו' תופסק או שלא תיתמך כדי למנוע ביצועי מהירות גרועים.\
+    <p><b>[עצה]</b> 'הורדת טורבו' תושבת אוטומטית בעת ששיתוף אינטרנט/VPN (רשת פרטית) מופעלים.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">Жақындық датчигінің параметрлері</string>
+	<string name="bt_prxr_settings_enable_title">Жақындық датчигі</string>
+	<string name="bt_prxr_settings_enable_summary">Қосу</string>
+	<string name="bt_prxr_settings_busy_title">Жақындық датчигі</string>
+	<string name="bt_prxr_settings_busy_message">Жүктелуде. Күтіңіз...</string>
+	<string name="bt_prxr_settings_enable_fail">Жақындық датчигінің қатесін қосу/өшіру</string>
+	<string name="bt_prxr_ll_notification_ticker">Байланыстың үзілуі</string>
+	<string name="bt_prxr_ll_notification_title">Жақындық байланысының үзілуі</string>
+	<string name="bt_prxr_ll_notification_message">Қашықтықтағы құрылғы: %1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">Жолдың жоғалуы</string>
+	<string name="bt_prxr_pl_notification_title">Жақындыққа жолды жоғалту</string>
+	<string name="bt_prxr_pl_notification_message">Қашықтықтағы құрылғы: %1$s</string>
+</resources>

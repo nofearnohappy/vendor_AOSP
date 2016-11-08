@@ -1,0 +1,17 @@
+
+WHAT IT DOES?
+=============
+To find a best fit timing parameter for MTK SDIO 3.0 device.
+
+HOW IT WAS BUILT?
+==================
+Use following build command under /alps folder 
+mmm -j32 vendor/mediatek/proprietary/packages/apps/OfflineK/ 
+
+HOW TO USE IT?
+==============
+1. Use eng load
+2. adb install this apk 
+3. adb remount
+4. adb push libSdioETT.so /system/lib/
+5. excute the apk

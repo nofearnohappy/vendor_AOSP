@@ -1,0 +1,4 @@
+[
+	{ operationName : "Get", nodeUri : "./IMSMO/Public_user_identity_List", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Public_user_identity_List/1/Public_user_identity", objectValue : "", objectType : "", newNode : "" },
+]

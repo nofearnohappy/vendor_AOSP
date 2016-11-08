@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">Messages n\'est pas votre application SMS par défaut</string>
+    <string name="banner_sms_promo_message1">Touchez ici pour l\'activer.</string>
+    <string name="roaming_warning">Des frais téléphoniques supplémentaires importants peuvent vous être facturés si vous vous connectez à Internet lors de l\'itinérance. L\'opérateur vous informe lorsque l\'utilisation de vos données à l\'étranger dépasse certains seuils. Souhaitez-vous réellement continuer ?</string>
+    
+</resources>

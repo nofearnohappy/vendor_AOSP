@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.voiceunlock"
+    android:sharedUserId="android.uid.system">
+
+    <uses-sdk android:minSdkVersion="16"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Material.Settings"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:hardwareAccelerated="true"
+            android:supportsRtl="true">
+        <activity android:name="com.mediatek.voiceunlock.VoiceUnlock" android:exported="true"/>
+        <activity android:name="com.mediatek.voiceunlock.VoiceUnlockSetupIntro" android:exported="false"/>
+        <activity android:name="com.mediatek.voiceunlock.VoiceCommandSelect"
+                  android:exported="false"
+                  android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
+        <activity android:name="com.mediatek.voiceunlock.VoiceCommandRecord" android:exported="false"
+                  android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc" />
+        <activity android:name="com.mediatek.voiceunlock.VoiceUnlockSetupEnd" android:exported="false"/>
+
+        <!-- For voice wake up -->
+        <activity android:name="com.mediatek.voicewakeup.VowNoSpeaker"
+            android:exported="true"
+            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc">
+            <intent-filter>
+                 <action android:name="com.mediatek.vow.VOW_NO_SPEAKER_ID" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.voicewakeup.VowWithSpeaker"
+            android:exported="true"
+            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc">
+            <intent-filter>
+                 <action android:name="com.mediatek.vow.VOW_WITH_SPEAKER_ID" />
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.voicewakeup.VowCommandActions" android:exported="false"/>
+        <activity android:name="com.mediatek.voicewakeup.VowCommandRecord"
+            android:configChanges="orientation|keyboardHidden|screenSize|mnc|mcc">
+            <intent-filter>
+                <action android:name="com.mediatek.voicewakeup.VOW_COMMAND_RECORD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

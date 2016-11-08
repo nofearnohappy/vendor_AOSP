@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK жылу реттеушісі</string>
+    <string name="coolers">Суыту құрылғылары</string>
+    <string name="thermal_sensors">Температура датчиктері</string>
+    <string name="thermal_protection">Жылылықты өткізбеу</string>
+    <string name="thermal_policy_file_colon">"Жылу саясатының файлы:"</string>
+    <string name="apply_new_thermal_policy">Жаңа жылу саясатын қолдану</string>
+    <string name="tz_device_info">TZ құрылғысы туралы ақпарат</string>
+    <string name="thermal_logger">Жылуды тіркеу құрылғысы</string>
+    <string name="alert_dialog_two_buttons_title">Қызып кету ескертуі!</string>
+    <string name="alert_dialog_two_buttons_message">Телефонды тез арада суыту қажет!</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Болдырмау</string>
+</resources>

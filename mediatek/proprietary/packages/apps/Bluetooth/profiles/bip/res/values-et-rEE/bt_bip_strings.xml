@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"Piltide edastamine üle Bluetoothi"</string>
+	<string name="bt_bipi_push_confirmation">"Kinnitus lükatud pildi vastuvõtmiseks"</string>
+	<string name="bt_bipi_unsupported_format">"Adressaat ei toeta seda kodeeringut.\nSoovite saatmist jätkata?"</string>
+	<string name="bt_bipi_push_confirmation_ok">SMS-i teenuskeskuse seadmine OK</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Kas soovid kindlasti allalaadimise tühistada?\nVajuta nuppu Jätka, et allalaadimist jätkata\nVajuta nuppu Likvideeri, et allalaadimine likvideerida ja allalaaditud fail kustutada"</string>
+	<string name="bt_bip_transmitting_dialog_hide">Peida kohalik video</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Kas soovid kindlasti allalaadimise tühistada?\nVajuta nuppu Jätka, et allalaadimist jätkata\nVajuta nuppu Likvideeri, et allalaadimine likvideerida ja allalaaditud fail kustutada"</string>
+	<string name="bt_bip_transmitting_dialog_ok">SMS-i teenuskeskuse seadmine OK</string>
+	<string name="bt_bip_transmitting_dialog_yes">"Jah"</string>
+	<string name="bt_bip_transmitting_dialog_no">Kontakti printimiseks pole saadaval ühtki rakendust.</string>
+	<string name="bt_bip_transmitting">"Pildi saatmine, %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"Pilt %1$s saadetud"</string>
+	<string name="bt_bip_transmitting_fail">"Pildi %1$s saatmine nurjus"</string>
+	<string name="bt_bip_cancel_pending_job">"Tühista see tulevane edastamine?"</string>
+	<string name="bt_bip_pending_job">"Saada %1$s (hiljem)"</string>
+	<string name="bt_bipr_incoming_request">"Palve pildi vastuvõtuks"</string>
+	<string name="bt_bipr_incoming_request_description">"Valige %1$s vastuvõtmiseks"</string>
+	<string name="bt_bipr_accept_title">"Palve pildi vastuvõtuks"</string>
+	<string name="bt_bipr_accept_content">"Võta vastu "%1$s (%2$sKB)", mille saatis "%3$s" ?"</string>
+	<string name="bt_bipr_accept_always">"Võta alati vastu?"</string>
+	<string name="bt_bipr_accept_yes">"Jah"</string>
+	<string name="bt_bipr_accept_no">Kontakti printimiseks pole saadaval ühtki rakendust.</string>
+	<string name="bt_bip_receiving">"Pildi vastuvõtmine, %1$s"</string>
+	<string name="bt_bip_receiving_successful">"Pilt %1$s vastu võetud.\nKas soovite pilti vaadata?"</string>
+	<string name="bt_bip_receiving_fail">"Pildi %1$s vastuvõtmine nurjus"</string>
+	<string name="bt_bip_toast_connect_fail">"Andmeside nurjus või võrk hõivatud."</string>
+	<string name="bt_bip_toast_storage_unmounted">Enne FTP kliendi aktiveerimist kontrolli, kas SD kaart on valmis.</string>
+	<string name="bt_bip_toast_sending_object">"Pildi saatmine, %1$s"</string>
+	<string name="bt_bip_auth_password">Parool:\u0020</string>
+	<string name="bt_bip_auth_userid">Serveri ID:\u0020</string>
+	<string name="bt_bip_auth_ok">SMS-i teenuskeskuse seadmine OK</string>
+	<string name="bt_bip_auth_cancel">"Kas soovid kindlasti allalaadimise tühistada?\nVajuta nuppu Jätka, et allalaadimist jätkata\nVajuta nuppu Likvideeri, et allalaadimine likvideerida ja allalaaditud fail kustutada"</string>
+</resources>

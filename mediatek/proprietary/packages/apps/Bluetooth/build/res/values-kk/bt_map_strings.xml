@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Қашықтықтан хабарға қол жеткізуге рұқсат алу сауалы"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Қашықтықтан хабарға қол жеткізуге рұқсат алу сауалы"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Хабарға қол жеткізу байланысына рұқсат беру үшін таңдаңыз"</string>
+	<string name="bluetooth_map_server_authorize_title">"Қашықтықтан хабарға қол жеткізуге рұқсат алу сауалы"</string>
+	<string name="bluetooth_map_server_authorize_message">"%1$s арқылы қашықтықтан хабарға қол жеткізу сауалына рұқсат ету"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">Рұқсат ету</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Қабылдамау</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Қашықтықтан хабарға қол жеткізу режимі қосылды"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s сіздің хабарыңызға қол жеткізе алады"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"%1$s ажырату үшін таңдаңыз"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Қашықтықтан хабарға қол жеткізуді өшіру"</string>
+	<string name="bluetooth_map_server_disconnect_message">"%1$s өшіру керек пе?"</string>
+  <string name="bluetooth_map_server_yes">Иә</string>
+	<string name="bluetooth_map_server_no">Файлды басып шығару үшін қолжетімді қолданба жоқ.</string>
+	<string name="bluetooth_map_server_settings">"Қашықтықтан хабарға қол жеткізу параметрлері"</string>
+	<string name="bluetooth_map_server_enable_title">"Қашықтықтан хабарға қол жеткізуге рұқсат алу сауалы"</string>
+	<string name="bluetooth_map_server_enable_summary">Есту аппараттарының сыйысымдылығын іске қосу</string>
+	<string name="bluetooth_map_server_sim_index_title">SIM картаны таңдау</string>
+	<string name="bluetooth_map_server_account_index_title">"Электрондық поштаның тіркелгісін таңдаңыз"</string>
+	<string name="bluetooth_map_server_no_account">"Қолжетімді электрондық пошта тіркелгісі жоқ"</string>
+	<string name="bluetooth_map_server_OK">SMS қызмет көрсету орталығы орнатылған</string>
+	<string name="bluetooth_map_server_cancel">"Жүктеуді болдырмау қажет пе?\nЖүктеуді жалғастыру үшін Жалғастыру түймешігін басыңыз\n Жүктеуді тоқтату және жүктелген файлды жою үшін Жою түймешігін басыңыз"</string>
+</resources>

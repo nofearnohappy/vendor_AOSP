@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/current_network_info_title">
+
+    <Preference android:key="operator_name" 
+        style="?android:attr/preferenceInformationStyle" 
+        android:title="@string/status_current_operators"
+        android:summary="@string/device_info_not_available"
+        android:persistent="false" />
+    <Preference android:key="current_operators_mccmnc"
+		style="?android:attr/preferenceInformationStyle" 
+		android:title="@string/current_operators_mccmnc"
+		android:summary="@string/status_ct_unknown"
+		android:persistent="false" />
+    <!-- For slot 1 CDMA mode only -->
+	<Preference android:key="current_sidnid"
+		style="?android:attr/preferenceInformationStyle" 
+		android:title="@string/status_current_sidnid"
+		android:summary="@string/status_ct_unknown"
+		android:persistent="false" />
+	<!-- For slot 1 CDMA/GSM mode-->
+	<Preference android:key="current_cellid"
+        style="?android:attr/preferenceInformationStyle" 
+        android:title="@string/status_current_cellid"
+        android:summary="@string/status_ct_unknown"
+        android:persistent="false" />
+	<Preference android:key="network_type"
+        style="?android:attr/preferenceInformationStyle" 
+        android:title="@string/status_ct_network_type"
+        android:summary="@string/device_info_not_available"
+        android:persistent="false" />	
+    <Preference android:key="signal_strength"
+        style="?android:attr/preferenceInformationStyle" 
+        android:title="@string/status_signal_strength"
+        android:summary="@string/device_info_not_available"
+        android:persistent="false" />
+    <!-- For slot 1/ slot 2 GSM mode only -->
+    <Preference android:key="sms_center"
+        style="?android:attr/preferenceInformationStyle" 
+        android:title="@string/ct_sms_center"
+        android:summary="@string/status_ct_unknown" 
+        android:persistent="false" />
+    <!-- For slot 1 only -->
+    <Preference android:key="ct_prl_version"
+		style="?android:attr/preferenceInformationStyle" 
+		android:title="@string/status_ct_prl_version"
+		android:summary="@string/status_ct_unknown" 
+		android:persistent="false" />
+</PreferenceScreen>

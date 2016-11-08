@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.mediatek.blemanager.ui.ComposeRangeView
+        android:id="@+id/compose_range_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <com.mediatek.blemanager.ui.SeekbarWithText
+        android:id="@+id/range_distance_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compose_range_view"
+        android:layout_marginTop="18dp" />
+
+    <ImageView
+        android:id="@+id/gb_image12"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/range_distance_seek_bar"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/range_radio_bg" />
+
+    <RelativeLayout
+        android:id="@+id/out_range_alert_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/gb_image12"
+        android:layout_below="@id/range_distance_seek_bar"
+        android:layout_marginTop="18dp" >
+
+        <RadioButton
+            android:id="@+id/out_range_alert_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/out_range_alert_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/out_range_alert_radio"
+            android:text="@string/out_of_range_alert_text"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/in_range_alert_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/gb_image12"
+        android:layout_below="@id/out_range_alert_linear">
+
+        <RadioButton
+            android:id="@+id/in_range_alert_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/in_range_alert_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/in_range_alert_radio"
+            android:text="@string/in_range_alert_text"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

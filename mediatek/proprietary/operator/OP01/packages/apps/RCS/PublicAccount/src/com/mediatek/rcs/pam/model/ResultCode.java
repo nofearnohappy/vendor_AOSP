@@ -1,0 +1,123 @@
+package com.mediatek.rcs.pam.model;
+
+/**
+ * Result code defined by CMCC RCS Specification 41 - 5.2.2.3.2
+ * @author MTK81226
+ *
+ */
+public class ResultCode {
+    public static final int SUCCESS = 0;
+
+    public static final int SYSEM_ERROR_UNKNOWN = 100000;
+    public static final int SYSTEM_ERROR_BUSY = 100001;
+    public static final int SYSTEM_ERROR_TIMEOUT = 100002;
+    public static final int SYSTEM_ERROR_NETWORK = 100003;
+    public static final int SYSTEM_ERROR_DATABASE = 100004;
+    public static final int SYSTEM_ERROR_CONFIG_MISSING = 100005;
+    public static final int SYSTEM_ERROR_ILLEGAL_SRC_IP = 100006;
+    public static final int SYSTEM_ERROR_IP_MISMATCH = 100007;
+    public static final int SYSTEM_ERROR_UNAUTHROIZED_REQUEST = 100008;
+    public static final int SYSTEM_ERROR_MAX_REQUEST_RATE_REACHED = 100009;
+    public static final int SYSTEM_ERROR_MAX_DEVICE_REQUEST_RATE_REACHED = 100010;
+    public static final int SYSTEM_ERROR_ROUTING = 100011;
+    public static final int SYSTEM_ERROR_PAGE_INDEX = 100012;
+    public static final int SYSTEM_ERROR_ITEM_NUMBER = 100013;
+
+    public static final int PARAM_ERROR_UNKNOWN = 200000;
+    public static final int PARAM_ERROR_MANDATORY_MISSING = 200001;
+    public static final int PARAM_ERROR_INVALID_FORMAT = 200002;
+    public static final int PARAM_ERROR_INVALID_LENGTH = 200003;
+    public static final int PARAM_ERROR_ALL_MISSING = 200004;
+    public static final int PARAM_ERROR_INVALID_MESSAGE_VERSION = 200005;
+    public static final int PARAM_ERROR_INVALID_PLATFORM_CODE = 200006;
+    public static final int PARAM_ERROR_INVALID_TIMESTAMP = 200007;
+    public static final int PARAM_ERROR_INVALID_MESSAGE_NAME = 200008;
+    public static final int PARAM_ERROR_MESSAGE_PARSING_ERROR = 200009;
+    public static final int PARAM_ERROR_INVALID_ZONE_CODE = 200010;
+    public static final int PARAM_ERROR_FTP_INVALID_HEADER = 200101;
+    public static final int PARAM_ERROR_FTP_INVALID_FOOTER = 200102;
+    public static final int PARAM_ERROR_FTP_INVALID_CHECKSUM = 200103;
+
+    public static final int SERVICE_ERROR_UNKNOWN = 300000;
+    public static final int SERVICE_ERROR_USER_DOES_NOT_EXIST = 301001;
+    public static final int SERVICE_ERROR_USER_ALREADY_EXIST = 301002;
+    public static final int SERVICE_ERROR_USER_INVALID_PASSWORD = 301003;
+    public static final int SERVICE_ERROR_USER_INVALID_NEW_PASSWORD = 301004;
+    public static final int SERVICE_ERROR_USER_VERIFICATION_CODE_TIMEOUT = 301005;
+    public static final int SERVICE_ERROR_USER_VERIFICATION_FAILED = 301006;
+    public static final int SERVICE_ERROR_USER_VERIFICATION_CODE_GENERATION_FAILED = 301008;
+    public static final int SERVICE_ERROR_USER_INVALID_PHONE_NUMBER_FORMAT = 301009;
+    public static final int SERVICE_ERROR_USER_INVALID_PHONE_NUMBER_RANGE = 301010;
+    public static final int SERVICE_ERROR_USER_VERIFICATION_CODE_RETRIVIAL_FAILED = 301011;
+    public static final int SERVICE_ERROR_USER_INVALID_USER_STATE = 301012;
+    public static final int SERVICE_ERROR_USER_CHARGE_IS_OVERDUE = 301013;
+    public static final int SERVICE_ERROR_USER_FORBIDDEN_OPERATION = 301014;
+    public static final int SERVICE_ERROR_USER_PASSWORD_RECOVER_LIMIT_REACHED = 301015;
+    public static final int SERVICE_ERROR_USER_REGION_CODE_DOES_NOT_EXIST = 301017;
+    public static final int SERVICE_ERROR_USER_FAILED_TO_SEND_SMS = 301018;
+    public static final int SERVICE_ERROR_USER_REGISTRATION_IN_PROGRESS = 301019;
+    public static final int SERVICE_ERROR_USER_CANNOT_REGISTER = 301020;
+    public static final int SERVICE_ERROR_USER_CANNOT_LOGOUT = 301021;
+    public static final int SERVICE_ERROR_USER_NOT_LOGIN = 301022;
+    public static final int SERVICE_ERROR_USER_NO_PERMISSION = 301023;
+    public static final int SERVICE_ERROR_USER_NICKNAME_MISSING = 301024;
+    public static final int SERVICE_ERROR_USER_NICKNAME_ALREADY_EXIST = 301025;
+    public static final int SERVICE_ERROR_USER_PHONE_NUMBER_ALEADY_BOUND = 301026;
+    public static final int SERVICE_ERROR_USER_EMAIL_ALREADY_BOUND = 301027;
+    public static final int SERVICE_ERROR_USER_EMAIL_MAX_RESEND_CONFIG_ERROR = 301028;
+    public static final int SERVICE_ERROR_USER_EMAIL_MAX_RESEND_LIMIT_REACHED = 301029;
+    public static final int SERVICE_ERROR_USER_REGISTRATION_FAILED = 301030;
+    public static final int SERVICE_ERROR_USER_LOGIN_FAILED = 301031;
+    public static final int SERVICE_ERROR_USER_LOGOUT_FAILED = 301032;
+    public static final int SERVICE_ERROR_USER_EMAIL_NOT_ACTIVICATED = 301033;
+    public static final int SERVICE_ERROR_USER_DYNAMIC_PASSWORD_TIMEOUT = 301034;
+    public static final int SERVICE_ERROR_USER_INVALID_DYNAMIC_PASSWORD = 301035;
+    public static final int SERVICE_ERROR_USER_DUPLICATED_BINDING = 301036;
+    public static final int SERVICE_ERROR_USER_UNBIND_FAILED = 301037;
+    public static final int SERVICE_ERROR_USER_PROFILE_MODIFICATION_FAILED = 301038;
+    public static final int SERVICE_ERROR_USER_REMINDER_REQUESTED_FILE_DOES_NOT_EXIST = 301101;
+    public static final int SERVICE_ERROR_USER_REMINDER_MESSAGE_TIMEOUT = 301102;
+    public static final int SERVICE_ERROR_USER_REMINDER_MESSAGE_SWITCH_IS_OFF = 301103;
+    public static final int SERVICE_ERROR_USER_REMINDER_FILE_HEADER_ERROR = 301104;
+    public static final int SERVICE_ERROR_USER_REMINDER_FILE_FOOTER_ERROR = 301105;
+    public static final int SERVICE_ERROR_USER_INVALID_SESSION = 301106;
+    public static final int SERVICE_ERROR_USER_EMAIL_AND_PHONE_NUBMER_COEXIST = 301107;
+    public static final int SERVICE_ERROR_USER_NO_MEMBERSHIP = 301108;
+    public static final int SERVICE_ERROR_USER_CONTAINS_SENSITIVE_WORDS = 301109;
+
+    public static final int SERVICE_ERROR_SUBSCRIPTION_PUBLIC_ACCOUNT_DOES_NOT_EXIST = 304001;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_ILLEGAL_PUBLIC_ACCOUNT = 304002;
+    public static final int
+        SERVICE_ERROR_SUBSCRIPTION_3RD_PARTY_PUBLIC_ACCOUNT_CONNECTION_TIMEOUT = 304003;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_INVALID_3RD_PARTY_PUBLIC_ACCOUNT = 304004;
+    public static final int
+        SERVICE_ERROR_SUBSCRIPTION_3RD_PARTY_PUBLIC_ACCOUNT_SERVICE_ERROR = 304005;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_ALREADY_SUBSCRIBED = 304006;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_NOT_SUBSCRIBED = 304007;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_PCC_UPDATE_PROFILE_FAILED = 304008;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_PCC_UPDATE_SUBSCRIPTION_FAILED = 304009;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_MESSAGE_DOES_NOT_EXIST = 304010;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_MESSAGE_QUERY_FAILED = 304011;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_PUBLIC_ACCOUNT_QUERY_FAILED = 304012;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_SET_MESSAGE_STATE_FAILED = 304013;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_MESSAGE_DELETE_FAILED = 304014;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_SUBSCRIPTION_QUERY_FAILED = 304015;
+    public static final int
+        SERVICE_ERROR_SUBSCRIPTION_SUBSCRIPTION_STATISTICS_QUERY_FAILED = 304016;
+    public static final int SERVICE_ERROR_ACCOUNT_SUSPENDED = 304017;
+    public static final int SERVICE_ERROR_ACCOUNT_CLOSED = 304018;
+    public static final int
+        SERVICE_ERROR_SUBSCRIPTION_PUSH_MESSAGE_CONTAINS_SENSITIVE_WORDS = 304100;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_PUSH_MESSAGE_SLA_LIMIT_REACHED = 304101;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_PUSH_MESSAGE_SAVE_FAILED = 304102;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_3RD_PARTH_INTERFACE_ERROR = 304103;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_INVALID_RECEIVER_ID = 304104;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_INVALID_SENDER_STATE = 304105;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_INVALID_SENDER_SUBSCRIPTION_STATE = 304106;
+    public static final int SERVICE_ERROR_SUBSCRIPTION_SUBSCRIBER_DOES_NOT_EXIST = 304107;
+    public static final int SERVICE_ERROR_DO_NOT_SUPPORT_USER_TO_USER = 304108;
+
+    /* MTK extended */
+    public static final int USER_CANCELLED = 800000;
+    public static final int ACCOUNT_CHANGED = 800001;
+}

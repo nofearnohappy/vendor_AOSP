@@ -1,0 +1,27 @@
+OP08 customization features.
+
+This apk is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+It is a plugin apk which contains the OP08 customization for Host App (cmas)
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from Mediatek:
+1. mediatek-common.jar
+2. Host App api interface,for example:com.mediatek.cmas.ext
+
+All the OP08 customization for cmas will be built as OP08Plugin.apk  installed under system/plugin, 
+and the OP08Plugin.mpinfo also be copied to the installed path when build time
+
+HOW TO USE IT?
+==============
+
+Implement the interface provided by Host App(cmas) to do customization.
+all api interface are at (packages/apps/xxx(Host App name)/ext).
+
+when run time, framework will find the OP08Plugin customization implementation via OP08Plugin.mpinfo.
+
+All the source code of  were written by MediaTek.

@@ -1,0 +1,6 @@
+-com.mediatek.esntrack.R
+-com.mediatek.esntrack.R$*
+-com.mediatek.esntrack.Const
+-com.mediatek.esntrack.Const$*
+-com.mediatek.common.dm.DmAgent
+-com.mediatek.common.dm.DmAgent$*

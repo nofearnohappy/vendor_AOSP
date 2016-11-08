@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">Pagbabahagi ng HotKnot</string>
+    <string name="hint1">Tiyakin na ang tatanggap na aparato ay nag-on ng HotKnot, ay panatiliing hindi naka-lock ang screen nito.</string>
+    <string name="hint2">Ilagay ang aparato mo sa tatanggap na aparato nang screen-to-screen.</string>
+    <string name="hint3">Ilayo ang aparato mo mula sa tatanggap ng aparato matapos kang makarinig ng boses na prompt.</string>
+    <string name="use_hotknot">Kailangang gamitin ng aplikasyong ito ang teknolohiya ng HotKnot sa aparato mo.</string>
+    <string name="allow">"Payagan"</string>
+    <string name="deny">"Tanggihan"</string>
+    <string name="fail_to_share">Nabigong magbahagi</string>
+    <string name="fail_to_share_conn_error">Nabigong magbahagi dahil sa problema sa koneksyon.</string>
+    <string name="fail_to_share_unknown_error">Nabigong magbahagi dahil sa hindi kilalang error.</string>
+    <string name="try_again">"Subukan muli"</string>
+    <string name="usb_warning">Ang HotKnot function ay maaaring maapektuhan sa pag-charge ng USB.</string>
+</resources>

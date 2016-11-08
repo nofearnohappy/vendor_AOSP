@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Array resources for the Phone app. -->
+<resources>
+    <!-- Settings Power saving mode start -->
+    <string-array name="screen_timeout_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>15000</item>
+        <!-- Do not translate. -->
+        <item>30000</item>
+        <!-- Do not translate. -->
+        <item>60000</item>
+        <!-- Do not translate. -->
+        <item>120000</item>
+        <!-- Do not translate. -->
+        <item>300000</item>
+        <!-- Do not translate. -->
+        <item>600000</item>
+        <!-- Do not translate. -->
+        <item>1800000</item>
+    </string-array>
+    <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
+    <string-array name="screen_timeout_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <!-- Settings Power saving mode end -->
+    <!-- Do not translate. -->
+    <string-array name="tty_mode_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+        <!-- Do not translate. -->
+        <item>3</item>
+    </string-array>
+
+    <!-- Service option entries.  -->
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+
+    <!-- Mms array begin -->
+    <string-array name="ct_sms_save_location_array">
+        <item>Phone</item>
+        <item>UIM Card</item>
+    </string-array>
+
+    <string-array name="certain_search_string_array" translatable="false">
+        <item>@string/search_within_one_day</item>
+        <item>@string/search_within_seven_days</item>
+        <item>@string/search_within_thirty_days</item>
+    </string-array>
+
+    <string-array name="pref_sms_save_location_values" translatable="false">
+        <item>Phone</item>
+        <item>Sim</item>
+    </string-array>
+
+    <string-array name="pref_key_sms_priority_choices" translatable="false">
+        <item>@string/priority_normal</item>
+        <item>@string/sms_priority_Interactive</item>
+        <item>@string/sms_priority_Urgent</item>
+        <item>@string/sms_priority_Emergency</item>
+    </string-array>
+
+    <string-array name="pref_key_sms_priority_values" translatable="false">
+        <item>Normal</item>
+        <item>Interactive</item>
+        <item>Urgent</item>
+        <item>Emergency</item>
+    </string-array>
+    
+    
+    <string-array name="pref_key_mms_priority_choices">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>
+    
+    <string-array name="pref_key_mms_priority_values" translatable="false">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>  
+    
+    <string-array name="pref_mms_creation_mode_choices">
+        <item>Restricted mode</item>
+        <item>Warning mode</item>
+        <item>Free mode</item>
+    </string-array>
+    
+    <string-array name="pref_mms_creation_mode_values" translatable="false">
+        <item>RESTRICTED</item>
+        <item>WARNING</item>
+        <item>FREE</item>
+    </string-array>   
+    
+    <string-array name="pref_mms_size_limit_choices" translatable="false">
+        <item>100K</item>
+        <item>200K</item>
+        <item>300K</item>
+    </string-array>
+    
+    <string-array name="pref_mms_size_limit_values" translatable="false">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array> 
+    
+    <string-array name="pref_mute_choices" translatable="false">
+        <item>@string/pref_summary_mute</item>
+        <item>@string/mute_one_hour</item>
+        <item>@string/mute_four_hours</item>
+        <item>@string/mute_eight_hours</item>
+    </string-array> 
+    
+    <string-array name="pref_mute_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    
+    <string-array name="pref_message_font_size_choices">
+        <item>Follow system font size</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra large</item>
+    </string-array>
+    
+    <string-array name="pref_sms_save_location_choices">
+        <item>Phone</item>
+        <item>SIM Card</item>
+    </string-array>
+    
+    <string-array name="pref_tablet_sms_save_location_choices">
+        <item>Device</item>
+        <item>SIM Card</item>
+    </string-array>
+    
+    <string-array name="pref_tablet_sms_save_location_values" translatable="false">
+        <item>Device</item>
+        <item>Sim</item>
+    </string-array>
+    
+    <string-array name="pref_message_font_size_values" translatable="false">
+        <item>18</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+    </string-array>
+    
+    <!-- Mms array end -->
+</resources>

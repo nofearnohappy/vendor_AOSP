@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="TextAppearanceLargeBlue">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/text_color_bluehide</item>
+	</style>
+
+	<style name="SwitchButton">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:background">@drawable/switch_button</item>
+		<item name="android:textOff">\u0020</item>
+		<item name="android:textOn">\u0020</item>
+	</style>
+
+	<style name="SwitchButton_ldrtl">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:background">@drawable/switch_button_ldrtl</item>
+		<item name="android:textOff">\u0020</item>
+		<item name="android:textOn">\u0020</item>
+	</style>
+
+</resources>

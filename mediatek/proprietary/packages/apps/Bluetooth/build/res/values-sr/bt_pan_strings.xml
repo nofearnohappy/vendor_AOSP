@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"Прихватите захтев за ауторизовање групне Ad-hoc мреже"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"Прихватите захтев за ауторизовање приступних тачака мреже"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"Да ли желите да прихватите захтев за ауторизовање групне Ad-hoc мреже од  %1$s?"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"Да ли желите да прихватите захтев за ауторизовање приступних тачака мреже од  %1$s?"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">Искључивање групне Ad-hoc мреже са %1$s успешно!</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">Искључивање приступних тачака мреже са %1$s успешно!</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"Да ли желите да искључите групну Ad-hoc мрежу са %1$s?"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"Да ли желите да искључите приступне тачке мреже са %1$s?"</string>
+	<string name="bluetooth_pan_yes">"Дозволи"</string>
+	<string name="bluetooth_pan_no">Брзина преноса података ће опадати.</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"Захтев за ауторизовање Bluetooth групне Ad-hoc мреже"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"Захтев за ауторизовање Bluetooth групне Ad-hoc мреже"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"Одаберите да прихватите захтев за ауторизовање групне Ad-hoc мреже од %1$s"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"Захтев за ауторизовање Bluetooth приступних тачака мреже"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"Захтев за ауторизовање Bluetooth приступних тачака мреже"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"Одаберите да прихватите захтев за ауторизовање приступних тачака мреже од %1$s "</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"Bluetooth групна Ad-hoc мрежа повезана"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"Bluetooth групна Ad-hoc мрежа повезана"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"Одаберите да искључите групну Ad-hoc мрежу са %1$s"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"Повезане Bluetooth приступне тачке мреже" </string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"Повезане Bluetooth приступне тачке мреже" </string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"Одаберите да искључите приступне тачке мреже са %1$s" </string>
+	<string name="bluetooth_pan_GN_connect_ok">Повезивање групне Ad-hoc мрежњ са %1$s успешно!</string>
+    <string name="bluetooth_pan_GN_connect_fail">Повезивање групне Ad-hoc мрежњ са %1$s неуспешно!</string>
+    <string name="bluetooth_pan_NAP_connect_ok">Повезивање приступних тачака мреже са %1$s успешно!</string>
+    <string name="bluetooth_pan_NAP_connect_fail">Повезивање приступних тачака мреже са %1$s неуспешно!</string>
+    <string name="bluetooth_pan_NAP_unavailable">Услуга приступних тачака мреже са %1$s није доступна</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">Искључивање групне Ad-hoc мреже са %1$s успешно!</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">Искључивање групне Ad-hoc мреже са %1$s неуспешно!</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">Искључивање приступних тачака мреже са %1$s успешно!</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">Искључивање приступних тачака мреже са %1$s неуспешно!</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">Искључена групна Ad-hoc мрежа са %1$s!</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">Искључене приступне тачке мреже са %1$s!</string>
+    <string name="bluetooth_pan_server_settings">Одабирање Bluetooth PAN услуге</string>
+    <string name="bluetooth_pan_nap_enable_title">Приступне тачке мреже </string>
+    <string name="bluetooth_pan_nap_enable_summary">Одаберите да укључите или да искључите NAP услугу</string>
+    <string name="bluetooth_pan_gn_enable_title">Групна Ad-hoc мрежа</string>
+    <string name="bluetooth_pan_gn_enable_summary">Одаберите да укључите или да искључите GN услугу</string>
+</resources>

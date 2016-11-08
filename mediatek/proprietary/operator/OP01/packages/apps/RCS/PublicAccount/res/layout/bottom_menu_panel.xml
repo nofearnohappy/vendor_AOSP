@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+   
+    <LinearLayout
+        android:id="@+id/bottom_panel_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            
+        <!-- Divider -->
+        <View android:background="?android:attr/dividerHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height=".9dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:background="#fff">
+    		
+    		<ImageButton
+        		android:id="@+id/switch_button_menu"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="center_vertical"
+        		android:src="@drawable/ic_menu_hide" />
+
+    		<TableLayout
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@color/white"
+        		android:divider="?android:attr/dividerVertical"
+        		android:stretchColumns="0,1,2" >
+        		<!-- android:shrinkColumns="0" -->
+        		
+        		<TableRow android:layout_weight="1">
+        		    <LinearLayout
+        		        android:id="@+id/button_outter_1"
+           				android:layout_width="match_parent"
+            			android:layout_height="wrap_content"
+            			android:orientation="horizontal" >
+            			<View
+       						android:layout_width="1dp"
+        					android:layout_height="match_parent"
+        	    			android:background="#eeeeee"/>
+            			<Button
+                			android:id="@+id/button_1st"
+                			style="?android:attr/buttonBarButtonStyle"
+                			android:layout_width="match_parent"
+                			android:layout_height="wrap_content"/>
+            		</LinearLayout>	
+            		<LinearLayout
+            		    android:id="@+id/button_outter_2"
+           				android:layout_width="match_parent"
+            			android:layout_height="wrap_content"
+            			android:orientation="horizontal" >
+            			<View
+       						android:layout_width="1dp"
+        					android:layout_height="match_parent"
+        	    			android:background="#eeeeee"/>
+            			<Button
+                			android:id="@+id/button_2nd"
+                			style="?android:attr/buttonBarButtonStyle"
+                			android:layout_width="match_parent"
+                			android:layout_height="wrap_content"/>
+            		</LinearLayout>	
+					<LinearLayout
+					    android:id="@+id/button_outter_3"
+           				android:layout_width="match_parent"
+            			android:layout_height="wrap_content"
+            			android:orientation="horizontal" >
+            			<View
+       						android:layout_width="1dp"
+        					android:layout_height="match_parent"
+        	    			android:background="#eeeeee"/>
+            			<Button
+                			android:id="@+id/button_3rd"
+                			style="?android:attr/buttonBarButtonStyle"
+                			android:layout_width="match_parent"
+                			android:layout_height="wrap_content"/>
+					</LinearLayout>	
+        		</TableRow>
+    		</TableLayout>
+    		</LinearLayout>
+	</LinearLayout>		
+</LinearLayout>

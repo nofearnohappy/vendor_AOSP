@@ -1,0 +1,43 @@
+Email Provider List is a new feature for user to add/setup an email account conveniently. 
+It supplies a list of mail providers to the user, makes the process 
+of setup an email account more specific and direct, and of course UI looks friendlier, 
+offers better user experience.
+
+When one item on the list is chosen, user will be leaded to AccountSetupBasics to fill 
+in account information, such as email address and password, however, there are some 
+important points here: 
+If one particular mail provider is chosen, such as 163/gmail etc, AccountSetupBasics 
+will give user a specific hint on email address and when user taps an ¡°@¡± right after 
+a valid email account, the email address will be completed with the given mail 
+provider¡¯s domain, and focus jumps to password view.
+ 
+If user chooses a general mail provider item (ie. Exchange/others), it just works as before.
+If correct email address and password were given, it should setup an account successfully 
+by just tapping next, everything goes well and being transparent to user.
+
+
+
+WHAT IT DOES?
+=============
+To make this feature more modular and handier for customers to do customization, we just 
+divide it into two parts: Email host part and VendorEmail plug-in part. As provider list 
+feature is more related with the provider configuration and UI, main logic is kept in Email 
+host part, and customers can just ignore it , what¡¯s important to customers is the mail 
+providers¡¯ configuration and how the configuration changes UI and account setup flow, so 
+configuration information is kept in VendorEmail part, a series of xml files are used to 
+implement this. Install both Email.apk and VendorEmail.apk if you want 
+to enable Email Provider List Feature, uninstall VendorEmail.apk if not, and Email works as 
+well as before. And all the configurations are placed in VendorEmail.apk, in which customer 
+can do customization freely.
+
+HOW IT WAS BUILT?
+==================
+Source locates in "vendor/mediatek/proprietary/packages/apps/VendorEmail", build it as a 
+normal android module:
+"mmm vendor/mediatek/proprietary/packages/apps/VendorEmail"
+
+HOW TO USE IT?
+==============
+
+For how to use it to do cusomization, please refer to the document MediaTek released to you.
+"Email Provider List Usage Guideline"

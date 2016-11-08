@@ -1,0 +1,19 @@
+WHAT IT DOES?
+=============
+Android APK file, used to show a menu bar contains back/home key
+(functions like android navigation bar), floating on the touch
+screen, could be dragged everywhere and docked in the edge of the
+screen after release.
+
+HOW IT WAS BUILT?
+==================
+It is a Android application project, built by Android SDK.
+
+HOW TO USE IT?
+==============
+It will be launched automatically when device setup Wi-Fi display
+connection with WFD sink device which supported UIBC. WFD sink
+device will show the source device screen, with the help of floating
+menu, sink device could control source device like go back, return
+to homescreen even though the source device doesn't have a navigation
+bar.

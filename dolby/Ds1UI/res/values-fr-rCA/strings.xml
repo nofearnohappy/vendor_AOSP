@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Égaliseur intelligent</string>
+	<string name="surround_virtualizer">Virtualiseur surround</string>
+	<string name="dialogue_enhancer">Amplificateur de dialogue</string>
+	<string name="volume_leveler">Niveleur de volume</string>
+	<string name="copyright">Dolby et le symbole double-D sont des marques déposées de Dolby Laboratories. \u00a9 Dolby Laboratories Inc., 2013. Tous droits réservés.</string>
+	<string name="movie">Films</string>
+	<string name="music">Musique</string>
+	<string name="game">Jeux</string>
+	<string name="voice">Voix</string>
+	<string name="preset_1">Personnalisé 1</string>
+	<string name="preset_2">Personnalisé 2</string>
+	<string name="open">Ouvert</string>
+	<string name="rich">Riche</string>
+	<string name="focused">Précis</string>
+	<string name="off">DÉSACTIVÉ</string>
+	<string name="custom">Manuel</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Égaliseur graphique</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Lire la démo</string>
+</resources>

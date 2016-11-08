@@ -1,0 +1,14 @@
+WHAT IT DOES?
+=============
+Data connection dialog
+Required by CMCC.
+This dialog shows up when WIFI connection is disconnected and provides choices for user to use mobile data service or not.
+Mobile data service will be shut down if user does not confirm this dialog.
+
+HOW IT WAS BUILT?
+==================
+Built as one application, an DataDialog.apk will be built out.
+
+HOW TO USE IT?
+==============
+Build in application, will be evoked after WIFI is disconnected in CMCC projects.

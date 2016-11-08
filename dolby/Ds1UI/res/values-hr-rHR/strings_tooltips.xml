@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Pametni ekvilizator/Grafički ekvilizator</string>
+	<string name="tooltip_eq_text">Pametni ekvilizator analizira i dinamički podešava zvuk kako bi odgovarao željenom tonu. Odaberite od četiri prikazana prethodna postavljanja i potom dotaknite virtualizator spektra kako biste prilagodili promjene na grafičkom ekvilizatoru.</string>
+	<string name="tooltip_sv_title">Surround virtualizator</string>
+	<string name="tooltip_sv_text">Surround virtualizator stvara realističan surround zvuk iz bilo kojeg kompleta slušalica ili stereo zvučnika. Postavite prekidač na uključeno ili isključeno radi kontrole surround zvučnog efekta.</string>
+	<string name="tooltip_de_title">Optimizator dijaloga</string>
+	<string name="tooltip_de_text">Optimizator dijaloga poboljšava jasnoću govora u svim vrstama medija. Postavite prekidač na uključeno ili isključeno radi kontrole poboljšanja dijaloga.</string>
+	<string name="tooltip_vl_title">Nivelator glasnoće</string>
+	<string name="tooltip_vl_text">Nivelator glasnoće pruža konstantnu razinu glasnoće kroz cijeli sadržaj i aplikacije koje se temelje na razini glavne glasnoće uređaja. Postavite prekidač na uključeno ili isključeno za automatsku kontrolu niveliranja glasnoće.</string>
+</resources>

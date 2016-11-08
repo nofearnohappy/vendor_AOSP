@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.bluetoothle"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:process="com.mediatek.bluetoothle"
+        android:name=".bleservice.BleApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app_ble_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <receiver
+            android:name=".bleservice.BleReceiver"
+            android:process="com.mediatek.bluetoothle">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            <action android:name="com.mediatek.bluetoothle.bleservice.settings" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mediatek.bluetoothle.pasp.PtsTestStubReceiver" >
+            <intent-filter >
+                <action android:name="bluetoothle.pasp.pts" /> 
+            </intent-filter>
+        </receiver>
+        
+        <service android:name=".bleservice.BleProfileManagerService"
+                 android:process="com.mediatek.bluetoothle">
+            <intent-filter>
+                <action android:name="com.mediatek.bluetoothle.bleservice.IProfileServiceManager"></action>
+            </intent-filter>
+        </service>
+        
+        <service android:name="com.mediatek.bluetoothle.tip.TipServerService"
+                 android:process="com.mediatek.bluetoothle">
+            <intent-filter>
+                <action android:name="com.mediatek.bluetoothle.tip.ITimeProfileService"></action>
+            </intent-filter>
+        </service>
+
+        <service android:name="com.mediatek.bluetoothle.fmp.FmpServerService"
+                 android:process="com.mediatek.bluetoothle">
+        </service>
+
+        <service android:name="com.mediatek.bluetoothle.pxp.ProximityProfileService"
+                 android:process="com.mediatek.bluetoothle">
+            <intent-filter>
+                <action android:name="com.mediatek.bluetoothle.pxp.IProximityProfileService"></action>
+            </intent-filter>
+        </service>
+                <service android:name="com.mediatek.bluetoothle.pasp.PaspServerService"
+                 android:process="com.mediatek.bluetoothle">
+        </service>
+
+        <service android:name=".bleservice.BleDeviceManagerService"
+            android:process="com.mediatek.bluetoothle">
+            <intent-filter>
+                <action android:name="com.mediatek.bluetooth.IBleDeviceManager"></action>
+            </intent-filter>
+        </service>        
+
+        <service android:name="com.mediatek.bluetoothle.anp.AlertNotificationProfileService"
+                 android:process="com.mediatek.bluetoothle">
+            <intent-filter>
+                <action android:name="com.mediatek.bluetoothle.anp.IAlertNotificationProfileService"></action>
+            </intent-filter>
+        </service>
+
+        <!--add for bluetoothle provider-->
+        <provider
+            android:name="com.mediatek.bluetoothle.provider.BluetoothLeProvider"
+            android:authorities="com.mediatek.bluetoothle.provider.BluetoothLeProvider"
+            android:exported="true" >
+        </provider>
+    </application>
+
+</manifest>

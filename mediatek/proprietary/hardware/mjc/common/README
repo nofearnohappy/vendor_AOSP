@@ -1,0 +1,28 @@
+Executable file of MTK ClearMotion jni function test entry
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+Executable file of MTK ClearMotion jni function test entry.
+It is now only a shell allows developer to write jni test function.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libutils
+2.  libcutils
+
+and the following libs from MediaTek:
+NA
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+Provide a executable file to test ClearMotion jni function.
+executable file name : mjc
+
+All the source code of this library were written by MediaTek co..

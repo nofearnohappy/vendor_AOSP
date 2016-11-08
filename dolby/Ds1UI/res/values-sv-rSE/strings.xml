@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Smart equalizer</string>
+	<string name="surround_virtualizer">Surroundvirtualisering</string>
+	<string name="dialogue_enhancer">Dialogförstärkning</string>
+	<string name="volume_leveler">Volymutjämning</string>
+	<string name="copyright">Dolby och den dubbla D-symbolen är registrerade varumärken som tillhör Dolby Laboratories. \u00a9 2013 Dolby Laboratories Inc. Med ensamrätt.</string>
+	<string name="movie">Film</string>
+	<string name="music">Musik</string>
+	<string name="game">Spel</string>
+	<string name="voice">Röst</string>
+	<string name="preset_1">Anpassad 1</string>
+	<string name="preset_2">Anpassad 2</string>
+	<string name="open">Öppen</string>
+	<string name="rich">Fyllig</string>
+	<string name="focused">Fokuserad</string>
+	<string name="off">AV</string>
+	<string name="custom">Manuell</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Grafisk equalizer</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Spela upp demo</string>
+</resources>

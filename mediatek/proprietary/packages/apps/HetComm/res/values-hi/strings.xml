@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">टर्बोडाउनलोड</string>
+    <string name="hetcomm_intro">एक ही समय में Wi-Fi और 4G/3G नेटवर्क का उपयोग करके बड़ी फ़ाइलों (20 MB से अधिक) तेजी से डाउनलोड करें। जब यह चल रहा हो तो स्थिति बार पर टर्बो डाउनलोड आइकन दिखाई देगा। टर्बो डाउनलोड का उपयोग करने के लिए, Wi-Fi और मोबाइल डेटा दोनों चालू होना चाहिए। जब यह सक्षम होता है, तो कोई भी एप्लिकेशन डेटा जिसे आपने केवल Wi-Fi  के माध्यम से डाउनलोड करने के लिए चुना हो वह फिर भी WLAN और 4G/3G नेटवर्क के माध्यम से डाउनलोड किया जाएगा।</string>
+    <string name="enable_switch_on">ऑन</string>
+    <string name="enable_switch_off">ऑफ</string>
+    <string name="notify_top_title">डाउनलोड गतिवर्धक</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"मोबाइल डेटा"</string>
+    <string name="conn_notice_title">मोबाइल या Wi-Fi ऑफ़ है।</string>
+    <string name="conn_notice_detail">टर्बो डाउनलोड सक्षम करने के लिए, Wi-Fi और मोबाइल डेटा दोनों ऑन होने चाहिए।</string>
+    <string name="conn_charging_warning">मोबाइल नेटवर्क के माध्यम से डाउनलोड करने के कारण अतिरिक्त शुल्क लिया जा सकता है।</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> को ऑन करें</string>
+    <string name="turn_off_due_to_vpn">Vpn ऑन होने के कारण टर्बो डाउनलोड ऑफ़ है</string>
+    <string name="turn_off_due_to_tether">टेथरिंग ऑन होने के कारण टर्बो डाउनलोड ऑफ़ है</string>
+    <string name="turn_off_due_to_shutdown">शटडाउन होने के कारण टर्बो डाउनलोड ऑफ़ है</string>
+    <string name="turn_off_due_to_roaming">रोमिंग होने के कारण टर्बो डाउनलोड ऑफ़ है</string>
+    <string name="ratio_is_single">Wi-Fi/मोबाइल डेटा गति धीमी है। डाउनलोड तेज़ करने के लिए, टर्बो डाउनलोड फ़ाइलें डाउनलोड करने के लिए केवल मोबाइल डेटा/Wi-Fi का उपयोग करेगा।</string>
+    <string name="ratio_is_back">टर्बो डाउनलोड फ़ाइलें डाउनलोड करने के लिए Wi-Fi और मोबाइल डेटा दोनों का एकसाथ उपयोग करता है।</string>
+    <string name="action_help">सहायता</string>
+    <string name="hetcomm_help">" <![CDATA[<html><body><h1>टर्बो डाउनलोड मदद</u>\
+    </h1><br>Wi-Fi और 4G/3G का एक साथ उपयोग करके बड़ी फ़ाइलें तीव्रतम गति से डाउनलोड करें।\
+    <h4>1. सेटिंग पर जाएँ और टर्बो डाउनलोड टैप करें।</h4>\
+    <h4>2. टर्बो डाउनलोड चालू करने के लिए स्विच टैप करें।</h4>\
+    <p><b>[सलाह]</b> अपने डाउनलोड के आरंभ में Wi-Fi और 4G/3G दोनों से एक साथ जुड़े रहने पर डाउनलोड की गति बढ़ाने के लिए।\
+    <p><b>[सलाह]</b> यदि आपका Wi-Fi या 4G/3G कनेक्शन बहुत धीमा है, तो आप डाउनलोड करने के लिए अपने तेज़ नेटवर्क कनेक्शन का उपयोग कर सकते हैं।\
+    <p><b>[सलाह]</b> टर्बो डाउनलोड की गति और प्रदर्शन डाउनलोड होने के दौरान नेटवर्क परिवेश से प्रभावित हो सकता है।\
+    <br>&nbsp;&nbsp;- यदि सिग्नल अस्थिर हैं, तो इस सुविधा की गति और प्रदर्शन प्रभावित हो सकता है।\
+    <br>&nbsp;&nbsp;- हालाँकि, औसतन, अकेले Wi-Fi या 4G/3G का उपयोग करने की तुलना में डाउनलोड गति ""दोगुना"" हो जाएगी।\
+    <p><b>[सलाह]</b> जब Wi-Fi और 4G/3G के बीच गति का अंतर बहुत अधिक हो (सामान्यतः 2.5 गुना), तो टर्बो डाउनलोड रूक जाएगा या गति के संबंध में खराब प्रदर्शन से बचने के लिए समर्थन बंद कर देगा।\
+    <p><b>[सलाह]</b> टेदरिंग/Vpn के चालू होने पर टर्बो डाउनलोड स्वचालित रूप से अक्षम हो जाएगा।\
+    </body></html>]]>"</string>
+</resources>

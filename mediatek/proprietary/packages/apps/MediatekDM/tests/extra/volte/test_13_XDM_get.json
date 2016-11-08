@@ -1,0 +1,10 @@
+[
+	{ operationName : "Get", nodeUri : "./XDMMO/NAME", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./XDMMO/ProviderID", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./XDMMO/URI", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./XDMMO/AAUTHNAME", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./XDMMO/AAUTHSECRET", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./XDMMO/CONF-URI-TMPLT", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./XDMMO/AAUTHTYPE", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./XDMMO/Ext/RCS/RevokeTimer", objectValue : "", objectType : "", newNode : "" },
+]

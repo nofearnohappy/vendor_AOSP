@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="274dip"
+    android:layout_height="match_parent"
+    android:background="@drawable/account_edit_dialog"
+    android:orientation="vertical"
+    android:paddingTop="20dip" >
+
+    <TextView
+        android:id="@+id/dialog_unreceive_text"
+        android:layout_width="274dip"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dip"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+    <TextView 
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dip"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/account_edit_dialog"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dialog_unreceive_cancel"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/edit_account_left_btn"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:text="@string/btn_cancel"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="fill_parent"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/dialog_unreceive_ok"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/edit_account_right_btn"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:text="@string/btn_ok"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <!--  
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dialog_unreceive_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_cancel"
+            android:textColor="#333333"
+            android:background="@drawable/button_selector_left"
+            android:clickable="true"
+            android:textSize="16sp" />
+        
+        <TextView 
+            android:layout_height="30dip"
+            android:layout_width="0.3dip"
+            android:layout_gravity="center_vertical"
+            android:background="#cccccc"/>
+
+        <TextView
+            android:id="@+id/dialog_unreceive_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_ok"
+             android:textColor="#333333"
+            android:clickable="true"
+            android:background="@drawable/button_selector_right"
+            android:textSize="16sp" />
+    </LinearLayout>
+-->
+</LinearLayout>

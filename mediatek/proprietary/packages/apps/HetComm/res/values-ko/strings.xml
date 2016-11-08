@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">터보다운로드</string>
+    <string name="hetcomm_intro">Wi-Fi와 4G/3G 네트워크를 동시에 사용하여 대용량 파일(20 MB 이상)을 더 빠르게 다운로드하십시오. 터보 다운로드가 실행 중이면 아이콘이 상태 표시줄에 표시됩니다. 터보 다운로드를 사용하려면, Wi-Fi와 모바일 장치가 둘 다 켜져 있어야 합니다. 활성화된 경우, Wi-Fi만을 통해 다운로드하기로 선택한 모든 애플리케이션 데이터가 이와 상관없이 WLAN 및 4G/3G 네트워크를 통해서 다운로드됩니다.</string>
+    <string name="enable_switch_on">"사용"</string>
+    <string name="enable_switch_off">끄기</string>
+    <string name="notify_top_title">다운로드 가속기</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"모바일 데이터"</string>
+    <string name="conn_notice_title">모바일 또는 Wi-Fi가 꺼져 있습니다.</string>
+    <string name="conn_notice_detail">터보 다운로드를 활성화하려면, Wi-Fi와 모바일 데이터가 둘 다 켜져 있어야 합니다.</string>
+    <string name="conn_charging_warning">모바일 네트워크를 통해 다운로드할 경우 조건에 따라 추가 요금이 발생할 수 있습니다.</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g>을(를) 켜십시오.</string>
+    <string name="turn_off_due_to_vpn">Vpn이 켜져 터보 다운로드가 꺼졌습니다.</string>
+    <string name="turn_off_due_to_tether">테더링이 켜져 터보 다운로드가 꺼졌습니다.</string>
+    <string name="turn_off_due_to_shutdown">시스템 종료로 터보 다운로드가 꺼졌습니다.</string>
+    <string name="turn_off_due_to_roaming">로밍 때문에 터보 다운로드가 꺼졌습니다.</string>
+    <string name="ratio_is_single">Wi-Fi/모바일 데이터 속도가 느립니다. 다운로드 속도를 높이기 위해 Turbo 다운로드에서는 모바일 데아터/Wi-Fi만 사용하여 파일을 다운로드합니다.</string>
+    <string name="ratio_is_back">Turbo 다운로드는 Wi-Fi 및 모바일 데이터를 함께 다시 사용하여 파일을 다운로드합니다.</string>
+    <string name="action_help">"도움말"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>터보 다운로드 도움말</u>\
+    </h1><br>Wi-Fi와 4G/3G를 동시에 사용하여 대용량 파일을 고속으로 다운로드하십시오.\
+    <h4>1. 설정으로 이동하여 터보 다운로드를 탭핑합니다.</h4>\
+    <h4>2. 스위치를 탭핑하여 터보 다운로드를 켭니다.</h4>\
+    <p><b>[팁]</b> 다운로드 시작 시 Wi-Fi와 4G/3G 모두에 연결되어 있으면 다운로드 속도가 빨라집니다.\
+    <p><b>[팁]</b> Wi-Fi 또는 4G/3G 연결의 속도가 너무 느리면, 더 빠른 네트워크 연결을 사용하여 다운로드할 수 있습니다.\
+    <p><b>[팁]</b> 다운로드하는 동안, 터보 다운로드의 속도 및 성능은 네트워크 환경의 영향을 받을 수 있습니다.\
+    <br>&nbsp;&nbsp;- 신호가 불안정하면, 이 기능의 속도 및 성능이 영향을 받을 수 있습니다.\
+    <br>&nbsp;&nbsp;- 그러나 Wi-Fi 또는 4G/3G를 하나만 사용할 때와 비교하면 평균적으로 다운로드 속도가 ""2배""나 빠릅니다.\
+    <p><b>[팁]</b> Wi-Fi와 4G/3G 간의 속도 차이가 크면(일반적으로 2.5배), 터보 다운로드를 중지하거나 지원하지 않음으로써 속도와 관련하여 성능이 떨어지는 것을 방지합니다.\
+    <p><b>[팁]</b> 테더링/Vpn이 켜지면 터보 다운로드가 자동으로 비활성화됩니다.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_additional_edge_button_width">149px</dimen>
+    <dimen name="dialpad_additional_dial_button_width">208px</dimen>
+
+    <dimen name="launcher3_folder_cell_height">270px</dimen>
+</resources>

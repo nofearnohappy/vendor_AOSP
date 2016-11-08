@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Sāk saņemt…</string>
+    <string name="notification_group_title">Saņem <xliff:g id="number">%d</xliff:g> failus...</string> 
+    <string name="notification_download_done">Pieskarieties, lai uzzinātu vairāk</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> faili saņemti</string>
+    <string name="notification_received">saņemts</string> 
+    <string name="notification_download_failure">Neizdevās saņemt <xliff:g id="reason">%s</xliff:g> dēļ</string> 
+    <string name="notification_download_cancel">Saņemšana atcelta</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> nenosūtīti faili</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> nenosūtīti faili, <xliff:g id="number">%d</xliff:g> saņemti faili</string>
+    <string name="download_no_file">Fails nepastāv</string>
+    <string name="notification_sending">Sākt saņemšanu…</string>
+    <string name="notification_group_upload_title">Sūta <xliff:g id="number">%d</xliff:g> failus...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> nosūtītie faili</string>
+    <string name="notification_sent">Sekmīgi saņemts</string>
+    <string name="notification_upload_failed">Neizdevās nosūtīt <xliff:g id="reason">%s</xliff:g> dēļ</string>
+    <string name="notification_upload_cancel">Sūtīšana atcelta</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> nenosūtīti faili</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> nenosūtīti faili, <xliff:g id="number">%d</xliff:g> nosūtīti faili</string>
+    <string name="low_storage">maz vietas krātuvē</string>
+    <string name="connect_failure">"Problēma saistībā ar savienojumu"</string>
+    <string name="unknown_error">Nezināma kļūda</string>
+    <string name="share_label">HotKnot Share</string>
+    <string name="rx_ui_image_status">Saņem attēlu no <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Saņem <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> attēlus no <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Saņem video no <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Saņem <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> videos no <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Saņem failu no <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Saņem <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> failus no <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Saņem mūziku no <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Saņem <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> mūziku no <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Saņemšana nav pabeigta</string>
+</resources>

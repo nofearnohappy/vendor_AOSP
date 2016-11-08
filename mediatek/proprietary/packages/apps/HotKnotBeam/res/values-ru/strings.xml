@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Начало приема данных...</string>
+    <string name="notification_group_title">Прием <xliff:g id="number">%d</xliff:g> файлов...</string> 
+    <string name="notification_download_done">Коснитесь для просмотра подробностей</string>
+    <string name="notification_group_received">Принято <xliff:g id="number">%d</xliff:g> файлов</string>
+    <string name="notification_received">Успешно принято</string> 
+    <string name="notification_download_failure">Прием не удался из-за <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Прием данных отменен</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> файлов не принято</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> файлов не принято, <xliff:g id="number">%d</xliff:g> файлов принято</string>
+    <string name="download_no_file">Файл не существует</string>
+    <string name="notification_sending">Начало передачи данных...</string>
+    <string name="notification_group_upload_title">Передача <xliff:g id="number">%d</xliff:g> файлов...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> файлов передано</string>
+    <string name="notification_sent">Успешно передано</string>
+    <string name="notification_upload_failed">Передача данных не удалась из-за <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Передача данных отменена</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> файлов не принято</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> файлов не передано, <xliff:g id="number">%d</xliff:g> файлов передано</string>
+    <string name="low_storage">недостаточно памяти</string>
+    <string name="connect_failure">"Ошибка подключения"</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="share_label">Режим HotKnot Share</string>
+    <string name="rx_ui_image_status">Прием фото с <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Прием <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> фото с <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Прием видео с <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Прием <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> видео с <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Прием файла с <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Прием <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> файлов с <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Прием музыки с <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Прием <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> музыки с <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Прием не завершен</string>
+</resources>

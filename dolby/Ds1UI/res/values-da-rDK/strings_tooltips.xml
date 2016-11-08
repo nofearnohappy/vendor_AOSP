@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Intelligent equalizer/Grafisk equalizer</string>
+	<string name="tooltip_eq_text">Den intelligente equalizer analyserer og justerer lyden dynamisk for at matche en ønsket tone. Vælg fra de fire viste forudindstillinger, og tryk derefter på Spektral visualizer for at foretage brugertilpasninger til den grafiske equalizer.</string>
+	<string name="tooltip_sv_title">Surround-virtualisering</string>
+	<string name="tooltip_sv_text">Surround-virtualisering skaber realistisk surround sound fra ethvert sæt hovedtelefoner eller stereohøjttalere. Slå knappen til eller fra for at styre surround sound-effekten.</string>
+	<string name="tooltip_de_title">Talefremhævelse</string>
+	<string name="tooltip_de_text">Talefremhævelse forbedrer klarheden af tale i alle medieformer. Slå knappen til eller fra for at styre talefremhævelse.</string>
+	<string name="tooltip_vl_title">Lydstyrkeregulering</string>
+	<string name="tooltip_vl_text">Lydstyrkeregulering giver en konstant lydstyrke for alt indhold og alle programmer baseret på master-lydstyrken på enheden. Slå knappen til eller fra for at styre den automatiske lydstyrkeregulering.</string>
+</resources>

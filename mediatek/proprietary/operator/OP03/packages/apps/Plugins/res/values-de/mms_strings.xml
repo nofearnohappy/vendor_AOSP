@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">Messaging ist nicht Ihre standardmäßige SMS-App</string>
+    <string name="banner_sms_promo_message1">Tippen Sie zum Aktivieren hier.</string>
+    <string name="roaming_warning">Wenn Sie im Roaming eine Verbindung zum Internet herstellen, können hohe Gebühren entstehen. Ihr Anbieter informiert Sie, wenn Ihr Datenverbrauch im Ausland einen bestimmten Grenzwert übersteigt. Möchten Sie fortfahren?</string>
+    
+</resources>

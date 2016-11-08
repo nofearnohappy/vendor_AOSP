@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">אקוולייזר חכם</string>
+	<string name="surround_virtualizer">מדמה צליל היקפי</string>
+	<string name="dialogue_enhancer">משפר הדיאלוגים</string>
+	<string name="volume_leveler">מאזן עוצמת השמע</string>
+	<string name="copyright">Dolby וסמל ה-Double-D הם סימני מסחר רשומים של מעבדות Dolby‏. ‎\u00a9 2013 Dolby Laboratories Inc.‎ כל הזכויות שמורות.</string>
+	<string name="movie">סרט</string>
+	<string name="music">מוזיקה</string>
+	<string name="game">משחק</string>
+	<string name="voice">קול</string>
+	<string name="preset_1">מותאם-אישית 1</string>
+	<string name="preset_2">מותאם-אישית 2</string>
+	<string name="open">פתוח</string>
+	<string name="rich">עשיר</string>
+	<string name="focused">ממוקד</string>
+	<string name="off">כבוי</string>
+	<string name="custom">התאם אישית</string>
+	<string name="db36">36dB‏</string>
+	<string name="db24">24dB‏</string>
+	<string name="db12">12dB‏</string>
+	<string name="db0">0dB‏</string>
+	<string name="dbn12">‎-12dB‏</string>
+	<string name="graphical_equalizer">אקוולייזר גרפי</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">הפעל הדגמה</string>
+</resources>

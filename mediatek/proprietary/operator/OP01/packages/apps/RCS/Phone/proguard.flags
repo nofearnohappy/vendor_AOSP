@@ -1,0 +1,8 @@
+# do not warn the build warning, or else may cause build failed.
+
+-verbose
+
+# InCallUi plugin @{
+-keep class com.mediatek.rcs.incallui.ext.** { *; }
+-keep class com.mediatek.incalui.ext.** { *; }
+# @}

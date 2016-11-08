@@ -1,0 +1,14 @@
+SmartMotion is a test application that is used to test and verify some features of SensorHub.
+
+
+WHAT IT DOES?
+=============
+You can use it to  to test and verify some features of SensorHub.
+
+HOW IT WAS BUILT?
+==================
+SmartMotion is built in Engineer Mode.
+
+[Build Method]
+mmm vendor/mediatek/proprietary/packages/apps/SmartMotion
+

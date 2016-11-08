@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/esurfing_guide_select_bg"
+    android:orientation="vertical"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle"
+    android:dividerPadding="0dip">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="10dip"
+            android:maxWidth="250dip"
+            android:ellipsize="end"
+            android:text="@string/esurfing_dialing_guide_title"
+            android:singleLine="true"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="23dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_blue_light" />
+
+        <LinearLayout
+            android:id="@+id/sim_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:minHeight="50dp"
+            android:minWidth="250dp"
+            android:orientation="horizontal"
+            android:background="@drawable/sim_item">
+            <include layout="@layout/sim_picker_item" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sim_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:minHeight="50dp"
+        android:minWidth="250dp"
+        android:background="@drawable/sim_item"
+        android:orientation="horizontal" >
+        <include layout="@layout/sim_picker_item" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:paddingTop="8dip"
+        android:layout_height="50dip"
+        android:gravity="center_horizontal"
+        android:text="@string/esurfing_dialing_guide_cancel"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:background="@drawable/sim_item"/>
+
+</LinearLayout>

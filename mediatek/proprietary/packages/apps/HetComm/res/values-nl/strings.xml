@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbo-downloaden</string>
+    <string name="hetcomm_intro">Download grote bestanden (meer dan 20 MB) sneller met Wi-Fi en 4G/3G-netwerken tegelijk. Het pictogram Snel downloaden verschijnt in de statusbalk als dit actief is. Om Snel downloaden te gebruiken, moeten zowel Wi-Fi als mobiele gegevens zijn ingeschakeld. Als dit is ingeschakeld, worden alle toepassingsgegevens die je hebt geselecteerd voor downloaden over Wi-Fi gedownload over WLAN en 4G/3G-netwerken.</string>
+    <string name="enable_switch_on">aan</string>
+    <string name="enable_switch_off">Uit</string>
+    <string name="notify_top_title">Downloadversneller</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wifi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobiele gegevens"</string>
+    <string name="conn_notice_title">Mobiel of Wi-Fi is uit.</string>
+    <string name="conn_notice_detail">Om Snel downloaden in te schakelen, moeten zowel Wi-Fi als mobiele gegevens ingeschakeld zijn.</string>
+    <string name="conn_charging_warning">Downloaden over mobiele netwerken kan extra kosten met zich meebrengen.</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> inschakelen</string>
+    <string name="turn_off_due_to_vpn">Snel downloaden is UIT omdat VPN AAN is. Snel downloaden is UIT omdat Tethering AAN is.</string>
+    <string name="turn_off_due_to_tether">Snel downloaden is UIT omdat Tethering AAN is.</string>
+    <string name="turn_off_due_to_shutdown">Snel downloaden is UIT als gevolg van afsluiten</string>
+    <string name="turn_off_due_to_roaming">Snel downloaden is UIT als gevolg van roaming</string>
+    <string name="ratio_is_single">Wi-Fi/Mobiele gegevenssnelheid is laag. Om de download te versnellen, gebruikt Turbo download alleen Mobiele gegevens/Wi-Fi om bestanden te downloaden.</string>
+    <string name="ratio_is_back">Turbo download gebruikt Wi-Fi en mobiele gegevens gecombineerd om bestanden te downloaden.</string>
+    <string name="action_help">Help</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Supersnel downloaden Help</u>\
+    </h1><br>Download grote bestanden op topsnelheid door tegelijkertijd Wi-Fi en 4G/3G te gebruiken.\
+    <h4>1. Ga naar Instellingen en tik op Supersnel downloaden.</h4>\
+    <h4>2. Tik op de schakelaar om Supersnel downloaden in te schakelen.</h4>\
+    <p><b>[Tip]</b> Om het downloaden te versnellen als je bij het begin van het downloaden zowel met Wi-Fi als 4G/3G bent verbonden.\
+    <p><b>[Tip]</b> Als de Wi-Fi of 4G/3G-verbinding te langzaam is, kun je je snellere netwerkverbinding gebruiken om te downloaden.\
+    <p><b>[Tip]</b> De snelheid en prestaties van Supersnel downloaden kunnen tijdens het downloaden de netwerkomgeving beïnvloeden.\
+    <br>&nbsp;&nbsp;- Als de signalen instabiel zijn, kan dit invloed hebben op de snelheid en de prestaties van deze functie.\
+    <br>&nbsp;&nbsp;- maar gemiddeld wordt de downloadsnelheid ""verdubbeld"" vergeleken met alleen maar Wi-Fi of 4G/3G.\
+    <p><b>[Tip]</b> Als het verschil in snelheid tussen Wi-Fi en 4G/3G groot is (gewoonljik 2,5 maal), stopt Supersnel downloaden of biedt deze geen ondersteuning om slechte prestaties bi jde snelheid te voorkomen..\
+    <p><b>[Tip]</b> Supersnel downloaden wordt automatisch uitgeschakeld als Tethering/Vpn actief is.\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hw_init_failed">Riistvara lähtestamine ebaõnnestus.</string>
+    <string name="stop_record_first">Peata esmalt salvestamine.</string>
+    <string name="location_changed">Uus asukoht on %1$s.</string>
+    <string name="saved_to_gallery">Salvestati galeriisse.</string>
+    <string name="channel">kanal</string>
+    <string name="scan_confirm">Praegune kanalite loend kustutatakse.</string>
+    <string name="turning_on_tv">Turning on TV…</string>
+    <string name="please_wait">Palun oota\u2026</string>
+    <string name="no_storage">Sisesta SD kaart.</string>
+    <string name="preparing_sd">"SD-kaardi ettevalmistamine ..."</string>
+    <string name="multiselect">"Mitmikvalik"</string>    
+    <string name="confirm_delete_message">Kanal kustutatakse.</string>
+    <string name="confirm_delete_multiple_message">Need kanalid kustutatakse.</string>
+<string name="scanning_channels">Kanalite skaneerimine</string>
+<string name="stop">"Peata"</string>
+<string name="choose_sound_mode">Vali helirežiim</string>
+<string name="brightness">"Eredus"</string>
+<string name="contrast">"Kontrast"</string>
+<string name="saturation">"Küllastus"</string>
+<string name="gallery">"Galerii"</string>
+<string name="record">Salvesta</string>
+<string name="video_setting">Video säte</string>
+<string name="previous_channel">Eelmine kanal</string>
+<string name="sound_setting">Helisäte</string>
+<string name="rename">"Nimeta ümber"</string>
+<string name="fail_to_select_location">Asukoha valimine ebaõnnestus.</string>
+<string name="no_channels_hint">Kanalite loend on tühi.</string>
+<string name="select_location">Vali asukoht</string>
+<string name="channel_list">Kanalite loend</string>
+<string name="no_channels_found">Kanalit ei leitud.</string>
+<string name="scan_again">Skaneeri uuesti</string>
+<string name="scan">"Skannimine"</string>
+<string name="delete">"Kustuta"</string>
+<string name="watch_now">Vaata kohe</string>
+<string name="select_all">Vali kõik</string>
+<string name="new_channel_name">Kanali uus nimi:</string>
+<string name="spaceIsLow_content">SD kaardil hakkab vaba ruum otsa saama.</string>
+<string name="vt_in_use_warning">TV kanalite vaatamine on kõne ajal keelatud.</string>
+<string name="analog_tv">"Analoog-TV"</string>
+<string name="selected">%d valitud</string>   
+</resources>

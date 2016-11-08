@@ -1,0 +1,14 @@
+WHAT IT DOES?
+==================
+This is a Mediatek test apk for VoiceCommand testing. The module tag is tests.
+
+HOW IT WAS BUILD?
+===================
+[Build Method]
+make VoiceCommandTests
+or
+mmm vend/mediatek/proprietary/packages/apps/VoiceCommand/tests
+
+HOW TO USE IT?
+====================
+adb shell am instrument -w com.mediatek.voicecommand.tests/com.mediatek.voicecommand.tests.VoiceCommandTestRunner

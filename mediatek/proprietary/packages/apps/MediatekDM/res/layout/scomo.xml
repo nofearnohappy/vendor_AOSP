@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whole_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="6dp" >
+
+        <RelativeLayout
+            android:id="@+id/LayoutDownloading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@+id/TextView01" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/downloadingIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/title"
+                android:paddingLeft="2dp" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/downloadingIcon"
+                android:layout_toRightOf="@+id/downloadingIcon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingLeft="6dp" >
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/SizeFrame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/TextViewName" >
+
+                <TextView
+                    android:id="@+id/TextViewSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:maxLines="1"
+                    android:text="@+id/TextView01" >
+                </TextView>
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/ProgressBarProgress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/SizeFrame"
+                android:layout_toRightOf="@+id/downloadingIcon"
+                android:paddingLeft="6dp" >
+            </ProgressBar>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/LayoutInstalling"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@+id/TextView01" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/title" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/icon"
+                android:layout_toRightOf="@+id/icon"
+                android:paddingLeft="6dp"
+                android:text="@+id/TextView01" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/icon"
+                android:layout_toRightOf="@+id/icon"
+                android:paddingLeft="6dp"
+                android:text="@+id/TextView01" >
+            </TextView>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/title" >
+            </ProgressBar>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LayoutEmpty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/progressLoading"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/TextViewEmpty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@+id/TextView01"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="?android:attr/textColorPrimary" >
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

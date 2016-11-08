@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="call_detail_history_list_divider">#ffcdcdcd</color>
+    <!-- Color of the theme of the People app -->
+    <color name="people_app_theme_color">#33B5E5</color>
+    <!-- Call Settings, screen should use the same colors as the Dialer -->
+    <color name="phone_settings_background_color">#f5f5f5</color>
+    <color name="phone_settings_actionbar_color">#e6e6e6</color>
+
+    <!--CT feature for data connection  -->
+    <color name="dashboard_background_color">#ffe1e1e0</color>
+    <color name="switchbar_background_color">#ff37474f</color>
+
+    <!--CT Setting data mobile -->
+    <color name="switch_accent_color">#ff7fcac3</color>
+
+    <!-- Palette colors referenced by top-level themes. -->
+    <color name="theme_primary">#ff263238</color>
+    <color name="theme_primary_dark">#ff21272b</color>
+    <color name="theme_accent">#ff009688</color>
+
+    <color name="floating_action_button_touch_tint">#80ffffff</color>
+
+    <!--CT Mms -->
+    <color name="black">#ff000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#76b20e</color>
+    <color name="primary_dark">#63940f</color>
+    <color name="list_background">#fff1f1f1</color>
+    <drawable name="class_zero_background">#7f040000</drawable>
+</resources>

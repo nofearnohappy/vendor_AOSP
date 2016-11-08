@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:id="@+id/quickanswer_switch"
+        android:fragment="com.mediatek.smartmotion.QuickAnswerFragment"
+        android:title="@string/quick_answer"
+        android:summary="@string/summary_quick_answer"/>
+    <header
+        android:id="@+id/easyreject_switch"
+        android:fragment="com.mediatek.smartmotion.EasyRejectFragment"
+        android:title="@string/easy_reject"
+        android:summary="@string/summary_easy_reject"/>
+    <header
+        android:id="@+id/smartsilent_switch"
+        android:fragment="com.mediatek.smartmotion.SmartSilentFragment"
+        android:title="@string/smart_silent"
+        android:summary="@string/summary_smart_silent"/>
+    <header
+        android:id="@+id/inpocket_switch"
+        android:title="@string/in_pocket"
+        android:summary="@string/summary_in_pocket"/>
+    <header
+        android:id="@+id/pedometer_switch"
+        android:title="@string/pedometer"
+        android:summary="@string/summary_pedometer"/>
+    <header
+        android:id="@+id/useractivity_switch"
+        android:title="@string/user_activity"
+        android:summary="@string/summary_user_activity"/>
+    <header
+        android:id="@+id/significantmotion_switch"
+        android:title="@string/significant_motion"
+        android:summary="@string/summary_significant_motion"/>       
+</preference-headers>

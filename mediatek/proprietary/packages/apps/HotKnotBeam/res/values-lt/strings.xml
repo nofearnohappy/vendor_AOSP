@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Gaunama...</string>
+    <string name="notification_group_title">Gaunama <xliff:g id="number">%d</xliff:g> failų...</string> 
+    <string name="notification_download_done">Palieskite, kad matytumėte išsamią informaciją</string>
+    <string name="notification_group_received">gauta <xliff:g id="number">%d</xliff:g> failų</string>
+    <string name="notification_received">Sėkmingai gauta</string> 
+    <string name="notification_download_failure">Nepavyko gauti dėl <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Gavimas atšauktas</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> failų neišsiųsta</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> failų negauta, <xliff:g id="number">%d</xliff:g> failų gauta</string>
+    <string name="download_no_file">Failo nėra</string>
+    <string name="notification_sending">Siunčiama...</string>
+    <string name="notification_group_upload_title">Siunčiama <xliff:g id="number">%d</xliff:g> failų...</string>
+    <string name="notification_group_sent">išsiųsta <xliff:g id="number">%d</xliff:g> failų</string>
+    <string name="notification_sent">Sėkmingai išsiųsta</string>
+    <string name="notification_upload_failed">Nepavyko išsiųsti dėl <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Siuntimas atšauktas</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> failų neišsiųsta</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> failų neišsiųsta, <xliff:g id="number">%d</xliff:g> failų išsiųsta</string>
+    <string name="low_storage">liko mažai atminties</string>
+    <string name="connect_failure">"Ryšio problema"</string>
+    <string name="unknown_error">Nežinoma klaida</string>
+    <string name="share_label">Bendrinimas naudojant „HotKnot“</string>
+    <string name="rx_ui_image_status">Gaunama vaizdas iš <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Gaunama <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> vaizdų iš <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Gaunamas vaizdo įrašas nuo <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Gaunama <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> vaizdo įrašų iš <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Gaunamas failas iš <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Gaunama <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> failų iš <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Gaunamas muzikos įrašas iš <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Gaunama <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> muzikos įrašų iš <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Gavimas nebaigtas</string>
+</resources>

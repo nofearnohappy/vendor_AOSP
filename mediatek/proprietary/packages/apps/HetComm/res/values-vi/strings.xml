@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">TảiTurbo</string>
+    <string name="hetcomm_intro">Tải về file lớn (hơn 20 MB) nhanh hơn bằng cách sử dụng mạng Wi-Fi và 4G/3G cùng lúc. Biểu tượng Tải về Turbo sẽ hiển thị trên thanh trạng thái khi đang chạy. Để sử dụng Tải về Turbo, cả Wi-Fi và mạng Dữ liệu di động đều phải được bật. Khi được kích hoạt, bất kỳ dữ liệu ứng dụng mà bạn đã chọn để tải về thông qua Wi-Fi sẽ chỉ được tải về qua mạng WLAN và mạng 4G/3G.</string>
+    <string name="enable_switch_on">bật</string>
+    <string name="enable_switch_off">Tắt</string>
+    <string name="notify_top_title">Tải Bộ gia tốc</string>
+    <string name="unit_Mbps">Mb/giây</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Dữ liệu di động"</string>
+    <string name="conn_notice_title">Mạng Di động hoặc Wi-Fi đang TẮT.</string>
+    <string name="conn_notice_detail">Để bật ứng dụng Tải về Turbo, cả Wi-Fi và mạng Dữ liệu di động đều phải được bật.</string>
+    <string name="conn_charging_warning">Tải qua mạng di động có thể bị tính phí phụ thu tùy thuộc.</string>
+    <string name="turn_on">Bật <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Tải về Turbo bị TẮT do Vpn đang BẬT</string>
+    <string name="turn_off_due_to_tether">Tải về Turbo bị TẮT do Tethering đang BẬT</string>
+    <string name="turn_off_due_to_shutdown">Tải về Turbo bị TẮT do Tắt máy</string>
+    <string name="turn_off_due_to_roaming">Tải về Turbo bị TẮT do Chuyển vùng</string>
+    <string name="ratio_is_single">Tốc độ mạng Wi-Fi/Dữ liệu di động bị chậm. Để tăng tốc tải về, tải về Turbo chỉ sử dụng mạng Dữ liệu di động/Wi-Fi để tải các tập tin về.</string>
+    <string name="ratio_is_back">Tải về Turbo sẽ tái sử dụng cả mạng Wi-Fi và Dữ liệu di động để tải các tập tin về.</string>
+    <string name="action_help">Trợ giúp</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Trợ giúp Tải Turbo </u>\
+    </h1><br>Tải file lớn với tốc độ nhanh nhất bằng cách sử dụng mạng Wi-Fi và 4G/3G cùng lúc.\
+    <h4>1. Vào Cài đặt và chạm Tải Turbo.</h4>\
+    <h4>2. Chạm công tắc để bật Tải Turbo.</h4>\
+    <p><b>[Mẹo]</b> Để tăng tốc độ tải nếu kết nối với cả mạng Wi-Fi lẫn 4G/3G khi bắt đầu tải về.\
+    <p><b>[Mẹo]</b> Nếu kết nối mạng Wi-Fi hoặc 4G/3G quá chậm, bạn có thể sử dụng kết nối mạng nhanh hơn để tải về.\
+    <p><b>[Mẹo]</b> Tốc độ và hiệu suất Tải Turbo có thể bị ảnh hưởng bởi môi trường mạng khi đang tải.\
+    <br>&nbsp;&nbsp;- Nếu tín hiệu không ổn định, tốc độ và hiệu suất của tính năng này có thể bị ảnh hưởng.\
+    <br>&nbsp;&nbsp;- Tuy nhiên, tính trung bình, tốc độ tải về sẽ tăng ""gấp đôi"" so với chỉ sử dụng riêng mạng Wi-Fi hay 4G/3G.\
+    <p><b>[Mẹo]</b> Khi chênh lệch tốc độ giữa mạng Wi-Fi và 4G/3G quá lớn (thường là 2,5 lần), tính năng Tải Turbo sẽ dừng lại hoặc sẽ không hỗ trợ để tránh làm giảm hiệu suất tốc độ.\
+    <p><b>[Mẹo]</b> Tải Turbo sẽ tự động tắt khi Tethering/Vpn được bật.\
+    </body></html>]]>"</string>
+</resources>

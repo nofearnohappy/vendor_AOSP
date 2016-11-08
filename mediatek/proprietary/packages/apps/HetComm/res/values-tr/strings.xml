@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbohızlaindir</string>
+    <string name="hetcomm_intro">Büyük dosyaları (20 MB üzeri), Wi-Fi ve 4G/3G ağlarını aynı anda kullanarak daha hızlı indirin. Çalışırken, Turbo Hızla İndir simgesi durum çubuğunda gösterilecektir. Turbo Hızla İndir kullanmak için, hem Wi-Fi hem de mobil veri açılmalıdır. Etkinleştirildiğinde, yalnızca Wi-Fi aracılığıyla indirmek için seçtiğiniz her türlü uygulama verisi WLAN ve 4G/3G ağları aracılığıyla indirilecektir.</string>
+    <string name="enable_switch_on">açık</string>
+    <string name="enable_switch_off">Kapalı</string>
+    <string name="notify_top_title">İndirme Hızlandırıcı</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Kablosuz"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobil Veriler"</string>
+    <string name="conn_notice_title">Mobil ya da Wi-Fi KAPALI.</string>
+    <string name="conn_notice_detail">Turbo Hızla İndir özelliğini etkinleştirmek için hem Wi-Fi hem de mobil veri açılmalıdır.</string>
+    <string name="conn_charging_warning">Mobil ağlar aracılığıyla indirmek ek ücretlere neden olabilir.</string>
+    <string name="turn_on"><xliff:g id="conn">%1$s</xliff:g> aç</string>
+    <string name="turn_off_due_to_vpn">VPN AÇIK olduğundan Turbo Hızla İndir KAPALI</string>
+    <string name="turn_off_due_to_tether">Bağlantı Paylaşma AÇIK olduğundan Turbo Hızla İndir KAPALI</string>
+    <string name="turn_off_due_to_shutdown">Kapatılmasından dolayı Turbo Hızla İndir KAPALI</string>
+    <string name="turn_off_due_to_roaming">Dolaşımdan dolayı Turbo Hızla İndir KAPALI</string>
+    <string name="ratio_is_single">Wi-Fi/Mobil veri hızı düşük. Turbo indirme, indirme işlemini hızlandırmak amacıyla dosyaları indirmek için yalnızca Mobil veri/Wi-Fi kullanacak.</string>
+    <string name="ratio_is_back">Turbo indirme, dosyaları indirmek için Wi-Fi ve Mobil veriyi tekrar birlikte kullanır.</string>
+    <string name="action_help">Yardım</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbo Hızla İndir Yardımı</u>\
+    </h1><br>Aynı anda Wi-Fi ve 4G/3G kullanarak büyük dosyaları yüksek hızda indirin.\
+    <h4>1. Ayarlar kısmına gidip Turbo Hızla İndir öğesine dokunun.</h4>\
+    <h4>2. Turbo Hızla İndir özelliğini açmak için anahtara dokunun.</h4>\
+    <p><b>[İpucu]</b> İndirme işleminizin başlangıcında hem Wi-Fi hem de 4G/3G ağına bağlıysanız indirmeyi hızlandırmak için.\
+    <p><b>[İpucu]</b> Wi-Fi veya 4G/3G bağlantınız çok yavaşsa, indirmek için daha hızlı olan ağ bağlantınızı kullanabilirsiniz.\
+    <p><b>[İpucu]</b> İndirme sırasında Turbo Hızla İndir hızı ve performansı ağ ortamından etkilenebilir.\
+    <br>&nbsp;&nbsp;- Sinyaller kararsızsa, bu özelliğin hızı ve performansı etkilenebilir.\
+    <br>&nbsp;&nbsp;- Ancak ortalama olarak, yalnızca Wi-Fi ya da 4G/3G bağlantısının kullanımıyla kıyaslandığında, indirme hızı ""ikiye katlanacaktır"".\
+    <p><b>[İpucu]</b> Wi-Fi ve 4G/3G bağlantılarının hız farkı büyük olduğunda (normal olarak 2,5 kat), Turbo Hızla İndir duracak veya hıza göre kötü performans alınmasını önlemek için destek vermeyecektir.\
+    <p><b>[İpucu]</b> Bağlantı Paylaşımı/Vpn açıldığında, Turbo Hızla İndir otomatik olarak devre dışı bırakılacaktır.\
+    </body></html>]]>"</string>
+</resources>

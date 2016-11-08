@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <string name="tooltip_eq_title">Intelligent Equalizer/Graphic Equalizer</string>
+    <string name="tooltip_eq_text">Der Intelligent Equalizer analysiert das Audiosignal und passt es dynamisch an, damit es einem gewünschten Klang entspricht. Wählen Sie eine der vier Voreinstellungen aus und tippen Sie dann den Spektrum-Visualizer an, um eigene Änderungen am Graphic Equalizer vorzunehmen.</string>
+    <string name="tooltip_sv_title">Surround Virtualizer</string>
+    <string name="tooltip_sv_text">Der Surround Virtualizer erzeugt realistischen Surround-Sound für Kopfhörer oder Stereo-Lautsprecher. Stellen Sie den Schalter auf Aus oder Ein, um den Surround-Sound-Effekt zu steuern.</string>
+    <string name="tooltip_de_title">Dialogue Enhancer</string>
+    <string name="tooltip_de_text">Der Dialogue Enhancer verbessert die Sprachverständlichkeit für alle Medien. Stellen Sie den Schalter auf Aus oder Ein, um die Dialogverbesserung zu steuern.</string>
+    <string name="tooltip_vl_title">Volume Leveler</string>
+    <string name="tooltip_vl_text">Der Volume Leveler gewährleistet einen gleichbleibenden Lautstärkepegel für alle Medien und Anwendungen, angepasst an die am Gerät eingestellte Lautstärke. Stellen Sie den Schalter auf Aus oder Ein, um den Lautstärkeausgleich zu steuern. </string>
+
+</resources>

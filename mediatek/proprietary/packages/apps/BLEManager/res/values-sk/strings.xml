@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Ťuknutím zapnite funkciu Bluetooth</string>
+    <string name="tap_to_add_device">Ťuknutím pridajte zariadenie</string>
+    <string name="turning_on_bluetooth">Zapína sa Bluetooth...</string>
+    <string name="launcher_activity_name">BLEManager</string>
+    <string name="scanning_devices">Vyhľadávanie zariadení</string>
+    <string name="delete_devices">Ak chcete pripojiť nové zariadenie, odpojte jedno zariadenie</string>
+    <string name="cancel">"Zrušiť"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Upozornenie"</string>
+    <string name="device_manager">Správca zariadení</string>
+    <string name="out_of_range_alert_text">Upozornenie na stav mimo dosahu</string>
+    <string name="in_range_alert_text">Upozornenie na stav v dosahu</string>
+    <string name="range_alert_text">Môj dosah</string>
+    <string name="range_alert_summary">Telefón aj zariadenie vydajú upozornenie, keď je buď zariadenie, alebo telefón mimo dosahu</string>
+    <string name="range_near_text">Blízko</string>
+    <string name="range_middle_text">V strede</string>
+    <string name="range_far_text">"Ďaleko"</string>
+    <string name="range_1_distance_text">Približne 1 m</string>
+    <string name="range_10_distance_text">1 až 10 m</string>
+    <string name="range_20_distance_text">10 až 20 m</string>
+    <string name="phone_alert_settings">Nastavenia upozornenia telefónu</string>
+    <string name="ringtone_tye_text">"Tón zvonenia"</string>
+    <string name="volume_text">"Hlasitosť"</string>
+    <string name="vibration_text">Vibrovanie</string>
+    <string name="vibration_summary_on">"Zapnuté"</string>
+    <string name="vibration_summary_off">"Vypnuté"</string>
+    <string name="device_name">"Názov zariadenia"</string>
+    <string name="push_notification_text">Doručenie oznámení do zariadenia bez vyžiadania</string>
+    <string name="incoming_call_notification_text">"Prichádzajúci hovor"</string>
+    <string name="missed_call_notificaiotn_text">"Zmeškaný hovor"</string>
+    <string name="new_message_notification_text">"Nová správa"</string>
+    <string name="new_email_notification_text">Nový e-mail</string>
+    <string name="disconnection_text">Nastavenia odpojenia</string>
+    <string name="disconnection_waring_title">Upozornenie na odpojenie</string>
+    <string name="disconnection_waring_summary">Telefón aj zariadenie vydajú upozornenie, keď je zariadenie odpojené</string>
+    <string name="device_name_change_dialog_title">"Premenovať"</string>
+    <string name="disconnect_text">"Odpojiť"</string>
+    <string name="delete_text">"Odstrániť"</string>
+    <string name="connect_text">"Pripojiť"</string>
+    <string name="device_delete_dialog_message">Odstrániť toto zariadenie?</string>
+    <string name="device_disconnect_dialog_message">Odpojiť toto zariadenie?</string>
+    <string name="find_all_text">Nájsť všetky</string>
+    <string name="default_images">Predvolené obrázky</string>
+    <string name="range_information_text">Rozsah závisí od sily signálu. Dosah môže byť v ideálnych podmienkach viac ako 30 metrov.  Niektoré predmety, ako napríklad vaše telo, steny a iné prekážky, môžu vzdialenosť skrátiť na 15 metrov alebo menej.   </string>
+    <string name="range_information_dialog_check_box_text">Nezobrazovať znova</string>
+    <string-array name="device_image_chooser_items">
+        <item>Vyberte si z predvolených obrázkov</item>
+        <item>"Vytvoriť fotografiu"</item>
+        <item>Vyberte z galérie</item>
+    </string-array>
+    <string name="add_device">Pridať zariadenie</string>
+    <string name="yes">"Áno"</string>
+    <string name="no">"Nie"</string>
+    <string name="connecting_text">"Prebieha pripájanie…"</string>
+    <string name="enable_background_service">Režim zapnutia pozadia</string>
+    <string name="disable_background_service">Režim vypnutia pozadia</string>
+    <string name="ble_manager_alert">BLE Manager Alert</string>
+    <string name="check">Skontrolovať</string>
+    <string name="dismiss">Zamietnuť</string>
+    <string name="disconnected">"Odpojené"</string>
+    <string name="in_range">v rámci rozsahu</string>
+    <string name="out_of_range">mimo rozsahu</string>
+    <string name="no_found">Nenašlo sa žiadne zariadenie Bluetooth.</string>
+    <string name="bt_off">Zariadenie Bluetooth je vypnuté.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">Подешавања извештача за близину</string>
+	<string name="bt_prxr_settings_enable_title">Извештач за близину</string>
+	<string name="bt_prxr_settings_enable_summary">"Укључи"</string>
+	<string name="bt_prxr_settings_busy_title">Извештач за близину</string>
+	<string name="bt_prxr_settings_busy_message">Учитава се. Молимо сачекајте...</string>
+	<string name="bt_prxr_settings_enable_fail">Грешка у укључивању/искључивању извештача за близину</string>
+	<string name="bt_prxr_ll_notification_ticker">Губитак везе</string>
+	<string name="bt_prxr_ll_notification_title">Губитак везе у близини</string>
+	<string name="bt_prxr_ll_notification_message">Удаљен уређај: %1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">Губитак путање</string>
+	<string name="bt_prxr_pl_notification_title">Губитак близине путање</string>
+	<string name="bt_prxr_pl_notification_message">Удаљен уређај: %1$s</string>
+</resources>

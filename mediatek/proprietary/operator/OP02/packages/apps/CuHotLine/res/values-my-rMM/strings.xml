@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">ဖောက်သည်ဝန်ဆောင်မှု</string>  
+    <string name="hotLine">ချိုင်းနားယူနီကွမ်းဖောက်သည်လိုင်းပူ</string>
+    <string name="app_not_found">ဤဆောင်ရွက်ချက်ကို ကိုင်တွယ်ရန် လုပ်ငန်းသုံး ပရိုဂရမ်ကို မတွေ့ရပါ။</string> 
+</resources>

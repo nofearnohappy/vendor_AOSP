@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">Transmisor FM</string>
+    <string name="dlg_seek_title">Buscando</string>
+    <string name="dlg_search_text">Buscando canales no ocupados, espere...</string>
+    <string name="advanced_title">Frecuencia establecida manual</string>
+    <string name="text_input_frequency">Introduzca la frecuencia deseada, se puede usar 87,5-97,5 y 99,5-108</string>
+    <string name="text_ok">Aceptar</string>
+    <string name="text_auto_search">Búsqueda automática de canales no ocupados</string>
+    <string name="text_search">"Buscar"</string>
+    <string name="toast_plugout_earphone">Primero desconecte el auricular.</string>
+    <string name="toast_input_error">La última entrada inválida, el valor válido es 0 o 5.</string>
+    <string name="toast_input_valid">Introduzca el número en el rango de 87,5-97,5 o 99,5-108</string>
+</resources>

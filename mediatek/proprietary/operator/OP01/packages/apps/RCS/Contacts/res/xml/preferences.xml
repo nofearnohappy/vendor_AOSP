@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="RCS">
+        <PreferenceCategory
+        android:key="basic"
+        android:title="@string/setting_title">
+        <SwitchPreference
+            android:key="wifiOnly"
+            android:title="@string/wlan_switch_title"
+            android:summaryOn="@string/wlan_switch_note"
+            android:summaryOff="@string/wlan_switch_note"
+            android:defaultValue="true">  
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:key="autoBackup"
+            android:id="@+id/BackupSwitch"
+            android:title="@string/backup_switch_title"
+            android:defaultValue="false">
+        </SwitchPreference>
+
+        <ListPreference
+            android:key="backupType"
+            android:id="@+id/BackupType"
+            android:title="@string/backup_type_title"
+            android:entries="@array/backup_type_list_entries"
+            android:entryValues="@array/backup_type_list_entries_value"
+            android:defaultValue="2"
+            android:dialogTitle="@string/dialog_backup_type">
+        </ListPreference>
+        <com.mediatek.rcs.contacts.networkcontacts.ui.TimePreference
+            android:key="backupTime"
+            android:id="@+id/BackupTime"
+            android:title="@string/backup_time_title"
+            android:dialogTitle="@string/dialog_backup_time">
+        </com.mediatek.rcs.contacts.networkcontacts.ui.TimePreference>
+        </PreferenceCategory>
+    </PreferenceScreen>

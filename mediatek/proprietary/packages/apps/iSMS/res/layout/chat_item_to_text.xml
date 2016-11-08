@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ChatItemBg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:paddingBottom="@dimen/list_item_bottom_padding"
+    android:paddingRight="12dp"
+    android:paddingTop="@dimen/list_item_top_padding" >
+
+    <TextView
+        android:id="@+id/chat_time"
+        style="@style/chat_time_style"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:id="@+id/ChatPhoto"
+        android:layout_width="@dimen/list_avatar_width"
+        android:layout_height="@dimen/list_avatar_width"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/chat_time"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/avatar_shadow" />
+
+        <com.hesine.nmsg.ui.CircularImage
+            android:id="@+id/avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_time"
+        android:layout_toLeftOf="@id/ChatPhoto"
+        android:orientation="horizontal"
+        android:paddingTop="6dp" >
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="fill_parent" 
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/chat_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="6dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ChatContentSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/chat_msgcont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_bg_to"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="18dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/conversation_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

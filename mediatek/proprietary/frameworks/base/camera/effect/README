@@ -1,0 +1,13 @@
+WHAT IT DOES?
+=============
+This is a Mediatek sdk using to make preview frame with effect
+
+
+HOW IT WAS BUILT?
+==================
+Build command:mmm vendor/mediatek/proprietary/frameworks/base/camera/effect
+
+
+HOW TO USE IT?
+==============
+please refer to its sdk documents

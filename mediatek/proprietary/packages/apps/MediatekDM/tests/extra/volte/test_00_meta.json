@@ -1,0 +1,4 @@
+[
+	{ operationName : "Get", nodeUri : "./IMSMO/AppID", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./IMSMO/Name", objectValue : "", objectType : "", newNode : "" },
+]

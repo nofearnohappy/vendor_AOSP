@@ -1,0 +1,23 @@
+WiFiSDIOTest.apk is the pre-built system application, contain test tool for engineer
+to do Wifi SDIO ETT test.
+
+This apk is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+WiFiSDIOTest.apk provide 16 types of SDIO timing to fit timing reqest for different layout.
+After the test, best timing can be selected. It can improve wifi's stability.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+None
+
+and the following libs from MediaTek:
+None
+
+HOW TO USE IT?
+==============
+
+Install WiFiSDIOTest.apk and launch it from launcher.
+Details can be found from SOP.

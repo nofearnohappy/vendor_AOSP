@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common color -->
+    <color name="color_total_transparent">#00000000</color>
+    <color name="color_btn_press">#4c8b8f94</color>
+    <color name="color_header">#222222</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>    
+    <color name="half_transparent">#80000000</color>
+    <color name="popmenu_color">#cc45464b</color>
+    <color name="grey">#dadada</color>
+    <color name="dark_grey">#555555</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="conversation_text">#444850</color>
+    <color name="bottom_more_text">#999999</color>
+    <color name="progress_bar">#00cc00</color>
+    <color name="item_bg_normal">#ffffff</color>
+    <color name="item_bg_press">#ededef</color>
+    <color name="color_edit_account_btn_press">#d8d9db</color>
+    <color name="setting_color">#333333</color>
+    <color name="setting_background">#f3f4f7</color>
+    <color name="avatar_grid_checked">#66ccff</color>
+    <color name="setting_gray">#828282</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestor tèrmic MTK</string>
+    <string name="coolers">Refrigeradors</string>
+    <string name="thermal_sensors">Sensors tèrmics</string>
+    <string name="thermal_protection">Protecció tèrmica</string>
+    <string name="thermal_policy_file_colon">“Fitxer de directrius tèrmiques: "</string>
+    <string name="apply_new_thermal_policy">Aplica les noves directrius tèrmiques</string>
+    <string name="tz_device_info">Informació del dispositiu TZ</string>
+    <string name="thermal_logger">Eina de registre d’informació tèrmica</string>
+    <string name="alert_dialog_two_buttons_title">Advertència tèrmica!</string>
+    <string name="alert_dialog_two_buttons_message">El telèfon ha de refredar-se aviat!</string>
+    <string name="alert_dialog_ok">"D\'acord"</string>
+    <string name="alert_dialog_cancel">"Cancel·la"</string>
+</resources>

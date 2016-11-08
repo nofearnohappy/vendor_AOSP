@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">TransferênciaTurbo</string>
+    <string name="hetcomm_intro">Transfira ficheiros grandes (mais de 20 MB) mais rápido utilizando as redes Wi-Fi e 4G/3G em simultâneo. O ícone da Transferência Turbo será exibido na barra de estado quando a função estiver a ser executada. Para utilizar a Transferência Turbo, as ligações de Wi-Fi e dados móveis devem estar ambas ativadas. Quando esta função estiver ativada, todos os dados de aplicações que tenha selecionado para transferir apenas através de Wi-Fi serão transferidos através das redes WLAN e 4G/3G.</string>
+    <string name="enable_switch_on">em</string>
+    <string name="enable_switch_off">Desligado</string>
+    <string name="notify_top_title">Acelerador de transferências</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Dados móveis"</string>
+    <string name="conn_notice_title">Os dados móveis ou a rede Wi-Fi estão desativados.</string>
+    <string name="conn_notice_detail">Para ativar a Transferência Turbo, as ligações de Wi-Fi e dados móveis devem estar ambas ativadas.</string>
+    <string name="conn_charging_warning">As transferências através de redes móveis poderão originar custos adicionais.</string>
+    <string name="turn_on">Ativar <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">A Transferência Turbo está desativada porque o Vpn está ativado</string>
+    <string name="turn_off_due_to_tether">A Transferência Turbo está desativada porque a partilha de ligação está ativada</string>
+    <string name="turn_off_due_to_shutdown">A Transferência Turbo está desativada devido a encerramento</string>
+    <string name="turn_off_due_to_roaming">A Transferência Turbo está desativada devido a roaming</string>
+    <string name="ratio_is_single">A velocidade de Wi-Fi/dados móveis é lenta. Para aumentar a velocidade, a transferência Turbo utilizará apenas dados móveis/Wi-Fi para transferir ficheiros.</string>
+    <string name="ratio_is_back">A transferência Turbo utilizará novamente Wi-Fi e dados móveis em simultâneo para transferir ficheiros.</string>
+    <string name="action_help">Ajuda</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Ajuda Transferência Turbo</u>\
+    </h1><br>Transfira ficheiros grandes à velocidade máxima utilizando as ligações Wi-Fi e 4G/3G em simultâneo.\
+    <h4>1. Aceda a Definições e toque em Transferência Turbo.</h4>\
+    <h4>2. Toque no comutador para ativar a Transferência Turbo.</h4>\
+    <p><b>[Dica]</b> Para acelerar a transferência se estiver ligado através de Wi-Fi e 4G/3G no início da transferência.\
+    <p><b>[Dica]</b> Se a sua ligação Wi-Fi ou 4G/3G for demasiado lenta, pode utilizar a ligação de rede mais rápida para efetuar a transferência.\
+    <p><b>[Dica]</b> A velocidade e o desempenho da função Transferência Turbo podem ser afetados pelo ambiente de rede durante a transferência.\
+    <br>&nbsp;&nbsp;- Se os sinais forem instáveis, a velocidade e o desempenho desta função poderão ser afetados.\
+    <br>&nbsp;&nbsp;- No entanto, em média, a velocidade de transferência será duas vezes superior, em comparação com a velocidade utilizando apenas a ligação Wi-Fi ou 4G/3G.\
+    <p><b>[Dica]</b> Se a diferença de velocidade das ligações Wi-Fi e 4G/3G for grande (geralmente 2,5 vezes), a Transferência Turbo irá parar ou não será suportada para evitar um desempenho insatisfatório no respeitante à velocidade.\
+    <p><b>[Dica]</b> A função Transferência Turbo será automaticamente desativada se a função de Partilha de ligação/Vpn for ativada.\
+    </body></html>]]>"</string>
+</resources>

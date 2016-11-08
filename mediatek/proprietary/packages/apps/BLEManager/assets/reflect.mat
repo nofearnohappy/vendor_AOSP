@@ -1,0 +1,8 @@
+1.0
+shader_program reflect.sp
+
+depth_write true
+
+// Marks this material as dynamic, so that ngin3d always re-renders a scene
+// with objects using this material every frame.
+property DYNAMIC bool true

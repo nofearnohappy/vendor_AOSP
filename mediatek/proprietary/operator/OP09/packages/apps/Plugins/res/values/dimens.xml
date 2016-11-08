@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Google Inc.
+All Rights Reserved. -->
+<resources>
+
+    <!-- For Ct Message START-->
+    <dimen name="ct_conversation_list_item_subject_max_len">136dip</dimen>
+    <dimen name="dialpad_additional_edge_button_width">99px</dimen>
+    <dimen name="dialpad_additional_dial_button_width">138px</dimen>
+    <dimen name="ct_dialog_mode_activity_recvtimer_top_padding">5dip</dimen>
+    <!-- For Ct Message END-->
+    <!-- Minimum height used with @drawable/list_section_divider_holo_custom.
+         Right now the drawable has implicit 32dip minimal height, which is confusing.
+         This value is for making the hidden configuration explicit in xml. -->
+    <dimen name="list_section_divider_min_height">32dip</dimen>
+    <!-- CT Phone Setting start -->
+    <dimen name="default_sim_preference_sim_indicator_padding">4dip</dimen>
+    <dimen name="data_usage_summary_sim_indicator_padding_left">3dip</dimen>
+    <dimen name="data_usage_summary_sim_indicator_margin_right">-2dip</dimen>
+    <!-- CT Phone Setting end -->
+    
+    <!-- CT Power saving mode -->
+    <dimen name="action_bar_switch_padding">16dip</dimen>
+    <!-- The fixed height of each tile -->
+    <dimen name ="quick_settings_cell_height">110dp</dimen>
+
+    <!-- For Ct 2013 spec start-->
+    <dimen name="call_banner_sim_indicator_icon_padding_right">3dip</dimen>
+    <dimen name="esurfing_dialing_button_margin">10dip</dimen>
+    <dimen name="esurfing_dialing_radio_button_text_size">13dip</dimen>
+    <dimen name="esurfing_dialing_guide_text_size">17dip</dimen>
+    <dimen name="esurfing_dialing_radio_button_margin">17dip</dimen>
+    <dimen name="esurfing_dialing_radio_button_pending_top">7dip</dimen>
+    <dimen name="esurfing_dialing_radio_text_margin">15dip</dimen>
+    <dimen name="esurfing_dialing_text_max_width">160dip</dimen>
+    <dimen name="esurfing_dialing_guide_left_margin">15dip</dimen>
+    <dimen name="country_select_button_margin">25dip</dimen>
+    <dimen name="country_select_button_pending_top">9dip</dimen>
+
+    <!-- For Ct 2013 spec end-->
+    <!-- keyguard start -->
+    <dimen name="kg_status_clock_ampm_font_size">14sp</dimen>
+    <dimen name="kg_status_customize_second_clock_time_font_size">26sp</dimen>
+    <dimen name="kg_status_customize_second_clock_ampm_font_size">9sp</dimen>
+    <dimen name="kg_status_customize_second_clock_localweekday_font_size">12sp</dimen>
+    <dimen name="kg_status_customize_first_clock_time_font_size">60sp</dimen>
+    <dimen name="kg_status_customize_first_clock_ampm_font_size">12sp</dimen>
+    <dimen name="kg_status_clock_font_size">75sp</dimen>
+    <!-- keyguard end -->
+    <!--  For MMS Start   -->
+    <dimen name="attchment_view_send_button_length">100dip</dimen>
+    <dimen name="attchment_view_send_button_half_length">47dip</dimen>
+    <dimen name="sms_content_left_padding">5dip</dimen>
+    <dimen name="atcionbar_size">48dp</dimen>
+    <!--  For MMS End   -->
+
+    <!-- For Ct SystemUI spec start-->
+    <!-- thickness (height) of the navigation bar on phones that require it -->
+    <dimen name="navigation_bar_size">@*android:dimen/navigation_bar_height</dimen>
+    <!-- The font size of the date in QS -->
+    <dimen name="qs_date_collapsed_size">14sp</dimen>
+    <!-- Height of the draggable handle at the bottom of the phone notification panel -->
+    <dimen name="close_handle_height">36dp</dimen>
+    <!-- Height of the carrier/wifi name label -->
+    <dimen name="carrier_label_height">24dp</dimen>
+    <!-- For Ct SystemUI spec end-->
+
+    <!-- For Ct launcher3 spec start-->
+    <dimen name="launcher3_folder_cell_height">135px</dimen>
+    <dimen name="launcher3_folder_icon_preview_margin_bottom">-7dip</dimen>
+    <!-- For Ct launcher3 spec end-->
+
+    <!--  For Dialer Start   --> 
+    <!-- Height of the floating action button -->
+    <dimen name="floating_action_button_height">54dp</dimen>
+    <!-- Width of the floating action button -->
+    <dimen name="floating_action_button_width">54dp</dimen>
+    <!-- Height of the floating action small button -->
+    <dimen name="floating_action_small_button_height">35dp</dimen>
+    <!-- Width of the floating action small button -->
+    <dimen name="floating_action_small_button_width">35dp</dimen>
+    <!-- Width of the floating action buttons -->
+    <dimen name="floating_action_buttons_width">150dp</dimen>
+    <!-- Width of the floating action buttons -->
+    <dimen name="floating_action_buttons_height">58dp</dimen>
+    <dimen name="floating_action_button_margin">5dp</dimen>
+    <!--  For Dialer End   --> 
+</resources>

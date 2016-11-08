@@ -1,0 +1,29 @@
+[
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetworkType", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetworkInformationRef", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/PLMN", objectValue : "", objectType : "", newNode : "false" },
+
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/PLMN", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/TAC", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/LAC", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/GERAN_CI", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/UTRAN_CI", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/3GPP_Location/1/EUTRA_CI", objectValue : "", objectType : "", newNode : "false" },
+
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location/1", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location/1/HESSID", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location/1/SSID", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/WLAN_Location/1/BSSID", objectValue : "", objectType : "", newNode : "false" },
+
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular/1", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular/1/AnchorLatitude", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular/1/AnchorLongitude", objectValue : "", objectType : "", newNode : "false" },
+    { operationName : "Get",  objectName:"other", nodeUri : "./ANDSF/DiscoveryInformation/1/AccessNetArea/Geo_Location/Circular/1/Radius", objectValue : "", objectType : "", newNode : "false" }
+]

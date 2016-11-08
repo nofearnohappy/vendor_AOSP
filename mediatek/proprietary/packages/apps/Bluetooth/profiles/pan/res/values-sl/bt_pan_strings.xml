@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pan_GN_authorize_confirm_title">"Sprejmi zahtevke za dovoljenje začasnih omrežij skupine"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm_title">"Sprejmi zahtevke za dovoljenje omrežnih dostopnih točk"</string>
+	<string name="bluetooth_pan_GN_authorize_confirm">"Ali želite sprejeti zahtevke za dovoljenje začasnih omrežij skupine od %1$d?"</string>
+	<string name="bluetooth_pan_NAP_authorize_confirm">"Ali želite sprejeti zahtevke za dovoljenje omrežnih dostopnih točk od %1$d?"</string>
+	<string name="bluetooth_pan_GN_connected_confirm_title">Prekinitev povezave začasnega omrežja skupine s/z %1$s je uspela!</string>
+	<string name="bluetooth_pan_NAP_connected_confirm_title">Prekinitev povezave omrežnih dostopnih točk s/z %1$s je uspela!</string>
+	<string name="bluetooth_pan_GN_connected_confirm">"Ali želite prekiniti povezavo z začasnim omrežjem skupine %1$d?"</string>
+	<string name="bluetooth_pan_NAP_connected_confirm">"Ali želite prekiniti povezavo z omrežnimi dostopnimi točkami %1$d?"</string>
+	<string name="bluetooth_pan_yes">"Dovoli"</string>
+	<string name="bluetooth_pan_no">Hitrost prenosa podatkov se bo zmanjšala.</string>
+	<string name="bluetooth_pan_GN_authorize_notify_ticker">"Zahtevek za pridobitev dovoljenja za začasno omrežje skupine preko Bluetooth"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_title">"Zahtevek za pridobitev dovoljenja za začasno omrežje skupine preko Bluetooth"</string>
+	<string name="bluetooth_pan_GN_authorize_notify_message">"To možnost izberite, če želite sprejeti zahtevek za dovoljenje začasnih omrežij skupine od %1$d"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_ticker">"Zahtevek za dovoljenje omrežnih dostopnih točk preko Bluetooth"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_title">"Zahtevek za dovoljenje omrežnih dostopnih točk preko Bluetooth"</string>
+	<string name="bluetooth_pan_NAP_authorize_notify_message">"To možnost izberite, da bi sprejeli zahtevek za dovoljenje omrežnih dostopnih točk od %1$d"</string>
+	<string name="bluetooth_pan_GN_connected_notify_ticker">"Povezava z začasnim omrežjem skupine preko Bluetooth je vzpostavljena"</string>
+	<string name="bluetooth_pan_GN_connected_notify_title">"Povezava z začasnim omrežjem skupine preko Bluetooth je vzpostavljena"</string>
+	<string name="bluetooth_pan_GN_connected_notify_message">"To možnost izberite, če želite prekiniti povezavo začasnega omrežja skupine s/z %1$d"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_ticker">"Povezava za omrežne dostopne točke preko Bluetooth je vzpostavljena"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_title">"Povezava za omrežne dostopne točke preko Bluetooth je vzpostavljena"</string>
+	<string name="bluetooth_pan_NAP_connected_notify_message">"To možnost izberite, da bi prekinili povezavo omrežnih dostopnih točk s/z %1$d"</string>
+	<string name="bluetooth_pan_GN_connect_ok">Vzpostavitev povezave začasnega omrežja skupine s/z %1$s je uspela!</string>
+    <string name="bluetooth_pan_GN_connect_fail">Vzpostavitev povezave začasnega omrežja skupine s/z %1$s ni uspela!</string>
+    <string name="bluetooth_pan_NAP_connect_ok">Vzpostavitev povezave omrežnih dostopnih točk s/z %1$s je uspela!</string>
+    <string name="bluetooth_pan_NAP_connect_fail">Vzpostavitev povezave omrežnih dostopnih točk s/z %1$s ni uspela!</string>
+    <string name="bluetooth_pan_NAP_unavailable">Storitev omrežnih dostopnih točk %1$s ni na voljo</string>
+    <string name="bluetooth_pan_GN_disconnect_ok">Prekinitev povezave začasnega omrežja skupine s/z %1$s je uspela!</string>
+    <string name="bluetooth_pan_GN_disconnect_fail">Prekinitev povezave začasnega omrežja skupine s/z %1$s ni uspela!</string>
+    <string name="bluetooth_pan_NAP_disconnect_ok">Prekinitev povezave omrežnih dostopnih točk s/z %1$s je uspela!</string>
+    <string name="bluetooth_pan_NAP_disconnect_fail">Prekinitev povezave omrežnih dostopnih točk s/z %1$s ni uspela!</string>
+    <string name="bluetooth_pan_GN_disconnect_ind">Povezava začasnega omrežja skupine s/z %1$s je prekinjena!</string>
+    <string name="bluetooth_pan_NAP_disconnect_ind">Povezava omrežnih dostopnih točk s/z %1$s je prekinjena!</string>
+    <string name="bluetooth_pan_server_settings">Izbira storitve Bluetooth PAN</string>
+    <string name="bluetooth_pan_nap_enable_title">Omrežne dostopne točke</string>
+    <string name="bluetooth_pan_nap_enable_summary">Izberite, če želite izklopiti storitev NAP</string>
+    <string name="bluetooth_pan_gn_enable_title">Začasno omrežje skupine</string>
+    <string name="bluetooth_pan_gn_enable_summary">Izberite, če želite izklopiti storitev GN</string>
+</resources>

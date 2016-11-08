@@ -1,0 +1,22 @@
+This module creates MTK BesSurround libraries.
+
+This library is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+BesSurround  is used to create Multi-channel surround sound  while keeping output channel count stereo.
+
+
+HOW IT WAS BUILT?
+==================
+It is a pre-built module.
+
+HOW TO USE IT?
+==============
+
+The BesSurround libraries should not be used directly by an application developer.  It is used by AudioFlinger.
+APP can us BesSurround function through using Audio system API.
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

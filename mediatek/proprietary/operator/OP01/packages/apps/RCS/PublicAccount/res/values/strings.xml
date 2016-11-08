@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:name:tc:xliff:document:1.2">
+
+    <string name="app_name">PAMAndroidClient</string>
+    <string name="title_activity_account_details">AccountDetailsActivity</string>
+    <string name="title_activity_message_history">MessageHistoryActivity</string>
+    <string name="title_activity_message_history_result">MessageHistoryResultActivity</string>
+    <string name="subscribe_failed">Subscribe failed</string>
+    <string name="unsubscribe_failed">Unsubscribe failed</string>
+    <string name="get_details_failed">Failed to get details</string>
+    <string name="unsubscribe_alert_title">Unsubscribe?</string>
+    <string name="unsubscribe_alert_message">This account is suspended/closed. Unsubscribe?</string>
+
+    <!-- account details activity -->
+    <string name="button_chat">Chat</string>
+    <string name="not_registered_promt">Cannot connect to server</string>
+    <string name="button_view_history">View History</string>
+    <string name="button_subscribe">Subscribe</string>
+    <string name="button_unsubscribe">Unsubscribe</string>
+    <string name="button_clear_history">Clear History</string>
+    <string name="switch_notification">Notification</string>
+    <string name="title_telephone">Telephone:</string>
+    <string name="title_email">E-Mail:</string>
+    <string name="title_address">Address:</string>
+    <string name="title_field">Field:</string>
+    <string name="account_details_refresh">Refresh</string>
+    <string name="account_details_complain">Complain</string>
+    <string name="account_details_no_account">No public account specified</string>
+    <string name="complain_reason_title">Choose a reason</string>
+    <string name="complain_description_title">Write your complains</string>
+    
+    <string name="complain_account_reason_harassment">Harassment</string>
+    <string name="complain_account_reason_fraud">Fraud/Fake Information</string>
+    <string name="complain_account_reason_infringement">Copyright Infringement</string>
+    <string name="complain_account_reason_porn">Porn</string>
+    <string name="complain_account_reason_irregularity">Break of Laws</string>
+    
+    <string name="complain_account_success">Complain succeeded</string>
+    <string name="complain_account_failure">Complain failed</string>
+
+    <!-- message history activity -->
+    <string name="message_history_context_delete">Delete</string>
+    <string name="message_history_cannot_connect_to_rcs">Cannot connect to RCS service</string>
+
+    <!-- main activity -->
+    <string name="test_button_message_history">Message History</string>
+    <string name="test_button_account_details">Account Details</string>
+    <string name="test_button_test_provider">Test Provider</string>
+    <string name="test_button_subscribe">Subscribe</string>
+    <string name="test_button_unsubscribe">Unsubscribe</string>
+    <string name="test_button_subscribed">Subscribed List</string>
+    <string name="test_button_search">Search</string>
+    <string name="test_button_details">Get Details</string>
+    <string name="test_button_get_menu">Get Menu</string>
+    <string name="test_button_history">Message History</string>
+    <string name="test_button_complain">Complain</string>
+    <string name="test_button_recommends">Get Recommends</string>
+    <string name="test_button_accept_status">Set Accept Status</string>
+    <string name="test_button_send_pager_mode_message">Send Pager Mode Message</string>
+    <string name="test_button_send_large_mode_message">Send Large Mode Message</string>
+    <string name="test_button_send_image">Send Image</string>
+    <string name="test_button_send_audio">Send Audio</string>
+    <string name="test_button_send_video">Send Video</string>
+    <string name="test_button_send_geoloc">Send GeoLoc</string>
+	<string name="test_button_send_vcard">Send vCard</string>
+	<string name="test_button_resend_text">Resend Test</string>
+    
+    <!-- menu display names -->
+    <string name="action_close">Close</string>
+    <string name="action_copy_url">Copy url</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_history">History</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="button_search">Search</string>
+
+    <!-- Template for SMS digest -->
+    <string name="sms_digest_template_pic">Photo: </string>
+    <string name="sms_digest_template_audio">Audio: </string>
+    <string name="sms_digest_template_video">Video: </string>
+    <string name="sms_digest_template_article">Article: </string>
+    <string name="sms_digest_template_articles">Articles:</string>
+    <string name="sms_digest_template_geoloc">Geographic Location Message</string>
+    <string name="sms_digest_template_vcard">Contact vCard Message</string>
+
+    <!-- Title -->
+    <string name="title_activity_account_detail">AccountDetailActivity</string>
+    <string name="title_activity_account_list">AccountList</string>
+    <string name="title_activity_account_history">AccountHistoryActivity</string>
+    <string name="title_activity_account_search">AccountSearchActivity</string>
+    <string name="title_activity_pa_web_view">PaWebViewActivity</string>
+
+    <!-- Text -->
+    <string name="hint_max_length">%1$d at most</string>
+    <string name="hint_search_public_accounts">Search public accounts</string>
+    <string name="hint_search_public_accounts_long">Input keyword to search public accounts</string>
+    <string name="text_no_accounts_followed">No accounts followed, click view recommend accounts of certain type</string>
+    <string name="text_loading">Loading</string>
+    <string name="text_no_history_message">No history messages</string>
+    <string name="text_no_more_result">No more result</string>
+    <string name="text_no_search_result">No search result</string>
+    <string name="text_service_not_connect">Service not connected, try again later</string>
+    <string name="text_network_error">Network error</string>
+    <string name="text_exception_happend">Exception happened</string>
+
+    <!-- Message -->
+    <string name="search_description">You can search the content of all messages.</string>
+    <string name="empty_history_description">No conversions</string>
+    <string name="empty_search_description">No message found</string>
+    <string name="account_logo">Logo</string>
+    <string name="account_name">Name</string>
+    <string name="message_timestamp">Timestamp</string>
+    <string name="message_summary">Message Summary</string>
+    <!-- <string name="title_activity_pa_compose">PaComposeActivity</string> -->
+    <string name="view">View</string>
+    <string name="replace">Replace</string>
+    <string name="remove">Remove</string>
+    <string name="send">Send</string>
+    <string name="send_fail">Send fail</string>
+    <string name="ipmsg_sms_hint">Type text message</string>
+    <string name="show_pa_details">Show PA details</string>
+    <string name="contact_name">Name</string>
+    <string name="ipmsg_accept">Accept</string>
+    <string name="ipmsg_reject">Reject</string>
+    <string name="ipmsg_resend">Resend</string>
+    <string name="read_all">Read all</string>
+    <string name="attach_take_photo">Capture picture</string>
+    <string name="attach_record_video">Capture video</string>
+    <string name="attach_record_sound">Record audio</string>
+    <string name="attach_vcard">vCard</string>
+    <string name="attach_image">Pictures</string>
+    <string name="attach_video">Videos</string>
+    <string name="attach_sound">Audio</string>
+    <string name="attach_position">Position</string>
+    <string name="attach_vcalendar">vCalendar</string>
+    <string name="message_options">Message options</string>
+    <string name="menu_forward">Forward</string>
+    <string name="menu_copy_url">Copy Url</string>
+    <string name="delete_message">Delete</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_report">Report</string>
+    <string name="delete_all">Delete all</string>
+    <string name="ipmsg_no_such_file">No such file</string>
+    <string name="sending">Sending message</string>
+    <string name="confirm">Confirm</string>
+    <string name="report_success">Report success.</string>
+	<string name="report_failed">Report failed.</string>
+	<string name="message_saved_as_draft">Message saved as draft</string>
+	<string name="multi_contacts_name">multi-contacts</string>
+	<string name="multi_contacts_notification">Including multi-contacts, import to contact?</string>
+	<string name="service_not_ready">Service not ready</string>
+	<string name="account_not_subscribed">Public account not be subscribed</string>
+	<string name="account_stopped">Account has been deactivated</string>
+	<string name="open_keyboard_to_compose_message">Open keyboard to type message</string>
+	<string name="delete_confirm">The message will be deleted</string>
+	<string name="delete_all_confirm">All messages will be deleted</string>
+	<string name="delete_fail">Delete fail</string>
+	<string name="error_unkown">Unkown error</string>
+	<string name="error_audio_too_long">Audio duration longer than 180s, failed to send.</string>
+	<string name="error_video_too_large">Video too large, failed to send.</string>
+	<string name="error_image_too_large">Image too large, failed to send.</string>
+	<string name="error_unsupport_type">Unsupport file type.</string>
+	<string name="error_path_not_exist">File path not exist.</string>
+	<string name="error_file_not_found">File not found.</string>
+	<string name="image_tool_large">Image too large</string>
+	<string name="image_resize_hint">Image tool large, resize it and send ?</string>
+	<string name="no_such_app">No app found</string>
+	<string name="geoloc_being_get">Being get location ...</string>
+	<string name="geoloc_send_confirm">Get location success, send?</string>
+	<string name="geoloc_get_failed">Get location failed</string>
+	<string name="geoloc_map_failed">Get location failed</string>
+	<string name="geoloc_check_gps">Please check GPS switch</string>
+	<string name="retry_indicator">Resend message ?</string>
+	<string name="sending_text">Sending...</string>
+	<string name="to_send_text">To be sent...</string>
+	<string name="send_fail_text">Failed to send</string>
+	<string name="select_text">Select text</string>
+    <string name="yes">OK</string>
+    <string name="copy_to_sdcard">Save attachment</string>
+    <string name="copy_to_sdcard_fail">Unable to save attachment</string>
+    <string name="copy_to_sdcard_success">Attachment saved</string>
+    <string name="select_message">Select message</string>
+    <string name="select_all">Select all</string>
+    <string name="unselect_all">Deselect all</string>
+    <string name="confirm_delete_selected_messages">The selected messages will be deleted.</string>
+    <string name="deleting">Deleting</string>
+    <string name="add_favorite_success">favorite success</string>
+    <string name="select_link_title">Select action</string>
+    
+    <plurals name="message_view_selected_message_count">
+        <item quantity="one"  ><xliff:g id="message_count" example="1">%d</xliff:g> selected</item>
+        <item quantity="other"><xliff:g id="message_count" example="9">%d</xliff:g> selected</item>
+    </plurals>
+
+    <!-- debug texts -->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world</string>
+    <string name="action_list">Account list</string>
+    <string name="action_search">Account Search</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    
+    <!-- Emoji -->
+    <string name="emoji_text_1f600">[Grinning Face]</string>
+    <string name="emoji_text_1f601">[Grinning Face With Simling Eyes]</string>
+    <string name="emoji_text_1f602">[Face With Tears Of Joy]</string>
+    <string name="emoji_text_1f603">[Smiling Face With Open Mouth]</string>
+    <string name="emoji_text_1f604">[Smiling Face With Open Mouth And Smiling Eyes]</string>
+    <string name="emoji_text_1f605">[Smiling Face With Open Mouth And Cold Sweat]</string>
+    <string name="emoji_text_1f606">[Smiling Face With Open Mouth And Tightly-closed Eyes]</string>
+    <string name="emoji_text_1f607">[Smiling Face With Halo]</string>
+    <string name="emoji_text_1f608">[Smiling Face With Horns]</string>
+    <string name="emoji_text_1f609">[Winking Face]</string>
+    <string name="emoji_text_1f60a">[Smiling Face With Smiling Eyes]</string>
+    <string name="emoji_text_1f60b">[Face Savouring Delicious Food]</string>
+    <string name="emoji_text_1f60c">[Relieved Face]</string>
+    <string name="emoji_text_1f60d">[Smiling Face With Heart-Shape Eyes]</string>
+    <string name="emoji_text_1f60e">[Smiling Face With Sunglasses]</string>
+    <string name="emoji_text_1f60f">[Smirking Face]</string>
+
+    <string name="emoji_text_1f610">[Neutra Face]</string>
+    <string name="emoji_text_1f611">[Expressionless face]</string>
+    <string name="emoji_text_1f612">[Unamused Face]</string>
+    <string name="emoji_text_1f613">[Face With Code Sweat]</string>
+    <string name="emoji_text_1f614">[Pensive Face]</string>
+    <string name="emoji_text_1f615">[Confused Face]</string>
+    <string name="emoji_text_1f616">[Confounded Face]</string>
+    <string name="emoji_text_1f617">[Kissing Face]</string>
+    <string name="emoji_text_1f618">[Face Throwing A Kiss]</string>
+    <string name="emoji_text_1f619">[Kissing Face With Smiling Eyes]</string>
+    <string name="emoji_text_1f61a">[Kissing Face With Closed Eyes]</string>
+    <string name="emoji_text_1f61b">[Face With Stuck-out Tongue]</string>
+    <string name="emoji_text_1f61c">[Face With Stuck-out Tongue And Winking Eyes]</string>
+    <string name="emoji_text_1f61d">[Face With Stuck-out Tongue And Tightly-closed Eyes]</string>
+    <string name="emoji_text_1f61e">[Disappointed Face]</string>
+    <string name="emoji_text_1f61f">[Worried Face]</string>
+
+    <string name="emoji_text_1f620">[Angry Face]</string>
+    <string name="emoji_text_1f621">[Pouting Face]</string>
+    <string name="emoji_text_1f622">[Crying Face]</string>
+    <string name="emoji_text_1f623">[Persevering Face]</string>
+    <string name="emoji_text_1f624">[Face With Look Of Triumph]</string>
+    <string name="emoji_text_1f625">[Disappointed But Releved Face]</string>
+    <string name="emoji_text_1f626">[Frowning Face With Open Mouth]</string>
+    <string name="emoji_text_1f627">[Anguished Face]</string>
+    <string name="emoji_text_1f628">[Fearful Face]</string>
+    <string name="emoji_text_1f629">[Weary Face]</string>
+    <string name="emoji_text_1f62a">[Sleepy Face]</string>
+    <string name="emoji_text_1f62b">[Tired Face]</string>
+    <string name="emoji_text_1f62c">[Grimacing Face]</string>
+    <string name="emoji_text_1f62d">[Loudly Crying Face]</string>
+    <string name="emoji_text_1f62e">[Face With Open Mouth]</string>
+    <string name="emoji_text_1f62f">[Hushed Face]</string>
+
+    <string name="emoji_text_1f630">[Face with Open Mouth And Cold Sweat]</string>
+    <string name="emoji_text_1f631">[Face Screaming In Fear]</string>
+    <string name="emoji_text_1f632">[Astonished Face]</string>
+    <string name="emoji_text_1f633">[Flushed Face]</string>
+    <string name="emoji_text_1f634">[Sleeping Face]</string>
+    <string name="emoji_text_1f635">[Dizzy Face]</string>
+    <string name="emoji_text_1f636">[Face Without Mouth]</string>
+    <string name="emoji_text_1f637">[Face With Medical Mask]</string>
+    <string name="emoji_text_1f638">[Grinning Cat Face With Smilling Eyes]</string>
+    <string name="emoji_text_1f639">[Cat Face With Open Mouth]</string>
+    <string name="emoji_text_1f63a">[Smiling Cat Face With Open Mouth]</string>
+    <string name="emoji_text_1f63b">[Smiling Cat Face With Heart-shaped Eyes]</string>
+    <string name="emoji_text_1f63c">[Cat Face With wry Smile]</string>
+    <string name="emoji_text_1f63d">[Kissing Cat Face With Closed Eyes]</string>
+    <string name="emoji_text_1f63e">[pouting Cat Face]</string>
+    <string name="emoji_text_1f63f">[Crying Cat Face]</string>
+    
+    <string name="emoji_text_1f640">[Weary Cat Face]</string>
+    <string name="emoji_text_1f641">[Slightly Frowning Face]</string>
+    <string name="emoji_text_1f642">[Slightly Smiling Face]</string>
+    <string name="emoji_text_1f643">[Smiling Face]</string>
+    <string name="emoji_text_1f644">[Smiling Face]</string>
+    <string name="emoji_text_1f645">[Face With No Good Gesture]</string>
+    <string name="emoji_text_1f646">[Face With Gesture]</string>
+    <string name="emoji_text_1f647">[Person Bowing Deeply]</string>
+    <string name="emoji_text_1f648">[See-no-evil Monkey]</string>
+    <string name="emoji_text_1f649">[Hear-no-evil Monkey]</string>
+    <string name="emoji_text_1f64a">[Speak-no-evil Monkey]</string>
+    <string name="emoji_text_1f64b">[Happy Person Raising one Hand]</string>
+    <string name="emoji_text_1f64c">[Person Raising Both Hand In Ceelebration]</string>
+    <string name="emoji_text_1f64d">[Person Frowning]</string>
+    <string name="emoji_text_1f64e">[Person With Pouting Face]</string>
+    <string name="emoji_text_1f64f">[person With Folder Hands]</string>
+    <string name="title_activity_complain_account">Complain </string>
+    <string name="complain_public_account">Complain</string>
+    
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxr_settings_title">Nastavitve poročevalca bližine</string>
+	<string name="bt_prxr_settings_enable_title">Poročevalec bližine</string>
+	<string name="bt_prxr_settings_enable_summary">"Vklopi"</string>
+	<string name="bt_prxr_settings_busy_title">Poročevalec bližine</string>
+	<string name="bt_prxr_settings_busy_message">Nalagam. Prosimo počakajte...</string>
+	<string name="bt_prxr_settings_enable_fail">Omogoči/onemogoči napako poročevalca bližine</string>
+	<string name="bt_prxr_ll_notification_ticker">Izguba povezave</string>
+	<string name="bt_prxr_ll_notification_title">Izguba povezave za bližino</string>
+	<string name="bt_prxr_ll_notification_message">Oddaljena naprava: %1$s</string>
+	<string name="bt_prxr_pl_notification_ticker">Izguba poti</string>
+	<string name="bt_prxr_pl_notification_title">Izguba poti za bližino</string>
+	<string name="bt_prxr_pl_notification_message">Oddaljena naprava: %1$s</string>
+</resources>

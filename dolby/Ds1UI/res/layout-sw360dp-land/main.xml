@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012-2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<FrameLayout
+		android:id="@+id/topbar"
+		android:layout_width="fill_parent"
+		android:layout_height="82sp"
+		android:background="@drawable/topbackground" >
+
+		<fragment
+			android:id="@+id/fragpower"
+			android:name="com.dolby.ds1appUI.FragPower"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			tools:layout="@layout/fragpower" />
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center" >
+
+			<ImageView
+				android:id="@+id/dsLogo"
+                android:layout_width="166sp"
+                android:layout_height="34sp"
+				android:contentDescription="@string/dolbyDigitalPlus"
+				android:src="@drawable/dslogo" >
+			</ImageView>
+		</RelativeLayout>
+	</FrameLayout>
+
+	<LinearLayout
+		android:id="@+id/body"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:id="@+id/spectralVisExt"
+			android:layout_width="0sp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:id="@+id/preseteditorcontainer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+			</LinearLayout>
+
+			<fragment
+				android:id="@+id/fraggraphicvisualizer"
+				android:name="com.dolby.ds1appUI.FragGraphicVisualizer"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="bottom"
+				android:padding="1sp"
+				tools:layout="@layout/fraggraphicvisualizer" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/fragmentcontainer"
+			android:layout_width="250sp"
+			android:layout_height="match_parent"
+			android:orientation="vertical" >
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

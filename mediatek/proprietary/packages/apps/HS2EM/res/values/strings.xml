@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HS2EM</string>
+    
+    <!-- edit.xml -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- gps_ref_latlng.xml -->
+    <string name="passpoint_title">Passpoint</string>
+    <string name="passpoint_dec">Enable/Disable Hotspot 2.0</string>
+    <string name="addpasspoint">Add Passpoint Credential</string>
+    
+    <!-- map_addr.xml -->
+    
+    <!-- gps.xml -->
+    
+	<!-- agps.xml -->
+    
+    
+	<!-- epo.xml -->
+    
+	<!-- file_browser.xml -->
+    
+	<!-- misc.xml -->
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="imsi">IMSI</string>
+    <string name="mnc">MNC</string>
+    <string name="mcc">MCC</string>
+    <string name="rootca">RootCA</string>
+    <string name="realm">REALM</string>
+    <string name="prefercredential">Preferred Credential</string>
+    <string name="fqdn">FQDN</string>
+    <string name="clientca">ClientCA</string>
+    <string name="unamepwd">uname_pwd</string>
+    <string name="sim">sim</string>
+    <string name="cert">cert</string>
+    <string name="type">Type</string>
+    <string name="addcred">Add Cred</string>
+    <string name="dumpcred">DumpCred</string>
+    <string name="space">    </string>
+    <string name="delcredindex">DelCred by Index</string>
+    <string name="associatetrigger">PassPoint Connect</string>
+    <string name="clearscr">ClearScr</string>
+    <string name="installrootca">Install Root CA</string>
+    <string name="installserverca">Install server CA</string>	
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="send">SIM simulation</string>
+    <string name="quickadddesc">Quick Input Credentials</string>
+    <string name="qaddsimcred">SIM</string>
+    <string name="qaddttlscred">TTLS</string>
+    <string name="installppsmo">Install PPS MO</string>
+    <string name="clrprofile">ClearAllProfile</string>
+    <string name="clrpolicies">ClearPolicies</string>
+    <string name="setbssid">Set bssid pool</string>
+    <string name="savebssid">Save</string>
+    <string name="loadbssid">Load</string>
+    <string name="s80211w">80211W</string>    
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="clrallcred">ClearAllCred</string>
+    <string name="setpolltimer">Set Poll Timer</string>
+    <string name="spexlist">SpExList</string>
+    <string name="simslot">SimSlot</string>
+    <string name="priority">Priority</string>
+    <string name="roamingconsortium">RoamingConsortium</string>
+    <string name="milenage">Milenage</string>
+    <string name="gethsstatus">get hs status</string>
+    <string name="gethsnetwork">get hs network</string>
+    <string name="index">Index</string>
+    <string name="name">Name</string>
+    <string name="value">Value</string>
+    <string name="sethsnetwork">set hs network</string>
+    <string name="sethscred">set hs credential</string>
+    <string name="enablehs">Enable HS</string>
+    <string name="enablehsOn">On</string>
+    <string name="enablehsOff">Off</string>
+    <string name="preferred">preferred</string>
+    <string name="notPreferred">notPreferred</string>
+    <string name="set">set</string>
+    <string name="preferredNetworkIndex">Set Preferred Network Index</string>
+   <string name="delnwindex">DelNw by index</string>
+</resources>

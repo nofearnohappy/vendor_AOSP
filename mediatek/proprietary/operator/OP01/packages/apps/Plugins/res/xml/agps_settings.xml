@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/agps_settings_eng_enable">
+      
+	<CheckBoxPreference 
+	    android:key="Network_Initiate"
+		android:title="@string/Network_Initiate" 
+		android:summaryOff="@string/Network_Initiate_Summary_off"
+		android:summaryOn="@string/Network_Initiate_Summary_on"
+		android:persistent="true" />
+	<ListPreference 
+	    android:key="Network_Used"
+		android:title="@string/Network_Used"
+		android:dialogTitle="@string/Network_Used" 
+		android:entries="@array/network_use_entry"
+		android:entryValues="@array/network_use_entry"
+		android:persistent="true" /> 	
+	<PreferenceCategory android:title="@string/AgpsHelp_Category">
+		<Preference 
+			android:key="about_agps"
+            android:title="@string/about_agps_title"/>			
+	</PreferenceCategory>
+</PreferenceScreen>

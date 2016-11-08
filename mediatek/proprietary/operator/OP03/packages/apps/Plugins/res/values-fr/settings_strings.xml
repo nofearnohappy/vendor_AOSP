@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">Point d\'accès Wi-Fi</string>
+    <string name="wifi_tether_introduction_text">En transformant votre appareil en point d\'accès Wi-Fi, vous pouvez partager la connexion Internet avec huit autres appareils maximum à la fois.\n\nNotez que le mode modem utilise les données mobiles. Cela risque de réduire l\'autonomie de la batterie ; des frais téléphoniques supplémentaires importants peuvent également vous être facturés.</string>
+    <string name="wifi_tether_checkbox_nosim_text">Veuillez insérer une carte SIM, puis rallumez l\'appareil pour utiliser le mode modem ou le point d\'accès Wi-Fi.</string>
+    <string name="wifi_tether_checkbox_show_once_more">Ne plus afficher ce message</string>
+    <string name="wifi_tether_turn_off_wifi">Vous devez désactiver votre connexion Internet pour activer le point d\'accès Wi-Fi. Souhaitez-vous continuer ?</string>
+    <string name="wifi_tether_settings_text">Paramètres du point d\'accès Wi-Fi</string>
+    <string name="tether_apn_settings_text">APN du mode modem</string>
+    <string name="tether_apn_settings_subtext">Définir l\'APN par défaut du mode modem</string>
+    <string name="usb_tethering_accessory_active_subtext">Il est impossible d\'activer le mode modem si le port USB est utilisé.</string>
+    <string name="operator_display">Afficher l\'opérateur de téléphonie</string>
+    <string name="operator_display_summary">Afficher l\'opérateur de téléphonie dans la barre d\'état</string>
+    <string name="by_orange">par Orange</string>
+    <string name="recommended_by_orange">Recommandé par Orange</string>
+    <string name="smsmms_app_name">Messages n\'est pas actif</string>
+    <string name="click_to_change_to_xms_app">Messages n\'est pas votre application SMS par défaut.</string>
+    <string name="click_to_change_to_xms_app_line2">Touchez ici pour plus d\'info.</string>
+    <string name="sms_change_default_dialog_text1">L\'application Messages est testée par Orange pour votre dispositif.\n\n
+
+L\'utilisation d\'autres applications SMS pourrait entraîner des problèmes d\'envoi et de réception des messages SMS et MMS.\n\n
+
+Utiliser <xliff:g id="new_app">%s</xliff:g> au lieu de <xliff:g id="current_app">%s</xliff:g> comme application SMS ?</string>
+    
+</resources>

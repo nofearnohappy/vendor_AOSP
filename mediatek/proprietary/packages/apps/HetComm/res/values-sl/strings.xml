@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turboprenos</string>
+    <string name="hetcomm_intro">Hitreje prenesite velike datoteke (večje od 20 MB) s sočasno uporabo omrežij Wi-Fi in 4G/3G. Ko se Turboprenos izvaja, bo njegova ikona prikazana v vrstici stanja. Če želite uporabiti Turboprenos, mora biti vklopljena tako povezava Wi-Fi kot tudi mobilna podatkovna povezava. Ko je Turboprenos omogočen, bodo vsi podatki programa, ki ste jih izbrali za prenos samo prek povezave Wi-Fi, kljub temu preneseni prek omrežij WLAN in 4G/3G.</string>
+    <string name="enable_switch_on">"Vklopljeno"</string>
+    <string name="enable_switch_off">"izklopljeno"</string>
+    <string name="notify_top_title">Pospeševalnik prenosov</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobilni podatki"</string>
+    <string name="conn_notice_title">Mobilna podatkovna povezava ali povezava Wi-Fi je IZKLOPLJENA.</string>
+    <string name="conn_notice_detail">Če želite omogočiti Turboprenos, mora biti vklopljena tako povezava Wi-Fi kot tudi mobilna podatkovna povezava.</string>
+    <string name="conn_charging_warning">Za prenos podatkov prek mobilnih omrežij boste morda morali plačati stroške.</string>
+    <string name="turn_on">Vklopi <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Turboprenos je IZKLOPLJEN, ker je VKLOPLJENO navidezno zasebno omrežje (VPN)</string>
+    <string name="turn_off_due_to_tether">Turboprenos je IZKLOPLJEN, ker je VKLOPLJENA souporaba povezave</string>
+    <string name="turn_off_due_to_shutdown">Turboprenos je IZKLOPLJEN zaradi zaustavitve</string>
+    <string name="turn_off_due_to_roaming">Turboprenos je IZKLOPLJEN zaradi gostovanja v tujem omrežju</string>
+    <string name="ratio_is_single">Hitrost prenosa podatkov prek Wi-Fi/mobilnega prenosa je počasna. Da bi pospešil prenos, bo Turbo Download prenos podatkov prek Wi-Fi/mobilnega prenosa uporabljal samo za prenos datotek.</string>
+    <string name="ratio_is_back">Turbo Download uporablja prenos prek Wi-Fi in mobilnega prenosa podatkov skupaj za prenos datotek.</string>
+    <string name="action_help">"Pomoč"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Pomoč za turbo prenos</u>\
+    </h1><br>Prenesite velike datoteke pri izredno veliki hitrosti tako, da hkrati uporabite omrežje Wi-Fi in 4G/3G.\
+    <h4>1. Izberite »Nastavitve« in tapnite »Turbo prenos«.</h4>\
+    <h4>2. Tapnite stikalo, da vklopite turbo prenos.</h4>\
+    <p><b>[Tip]</b> Pospešite prenos, če imate ob začetku prenosa vzpostavljeno povezavo tako z omrežjem Wi-Fi kot tudi z omrežjem 4G/3G.\
+    <p><b>[Tip]</b> Če je vaša povezava Wi-Fi ali 4G/3G prepočasna, lahko za prenos uporabite hitrejšo omrežno povezavo.\
+    <p><b>[Tip]</b> Na hitrost in učinkovitost delovanja turbo prenosa lahko vpliva omrežno okolje med prenosom.\
+    <br>&nbsp;&nbsp;– Če so signali nestabilni, lahko vplivajo na hitrost in učinkovitost delovanja te funkcije.\
+    <br>&nbsp;&nbsp;– Hitrost prenosa je v povprečju dvakrat hitrejša kot v primerjavi samo z uporabo omrežja Wi-Fi ali 4G/3G.\
+    <p><b>[Tip]</b> V primeru velike razlike v hitrosti med omrežjem Wi-Fi in 4G/3G (običajno 2,5-krat) se turbo prenos ustavi in ni podprt, da prepreči slabo učinkovitost delovanja v povezavi s hitrostjo.\
+    <p><b>[Tip]</b> Turbo prenos je samodejno onemogočen, če vklopite souporabo povezave/navidezno zasebno omrežje (VPN).\
+    </body></html>]]>"</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<resources>    
+    <string-array name="supported_locations">
+		<item>Selecció automàtica</item>  
+        <item>Xina continental</item>
+        <item>Taiwan</item>
+        <item>Shenzhen xinès</item>
+        <item>Hong Kong xinès</item>
+        <item>Afganistan</item>
+        <item>Argentina</item>
+        <item>"Austràlia"</item>
+        <item>Brasil</item>
+        <item>Myanmar</item>
+        <item>Cambodja</item>
+        <item>Canadà</item>
+        <item>Xile</item>
+        <item>Europa de l’Est</item>
+        <item>Europa Occidental</item>
+        <item>França</item>
+        <item>Colònia francesa</item>
+        <item>Índia</item>
+        <item>Indonèsia</item>
+        <item>Iran</item>
+        <item>Itàlia</item>
+        <item>Japó</item>
+        <item>Corea</item>
+        <item>Laos</item>
+        <item>Malàisia</item>
+        <item>Mèxic</item>
+        <item>Nova Zelanda</item>
+        <item>Pakistan</item>
+        <item>Paraguai</item>
+        <item>Filipines</item>
+        <item>Portugal</item>
+        <item>Rússia</item>
+        <item>"Singapur"</item>
+        <item>Sud-àfrica</item>
+        <item>Espanya</item>
+        <item>Tailàndia</item>
+        <item>Turquia</item>
+        <item>Emirats Àrabs Units</item>
+        <item>Regne Unit</item>
+        <item>Estats Units d’Amèrica</item>
+        <item>Uruguai</item>
+        <item>Veneçuela</item>
+        <item>Vietnam</item>
+        <item>Irlanda</item>
+        <item>Marroc</item>      
+</string-array>
+<string-array name="AudioFormats">
+<item>Mono</item>
+<item>Estèreo</item>
+<item>SAP</item>
+<item>Sub</item>
+<item>Sub. principal</item>
+<item>"Principal"</item>
+<item>Dual1</item>
+<item>Dual2</item>
+<item>NICAM Mono</item>
+<item>NICAM Estèreo</item>
+<item>NICAM Dual1</item>
+<item>NICAM Dual2</item>
+</string-array>
+</resources>

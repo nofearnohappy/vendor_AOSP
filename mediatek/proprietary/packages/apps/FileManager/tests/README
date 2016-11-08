@@ -1,0 +1,31 @@
+APK for testing the function of Filemanager.apk 
+
+This APK is built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+FileManagerTest.apk test the basic function of FileManager.apk.
+1. create folder
+2. copy/paste/cut files
+3. delete files
+4. search file etc
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. framework.jar
+2. android.test.runner.jar
+3. librobotium4.jar
+
+and the following libs from MediaTek:
+1. mediatek-framework.jar
+2. mediatek-common.jar
+
+
+All source/dependency modules of this module are already put in
+'/system/framework' folder.
+
+HOW TO USE IT?
+==============
+istall FileManagerTest.apk to test the function of FileManager.apk
+in mediatek platform.

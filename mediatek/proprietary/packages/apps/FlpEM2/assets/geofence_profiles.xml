@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geofence_profiles default_profile_name="default">
+
+  <!--
+    id: int (0~99)
+    state: "ON", "OFF", "PAUSE"
+    lat: double
+    lng: double
+    radius: double (meter)
+    last_trans: "ENTER", "EXIT", "UNCERTAIN"
+    unknown_timer: int (millisecond)
+    monitor_trans: "ENTER", "EXIT", "UNCERTAIN", "ENTER,EXIT", "ENTER,EXIT,UNCERTAIN" ...
+    response: int (millisecond)
+    source: "GNSS", "WIFI", "SENSORS", "CELL", "BT", "GNSS,WIFI,SENSORS,CELL,BT" ...
+  -->
+
+  <geofence_profile name="default">
+   <default state="OFF" lat="0.0" lng="0.0" radius="100.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+  </geofence_profile>
+
+  <geofence_profile name="Test 1 (PAUSE)">
+   <default state="PAUSE" lat="24.000" lng="121.000" radius="300.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="0" state="OFF" lat="24.000" lng="121.000" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="1" state="ON" lat="24.001" lng="121.001" radius="200.0" last_trans="ENTER" unknown_timer="40000" monitor_trans="ENTER" response="6000" source="GNSS" />
+   <geofence id="2" state="PAUSE" lat="24.002" lng="121.002" radius="250.0" last_trans="EXIT" unknown_timer="50000" monitor_trans="EXIT" response="7000" source="GNSS,WIFI" />
+  </geofence_profile>
+
+  <geofence_profile name="Test 2">
+   <default state="OFF" lat="24.000" lng="121.000" radius="100.0" last_trans="UNCERTAIN" unknown_timer="10000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="50000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="0" state="ON" lat="24.000" lng="121.000" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="1" state="ON" lat="24.001" lng="121.000" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="2" state="ON" lat="24.000" lng="121.001" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="3" state="ON" lat="24.001" lng="121.001" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="4" state="ON" lat="24.002" lng="121.000" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="5" state="ON" lat="24.000" lng="121.002" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="6" state="ON" lat="24.002" lng="121.002" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+  </geofence_profile>
+
+  <geofence_profile name="Test 3 (ON)">
+   <default state="ON" lat="24.000" lng="121.000" radius="100.0" last_trans="UNCERTAIN" unknown_timer="10000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="50000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="0" state="ON" lat="24.000" lng="121.000" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="1" state="ON" lat="24.005" lng="121.000" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="2" state="ON" lat="24.010" lng="121.001" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="3" state="ON" lat="24.015" lng="121.001" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="4" state="ON" lat="24.020" lng="121.000" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="5" state="ON" lat="24.025" lng="121.002" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+   <geofence id="6" state="ON" lat="24.030" lng="121.002" radius="150.0" last_trans="UNCERTAIN" unknown_timer="30000" monitor_trans="ENTER,EXIT,UNCERTAIN" response="5000" source="GNSS,WIFI,SENSORS,CELL,BT" />
+  </geofence_profile>
+
+</geofence_profiles>

@@ -1,0 +1,25 @@
+APK of NFC test, including Platform Test, Operation Test , P2P Test,
+SWP Conformance Test
+
+WHAT IT DOES?
+=============
+This is a test APK for NFC certification.
+
+
+HOW IT WAS BUILT?
+==================
+The MTK_NFC_SUPPORT feature optin should be true.
+
+It needs the following library from MediaTek:
+1.  libdta_mt6605_jni.so
+2.  libdta_dynamic_load_jni.so
+
+[Build Method]
+make DeviceTestApp
+or
+mmm vendor/mediatek/proprietary/packages/apps/DeviceTestApp
+
+HOW TO USE IT?
+==============
+Launch EM APK -> Select Connectivity -> Select NFC DTA.
+

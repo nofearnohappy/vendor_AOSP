@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ConfigureCheck</string>
+    <string name="activity_title_category">测试类型</string>
+    <string name="choose_category_type">请选择测试类型:</string>
+    <string name="CT_test_spec_date">基于CT测试规范</string>
+    <string name="others">其它</string>
+
+    <string name="title_activity_main">CTSC</string>
+    <string name="CTSC_version">CTSC版本：%s</string>
+    <string name="menu_CTSC_ver">CTSC版本</string>
+    <string name="str_noitem_message">手机不支持当前Feature</string>
+
+    <string name="CT_test_default_config_check">CT送测手机默认配置</string>
+    <string name="one_button_check">一键检查</string>
+    <string name="send_test_instruction">说明：在准备样机寄送前，可以使用此功能检查手机默认配置是否符合入库测试要求。</string>
+
+    <!-- ManSelfTestActivity -->
+    <string name="activity_title_self_test">设置检查</string>
+    <string name="manufacturer_test_config_check">厂商入库自测配置检查</string>
+    <string name="protocol_conformance_test">协议、一致性</string>
+    <string name="function_test">业务测试</string>
+    <string name="self_test_instruction">说明：在产品自测阶段，不同的测试项目对设置有特殊要求，此功能可以帮助您检查特定测试类别的手机配置是否满足要求。</string>
+
+
+    <string-array name="category_CT_send_test">
+        <item>@string/one_button_check</item>
+    </string-array>
+
+    <string-array name="category_manufacturer_self_test">
+        <item>@string/function_test</item>
+        <item>@string/protocol_conformance_test</item>
+    </string-array>
+
+    <string name="help">帮助</string>
+    <string-array name="category_others">
+        <item>@string/help</item>
+    </string-array>
+
+    <!-- SubCategoryListActivity -->
+    <string name="NFC_SWP_HCI">NFC SWP/HCI测试前配置检查</string>
+    <string name="NFC_SECURITY">NFC安全访问测试前配置检查</string>
+
+      <string-array name="function_sub_category">
+        <item>@string/NFC_SWP_HCI</item>
+        <item>@string/NFC_SECURITY</item>
+    </string-array>
+
+    <string name="CTS_category_title">CTS测试类型：</string>
+    <string name="CT_LTE_MEID">CT_LTE_MEID</string>
+    <string name="CT_LTE_Hybrid">CT_LTE_Hybrid</string>
+    <string name="CT_LTE_EVDO_SC">CT_LTE_EVDO SC</string>
+    <string name="CT_LTE_EVDO_Rev">CT_LTE_EVDO Rev.A数据性能</string>
+    <string name="CT_LTE_EVDO_RF">CT_LTE_EVDO RF</string>
+    <string name="Modem_CT_LTE_category_title">Modem-CT-LTE测试类型：</string>
+    <string name="CT_eHRPD">CT_eHRPD_协议一致性</string>
+    <string name="CT_LTE_CrossAction">CT-LTE 互操作</string>
+    <string name="CT_LTE_Sprirent">CT-LTE数据性能Spirent</string>
+    <string name="CT_SVLTE">CT-SVLTE</string>
+    <string name="CT_LTE_RAndS">CT-LTE数据性能R&amp;S</string>    
+    <string name="CT_LTE_RF_RRM">CT-LTE RF/RRM</string>
+    <string name="CT_LTE_PCT_RAndS">CT-LTE PCT(R&amp;S)</string>
+    <string name="CT_LTE_PCT_ANITE">CT-LTE PCT(Anite)</string>
+    <string name="CT_LTE_InterRoming">CT-LTE 国际漫游</string>
+    <string name="CT_SRLTE">CT-SRLTE basic function</string>
+    <string name="NFC">NFC</string>
+
+    <string-array name="protocol_conformance_sub_category">
+        <item>@string/CTS_category_title</item>
+        <item>@string/CT_LTE_MEID</item>
+        <item>@string/CT_LTE_Hybrid</item>
+        <item>@string/CT_LTE_EVDO_SC</item>
+        <item>@string/CT_LTE_EVDO_Rev</item>
+        <item>@string/CT_LTE_EVDO_RF</item>
+        <item>@string/Modem_CT_LTE_category_title</item>
+        <item>@string/CT_eHRPD</item>
+        <item>@string/CT_LTE_CrossAction</item>
+        <item>@string/CT_LTE_Sprirent</item>
+        <item>@string/CT_SVLTE</item>
+        <item>@string/CT_SRLTE</item>
+        <item>@string/CT_LTE_RAndS</item>
+        <item>@string/CT_LTE_RF_RRM</item>
+        <item>@string/CT_LTE_PCT_RAndS</item>
+        <item>@string/CT_LTE_PCT_ANITE</item>
+        <item>@string/CT_LTE_InterRoming</item>
+    </string-array>
+
+    <!-- CheckResultActivity -->
+    <string name="tab_label_auto">自动检查项</string>
+    <string name="tab_label_manual">人工检查项</string>
+    <string name="activity_title_check_result">检查结果</string>
+    <string name="auto_check_result_title">已自动检查下列设置，点击可了解详情</string>
+    <string name="choose_item_to_config">请勾选错误项进行修改</string>
+    <string name="auto_config">修改设置</string>
+    <string name="manual_check_result_title">请人工检查或配置下列设置，点击可了解详情</string>
+    <string name="choose_item_to_confirm">请勾选设置项进行确认</string>
+    <string name="right_confirm">正 确</string>
+    <string name="wrong_confirm">错 误</string>
+    <string name="rollback_confirm">还 原</string>
+    <string name="click_to_know_info">请点击以了解详情</string>
+    <string name="hint_name_title">[检查项]</string>
+    <string name="hint_current_value_title">[当前值]</string>
+    <string name="hint_requirement_title">[要求]</string>
+    <string name="hint_notice_title">[提示]</string>
+    <string name="hint_notice">此检查项不能自动设置</string>
+    <string name="menu_check_all">全部勾选</string>
+    <string name="menu_uncheck_all">全部取消勾选</string>
+    <string name="menu_check_report">检查报告</string>
+    <string name="menu_export_check_report">导出检查报告</string>
+    <string name="alert_dialog_title">SOP要求</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_forward">前往设置界面</string>
+    <string name="alert_restore_title">恢复出厂设置</string>
+    <string name="alert_restore_note">注意：请在一键检查前执行恢复出厂设置功能！\n操作方法：设置->个人->备份和重置-恢复出厂设置。</string>
+
+    <string name="alert_modify_title">修改确认</string>
+    <string name="alert_modify_message">将修改如下几项，请确认: </string>
+
+    <!-- CheckReportActivity -->
+    <string name="activity_title_check_report">设置检查报告</string>
+    <string name="wrong_tile">[错误 %d]</string>
+    <string name="unknown_title">[未知 %d]</string>
+    <string name="right_title">[正确 %d]</string>
+    <string name="export_file_name">CheckReport_%1$s_%2$s.csv</string>
+    <string name="export_file_succeed">%1$s已导出到%2$s文件夹。</string>
+    <string name="export_file_failed">检查报告导出失败!</string>
+    <string name="export_dir">%1$s/ConfigureCheck</string>
+    <string name="export_time">生成时间: </string>
+    <string name="export_phone_info">手机信息,IMEI: </string>
+    <string name="csv_report_title">No.,检查项,查询结果,判定,说明</string>
+    <string name="wrong_judge">错误</string>
+    <string name="unknown_judge">未知</string>
+    <string name="right_judge">正确</string>
+
+    <!-- HelpActivity -->
+    <string name="activity_title_help">帮助</string>
+
+    <!-- title and note of check item -->
+    <string name="SOP_self_check">"\n特殊提醒：当进行协议测试或机卡兼容测试时，需手动设置"</string>
+    <string name="title_Network_Mode">选网模式</string>
+    <string name="value_NM_TD_SCDMA_Only">TD-SCDMA Only</string>
+    <string name="value_NM_TD_DUAL_MODE">GSM/TD-SCDMA(auto)</string>
+    <string name="value_NM_LTE_Only">LTE only</string>
+    <string name="value_NM_4G3G2GAuto">4G/3G/2G(auto)</string>
+    <string name="note_NM_4g3g2gAuto">设置选网模式为4G/3G/2G(auto):工模->NetworkSelecting->SetPreferred network type:->选择"4G/3G/2G(auto)" </string>
+    <string name="note_NM_Lte_Only">设置选网模式为LTE only：工模->Network Selecting->Set preferred network type:->选择"LTE only"</string>
+    <string name="ir_setting_title">C2K IR Settings</string>
+    <string name="ir_setting_LWG_note">设置网络模式为LTE/WCDMA/GSM Only:工模->Telephony->C2K IR Settings->LTE/WCDMA/GSM Only->Done</string>
+    <string name="ir_setting_FTA_note">设置网络模式为FTA LTE Only:工模->Telephony->C2K IR Settings->FTA LTE Only->Reboot</string>
+    <string name="ir_setting_CMDA_note">设置网络模式为CDMA Only:工模->Telephony->C2K IR Settings->CDMA only->Done</string>
+    <string name="title_CTA_FTA">Modem模式</string>
+    <string name="note_CTA_FTA_unlock">勾选’Unlock Test SIM’：工模->Telephony, 选择’Modem Test’,勾选’Unlock Test SIM’</string>
+    <string name="note_CTA_FTA_SPIRENT">工模->Telephony, 选择’Modem Test’,C2K test mode->Spirent->send->OK, reboot</string>
+    <string name="note_CTA_FTA_FTA_RS">工模->Telephony, 选择’Modem Test’,FTA -> Select CMW500->send->OK, reboot</string>
+    <string name="note_CTA_FTA_FTA">工模->Telephony, 选择’Modem Test’,FTA ->send->OK, reboot</string>
+    <string name="note_CTA_FTA_FTA_ANITE">工模->Telephony, 选择’Modem Test’,FTA -> Select ANITE->send->OK, reboot</string>
+    <string name="value_SIM_UNLOCK">已勾选’Unlock Test SIM’</string>
+    <string name="value_SIM_UNLOCK_no">未勾选’Unlock Test SIM’</string>
+    <string name="value_mode_modify_sucess">设置修改成功,请重启手机</string>
+    <string name="value_mode_modify_fail">设置修改失败</string>
+
+    <string name="value_modem_none">None</string>
+    <string name="value_modem_Integrity_off">Integrity off</string>
+    <string name="value_modem_CTA">CTA</string>
+    <string name="value_modem_FTA">FTA</string>
+    <string name="value_modem_IOT">IOT</string>
+    <string name="value_modem_Operator">Operator</string>
+    <string name="value_modem_Factory">Factory</string>
+
+    <string name="note_fta_on">开启FTA: 工模->Modem Test->FTA->Send</string>
+
+    <string name="title_Data_Connection">数据连接</string>
+    <string name="note_DC_off">关闭数据连接:设置->SIM卡管理->数据连接->选中"关闭"</string>
+    <string name="value_DC_off">关闭</string>
+    <string name="note_DC_on">打开数据连接:设置->SIM卡管理->数据连接->选中SIM1</string>
+    <string name="value_DC_on">打开</string>
+    <string name="value_SIM">请插入SIM卡</string>
+
+    <string name="value_off">关闭</string>
+    <string name="value_on">开启</string>
+
+    <string name="sn_title">序列号</string>
+    <string name="sn_note">MTBF测试仪器Comcat测试工具需要保证手机序列号唯一。</string>
+
+    <string name="title_calibration_data">RF校准</string>
+    <string name="note_calibration_data">务必确保测试机的RF校准没有问题</string>
+
+    <string name="title_wlan_ssid">WLAN热点SSID</string>
+    <string name="note_wlan_ssid">请确保SSID命名符合预期。WLAN热点SSID查看方法：设置->更多...->网络共享与便携式热点->WLAN热点->设置WLAN热点->网络SSID。</string>
+    <string name="value_please_open_wlan">请打开WLAN以进行检查</string>
+
+    <string name="title_wlan_mac_addr">WLAN MAC地址</string>
+    <string name="note_wlan_mac_addr">请确保每台送测手机WLAN MAC地址唯一。WLAN MAC地址查看方法：设置->WLAN->选项菜单->高级->MAC地址。</string>
+
+    <string name="title_bt_mac_addr">BT MAC地址</string>
+    <string name="note_bt_mac_addr">设置->关于手机->状态信息->蓝牙地址</string>
+
+    <string name="title_phone_mode">手机型号</string>
+    <string name="note_phone_mode">查看本机型号显示厂商定义型号，与送测文档填写一致:*#0000#->查看手机型号</string>
+
+    <string name="title_HW_mode">硬件版本</string>
+    <string name="note_HW_mode">查看硬件版本显示厂商定义版本，与送测文档填写一致:*#0000#->查看硬件版本</string>
+
+    <string name="title_SW_mode">软件版本</string>
+    <string name="note_SW_mode">查看软件版本显示厂商定义版本，与送测文档填写一致:*#0000#->查看软件版本</string>
+
+    <string name="title_PSSensor">无遮挡PS</string>
+    <string name="note_PSSensor">查看无遮挡PS：撕掉手机屏幕外膜，进factory mode（关机状态时，同时长按 Power键+下音量键) --》单项测试--》光线传感器距离传感器</string>
+    <string name="note_PSSensor_note2">看无遮挡PS返回值是否低于13；如果值大于等于13，请标记fail</string>
+
+    <string name="ctsc_enabled">enabled</string>
+    <string name="ctsc_disabled">disabled</string>
+    <string name="ctsc_yes">是</string>
+    <string name="ctsc_no">否</string>
+    <string name="ctsc_error">错误</string>
+    <string name="ctsc_unknown">未知</string>
+    <string name="ctsc_querying">正在查询中......</string>
+
+    <string name="restore_title">恢复出厂设置</string>
+    <string name="restore_note">请在一键检查前执行恢复出厂设置功能！操作方法：设置->个人->备份和重置->恢复出厂设置。</string>
+    <string name="imei_slot1">插槽1：</string>
+    <string name="imei_slot2">插槽2：</string>
+    <string name="imei_title">IMEI</string>
+    <string name="imei_note">请确认IMEI正确，且不与其他手机重复</string>
+    <string name="targetmode_title">客户服务机型</string>
+    <string name="targetmode_note">请确认Aplog中的Properties文件里，与[ro.mediatek.platform]中的值一样。</string>
+    <string name="targetversion_title">手机版本</string>
+    <string name="targetversion_note">查看手机版本。设置->关于手机->Android版本。</string>
+    <string name="buildtype_title">编译类型(Load type)</string>
+    <string name="buildtype_note">请厂商务必使用User load来准备送测版本，不要使用Eng load。因为Eng mode下默认打开的debug功能会导致某些入库测试无法正常进行。</string>
+    <string name="battery_title">电池电量</string>
+    <string name="battery_note">请确保手机电池电量充满。</string>
+    <string name="smsreg_state_title">短信自注册</string>
+    <string name="smsreg_note_off">短信自注册关闭。工模->Hardware Testing->Device Register->Send Auto Register Message->turn off</string>
+    <string name="smsreg_note_on">短信自注册打开。工模->Hardware Testing->Device Register->Send Auto Register Message->turn on</string>
+    <string name="smsreg_err_no_agent">DMAgent不存在</string>
+    <string name="MisConfig_title">数据域自注册</string>
+    <string name="MisConfig_note_on">数据域自注册打开。工模->Telephony->Misc Feature Config->勾选"Self Register"</string>
+    <string name="MisConfig_note_off">数据域自注册关闭。工模->Telephony->Misc Feature Config->取消勾选"Self Register"</string>
+
+    <string name="apn_check_title">APN配置检测</string>
+    <string name="apn_not_setted">APN没有配置</string>
+    <string name="apn_not_correct">APN配置不正确</string>
+    <string name="apn_supl_exist">存在配置过的APN</string>
+    <string name="apn_name">Name: 任意</string>
+    <string name="apn_apn_lab">APN: </string>
+    <string name="set_apn">设置APN</string>
+    <string name="not_set_apn">检查APN</string>
+    <string name="apn_protocol">视不同case选择不同APN协议(eg.IPv4,IPv6,IPv4/IPv6)。</string>
+
+    <string name="bt_name_check_title">BT设备名检测</string>
+    <string name="bt_open_device">请打开蓝牙设备</string>
+    <string name="bt_name_current">当前蓝牙设备名称: </string>
+    <string name="bt_cmcc_req">要求与提交的手机型号一致</string>
+
+    <string name="string_sim">请插入Sim卡</string>
+    <string name="string_checking">正在检测...</string>
+
+    <string name="UsbShareNet_title">USB共享网络</string>
+    <string name="UsbShareNet_note">设置USB共享网络：(需连接USB)设置->更多->网络共享与便携式热点->USB共享网络(确认已选取)。</string>
+    <string name="UsbShareNet_AT_note">新建一个超级终端，在其中依次输入如下AT 命令:at回车，返回OK\nat+usbtethering=1 回车，返回OK\n at+restart重启手机</string>
+    <string name="value_Usb_set">请设置USB网络共享</string>
+    <string name="ShareNetHOT_title">网络共享与便携式热点</string>
+    <string name="ShareNetHOT_note">设置网络共享与便携式热点:设置-> 更多->网络共享与便携式热点，把类型改为IPv4 &amp;IPv6 </string>
+    <string name="IPV4V6">IPv4 &amp; IPv6</string>
+    <string name="IPV4V6_no_support">IPv4 &amp; IPv6 not support</string>
+    <string name="IPV4">IPv4</string>
+
+    <string name="UsbShareNet_yes">已共享网络</string>
+    <string name="UsbShareNet_no">未共享网络</string>
+
+    <string name="prefNetworkType_title">首选网络类型</string>
+    <string name="prefNetworkType_note">设置23G：设置->更多->移动网络->首选网络类型->3G/2G(自动)。</string>
+    <string name="lte_gsm_wcdma">4G/3G/2G(自动)</string>
+    <string name="wcdma_pref">3G/2G(自动)</string>
+
+    <string name="atci_in_EM_title">ATCI</string>
+    <string name="atci_in_EM_note">Enable ATCI：工模->Log and Debugging->ATCI->点击ENABLE ATCI。</string>
+    <string name="atci_title">ATCI Service</string>
+    <string name="atci_value_on">atcid已打开</string>
+    <string name="atci_value_off">atcid未打开</string>
+    <string name="atci_note">协议一致性测试需要从测试仪表下AT命令控制执行自动化测试，请务必确保AT命令通畅。</string>
+    <string name="NFC_title">NFC</string>
+    <string name="NFC_on_note">打开NFC：设置->更多->无线和网络->打开NFC.</string>
+    <string name="NFC_not_support">Not support NFC</string>
+
+    <string name="NFC_DTA_title">NFC DTA</string>
+    <string name="NFC_DTA_note">检查方法：工模->Connectivity->NFC DTA->Test Instrument List选Comprion->Set Configuration->SWP Conformance Test->Normal Mode 点击Start Test</string>
+
+    <string name="Bluetooth_title">蓝牙</string>
+    <string name="Bluetooth_off_note">关闭蓝牙：设置->蓝牙->关闭</string>
+    <string name="IMEID_title">IMEID</string>
+    <string name="IMEID_note">查看IMEID，与手机后背MEID一致:*#0000#->查看MEID</string>
+
+    <string name="title_lockscreen">不锁定屏幕</string>
+    <string name="value_unlockscreen">充电时屏幕不会休眠</string>
+    <string name="value_lockscreen">锁定屏幕</string>
+    <string name="note_lockscreen">不锁定屏幕:设置->开发者选项->取消勾选"不锁定屏幕"</string>
+
+    <string name="title_CFU">CFU</string>
+    <string name="note_CFU_off">关闭开机CFU业务：工模->CFU->选中"Always not query"</string>
+    <string name="value_CFU_off">Off</string>
+    <string name="value_CFU_default">Default</string>
+    <string name="value_CFU_always_query">Always query</string>
+    <string name="value_CFU_always_not_query">Always not query</string>
+
+    <string name="title_Dormant_Timer">Dormant Timer</string>
+    <string name="note_Dormant_Timer">设置Dormant Timer为10s:\n1.打开超级终端或者串口工具,波特率设置为115200 \n 2.发送AT+CTA=10,设置Dormant Timer为10s</string>
+    <string name="value_Dormant_timer">设置完毕</string>
+    <string name="value_DoTimer_set">请设置Dormant Timer为10s</string>
+    <string name="notify_reboot">设置完毕，请重启手机</string>
+    
+    <string name="user2root_title">USB调试</string>
+    <string name="user2root_note">设置->关于手机->点击版本号5次进入开发者模式，返回设置->开发者选项->勾选USB调试</string>
+    <string name="root">打开</string>
+    <string name="user">关闭</string>  
+    <string name="Time_AutoSync_title">自动确认日期和时间</string>
+    <string name="Time_AutoSync_off_value">关闭</string>
+    <string name="Time_AutoSync_net_value">使用网络提供时间</string>
+    <string name="Time_AutoSync_gps_value">使用GPS提供时间</string>
+    <string name="Time_AutoSync_note">自动确认日期和时间关闭。设置->日期和时间->自动确定日期和时间->关闭</string>
+    
+    <string name="TimeZone_AutoSync_title">自动确认时区</string>
+    <string name="TimeZone_AutoSync_off_value">关闭</string>
+    <string name="TimeZone_AutoSync_on_value">打开</string>    
+    <string name="TimeZone_AutoSync_note">自动确认时区关闭。设置->日期和时间->自动确认时区->关闭</string>
+    
+    <string name="WCDMA_Integrity_title">WCDMA Integrity Check OFF</string>
+    <string name="WCDMA_Integrity_off_value">disable integrity check OFF</string>
+    <string name="WCDMA_Integrity_on_value">disable integrity check ON</string>    
+    <string name="WCDMA_Integrity_note">进入工模-> Telephony-> C2K IR Settings，将WCDMA Integrity Check OFF设置为disable integrity check ON</string>
+    
+    <string name="BG_DATA_SELECT_title">Background Data Select</string>
+    <string name="BG_DATA_SELECT_note">设置Background Data Select为勾选Disable Background Data Select：工模->Telephony->勾选Disable Background Data Select</string>
+    <string name="BG_DATA_SELECT_SELECTED">已勾选Disable Background Data Select</string>
+    <string name="BG_DATA_SELECT_UNSELECTED">未勾选Disable Background Data Select</string>
+    
+</resources>

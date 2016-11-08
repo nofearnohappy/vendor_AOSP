@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothLe</string>
+    <string name="bg_service_name">BLE မန္ေနဂ်ာ</string>
+    <string name="bg_service_active">BLE မန္ေနဂ်ာ ဝန္ေဆာင္မႈ လုပ္ေဆာင္ေနသည္</string>
+</resources>

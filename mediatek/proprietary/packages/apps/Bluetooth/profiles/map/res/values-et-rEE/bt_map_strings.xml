@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"Loapalve kaugjuurdepääsuks sõnumitele"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"Loapalve kaugjuurdepääsuks sõnumitele"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"Valige, et lubada kaugjuurdepääsu sõnumitele"</string>
+	<string name="bluetooth_map_server_authorize_title">"Loapalve kaugjuurdepääsuks sõnumitele"</string>
+	<string name="bluetooth_map_server_authorize_message">"Luba %1$s kaugjuurdepääsu sõnumitele"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"Luba"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">Keeldu</string>
+	<string name="bluetooth_map_server_connect_notify_ticker">"Kaugjuurdepääsurežiim sõnumitele ühendatud"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$s-l on juurepääs teie sõnumitele"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"Valige ühenduse katkestamiseks %1$s-ga"</string>
+	<string name="bluetooth_map_server_disconnect_title">"Katkesta kaugjuurepääs sõnumitele"</string>
+	<string name="bluetooth_map_server_disconnect_message">"Katkesta ühendus %1$s-ga"</string>
+  <string name="bluetooth_map_server_yes">"Jah"</string>
+	<string name="bluetooth_map_server_no">Kontakti printimiseks pole saadaval ühtki rakendust.</string>
+	<string name="bluetooth_map_server_settings">"Sõnumite kaugjuurdepääsu sätted"</string>
+	<string name="bluetooth_map_server_enable_title">"Loapalve kaugjuurdepääsuks sõnumitele"</string>
+	<string name="bluetooth_map_server_enable_summary">"Lülita kuuldeaparaadi ühilduvus sisse"</string>
+	<string name="bluetooth_map_server_sim_index_title">Valige SIM</string>
+	<string name="bluetooth_map_server_account_index_title">"Valige e-posti konto"</string>
+	<string name="bluetooth_map_server_no_account">"E-posti kontosid pole"</string>
+	<string name="bluetooth_map_server_OK">SMS-i teenuskeskuse seadmine OK</string>
+	<string name="bluetooth_map_server_cancel">"Kas soovid kindlasti allalaadimise tühistada?\nVajuta nuppu Jätka, et allalaadimist jätkata\nVajuta nuppu Likvideeri, et allalaadimine likvideerida ja allalaaditud fail kustutada"</string>
+</resources>

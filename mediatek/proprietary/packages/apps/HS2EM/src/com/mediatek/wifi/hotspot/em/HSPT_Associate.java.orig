@@ -1,0 +1,97 @@
+package com.mediatek.wifi.hotspot.em;
+
+import android.app.Activity;
+import android.app.Service;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.IBinder;
+import android.os.Message;
+import android.view.KeyEvent;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.RadioButton;
+import android.widget.EditText;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+import android.net.wifi.WifiManager;
+import android.os.ServiceManager;
+import android.os.RemoteException;
+import android.content.Context;
+import android.widget.Spinner;
+import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
+
+public class HSPT_Associate extends Activity {
+    
+    private WifiManager mWifiMgr = null;
+    private EditText        mEditTextIndex;
+    private EditText        mEditTextName;
+    private EditText        mEditTextValue;
+
+    private Button          mButtonSetHsNetwork;
+    private Button          mButtonEnableHs;
+
+    private TextView        mTextViewDump;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.hspt_associate);
+
+        mWifiMgr = (WifiManager)getSystemService(WIFI_SERVICE);
+        if(mWifiMgr == null) {
+            MtkLog.log("ERR: getSystemService MtkWifiManager failed");
+            return;
+        }
+
+        initWidget();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+    }
+
+    private void initWidget() {
+        mEditTextIndex = (EditText)findViewById(R.id.EditText_Index);
+        mEditTextName = (EditText)findViewById(R.id.EditText_Name);
+        mEditTextValue = (EditText)findViewById(R.id.EditText_Value);
+
+        mButtonSetHsNetwork = (Button)findViewById(R.id.Button_SetHsNetwork);
+        mButtonEnableHs = (Button)findViewById(R.id.Button_EnableHS);
+
+        mButtonSetHsNetwork.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                handleSetHsNetwork();
+            }
+        });
+
+        mButtonEnableHs.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                handleEnableHs();
+            }
+        });
+    }
+
+    private void handleSetHsNetwork() {
+        String index        = mEditTextIndex.getText().toString();
+        String name        = mEditTextName.getText().toString();
+        String value        = mEditTextValue.getText().toString();
+        MtkLog.log("handleSetHsNetwork:"+ index +","+name+","+value);
+        boolean ret = false;
+        if (mWifiMgr != null ) {
+            ret = mWifiMgr.setHsNetwork(index,name,value);
+        }
+        
+    }
+
+    private void handleEnableHs() {
+        MtkLog.log("handleEnableHs");
+        if (mWifiMgr != null ) {
+            ret = mWifiMgr.enableHS();
+        }
+    }
+}

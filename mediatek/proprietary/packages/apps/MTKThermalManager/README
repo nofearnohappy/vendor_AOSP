@@ -1,0 +1,16 @@
+WHAT IT DOES?
+=============
+MTKThermalManager serves as an application for engineers to monitor thermal 
+sensors and change thermal configurations via Engineering Mode.
+
+HOW IT WAS BUILT?
+==================
+It is built in MTK released source tree as a platform application. 
+
+HOW TO USE IT?
+==============
+1. Enter Engineering Mode in MTK IC embedded smart devices.
+2. Go to "Others" tab.
+3. Select "Thermal".
+
+

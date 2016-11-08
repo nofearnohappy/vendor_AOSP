@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"Bluetooth電話帳アクセス"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"BluetoothPBAP許可要求"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"BluetoothPBAP認証要求"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"選択してPBAP接続を許可できます"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"BluetoothPBAP許可"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"パスコード"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">SMSサービスセンターをOKに設定する</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"ダウンロードをキャンセルしますか？\n続行を押すとダウンロードを継続します。\n破棄を押すとダウンロードを破棄し、ダウンロード済みのファイルを消去します"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">"許可する"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"BluetoothPBAP許可要求"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"%1$sからのPBAP接続を許可しますか？"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"BluetoothPBAP認証要求"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message">"%1$sからのPBAP接続許可リクエスト"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">データ転送レートは低下します。</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"常に許可?"</string>
+</resources>

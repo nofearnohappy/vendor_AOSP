@@ -1,0 +1,14 @@
+MobileVideoConfig is a util apk for MobileVideo which needs to obtain phone's internal/external sdcard path. It has to be preinstalled on the operator project.
+
+
+WHAT IT DOES?
+=============
+This apk can get phone's internal/external sdcard path that MobileVideo needs to obtain.
+
+HOW IT WAS BUILT?
+==================
+It will be preinstalled on the operator project.
+
+HOW TO USE IT?
+==============
+Tell phone's internal/external sdcard path to MobileVideo which is a 3rd party apk

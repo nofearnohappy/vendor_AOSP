@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK溫度管理器</string>
+    <string name="coolers">冷卻器</string>
+    <string name="thermal_sensors">溫度感測器</string>
+    <string name="thermal_protection">溫度保護</string>
+    <string name="thermal_policy_file_colon">"溫度原則檔案："</string>
+    <string name="apply_new_thermal_policy">套用新溫度原則</string>
+    <string name="tz_device_info">TZ裝置資訊</string>
+    <string name="thermal_logger">溫度記錄器</string>
+    <!-- STRING TRANSLATION START [thermal_alert_dialog] -->
+    <string name="alert_dialog_two_buttons_title">溫度警告！</string>
+    <string name="alert_dialog_two_buttons_message">手機必需立刻冷却下來！</string>
+    <string name="alert_dialog_ok">確定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <!-- TRANSLATION END -->
+
+</resources>

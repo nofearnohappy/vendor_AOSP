@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_prxm_alert_level_no">သတိေပးခ်က္မရွိ</string>
+	<string name="bt_prxm_alert_level_mild">သတိေပးခ်က္ အေသးစား</string>
+	<string name="bt_prxm_alert_level_high">သတိေပးခ်က္ အႀကီးစား</string>
+	<string name="bt_prxm_device_mgmt_label">ဘလူးတု(သ္)ဆက္စပ္မႈ</string>
+	<string name="bt_prxm_device_mgmt_bt_not_support">ဘလူးတု(သ္) အေထာက္အပံ့မရွိပါက လုပ္ေဆာင္၍မရပါ</string>
+	<string name="bt_prxm_device_mgmt_bt_not_ready">ဘလူးတု(သ္) မဖြင့္ထားပါက လုပ္ေဆာင္၍မရပါ</string>
+	<string name="bt_prxm_device_mgmt_title">ဘလူးတု(သ္) ဆက္စပ္မႈ ေစာင့္ၾကပ္ၾကည့္႐ႈခ်က္</string>
+	<string name="bt_prxm_device_mgmt_add_device">ပစၥည္းထည့္ပါ</string>
+	<string name="bt_prxm_device_mgmt_remove_device">ပစၥည္းဖယ္ရွားပါ</string>
+	<string name="bt_prxm_device_mgmt_device_list">ဆက္စပ္ေနသည့္ ပစၥည္းမ်ား</string>
+	<string name="bt_prxm_device_pref_device_setting">လင့္ခ္ေပ်ာက္ဆံုး- %1$s / လမ္းေၾကာင္း ေပ်ာက္ဆံုး- %2$s</string>
+	<string name="bt_prxm_devs_title">ဆက္စပ္ပစၥည္း အဆင္အျပင္မ်ား</string>
+	<string name="bt_prxm_devs_connect_title">ခ်ိတ္ဆက္ပါ</string>
+	<string name="bt_prxm_devs_connect_summary">ဆက္စပ္ပစၥည္းသို႔ ခ်ိတ္ဆက္ပါ</string>
+	<string name="bt_prxm_devs_connect_failed">ခ်ိတ္ဆက္မႈ မေအာင္ျမင္ပါ</string>
+	<string name="bt_prxm_devs_disconnect_failed">ခ်ိတ္ဆက္မႈျဖဳတ္ျခင္း မေအာင္ျမင္ပါ</string>
+	<string name="bt_prxm_find_device_title">ကိရိယာကို ရွာပါ</string>
+	<string name="bt_prxm_find_device_summary">ဤကိရိယာကို သတိေပးခ်က္ ေပးျခင္းျဖင့္ ၎ကို ရွာပါ</string>
+	<string name="bt_prxm_find_device_cancel_summary">ရည္ညႊန္းရာ ကိရိယာတြင္ သတိေပးခ်က္ ဖ်က္သိမ္းရန္ ႏွိပ္ပါ</string>
+	<string name="bt_prxm_devs_link_loss_group_title">လင့္ခ္ေပ်ာက္ဆံုး</string>
+	<string name="bt_prxm_devs_link_loss_level_title">လင့္ခ္ေပ်ာက္ဆံုးသည့္သတိေပးခ်က္အဆင့္</string>
+	<string name="bt_prxm_devs_link_loss_level_summary">သတိေပးခ်က္ အဆင့္ ထားရွိပါ</string>
+	<string name="bt_prxm_devs_link_loss_config_failed">လင့္ခ္ေပ်ာက္ဆံုးသည့္ သတိေပးခ်က္အဆင့္ ထားရွိခ်က္ မေအာင္ျမင္ပါ</string>
+	<string name="bt_prxm_devs_path_loss_group_title">လမ္းေၾကာင္းေပ်ာက္ဆံုး</string>
+	<string name="bt_prxm_devs_path_loss_level_title">လမ္းေၾကာင္း ေပ်ာက္ဆံုးသည့္ သတိေပးခ်က္ အဆင့္</string>
+	<string name="bt_prxm_devs_path_loss_level_summary">သတိေပးခ်က္ အဆင့္ ထားရွိပါ</string>
+	<string name="bt_prxm_devs_path_loss_threshold_title">လမ္းေၾကာင္း ေပ်ာက္ဆံုးသည့္ အတိုင္းအတာ</string>
+	<string name="bt_prxm_devs_path_loss_threshold_summary">လိုင္းအခ်က္ျပသေကၤ အတိုင္းအတာထားရွိပါ</string>
+	<string name="bt_prxm_plt_current_rssi">လက္ရွိအကြာအေဝး ခန္႔မွန္းခ်က္</string>
+	<string name="bt_prxm_plt_using_current_rssi">လမ္းေၾကာင္း ေပ်ာက္ဆံုးသည့္ အတိုင္းအတာအတြက္ လက္ရွိအကြာအေဝး ခန္႔မွန္းခ်က္ကို အသံုးျပဳပါ</string>
+	<string name="bt_prxm_plt_path_loss_threshold_title">လမ္းေၾကာင္း ေပ်ာက္ဆံုးသည့္ အတိုင္းအတာ</string>
+</resources>

@@ -1,0 +1,19 @@
+WHAT IT DOES?
+=============
+This is a test APK for HotKnot function.
+It could transmit random data over HotKnot connection to verify its function.
+
+HOW IT WAS BUILT?
+==================
+1. The MTK_HOTKNOT_SUPPORT feature optin should be true.
+2. Only existed in eng build
+
+
+[Build Method]
+make HotKnotVerifier
+or
+mmm vendor/mediatek/proprietary/packages/apps/HotKnotVerifier/
+
+HOW TO USE IT?
+==============
+Lanuch from Launcher APP

@@ -1,0 +1,4 @@
+[
+	{ operationName : "Get", nodeUri : "./ANDSF/Name", objectValue : "", objectType : "", newNode : "" },
+	{ operationName : "Get", nodeUri : "./ANDSF", objectValue : "", objectType : "", newNode : "" },
+]

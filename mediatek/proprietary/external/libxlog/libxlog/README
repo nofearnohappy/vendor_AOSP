@@ -1,0 +1,15 @@
+This module creates the static library of xlog feature
+
+WHAT IT DOES?
+=============
+
+xlog feature is used for log filter, libxlog provide the related operation
+in static library
+
+HOW IT WAS BUILT?
+==================
+
+HOW TO USE IT?
+==============
+
+It has already been linked in liblog

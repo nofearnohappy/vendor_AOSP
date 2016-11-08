@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        package="com.mediatek.ims"
+        coreApp="true"
+        android:sharedUserId="android.uid.phone"
+>
+
+	<uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE"/>
+
+    <application android:name="ImsApp"
+                 android:persistent="true">
+    </application>
+</manifest>

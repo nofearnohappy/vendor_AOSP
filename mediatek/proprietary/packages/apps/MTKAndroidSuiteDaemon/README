@@ -1,0 +1,21 @@
+This module creates for PC sync tool to communicate with device.
+
+This module is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+This module provides PCSyncTool service for PC sync tool to sync
+information from device.
+
+HOW IT WAS BUILT?
+==================
+Does not depends on other libs.
+
+HOW TO USE IT?
+==============
+
+When use PC sync tool connet to device, it will be auto start.
+When PC sync tool disconnet to device, it will be auto stop.
+
+All the source code for this module were written by MediaTek.

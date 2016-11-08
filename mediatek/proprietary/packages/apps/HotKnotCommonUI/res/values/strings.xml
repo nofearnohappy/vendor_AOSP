@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name" translatable="false">HotKnot Share</string>
+    <string name="app_version" translatable="false">HotKnot Common UI Version</string>
+    <string name="hotknot" translatable="false">HotKnot</string>
+
+    <string name="bullet" translatable="false">&#8226; </string>
+    
+    <string name="hotknot_share">HotKnot Share</string>
+    <string name="hotknot_content_share_file">Content_Share.txt</string>
+    <string name="hint1">Ensure the receiving device has turned on HotKnot, and keep its screen unlocked.</string>
+    <string name="hint2">Put your device onto the receiving device screen-to-screen.</string>
+    <string name="hint3">Take your device away from the receiving device after you hear a voice prompt.</string>
+
+    <string name="use_hotknot">This application needs to use HotKnot technology on your device.</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+
+    <string name="fail_to_share">Failed to share</string>
+    <string name="fail_to_share_conn_error">Failed to share due to connection problem.</string>
+    <string name="fail_to_share_unknown_error">Failed to share due to unknown error.</string>
+    <string name="try_again">Try again</string>
+
+    <string name="usb_warning">HotKnot function may be affected during USB charging.</string>
+</resources>

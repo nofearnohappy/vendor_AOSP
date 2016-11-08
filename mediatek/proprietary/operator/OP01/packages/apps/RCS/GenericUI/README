@@ -1,0 +1,12 @@
+WHAT IT DOES?
+=============
+Android APK file, used to show a alert dialog to remind user to
+turn on PS data with the right RCS SIM.
+
+HOW IT WAS BUILT?
+==================
+It is a Android application project, built by Android SDK.
+
+HOW TO USE IT?
+==============
+When registe to RCS server, if no PS data, it will be show.

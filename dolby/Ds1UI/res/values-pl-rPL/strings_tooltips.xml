@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Inteligentny korektor dźwięku/Korektor graficzny</string>
+	<string name="tooltip_eq_text">Inteligentny korektor dźwięku analizuje i dynamicznie koryguje dźwięk, aby odpowiadał on żądanej charakterystyce. Wybierz jedno z czterech pokazanych ustawień, a następnie dotknij Wizualizator spektralny, aby wprowadzić do korektora graficznego własne modyfikacje.</string>
+	<string name="tooltip_sv_title">Wirtualizacja dźwięku</string>
+	<string name="tooltip_sv_text">Wirtualizacja dźwięku tworzy realistyczny dźwięk przestrzenny dla dowolnego typu słuchawek lub głośników stereo. Włącz lub wyłącz przełącznik, aby kontrolować efekt dźwięku przestrzennego.</string>
+	<string name="tooltip_de_title">Uwydatnienie dialogów</string>
+	<string name="tooltip_de_text">Uwydatnienie dialogów poprawia jakość mowy we wszystkich rodzajach multimediów. Włącz lub wyłącz przełącznik, aby kontrolować uwydatnienie dialogów.</string>
+	<string name="tooltip_vl_title">Normalizacja głośności</string>
+	<string name="tooltip_vl_text">Normalizacja głośności zapewnia stały poziom głośności wszystkich odtwarzanych treści w odniesieniu do podstawowego poziomu głośności urządzenia. Włącz lub wyłącz przełącznik, aby kontrolować normalizację głośności.</string>
+</resources>

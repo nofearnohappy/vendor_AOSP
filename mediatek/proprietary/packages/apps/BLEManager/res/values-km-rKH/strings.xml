@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">ចុច​បើក​ប៊្លូធូស</string>
+    <string name="tap_to_add_device">ចុច​ថែម​ឧបករណ៍/​ទូរសព្ទ</string>
+    <string name="turning_on_bluetooth">កំពុង​បើក​ប៊្លូធូស...</string>
+    <string name="launcher_activity_name">អង្គ​គ្រប់គ្រង BLE</string>
+    <string name="scanning_devices">កំពុង​ស្កែន​ឧបករណ៍/​ទូរសព្ទ</string>
+    <string name="delete_devices">សូម​ផ្ដាច់​ឧបករណ៍/​ទូរសព្ទ​មួយ​ដែល​កំពុង​ភ្ជាប់​ទៅ​នឹង​មួយ​ទៀត​ដែល​ថ្មី</string>
+    <string name="cancel">"បោះ​បង់"</string>
+    <string name="ok">"យល់​ព្រម"</string>
+    <string name="alert_setting">"ជូន​ដំណឹង"</string>
+    <string name="device_manager">អង្គ​គ្រប់គ្រង​ឧបករណ៍/​ទូរសព្ទ</string>
+    <string name="out_of_range_alert_text">សំឡេងរោទ៍​ប្រាប់​ពី​ស្ថានភាព​ស្ថិត​ក្រៅ​វិសាលភាព​ ឬ​ដែន​សេវា</string>
+    <string name="in_range_alert_text">សំឡេងរោទ៍​ប្រាប់​ពី​ស្ថានភាព​ស្ថិត​ក្នុង​វិសាលភាព​ ឬ​ដែន​សេវា</string>
+    <string name="range_alert_text">វិសាលភាព ឬ​ដែន​សេវា​ខ្ញុំ</string>
+    <string name="range_alert_summary">ទាំង​ទូរសព្ទ ទាំង​ឧបករណ៍​រោទ៍​​ព្រមាន​ប្រាប់ នៅពេល​ឧបករណ៍/​ទូរសព្ទ​ស្ថិត​នៅ​ក្នុង​វិសាលភាព ឬ​ដែន​សេវា</string>
+    <string name="range_near_text">ជិតៗ</string>
+    <string name="range_middle_text">កណ្ដាល</string>
+    <string name="range_far_text">ឆ្ងាយ</string>
+    <string name="range_1_distance_text">ប្រហែល 1 ម</string>
+    <string name="range_10_distance_text">1-10 ម</string>
+    <string name="range_20_distance_text">10-20 ម</string>
+    <string name="phone_alert_settings">កំណត់​សំឡេងរោទ៍​ព្រមាន​ប្រាប់​របស់​ទូរសព្ទ</string>
+    <string name="ringtone_tye_text">"សំឡេង​រោទ៍"</string>
+    <string name="volume_text">"កម្រិត​សំឡេង"</string>
+    <string name="vibration_text">រំញ័រ</string>
+    <string name="vibration_summary_on">បើក</string>
+    <string name="vibration_summary_off">"បាន​បិទ"</string>
+    <string name="device_name">"ឈ្មោះ​ឧបករណ៍"</string>
+    <string name="push_notification_text">ការប្រាប់ឲ្យ​ដឹង​ភ្លាមៗ​ចំពោះ​ឧបករណ៍/​ទូរសព្ទ</string>
+    <string name="incoming_call_notification_text">"ការ​ហៅ​ចូល"</string>
+    <string name="missed_call_notificaiotn_text">"ខកខាន​ទទួល"</string>
+    <string name="new_message_notification_text">"សារ​ថ្មី"</string>
+    <string name="new_email_notification_text">អ៊ីម៉ែល​ថ្មី</string>
+    <string name="disconnection_text">កំណត់​ចំពោះ​ការផ្ដាច់</string>
+    <string name="disconnection_waring_title">សំឡេងរោទ៍​ព្រមាន​ប្រាប់​ចំពោះ​ការផ្ដាច់</string>
+    <string name="disconnection_waring_summary">ទាំង​ទូរសព្ទ ទាំង​ឧបករណ៍​រោទ៍​​ព្រមាន​ប្រាប់ នៅពេល​​មាន​ការផ្ដាច់ឧបករណ៍/​ទូរសព្ទ</string>
+    <string name="device_name_change_dialog_title">"ប្ដូរ​ឈ្មោះ"</string>
+    <string name="disconnect_text">"ផ្ដាច់"</string>
+    <string name="delete_text">"លុប"</string>
+    <string name="connect_text">"តភ្ជាប់"</string>
+    <string name="device_delete_dialog_message">លុបចោល​ឧបករណ៍/​ទូរសព្ទ​នេះ​ឬ?</string>
+    <string name="device_disconnect_dialog_message">ផ្ដាច់​ឧបករណ៍/​ទូរសព្ទ​ឬ?</string>
+    <string name="find_all_text">រកមើល​ទាំងអស់</string>
+    <string name="default_images">រូបភាព​ពីនាយ</string>
+    <string name="range_information_text">វិសាលភាព​អាស្រ័យ​លើ​កម្លាំង​វិទ្យុ​សញ្ញា។ ស្ថិត​នៅ​ចំ​កន្លែង​វា​ត្រឹមត្រូវ វិសាលភាព​អាច​មាន​ចម្ងាយជុំវិញ ឬ​កាំ​រង្វង់​ប្រវែង​ជាង 30 ម។  កត្តា​សំខាន់ៗ​ដែល​មាន​ជាអាទិ៍ រាងកាយ​អ្នក ជញ្ជាំង នឹង​ឧបសគ្គ​ផ្សេងៗ​ទៀត ​អាច​បង្រួម​វិសាលភាព​វា​មក​នៅ​ត្រឹម 15 ម ចុះ​ក្រោម។</string>
+    <string name="range_information_dialog_check_box_text">កុំ​បង្ហាញ​ម្ដង​ទៀត</string>
+    <string-array name="device_image_chooser_items">
+        <item>ជ្រើស​ចេញ​ពី​រូបភាព​ពីនាយ ឬ​តាម​លំនាំដើម</item>
+        <item>"ថតរូប"</item>
+        <item>ជ្រើស​ចេញ​ពី​វិចិត្រសាល</item>
+    </string-array>
+    <string name="add_device">បន្ថែមឧបករណ៍</string>
+    <string name="yes">"បាទ/ចាស"</string>
+    <string name="no">"ទេ"</string>
+    <string name="connecting_text">"កំពុង​​​ភ្ជាប់​…"</string>
+    <string name="enable_background_service">បើក​ម៉ូដ​ផ្ទៃ​ខាង​ក្រោយ</string>
+    <string name="disable_background_service">បិទ​ម៉ូដ​ផ្ទៃ​ខាង​ក្រោយ</string>
+    <string name="ble_manager_alert">ការឲ្យ​សញ្ញាប្រាប់​អ្នកគ្រប់គ្រង BLE</string>
+    <string name="check">ពិនិត្យមើល</string>
+    <string name="dismiss">ទាត់ចោល</string>
+    <string name="disconnected">"បាន​ផ្ដាច់"</string>
+    <string name="in_range">ស្ថិត​ក្នុង​វិសាលភាព</string>
+    <string name="out_of_range">ស្ថិតក្រៅ​វិសាលភាព</string>
+    <string name="no_found">រកមិនឃើញ​មាន​ឧបករណ៍​ដែល​ប្រើ​ប៊្លូធូស។</string>
+    <string name="bt_off">មាន​បិទ​ប៊្លូធូស សូម​បើក​វា​ឡើង។</string>
+</resources>

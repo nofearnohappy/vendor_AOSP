@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources> 
+  <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->  
+  <string-array name="reminder_methods_labels"> 
+    <item>নোটিফিকেশন</item>  
+    <item>ইমেইল</item>  
+    <item>এসএমএস</item> 
+  </string-array>  
+  <!-- This maps reminder_methods_labels to internal constants. -->  
+  <integer-array name="reminder_methods_values" translatable="false"> 
+    <item>1</item>  
+    <!-- METHOD_ALERT -->  
+    <item>2</item>  
+    <!-- METHOD_EMAIL -->  
+    <item>3</item>  
+    <!-- METHOD_SMS --> 
+  </integer-array>  
+  <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->  
+  <string-array name="reminder_minutes_labels"> 
+    <item>০ মিনিট+AN72</item>  
+    <item>১ মিনিট</item>  
+    <item>৫ মিনিট</item>  
+    <item>১০ মিনিট</item>  
+    <item>১৫ মিনিট</item>  
+    <item>২০ মিনিট</item>  
+    <item>২৫ মিনিট</item>  
+    <item>৩০ মিনিট</item>  
+    <item>৪৫ মিনিট</item>  
+    <item>১ ঘণ্টা</item>  
+    <item>২ ঘণ্টা</item>  
+    <item>৩ ঘণ্টা</item>  
+    <item>১২ ঘণ্টা</item>  
+    <item>২৪ ঘণ্টা</item>  
+    <item>২ দিন</item>  
+    <item>১ সপ্তাহ</item> 
+  </string-array>  
+  <integer-array name="reminder_minutes_values" translatable="false"> 
+    <item>0</item>  
+    <item>1</item>  
+    <item>5</item>  
+    <item>10</item>  
+    <item>15</item>  
+    <item>20</item>  
+    <item>25</item>  
+    <item>30</item>  
+    <item>45</item>  
+    <item>60</item>  
+    <item>120</item>  
+    <item>180</item>  
+    <item>720</item>  
+    <item>1440</item>  
+    <item>2880</item>  
+    <item>10080</item> 
+  </integer-array>  
+  <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->  
+  <string-array name="preferences_default_reminder_labels"> 
+    <item>কোনটি নয়</item>  
+    <item>০ মিনিট+AN72</item>  
+    <item>১ মিনিট</item>  
+    <item>৫ মিনিট</item>  
+    <item>১০ মিনিট</item>  
+    <item>১৫ মিনিট</item>  
+    <item>২০ মিনিট</item>  
+    <item>২৫ মিনিট</item>  
+    <item>৩০ মিনিট</item>  
+    <item>৪৫ মিনিট</item>  
+    <item>১ ঘণ্টা</item>  
+    <item>২ ঘণ্টা</item>  
+    <item>৩ ঘণ্টা</item>  
+    <item>১২ ঘণ্টা</item>  
+    <item>২৪ ঘণ্টা</item>  
+    <item>২ দিন</item>  
+    <item>১ সপ্তাহ</item> 
+  </string-array>  
+  <string-array name="preferences_default_reminder_values" translatable="false"> 
+    <item>"-1"</item>  
+    <item>"0"</item>  
+    <item>"1"</item>  
+    <item>"5"</item>  
+    <item>"10"</item>  
+    <item>"15"</item>  
+    <item>"20"</item>  
+    <item>"25"</item>  
+    <item>"30"</item>  
+    <item>"45"</item>  
+    <item>"60"</item>  
+    <item>"120"</item>  
+    <item>"180"</item>  
+    <item>"720"</item>  
+    <item>"1440"</item>  
+    <item>"2880"</item>  
+    <item>"10080"</item> 
+  </string-array>  
+  <string-array name="preferences_week_start_day_labels"> 
+    <item>লোকাল ডিফল্ট</item>  
+    <item>শনিবার</item>  
+    <item>রবিবার</item>  
+    <item>সোমবার</item> 
+  </string-array>  
+  <string-array name="preferences_week_start_day_values" translatable="false"> 
+    <item>"-1"</item>  
+    <item>"7"</item>  
+    <item>"1"</item>  
+    <item>"2"</item> 
+  </string-array>  
+  <!-- Choices for timezones, must be kept in sync with timezone_values. This
+         list was taken from package/apps/Settings/res/xml/timezones.xml
+         [CHAR LIMIT=20] -->  
+  <string-array name="timezone_labels"> 
+    <item>"মার্শাল আইল্যান্ড"</item>  
+    <item>"মিডওয়ে আইল্যান্ড"</item>  
+    <item>"হাওয়াই"</item>  
+    <item>"আলাস্কা"</item>  
+    <item>"প্রশান্তমহাসাগরীয় সময়"</item>  
+    <item>"তিজুয়ানা"</item>  
+    <item>"অ্যারিজোনা"</item>  
+    <item>"চিহুয়াহুয়া"</item>  
+    <item>"পবর্ত সময়"</item>  
+    <item>"মধ্য আমেরিকা"</item>  
+    <item>"মধ্য সময়"</item>  
+    <item>"ম্যাক্সিকো সিটি"</item>  
+    <item>"সাসকাটচিওয়ান"</item>  
+    <item>"বগোটা"</item>  
+    <item>"পূর্বাঞ্চলের সময়"</item>  
+    <item>"ভেনিজুয়েলা"</item>  
+    <item>" আটলান্টিক"</item>  
+    <item>"মামস"</item>  
+    <item>"সান্দিয়াগো"</item>  
+    <item>"নিউফাউন্ডল্যান্ড"</item>  
+    <item>"ব্রাসিলিয়া"</item>  
+    <item>"বুয়েন্স আয়ার্স"</item>  
+    <item>"গ্রিনল্যান্ড"</item>  
+    <item>"মন্টিভিডিও"</item>  
+    <item>"মধ্য-আটলান্টিক"</item>  
+    <item>" আজোরেস"</item>  
+    <item>" কেপ ভার্ডে আইল্যান্ড"</item>  
+    <item>"কাসাব্লাঙ্কা"</item>  
+    <item>"লন্ডন, ডাবলিন"</item>  
+    <item>" আমস্টারডাম, বার্লিন"</item>  
+    <item>"বেলগ্রেড"</item>  
+    <item>"ব্রাসেলস"</item>  
+    <item>"সারাজেভো"</item>  
+    <item>"উইন্ডহক"</item>  
+    <item>"পশ্চিম আফ্রিকার সময়"</item>  
+    <item>"আম্মান, জর্ডান"</item>  
+    <item>"এথেন্স, ইস্তাম্বুল"</item>  
+    <item>"+AN110বৈরুত, লেবানন"</item>  
+    <item>"কায়রো"</item>  
+    <item>"হেলসিঙ্কি"</item>  
+    <item>"জেরুজালেম"</item>  
+    <item>"মিন্সক"</item>  
+    <item>"হারারে"</item>  
+    <item>"বেলগ্রেড"</item>  
+    <item>"মস্কো"</item>  
+    <item>"কুয়েত"</item>  
+    <item>"নাইরোবি"</item>  
+    <item>"তেহরান"</item>  
+    <item>"বাকু"</item>  
+    <item>" টিবিলিসি"</item>  
+    <item>"ইয়েরেভ্যান"</item>  
+    <item>"দুবাই"</item>  
+    <item>"কাবুল"</item>  
+    <item>"ইসলামাবাদ, করাচি"</item>  
+    <item>"ইউরালস্ক"</item>  
+    <item>"ইয়েকেটারিনবার্গ"</item>  
+    <item>"কোলকাতা"</item>  
+    <item>"শ্রীলঙ্কা"</item>  
+    <item>"কাঠমান্ডু"</item>  
+    <item>"আসতানা"</item>  
+    <item>"রেঙ্গুন"</item>  
+    <item>"ক্রাসনোইয়ার্ক্স"</item>  
+    <item>"ব্যাংকক"</item>  
+    <item>"বৈইজিং"</item>  
+    <item>"হংকং"</item>  
+    <item>"ইরকুস্ক"</item>  
+    <item>"কুয়ালালামপুর"</item>  
+    <item>"পার্থ"</item>  
+    <item>"তাইপে"</item>  
+    <item>"সউল"</item>  
+    <item>"টোকিও, ওসাকা"</item>  
+    <item>"ইয়াকুস্ক"</item>  
+    <item>"অ্যাডিলাইড"</item>  
+    <item>"ডারউন"</item>  
+    <item>"ব্রিজবেন"</item>  
+    <item>" হোবার্ট"</item>  
+    <item>" সিডনি, ক্যানবেরা"</item>  
+    <item>"ভ্লাদিভসটক"</item>  
+    <item>"গুয়াম"</item>  
+    <item>"মাগাদান"</item>  
+    <item>"অকল্যান্ড"</item>  
+    <item>"ফিজি"</item>  
+    <item>"টঙ্গা"</item> 
+  </string-array>  
+  <!-- This list was taken from package/apps/Settings/res/xml/timezones.xml -->  
+  <string-array name="timezone_values" translatable="false"> 
+    <item>"Pacific/Majuro"</item>  
+    <item>"Pacific/Midway"</item>  
+    <item>"Pacific/Honolulu"</item>  
+    <item>"America/Anchorage"</item>  
+    <item>"America/Los_Angeles"</item>  
+    <item>"America/Tijuana"</item>  
+    <item>"America/Phoenix"</item>  
+    <item>"America/Chihuahua"</item>  
+    <item>"America/Denver"</item>  
+    <item>"America/Costa_Rica"</item>  
+    <item>"America/Chicago"</item>  
+    <item>"America/Mexico_City"</item>  
+    <item>"America/Regina"</item>  
+    <item>"America/Bogota"</item>  
+    <item>"America/New_York"</item>  
+    <item>"America/Caracas"</item>  
+    <item>"America/Barbados"</item>  
+    <item>"America/Manaus"</item>  
+    <item>"America/Santiago"</item>  
+    <item>"America/St_Johns"</item>  
+    <item>"America/Sao_Paulo"</item>  
+    <item>"America/Argentina/Buenos_Aires"</item>  
+    <item>"America/Godthab"</item>  
+    <item>"America/Montevideo"</item>  
+    <item>"Atlantic/South_Georgia"</item>  
+    <item>"Atlantic/Azores"</item>  
+    <item>"Atlantic/Cape_Verde"</item>  
+    <item>"Africa/Casablanca"</item>  
+    <item>"Europe/London"</item>  
+    <item>"Europe/Amsterdam"</item>  
+    <item>"Europe/Belgrade"</item>  
+    <item>"Europe/Brussels"</item>  
+    <item>"Europe/Sarajevo"</item>  
+    <item>"Africa/Windhoek"</item>  
+    <item>"Africa/Brazzaville"</item>  
+    <item>"Asia/Amman"</item>  
+    <item>"Europe/Athens"</item>  
+    <item>"Asia/Beirut"</item>  
+    <item>"Africa/Cairo"</item>  
+    <item>"Europe/Helsinki"</item>  
+    <item>"Asia/Jerusalem"</item>  
+    <item>"Europe/Minsk"</item>  
+    <item>"Africa/Harare"</item>  
+    <item>"Asia/Baghdad"</item>  
+    <item>"Europe/Moscow"</item>  
+    <item>"Asia/Kuwait"</item>  
+    <item>"Africa/Nairobi"</item>  
+    <item>"Asia/Tehran"</item>  
+    <item>"Asia/Baku"</item>  
+    <item>"Asia/Tbilisi"</item>  
+    <item>"Asia/Yerevan"</item>  
+    <item>"Asia/Dubai"</item>  
+    <item>"Asia/Kabul"</item>  
+    <item>"Asia/Karachi"</item>  
+    <item>"Asia/Oral"</item>  
+    <item>"Asia/Yekaterinburg"</item>  
+    <item>"Asia/Calcutta"</item>  
+    <item>"Asia/Colombo"</item>  
+    <item>"Asia/Katmandu"</item>  
+    <item>"Asia/Almaty"</item>  
+    <item>"Asia/Rangoon"</item>  
+    <item>"Asia/Krasnoyarsk"</item>  
+    <item>"Asia/Bangkok"</item>  
+    <item>"Asia/Shanghai"</item>  
+    <item>"Asia/Hong_Kong"</item>  
+    <item>"Asia/Irkutsk"</item>  
+    <item>"Asia/Kuala_Lumpur"</item>  
+    <item>"Australia/Perth"</item>  
+    <item>"Asia/Taipei"</item>  
+    <item>"Asia/Seoul"</item>  
+    <item>"Asia/Tokyo"</item>  
+    <item>"Asia/Yakutsk"</item>  
+    <item>"Australia/Adelaide"</item>  
+    <item>"Australia/Darwin"</item>  
+    <item>"Australia/Brisbane"</item>  
+    <item>"Australia/Hobart"</item>  
+    <item>"Australia/Sydney"</item>  
+    <item>"Asia/Vladivostok"</item>  
+    <item>"Pacific/Guam"</item>  
+    <item>"Asia/Magadan"</item>  
+    <item>"Pacific/Auckland"</item>  
+    <item>"Pacific/Fiji"</item>  
+    <item>"Pacific/Tongatapu"</item> 
+  </string-array>  
+  <string-array name="availability"> 
+    <item>ব্যস্ত</item>  
+    <item>লভ্য</item>  
+    <item>সম্ভাব্য</item> 
+  </string-array>  
+  <!-- This maps reminder_methods_labels to internal constants. -->  
+  <integer-array name="availability_values" translatable="false"> 
+    <item>0</item>  
+    <!-- Busy -->  
+    <item>1</item>  
+    <!-- Available -->  
+    <item>2</item>  
+    <!-- Tentative --> 
+  </integer-array>  
+  <string-array name="visibility"> 
+    <item>ডিফল্ট</item>  
+    <item>ব্যক্তিগত</item>  
+    <item>প্রকাশ্য</item> 
+  </string-array>  
+  <string-array name="ordinal_labels"> 
+    <item>প্রথম</item>  
+    <item>দ্বিতীয়</item>  
+    <item>তৃতীয়</item>  
+    <item>চতুর্থ</item>  
+    <item>সর্বশেষ</item> 
+  </string-array>  
+  <!-- Invitation responses -->  
+  <string-array name="response_labels1"> 
+    <item>কোন উত্তর নেই</item>  
+    <item>হ্যা</item>  
+    <item>হয়ত</item>  
+    <item>না</item> 
+  </string-array>  
+  <!-- The corresponding indices are defined in DeleteEventHelper.java -->  
+  <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->  
+  <skip/>  
+  <string-array name="delete_repeating_labels"> 
+    <item>কেবল এই ঘটনা</item>  
+    <item>এটি এবং ভবিষ্যতের ইভেন্ট</item>  
+    <item>সব ঘটনা</item> 
+  </string-array>  
+  <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->  
+  <integer-array name="delete_repeating_values"> 
+    <item>0</item>  
+    <item>1</item>  
+    <item>2</item> 
+  </integer-array>  
+  <!-- The corresponding indices are defined in DeleteEventHelper.java -->  
+  <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->  
+    <skip/>  
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->  
+    <skip/>  
+    <!-- The list of choices displayed in a dialog box when the user wants to
+      respond to an invitation that repeats. -->  
+    <string-array name="change_response_labels"> 
+        <!-- The choice for responding to only one instance of a repeating event -->  
+        <item>কেবল এই ঘটনা</item>  
+        <!-- The choice for responding to all instances of a repeating event -->  
+        <item>সিরিজের সব ঘটনা</item> 
+    </string-array>  
+    <!-- Strings for buttons in drop down menu -->  
+    <string-array name="buttons_list"> 
+        <item>দিন</item>  
+        <item>সপ্তাহ</item>  
+        <item>মাস</item>  
+        <item>এজেন্ডা</item> 
+    </string-array>  
+    <string-array name="delete_repeating_labels_no_selected"> 
+        <item>এটি এবং ভবিষ্যৎ ইভেন্টবলি</item>  
+        <item>সব ইভেন্ট</item> 
+    </string-array> 
+<string-array name="preferences_skip_reminders_labels">
+     <item>কেবল যদি অনাগ্রহ দেখায়</item>
+     <item>যদি অনাগ্রহ দেখায় বা সাড়া না দেয়</item>
+     </string-array>
+    <string-array name="recurrence_freq">
+     <item>প্রতিদিন পুনরাবৃত্তি করুন</item>
+     <item>প্রতিসপ্তাহে পুনরাবৃত্তি করুন</item>
+     <item>প্রতিমাসে পুনরাবৃত্তি করুন</item>
+     <item>প্রতিবছর পুনরাবৃত্তি করুন</item>
+     </string-array>
+    <string-array name="repeat_by_nth_sun">
+     <item>প্রতি প্রথম রবিবারে</item>
+     <item>প্রতি দ্বিতীয় রবিবারে</item>
+     <item>প্রতি তৃতীয় রবিবারে</item>
+     <item>প্রতি চতুর্থ রবিবারে</item>
+     <item>প্রতি শেষ রবিবারে</item>
+     </string-array>
+    <string-array name="repeat_by_nth_mon">
+     <item>প্রতি প্রথম সোমবারে</item>
+     <item>প্রতি দ্বিতীয় সোমবারে</item>
+     <item>প্রতি তৃতীয় সোমবারে</item>
+     <item>প্রতি চতুর্থ সোমবারে</item>
+     <item>প্রতি শেষ সোমবারে</item>
+     </string-array>
+    <string-array name="repeat_by_nth_tues">
+     <item>প্রতি প্রথম মঙ্গলবারে</item>
+     <item>প্রতি দ্বিতীয় মঙ্গলবারে</item>
+     <item>প্রতি তৃতীয় মঙ্গলবারে</item>
+     <item>প্রতি চতুর্থ মঙ্গলবারে</item>
+     <item>প্রতি শেষ মঙ্গলবারে</item>
+     </string-array>
+    <string-array name="repeat_by_nth_wed">
+     <item>প্রতি প্রথম বুধবারে</item>
+     <item>প্রতি দ্বিতীয় বুধবারে</item>
+     <item>প্রতি তৃতীয় বুধবারে</item>
+     <item>প্রতি চতুর্থ বুধবারে</item>
+     <item>প্রতি শেষ বুধবারে</item>
+     </string-array>
+    <string-array name="repeat_by_nth_thurs">
+     <item>প্রতি প্রথম বৃহস্পতিবারে</item>
+     <item>প্রতি দ্বিতীয় বৃহস্পতিবারে</item>
+     <item>প্রতি তৃতীয় বৃহস্পতিবারে</item>
+     <item>প্রতি চতুর্থ বৃহস্পতিবারে</item>
+     <item>প্রতি শেষ বৃহস্পতিবারে</item>
+     </string-array>
+    <string-array name="repeat_by_nth_fri">
+     <item>প্রতি প্রথম শুক্রবারে</item>
+     <item>প্রতি দ্বিতীয় শুক্রবারে</item>
+     <item>প্রতি তৃতীয় শুক্রবারে</item>
+     <item>প্রতি চতুর্থ শুক্রবারে</item>
+     <item>প্রতি শেষ শুক্রবারে</item>
+     </string-array>
+    <string-array name="repeat_by_nth_sat">
+     <item>প্রতি প্রথম শনিবারে</item>
+     <item>প্রতি দ্বিতীয় শনিবারে</item>
+     <item>প্রতি তৃতীয় শনিবারে</item>
+     <item>প্রতি চতুর্থ শনিবারে</item>
+     <item>প্রতি শেষ শনিবারে</item>
+     </string-array>
+</resources>

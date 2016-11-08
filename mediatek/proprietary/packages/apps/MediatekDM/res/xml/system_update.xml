@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/dm_entry_title" >
+
+    <Preference
+        style="?android:preferenceInformationStyle"
+        android:key="current_version"
+        android:summary="@string/release_date"
+        android:title="@string/current_version" />
+    <Preference
+        android:key="system_update"
+        android:summary="@string/download_status"
+        android:title="@string/system_update" />
+    <Preference
+        android:key="update_install"
+        android:summary="@string/install_version"
+        android:title="@string/update_install" />
+
+</PreferenceScreen>

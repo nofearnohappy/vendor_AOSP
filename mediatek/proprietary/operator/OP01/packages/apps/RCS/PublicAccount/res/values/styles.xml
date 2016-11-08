@@ -1,0 +1,54 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="separator_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2px</item>
+        <item name="android:background">@drawable/ipmsg_chat_split_line</item>
+    </style>
+
+    <style name="PamTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@*android:color/primary_text_light</item>
+        <item name="android:actionBarWidgetTheme">@style/HoloLightSelectMode</item>
+        <item name="android:actionModeStyle">@style/PamActionMode</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:alertDialogTheme">@style/PamAlertDialog</item>
+        <item name="android:actionBarSize">@dimen/actionbar_size</item>
+    </style>
+    
+    <style name="PamAlertDialog" parent="android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:textColor">@*android:color/primary_text_light</item>
+         <item name="android:colorAccent">@color/primary</item>
+    </style>
+    
+    <style name="PamActionMode" parent="@android:style/Widget.Material.Light.ActionMode">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:actionModeBackground">@color/primary</item>
+    </style>
+    
+    <style name="HoloLightSelectMode" parent="android:style/Widget.Material.Light.ListPopupWindow">
+        <item name="android:popupBackground">@null</item>
+    </style>
+    
+</resources>

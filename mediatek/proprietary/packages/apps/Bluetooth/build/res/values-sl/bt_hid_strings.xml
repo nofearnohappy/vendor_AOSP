@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">Brezžična vnosna naprava</string>
+  <string name="bluetooth_hid_connect">"Vzpostavi povezavo"</string>
+    <string name="bluetooth_hid_disconnect">"Prekini povezavo"</string>
+	<string name="bluetooth_hid_unplug">Odklopi</string>
+	<string name="bluetooth_hid_addnewdevice">Dodaj novo napravo</string>
+  <string name="bluetooth_hid_paireddevices">Povezana brezžična vnosna naprava</string>
+	<string name="bluetooth_hid_bt_ok">Omogočitev Bluetooth je uspela!</string> 
+	<string name="bluetooth_hid_bt_fail">Omogočitev Bluetooth ni uspela!</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">Prekini povezavo z brezžično vnosno napravo</string>
+  <string name="bluetooth_hid_unplug_confirm_title">Odklopi brezžično vnosno napravo</string>
+  <string name="bluetooth_hid_auth_confirm_title">Sprejmi zahtevek za brezžično vnosno napravo</string>
+  <string name="bluetooth_hid_summary_connected">"Povezano"</string> 
+	<string name="bluetooth_hid_summary_connecting">"Vzpostavljanje povezave ..."</string>
+	<string name="bluetooth_hid_summary_not_connected">Napravi sta se spoznali, vendar povezava med njima ni vzpostavljena</string>
+	<string name="bluetooth_hid_yes">"Da"</string> 
+	<string name="bluetooth_hid_no">"Ne"</string>
+  <string name="bluetooth_hid_connected_notify_ticker">Povezava z brezžično vnosno napravo je vzpostavljena</string>
+  <string name="bluetooth_hid_connected_notify_title">Povezava z brezžično vnosno napravo je vzpostavljena</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">Zahtevek za vzpostavitev povezave z brezžično vnosno napravo</string>
+  <string name="bluetooth_hid_connect_request_notify_title">Zahtevek za vzpostavitev povezave z brezžično vnosno napravo</string>
+    <string name="bluetooth_hid_connected_notify_message">To možnost izberite, če želite prekiniti povezavo s/z %1$s</string>
+    <string name="bluetooth_hid_connect_request_notify_message">Izberite, ali želite sprejeti zahtevek za vzpostavitev povezave %1$s ali ne</string>
+  <string name="bluetooth_hid_connect_ok">Vzpostavljanje povezave z brezžično vnosno napravo %1$s je uspelo!</string>
+  <string name="bluetooth_hid_connect_fail">Vzpostavljanje povezave z brezžično vnosno napravo %1$s ni uspelo!</string>
+  <string name="bluetooth_hid_disconnect_ok">Prekinitev povezave z brezžično vnosno napravo %1$s je uspela!</string>
+  <string name="bluetooth_hid_disconnect_fail">Prekinitev povezave z brezžično vnosno napravo %1$s ni uspela!</string>
+  <string name="bluetooth_hid_unplug_ok">Odklop brezžične vnosne naprave %1$s je uspel!</string>
+  <string name="bluetooth_hid_unplug_fail">Odklop brezžične vnosne naprave %1$s ni uspel!</string>
+  <string name="bluetooth_hid_disconnect_confirm">Ali želite prekiniti povezavo z brezžično vnosno napravo %1$s?</string>
+  <string name="bluetooth_hid_unplug_confirm">Ali želite odklopiti brezžično vnosno napravo %1$s?</string>
+  <string name="bluetooth_hid_auth_confirm">Ali želite sprejeti zahtevek %1$s za vzpostavitev povezave z brezžično vnosno napravo?</string>
+  <string name="bluetooth_hid_summary_disconnecting">Prekinjanje povezave...</string>
+</resources>

@@ -1,0 +1,8 @@
+-keep class com.mediatek.floatmenu.KeyButtonView {
+  public float getDrawingAlpha();
+  public float getGlowAlpha();
+  public float getGlowScale();
+  public void setDrawingAlpha(float);
+  public void setGlowAlpha(float);
+  public void setGlowScale(float);
+}

@@ -1,0 +1,29 @@
+MFNR Core
+
+
+WHAT IT DOES?
+=============
+
+An platform-indepent MFNR core to do MFNR logic/algorthim control flow.
+
+
+HOW IT WAS BUILT?
+==================
+
+It needs the following libs from AOSP:
+1. libutils.so
+2. libcutils.so
+
+And it needs mfllmodules.a to build mfllcore library.
+
+The shared lib should be defined by MFLL_SHARED_LIBS.
+
+
+HOW TO USE IT?
+==============
+
+All modules (e.g. Camera HAL or an unit test) should use
+IMfllCore as the public interface to talk with MFNR core.
+
+All the source code of this program were written by MediaTek co..
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+  <include  android:id="@+id/rcs_forward_recipients_editor_stub"
+            layout="@layout/recipients_editor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            />
+
+  <TextView android:id="@+id/rcs_recent_item_text"
+            android:layout_below = "@id/rcs_forward_recipients_editor_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:singleLine="true"
+            android:text="@string/rcs_forward_recent_contact"
+            android:background="@color/primary"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+            <!-- android:divider="@android:drawable/divider_horizontal_bright" -->
+
+  <!-- only for devider line -->
+  <!-- <TextView android:id="@+id/forward_divider" -->
+  <!--           android:layout_below = "@id/rcs_recent_item_text" -->
+  <!--           android:layout_width="fill_parent" -->
+  <!--           android:layout_height="5px" -->
+  <!--           android:background="@color/text_hairline"/> -->
+
+  <ListView android:id = "@id/android:list" 
+            android:layout_below = "@id/rcs_recent_item_text"
+            android:layout_width = "fill_parent"
+            android:layout_height = "wrap_content"
+            android:scrollbarStyle="insideOverlay"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:layout_weight = "1"/>
+
+</RelativeLayout>

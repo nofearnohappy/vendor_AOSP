@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="wifi_tether_introduction_title">نقطة اتصال Wi-Fi المحمولة</string>
+    <string name="wifi_tether_introduction_text">من خلال تحويل جهازك إلى نقطة اتصال Wi-Fi محمولة يمكنك مشاركة الاتصال بالإنترنت به مع ما يصل إلى 8 أجهزة أخرى في نفس الوقت.\n\nيرجى ملاحظة أن وظيفة مشاركة نقطة الاتصال المحمولة ستستخدم خدمة الاتصال ببيانات شبكة الجوال. وهذا قد يؤدي لزيادة كبيرة في تكاليف اتصالك وتقليل مدة عمل البطارية.</string>
+    <string name="wifi_tether_checkbox_nosim_text">يرجى إدخال بطاقة SIM وإعادة تشغيل الجهاز لاستخدام وظيفة نقطة اتصال Wi-Fi المحمولة أو لمشاركة نقطة الاتصال المحمولة.</string>
+    <string name="wifi_tether_checkbox_show_once_more">لا تعرض هذه الرسالة مرة أخرى</string>
+    <string name="wifi_tether_turn_off_wifi">لتشغيل نقطة اتصال Wi-Fi المحمولة ستحتاج أولا لإيقاف اتصال Wi-Fi الخاص بك. هل تريد المتابعة؟</string>
+    <string name="wifi_tether_settings_text">إعدادات نقطة اتصال Wi-Fi المحمولة</string>
+    <string name="tether_apn_settings_text">اسم نقطة الاتصال المحمولة (Tethering APN)</string>
+    <string name="tether_apn_settings_subtext">ضبط الاسم الافتراضي لنقطة الاتصال (APN) لمشاركة نقطة الاتصال المحمولة</string>
+    <string name="usb_tethering_accessory_active_subtext">لا يمكن تشغيل وظيفة مشاركة نقطة الاتصال المحمولة أثناء استخدام USB.</string>
+    <string name="operator_display">إظهار مشغّل الشبكة</string>
+    <string name="operator_display_summary">إظهار مشغّل الشبكة في شريط الحالة</string>
+    <string name="by_orange">بواسطة Orange</string>
+    <string name="recommended_by_orange">موصى به من قبل Orange</string>
+    <string name="smsmms_app_name">تطبيق الرسائل النصية غير نشط</string>
+    <string name="click_to_change_to_xms_app">تطبيق الرسائل النصية ليس تطبيق رسائل SMS الافتراضي الخاص بك.</string>
+    <string name="click_to_change_to_xms_app_line2">انقر هنا للمزيد من المعلومات.</string>
+    <string name="sms_change_default_dialog_text1">تم اختبار تطبيق الرسائل النصية بواسطة Orange للتحقق من عمله على جهازك.\n\n
+
+قد يؤدي استخدام تطبيقات SMS أخرى إلى حدوث مشكلات في إرسال رسائل SMS ورسائل MMS واستلامها. \n\n
+
+هل تريد استخدام <xliff:g id="new_app">%s</xliff:g> بدلاً من <xliff:g id="current_app">%s</xliff:g> كتطبيق SMS الخاص بك؟</string>
+    
+</resources>

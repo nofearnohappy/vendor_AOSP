@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/profilesbg"
+	android:orientation="vertical" >
+
+	<ListView
+		android:id="@+id/presetsListView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:divider="@color/black"
+		android:dividerHeight="1px"
+		android:isScrollContainer="true"
+		android:listSelector="@drawable/profileselector"
+		android:overScrollMode="never"
+		android:scrollbars="none"
+		android:soundEffectsEnabled="false"
+		tools:listitem="@layout/preset_list_item" >
+	</ListView>
+
+</LinearLayout>

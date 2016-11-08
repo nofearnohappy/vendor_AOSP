@@ -1,0 +1,30 @@
+APK of file management in storage, including create folder, list files of folder, 
+copy/paste files in storage.
+
+This APK is pre-built by MediaTek internal.
+
+WHAT IT DOES?
+=============
+FileManager.apk manage files in storage(Phone Storage/SD card etc).
+1. create folder
+2. list files of folder
+3. copy/paste/cut files
+4. delete files
+5. search file
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1. framework.jar
+
+and the following libs from MediaTek:
+1. mediatek-framework.jar
+2. mediatek-common.jar
+2. com.mediatek.filemanager.ext.jar
+
+All source/dependency modules of this module are already put in
+'/system/framework' folder.
+
+HOW TO USE IT?
+==============
+install FileManager.apk in mediatek platform.

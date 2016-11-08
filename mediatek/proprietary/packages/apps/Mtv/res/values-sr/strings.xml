@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hw_init_failed">Хардверска иницијализација није успела.</string>
+    <string name="stop_record_first">Прво зауставите снимање.</string>
+    <string name="location_changed">Локација промењена на %1$s.</string>
+    <string name="saved_to_gallery">Сачувано у галерију.</string>
+    <string name="channel">канал</string>
+    <string name="scan_confirm">Тренутна листа канала ће бити избрисана.</string>
+    <string name="turning_on_tv">Turning on TV…</string>
+    <string name="please_wait">Сачекајте\u2026</string>
+    <string name="no_storage">Уметните SD картицу.</string>
+    <string name="preparing_sd">"Припремање SD картице…"</string>
+    <string name="multiselect">"Вишеструки избор"</string>    
+    <string name="confirm_delete_message">Канал ће бити избрисан.</string>
+    <string name="confirm_delete_multiple_message">Ови канали ће бити избрисани.</string>
+<string name="scanning_channels">Тражење канала</string>
+<string name="stop">"Заустави"</string>
+<string name="choose_sound_mode">Изаберите режим звука</string>
+<string name="brightness">"Осветљеност"</string>
+<string name="contrast">"Контраст"</string>
+<string name="saturation">"Засићен. боја"</string>
+<string name="gallery">"Галерија"</string>
+<string name="record">Снимање</string>
+<string name="video_setting">Подешавање видеа</string>
+<string name="previous_channel">Претходни канал</string>
+<string name="sound_setting">Подешавање звука</string>
+<string name="rename">"Преименуј"</string>
+<string name="fail_to_select_location">Избор локације није успео.</string>
+<string name="no_channels_hint">Листа канала је празна.</string>
+<string name="select_location">Изабери локацију</string>
+<string name="channel_list">Листа канала</string>
+<string name="no_channels_found">Канал није пронађен.</string>
+<string name="scan_again">Тражи поново</string>
+<string name="scan">"Скенирај"</string>
+<string name="delete">"Избриши"</string>
+<string name="watch_now">Гледајте сада</string>
+<string name="select_all">"Изабери све"</string>
+<string name="new_channel_name">Ново име канала:</string>
+<string name="spaceIsLow_content">Остало је мало слободног простора на вашој SD картици.</string>
+<string name="vt_in_use_warning">ТВ није доступан током позива.</string>
+<string name="analog_tv">"Аналогни ТВ"</string>
+<string name="selected">%d изабрано</string>   
+</resources>

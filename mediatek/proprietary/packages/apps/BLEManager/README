@@ -1,0 +1,25 @@
+This module will create the BLEManager.apk
+
+This apk is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+This apk used to scan, connect, manage the BLE devices.
+
+HOW IT WAS BUILT?
+==================
+It needs the following *.jar from mediatek:
+com.mediatek.ngin3d-static
+libja3m
+mediatek-framework
+
+and the following *.jar from AOSP:
+
+
+HOW TO USE IT?
+==============
+This is a demo apk how to use the MediaTek GATT framework.
+
+The majority of source code for this library were written by MediaTek.  Various
+open source libraries are also used and contained in this folder.

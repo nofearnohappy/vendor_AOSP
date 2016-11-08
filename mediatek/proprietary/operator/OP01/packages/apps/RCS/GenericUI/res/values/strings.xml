@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Op01RcsGenericUI</string>
+
+    <string name="rcs_core_rcs_notification_title">RCS services</string>
+    <string name="rcs_core_loaded">RCS services is loaded</string>
+    <string name="rcs_core_failed">RCS services has failed</string>
+    <string name="rcs_core_started">RCS services is started</string>
+    <string name="rcs_core_stopped">RCS services is stopped</string>
+    <string name="rcs_core_ims_connected">Connected to RCS platform</string>
+    <string name="rcs_core_ims_try_connection">Connecting to joyn platform</string>
+    <string name="rcs_core_ims_connection_failed">Can\’t connect to joyn platform</string>
+    <string name="rcs_core_ims_try_disconnect">Disconnecting from joyn platform</string>
+    <string name="rcs_core_ims_battery_disconnected">Disconnected from joyn platform (Battery low)</string>
+    <string name="rcs_core_ims_disconnected">Disconnected from joyn platform</string>
+
+    <string name="remind_open_data">Please open the data connection of the RCS SIM to use RCS services</string>
+
+    <!--RCS settings String Start-->
+    <string name="rcs_setting_title">RCS</string>
+    <string name="rcs_sms_mode_title">Auto-change to SMS</string>
+    <string name="rcs_sms_mode_summary">Automatically send as SMS when RCS IP message failed</string>
+    <string name="sms_change_default_dialog_text">Use <xliff:g id="new_app">%1$s</xliff:g> instead of <xliff:g id="current_app">%2$s</xliff:g> as your SMS app? RCS service may not be supported.</string>
+    <string name="sms_change_default_dialog_title">Change SMS app?</string>
+    <!--RCS settings String End-->
+</resources>

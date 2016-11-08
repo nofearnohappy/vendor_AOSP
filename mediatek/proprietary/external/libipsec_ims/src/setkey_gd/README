@@ -1,0 +1,23 @@
+This module creates demon---setkey_gd.
+
+
+WHAT IT DOES?
+=============
+It is used to set ipsec tunnel policy.
+
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+
+libcutils libcrypto
+
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/libipsec_ims' folder.
+
+HOW TO USE IT?
+==============
+Just run it as a deamon. -h option will help for using it.
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">ទាញយកTurbo</string>
+    <string name="hetcomm_intro">ទាញយកឯកាសារធំៗ(លើសពី 20 MB) ឲ្យបានលឿនដោយប្រើបណ្តាញ Wi-Fi និង 4G/3G នៅពេលដូចគ្នា។ អាយខន់ដោនឡូដ Turbo នឹងបង្ហាញឲ្យ​ឃើញ​នៅលើរបារស្ថានភាពពេលវាកំពុងដំណើរការ។ ដើម្បីប្រើ​ដោនឡូដ Turbo បាន ត្រូវតែបើកទាំង​ទិន្នន័​យទូរសព្ទ ទាំង Wi-Fi។ លើសពីនេះ គឺពេលបើកវាហើយ ទិន្នន័យកម្មវិធី​មួយ​ចំនួនដែលអ្នកជ្រើសដើម្បីទាញយកតាមរយៈ Wi-Fi នឹងមាន​ការទាញយកតាមរយៈបណ្តាញ WLAN និង​ប្រព័ន្ធ 4G/3G។</string>
+    <string name="enable_switch_on">បើក</string>
+    <string name="enable_switch_off">បិទ</string>
+    <string name="notify_top_title">ល្បឿនទាញយក</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">Wi-Fi</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"ទិន្នន័យ​ចល័ត"</string>
+    <string name="conn_notice_title">​មាន​បិទ​ទាំងទូរសព្ទ ឬ ទាំងWi-Fi។</string>
+    <string name="conn_notice_detail">ត្រូវតែបើកទាំង Wi-Fi និង ទិន្នន័យចល័ត ដើម្បីបើកដោនឡូដ Turbo។</string>
+    <string name="conn_charging_warning">ការទាញយកតាមរយៈបណ្តាញចល័តអាចនាំមាន​ការគិតថ្លៃ​បន្ថែម​រួម​បញ្ចូល​គ្នា។</string>
+    <string name="turn_on">បើក <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">មានបិទដោនឡូដ Turbo ដោយសារ Vpn បើក</string>
+    <string name="turn_off_due_to_tether">មានបិទដោនឡូដ Turbo ដោយសារ ថេតធឺរីងបើក</string>
+    <string name="turn_off_due_to_shutdown">មានបិទដោនឡូដ Turbo ដោយសារការបិទ</string>
+    <string name="turn_off_due_to_roaming">មានបិទដោនឡូដ Turbo ដោយសារ៉ូមីង</string>
+    <string name="ratio_is_single">ល្បឿន Wi-Fi/ទិន្នន័យចល័តយឺត។ ដើម្បីបង្កើនល្បឿនដោនឡូដ Turbo download នឹងគ្រាន់តែប្រើទិន្នន័យចល័ត/Wi-Fi ដើម្បីដោនឡូដឯកសារប៉ុណ្ណោះ។</string>
+    <string name="ratio_is_back">Turbo download ប្រើឡើងវិញនូវ Wi-Fi និងទិន្នន័យចល័តរួមគ្នាដើម្បីទាញយកឯកសារ។</string>
+    <string name="action_help">ជំនួយ</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>ជំនួយ​ទាញយក Turbo</u>\
+    </h1><br>ទាញយក​ឯកសារ​ធំៗក្នុង​ល្បឿនលឿន​បំផុត​ដោយ​ប្រើប្រព័ន្ធ Wi-Fi និង 4G/3G ក្នុង​ពេល​តែ​មួយ។\
+    <h4>1. ឆ្ពោះ​ទៅ​កាន់​កំណត់ និង​ចុច​លើ​ថេប​ទាញយក Turbo។</h4>\
+    <h4>2. ចុច​លើ​ថេប​ប្ដូរ ដើម្បី​បើក​មុខងារ​ទាញយក Turbo។</h4>\
+    <p><b>[ការណែនាំខ្លីៗ]</b> ដើម្បី​បង្កើនល្បឿន​ទាញយក​បាន (ក្នុងករណី​មានភ្ជាប់ទាំងប្រព័ន្ធ Wi-Fi ទាំង 4G/3G) ក្នុង​ពេល​ចាប់ផ្ដើម​ការទាញយករបស់អ្នក។\
+    <p><b>[ការណែនាំខ្លីៗ]</b> បើ​ការភ្ជាប់ប្រព័ន្ធ Wi-Fi ឬ 4G/3G មាន​ល្បឿនយឺតខ្លាំង អ្នក​អាច​ប្រើការភ្ជាប់​បណ្ដាញ​ដែលលឿនជាង​របស់អ្នក​ដើម្បី​ទាញយក។\
+    <p><b>[ការណែនាំខ្លីៗ]</b> ល្បឿន និង​ការបំពេញ​មុខងារ​ទាញយក Turbo អាច​នឹង​រងផលប៉ះពាល់លើ​កន្លែង​បណ្ដាញ នៅខណៈនៃការទាញយក។\
+    <br>&nbsp;&nbsp;- បើវិទ្យុសញ្ញាមិននឹងល្អ ល្បឿន និងការបពេញមុខងារនេះ​អាច​នឹងមាន​រងផលប៉ះពាល់។\
+    <br>&nbsp;&nbsp;- លើ​ពីនេះ (ក្នុង​កម្រិតមធ្យម) ល្បឿនទាញនឹងមានចំនួន ""ទ្វេដង"" ច្រើនជាង បើ​ធៀបទៅនឹង​ការប្រើតែ​ប្រព័ន្ធ Wi-Fi ឬ 4G/3G តែឯង។\
+    <p><b>[ការណែនាំខ្លីៗ]</b> នៅពេល​ភាពខុសគ្នានៃ​ល្បឿន​របស់​ប្រព័ន្ធ Wi-Fi និង 4G/3G មាន​គម្លាតខ្លាំង (តាមធម្មតា​មាន​ចំនួន 2.5 ដង) ការទាញយក Turbo នឹង​ឈប់ ឬ​នឹង​មិន​ទ្រទ្រង់​ ប្រយោជន៍​ជៀសវាង​ដំណើរការមិនល្អ​ដែល​ទាក់ទង​ទៅបញ្ហា​ល្បឿន។\
+    <p><b>[ការណែនាំខ្លីៗ]</b> ទាញយក Turbo នឹង​មាន​ការបិទ នៅពេល​ដែល​មាន​បើកធីតថឺរីនង/Vpn។\
+    </body></html>]]>"</string>
+</resources>

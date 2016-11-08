@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bluetooth_ftp_client_file_operations">
+		<item>Позови</item>
+		<item>"Избриши"</item>
+	</string-array>
+	<string-array name="bluetooth_ftp_client_folder_operations">
+		<item>"Отвори"</item>
+		<item>"Избриши"</item>
+	</string-array>
+	<string-array name="bluetooth_ftp_server_permission_entries">
+		<item>Само за читање</item>
+		<item>Пуна контрола</item>
+	</string-array>
+</resources>

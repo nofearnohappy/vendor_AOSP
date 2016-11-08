@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_label">Bluetooth құрылғысы арқылы ойнату </string>
+	<string name="app_description">"Bluetooth профилінің бумасы"</string>
+	<string name="bt_base_activity_busy_message">Жүктелуде. Күтіңіз...</string>
+	<string name="bt_base_activity_service_disconnected">Қызмет өшірілді!</string>
+	<string name="bt_base_profile_feature_disabled">"Өшірулі Bluetooth мүмкіндігін пайдалану мүмкін емес."</string>
+	<string name="bt_share_mgmt_tab_in_title">Жүктеу</string>
+	<string name="bt_share_mgmt_tab_out_title">Жылдам жүктеулер</string>
+	<string name="bt_share_mgmt_tab_menu_clear">Барлық ескертпелерді жою.</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"Файлды тасымалдау үшін қосылған"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">Тегті жазу операциясы дұрыс аяқталмады.\n\n %1$s\n\n Әрекетті қайталау қажет пе?</string>
+	<string name="bt_share_mgmt_tab_dialog_no">Соңғы таңдалған іздеу ұсыныстарының таңбашаларын тазалау</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"%2$s жіберушіден %1$s файлы қабылданбады."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"%2$s қабылдаушыға %1$s файлы жіберілмеді."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"%2$s қабылдаушыға %1$s файлы жіберілді."</string>
+	<string name="bt_share_mgmt_notification_ticker">"Bluetooth бөлісу журналы"</string>
+	<string name="bt_share_mgmt_notification_title">"Bluetooth бөлісу журналы"</string>
+	<string name="bt_share_mgmt_notification_message">"Bluetooth бөлісу журналын көру үшін таңдаңыз."</string>
+	<string name="bt_share_openfile_title">Өкінішке орай файлды ашу мүмкін емес.</string>
+	<string name="bt_share_openfile_message_invalid_param">"Дұрыс емес файл: %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"Қолдау көрсетілмейтін файл түрі: %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"Файл табылмады: %1$s"</string>
+	<string name="bt_share_openfile_confirm">SMS қызмет көрсету орталығы орнатылған</string>
+</resources>

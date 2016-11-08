@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- esurfing dialog layout start-->
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/esurfing_dialing_dialog_guide"
+        android:layout_marginTop="200dip"
+        android:layout_width="177dip"
+        android:layout_height="275dip"
+        android:orientation="vertical"
+        android:background="@drawable/esurfing_dialing_dialog">
+
+        <RelativeLayout android:id="@+id/yi_dialing_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:orientation="horizontal"
+            android:paddingLeft="13dip"
+            android:paddingRight="13dip"
+            android:gravity="center_vertical">
+
+            <TextView android:id="@+id/yi_dialing_title_name"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/esurfing_dialing_button_margin"
+                android:maxWidth="@dimen/esurfing_dialing_text_max_width"
+                android:ellipsize="end"
+                android:text="@string/yi_dialing_dialog_title"
+                android:textSize="16dip"
+                android:textColor="@android:color/holo_blue_light"
+                android:singleLine="true" />
+
+            <ImageButton android:id="@+id/yi_dialing_title_icon"
+                android:layout_alignParentRight="true"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:background="@drawable/esurfing_guide_help"/>
+
+        </RelativeLayout>
+
+        <TextView android:id="@+id/country_select_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:textSize="@dimen/esurfing_dialing_radio_button_text_size"
+            android:text="@string/local_call"
+            android:enabled="false"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/numberEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:paddingLeft="@dimen/esurfing_dialing_guide_left_margin"
+            android:paddingRight="@dimen/esurfing_dialing_button_margin"
+            android:textSize="@dimen/esurfing_dialing_radio_button_text_size"
+            android:text="@string/local_call"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:clickable="false"/>
+
+        <RelativeLayout android:id="@+id/home_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/esurfing_dialing_button_margin"
+            android:paddingLeft="@dimen/esurfing_dialing_radio_button_margin"
+            android:paddingRight="@dimen/esurfing_dialing_button_margin"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton android:id="@+id/home_country_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/esurfing_radio_checked"/>
+
+            <TextView android:id="@+id/home_country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/esurfing_dialing_radio_text_margin"
+                android:maxWidth="@dimen/esurfing_dialing_text_max_width"
+                android:ellipsize="end"
+                android:text="@string/dial_to_home_country"
+                android:textSize="@dimen/esurfing_dialing_radio_button_text_size"
+                android:layout_centerVertical="true"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/international_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/esurfing_dialing_radio_button_pending_top"
+            android:paddingLeft="30dip"
+            android:paddingRight="@dimen/esurfing_dialing_button_margin"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton android:id="@+id/international_call_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/esurfing_radio_checked"/>
+
+            <TextView android:id="@+id/international_call_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/esurfing_dialing_radio_text_margin"
+                android:maxWidth="@dimen/esurfing_dialing_text_max_width"
+                android:ellipsize="end"
+                android:text="@string/international_call"
+                android:textSize="@dimen/esurfing_dialing_radio_button_text_size"
+                android:layout_centerVertical="true"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/ct_callback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/esurfing_dialing_radio_button_pending_top"
+            android:paddingLeft="30dip"
+            android:paddingRight="@dimen/esurfing_dialing_button_margin"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton android:id="@+id/ct_callback_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/esurfing_radio_unchecked"/>
+
+            <TextView android:id="@+id/ct_callback_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/esurfing_dialing_radio_text_margin"
+                android:maxWidth="@dimen/esurfing_dialing_text_max_width"
+                android:ellipsize="end"
+                android:text="@string/ct_callback"
+                android:textSize="@dimen/esurfing_dialing_radio_button_text_size"
+                android:layout_centerVertical="true"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/dial_to_another_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/esurfing_dialing_radio_button_pending_top"
+            android:paddingLeft="@dimen/esurfing_dialing_radio_button_margin"
+            android:paddingRight="@dimen/esurfing_dialing_button_margin"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton android:id="@+id/dial_to_another_country_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/esurfing_radio_unchecked"/>
+
+            <TextView android:id="@+id/dial_to_another_country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/esurfing_dialing_radio_text_margin"
+                android:maxWidth="@dimen/esurfing_dialing_text_max_width"
+                android:ellipsize="end"
+                android:text="@string/dial_to_another_country"
+                android:textSize="@dimen/esurfing_dialing_radio_button_text_size"
+                android:layout_centerVertical="true"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout android:id="@+id/local_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/esurfing_dialing_radio_button_pending_top"
+            android:paddingLeft="@dimen/esurfing_dialing_radio_button_margin"
+            android:paddingRight="@dimen/esurfing_dialing_button_margin"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton android:id="@+id/local_call_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/esurfing_radio_unchecked"/>
+
+            <TextView android:id="@+id/local_call_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/esurfing_dialing_radio_text_margin"
+                android:maxWidth="@dimen/esurfing_dialing_text_max_width"
+                android:ellipsize="end"
+                android:text="@string/local_call"
+                android:textSize="@dimen/esurfing_dialing_radio_button_text_size"
+                android:layout_centerVertical="true"
+                android:singleLine="true" />
+
+        </RelativeLayout>
+
+        <TextView android:id="@+id/call_button"
+            android:layout_marginTop="23dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dip"
+            android:textSize="15dip"
+            android:text="@string/yi_dialing_dialing_call_button"
+            android:enabled="false"/>
+
+    </LinearLayout>
+    <!-- esurfing dialog layout end-->

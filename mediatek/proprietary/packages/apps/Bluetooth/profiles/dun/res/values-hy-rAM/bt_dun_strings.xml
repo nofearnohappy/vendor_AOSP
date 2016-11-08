@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_dun_authorize_title">"Bluetooth հեռախոսագծային թույլատրում"</string>
+	<string name="bluetooth_dun_authorize_message">"Թույլատրե՞լ հեռախոսագծային կապակցման հայցումը %1$s-ից""</string>
+	<string name="bluetooth_dun_authorize_allow">"Թույլատրել"</string>
+	<string name="bluetooth_dun_authorize_decline">Տվյալների փոխանցման արագությունը կմերժվի:</string>
+	<string name="bluetooth_dun_notification_connect_request_ticker">"Bluetooth հեռախոսագծային թույլատրման հայցում"</string>
+	<string name="bluetooth_dun_notification_connect_request_title">"Bluetooth հեռախոսագծային թույլատրման հայցում"</string>
+	<string name="bluetooth_dun_notification_connect_request_message">"Ընտրել` %1$s-ից հայցումը ընդունելու համար"</string>
+</resources>

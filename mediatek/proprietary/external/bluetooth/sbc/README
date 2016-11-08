@@ -1,0 +1,15 @@
+WHAT IT DOES?
+=============
+The shared library 'libsbccodec.so' is a SBC codec implementation.
+SBC codec is used in A2DP HAL, it supplies encoder / decoder for A2DP when sending / receiveing audio data
+
+HOW IT WAS BUILT?
+==================
+This library is pre-built by MediaTek internal.
+
+HOW TO USE IT?
+==============
+
+The shared library 'libsbccodec.so' is loaded and invoked by bluetooth A2DP audio hal.
+
+All the source code of this library were written by MediaTek co..

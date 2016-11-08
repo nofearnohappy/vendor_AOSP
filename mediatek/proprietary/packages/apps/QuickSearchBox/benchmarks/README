@@ -1,0 +1,18 @@
+This directory contains sources for Latency handling of MtkQuickSearchBox.
+
+WHAT IT DOES?
+=============
+This module incorporates Activity to check Latency and concurrency benchmarks for MtkQuickSearchBox.
+
+HOW IT WAS BUILT?
+==================
+mmm vendor/mediatek/proprietary/packages/apps/QuickSearchBox/benchmarks
+
+HOW TO USE IT?
+==============
+1. Install MtkQuickSearchBoxBenchmarks.apk by using adb install -r $OUT/data/app/MtkQuickSearchBoxBenchmarks.apk
+2. Use adb command to run respective benchmarks as per below actions and then observe logcat:
+ a. adb shell am start -a android.intent.action.MAIN -n com.android.quicksearchbox.benchmarks/.ApplicataionsLatency
+ b. adb shell am start -a android.intent.action.MAIN -n com.android.quicksearchbox.benchmarks/.ContactsLatency
+ c. adb shell am start -a android.intent.action.MAIN -n com.android.quicksearchbox.benchmarks/.WebConcurrency
+ d. adb shell am start -a android.intent.action.MAIN -n com.android.quicksearchbox.benchmarks/.WebLatency

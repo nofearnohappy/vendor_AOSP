@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">সংরক্ষণ করুন</string>
+    <string name="menu_deleteContact" msgid="1916555454274101750">পরিচিতজন মুছুন</string>
+    <string name="menu_select_all">"সব নির্বাচন করুন"</string>  
+    <string name="menu_select_none">"সব নির্বাচনমুক্ত করুন"</string>  
+    <string name="menu_new_contact_action_bar">নতুন</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> নির্বাচিত
+    </string>  
+    <string name="multichoice_no_select_alert">"কোন আইটেম নির্বাচন করা হয়নি।"</string> 
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">অতিরিক্ত নম্বরের জন্য ইউসিমে লেবেল দেয়া হয়েছে</string>  
+    <string name="aas_phone_type_none">কোনটাই নয়</string>  
+    <string name="aas_new_dialog_title">নতুন লেবেল যোগ করুন</string>  
+    <string name="ass_rename_dialog_title">লেবেলটি সম্পাদনা করুন</string>  
+    <string name="aas_delele_dialog_message">লেবেলটি মুছে ফেলা হলে লেবেলটির সাথে অতিরিক্ত যে সকল নম্বরের সংযোগ দেয়া আছে সেসকল নম্বরের ওপর প্রভাব ফেলবে । আপনি কি নিশ্চিত?</string>  
+    <string name="aas_name_invalid">লেবেলের নামটি অকার্যকর । অন্য আরেকটি প্রবেশ করান ।</string>  
+    <string name="aas_name_exist">লেবেলটি আগেই বিদ্যমান ।</string>  
+    <string name="aas_usim_full">নতুন লেবেলের জন্য কোন জায়গা নেই ।</string>  
+    <string name="ass_edit_assert_message">লেবেলটি সম্পাদনা করা হলে লেবেলটির সাথে অতিরিক্ত যে সকল নম্বরের সংযোগ দেয়া আছে সেসকল নম্বরের ওপর প্রভাব ফেলবে । আপনি কি নিশ্চিত?</string>  
+    <string name="aas_new_fail">নতুন লেবেল তৈরি করতে ব্যর্থ হয়েছে ।</string>  
+    <string name="aas_edit_fail">পুনরায় নামকরণ করতে ব্যর্থ হয়েছে 
+        <xliff:g id="aas">%s</xliff:g> 
+    </string>  
+    <string name="aas_delete_fail">মুছতে 
+        <xliff:g id="aas">%s</xliff:g> ব্যর্থ হয়েছে ।
+    </string>  
+    <string name="aas_phone_primary">প্রাথমিক নম্বর</string>  
+    <string name="aas_phone_additional">অতিরিক্ত নম্বর</string>  
+    <!-- aas strings end-->
+</resources>

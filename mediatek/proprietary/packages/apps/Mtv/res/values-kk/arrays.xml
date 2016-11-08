@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<resources>    
+    <string-array name="supported_locations">
+		<item>"Автоматты таңдау"</item>  
+        <item>Құрлықтық Қытай</item>
+        <item>Тайвань</item>
+        <item>Шеньжень, Қытай</item>
+        <item>Гонконг, Қытай</item>
+        <item>Ауғанстан</item>
+        <item>Аргентина</item>
+        <item>Австралия</item>
+        <item>Бразилия</item>
+        <item>Мьянма</item>
+        <item>Камбоджа</item>
+        <item>Канада</item>
+        <item>Чили</item>
+        <item>Шығыс Еуропа</item>
+        <item>Батыс Еуропа</item>
+        <item>Франция</item>
+        <item>Франция отары</item>
+        <item>үндістан</item>
+        <item>Индонезия</item>
+        <item>Иран</item>
+        <item>Италия</item>
+        <item>Жапония</item>
+        <item>Корея</item>
+        <item>Лаос</item>
+        <item>Малайзия</item>
+        <item>Мексика</item>
+        <item>Жаңа Зеландия</item>
+        <item>Пәкістан</item>
+        <item>Парагвай</item>
+        <item>Филиппин</item>
+        <item>Португалия</item>
+        <item>Ресей</item>
+        <item>Сингапур</item>
+        <item>Оңтүстік Африка</item>
+        <item>Испания</item>
+        <item>Таиланд</item>
+        <item>Түркия</item>
+        <item>Біріккен Араб Әмірлігі</item>
+        <item>Біріккен Корольдік</item>
+        <item>Америка Құрама Штаттары</item>
+        <item>Уругвай</item>
+        <item>Венесуэла</item>
+        <item>Вьетнам</item>
+        <item>Ирландия</item>
+        <item>Марокко</item>      
+</string-array>
+<string-array name="AudioFormats">
+<item>Моно</item>
+<item>Стерео</item>
+<item>SAP</item>
+<item>Sub</item>
+<item>Main sub</item>
+<item>Негізгі нөмір</item>
+<item>Dual1</item>
+<item>Dual2</item>
+<item>NICAM Mono</item>
+<item>NICAM Stereo</item>
+<item>NICAM Dual1</item>
+<item>NICAM Dual2</item>
+</string-array>
+</resources>

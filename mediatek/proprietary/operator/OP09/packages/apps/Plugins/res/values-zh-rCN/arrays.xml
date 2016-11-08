@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Settings Power saving mode start -->
+    <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
+    <string-array name="screen_timeout_entries">
+        <item msgid="3342301044271143016">"15 秒"</item>
+        <item msgid="8881760709354815449">"30 秒"</item>
+        <item msgid="7589406073232279088">"1 分钟"</item>
+        <item msgid="7001195990902244174">"2 分钟"</item>
+        <item msgid="7489864775127957179">"5 分钟"</item>
+        <item msgid="2314124409517439288">"10 分钟"</item>
+        <item msgid="6864027152847611413">"30 分钟"</item>
+    </string-array>
+    <!-- Settings Power saving mode end -->
+
+    <string-array name="tty_mode_entries">
+        <item msgid="512950011423868021">"TTY 已停用"</item>
+        <item msgid="3971695875449640648">"TTY 已满"</item>
+        <item msgid="1937509904407445684">"TTY HCO"</item>
+        <item msgid="5644925873488772224">"TTY VCO"</item>
+    </string-array>
+
+    <!-- Mms array begin -->
+    <string-array name="ct_sms_save_location_array">
+        <item>手机</item>
+        <item>UIM 卡</item>
+    </string-array>
+    <!-- Mms array end -->
+</resources>

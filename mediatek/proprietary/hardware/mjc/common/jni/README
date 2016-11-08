@@ -1,0 +1,35 @@
+Library of MTK ClearMotion interface between apk to framework, it includes setting/getting playback-fluency index and range
+as well as demo mode.
+
+This library is pre-built by MediaTek internal.
+
+
+WHAT IT DOES?
+=============
+libMJCjni contains MediaTek developed ClearMotion api for setting/getting playback-fluency parameters
+and demo mode by java application.
+Without them, fluency tuning and demo mode function of ClearMotion will not work¡¨
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libcutils.so
+2.  libutils.so
+
+and the following libs from MediaTek:
+NA
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/libs' folder.
+
+HOW TO USE IT?
+==============
+
+Provide ClearMotion api for java application, those jni funcitons are
+1.  getFallbackIndex
+2.  setFallbackIndex
+3.  getFallbackRange
+4.  getDemoMode
+5.  setDemoMode
+
+All the source code of this library were written by MediaTek co..

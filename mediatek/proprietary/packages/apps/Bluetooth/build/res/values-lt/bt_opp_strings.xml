@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Įeinančio failo užklausa"</string>
+	<string name="bt_opp_notification_in_coming_title">"Įeinančio failo užklausa (iš: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Pasirinkite priimti įeinantį failą."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Leisti gaunamų failų perdavimą"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Gaunama: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Išeinantis failas"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Siunčiama: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Prijungta prie failų perkėlimo"</string>
+	<string name="bt_opp_cancel_task_message">"Atšaukti šį persiuntimą?"</string>
+	<string name="bt_opp_cancel_task_yes">"Taip"</string>
+	<string name="bt_opp_cancel_task_no">Nėra programos, skirtos spausdinti šį adresatą.</string>
+	<string name="bt_opp_canceling_task_message">"Atšaukiamas persiuntimas, prašome palaukti..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth – įeinantis objektas"</string>
+	<string name="bt_opps_confirm_push_message">"Įeinantis failas: %1$s (%2$s) iš %3$s. Priimti?"</string>
+	<string name="bt_opps_confirm_push_yes">Priimti automatinio siuntimo paslaugą ar ne?</string>
+	<string name="bt_opps_confirm_push_no">Atmesti</string>
+	<string name="bt_oppc_push_action_label">"Paleista naudojant „Bluetooth“"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Siunčiamas failas į %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Siunčiami failai į %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Nepalaikomas bendrinimo turinys: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Nėra SD kortelės arba nepakanka vietos įeinančiam failui."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Negaliojanti bendrinimo užklausa iš nuotolinio prietaiso."</string>
+</resources>

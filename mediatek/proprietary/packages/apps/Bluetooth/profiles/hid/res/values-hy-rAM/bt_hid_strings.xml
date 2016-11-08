@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="bluetooth_hid_lable">Անլար ներմուծման սարք</string>
+  <string name="bluetooth_hid_connect">"Միանալ"</string>
+    <string name="bluetooth_hid_disconnect">"Անջատել"</string>
+	<string name="bluetooth_hid_unplug">Հանել խրոցակը</string>
+	<string name="bluetooth_hid_addnewdevice">Հավելել նոր սարք</string>
+  <string name="bluetooth_hid_paireddevices">Զուգակցված անլար ներմուծման սարք</string>
+	<string name="bluetooth_hid_bt_ok">Bluetooth-ը հաջողությամբ ակտիվացավ</string> 
+	<string name="bluetooth_hid_bt_fail">Bluetooth-ի ակտիվացումը ձախողվեց:</string>
+  <string name="bluetooth_hid_disconnect_confirm_title">Ապակցել անլար ներմուծման սարքը</string>
+  <string name="bluetooth_hid_unplug_confirm_title">Հանել անլար ներմուծման սարքը</string>
+  <string name="bluetooth_hid_auth_confirm_title">Ընդունել անլար ներմուծման սարքի հայցումը</string>
+  <string name="bluetooth_hid_summary_connected">"Միացված է"</string> 
+	<string name="bluetooth_hid_summary_connecting">"Միանում է..."</string>
+	<string name="bluetooth_hid_summary_not_connected">Զուգակցված, բայց ոչ կապակցված</string>
+	<string name="bluetooth_hid_yes">"Այո"</string> 
+	<string name="bluetooth_hid_no">"Ոչ"</string>
+  <string name="bluetooth_hid_connected_notify_ticker">Անլար ներմուծման սարքը կապակցված է</string>
+  <string name="bluetooth_hid_connected_notify_title">Անլար ներմուծման սարքը կապակցված է</string>
+  <string name="bluetooth_hid_connect_request_notify_ticker">Անլար ներմուծման սարքի կապակցման հայցում</string>
+  <string name="bluetooth_hid_connect_request_notify_title">Անլար ներմուծման սարքի կապակցման հայցում</string>
+    <string name="bluetooth_hid_connected_notify_message">Ընտրել` %1$s-ի հետ կապակցումն անջատելու համար</string>
+    <string name="bluetooth_hid_connect_request_notify_message">Ընտրել` %1$s կապակցման հայցումը ընդունելու կամ չընդունելու համար</string>
+  <string name="bluetooth_hid_connect_ok">Անլար ներմուծման սարք %1$s-ը հաջողությամբ կապակցվեց:</string>
+  <string name="bluetooth_hid_connect_fail">Անլար ներմուծման սարք %1$s-ի կապակցումը ձախողվեց:</string>
+  <string name="bluetooth_hid_disconnect_ok">Անլար ներմուծման սարք %1$s-ը հաջողությամբ ապակցվեց:</string>
+  <string name="bluetooth_hid_disconnect_fail">Անլար ներմուծման սարք %1$s-ի ապակցումը ձախողվեց:</string>
+  <string name="bluetooth_hid_unplug_ok">Անլար ներմուծման սարք %1$s-ը հաջողությամբ հանվեց:</string>
+  <string name="bluetooth_hid_unplug_fail">Անլար ներմուծման սարք %1$s-ի հանումը ձախողվեց:</string>
+  <string name="bluetooth_hid_disconnect_confirm">Ցանկանու՞մ եք ապակցել անլար ներմուծման սարք %1$s-ը:</string>
+  <string name="bluetooth_hid_unplug_confirm">Ցանկանու՞մ եք հանել անլար ներմուծման սարք %1$s-ը:</string>
+  <string name="bluetooth_hid_auth_confirm">Ցանկանու՞մ եք ընդունել անլար ներմուծման սարք %1$s-ի հայցումը:</string>
+  <string name="bluetooth_hid_summary_disconnecting">Անջատվում է...</string>
+</resources>

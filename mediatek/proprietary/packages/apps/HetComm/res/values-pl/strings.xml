@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbopobieranie</string>
+    <string name="hetcomm_intro">Pobieraj duże pliki (powyżej 20 MB) z większą szybkością, korzystając jednocześnie z sieci Wi-Fi i 4G/3G. Po włączeniu funkcji Turbo pobieranie jej ikona będzie widoczna na pasku stanu. Do korzystania z funkcji Turbo pobieranie konieczne jest włączenie sieci Wi-Fi i transmisji danych w sieci komórkowej. Po włączeniu funkcji, dane aplikacji, w przypadku których ustawiono pobieranie tylko przez sieć Wi-Fi, będą mimo wszystko pobierane także przez sieć WLAN i 4G/3G.</string>
+    <string name="enable_switch_on">"Wł."</string>
+    <string name="enable_switch_off">Wył.</string>
+    <string name="notify_top_title">Akcelerator pobierania</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">"Wi-Fi"</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobile Data"</string>
+    <string name="conn_notice_title">Sieć komórkowa lub Wi-Fi jest wyłączona.</string>
+    <string name="conn_notice_detail">Do uaktywnienia funkcji Turbo pobieranie konieczne jest włączenie sieci Wi-Fi i transmisji danych w sieci komórkowej.</string>
+    <string name="conn_charging_warning">Pobieranie przez sieć komórkową może wiązać się z dodatkowymi opłatami.</string>
+    <string name="turn_on">Włącz <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Funkcja Turbo pobieranie została wyłączona z powodu włączenia funkcji VPN</string>
+    <string name="turn_off_due_to_tether">Funkcja Turbo pobieranie została wyłączona z powodu włączenia funkcji Tethering</string>
+    <string name="turn_off_due_to_shutdown">Funkcja Turbo pobieranie została wyłączona z powodu zamknięcia systemu</string>
+    <string name="turn_off_due_to_roaming">Funkcja Turbo pobieranie została wyłączona z powodu włączenia trybu roamingu</string>
+    <string name="ratio_is_single">Szybkość połączenia Wi-Fi/transmisji danych w sieci komórkowej jest mała. Aby przyspieszyć pobieranie, funkcja Turbo pobieranie pobierze pliki wyłącznie przez połączenie transmisji danych w sieci komórkowej/sieć Wi-Fi.</string>
+    <string name="ratio_is_back">Funkcja Turbo pobieranie pobiera pliki, korzystając jednocześnie z sieci Wi-Fi i transmisji danych w sieci komórkowej.</string>
+    <string name="action_help">"Pomoc"</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Pomoc dotycząca funkcji Turbo pobieranie</u>\
+    </h1><br>Pobieraj duże pliki z największą szybkością, korzystając jednocześnie z sieci Wi-Fi i 4G/3G.\
+    <h4>1. Przejdź do pozycji Ustawienia i stuknij pozycję Turbo pobieranie.</h4>\
+    <h4>2. Stuknij przełącznik, aby włączyć funkcję Turbo pobieranie.</h4>\
+    <p><b>[Wskazówka]</b> Szybkość pobierania zostanie zwiększona, jeśli połączenie z siecią Wi-Fi i 4G/3G będzie nawiązane od początku tego procesu.\
+    <p><b>[Wskazówka]</b> Jeśli połączenie Wi-Fi lub 4G/3G jest zbyt wolne, pliki można pobrać w ramach szybszego połączenia sieciowego.\
+    <p><b>[Wskazówka]</b> Środowisko sieciowe może mieć wpływ na szybkość i wydajność pobierania za pomocą funkcji Turbo pobieranie.\
+    <br>&nbsp;&nbsp;- Niestabilność sygnałów może mieć wpływ na szybkość i wydajność tej funkcji.\
+    <br>&nbsp;&nbsp;- Zwykle jednak szybkość pobierania jest „podwojona” w porównaniu z używaniem tylko sieci Wi-Fi lub 4G/3G.\
+    <p><b>[Wskazówka]</b> W przypadku dużej różnicy między szybkością sieci Wi-Fi a 4G/3G (zwykle 2,5 razy) funkcja Turbo pobieranie zostanie zatrzymana lub nie będzie obsługiwana w celu uniknięcia niskiej wydajności spowodowanej szybkością.\
+    <p><b>[Wskazówka]</b> Funkcja Turbo pobieranie zostanie wyłączona automatycznie po włączeniu funkcji Tethering/VPN.\
+    </body></html>]]>"</string>
+</resources>

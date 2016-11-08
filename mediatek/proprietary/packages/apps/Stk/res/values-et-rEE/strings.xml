@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">"SIM-kaardi tööriistakomplekt"</string>
+    <string name="appI_name">SIM1 tööriistad</string>
+    <string name="appII_name">SIM2 tööriistad</string>
+    <string name="appIII_name">SIM3 tööriistad</string>
+    <string name="appIV_name">SIMI4 tööriistad</string>
+    <string name="lable_not_available">Rakendus pole installitud</string>
+    <string name="menu_end_session">"Seansi lõpp"</string>
+    <string name="help">Spikker</string>
+    <string name="menu_back">"Tagasi"</string>
+    <string name="service_name">"Teenuse nimi"</string>
+    <string name="stk_no_service">Teenused pole kasutatavad</string>
+    <string name="button_ok">"OK"</string>
+    <string name="button_cancel">"Tühista"</string>
+    <string name="button_yes">"Jah"</string>
+    <string name="button_no">"Ei"</string>
+    <string name="alphabet">Märgid</string>
+    <string name="digits">Numbrid (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">"Kõne on pooleli ..."</string>
+    <string name="stk_app_state">"Rakenduse olek"</string>
+    <string name="enable_app">"Lubatud"</string>
+    <string name="disable_app">Keelatud</string>
+    <string name="lable_display_text">Ekraanitekst</string>
+    <string name="lable_get_inkey">Hangi Inkey</string>
+    <string name="lable_get_input">Hangi teavet</string>
+    <string name="lable_launch_browser">Käivita brauser</string>
+    <string name="lable_play_tone">Mängi heli</string>
+    <string name="lable_refresh">"Värskenda"</string>
+    <string name="lable_select_item">"Valige üksus"</string>
+    <string name="lable_send_ss">Saada SS</string>
+    <string name="lable_send_ussd">Saada USSD</string>
+    <string name="lable_send_sms">"SMS-i saatmine"</string>
+    <string name="lable_send_dtmf">Saada DTMF</string>
+    <string name="lable_setup_event_list">Seadista sündmuste loend</string>
+    <string name="lable_setup_idle_modetext">Seadista ooterežiimi tekst</string>
+    <string name="lable_setup_menu">Seadista menüü</string>
+    <string name="lable_setup_call">Seadista kõne</string>
+    <string name="lable_more_time">Rohkem aega</string>
+    <string name="lable_poll_interval">Küsitlusintervall</string>
+    <string name="lable_polling_off">Küsitlus väljas</string>
+    <string name="lable_provide_local_information">Lisa kohalik info</string>
+    <string name="lable_timer_management">Taimeri haldus</string>
+    <string name="lable_perform_card_apdu">tee kaardi APDU</string>
+    <string name="lable_power_on_card">Lülita kaart sisse</string>
+    <string name="lable_power_off_card">Lülita kaart välja</string>
+    <string name="lable_get_reader_status">Hangi lugeja olek</string>
+    <string name="lable_run_at_command">Käivita AT käsk</string>
+    <string name="lable_language_notification">Keele meeldetuletus</string>
+    <string name="lable_open_channel">Ava kanal</string>
+    <string name="lable_close_channel">Sule kanal</string>
+    <string name="lable_receive_data">Võta andmed vastu</string>
+    <string name="lable_send_data">Saada andmed</string>
+    <string name="lable_get_channel_status">Hangi kanali olek</string>
+    <string name="lable_service_search">Teenuseotsing</string>
+    <string name="lable_get_service_information">Hangi teenuseinfot</string>
+    <string name="lable_declare_service">Tuvasta teenus</string>
+    <string name="lable_set_frame">Määra raam</string>
+    <string name="lable_get_frame_status">Hangi raami olek</string>
+    <string name="lable_retrieve_multimedia_message">Laadi multimeediumsõnum</string>
+    <string name="lable_submit_multimedia_message">Saada multimeediumsõnum</string>
+    <string name="lable_display_multimedia_message">Kuva multimeediumsõnum</string>
+    <string name="lable_activate">Aktiveeri</string>
+    <string name="action_launch_browser">Käivita brauser</string>
+    <string name="action_setup_call">"Helista"</string>
+    <string name="lable_busy_on_bip">Rakendus on hõivatud BIP käskudega. Proovige hiljem uuesti.</string>
+    <string name="main_menu_not_initialized">Põhimenüü ei ole käivitatud</string>
+    <string name="lable_busy_on_call">Telefon on kõnega hõivatud. Lõpetage esimene kõne.</string>
+    <string name="lable_on_flight_mode">Ei saa käivitada SIM tööriistakomplekti, kuna lennurežiim on sees.</string>
+    <string name="lable_sim_not_ready">SIM tööriistakomplekt pole valmis või seda ei toetata.</string>
+    <string name="no_sim_card_inserted">Sisesta SIM kaart SIM tööriistakomplekti käivitamiseks.</string>
+    <string name="stk_dialog_title">SIMtööriistakomplekt</string>
+    <string name="default_open_channel_msg">"Kas avada kanal?"</string>
+    <string name="stk_dialog_accept">"Jah"</string>
+    <string name="stk_dialog_reject">"Ei"</string>
+</resources>

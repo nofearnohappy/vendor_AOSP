@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="48dip"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:orientation = "horizontal"
+    android:paddingRight="?android:attr/scrollbarSize"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+    	android:gravity="center_vertical"
+    	android:layout_centerVertical="true"
+        android:layout_weight="1">
+        <RelativeLayout 
+			android:layout_width="36dip"
+			android:layout_height="24dip"
+			android:layout_marginLeft="6dip"
+			android:id="@+id/simIcon"
+			android:layout_marginRight="6dip"
+			android:layout_centerVertical="true">
+  			<ImageView
+        		android:id="@+id/item_image"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true" 
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dip"
+                android:layout_marginRight="4dip"/>
+		</RelativeLayout>
+		
+        <RelativeLayout 
+			android:layout_width="36dip"
+			android:layout_height="match_parent"
+			android:id="@+id/simIcon1"
+			android:layout_marginLeft="6dip"
+			android:layout_marginRight="6dip"
+			android:layout_centerVertical="true">
+  			<ImageView
+        		android:id="@+id/item_image1"
+        		android:layout_width="fill_parent"
+        		android:layout_height="fill_parent"
+        		android:layout_alignParentRight="true" 
+                android:layout_alignParentTop="true"/>
+		</RelativeLayout>
+	
+		<RelativeLayout
+			android:id="@+id/text_layout_sim_enabler"
+			android:layout_width="0dip"
+ 	    	android:layout_height="wrap_content"
+       		android:layout_weight="1"
+       		android:layout_centerVertical="true">
+    
+        	<TextView 
+        	    android:id="@+id/item_text"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:singleLine="true"
+            	android:ellipsize="middle"  
+            	android:textAppearance="?android:attr/textAppearanceMedium"
+            	android:textColor="?android:attr/textColorPrimary"/>
+		</RelativeLayout>
+    </LinearLayout>
+
+    <CheckBox android:id="@+id/item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:checked="true"
+        android:clickable="false"
+        android:gravity="center_vertical|center" 
+        android:orientation="vertical" />
+    
+</LinearLayout>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">Mensagens não é a sua aplicação de SMS predefinida</string>
+    <string name="banner_sms_promo_message1">Toque aqui para ativá-la.</string>
+    <string name="roaming_warning">A ligação à Internet em roaming poderá aumentar o valor das suas chamadas telefónicas de forma significativa. A sua operadora informá-lo-á assim que o seu consumo de dados no estrangeiro atingir certos limites. Tem a certeza de que quer continuar?</string>
+    
+</resources>

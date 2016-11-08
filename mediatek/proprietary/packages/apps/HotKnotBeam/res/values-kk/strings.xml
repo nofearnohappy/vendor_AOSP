@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Қабылдауды бастау...</string>
+    <string name="notification_group_title"><xliff:g id="number">%d</xliff:g> файлды қабылдау...</string> 
+    <string name="notification_download_done">Толық мәліметті көру үшін түртіңіз</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> файл қабылданды</string>
+    <string name="notification_received">Сәтті қабылданды</string> 
+    <string name="notification_download_failure"><xliff:g id="reason">%s</xliff:g> байланысты қабылдау мүмкін емес</string> 
+    <string name="notification_download_cancel">Қабылдау болдырылмады</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> файл жіберілмеді</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> файл қабылданбады, <xliff:g id="number">%d</xliff:g> файл қабылданды</string>
+    <string name="download_no_file">Файл жоқ</string>
+    <string name="notification_sending">Жіберуді бастау...</string>
+    <string name="notification_group_upload_title"><xliff:g id="number">%d</xliff:g> файлды жіберу...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> файл жіберілді</string>
+    <string name="notification_sent">Сәтті жіберілді</string>
+    <string name="notification_upload_failed"><xliff:g id="reason">%s</xliff:g> байланысты жіберу мүмкін емес</string>
+    <string name="notification_upload_cancel">Жіберу болдырылмады</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> файл жіберілмеді</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> файл жіберілмеді, <xliff:g id="number">%d</xliff:g> файл жіберілді</string>
+    <string name="low_storage">жады жеткіліксіз</string>
+    <string name="connect_failure">Байланыс ақауы</string>
+    <string name="unknown_error">Белгісіз қате</string>
+    <string name="share_label">HotKnot бөлісу</string>
+    <string name="rx_ui_image_status"><xliff:g id="device">%s</xliff:g> құрылғысынан кескінді қабылдау</string>
+    <string name="rx_group_ui_image_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> кескінді <xliff:g id="device">%3$s</xliff:g> құрылғысынан қабылдау</string>
+    <string name="rx_ui_video_status"><xliff:g id="device">%s</xliff:g> құрылғысынан видеоны қабылдау</string>
+    <string name="rx_group_ui_video_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> видеоны <xliff:g id="device">%3$s</xliff:g> құрылғысынан қабылдау</string>
+    <string name="rx_ui_status"><xliff:g id="device">%s</xliff:g> құрылғысынан файлды қабылдау</string>                
+    <string name="rx_group_ui_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> файлды <xliff:g id="device">%3$s</xliff:g> құрылғысынан қабылдау</string>
+    <string name="rx_ui_music_status"><xliff:g id="device">%s</xliff:g> құрылғысынан музыканы қабылдау</string>
+    <string name="rx_group_ui_music_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> музыканы <xliff:g id="device">%3$s</xliff:g> құрылғысынан қабылдау</string>
+    <string name="rx_ui_failed_status">Қабылдау аяқталмады</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Заявка за входящ файл"</string>
+	<string name="bt_opp_notification_in_coming_title">"Заявка за входящ файл (от %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Изберете за приемане на входящ файл."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Прехвърляне на входящи файлове"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Получаване: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Изходящ файл"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Изпращане: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Свързано към трансфера на файлове"</string>
+	<string name="bt_opp_cancel_task_message">"Отказ от прехвърляне?"</string>
+	<string name="bt_opp_cancel_task_yes">"Да"</string>
+	<string name="bt_opp_cancel_task_no">Няма достъпно приложение за печат на контакт.</string>
+	<string name="bt_opp_canceling_task_message">"Прекъсване на прехвърлянето, изчакайте…"</string>
+	<string name="bt_opps_confirm_push_title">"Блу тут - входящ обект"</string>
+	<string name="bt_opps_confirm_push_message">"Входящ файл: %1$s (%2$s) от %3$s. Приемаме ли?"</string>
+	<string name="bt_opps_confirm_push_yes">Приемате ли услуга Auto-push или не?</string>
+	<string name="bt_opps_confirm_push_no">Отхвърляне</string>
+	<string name="bt_oppc_push_action_label">"Възпроизвежда се през Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Изпращане на файл до %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Изпращане на файлове до %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Неподдържано споделено съдържание: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Няма SD карта или недостатъчно памет за входящия файл."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Невалидна заявка за споделяне от отдалечено у-во."</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="@string/ppp_dialing"
+        android:dialogTitle="@string/ppp_dialing"
+        android:key="ppp_dialing"
+        android:singleLine="true"/>
+</PreferenceScreen>

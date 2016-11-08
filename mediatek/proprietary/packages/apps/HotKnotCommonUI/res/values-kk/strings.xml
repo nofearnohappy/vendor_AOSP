@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot арқылы бөлісу</string>
+    <string name="hint1">Қабылдайтын құрылғыда HotKnot қосулы екендігіне көз жеткізіңіз және экранын құлыпталмаған күйде ұстаңыз.</string>
+    <string name="hint2">Құрылғыңызды қабылдайтын құрылғыға экрандарын бір-біріне қаратып орнатыңыз.</string>
+    <string name="hint3">Дыбыстық сигнал естілгеннен кейін құрылғыңызды қабылдайтын құрылғыдан алып тастаңыз.</string>
+    <string name="use_hotknot">Бұл бағдарлама құрылғыңыздағы HotKnot технологиясын пайдаланбақ.</string>
+    <string name="allow">Рұқсат ету</string>
+    <string name="deny">Тыйым салу</string>
+    <string name="fail_to_share">Бөлісу мүмкін емес</string>
+    <string name="fail_to_share_conn_error">Байланыс ақаулығы орын алғандықтан, бөлісу мүмкін емес.</string>
+    <string name="fail_to_share_unknown_error">Белгісіз қатеге байланысты бөлісу мүмкін емес.</string>
+    <string name="try_again">Әрекетті қайталаңыз</string>
+    <string name="usb_warning">USB зарядтау барысында HotKnot функциясына әсер етуі мүмкін.</string>
+</resources>

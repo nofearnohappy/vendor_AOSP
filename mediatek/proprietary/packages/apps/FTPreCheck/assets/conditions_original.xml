@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ft_testcase_conditions>
+    <testcase_chapter id="1" name="基本性能测试" phone_type="common">
+        <testcase id="1.1.1" name="&quot;差点&quot;开机附着成功率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="~" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-3</value_left>
+                <value_right>0</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="~" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-120</value_left>
+                <value_right>-110</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="1.1.2" name="&quot;中点&quot;开机附着成功率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="~" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>5</value_left>
+                <value_right>10</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="~" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-100</value_left>
+                <value_right>-90</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="1.1.3" name="&quot;好点&quot;开机附着成功率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="~" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>15</value_left>
+                <value_right>20</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="~" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-90</value_left>
+                <value_right>-80</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="1.1.4" name="动态接入成功率" case_type="dynamic">
+            <condition descPrefix="注册4G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>4G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+    </testcase_chapter>
+    <testcase_chapter id="2" name="稳定性测试" phone_type="common">
+        <testcase id="2.1.1" name="弱覆盖静态长保测试" case_type="static">
+            <condition descPrefix="SINR " descSeparator="~" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-3</value_left>
+                <value_right>0</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="~" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-120</value_left>
+                <value_right>-110</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="2.1.2" name="动态长保稳定性(上传)" case_type="dynamic">
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="2.1.3" name="动态长保稳定性(下载)" case_type="dynamic">
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="2.1.4" name="动态长保稳定性(上传下载并发)" case_type="dynamic">
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+    </testcase_chapter>
+    <testcase_chapter id="3" name="吞吐量测试" phone_type="common">
+        <testcase id="3.1.1" name="F频段上行峰值速率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+<!--             <condition descPrefix="子帧配比DL:UL=" descSeparator=":" descSuffix=""> -->
+<!--                 <check_item_name>子帧配比</check_item_name> -->
+<!--                 <check_type>value_equal</check_type> -->
+<!--                 <setting_view_type>EditText_2</setting_view_type> -->
+<!--                 <value_left>3</value_left> -->
+<!--                 <value_right>1</value_right> -->
+<!--                 <judge_type>V</judge_type> -->
+<!--             </condition> -->
+<!--             <condition descPrefix="SSP" descSeparator="" descSuffix=""> -->
+<!--                 <check_item_name>SSP</check_item_name> -->
+<!--                 <check_type>value_equal</check_type> -->
+<!--                 <setting_view_type>EditText_1</setting_view_type> -->
+<!--                 <value>5</value> -->
+<!--                 <judge_type>V</judge_type> -->
+<!--             </condition> -->
+            <condition descPrefix="F频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>F</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.1.2" name="D频段上行峰值速率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="D频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>D</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.1.3" name="E频段上行峰值速率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="E频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>E</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.1.4" name="F频段下行峰值速率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="F频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>F</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.1.5" name="D频段下行峰值速率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="D频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>D</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.1.6" name="E频段下行峰值速率" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="E频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>E</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.2.1" name="F频段下行峰值速率-WIFI连接" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="F频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>F</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="附近不能有太多其它AP" descSeparator="" descSuffix="">
+                <check_item_name>WIFI_AP</check_item_name>
+                <check_type>can not much</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.2.2" name="D频段下行峰值速率-WIFI连接" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="D频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>D</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="附近不能有太多其它AP" descSeparator="" descSuffix="">
+                <check_item_name>WIFI_AP</check_item_name>
+                <check_type>can not much</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="3.2.3" name="E频段下行峰值速率-WIFI连接" case_type="static">
+            <condition descPrefix="SINR " descSeparator="大于" descSuffix="dB">
+                <check_item_name>SINR</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>25</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="RSRP " descSeparator="大于" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_greater</check_type>
+                <setting_view_type>EditText_1</setting_view_type>
+                <value>-80</value>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="手机电量足够" descSeparator="" descSuffix="">
+                <check_item_name>battery</check_item_name>
+                <check_type>more than 20%</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="E频段" descSeparator="" descSuffix="">
+                <check_item_name>频段</check_item_name>
+                <check_type>E</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="附近不能有太多其它AP" descSeparator="" descSuffix="">
+                <check_item_name>WIFI_AP</check_item_name>
+                <check_type>can not much</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+    </testcase_chapter>
+    <testcase_chapter id="4" name="CSFB测试" phone_type="CSFB">
+        <testcase id="4.1.1" name="开机选网、联合位置更新" case_type="dynamic">
+        </testcase>
+        <testcase id="4.2.1" name="CSFB终端之间短信互通验证" case_type="dynamic">
+            <condition descPrefix="注册4G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>4G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.2.2" name="关机时短信被叫，开机后CSFB终端正常接收短信" case_type="dynamic">
+            <condition descPrefix="注册4G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>4G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.2.3" name="CSFB终端语音与短信并发" case_type="dynamic">
+            <condition descPrefix="注册4G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>4G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.3.1" name="空闲态CSFB性能测试" case_type="dynamic">
+            <condition descPrefix="CSFB重定向到2G发生" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>csfb_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.3.2" name="空闲态CSFB性能测试" case_type="dynamic">
+            <condition descPrefix="CSFB重定向到2G发生" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>csfb_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="LA改变" descSeparator="" descSuffix="">
+                <check_item_name>LA</check_item_name>
+                <check_type>changed</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.3.3" name="空闲态CSFB性能测试" case_type="static">
+            <condition descPrefix="RSRP " descSeparator="~" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-120</value_left>
+                <value_right>-115</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="CSFB重定向到2G发生" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>csfb_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.4.1" name="连接态CSFB性能测试" case_type="dynamic">
+            <condition descPrefix="CSFB重定向到2G发生" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>csfb_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.4.2" name="连接态CSFB性能测试" case_type="dynamic">
+            <condition descPrefix="CSFB重定向到2G发生" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>csfb_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="LA改变" descSeparator="" descSuffix="">
+                <check_item_name>LA</check_item_name>
+                <check_type>changed</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.4.3" name="连接态CSFB性能测试" case_type="static">
+            <condition descPrefix="RSRP " descSeparator="~" descSuffix="dBm">
+                <check_item_name>RSRP</check_item_name>
+                <check_type>value_between</check_type>
+                <setting_view_type>EditText_2</setting_view_type>
+                <value_left>-120</value_left>
+                <value_right>-115</value_right>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="CSFB重定向到2G发生" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>csfb_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="4.5.1" name="CSFB主叫异常流程测试，CMSR发送前挂断" case_type="dynamic">
+            <condition descPrefix="注册4G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>4G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="CSFB重定向到2G发生" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>csfb_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="设置按电源按钮结束通话" descSeparator="" descSuffix="">
+                <check_item_name>hang up by power</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+    </testcase_chapter>
+    <testcase_chapter id="5" name="系统间互操作" phone_type="CSFB">
+        <testcase id="5.1.1" name="TD-LTE、TD-SCDMA、GSM三模终端的开机自动网络选择-步骤1" case_type="static">
+            <condition descPrefix="IPO shall be enabled" descSeparator="" descSuffix="">
+                <check_item_name>IPO</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="注册4G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>4G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.1.1" name="TD-LTE、TD-SCDMA、GSM三模终端的开机自动网络选择-步骤2" case_type="static">
+            <condition descPrefix="IPO shall be enabled" descSeparator="" descSuffix="">
+                <check_item_name>IPO</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="注册3G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>3G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.1.1" name="TD-LTE、TD-SCDMA、GSM三模终端的开机自动网络选择-步骤3" case_type="static">
+            <condition descPrefix="IPO shall be enabled" descSeparator="" descSuffix="">
+                <check_item_name>IPO</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="PS注册2G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>2G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.1.2" name="TD-LTE、TD-SCDMA与GSM同覆盖情况下的开机手动网络选择" case_type="static">
+            <condition descPrefix="注册4G网络" descSeparator="" descSuffix="">
+                <check_item_name>register network</check_item_name>
+                <check_type>4G</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.2.1" name="终端空闲态TD-LTE&lt;-&gt;GSM空闲态小区重选-步骤2/3" case_type="dynamic">
+            <condition descPrefix="4G有配2G邻小区" descSeparator="" descSuffix="">
+                <check_item_name>4g_neighbor_cell</check_item_name>
+                <check_type>4g_has_2g_neighbor</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G2 IRCR" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>4g2_ircr</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.2.1" name="终端空闲态TD-LTE&lt;-&gt;GSM空闲态小区重选-步骤4/5" case_type="dynamic">
+            <condition descPrefix="2G有配4G邻小区" descSeparator="" descSuffix="">
+                <check_item_name>2g_neighbor_cell</check_item_name>
+                <check_type>2g_has_4g_neighbor</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="2G4 IRCR" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>2g4_ircr</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.3.1" name="终端空闲态TD-LTE&lt;-&gt;TD-SCDMA空闲态小区重选-步骤2/3" case_type="dynamic">
+            <condition descPrefix="4G有配3G邻小区" descSeparator="" descSuffix="">
+                <check_item_name>4g_neighbor_cell</check_item_name>
+                <check_type>4g_has_3g_neighbor</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G3 IRCR" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>4g3_ircr</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.3.1" name="终端空闲态TD-LTE&lt;-&gt;TD-SCDMA空闲态小区重选-步骤4/5" case_type="dynamic">
+            <condition descPrefix="3G有配4G邻小区" descSeparator="" descSuffix="">
+                <check_item_name>3g_neighbor_cell</check_item_name>
+                <check_type>3g_has_4g_neighbor</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="3G4 IRCR" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>3g4_ircr</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.3.2" name="终端空闲态TD-LTE&lt;-&gt;TD-SCDMA空闲态模式转换-步骤2/3" case_type="dynamic">
+            <condition descPrefix="4G无配3G邻小区" descSeparator="" descSuffix="">
+                <check_item_name>4g_neighbor_cell</check_item_name>
+                <check_type>4g_has_not_3g_neighbor</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G3" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>4g3</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.3.2" name="终端空闲态TD-LTE&lt;-&gt;TD-SCDMA空闲态模式转换-步骤4/5" case_type="dynamic">
+            <condition descPrefix="3G无配4G邻小区" descSeparator="" descSuffix="">
+                <check_item_name>3g_neighbor_cell</check_item_name>
+                <check_type>3g_has_not_4g_neighbor</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="3G4" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>3g4</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.4.1" name="TD-LTE重定向至GSM" case_type="dynamic">
+            <condition descPrefix="4G没量测2G小区" descSeparator="" descSuffix="">
+                <check_item_name>4g_measure_cell</check_item_name>
+                <check_type>4g_has_not_2g_measure</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G2 R8 redirection" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>4g2_r8_redirection</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.4.2" name="TD-LTE重定向至GSM" case_type="dynamic">
+            <condition descPrefix="4G有量测2G小区" descSeparator="" descSuffix="">
+                <check_item_name>4g_measure_cell</check_item_name>
+                <check_type>4g_has_2g_measure</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G2 R8 redirection" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>4g2_r8_redirection</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.4.3" name="GPRS Packet transfer mode状态下以NC0方式重选至TD-LTE系统恢复业务" case_type="dynamic">
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="2G有配4G邻小区" descSeparator="" descSuffix="">
+                <check_item_name>2g_neighbor_cell</check_item_name>
+                <check_type>2g_has_4g_neighbor</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="2G4 IRCR" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>2g4_ircr</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.4.4" name="TD-LTE至GSM脱网重建" case_type="dynamic">
+            <condition descPrefix="4G2 IR-Search" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>4g2_ir_search</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G没重定向到2G" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>4g_not_redirection_2g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.5.1" name="TD-LTE重定向至TD-SCDMA" case_type="dynamic">
+            <condition descPrefix="4G没量测3G小区" descSeparator="" descSuffix="">
+                <check_item_name>4g_measure_cell</check_item_name>
+                <check_type>4g_has_not_3g_measure</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G3 R8 redirection" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>4g3_r8_redirection</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.5.2" name="TD-LTE重定向至TD-SCDMA" case_type="dynamic">
+            <condition descPrefix="4G有量测3G小区" descSeparator="" descSuffix="">
+                <check_item_name>4g_measure_cell</check_item_name>
+                <check_type>4g_has_3g_measure</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G3 R8 redirection" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>4g3_r8_redirection</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.5.3" name="TD-SCDMA重定向至TD-LTE" case_type="dynamic">
+            <condition descPrefix="3G有量测4G小区" descSeparator="" descSuffix="">
+                <check_item_name>3g_measure_cell</check_item_name>
+                <check_type>3g_has_4g_measure</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="3G4 R8 redirection" descSeparator="" descSuffix="">
+                <check_item_name>3g_redirection</check_item_name>
+                <check_type>3g4_r8_redirection</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+        <testcase id="5.5.4" name="TD-LTE至TD-SCDMA脱网重建" case_type="dynamic">
+            <condition descPrefix="屏幕清醒设定" descSeparator="" descSuffix="">
+                <check_item_name>unlock screen</check_item_name>
+                <check_type>enable</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G3 IR-Search" descSeparator="" descSuffix="">
+                <check_item_name>lte_rat_change</check_item_name>
+                <check_type>4g3_ir_search</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+            <condition descPrefix="4G没重定向到3G" descSeparator="" descSuffix="">
+                <check_item_name>4g_redirection</check_item_name>
+                <check_type>4g_not_redirection_3g</check_type>
+                <setting_view_type>CheckBox</setting_view_type>
+                <is_check>true</is_check>
+                <judge_type>V</judge_type>
+            </condition>
+        </testcase>
+    </testcase_chapter>
+</ft_testcase_conditions>
+
+
+<!-- Above are sample elements of all conditions -->
+<!-- 
+Xml Instruction:
+case_type: static/dynamic
+phone_type: common/sglte/csfb
+check_item_name: mapping with target CheckItemBase Class which can be got by CheckItemFactory
+check_type: behavior type of check_item
+setting_view_type: type of view that condition settings UI need
+judge_type: type of judge rule. We judge the test case's result through these judge rule
+-->

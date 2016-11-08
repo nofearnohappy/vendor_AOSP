@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="hotknot_share">HotKnot-Freigabe</string>
+    <string name="hint1">Achten Sie darauf, dass HotKnot beim Empfängergerät eingeschaltet und dessen Bildschirm nicht gesperrt ist.</string>
+    <string name="hint2">Berühren Sie mit dem Bildschirm des Gerätes den Bildschirm des Empfängergerätes.</string>
+    <string name="hint3">Entfernen Sie das Gerät wieder vom Empfängergerät, wenn Sie eine Sprachansage hören.</string>
+    <string name="use_hotknot">Um diese Anwendung ausführen zu können, muss Ihr Gerät die HotKnot-Technologie beherrschen.</string>
+    <string name="allow">Erlauben</string>
+    <string name="deny">Ablehnen</string>
+    <string name="fail_to_share">Freigabe fehlgeschlagen</string>
+    <string name="fail_to_share_conn_error">Freigabe wegen eines Verbindungsproblems fehlgeschlagen.</string>
+    <string name="fail_to_share_unknown_error">Freigabe wegen eines unbekannten Fehlers fehlgeschlagen.</string>
+    <string name="try_again">Erneut versuchen</string>
+    <string name="usb_warning">HotKnot-Funktion kann während des Ladens über USB beeinträchtigt sein.</string>
+</resources>

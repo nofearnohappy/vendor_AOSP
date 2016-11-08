@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"直向"</item>
+		<item>水平顯示捷徑工具</item>
+		<item>"反轉-垂直"</item>
+		<item>"反轉-水平"</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"單面"</item>
+		<item>"兩面長邊"</item>
+		<item>"兩面短邊"</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"正常"</item>
+		<item>草稿箱</item>
+		<item>"高"</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+		<item>未知的演出者名稱</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"沒有錯誤"</item>
+		<item>"建立 v-card 檔案失敗"</item>
+		<item>"不支援相片格式"</item>
+	</string-array>
+</resources>

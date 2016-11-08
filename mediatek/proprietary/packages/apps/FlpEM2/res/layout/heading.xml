@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left">
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/source" style="@style/info_label" />
+     <TextView android:id="@+id/fused_source" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/started_id" style="@style/info_label" />
+     <TextView android:id="@+id/fused_started_id" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <ToggleButton android:id="@+id/heading_start" android:textOff="@string/heading_off" android:textOn="@string/heading_on" style="@style/base"/>
+  <Button android:id="@+id/heading_get_point_B" android:text="@string/get_point_B" style="@style/base"/>
+ </LinearLayout>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/info" style="@style/title" />
+ <TextView android:id="@+id/fused_textview_info" style="@style/debug_info"/>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/heading_error" style="@style/title" />
+ <TextView android:id="@+id/fused_textview_heading_error" style="@style/info_state_value"/>
+
+</LinearLayout>
+</ScrollView>

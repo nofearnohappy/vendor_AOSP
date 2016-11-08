@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="intelligent_equalizer">Pametni ekvilizator</string>
+	<string name="surround_virtualizer">Surround virtualizator</string>
+	<string name="dialogue_enhancer">Optimizator dijaloga</string>
+	<string name="volume_leveler">Nivelator glasnoće</string>
+	<string name="copyright">Dolby i simbol duplog D su registrirani zaštitni znaci tvrtke Dolby Laboratories. \u00a9 2013 Dolby Laboratories Inc. Sva prava pridržana.</string>
+	<string name="movie">Film</string>
+	<string name="music">Glazba</string>
+	<string name="game">Igrice</string>
+	<string name="voice">Glas</string>
+	<string name="preset_1">Prilagođeno 1</string>
+	<string name="preset_2">Prilagođeno 2</string>
+	<string name="open">Otvoren</string>
+	<string name="rich">Bogato</string>
+	<string name="focused">Fokusirano</string>
+	<string name="off">ISKLJ</string>
+	<string name="custom">Ručno</string>
+	<string name="db36">36dB</string>
+	<string name="db24">24dB</string>
+	<string name="db12">12dB</string>
+	<string name="db0">0dB</string>
+	<string name="dbn12">-12dB</string>
+	<string name="graphical_equalizer">Grafički ekvilizator</string>
+	<string name="app_name">Dolby Audio</string>
+	<string name="instore_menu_text">Reproduciraj demo</string>
+</resources>

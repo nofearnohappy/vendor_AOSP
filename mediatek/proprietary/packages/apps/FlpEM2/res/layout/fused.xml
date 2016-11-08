@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left">
+
+    <TextView android:text="@string/common_info" style="@style/title" />
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/application_version" style="@style/info_label" />
+     <TextView android:text="@string/application_version_value" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/supports_fused_location" style="@style/info_label" />
+     <TextView android:id="@+id/supports_fused_location" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/supports_device_context_injection" style="@style/info_label" />
+     <TextView android:id="@+id/supports_device_context_injection" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/supports_diagnostic_data_injection" style="@style/info_label" />
+     <TextView android:id="@+id/supports_diagnostic_data_injection" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/supported_batch_size" style="@style/info_label" />
+     <TextView android:id="@+id/supported_batch_size" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/session_info" style="@style/title" />
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/fused_session_id" style="@style/info_label" />
+     <TextView android:id="@+id/fused_session_id" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/max_power_allocation_in_mw" style="@style/info_label" />
+     <TextView android:id="@+id/max_power" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/smallest_displacement_meters" style="@style/info_label" />
+     <TextView android:id="@+id/smallest_displacement" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/period" style="@style/info_label" />
+     <TextView android:id="@+id/period" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/source" style="@style/info_label" />
+     <TextView android:id="@+id/fused_source" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/batch_flag" style="@style/info_label" />
+     <TextView android:id="@+id/batch_flag" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/fused_session" android:text="@string/session" style="@style/base"/>
+  <Button android:id="@+id/fused_edit" android:text="@string/edit" style="@style/base"/>
+  <ToggleButton android:id="@+id/fused_start" android:textOff="@string/fused_off" android:textOn="@string/fused_on" style="@style/base"/>
+ </LinearLayout>
+
+ <View style="@style/line"/>
+
+ <LinearLayout style="@style/entry_layout">
+     <TextView android:text="@string/started_id" style="@style/info_label" />
+     <TextView android:id="@+id/fused_started_id" style="@style/info_state_value" />
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/fused_get_batched_location" android:text="@string/get_batched_location" style="@style/base"/>
+  <Button android:id="@+id/fused_flush_batched_locations" android:text="@string/flush_batched_locations" style="@style/base"/>
+ </LinearLayout>
+
+ <LinearLayout style="@style/entry_layout">
+  <Button android:id="@+id/fused_stop_all_sessions" android:text="@string/stop_all_sessions" style="@style/base"/>
+  <Button android:id="@+id/fused_clear_info" android:text="@string/clear_info" style="@style/base"/>
+ </LinearLayout>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/info" style="@style/title" />
+ <TextView android:id="@+id/fused_textview_info" style="@style/debug_info"/>
+
+ <View style="@style/line"/>
+
+    <TextView android:text="@string/location_callback" style="@style/title" />
+ <TextView android:id="@+id/fused_count" style="@style/debug_info"/>
+ <TextView android:id="@+id/fused_callback" style="@style/small_debug_info"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+This module creates for auto test PC sync tool device service.
+
+This module is pre-built by MediaTek internally.
+
+
+WHAT IT DOES?
+=============
+This module can auto test PC sync tool device service.
+
+HOW IT WAS BUILT?
+==================
+Does not depends on other libs.
+
+HOW TO USE IT?
+==============
+
+adb shell am instrument -w com.mediatek.apst.target.tests/com.mediatek.apst.target.tests.ApstFunctionalTestRunner
+
+All the source code for this module were written by MediaTek.

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="menu_done" msgid="796017761764190697">"Terminat"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Ştergeţi"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Selectaţi-le pe toate"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Deselectaţi-le pe toate"</string>
+    <string name="menu_new_contact_action_bar" msgid="8887818026717394343">"Nouă"</string>
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> selectat
+    </string>
+    <string name="multichoice_no_select_alert">"Niciun element selectat."</string> 
+
+    <!-- aas strings start-->  
+    <string name="aas_custom_title">Etichete USIM pentru numere suplimentare</string>  
+    <string name="aas_phone_type_none">FĂRĂ</string>  
+    <string name="aas_new_dialog_title">Adăugare etichetă nouă</string>  
+    <string name="ass_rename_dialog_title">Modificare etichetă</string>  
+    <string name="aas_delele_dialog_message">Ştergerea etichetei (etichetelor) va afecta toate numerele suplimentare legate la etichetă (etichete). Sunteţi sigur?</string>  
+    <string name="aas_name_invalid">Numele de etichetă este nevalid. Introduceţi un altul.</string>  
+    <string name="aas_name_exist">Eticheta există deja.</string>  
+    <string name="aas_usim_full">Nu există spaţiu pentru etichete noi.</string>  
+    <string name="ass_edit_assert_message">Modificarea etichetei va afecta toate numerele suplimentare legate la etichetă. Sunteţi sigur?</string>  
+    <string name="aas_new_fail">Crearea etichetei noi nu a reuşit.</string>  
+    <string name="aas_edit_fail">Redenumirea 
+        <xliff:g id="aas">%s</xliff:g> nu a reuşit.
+    </string>  
+    <string name="aas_delete_fail">Ştergerea 
+        <xliff:g id="aas">%s</xliff:g> nu a reuşit.
+    </string>  
+    <string name="aas_phone_primary">Număr principal</string>  
+    <string name="aas_phone_additional">Număr suplimentar</string>  
+    <!-- aas strings end--> 
+
+    <string name="nickname_too_long">"Pseudonimul este prea lung."</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_gravity="center"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+		<TextView
+			android:id="@+id/presetName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginStart="29sp"
+			android:layout_marginTop="39sp"
+			android:text="@string/off"
+			android:textAppearance="@style/TextAppearanceLarge"
+			android:textSize="28sp" />
+
+		<ImageView
+			android:id="@+id/revertButtonMain"
+			android:layout_width="25sp"
+			android:layout_height="24sp"
+			android:layout_alignBottom="@+id/presetName"
+			android:layout_marginBottom="6sp"
+			android:layout_marginStart="12sp"
+			android:layout_toEndOf="@+id/presetName"
+			android:soundEffectsEnabled="false"
+			android:src="@drawable/revert_profile" />
+
+		<EditText
+			android:id="@+id/presetNameEdit"
+			android:layout_width="460sp"
+			android:layout_height="64sp"
+			android:layout_alignBaseline="@+id/presetName"
+			android:layout_alignStart="@+id/presetName"
+			android:background="@drawable/blueframe"
+			android:inputType="textCapCharacters|textNoSuggestions"
+			android:textColor="@color/white"
+			android:textSize="48sp"
+			android:textStyle="normal"
+			android:visibility="gone" />
+	</RelativeLayout>
+
+</LinearLayout>

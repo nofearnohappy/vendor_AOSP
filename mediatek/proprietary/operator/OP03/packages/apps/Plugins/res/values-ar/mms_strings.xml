@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- XO-v2-translations_2015-01-15.xls -->
+<!-- DO NOT MODIFY THIS FILE| Please contact katja.nykanen@orange.com to request changes -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Optional Section Header 3 etc. -->
+    <string name="banner_sms_promo_title_application1">تطبيق الرسائل النصية ليس تطبيق رسائل SMS الافتراضي الخاص بك</string>
+    <string name="banner_sms_promo_message1">انقر هنا لتشغيله.</string>
+    <string name="roaming_warning">الاتصال بالإنترنت أثناء التجوال قد يؤدي إلى زيادة كبيرة في تكاليف اتصالك. يخطرك مشغّل الخدمة الخاص بك بمجرد وصول استهلاك البيانات أثناء وجودك خارج البلد إلى حد معيّن. هل ما زلت ترغب في المتابعة؟</string>
+    
+</resources>

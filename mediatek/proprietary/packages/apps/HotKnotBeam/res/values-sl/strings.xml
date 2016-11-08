@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Začni prejemati ...</string>
+    <string name="notification_group_title">Prejemanje datotek (<xliff:g id="number">%d</xliff:g>) ...</string> 
+    <string name="notification_download_done">Dotaknite se za več informacij</string>
+    <string name="notification_group_received">Št. prejetih datotek: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_received">Uspešno prejeto</string> 
+    <string name="notification_download_failure">Prejemanje ni uspelo. Razlog: <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Prejemanje preklicano</string>
+    <string name="notification_group_received_failed">Št. neuspelih datotek: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_group_received_partial_failed">Št. neuspelih datotek: <xliff:g id="number">%d</xliff:g>, št. prejetih datotek: <xliff:g id="number">%d</xliff:g></string>
+    <string name="download_no_file">Datoteka ne obstaja</string>
+    <string name="notification_sending">Začni pošiljati ...</string>
+    <string name="notification_group_upload_title">Pošiljanje datotek (<xliff:g id="number">%d</xliff:g>) ...</string>
+    <string name="notification_group_sent">Št. poslanih datotek: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_sent">Uspešno poslano</string>
+    <string name="notification_upload_failed">Pošiljanje ni uspelo. Razlog: <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Pošiljanje preklicano</string>
+    <string name="notification_group_sent_failed">Št. neuspelih datotek: <xliff:g id="number">%d</xliff:g></string>
+    <string name="notification_group_sent_partial_failed">Št. neuspelih datotek: <xliff:g id="number">%d</xliff:g>, št. poslanih datotek: <xliff:g id="number">%d</xliff:g></string>
+    <string name="low_storage">malo prostora za shranjevanje</string>
+    <string name="connect_failure">"Težava s povezavo"</string>
+    <string name="unknown_error">Neznana napaka</string>
+    <string name="share_label">Skupna raba HotKnot</string>
+    <string name="rx_ui_image_status">Prejemanje slike z naprave <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Prejemanje: <xliff:g id="number">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> slik z naprave <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Prejemanje videa z naprave <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Prejemanje: <xliff:g id="number">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> videoposnetkov z naprave <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Prejemanje datoteke z naprave <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Prejemanje: <xliff:g id="number">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> datotek z naprave <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Prejemanje glasbene datoteke z naprave <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Prejemanje: <xliff:g id="number">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g> glasbenih datotek z naprave <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Prejemanje ni dokončano</string>
+</resources>

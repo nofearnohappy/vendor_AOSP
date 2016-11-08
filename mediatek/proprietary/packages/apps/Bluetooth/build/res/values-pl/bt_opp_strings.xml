@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Żądanie pliku przychodzącego"</string>
+	<string name="bt_opp_notification_in_coming_title">"Żądanie pliku przychodzącego (od: %1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Wybierz, aby zaakceptować plik przychodzący."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Zezwalaj na odbieranie plików"</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Odbieranie: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Plik wychodzący"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Wysyłanie: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Połączono w celu transferu plików"</string>
+	<string name="bt_opp_cancel_task_message">"Anulować ten transfer?"</string>
+	<string name="bt_opp_cancel_task_yes">"Tak"</string>
+	<string name="bt_opp_cancel_task_no">Brak dostępnej aplikacji do drukowania kontaktów.</string>
+	<string name="bt_opp_canceling_task_message">"Czekaj, trwa anulowanie transferu..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth — obiekt przychodzący"</string>
+	<string name="bt_opps_confirm_push_message">"Plik przychodzący: %1$s (%2$s) od %3$s. Zaakceptować?"</string>
+	<string name="bt_opps_confirm_push_yes">Zaakceptować usługę Auto-push?</string>
+	<string name="bt_opps_confirm_push_no">Odrzuć</string>
+	<string name="bt_oppc_push_action_label">"Odtwarzanie przez Bluetooth"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Wysyłanie pliku do %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Wysyłanie plików do %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Nieobsługiwana zawartość do udostępnienia: %1$s"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Brak karty SD lub za mało miejsca w pamięci na plik przychodzący."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Nieprawidłowe żądanie udostępniania z urządzenia zdalnego."</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013-2014 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013-2014 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/black" >
+
+	<LinearLayout
+		android:id="@+id/main"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:orientation="vertical" >
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="150sp"
+			android:background="@drawable/topbackground" >
+
+			<fragment
+				android:id="@+id/fragpower"
+				android:name="com.dolby.ds1appUI.FragPower"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				tools:layout="@layout/fragpower" >
+			</fragment>
+
+			<ImageView
+				android:id="@+id/dsLogo"
+				android:layout_width="218sp"
+				android:layout_height="52sp"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentTop="true"
+				android:layout_marginLeft="290sp"
+				android:layout_marginTop="50sp"
+				android:src="@drawable/dslogo" />
+		</FrameLayout>
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1sp"
+			android:background="@color/black" />
+
+		<fragment
+			android:id="@+id/fragprofilepresets"
+			android:name="com.dolby.ds1appUI.FragProfilePresets"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			tools:layout="@layout/fragprofilepresets" >
+		</fragment>
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1px"
+			android:background="@color/ltborder" />
+
+		<fragment
+			android:id="@+id/fragprofileeditor"
+			android:name="com.dolby.ds1appUI.FragProfilePresetEditor"
+			android:layout_width="wrap_content"
+			android:layout_height="100sp"
+			tools:layout="@layout/fragprofileeditor" >
+		</fragment>
+		
+		<fragment
+			android:id="@+id/fraggraphicvisualizer"
+			android:name="com.dolby.ds1appUI.FragGraphicVisualizer"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+			tools:layout="@layout/fraggraphicvisualizer" />
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1sp"
+			android:layout_marginBottom="26sp"
+			android:layout_marginLeft="32sp"
+			android:layout_marginRight="48sp"
+			android:layout_marginTop="20sp"
+			android:background="@color/ltborder" />
+
+		<!-- SV, DE, VL switches -->
+
+		<fragment
+			android:id="@+id/fragswitches"
+			android:name="com.dolby.ds1appUI.FragSwitches"
+			android:layout_width="fill_parent"
+			android:layout_height="100sp"
+            android:layout_marginLeft="25sp"
+			android:layout_marginRight="60sp"
+			tools:layout="@layout/fragswitches" />
+
+		<RelativeLayout
+			android:id="@+id/copyrightBox"
+			android:layout_width="fill_parent"
+			android:layout_height="45sp" >
+		</RelativeLayout>
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1sp"
+			android:background="@color/ltborder" />
+
+	</LinearLayout>
+
+</FrameLayout>

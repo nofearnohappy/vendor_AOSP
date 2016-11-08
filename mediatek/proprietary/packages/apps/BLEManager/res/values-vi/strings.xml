@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLE Manager</string>
+    <string name="tap_to_turn_on_bluetooth">Chạm để bật Bluetooth</string>
+    <string name="tap_to_add_device">Chạm để thêm thiết bị</string>
+    <string name="turning_on_bluetooth">Đang bật Bluetooth...</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Đang dò tìm thiết bị</string>
+    <string name="delete_devices">Hãy ngắt kết nối một thiết bị để kết nối thiết bị mới</string>
+    <string name="cancel">"Hủy"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Thông báo"</string>
+    <string name="device_manager">Quản lý thiết bị</string>
+    <string name="out_of_range_alert_text">Cảnh báo ngoài phạm vi</string>
+    <string name="in_range_alert_text">Cảnh báo trong phạm vi</string>
+    <string name="range_alert_text">Phạm vi của tôi</string>
+    <string name="range_alert_summary">Cảnh báo cả ĐT và thiết bị khi thiết bị ngoài phạm vi kết nối</string>
+    <string name="range_near_text">Gần</string>
+    <string name="range_middle_text">giữa</string>
+    <string name="range_far_text">"Xa"</string>
+    <string name="range_1_distance_text">Khoảng 1m</string>
+    <string name="range_10_distance_text">1-10m</string>
+    <string name="range_20_distance_text">10-20m</string>
+    <string name="phone_alert_settings">Cài đặt cảnh báo ĐT</string>
+    <string name="ringtone_tye_text">"Nhạc chuông"</string>
+    <string name="volume_text">"Âm lượng"</string>
+    <string name="vibration_text">Báo rung</string>
+    <string name="vibration_summary_on">bật</string>
+    <string name="vibration_summary_off">"Tắt"</string>
+    <string name="device_name">"Tên thiết bị"</string>
+    <string name="push_notification_text">Chuyển thông báo về thiết bị</string>
+    <string name="incoming_call_notification_text">"Cuộc gọi đến"</string>
+    <string name="missed_call_notificaiotn_text">"Cuộc gọi nhỡ"</string>
+    <string name="new_message_notification_text">"Tin nhắn mới"</string>
+    <string name="new_email_notification_text">Email mới</string>
+    <string name="disconnection_text">Cài đặt ngưng kết nối</string>
+    <string name="disconnection_waring_title">Cảnh báo ngưng kết nối</string>
+    <string name="disconnection_waring_summary">Cảnh báo cả ĐT và thiết bị khi thiết bị bị ngắt kết nối</string>
+    <string name="device_name_change_dialog_title">"Đổi tên"</string>
+    <string name="disconnect_text">"Ngắt kết nối"</string>
+    <string name="delete_text">"Xóa"</string>
+    <string name="connect_text">"Kết nối"</string>
+    <string name="device_delete_dialog_message">Xóa thiết bị này?</string>
+    <string name="device_disconnect_dialog_message">Ngắt kết nối thiết bị này?</string>
+    <string name="find_all_text">Tìm tất cả</string>
+    <string name="default_images">Ảnh mặc định</string>
+    <string name="range_information_text">Phạm vi phụ thuộc vào cường độ tín hiệu. Trong điều kiện lý tưởng, phạm vi có thể xa hơn 30 mét.  Một số yếu tố có thể rút ngắn khoảng cách xuông còn 15 mét hoặc gần hơn chẳng hạn như cơ thể bạn, tường và các vật cản khác.</string>
+    <string name="range_information_dialog_check_box_text">Không hiển thị lại</string>
+    <string-array name="device_image_chooser_items">
+        <item>Chọn từ ảnh mặc định</item>
+        <item>"Chụp ảnh"</item>
+        <item>Chọn từ bộ sưu tập</item>
+    </string-array>
+    <string name="add_device">"Thêm thiết bị"</string>
+    <string name="yes">"Có"</string>
+    <string name="no">"Không"</string>
+    <string name="connecting_text">"Đang kết nối..."</string>
+    <string name="enable_background_service">Bật Chế độ nền</string>
+    <string name="disable_background_service">Tắt Chế độ nền</string>
+    <string name="ble_manager_alert">Báo Quản lý BLE</string>
+    <string name="check">Kiểm tra</string>
+    <string name="dismiss">Hủy bỏ</string>
+    <string name="disconnected">"Đã ngắt kết nối"</string>
+    <string name="in_range">trong phạm vi</string>
+    <string name="out_of_range">ngoài phạm vi</string>
+    <string name="no_found">Không tìm thấy thiết bị bluetooth.</string>
+    <string name="bt_off">Bluetooth đang tắt, hãy bật.</string>
+</resources>

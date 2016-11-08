@@ -1,0 +1,15 @@
+WHAT IT DOES?
+=============
+This library is used to maintain customer table, 
+let customer can config some parameter by themself.
+
+HOW IT WAS BUILT?
+==================
+module build vendor\mediatek\proprietary\external\bluetooth\bt_cust\Android.mk
+Will be output libbtcusttable.so.
+
+HOW TO USE IT?
+==============
+user can modify bt_cust_table.h table to config some parameter.
+such as COD,Device Name...
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ESPListInfo is for provider list ui information -->
+    <declare-styleable name="ESPListInfo">
+        <attr name="name" format="string"/>
+        <attr name="serverdomain" format="string"/>
+        <attr name="defaultprotocol" format="string" />
+        <attr name="hint" format="string"/>
+        <attr name="icon">
+            <enum name="mail_189" value="0"/>
+            <enum name="mail_exchange" value="1"/>
+            <enum name="mail_gmail" value="2"/>
+            <enum name="mail_sina" value="3"/>
+            <enum name="mail_qq" value="4"/>
+            <enum name="mail_163" value="5"/>
+            <enum name="mail_yandex" value="6"/>
+            <enum name="mail_mail_ru" value="7"/>
+            <enum name="mail_others" value="8"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- ProviderInfo is just like providers.xml in Email, to config providers' information -->
+    <declare-styleable name="EmailProviderListInfo">
+        <attr name="id" format="string"/>
+        <attr name="label" format="string"/>
+        <attr name="domain" format="string"/>
+        <attr name="incominguritemplate" format="string"/>
+        <attr name="incomingusernametemplate" format="string"/>
+        <attr name="outgoinguritemplate" format="string"/>
+        <attr name="outgoingusernametemplate" format="string"/>
+        <attr name="note" format="string"/>
+    </declare-styleable>
+</resources>

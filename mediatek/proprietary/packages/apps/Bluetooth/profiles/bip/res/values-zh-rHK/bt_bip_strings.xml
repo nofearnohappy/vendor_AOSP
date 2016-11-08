@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_bip_app_name">"藍芽相片傳輸"</string>
+	<string name="bt_bipi_push_confirmation">"相片推送確認"</string>
+	<string name="bt_bipi_unsupported_format">"收件人不支援編碼。\n確定要繼續傳送嗎？"</string>
+	<string name="bt_bipi_push_confirmation_ok">成功設定短訊服務中心</string>
+	<string name="bt_bipi_push_confirmation_cancel">"真的要取消下載嗎?\n按下繼續以繼續下載\n 按下丟棄以丟棄下載文件並去除之"</string>
+	<string name="bt_bip_transmitting_dialog_hide">隱藏本機視頻</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"真的要取消下載嗎?\n按下繼續以繼續下載\n 按下丟棄以丟棄下載文件並去除之"</string>
+	<string name="bt_bip_transmitting_dialog_ok">成功設定短訊服務中心</string>
+	<string name="bt_bip_transmitting_dialog_yes">"是"</string>
+	<string name="bt_bip_transmitting_dialog_no">沒有應用程式可列印聯絡人。</string>
+	<string name="bt_bip_transmitting">"正在傳送相片，%1$s"</string>
+	<string name="bt_bip_transmitting_successful">"相片 %1$s 已傳送"</string>
+	<string name="bt_bip_transmitting_fail">"傳送相片 %1$s 失敗"</string>
+	<string name="bt_bip_cancel_pending_job">"取消此待機傳輸？"</string>
+	<string name="bt_bip_pending_job">"傳送 %1$s (待機中)"</string>
+	<string name="bt_bipr_incoming_request">"收到相片接收要求"</string>
+	<string name="bt_bipr_incoming_request_description">"勾選以接收 %1$s"</string>
+	<string name="bt_bipr_accept_title">"收到相片接收要求"</string>
+	<string name="bt_bipr_accept_content">"接受來自 "%3$s" 的 "%1$s (%2$sKB)"？"</string>
+	<string name="bt_bipr_accept_always">"一律接受？"</string>
+	<string name="bt_bipr_accept_yes">"是"</string>
+	<string name="bt_bipr_accept_no">沒有應用程式可列印聯絡人。</string>
+	<string name="bt_bip_receiving">"正在接收相片，%1$s"</string>
+	<string name="bt_bip_receiving_successful">"已接收相片 %1$s。\n您希望檢視此相片嗎？"</string>
+	<string name="bt_bip_receiving_fail">"接收相片 %1$s 失敗"</string>
+	<string name="bt_bip_toast_connect_fail">"數據連接失敗或網絡現正繁忙。"</string>
+	<string name="bt_bip_toast_storage_unmounted">在FTP用戶端啟動之前，請檢查是否已準備好SD卡。</string>
+	<string name="bt_bip_toast_sending_object">"正在傳送相片，%1$s"</string>
+	<string name="bt_bip_auth_password">密碼：\u0020</string>
+	<string name="bt_bip_auth_userid">伺服器 ID：\u0020</string>
+	<string name="bt_bip_auth_ok">成功設定短訊服務中心</string>
+	<string name="bt_bip_auth_cancel">"真的要取消下載嗎?\n按下繼續以繼續下載\n 按下丟棄以丟棄下載文件並去除之"</string>
+</resources>

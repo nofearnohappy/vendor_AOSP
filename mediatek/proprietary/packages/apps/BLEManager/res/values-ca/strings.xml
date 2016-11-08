@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Toca per activar el Bluetooth</string>
+    <string name="tap_to_add_device">Toca per afegir dispositiu</string>
+    <string name="turning_on_bluetooth">Activant el Bluetooth...</string>
+    <string name="launcher_activity_name">Administrador BLE</string>
+    <string name="scanning_devices">Explorant els dispositius</string>
+    <string name="delete_devices">Desconnecta un dispositiu per connectar-ne un altre</string>
+    <string name="cancel">"Cancel·la"</string>
+    <string name="ok">"D\'acord"</string>
+    <string name="alert_setting">"Alerta"</string>
+    <string name="device_manager">Administrador de dispositius</string>
+    <string name="out_of_range_alert_text">Avís de fora d’abast</string>
+    <string name="in_range_alert_text">Avís de dins l’abast</string>
+    <string name="range_alert_text">El meu abast</string>
+    <string name="range_alert_summary">Avís al telèfon i al dispositiu quan el dispositiu està dins o fora d’abast</string>
+    <string name="range_near_text">A prop</string>
+    <string name="range_middle_text">Mig</string>
+    <string name="range_far_text">"Lluny"</string>
+    <string name="range_1_distance_text">Aprox. 1 m</string>
+    <string name="range_10_distance_text">1-10 m</string>
+    <string name="range_20_distance_text">10-20 m</string>
+    <string name="phone_alert_settings">Configuració d’avisos del telèfon</string>
+    <string name="ringtone_tye_text">"So de trucada"</string>
+    <string name="volume_text">"Volum"</string>
+    <string name="vibration_text">Vibració</string>
+    <string name="vibration_summary_on">"Activada"</string>
+    <string name="vibration_summary_off">"Desactivat"</string>
+    <string name="device_name">"Nom del dispositiu"</string>
+    <string name="push_notification_text">Notificacions de tramesa automàtica al dispositiu</string>
+    <string name="incoming_call_notification_text">"Trucada entrant"</string>
+    <string name="missed_call_notificaiotn_text">"Trucada perduda"</string>
+    <string name="new_message_notification_text">"Missatge nou"</string>
+    <string name="new_email_notification_text">Correu nou</string>
+    <string name="disconnection_text">Configuració de desconnexió</string>
+    <string name="disconnection_waring_title">Avís de desconnexió</string>
+    <string name="disconnection_waring_summary">Avís al telèfon i al dispositiu quan el dispositiu està desconnectat</string>
+    <string name="device_name_change_dialog_title">"Canvia el nom"</string>
+    <string name="disconnect_text">"Desconnecta"</string>
+    <string name="delete_text">"Suprimeix"</string>
+    <string name="connect_text">"Connecta"</string>
+    <string name="device_delete_dialog_message">Vols suprimir aquest dispositiu?</string>
+    <string name="device_disconnect_dialog_message">Vols desconnectar aquest dispositiu?</string>
+    <string name="find_all_text">Cerca-ho tot</string>
+    <string name="default_images">Imatges predeterminades</string>
+    <string name="range_information_text">L’abast depèn de la potència del senyal. En situacions ideals, l’abast pot ser de més de 30 metres.  Alguns elements poden reduir la distància a 15 metres o menys, com el vostre propi cos, parets i altres obstruccions.</string>
+    <string name="range_information_dialog_check_box_text">No m’ho tornis a mostrar.</string>
+    <string-array name="device_image_chooser_items">
+        <item>Selecciona de la imatge predeterminada</item>
+        <item>"Fes una foto"</item>
+        <item>Selecciona de la galeria</item>
+    </string-array>
+    <string name="add_device">Afegeix dispositiu</string>
+    <string name="yes">"Sí"</string>
+    <string name="no">"No"</string>
+    <string name="connecting_text">"S\'està connectant..."</string>
+    <string name="enable_background_service">Activa el mode de fons</string>
+    <string name="disable_background_service">Desactiva el mode de fons</string>
+    <string name="ble_manager_alert">Alerta del Gestor de BLE</string>
+    <string name="check">Comprova</string>
+    <string name="dismiss">Ignora</string>
+    <string name="disconnected">"Desconnectada"</string>
+    <string name="in_range">dins dels límits</string>
+    <string name="out_of_range">fora dels límits</string>
+    <string name="no_found">"No s'ha trobat cap dispositiu Bluetooth."</string>
+    <string name="bt_off">El Bluetooth està desactivat, activeu-lo.</string>
+</resources>

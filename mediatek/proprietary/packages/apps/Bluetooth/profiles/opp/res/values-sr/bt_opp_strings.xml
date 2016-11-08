@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bt_opp_notification_in_coming_ticker">"Захтев за долазни фајл"</string>
+	<string name="bt_opp_notification_in_coming_title">"Захтев за долазни фајл (од:%1$s)"</string>
+	<string name="bt_opp_notification_in_coming_message">"Одаберите да прихватите долазни фајл."</string>
+	<string name="bt_opp_notification_in_ongoing_ticker">"Дозв. све долаз. преносе дат."</string>
+	<string name="bt_opp_notification_in_ongoing_message">"Прима се: %1$s (%2$s)"</string>
+	<string name="bt_opp_notification_out_ongoing_ticker">"Одлазни фајл"</string>
+	<string name="bt_opp_notification_out_ongoing_message">"Шаље се: %1$s (%2$s)"</string>
+	<string name="bt_opp_cancel_task_title">"Повезано с преносом датотеке"</string>
+	<string name="bt_opp_cancel_task_message">"Отказати овај пренос?"</string>
+	<string name="bt_opp_cancel_task_yes">"Да"</string>
+	<string name="bt_opp_cancel_task_no">Нема доступне апликације за штампање контакта.</string>
+	<string name="bt_opp_canceling_task_message">"Пренос се отказује, молимо сачекајте..."</string>
+	<string name="bt_opps_confirm_push_title">"Bluetooth - долазећи објекат"</string>
+	<string name="bt_opps_confirm_push_message">"Долазеђи фајл: %1$s (%2$s) од %3$s. Прихватити?"</string>
+	<string name="bt_opps_confirm_push_yes">Прихватити аутоматску push услугу?</string>
+	<string name="bt_opps_confirm_push_no">Одбиј</string>
+	<string name="bt_oppc_push_action_label">"Играње преко Bluetooth-а"</string>
+	<string name="bt_oppc_push_toast_sending_file">"Шаље се фајл до  %1$s"</string>
+	<string name="bt_oppc_push_toast_sending_files">"Шаљу се фајлови до %1$s"</string>
+	<string name="bt_oppc_push_toast_unsupported_uri">"Неподржани садржај за дељење:  %1$s"</string>
+	<string name="bt_oppc_push_toast_unknown_device">"непознат уређај"</string>
+	<string name="bt_opps_toast_storage_unavailable">"Нема SD картице или нема довољно простора за складиштење долазних фајлова."</string>
+	<string name="bt_oppc_toast_disk_full">"Нема довољно простора на диску за чување информација за слање."</string>
+	<string name="bt_opps_push_toast_invalid_request">"Неважећи захтев за дељење од удаљеног уређаја."</string>
+	<string name="permlab_bluetoothWhitelist">"Приступ Bluetooth уређаја са беле листе."</string>
+	<string name="permdesc_bluetoothWhitelist">Дозвољава апликацији да тренутно одобри Bluetooth уређај, дозвољавајући том уређају да шаље фајлове на овај уређај без потврде корисника. </string>
+	<string name="permlab_handoverStatus">"Примај емитовања трансфера преко Bluetooth-а."</string>
+	<string name="permdesc_handoverStatus">Дозвољава примање информација о статусу преноса са Bluetooth-а.</string>
+</resources>

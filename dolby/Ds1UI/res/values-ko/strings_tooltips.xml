@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+
+
+
+    <string name="tooltip_eq_title">인텔리전트 이퀄라이저/그래픽 이퀄라이저</string>
+
+    <string name="tooltip_eq_text">인텔리전트 이퀄라이저는 원하는 톤과 일치하도록 오디오를 분석하고 동적으로 조정합니다. 오른쪽에 보이는 4가지 사전 설정 중에서 선택한 후 위의 스펙트럼 비주얼라이저를 터치하여 그래픽 이퀄라이저를 원하는 대로 수정합니다.</string>
+
+    <string name="tooltip_sv_title">서라운드 버추얼라이저</string>
+
+    <string name="tooltip_sv_text">서라운드 버추얼라이저는 헤드폰이나 스테레오 스피커로부터 실감나는 서라운드 사운드를 생성합니다. 스위치를 켜거나 꺼서 서라운드 사운드 효과를 제어합니다.</string>
+
+    <string name="tooltip_de_title">다이얼로그 인핸서</string>
+
+    <string name="tooltip_de_text">다이얼로그 인핸서는 모든 미디어 종류에 대해 음성을 뚜렷하게 합니다. 스위치를 켜거나 꺼서 다이얼로그 향상을 제어합니다.</string>
+
+    <string name="tooltip_vl_title">볼륨 레벨러</string>
+
+    <string name="tooltip_vl_text">볼륨 레벨러는 장치의 마스터 볼륨 레벨을 기준으로 모든 컨텐트와 응용 프로그램에 대해 볼륨 레벨을 일정하게 유지합니다. 스위치를 켜거나 꺼서 자동 볼륨 레벨링을 제어합니다. </string>
+
+
+</resources>
+

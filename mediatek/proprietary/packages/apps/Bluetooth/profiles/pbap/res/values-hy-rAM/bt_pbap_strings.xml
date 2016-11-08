@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"Bluetooth Հեռախոսագրքի մատչում"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"Bluetooth PBAP թույլատրման հայցում"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"Bluetooth PBAP վավերացման հայցում"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"Ընտրել` թույլատրելու համար PBAP կապակցում"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"Bluetooth PBAP թույլատրում"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"Անցակոդ"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">SMS ծառայության կենտրոնը հաջողությամբ նախադրվեց</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"Իսկապե՞ս չեղարկել ներբեռնումը:\nՍեղմեք "Շարունակել", որպեսզի շարունակեք ներբեռնումը\n Սեղմեք "Հրաժարվել", որպեսզի հրաժարվեք ներբեռնումից և վերացնեք ֆայլի ներբեռնումը"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">"Թույլատրել"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"Bluetooth PBAP թույլատրման հայցում"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"Թույլատրե՞լ PBAP կապակցման հայցումը %1$s-ից:"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"Bluetooth PBAP վավերացման հայցում"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message">"PBAP վավերացման հայցում %1$s-ից"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">Տվյալների փոխանցման արագությունը կմերժվի:</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"Միշտ թույլատրե՞լ:"</string>
+</resources>

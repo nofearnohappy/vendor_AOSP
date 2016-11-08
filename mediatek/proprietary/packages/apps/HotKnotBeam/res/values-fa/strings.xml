@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">درحال شروع دریافت...</string>
+    <string name="notification_group_title">درحال دریافت فایل‌های <xliff:g id="number">%d</xliff:g> ...</string> 
+    <string name="notification_download_done">برای مشاهده جزئیات، لمس کنید</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> فایل‌ دریافت شد</string>
+    <string name="notification_received">باموفقیت دریافت شد</string> 
+    <string name="notification_download_failure">دریافت به‌دلیل <xliff:g id="reason">%s</xliff:g> ناموفق بود</string> 
+    <string name="notification_download_cancel">دریافت لغو شد</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> فایل‌ ناموفق بود</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> فایل‌ ناموفق بود، <xliff:g id="number">%d</xliff:g> فایل‌ دریافت شد</string>
+    <string name="download_no_file">فایل وجود ندارد</string>
+    <string name="notification_sending">درحال شروع ارسال...</string>
+    <string name="notification_group_upload_title">درحال ارسال فایل‌های <xliff:g id="number">%d</xliff:g> ...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> فایل‌ فرستاده شد</string>
+    <string name="notification_sent">باموفقیت فرستاده شد</string>
+    <string name="notification_upload_failed">ارسال به‌دلیل <xliff:g id="reason">%s</xliff:g> ناموفق بود</string>
+    <string name="notification_upload_cancel">ارسال لغو شد</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> فایل‌ ناموفق بود</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> فایل‌ ناموفق بود، <xliff:g id="number">%d</xliff:g> فایل‌ فرستاده شد</string>
+    <string name="low_storage">حافظه ذخیره‌سازی کم است</string>
+    <string name="connect_failure">"مشکل اتصال"</string>
+    <string name="unknown_error">خطای ناشناخته</string>
+    <string name="share_label">HotKnot Share</string>
+    <string name="rx_ui_image_status">دریافت تصویر از <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">دریافت <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> تصویر از <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">دریافت فیلم از <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">دریافت <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> فیلم‌ از <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">دریافت فایل از <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">دریافت <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> فایل‌‌ از <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">دریافت موسیقی از <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">دریافت <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> موسیقی‌‌ از <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">دریافت ناتمام ماند</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Magsimulang makatanggap...</string>
+    <string name="notification_group_title">Tinatanggap ang <xliff:g id="number">%d</xliff:g> (na)file...</string> 
+    <string name="notification_download_done">Pindutin para tingnan ang mga detalye</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> (na) file ang natanggap</string>
+    <string name="notification_received">Matagumpay na natanggap</string> 
+    <string name="notification_download_failure">Nabigong matanggap dulot ng <xliff:g id="reason">%s</xliff:g></string> 
+    <string name="notification_download_cancel">Kinansela ang pagtanggap</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> (na) file ang nabigo</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> (na) file ang nabigo, <xliff:g id="number">%d</xliff:g> (na) file ang natanggap</string>
+    <string name="download_no_file">Hindi umiiral ang file</string>
+    <string name="notification_sending">Simulang magpadala...</string>
+    <string name="notification_group_upload_title">Pinadadala ang <xliff:g id="number">%d</xliff:g> (na) file...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> (na) files ang ipinadala</string>
+    <string name="notification_sent">Matagumpay na naipadala</string>
+    <string name="notification_upload_failed">Nabigong ipadala dulot ng <xliff:g id="reason">%s</xliff:g></string>
+    <string name="notification_upload_cancel">Kinansela ang pagpapadala</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> (na) file ang nabigo</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> (na) file ang nabigo, <xliff:g id="number">%d</xliff:g> (na) file ang ipinadala</string>
+    <string name="low_storage">mababang imbakan</string>
+    <string name="connect_failure">"Problema sa koneksyon"</string>
+    <string name="unknown_error">Hindi kilalang error</string>
+    <string name="share_label">HotKnot na Pagbabahagi</string>
+    <string name="rx_ui_image_status">Tumatanggap ng imahe mula sa <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_image_status">Tumatanggap ng <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> mga imahe mula sa <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_video_status">Tumatanggap ng video mula sa <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_video_status">Tumatanggap ng <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> mga video mula sa <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_status">Tumatanggap ng file mula sa <xliff:g id="device">%s</xliff:g></string>                
+    <string name="rx_group_ui_status">Tumatanggap ng <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> (na) file mula sa <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_music_status">Tumatanggap ng musika mula sa <xliff:g id="device">%s</xliff:g></string>
+    <string name="rx_group_ui_music_status">Tumatanggap ng <xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> musika mula sa <xliff:g id="device">%3$s</xliff:g></string>
+    <string name="rx_ui_failed_status">Hindi natapos ang pagtanggap</string>
+</resources>

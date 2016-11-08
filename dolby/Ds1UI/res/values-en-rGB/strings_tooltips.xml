@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2012 by Dolby Laboratories,
+                               All rights reserved.
+-->
+<resources>
+
+    <string name="tooltip_eq_title">Intelligent Equaliser/Graphic Equaliser</string>
+    <string name="tooltip_eq_text">The Intelligent Equaliser analyses and dynamically adjusts the audio to match a desired tone. Choose from the four presets shown, and then touch the Spectral Visualiser to make custom modifications to the Graphic Equaliser.</string>
+    <string name="tooltip_sv_title">Surround Virtualiser</string>
+    <string name="tooltip_sv_text">The Surround Virtualiser creates realistic surround sound from any set of headphones or stereo speakers. Set the switch on or off to control the surround sound effect.</string>
+    <string name="tooltip_de_title">Dialogue Enhancer</string>
+    <string name="tooltip_de_text">The Dialogue Enhancer improves the clarity of speech in any type of media. Set the switch on or off to control dialogue enhancement.</string>
+    <string name="tooltip_vl_title">Volume Leveller</string>
+    <string name="tooltip_vl_text">The Volume Leveller provides a consistent volume across all content and applications based on the master volume level of the device. Set the switch on or off to control automatic volume levelling. </string>
+
+</resources>

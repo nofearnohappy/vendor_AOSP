@@ -1,0 +1,18 @@
+WHAT IT DOES?
+=============
+The JNI library of AAL calibration/tuning tool.
+
+HOW IT WAS BUILT?
+==================
+It needs the following library from AOSP:
+1.  libandroid_runtime.so
+2.  libutils.so
+3.  libbinder.so
+4.  liblog.so
+
+and the following libs from MediaTek:
+1.  libaal.so
+
+HOW TO USE IT?
+==============
+AALTool.apk will load this JNI library.

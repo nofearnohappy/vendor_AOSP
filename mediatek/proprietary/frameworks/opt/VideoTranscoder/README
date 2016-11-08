@@ -1,0 +1,9 @@
+MTK native video transcoder
+
+WHAT IT DOES?
+=============
+Provide video transcoding functionality to applications
+
+HOW TO USE IT?
+==============
+Used by VideoTranscoder JNI

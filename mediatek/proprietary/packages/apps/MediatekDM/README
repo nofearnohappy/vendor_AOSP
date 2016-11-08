@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+Implementation of OMA DM required by OP01.
+
+HOW IT WAS BUILT?
+==================
+Only and awalys built in OP01 project.
+
+HOW TO USE IT?
+==============
+This feature is triggered by operator's server.

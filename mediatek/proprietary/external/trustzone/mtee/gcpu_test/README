@@ -1,0 +1,24 @@
+The executable 'mtee_gcpu_test' is a program to test gcpu tee driver.
+
+
+WHAT IT DOES?
+=============
+
+The 'mtee_gcpu_test' can test gcpu tee driver.
+
+
+HOW IT WAS BUILT?
+==================
+
+All source/dependency modules of this module are already put in
+'vendor/mediatek/proprietary/external/trustzone/gcpu_test' folder.
+
+
+HOW TO USE IT?
+==============
+
+Feed the mtee_gcpu_test with one argument, 
+Run ./mtee_gcpu_test 0 1.
+
+
+All the source code of this library were written by MediaTek co..

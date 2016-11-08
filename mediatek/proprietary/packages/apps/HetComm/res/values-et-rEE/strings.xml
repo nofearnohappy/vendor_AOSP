@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="true">Turbo-allalaadimine</string>
+    <string name="hetcomm_intro">Laadige suuri faile (üle 20 MB) kiiremini, kasutades samaaegselt Wi-Fi-ühendust ja 4G/3G võrke. Rakenduse Turbo Download ikoon kuvatakse olekuribal, kui rakendus töötab. Rakenduse Turbo Download kasutamiseks peavad nii Wi-Fi kui ka mobiilandmeside olema sisse lülitatud. Kui see on lubatud, laaditakse WLAN-i ja 4G/3G kaudu niikuinii alla need rakenduse andmed, mille te olete valinud allalaadimiseks ainult Wi-Fi kaudu.</string>
+    <string name="enable_switch_on">"Sees"</string>
+    <string name="enable_switch_off">"väljas"</string>
+    <string name="notify_top_title">Allalaadimise kiirendaja</string>
+    <string name="unit_Mbps">Mbps</string>
+    <string name="network_WiFi">Wi-Fi</string>
+    <string name="network_Mobile">3/4G</string>
+    <string name="connection_mobile">"Mobiilne andmeside"</string>
+    <string name="conn_notice_title">Mobiilandmeside või Wi-Fi on VäLJAS.</string>
+    <string name="conn_notice_detail">Rakenduse Turbo Download lubamiseks peavad nii Wi-Fi kui ka mobiilandmeside olema sisse lülitatud.</string>
+    <string name="conn_charging_warning">Mobiilvõrkude kaudu allalaadimisel võivad sõltuvalt olukorrast kohalduda täiendavad tasud.</string>
+    <string name="turn_on">Lülitage sisse <xliff:g id="conn">%1$s</xliff:g></string>
+    <string name="turn_off_due_to_vpn">Rakendus Turbo Download on VÄLJAS, kuna Vpn on SEES</string>
+    <string name="turn_off_due_to_tether">Rakendus Turbo Download on VÄLJAS, kuna ühenduse jagamine on SEES</string>
+    <string name="turn_off_due_to_shutdown">Rakendus Turbo Download on sulgemise tõttu VÄLJAS</string>
+    <string name="turn_off_due_to_roaming">Rakendus Turbo Download on roamingu tõttu VÄLJAS</string>
+    <string name="ratio_is_single">Wi-Fi-/mobiilandmeside kiirus on madal. Allalaadimiskiiruse suurendamiseks: Turbo-allalaadimine kasutab allalaadimiseks ainult mobiilandmeside-/Wi-Fi-ühendust.</string>
+    <string name="ratio_is_back">Turbo-allalaadimine kasutab taas Wi-Fi- ja mobiilandmesideühendust koos, et faile alla laadida.</string>
+    <string name="action_help">Spikker</string>
+    <string name="hetcomm_help">"<![CDATA[<html><body><h1>Turbokiirusega allalaadimise spikker</u>\
+    </h1><br>Suurte failide alla laadimine samaaegselt Wi-Fi-võrku ja 4G/3G-võrku kasutades.\
+    <h4>1. Valige Sätted ja vajutage Turbokiirusega allalaadimine.</h4>\
+    <h4>2. Koputage lülitile, et turbokiirusega allalaadimine sisse lülitada.</h4>\
+    <p><b>[Tip]</b> Allalaadimine on kiirem kui allalaadimise alustamisel on nii Wi-Fi-võrk kui 4G/3G-võrk ühendatud.\
+    <p><b>[Tip]</b> Kui teie Wi-Fi või 4G/3G ühendus on liiga aeglane, saate alla laadida kiiremat võrku kasutades.\
+    <p><b>[Tip]</b> Turbokiirusega allalaadimise kiirus ja jõudlus võib allalaadimise ajal olla mõjutatud võrgukeskkonnast.\
+    <br>&nbsp;&nbsp;- Kui signaalide tugevus on ebastabiilne, võib selle funktsiooni töö olla häiritud.\
+    <br>&nbsp;&nbsp;- sellele vaatamata on allalaadimise kiirus kahekordne, võrreldes sellega, kui kasutada Wi-Fi-võrku või  4G/3G-võrku üksi.\
+    <p><b>[Tip]</b> Kui Wi-Fi-võrgu ja 4G/3G-võrgu kiiruse erinevus on suur (tavaliselt 2,5 korda), siis turbokiirusega allalaadimine seiskub või seda ei toetata, et vältida madalast kiirusest tingitud puudulikku allalaadimise jõudlust.\
+    <p><b>[Tip]</b> Turbokiirusega allalaadimine võib interneti jagamise funktsiooni kasutamise / virtuaalse privaatvõrgu (VPN) kasutamise ajaks automaatselt deaktiveeruda.
+    </body></html>]]>"</string>
+</resources>

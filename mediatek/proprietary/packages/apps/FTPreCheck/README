@@ -1,0 +1,11 @@
+WHAT IT DOES?
+=============
+Automatically check the conditions that OP01 operator Field Trial cases required.
+
+HOW IT WAS BUILT?
+==================
+It will be built when MTK_CMCC_FT_PRECHECK_SUPPORT feature option is yes.
+
+HOW TO USE IT?
+==============
+It is an android application in Engneermode, user can trigger it when current loaded modem is TD modem.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothLe</string>
+    <string name="bg_service_name">Menedżer BLE</string>
+    <string name="bg_service_active">Usługa Menedżer BLE jest uruchomiona</string>
+</resources>

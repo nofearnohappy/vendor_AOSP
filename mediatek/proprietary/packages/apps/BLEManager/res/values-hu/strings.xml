@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Érintse meg a Bluetooth bekapcsolásához</string>
+    <string name="tap_to_add_device">Érintse meg eszköz hozzáadásához</string>
+    <string name="turning_on_bluetooth">Bluetooth bekapcsolása…</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Eszközök keresése</string>
+    <string name="delete_devices">Válasszon le egy eszközt, hogy újat csatlakoztathasson</string>
+    <string name="cancel">"Mégse"</string>
+    <string name="ok">"OK"</string>
+    <string name="alert_setting">"Figyelmeztetés"</string>
+    <string name="device_manager">Eszközkezelő</string>
+    <string name="out_of_range_alert_text">Hatósugáron kívüli figyelmeztetés</string>
+    <string name="in_range_alert_text">Hatósugáron belüli figyelmeztetés</string>
+    <string name="range_alert_text">Saját hatósugár</string>
+    <string name="range_alert_summary">A telefon és az eszköz is figyelmeztetést ad, ha az eszköz hatósugáron belül vagy kívül van</string>
+    <string name="range_near_text">Közel</string>
+    <string name="range_middle_text">közép</string>
+    <string name="range_far_text">"Távoli"</string>
+    <string name="range_1_distance_text">Kb. 1 m</string>
+    <string name="range_10_distance_text">1-10 m</string>
+    <string name="range_20_distance_text">10-20 m</string>
+    <string name="phone_alert_settings">Telefon figyelmeztetési beállítások</string>
+    <string name="ringtone_tye_text">"Csengőhang"</string>
+    <string name="volume_text">"Hangerő"</string>
+    <string name="vibration_text">Rezgés</string>
+    <string name="vibration_summary_on">be</string>
+    <string name="vibration_summary_off">"Letiltva"</string>
+    <string name="device_name">"Eszköz neve"</string>
+    <string name="push_notification_text">Push-értesítés az eszközre</string>
+    <string name="incoming_call_notification_text">"Bejövő hívás"</string>
+    <string name="missed_call_notificaiotn_text">"Nem fogadott hívás"</string>
+    <string name="new_message_notification_text">"Új üzenet"</string>
+    <string name="new_email_notification_text">"Új e-mail"</string>
+    <string name="disconnection_text">Leválasztási beállítások</string>
+    <string name="disconnection_waring_title">Leválasztásra vonatkozó figyelmeztetés</string>
+    <string name="disconnection_waring_summary">A telefon és az eszköz is figyelmeztetést ad, ha az eszközt leválasztják</string>
+    <string name="device_name_change_dialog_title">"Átnevezés"</string>
+    <string name="disconnect_text">"Szétkapcsolás"</string>
+    <string name="delete_text">"Törlés"</string>
+    <string name="connect_text">"Csatlakozás"</string>
+    <string name="device_delete_dialog_message">Törli az eszközt?</string>
+    <string name="device_disconnect_dialog_message">Leválasztja az eszközt?</string>
+    <string name="find_all_text">Összes keresése</string>
+    <string name="default_images">Alapértelmezett képek</string>
+    <string name="range_information_text">A hatósugár a jelerősségtől függ. Ideális esetben a hatósugár meghaladhatja a 30 métert.  Bizonyos elemek, pl. az Ön teste, a falak és egyéb akadályok lerövidíthetik a távolságot 15 méterre vagy rövidebb távolságra.</string>
+    <string name="range_information_dialog_check_box_text">Ne mutassa többé</string>
+    <string-array name="device_image_chooser_items">
+        <item>Választás az alapértelmezett képek közül</item>
+        <item>"Fotó készítése"</item>
+        <item>Választás a galériából</item>
+    </string-array>
+    <string name="add_device">Eszköz hozzáadása</string>
+    <string name="yes">"Igen"</string>
+    <string name="no">"Nem"</string>
+    <string name="connecting_text">"Kapcsolódás..."</string>
+    <string name="enable_background_service">Háttér mód engedélyezése</string>
+    <string name="disable_background_service">Háttér mód letiltása</string>
+    <string name="ble_manager_alert">BLE-kezelővel kapcsolatos figyelmeztetés</string>
+    <string name="check">Ellenőrzés</string>
+    <string name="dismiss">Elvet</string>
+    <string name="disconnected">"Szétkapcsolva"</string>
+    <string name="in_range">tartományon belül</string>
+    <string name="out_of_range">tartományon kívül</string>
+    <string name="no_found">Nem található Bluetooth-eszköz.</string>
+    <string name="bt_off">A Bluetooth ki van kapcsolva. Kérjük, kapcsolja be.</string>
+</resources>

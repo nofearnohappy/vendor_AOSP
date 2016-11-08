@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BLEManager</string>
+    <string name="tap_to_turn_on_bluetooth">Pieskarieties, lai ieslēgtu Bletooth</string>
+    <string name="tap_to_add_device">Pieskarieties, lai pievienotu ierīci</string>
+    <string name="turning_on_bluetooth">Notiek Bluetooth ieslēgšana…</string>
+    <string name="launcher_activity_name">BLE Manager</string>
+    <string name="scanning_devices">Notiek ierīču skenēšana</string>
+    <string name="delete_devices">Lai pievienotu jaunu ierīci, atvienojiet vienu ierīci</string>
+    <string name="cancel">"Atcelt"</string>
+    <string name="ok">"Labi"</string>
+    <string name="alert_setting">"Brīdinājums"</string>
+    <string name="device_manager">Ierīču pārvaldnieks</string>
+    <string name="out_of_range_alert_text">Brīdinājums par neesamību zonā</string>
+    <string name="in_range_alert_text">Brīdinājums par esamību zonā</string>
+    <string name="range_alert_text">Mans diapazons</string>
+    <string name="range_alert_summary">Tālruņa un ierīces brīdinājums, kad ierīce atrodas diapazonā vai ārpus tā</string>
+    <string name="range_near_text">Blakus</string>
+    <string name="range_middle_text">Vidējs</string>
+    <string name="range_far_text">"Tālu"</string>
+    <string name="range_1_distance_text">Aptuveni 1 m</string>
+    <string name="range_10_distance_text">1-10 m</string>
+    <string name="range_20_distance_text">10-20 m</string>
+    <string name="phone_alert_settings">Tālruņa brīdinājumu iestatījumi</string>
+    <string name="ringtone_tye_text">"Zvana signāls"</string>
+    <string name="volume_text">"Skaļums"</string>
+    <string name="vibration_text">Vibrēšana</string>
+    <string name="vibration_summary_on">"Ieslēgts"</string>
+    <string name="vibration_summary_off">"Atspējots"</string>
+    <string name="device_name">"Ierīces nosaukums"</string>
+    <string name="push_notification_text">Sūtīt ierīcei paziņojumus</string>
+    <string name="incoming_call_notification_text">"Ienākošs zvans"</string>
+    <string name="missed_call_notificaiotn_text">"Neatbildēts zvans"</string>
+    <string name="new_message_notification_text">"Jauns ziņojums"</string>
+    <string name="new_email_notification_text">Jauns e-pasta ziņojums</string>
+    <string name="disconnection_text">Atvienošanas iestatījumi</string>
+    <string name="disconnection_waring_title">Brīdinājums par atvienošanu</string>
+    <string name="disconnection_waring_summary">Tālruņa un ierīces brīdinājums, kad ierīce ir atvienota</string>
+    <string name="device_name_change_dialog_title">"Pārdēvēt"</string>
+    <string name="disconnect_text">"Atvienot"</string>
+    <string name="delete_text">"Dzēst"</string>
+    <string name="connect_text">"Savienot"</string>
+    <string name="device_delete_dialog_message">Vai dzēst šo ierīci?</string>
+    <string name="device_disconnect_dialog_message">Vai atvienot ierīci?</string>
+    <string name="find_all_text">Meklēt visu</string>
+    <string name="default_images">Noklusējuma attēli</string>
+    <string name="range_information_text">Diapazons ir atkarīgs no signāla stipruma. Ideālos apstākļos diapazons var būt vairāk par 30 metriem.  Katrs elements, piemēram, ķermenis, sienas un citi šķēršļi, attālumu var samazināt par 15 metriem vai vairāk.</string>
+    <string name="range_information_dialog_check_box_text">Vairs nerādīt</string>
+    <string-array name="device_image_chooser_items">
+        <item>Rādīt no noklusējuma attēla</item>
+        <item>"Uzņemt fotoattēlu"</item>
+        <item>Izvēlēties no galerijas</item>
+    </string-array>
+    <string name="add_device">Pievienot ierīci</string>
+    <string name="yes">"Jā"</string>
+    <string name="no">"Nē"</string>
+    <string name="connecting_text">"Notiek savienojuma izveide..."</string>
+    <string name="enable_background_service">Iespējot fona režīmu</string>
+    <string name="disable_background_service">Atspējot fona režīmu</string>
+    <string name="ble_manager_alert">BLE pārvaldnieka brīdinājums</string>
+    <string name="check">Pārbaudīt</string>
+    <string name="dismiss">Nerādīt</string>
+    <string name="disconnected">"Atvienots"</string>
+    <string name="in_range">diapazonā</string>
+    <string name="out_of_range">ārpus diapazona</string>
+    <string name="no_found">Neviena Bluetooth ierīce nav atrasta.</string>
+    <string name="bt_off">Bluetooth it izslēgts, ieslēdziet to.</string>
+</resources>

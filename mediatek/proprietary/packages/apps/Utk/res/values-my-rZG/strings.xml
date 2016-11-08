@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">UIM တူးလ္ကစ္တ္</string>
+    <string name="menu_end_session">အဆုံးဆက္ရွင္</string>
+    <string name="help">အကူအညီ</string>
+    <string name="menu_back">​ေနာက္ဘက္</string>
+    <string name="service_name">ဝန္ေဆာင္မႈ အမည္</string>
+    <string name="utk_no_service">ဝန္ေဆာင္မႈ မရရွိႏိုင္ပါ</string>
+    <string name="button_ok">အိုေက</string>
+    <string name="button_cancel">မလုပ္ပါ</string>
+    <string name="button_yes">ဟုတ္ပါသည္</string>
+    <string name="button_no">မဟုတ္ပါ</string>
+    <string name="alphabet">အကၡရာမ်ား</string>
+    <string name="digits">ဂဏန္းမ်ား (ဝ-၉၊ *၊ #၊ +)</string>
+    <string name="default_call_setup_msg">​ေခၚဆိုမႈ ျပဳလုပ္ေနစဥ္ \u2026</string>
+    <string name="utk_app_state">လုပ္ငန္းသံုး ပ႐ိုဂရမ္ အေျခအေန</string>
+    <string name="enable_app">ဖြင့္ထားျပီး</string>
+    <string name="disable_app">ပိတ္ထားျပီး</string>
+    <string name="activity_not_found" product="default">ပ႐ိုဂရမ္အား သင့္ဖုန္းတြင္ မသြင္းထားပါ။</string>
+    <string name="lable_busy_on_call">ဖုန္းမွာ ေခၚဆိုမႈျဖင့္ အလုပ္မ်ားေနပါသည္၊ ေခၚဆိုမႈအား အရင္ ၿပီးဆံုးေအာင္ ျပဳပါ</string>
+    <string name="lable_on_flight_mode">လုပ္ငန္းသံုး ပ႐ိုဂရမ္မွာ ပ်ံသန္းမႈ ပံုစံတြင္ အသံုးမျပဳႏိုင္ပါ</string>
+    <string name="utk_dialog_title">UIM တူးလ္ကစ္တ္</string>
+    <string name="default_open_channel_msg">ခ်န္နယ္ ဖြင့္မည္လား။</string>
+    <string name="default_send_data_msg">အခ်က္အလက္ ပို႔ေဆာင္ေနသည္</string>
+    <string name="default_receive_data_msg">အခ်က္အလက္ လက္ခံေနသည္</string>
+    <string name="default_close_channel_msg">ခ်န္နယ္ ပိတ္ထားသည္</string>
+    <string name="utk_dialog_accept">ဟုတ္ပါသည္</string>
+    <string name="utk_dialog_reject">မဟုတ္ပါ</string>
+    <string name="utk_send_sms">မက္ေဆ့ခ်္ပို႔ေနသည္…</string>
+</resources>

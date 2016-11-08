@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notification_receiving">Almaya başla…</string>
+    <string name="notification_group_title"><xliff:g id="number">%d</xliff:g> dosya alınıyor...</string> 
+    <string name="notification_download_done">Ayrıntıları görüntülemek için dokunun</string>
+    <string name="notification_group_received"><xliff:g id="number">%d</xliff:g> dosya alındı</string>
+    <string name="notification_received">Başarıyla alındı</string> 
+    <string name="notification_download_failure"><xliff:g id="reason">%s</xliff:g> nedeniyle alınamadı</string> 
+    <string name="notification_download_cancel">Alma işlemi iptal edildi</string>
+    <string name="notification_group_received_failed"><xliff:g id="number">%d</xliff:g> dosya gönderilemedi</string>
+    <string name="notification_group_received_partial_failed"><xliff:g id="number">%d</xliff:g> dosya alınamadı, <xliff:g id="number">%d</xliff:g> dosya alınamadı</string>
+    <string name="download_no_file">"Dosya mevcut değil"</string>
+    <string name="notification_sending">Göndermeye başla…</string>
+    <string name="notification_group_upload_title"><xliff:g id="number">%d</xliff:g> dosya gönderiliyor...</string>
+    <string name="notification_group_sent"><xliff:g id="number">%d</xliff:g> dosya gönderildi</string>
+    <string name="notification_sent">Başarıyla gönderildi</string>
+    <string name="notification_upload_failed"><xliff:g id="reason">%s</xliff:g> nedeniyle gönderilemedi</string>
+    <string name="notification_upload_cancel">Gönderme iptal edildi</string>
+    <string name="notification_group_sent_failed"><xliff:g id="number">%d</xliff:g> dosya gönderilemedi</string>
+    <string name="notification_group_sent_partial_failed"><xliff:g id="number">%d</xliff:g> dosya gönderilemedi, <xliff:g id="number">%d</xliff:g> dosya gönderildi</string>
+    <string name="low_storage">düşük bellek</string>
+    <string name="connect_failure">"Bağlantı sorunu"</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="share_label">HotKnot Paylaşım</string>
+    <string name="rx_ui_image_status"><xliff:g id="device">%s</xliff:g> görüntü alınıyor</string>
+    <string name="rx_group_ui_image_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> görüntü <xliff:g id="device">%3$s</xliff:g> cihazından alınıyor</string>
+    <string name="rx_ui_video_status"><xliff:g id="device">%s</xliff:g> cihazından video alınıyor</string>
+    <string name="rx_group_ui_video_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> video <xliff:g id="device">%3$s</xliff:g> cihazından alınıyor</string>
+    <string name="rx_ui_status">Dosya <xliff:g id="device">%s</xliff:g> cihazından alınıyor</string>                
+    <string name="rx_group_ui_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> dosya <xliff:g id="device">%3$s</xliff:g> cihazından alınıyor</string>
+    <string name="rx_ui_music_status"><xliff:g id="device">%s</xliff:g> cihazından müzik dosyası alınıyor</string>
+    <string name="rx_group_ui_music_status"><xliff:g id="number">%1$d</xliff:g> / <xliff:g id="total">%2$d</xliff:g> müzik dosyası <xliff:g id="device">%3$s</xliff:g> cihazından alınıyor</string>
+    <string name="rx_ui_failed_status">Alım bitirilemedi</string>
+</resources>

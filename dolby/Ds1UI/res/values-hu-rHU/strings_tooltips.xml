@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Dolby Laboratories
+
+     This program is protected under international and U.S. copyright laws as
+     an unpublished work. This program is confidential and proprietary to the
+     copyright owners. Reproduction or disclosure, in whole or in part, or the
+     production of derivative works therefrom without the express permission of
+     the copyright owners is prohibited.
+
+                   Copyright (C) 2013 by Dolby Laboratories,
+                               All rights reserved.
+-->
+
+<resources>
+	<string name="tooltip_eq_title">Intelligens hangszínszabályzó/Grafikus hangszínszabályzó</string>
+	<string name="tooltip_eq_text">Az intelligens hangszínszabályzó elemzi és dinamikusan módosítja a hangot a kívánt hangzás eléréséhez. Válasszon a négy megadott beállítás közül, majd érintse meg a spektrum-megjelenítőt a grafikus hangszínszabályzó egyedi beállításához.</string>
+	<string name="tooltip_sv_title">Térhatású virtualizáló</string>
+	<string name="tooltip_sv_text">A térhatású virtualizáló élethű térhatásű hangzást hoz létre bármilyen fejhallgató-készlethez vagy beépített sztereó hangszóróhoz. A térhatású hangzás kezeléséhez kapcsolja be vagy ki a gombot.</string>
+	<string name="tooltip_de_title">Párbeszéd-kiemelő</string>
+	<string name="tooltip_de_text">A párbeszéd-kiemelő a beszéd tisztaságát javítja bármilyen típusú média lejátszása esetén. A párbeszédjavítás kezeléséhez kapcsolja be vagy ki a gombot.</string>
+	<string name="tooltip_vl_title">Hangerő-kiegyenlítő</string>
+	<string name="tooltip_vl_text">A hangerő-kiegyenlítő következetes hangerőt biztosít minden tartalomhoz és alkalmazáshoz a készülék fő hangerőszintje alapján. Az automatikus hangerőszabályzás kezeléséhez kapcsolja be vagy ki a gombot.</string>
+</resources>

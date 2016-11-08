@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">MySARTestProgram</string>
+    
+    <string name="command_text">command:</string>
+    <string name="result_text">result:</string>
+    <string name="reset">reset</string>
+    <string name="command">down command</string>
+    <string name="reductionRat">Set Modem Radio</string>
+    <string name="reductionRatByBand">Set Modem Radio By Band</string>
+    <string name="open_wifi">open wifiTXpower</string>
+    <string name="close_wifi">close wifiTXpower</string>
+     <string name="set_wifi">set wifiTXpower</string>
+</resources>

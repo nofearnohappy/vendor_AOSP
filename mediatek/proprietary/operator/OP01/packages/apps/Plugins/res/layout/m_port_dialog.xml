@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dip"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min_udp_port"
+            android:textStyle="bold"
+            style="?android:attr/textAppearanceSmall" />
+
+    <TextView
+            android:id="@+id/min_port_err_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:text="@string/min_udp_port"
+            android:textColor="#ffff0000"
+            style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <EditText 
+            android:id="@+id/min_port"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:singleLine="true"
+            android:inputType="number"
+            android:scrollHorizontally="true" />
+
+     <LinearLayout
+            android:orientation="horizontal" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip" >
+
+    <TextView
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="@string/max_udp_port" 
+            android:textStyle="bold"
+            style="?android:attr/textAppearanceSmall" />
+
+    <TextView
+            android:id="@+id/max_port_err_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:text="@string/max_udp_port"
+            android:textColor="#ffff0000"
+            style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <EditText 
+            android:id="@+id/max_port"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:singleLine="true"
+            android:inputType="number"
+            android:scrollHorizontally="true" />
+ </LinearLayout>
+</ScrollView>
